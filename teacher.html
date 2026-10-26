@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>滄浪闖關・投影與控制台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  body{font-size:18px}
+  .app{max-width:1600px; margin:0 auto; display:flex; flex-direction:column; gap:14px}
+  .topbar{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:10px 24px}
+  .topbar h1{font-size:clamp(1.8rem, 2.8vw, 2.6rem); letter-spacing:.08em}
+  .sub{color:var(--muted); font-size:clamp(1rem, 1.4vw, 1.3rem)}
+  .nav{display:flex; gap:8px; flex-wrap:wrap}
+  .nav button.cur{background:var(--ink); color:var(--bg); border-color:var(--ink)}
+  .stats{display:flex; flex-wrap:wrap; gap:8px 28px; align-items:baseline; font-variant-numeric:tabular-nums}
+  .stat{color:var(--muted); font-size:clamp(1.1rem, 1.5vw, 1.4rem)}
+  .stat b{color:var(--ink); font-size:clamp(1.6rem, 2.4vw, 2.4rem); margin-left:.25em}
+  .stat.alert b{color:var(--bad)}
+  .stage{display:grid; grid-template-columns:minmax(0,5fr) minmax(0,7fr); gap:18px; align-items:start}
+  @media (max-width:980px){ .stage{grid-template-columns:1fr} }
+  .field{display:flex; flex-direction:column; gap:14px}
+  .meters{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:16px; font-size:clamp(1.05rem, 1.4vw, 1.35rem)}
+  .meters .mrow b{font-size:clamp(1.2rem, 1.8vw, 1.7rem)}
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:clamp(18px, 2.2vw, 32px); min-height:480px; display:flex; flex-direction:column; gap:18px; min-width:0}
+  .huge{font-family:var(--display); font-weight:700; font-size:clamp(2rem, 4vw, 3.6rem); line-height:1.2}
+  .giant{font-family:var(--display); font-weight:700; font-size:clamp(4rem, 9vw, 8rem); line-height:1; font-variant-numeric:tabular-nums}
+  .giant.low{color:var(--bad)}
+  .line{font-size:clamp(1.2rem, 1.8vw, 1.7rem)}
+  .lobby{display:grid; grid-template-columns:auto minmax(0,1fr); gap:24px; align-items:start}
+  @media (max-width:760px){ .lobby{grid-template-columns:1fr} }
+  #qr{background:#fff; padding:14px; border-radius:12px; width:max-content}
+  #qr img,#qr canvas{display:block; width:clamp(220px, 22vw, 340px)!important; height:auto!important}
+  .code{font-family:var(--display); font-size:clamp(3rem, 6vw, 5.5rem); letter-spacing:.15em; font-weight:700; line-height:1}
+  .url{font-size:1rem; color:var(--muted); overflow-wrap:anywhere}
+  .seats{display:flex; flex-wrap:wrap; gap:6px}
+  .seat{border-radius:8px; padding:.1em .55em; font-size:1.05rem; font-variant-numeric:tabular-nums; background:var(--frost); border:1px solid var(--line)}
+  .seat.off{opacity:.45}
+  .seat.done{background:color-mix(in srgb, var(--good) 22%, var(--surface)); border-color:var(--good)}
+  .tierstats{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:12px}
+  .tierstats div{background:var(--frost); border-radius:12px; padding:12px 14px; display:grid; gap:2px}
+  .tierstats b{font-size:clamp(1.6rem, 2.6vw, 2.4rem); font-variant-numeric:tabular-nums}
+  .wrongs{display:grid; gap:10px}
+  .wrong{display:grid; grid-template-columns:auto minmax(0,1fr) auto; gap:14px; align-items:center; text-align:left; padding:14px 16px; border-radius:12px; font-size:clamp(1.1rem, 1.5vw, 1.4rem)}
+  .wrong .n{font-family:var(--display); font-weight:700; font-size:clamp(1.5rem, 2.2vw, 2rem); color:var(--bad); white-space:nowrap}
+  .wrong .s{overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical}
+  .fxlist{display:grid; gap:6px; font-size:clamp(1.15rem, 1.6vw, 1.45rem); list-style:none; padding:0; margin:0}
+  .fxlist .boss{color:var(--bad); font-weight:700} .fxlist .big{color:var(--gold); font-weight:700} .fxlist .good{color:var(--good); font-weight:700}
+  .banner{position:fixed; left:50%; top:30%; transform:translate(-50%,-50%); z-index:30; font-family:var(--display); font-weight:700; font-size:clamp(3rem, 7vw, 6rem); color:var(--gold); text-shadow:0 2px 0 var(--surface), 0 0 30px var(--surface); pointer-events:none; animation:pop 1.8s forwards}
+  @keyframes pop{0%{opacity:0; transform:translate(-50%,-50%) scale(.6)}20%{opacity:1; transform:translate(-50%,-50%) scale(1.05)}80%{opacity:1}100%{opacity:0}}
+  .corner{position:fixed; right:max(12px, env(safe-area-inset-right,0px)); bottom:12px; z-index:15; display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-end; max-width:min(720px, 92vw); background:color-mix(in srgb, var(--surface) 92%, transparent); border:1px solid var(--line); border-radius:14px; padding:8px}
+  .corner button{font-size:1rem}
+  .corner .primary{font-size:1.1rem}
+  .overlay{position:fixed; inset:0; z-index:20; display:grid; place-items:center; background:color-mix(in srgb, var(--bg) 92%, transparent); padding:16px}
+  .ovcard{width:100%; max-width:1100px; max-height:100%; overflow:auto; background:var(--surface); border:1px solid var(--line); border-radius:18px; padding:clamp(20px, 3vw, 36px); display:flex; flex-direction:column; gap:16px}
+  .ovcard .stem{font-size:clamp(1.4rem, 2.3vw, 2.1rem); font-weight:500; line-height:1.5}
+  .ovcard .quote{font-size:clamp(1.25rem, 2vw, 1.8rem)}
+  .ovcard .exp{font-size:clamp(1.15rem, 1.7vw, 1.5rem)}
+  .ovopts{display:grid; gap:10px}
+  .ovopt{padding:12px 16px; border-radius:12px; border:2px solid var(--line); font-size:clamp(1.15rem, 1.8vw, 1.6rem); line-height:1.45}
+  .ovopt.right{border-color:var(--good); background:color-mix(in srgb, var(--good) 14%, var(--surface)); font-weight:500}
+  .setup{display:grid; gap:18px}
+  .lessons{display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:8px}
+  .lesson{display:flex; gap:10px; align-items:flex-start; padding:10px 12px; border:1px solid var(--line); border-radius:10px; background:var(--surface); cursor:pointer}
+  .lesson input{margin-top:.35em; width:1.2em; height:1.2em}
+  .lesson .ord{margin-left:auto; font-weight:700; color:var(--river)}
+  .row{display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center}
+  table{border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums}
+  th,td{border-bottom:1px solid var(--line); padding:6px 8px; text-align:center; white-space:nowrap}
+  th{position:sticky; top:0; background:var(--surface)}
+  td.l, th.l{text-align:left; white-space:normal}
+  .tablewrap{overflow:auto; max-height:70vh; border:1px solid var(--line); border-radius:10px}
+  .small{font-size:.85rem; color:var(--muted)}
+  .rate{display:inline-block; min-width:3.5em}
+  .bad{color:var(--bad); font-weight:700}
+  .page{display:grid; gap:16px; padding-bottom:90px}
+  .printonly{display:none}
+  /* 列印成績：只留標題與成績表，表格全部展開 */
+  @media print{
+    @page{size:A4 portrait; margin:12mm}
+    body{background:#fff; color:#000; font-size:11pt; padding:0}
+    body::before, .topbar, .row, .corner, .overlay, details, hr, .page > p.small{display:none !important}
+    .printonly{display:block; margin-bottom:8px}
+    .card{border:none; padding:0; background:#fff}
+    .tablewrap{max-height:none; overflow:visible; border:none}
+    th{position:static; background:#eee}
+    th, td{border:1px solid #999; padding:3px 6px; color:#000}
+    tr{break-inside:avoid}
+    .bad{color:#000}
+  }
+</style>
+</head>
+<body>
+<div class="app" id="app"><div class="card">載入中……</div></div>
+<div id="overlay" class="overlay hidden"></div>
+<div id="corner" class="corner hidden"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script type="module" src="js/teacher.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+{
+ "built": "2026-10-26T23:54:33.292Z",
+ "lessons": [
+  {
+   "id": "chibi",
+   "lesson": "赤壁賦",
+   "texts": [
+    "赤壁賦"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "須臾之悲",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "chushi",
+   "lesson": "出師表",
+   "texts": [
+    "出師表"
+   ],
+   "count": 20,
+   "single": 13,
+   "multi": 7,
+   "boss": "塞諫之石",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "datong",
+   "lesson": "大同與小康",
+   "texts": [
+    "大同與小康"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "私心鎖獸",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "hongmen",
+   "lesson": "鴻門宴",
+   "texts": [
+    "鴻門宴"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "鴻門劍影",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "huaju",
+   "lesson": "畫菊自序",
+   "texts": [
+    "畫菊自序"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "摧花寒霜",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "jianzhu",
+   "lesson": "諫逐客書",
+   "texts": [
+    "諫逐客書"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "逐客詔令",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "laoshan",
+   "lesson": "勞山道士",
+   "texts": [
+    "勞山道士"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "穿牆妄念",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "lugang",
+   "lesson": "鹿港乘桴記",
+   "texts": [
+    "鹿港乘桴記"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "淤沙港獸",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "qiuran",
+   "lesson": "虬髯客傳",
+   "texts": [
+    "虬髯客傳"
+   ],
+   "count": 20,
+   "single": 15,
+   "multi": 5,
+   "boss": "亂世風塵",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "quanhe",
+   "lesson": "勸和論",
+   "texts": [
+    "勸和論"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "分類之爭",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "shishuo",
+   "lesson": "師說",
+   "texts": [
+    "師說"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "恥師傲氣",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "taohua",
+   "lesson": "桃花源記",
+   "texts": [
+    "桃花源記"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "迷津之霧",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "wanyou",
+   "lesson": "晚遊六橋待月記",
+   "texts": [
+    "晚遊六橋待月記"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "喧嚷俗趣",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "xiangji",
+   "lesson": "項脊軒志",
+   "texts": [
+    "項脊軒志"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "隔庭之牆",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "xianqin-yunwen",
+   "lesson": "先秦韻文選",
+   "texts": [
+    "蒹葭",
+    "漁父"
+   ],
+   "count": 20,
+   "single": 13,
+   "multi": 7,
+   "boss": "濁浪",
+   "hasImage": true,
+   "warn": []
+  },
+  {
+   "id": "zhuzhiwu",
+   "lesson": "燭之武退秦師",
+   "texts": [
+    "燭之武退秦師"
+   ],
+   "count": 20,
+   "single": 14,
+   "multi": 6,
+   "boss": "圍城甲獸",
+   "hasImage": true,
+   "warn": []
+  }
+ ]
+}
