@@ -3,6 +3,7 @@ import { TIERS, CONFIG } from "./config.js";
 import { scoreAnswer, nextQuestion, shuffle, pickQuestions, qKey, progress } from "./game.js";
 import { SOLO, newSide, applySolo, cpuTier } from "./solo-game.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
+import { setMood, mountMusicToggle } from "./music.js";
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -18,6 +19,7 @@ addEventListener("error", e => crash(e.message));
 addEventListener("unhandledrejection", e => crash(e.reason?.message || e.reason));
 function crash(msg) { main.insertAdjacentHTML("afterbegin", `<div class="card err">畫面出錯了，請重新整理。<br><small>${esc(msg)}</small></div>`); }
 
+mountMusicToggle();
 init();
 async function init() {
   const r = await fetch(`banks/index.json?v=${Date.now()}`);
@@ -39,6 +41,7 @@ async function loadBanks(ids) {
 /* ---------- 選課與難度 ---------- */
 function renderSetup() {
   stopCpu();
+  setMood("calm");
   const best = load().best || {};
   main.innerHTML = `
     <div class="card" style="display:grid; gap:14px">
@@ -113,6 +116,7 @@ async function start() {
     </div>`;
   $("readyBtn").onclick = () => {
     S.startedAt = Date.now();
+    setMood("battle");
     main.innerHTML = `<div id="duel"></div><div class="feed" id="feed"></div><div id="act" style="display:grid; gap:14px"></div>`;
     renderDuel();
     renderAct();
@@ -338,6 +342,7 @@ function finish() {
   }
   const win = S.winner ? S.winner === "me" : S.me.hp < S.cpu.hp;
   const tie = !S.winner && S.me.hp === S.cpu.hp;
+  setMood(win && !tie ? "victory" : "defeat");
   const best = load().best || {};
   let newBest = false;
   if (S.lessonKey && (best[S.lessonKey] == null || score > best[S.lessonKey])) { best[S.lessonKey] = score; save({ best }); newBest = true; }

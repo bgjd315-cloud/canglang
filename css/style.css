@@ -90,3 +90,8 @@ details.howto[open] > summary{margin-bottom:10px}
 .pips{display:flex; gap:6px; flex-wrap:wrap}
 .pip{width:20px; height:20px; border-radius:6px; border:2px solid var(--shield)}
 .pip.on{background:var(--shield)}
+
+/* 背景配樂開關（左下角） */
+.musicbtn{position:fixed; left:max(12px, env(safe-area-inset-left,0px)); bottom:12px; z-index:16; font-size:.9rem; padding:.45em .8em; border-radius:999px; background:color-mix(in srgb, var(--surface) 92%, transparent); border:1px solid var(--line)}
+.musicbtn.off{color:var(--muted); text-decoration:line-through}
+@media print{.musicbtn{display:none !important}}

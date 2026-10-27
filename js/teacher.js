@@ -6,6 +6,7 @@ import {
 import { auth, db, $, esc, loadManifest, loadBanks, bossOf, lessonLabel, passageHtml, rulesHtml } from "./common.js";
 import { CONFIG, TIERS, ULTIMATE_NAME } from "./config.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
+import { setMood, mountMusicToggle } from "./music.js";
 import { pickQuestions, replay, computeScores, topWrong, scoreAnswer, progress, thresholds } from "./game.js";
 
 const app = $("app"), overlay = $("overlay"), corner = $("corner");
@@ -20,6 +21,8 @@ const T = {
   roomId: null, room: null, players: [], answers: [], qmap: {}, banksFor: "",
   battle: null, prevBattle: null, unsubs: [], lastWrite: 0, writeTimer: null, timer: null, busy: false, msg: "",
 };
+
+mountMusicToggle();
 
 /* ---------- 登入 ---------- */
 onAuthStateChanged(auth, async u => {
@@ -122,6 +125,8 @@ function showRules() {
 }
 
 function render() {
+  setMood(T.tab !== "game" ? "off" : !T.room ? "calm"
+    : { lobby: "calm", answering: "battle", result: "calm", ended: T.battle?.boss <= 0 ? "victory" : "defeat" }[T.room.status] || "calm");
   if (T.tab === "scores") return renderScores();
   if (T.tab === "stats") return renderStats();
   if (!T.room) return renderSetup();
