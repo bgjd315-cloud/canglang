@@ -317,7 +317,8 @@
      "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=8",
      "pdf_page": 8,
      "relation_type": "直接引文",
-     "location": "選項B前句"
+     "location": "選項B前句",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -769,7 +770,8 @@
      "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=8",
      "pdf_page": 8,
      "relation_type": "直接引文",
-     "location": "選項C前句"
+     "location": "選項C前句",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -1060,7 +1062,8 @@
      "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=7",
      "pdf_page": 7,
      "relation_type": "直接引文",
-     "location": "選項E後句"
+     "location": "選項E後句",
+     "paper_checked": "2026-10-31"
     }
    ],
    "teacher_reviewed": "2026-10-31"
@@ -1809,7 +1812,8 @@
      "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=2",
      "pdf_page": 2,
      "relation_type": "短詞摘引",
-     "location": "選項B前詞"
+     "location": "選項B前詞",
+     "paper_checked": "2026-10-31"
     },
     {
      "year": 114,
@@ -1819,7 +1823,8 @@
      "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=2",
      "pdf_page": 2,
      "relation_type": "短詞摘引",
-     "location": "選項C前詞"
+     "location": "選項C前詞",
+     "paper_checked": "2026-10-31"
     }
    ],
    "teacher_reviewed": "2026-10-31"
@@ -1928,7 +1933,8 @@
      "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=9",
      "pdf_page": 9,
      "relation_type": "直接引文",
-     "location": "選項B後句"
+     "location": "選項B後句",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
