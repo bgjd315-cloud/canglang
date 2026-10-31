@@ -1,0 +1,1146 @@
+{
+ "lesson_id": "huaju",
+ "lesson": "畫菊自序",
+ "author": "張李德和",
+ "tagline": "家務之餘，她畫下一朵菊",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "huaju-01",
+   "lesson": "畫菊自序",
+   "paragraph": 1,
+   "scene": "文章一開頭，作者先提出她對人的看法。",
+   "context_before": "",
+   "sentence": "人為萬物之靈，志有萬端之異",
+   "context_after": "。學琴學詩，均從所好；工書工畫，各有專長。是故咳唾珠玉，謫仙闢詩學之源；",
+   "keywords": [
+    {
+     "word": "靈",
+     "gloss": "靈性",
+     "pos": "名詞",
+     "distractors": [
+      "靈魂",
+      "靈驗",
+      "機靈"
+     ]
+    },
+    {
+     "word": "萬端",
+     "gloss": "多種多樣，形容種類極多",
+     "pos": "形容詞",
+     "distractors": [
+      "萬事開頭",
+      "非常極端",
+      "極為端正"
+     ]
+    }
+   ],
+   "meaning": "人是萬物之中最有靈性的，志向卻有千萬種不同。這兩句對偶，上下句第二、四、六字平仄相反。",
+   "meaning_distractors": [
+    "人能統領萬物，所以志向應該完全一致。",
+    "人的靈魂高於萬物，志向也都非常極端。",
+    "人是萬物中最機靈的，志向都從同處開始。"
+   ],
+   "source_note": "鷹架講義(教)單元一步驟3、單元二導讀；萬端字義依參考包kl15-001，與導讀「千萬種不同」相合",
+   "from_pack": [
+    "kl15-001"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "人為萬物之靈，志有萬端之異",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "16",
+     "quote": "人為萬物之靈，志有萬端之異",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項C引語"
+    },
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "28",
+     "quote": "人為萬物之靈，志有萬端之異",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ]
+  },
+  {
+   "id": "huaju-02",
+   "lesson": "畫菊自序",
+   "paragraph": 1,
+   "scene": "作者接著用學習才藝為例，說明人和人的差別。",
+   "context_before": "人為萬物之靈，志有萬端之異。",
+   "sentence": "學琴學詩，均從所好；工書工畫，各有專長",
+   "context_after": "。是故咳唾珠玉，謫仙闢詩學之源；",
+   "keywords": [
+    {
+     "word": "從",
+     "gloss": "依照",
+     "pos": "動詞",
+     "distractors": [
+      "自從",
+      "從來",
+      "隨從"
+     ]
+    },
+    {
+     "word": "工",
+     "gloss": "擅長",
+     "pos": "動詞",
+     "distractors": [
+      "工作",
+      "工整",
+      "工人"
+     ]
+    }
+   ],
+   "meaning": "學琴學詩都依照各人的喜好，擅長書法、繪畫的各有專長。",
+   "meaning_distractors": [
+    "學琴學詩都得聽從師長，做書畫工作的人各有專業。",
+    "學琴學詩從來都有好處，書法繪畫的工夫都要一樣。",
+    "學琴學詩不必有所喜好，書畫工整才算是有專長。"
+   ],
+   "confusables": [
+    {
+     "word": "工",
+     "other": "「工」於心計",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "擅長／擅長"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟2比一比；參考包kl15-002",
+   "from_pack": [
+    "kl15-002"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "學琴學詩，均從所好；工書工畫，各有專長",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "huaju-03",
+   "lesson": "畫菊自序",
+   "paragraph": 1,
+   "scene": "作者舉出第一位歷史人物，當作前面看法的例子。",
+   "context_before": "學琴學詩，均從所好；工書工畫，各有專長。",
+   "sentence": "是故咳唾珠玉，謫仙闢詩學之源",
+   "context_after": "；節奏鏗鏘，蔡女撰胡笳之拍。",
+   "keywords": [
+    {
+     "word": "是故",
+     "gloss": "所以，本文用來引出支持論點的例子",
+     "pos": "連詞",
+     "distractors": [
+      "但是",
+      "況且",
+      "如果"
+     ]
+    },
+    {
+     "word": "咳唾珠玉",
+     "gloss": "說出的話像珍珠寶玉（咳，音ㄎㄜˊ）",
+     "pos": "動詞短語",
+     "distractors": [
+      "咳嗽吐出珍珠",
+      "嘴裡含著珠玉",
+      "收藏許多珠玉"
+     ]
+    },
+    {
+     "word": "謫仙",
+     "gloss": "李白",
+     "pos": "名詞",
+     "distractors": [
+      "杜甫",
+      "蘇軾",
+      "貶官之人"
+     ]
+    },
+    {
+     "word": "闢",
+     "gloss": "開創",
+     "pos": "動詞",
+     "distractors": [
+      "透徹",
+      "駁斥",
+      "開墾"
+     ]
+    }
+   ],
+   "meaning": "所以李白說出的話像珍珠寶玉，開創了詩歌的源頭。也可解作開闢詩學新境界，影響後世深遠。",
+   "meaning_distractors": [
+    "所以李白咳嗽吐出珠玉，被貶後才研究詩歌來源。",
+    "但是李白只愛收藏珠玉，反而駁斥了詩歌的傳統。",
+    "所以杜甫說的話像珍珠寶玉，看透了詩歌的源頭。"
+   ],
+   "confusables": [
+    {
+     "word": "闢",
+     "other": "精「闢」",
+     "other_lesson": "詞語",
+     "same": false,
+     "note": "開創／透徹"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、提示、步驟2比一比；龍騰學習講義p.124字音、借代；龍騰補充講義文句闡釋",
+   "from_pack": [
+    "kl15-003"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "是故咳唾珠玉，謫仙闢詩學之源",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "huaju-04",
+   "lesson": "畫菊自序",
+   "paragraph": 1,
+   "scene": "作者舉出第二位歷史人物，這次是擅長音樂的女性。",
+   "context_before": "學琴學詩，均從所好；工書工畫，各有專長。是故咳唾珠玉，謫仙闢詩學之源；",
+   "sentence": "節奏鏗鏘，蔡女撰胡笳之拍",
+   "context_after": "。此皆不墮聰明，而有志竟成者也。",
+   "keywords": [
+    {
+     "word": "蔡女",
+     "gloss": "蔡琰",
+     "pos": "名詞",
+     "distractors": [
+      "管道昇",
+      "李清照",
+      "班昭"
+     ]
+    },
+    {
+     "word": "撰",
+     "gloss": "寫成",
+     "pos": "動詞",
+     "distractors": [
+      "挑選",
+      "演奏",
+      "收藏"
+     ]
+    },
+    {
+     "word": "笳",
+     "gloss": "胡人的管樂器（音ㄐㄧㄚ）",
+     "pos": "名詞",
+     "distractors": [
+      "胡人的絃樂器",
+      "胡人的打擊樂",
+      "胡人的舞蹈"
+     ]
+    },
+    {
+     "word": "拍",
+     "gloss": "樂曲的段落",
+     "pos": "名詞",
+     "distractors": [
+      "拍打",
+      "節拍",
+      "拍手"
+     ]
+    }
+   ],
+   "meaning": "蔡琰的樂曲節奏鏗鏘，寫成了〈胡笳十八拍〉。",
+   "meaning_distractors": [
+    "蔡琰吹奏胡笳時，用手拍打出鏗鏘的節奏。",
+    "蔡家女子挑選胡笳名曲，練習鏗鏘的節拍。",
+    "蔡琰的胡笳聲音鏗鏘，聽眾都拍手叫好。"
+   ],
+   "confusables": [
+    {
+     "word": "拍",
+     "other": "「拍」案叫絕",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "樂曲的段落／拍打"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "「笳」的字義與注音不是講義或課本注釋明列，因112-1考「胡笳之拍」的笳字而依常識補上，請老師確認；只是字形題可刪此關鍵字。",
+   "source_note": "鷹架講義(教)單元二導讀、步驟2比一比；參考包kl15-004；笳字義依常識初擬",
+   "from_pack": [
+    "kl15-004",
+    "kl15-015"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "節奏鏗鏘，蔡女撰胡笳之拍",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "1",
+     "quote": "節奏鏗鏘，蔡女撰胡笳之拍",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "短詞摘引",
+     "location": "選項A前詞"
+    }
+   ]
+  },
+  {
+   "id": "huaju-05",
+   "lesson": "畫菊自序",
+   "paragraph": 1,
+   "scene": "舉完兩個人物後，作者替這些例子作總結。",
+   "context_before": "是故咳唾珠玉，謫仙闢詩學之源；節奏鏗鏘，蔡女撰胡笳之拍。",
+   "sentence": "此皆不墮聰明，而有志竟成者也",
+   "context_after": "。若夫銀鉤鐵畫，固屬難窺；",
+   "keywords": [
+    {
+     "word": "此",
+     "gloss": "李白和蔡琰",
+     "pos": "代詞",
+     "distractors": [
+      "管夫人和陶淵明",
+      "學琴學詩的人",
+      "作者和她的子女"
+     ]
+    },
+    {
+     "word": "墮",
+     "gloss": "荒廢（同「隳」，音ㄏㄨㄟ）",
+     "pos": "動詞",
+     "distractors": [
+      "掉落",
+      "墮落",
+      "懶惰"
+     ]
+    },
+    {
+     "word": "聰明",
+     "gloss": "天賦",
+     "pos": "名詞",
+     "distractors": [
+      "狡猾",
+      "聽力",
+      "視力"
+     ]
+    },
+    {
+     "word": "竟",
+     "gloss": "終於",
+     "pos": "副詞",
+     "distractors": [
+      "竟然",
+      "完畢",
+      "究竟"
+     ]
+    }
+   ],
+   "meaning": "這些人都不荒廢天賦，立定志向，終於有所成就。",
+   "meaning_distractors": [
+    "這些人既不墮落也不聰明，竟然也立志成功。",
+    "這些人都怕天賦掉落，立志後卻仍未成功。",
+    "作者自己不荒廢才智，卻竟然沒有任何志向。"
+   ],
+   "source_note": "鷹架講義(教)單元二步驟1、單元二選擇題解析；龍騰學習講義p.124字音；〈畫菊自序〉混合題題本注「墮：同隳，荒廢」",
+   "from_pack": [
+    "kl15-005"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "此皆不墮聰明，而有志竟成者也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "huaju-06",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "作者把話題從前人的成就，轉向一門自己也想學的技藝。",
+   "context_before": "節奏鏗鏘，蔡女撰胡笳之拍。此皆不墮聰明，而有志竟成者也。",
+   "sentence": "若夫銀鉤鐵畫，固屬難窺",
+   "context_after": "；儷白妃青，亦非易事。",
+   "keywords": [
+    {
+     "word": "若夫",
+     "gloss": "至於，用來轉換話題",
+     "pos": "連詞",
+     "distractors": [
+      "如果",
+      "如同",
+      "何況"
+     ]
+    },
+    {
+     "word": "銀鉤鐵畫",
+     "gloss": "書法，形容筆畫剛柔相濟",
+     "pos": "名詞",
+     "distractors": [
+      "畫作",
+      "工藝",
+      "兵器"
+     ]
+    },
+    {
+     "word": "固",
+     "gloss": "本來",
+     "pos": "副詞",
+     "distractors": [
+      "固執",
+      "堅持",
+      "安定"
+     ]
+    },
+    {
+     "word": "窺",
+     "gloss": "探究（奧妙）",
+     "pos": "動詞",
+     "distractors": [
+      "偷看",
+      "監視",
+      "臨摹"
+     ]
+    }
+   ],
+   "meaning": "至於書法，本來就很難窺見其中的奧妙。這句呼應上文「工書工畫，各有專長」。",
+   "meaning_distractors": [
+    "如果畫菊筆力如鋼鐵，固執的人就很難學會。",
+    "至於銀器鐵器的工藝，本來就不容易偷看。",
+    "何況書法堅持用鉤畫，當然就很難模仿了。"
+   ],
+   "needs_review": true,
+   "review_note": "「窺」譯「探究」依參考包，鷹架講義導讀只寫「窺見其中奧妙」，請老師確認選項用字。",
+   "source_note": "鷹架講義(教)單元三導讀、提示；龍騰學習講義p.125字義（固）、p.122重點句意；漸進式學習題本第3題解析（銀鉤鐵畫）；窺依參考包kl15-006",
+   "from_pack": [
+    "kl15-006"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "若夫銀鉤鐵畫，固屬難窺",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "huaju-07",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "作者談完寫字的難處，接著談另一門藝術。",
+   "context_before": "此皆不墮聰明，而有志竟成者也。若夫銀鉤鐵畫，固屬難窺；",
+   "sentence": "儷白妃青，亦非易事",
+   "context_after": "。余因停機教子之餘，調藥助夫之暇，竊慕管夫人之墨竹，紙上生風；",
+   "keywords": [
+    {
+     "word": "儷白妃青",
+     "gloss": "繪畫調配顏色",
+     "pos": "動詞短語",
+     "distractors": [
+      "品鑑花瓣色調",
+      "挑選白衣青裙",
+      "后妃打扮穿著"
+     ]
+    },
+    {
+     "word": "亦",
+     "gloss": "也",
+     "pos": "副詞",
+     "distractors": [
+      "仍然",
+      "只是",
+      "而且"
+     ]
+    }
+   ],
+   "meaning": "繪畫調配顏色，也不是容易的事。",
+   "meaning_distractors": [
+    "品鑑菊花的色調，也不是容易的事。",
+    "后妃穿白著青，也不是容易的事。",
+    "搭配白花青葉，仍然是簡單的事。"
+   ],
+   "confusables": [
+    {
+     "word": "亦",
+     "other": "然鄭亡，子「亦」有不利焉",
+     "other_lesson": "燭之武退秦師",
+     "same": true,
+     "note": "也／也"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2；漸進式學習題本第3題解析",
+   "from_pack": [
+    "kl15-007"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "儷白妃青，亦非易事",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "huaju-08",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "作者開始交代自己是在什麼時候拿起畫筆的。",
+   "context_before": "若夫銀鉤鐵畫，固屬難窺；儷白妃青，亦非易事。",
+   "sentence": "余因停機教子之餘，調藥助夫之暇",
+   "context_after": "，竊慕管夫人之墨竹，紙上生風；",
+   "keywords": [
+    {
+     "word": "因",
+     "gloss": "趁著、利用（時機）",
+     "pos": "介詞",
+     "distractors": [
+      "因為",
+      "依靠",
+      "於是"
+     ]
+    },
+    {
+     "word": "停機教子",
+     "gloss": "教導孩子，用孟母斷機的典故",
+     "pos": "動詞短語",
+     "distractors": [
+      "停止織布",
+      "中斷教學",
+      "關閉機器"
+     ]
+    },
+    {
+     "word": "調藥助夫",
+     "gloss": "幫丈夫調配藥物",
+     "pos": "動詞短語",
+     "distractors": [
+      "煎藥給丈夫喝",
+      "調解夫妻爭吵",
+      "勸丈夫吃藥"
+     ]
+    },
+    {
+     "word": "暇",
+     "gloss": "空閒",
+     "pos": "名詞",
+     "distractors": [
+      "瑕疵",
+      "假期",
+      "忙碌"
+     ]
+    }
+   ],
+   "meaning": "我趁著教導孩子、幫丈夫調配藥物的空閒。這句表示相夫教子之餘，不忘發展繪畫的志趣。",
+   "meaning_distractors": [
+    "我因為不再教導孩子，丈夫又不必吃藥而空閒。",
+    "我依靠孩子和丈夫幫忙，才多出調藥的時間。",
+    "我放下教子助夫的責任，全心投入繪畫創作。"
+   ],
+   "confusables": [
+    {
+     "word": "因",
+     "other": "「因」人之力而敝之",
+     "other_lesson": "燭之武退秦師",
+     "same": false,
+     "note": "趁著、利用時機／依靠"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2；龍騰學習講義p.122重點句意；〈畫菊自序〉混合題題本注（停機教子）",
+   "from_pack": [
+    "kl15-008"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "余因停機教子之餘，調藥助夫之暇",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "huaju-09",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "作者說起自己在畫藝上嚮往的一位前輩女性。",
+   "context_before": "余因停機教子之餘，調藥助夫之暇，",
+   "sentence": "竊慕管夫人之墨竹，紙上生風",
+   "context_after": "；敢藉陶彭澤之黃花，圖中寫影。",
+   "keywords": [
+    {
+     "word": "竊",
+     "gloss": "私下，謙詞",
+     "pos": "副詞",
+     "distractors": [
+      "盜取",
+      "偷偷的",
+      "暗中嘲笑"
+     ]
+    },
+    {
+     "word": "管夫人",
+     "gloss": "管道昇，元代女畫家",
+     "pos": "名詞",
+     "distractors": [
+      "蔡琰",
+      "李清照",
+      "班昭"
+     ]
+    },
+    {
+     "word": "紙上生風",
+     "gloss": "彷彿生出風來，形容畫得生動",
+     "pos": "動詞短語",
+     "distractors": [
+      "紙張被風吹動",
+      "搧動紙張生風",
+      "紙上空談風景"
+     ]
+    }
+   ],
+   "meaning": "私下仰慕管夫人畫的墨竹，在紙上彷彿生出風來。",
+   "meaning_distractors": [
+    "偷偷取走管夫人的墨竹，紙張被風吹動了。",
+    "暗自嘲笑管夫人的墨竹，只是紙上空談。",
+    "私下仰慕管夫人種的竹子，風吹得紙飛起。"
+   ],
+   "confusables": [
+    {
+     "word": "竊",
+     "other": "臣聞吏議逐客，「竊」以為過矣",
+     "other_lesson": "諫逐客書",
+     "same": true,
+     "note": "私下，謙詞／私下，謙詞"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟1、步驟2；龍騰學習講義p.125字義（竊）；紙上生風「生動」義依參考包kl15-009",
+   "from_pack": [
+    "kl15-009"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "竊慕管夫人之墨竹，紙上生風",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "33",
+     "quote": "竊慕管夫人之墨竹，紙上生風",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    },
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "25",
+     "quote": "竊慕管夫人之墨竹，紙上生風",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項E後句"
+    }
+   ]
+  },
+  {
+   "id": "huaju-10",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "作者說明她為什麼選了這種題材來畫。",
+   "context_before": "余因停機教子之餘，調藥助夫之暇，竊慕管夫人之墨竹，紙上生風；",
+   "sentence": "敢藉陶彭澤之黃花，圖中寫影",
+   "context_after": "。庶幾秋姿不老，四座流芬；",
+   "keywords": [
+    {
+     "word": "敢",
+     "gloss": "冒昧，謙詞",
+     "pos": "副詞",
+     "distractors": [
+      "勇敢",
+      "不敢",
+      "果斷"
+     ]
+    },
+    {
+     "word": "藉",
+     "gloss": "借",
+     "pos": "動詞",
+     "distractors": [
+      "慰藉",
+      "雜亂",
+      "踐踏"
+     ]
+    },
+    {
+     "word": "陶彭澤",
+     "gloss": "陶淵明，曾任彭澤令",
+     "pos": "名詞",
+     "distractors": [
+      "彭祖",
+      "李白",
+      "白居易"
+     ]
+    },
+    {
+     "word": "黃花",
+     "gloss": "菊花",
+     "pos": "名詞",
+     "distractors": [
+      "桂花",
+      "油菜花",
+      "金針花"
+     ]
+    },
+    {
+     "word": "寫影",
+     "gloss": "描繪形影",
+     "pos": "動詞短語",
+     "distractors": [
+      "書寫影子",
+      "拍攝影像",
+      "比對影子"
+     ]
+    }
+   ],
+   "meaning": "冒昧地借陶淵明喜愛的菊花，在畫中描繪它的形影。",
+   "meaning_distractors": [
+    "勇敢地臨摹陶淵明的菊花畫，注意影子的差異。",
+    "冒昧地向陶淵明借來菊花，寫下自己的身影。",
+    "不敢借用彭澤縣的黃花，只在圖中畫出影子。"
+   ],
+   "confusables": [
+    {
+     "word": "敢",
+     "other": "若亡鄭而有益於君，「敢」以煩執事",
+     "other_lesson": "燭之武退秦師",
+     "same": true,
+     "note": "冒昧，謙詞／冒昧，謙詞"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2；龍騰學習講義p.124借代；龍騰補充講義重要修辭（陶彭澤）；漸進式學習題本第3題解析（寫影）",
+   "from_pack": [
+    "kl15-010"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "敢藉陶彭澤之黃花，圖中寫影",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "33",
+     "quote": "敢藉陶彭澤之黃花，圖中寫影",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "huaju-11",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "作者開始說她對這幅菊花圖的盼望。",
+   "context_before": "竊慕管夫人之墨竹，紙上生風；敢藉陶彭澤之黃花，圖中寫影。",
+   "sentence": "庶幾秋姿不老，四座流芬",
+   "context_after": "；得比勁節長垂，千人共仰。",
+   "keywords": [
+    {
+     "word": "庶幾",
+     "gloss": "希望",
+     "pos": "動詞",
+     "distractors": [
+      "差不多",
+      "幾乎",
+      "許多"
+     ]
+    },
+    {
+     "word": "秋姿",
+     "gloss": "菊花秋天的姿態",
+     "pos": "名詞",
+     "distractors": [
+      "秋天的景色",
+      "作者年老的容貌",
+      "女子的姿色"
+     ]
+    },
+    {
+     "word": "流芬",
+     "gloss": "香氣飄散",
+     "pos": "動詞",
+     "distractors": [
+      "名聲流傳",
+      "芬芳消失",
+      "流水作響"
+     ]
+    }
+   ],
+   "meaning": "希望畫中菊花秋天的姿態永遠不老，香氣飄滿四座。這是畫藝上的期許，用繪畫保存菊花美麗的姿態。",
+   "meaning_distractors": [
+    "差不多到了秋天人就不老，四周座位坐滿了。",
+    "希望作者自己青春永駐，名聲流傳到四方。",
+    "幾乎所有秋花都不凋謝，香氣飄到了四面。"
+   ],
+   "source_note": "鷹架講義(教)單元四導讀、步驟1；龍騰補充講義字詞義比較（庶幾）；漸進式學習題本第3題解析",
+   "from_pack": [
+    "kl15-011"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "庶幾秋姿不老，四座流芬",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "huaju-12",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "作者把盼望再往上推一層，不只談畫得好不好。",
+   "context_before": "敢藉陶彭澤之黃花，圖中寫影。庶幾秋姿不老，四座流芬；",
+   "sentence": "得比勁節長垂，千人共仰",
+   "context_after": "。竟率意而鴉塗，莫自知其鳩拙云爾。",
+   "keywords": [
+    {
+     "word": "得",
+     "gloss": "能夠",
+     "pos": "副詞",
+     "distractors": [
+      "得到",
+      "必須",
+      "得意"
+     ]
+    },
+    {
+     "word": "比",
+     "gloss": "媲美，比得上（音ㄅㄧˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "依照",
+      "緊靠",
+      "等到"
+     ]
+    },
+    {
+     "word": "勁節",
+     "gloss": "堅貞的節操，也指菊花耐霜的姿態",
+     "pos": "名詞",
+     "distractors": [
+      "強勁的節奏",
+      "竹子的硬節",
+      "勇猛的力道"
+     ]
+    },
+    {
+     "word": "垂",
+     "gloss": "流傳",
+     "pos": "動詞",
+     "distractors": [
+      "下垂",
+      "垂直",
+      "將近"
+     ]
+    },
+    {
+     "word": "仰",
+     "gloss": "景仰",
+     "pos": "動詞",
+     "distractors": [
+      "抬頭",
+      "仰賴",
+      "仰臥"
+     ]
+    }
+   ],
+   "meaning": "能比得上陶淵明那樣長久流傳的堅貞節操，讓千人共同景仰。勁節兼指菊花耐霜與陶淵明的志節，這是人格上的期許。",
+   "meaning_distractors": [
+    "得到比賽的好節奏，長久下垂，讓千人抬頭看。",
+    "能夠比較菊花的硬節，垂在枝上給千人觀賞。",
+    "必須依照陶淵明的氣節，讓千人仰賴他過活。"
+   ],
+   "confusables": [
+    {
+     "word": "得",
+     "other": "軒凡四遭火，「得」不焚",
+     "other_lesson": "項脊軒志",
+     "same": true,
+     "note": "能夠／能夠"
+    },
+    {
+     "word": "垂",
+     "other": "名「垂」青史",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "流傳／流傳"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四導讀、步驟1、步驟3比一比；龍騰學習講義p.125字音（比）；〈畫菊自序〉混合題題本注（勁節）",
+   "from_pack": [
+    "kl15-012"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "得比勁節長垂，千人共仰",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "27",
+     "quote": "得比勁節長垂，千人共仰",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項E後句"
+    }
+   ]
+  },
+  {
+   "id": "huaju-13",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "說完遠大的盼望，作者回頭談到自己實際畫的情形。",
+   "context_before": "庶幾秋姿不老，四座流芬；得比勁節長垂，千人共仰。",
+   "sentence": "竟率意而鴉塗",
+   "context_after": "，莫自知其鳩拙云爾。",
+   "keywords": [
+    {
+     "word": "竟",
+     "gloss": "竟然",
+     "pos": "副詞",
+     "distractors": [
+      "終於",
+      "全部",
+      "畢竟"
+     ]
+    },
+    {
+     "word": "率",
+     "gloss": "輕率、隨意",
+     "pos": "形容詞",
+     "distractors": [
+      "率領",
+      "比率",
+      "坦白"
+     ]
+    },
+    {
+     "word": "鴉塗",
+     "gloss": "隨意塗抹，謙稱自己的畫",
+     "pos": "動詞",
+     "distractors": [
+      "描畫烏鴉",
+      "塗滿黑色",
+      "精心彩繪"
+     ]
+    }
+   ],
+   "meaning": "竟然隨意塗抹了一番。這是序末的謙詞，不是收回前面的志向。",
+   "meaning_distractors": [
+    "終於率領眾人畫了烏鴉。",
+    "終於用心描畫了烏鴉。",
+    "竟然坦白把畫塗成黑色。"
+   ],
+   "confusables": [
+    {
+     "word": "率",
+     "other": "當獎「率」三軍",
+     "other_lesson": "出師表",
+     "same": false,
+     "note": "輕率、隨意／率領"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四導讀、步驟2、步驟3比一比；〈畫菊自序〉混合題題本注（鴉塗）",
+   "from_pack": [
+    "kl15-013"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "竟率意而鴉塗",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "25",
+     "quote": "竟率意而鴉塗",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項D後句"
+    }
+   ]
+  },
+  {
+   "id": "huaju-14",
+   "lesson": "畫菊自序",
+   "paragraph": 2,
+   "scene": "全文最後一句，作者對自己的作品下了評語。",
+   "context_before": "庶幾秋姿不老，四座流芬；得比勁節長垂，千人共仰。竟率意而鴉塗，",
+   "sentence": "莫自知其鳩拙云爾",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "莫",
+     "gloss": "不",
+     "pos": "副詞",
+     "distractors": [
+      "不要",
+      "沒有人",
+      "莫非"
+     ]
+    },
+    {
+     "word": "鳩拙",
+     "gloss": "自謙拙劣，鳩鳥拙於築巢",
+     "pos": "形容詞",
+     "distractors": [
+      "自誇精巧",
+      "譏笑別人",
+      "技巧純熟"
+     ]
+    },
+    {
+     "word": "云爾",
+     "gloss": "如此而已",
+     "pos": "語氣詞",
+     "distractors": [
+      "這麼說來",
+      "你這樣講",
+      "雲彩而已"
+     ]
+    }
+   ],
+   "meaning": "連自己也不知道畫得多麼拙劣啊。這是謙詞，作者前面的志向仍是真的。",
+   "meaning_distractors": [
+    "不要以為懂得鳩鳥的笨拙，如此而已。",
+    "沒有人知道她的畫其實十分精巧。",
+    "作者真心認為畫差，要收回前面志向。"
+   ],
+   "needs_review": true,
+   "review_note": "「云爾」譯「如此而已」依參考包，鷹架講義導讀只譯作語氣「啊」，龍騰未明列，請老師確認。",
+   "source_note": "鷹架講義(教)單元四導讀、步驟2；〈畫菊自序〉混合題題本注（鳩拙）；云爾字義依參考包kl15-014",
+   "from_pack": [
+    "kl15-014"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14-17",
+     "quote": "莫自知其鳩拙云爾",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "14",
+     "quote": "莫自知其鳩拙云爾",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "題幹"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "25",
+     "quote": "莫自知其鳩拙云爾",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項D後句"
+    }
+   ]
+  }
+ ]
+}

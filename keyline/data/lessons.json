@@ -1,0 +1,155 @@
+{
+ "note": "count 是 111–115 學測出現的獨立題次，依參考包對照大考中心原卷的核對資料（參考資料/部定古文十五篇_關鍵句參考包）；reference_code 是該包的課碼對照。available 為 true 才開放練習。",
+ "lessons": [
+  {
+   "id": "qiuran",
+   "lesson": "虬髯客傳",
+   "author": "杜光庭",
+   "count": 17,
+   "available": true,
+   "reference_code": "kl08",
+   "sentence_count": 57,
+   "tagline": "看一眼，就知道誰是真命天子"
+  },
+  {
+   "id": "laoshan",
+   "lesson": "勞山道士",
+   "author": "蒲松齡",
+   "count": 11,
+   "available": true,
+   "reference_code": "kl12",
+   "sentence_count": 39,
+   "tagline": "穿牆的法術，撞上真正的硬牆"
+  },
+  {
+   "id": "hongmen",
+   "lesson": "鴻門宴",
+   "author": "司馬遷",
+   "count": 10,
+   "available": true,
+   "reference_code": "kl04",
+   "sentence_count": 81,
+   "tagline": "一場酒宴，誰能活著走出去"
+  },
+  {
+   "id": "chushi",
+   "lesson": "出師表",
+   "author": "諸葛亮",
+   "count": 9,
+   "available": true,
+   "reference_code": "kl05",
+   "sentence_count": 35,
+   "tagline": "出征之前，老臣放不下的叮嚀"
+  },
+  {
+   "id": "huaju",
+   "lesson": "畫菊自序",
+   "author": "張李德和",
+   "count": 9,
+   "available": true,
+   "reference_code": "kl15",
+   "sentence_count": 14,
+   "tagline": "家務之餘，她畫下一朵菊"
+  },
+  {
+   "id": "quanhe",
+   "lesson": "勸和論",
+   "author": "鄭用錫",
+   "count": 8,
+   "available": true,
+   "reference_code": "kl13",
+   "sentence_count": 35,
+   "tagline": "同是臺灣人，為何刀槍相向？"
+  },
+  {
+   "id": "chibi",
+   "lesson": "赤壁賦",
+   "author": "蘇軾",
+   "count": 7,
+   "available": true,
+   "reference_code": "kl09",
+   "sentence_count": 38,
+   "tagline": "同一片江月，為何一悲一喜"
+  },
+  {
+   "id": "jianzhu",
+   "lesson": "諫逐客書",
+   "author": "李斯",
+   "count": 7,
+   "available": true,
+   "reference_code": "kl03",
+   "sentence_count": 39,
+   "tagline": "被下令趕走前，他寫了一封信"
+  },
+  {
+   "id": "xiangji",
+   "lesson": "項脊軒志",
+   "author": "歸有光",
+   "count": 7,
+   "available": true,
+   "reference_code": "kl11",
+   "sentence_count": 43,
+   "tagline": "一間小書房，藏著半生悲喜"
+  },
+  {
+   "id": "zhuzhiwu",
+   "lesson": "燭之武退秦師",
+   "author": "左傳",
+   "count": 7,
+   "available": true,
+   "reference_code": "kl01",
+   "sentence_count": 31,
+   "tagline": "一個老臣，能擋下兩國大軍嗎？"
+  },
+  {
+   "id": "lugang",
+   "lesson": "鹿港乘桴記",
+   "author": "洪繻",
+   "count": 6,
+   "available": true,
+   "reference_code": "kl14",
+   "sentence_count": 44,
+   "tagline": "一條竹筏，划過百年盛衰"
+  },
+  {
+   "id": "taohua",
+   "lesson": "桃花源記",
+   "author": "陶淵明",
+   "count": 4,
+   "available": true,
+   "reference_code": "kl06",
+   "sentence_count": 25,
+   "tagline": "洞口那道光，後面藏著什麼？"
+  },
+  {
+   "id": "shishuo",
+   "lesson": "師說",
+   "author": "韓愈",
+   "count": 3,
+   "available": true,
+   "reference_code": "kl07",
+   "sentence_count": 34,
+   "tagline": "拜師，為何成了笑柄"
+  },
+  {
+   "id": "datong",
+   "lesson": "大同與小康",
+   "author": "禮記",
+   "count": 3,
+   "available": true,
+   "reference_code": "kl02",
+   "sentence_count": 29,
+   "tagline": "夜不閉戶的世界，真的存在過嗎"
+  },
+  {
+   "id": "wanyou",
+   "lesson": "晚遊六橋待月記",
+   "author": "袁宏道",
+   "count": 3,
+   "available": true,
+   "reference_code": "kl10",
+   "sentence_count": 16,
+   "tagline": "人人擠著看花，他卻等月"
+  }
+ ]
+}

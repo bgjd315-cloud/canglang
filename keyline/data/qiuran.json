@@ -1,0 +1,2430 @@
+{
+ "lesson_id": "qiuran",
+ "lesson": "虬髯客傳",
+ "author": "杜光庭",
+ "tagline": "看一眼，就知道誰是真命天子",
+ "sentences": [
+  {
+   "id": "qiuran-01",
+   "lesson": "虬髯客傳",
+   "paragraph": 1,
+   "context_before": "素驕貴，又以時亂，天下之權重望崇者，莫我若也，",
+   "sentence": "奢貴自奉，禮異人臣",
+   "context_after": "。每公卿入言，賓客上謁，未嘗不踞床而見，令美人捧出，侍婢羅列，頗僭於上。",
+   "keywords": [
+    {
+     "word": "奉",
+     "gloss": "供養",
+     "pos": "動詞",
+     "distractors": [
+      "進獻",
+      "遵守",
+      "侍奉君王"
+     ]
+    }
+   ],
+   "meaning": "對自己的生活供養極盡奢華，行事的禮儀排場也不同於一般臣子。",
+   "meaning_distractors": [
+    "以奢華的財物進獻給皇帝，對待臣子也特別有禮。",
+    "他出身富貴卻懂得自我節制，以禮對待其他臣子。",
+    "人臣都奉他為尊貴之人，對他行特殊的禮節。"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "35",
+     "quote": "奢貴自「奉」，禮異人臣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "選項E前句",
+     "exam_quote_official": "奢貴自奉，禮異人臣"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "24",
+     "quote": "奢貴自奉，禮異人臣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "exam_quote_official": "奢貴自奉，禮異人臣。每公卿入言，賓客上謁，未嘗不踞床而見"
+    }
+   ],
+   "source_note": "龍騰課本注7",
+   "scene": "隋煬帝巡幸江都，命楊素留守長安。這裡寫楊素的作風。"
+  },
+  {
+   "id": "qiuran-02",
+   "lesson": "虬髯客傳",
+   "paragraph": 1,
+   "context_before": "奢貴自奉，禮異人臣。每公卿入言，賓客上謁，",
+   "sentence": "未嘗不踞床而見",
+   "context_after": "，令美人捧出，侍婢羅列，頗僭於上。",
+   "keywords": [
+    {
+     "word": "踞",
+     "gloss": "伸腿而坐，一種輕慢的坐姿",
+     "pos": "動詞",
+     "distractors": [
+      "恭敬地跪坐",
+      "占據、霸占",
+      "躺臥休息"
+     ]
+    }
+   ],
+   "meaning": "沒有一次不是傲慢地伸腿坐在床榻上接見他們。",
+   "meaning_distractors": [
+    "從來不曾坐在床榻上接見賓客，總是起身相迎。",
+    "每次都因為生病，只好躺在床上和賓客見面。",
+    "未曾占據別人的座位，一定等賓客先坐才入座。"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "24",
+     "quote": "未嘗不踞床而見",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "exam_quote_official": "奢貴自奉，禮異人臣。每公卿入言，賓客上謁，未嘗不踞床而見"
+    }
+   ],
+   "source_note": "龍騰課本注9；鷹架講義(教)單元二步驟1",
+   "scene": "楊素權勢無人能比。這裡寫他怎麼接見公卿和賓客。"
+  },
+  {
+   "id": "qiuran-03",
+   "lesson": "虬髯客傳",
+   "paragraph": 1,
+   "context_before": "每公卿入言，賓客上謁，未嘗不踞床而見，令美人捧出，",
+   "sentence": "侍婢羅列，頗僭於上",
+   "context_after": "。末年益甚，無復知所負荷、有扶危持顛之心。",
+   "keywords": [
+    {
+     "word": "頗",
+     "gloss": "很、非常，修飾動詞的程度副詞",
+     "pos": "副詞",
+     "distractors": [
+      "稍微、略微",
+      "偏頗、不公正",
+      "不曾、沒有"
+     ]
+    },
+    {
+     "word": "僭",
+     "gloss": "越分，超過本分所應有",
+     "pos": "動詞",
+     "distractors": [
+      "潛藏、躲避",
+      "批評、指責",
+      "效法、學習"
+     ]
+    }
+   ],
+   "meaning": "侍女成排站列，排場大大超越了皇帝。",
+   "meaning_distractors": [
+    "侍女成排站列，對皇上的態度相當恭敬。",
+    "侍女成排站列，略略比得上皇帝身邊的人。",
+    "侍女排列整齊，私下批評在上位的皇帝。"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "27",
+     "quote": "侍婢羅列，「頗」僭於上",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "exam_quote_official": "侍婢羅列，頗僭於上"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "頗",
+     "other": "漁人「甚」異之",
+     "other_lesson": "桃花源記",
+     "same": true,
+     "note": "兩字都是修飾動詞的程度副詞，112 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟4提示；龍騰課本注0",
+   "scene": "楊素接見賓客時，身邊的排場。"
+  },
+  {
+   "id": "qiuran-04",
+   "lesson": "虬髯客傳",
+   "paragraph": 2,
+   "context_before": "靖前揖曰：「天下方亂，英雄競起，公為帝室重臣，須以收羅豪傑為心，不宜踞見賓客。」",
+   "sentence": "素斂容而起，與語大悅",
+   "context_after": "，收其策而退。",
+   "keywords": [
+    {
+     "word": "斂容",
+     "gloss": "端正容色，肅敬的樣子",
+     "pos": "動詞",
+     "distractors": [
+      "收起笑容，轉為憤怒",
+      "遮住面容",
+      "收拾儀容準備離開"
+     ]
+    }
+   ],
+   "meaning": "楊素端正神色站起來，和李靖交談後非常高興。",
+   "meaning_distractors": [
+    "楊素氣得沉下臉站起來，談完才勉強高興。",
+    "楊素遮住臉起身離開，李靖卻談得很愉快。",
+    "楊素收起笑容，只想趕快結束談話。"
+   ],
+   "source_note": "龍騰課本注r；鷹架講義(教)單元二步驟2",
+   "scene": "李靖以平民身分求見楊素，當面勸他不該傲慢。楊素聽完的反應："
+  },
+  {
+   "id": "qiuran-05",
+   "lesson": "虬髯客傳",
+   "paragraph": 3,
+   "context_before": "當靖之騁辯也，一妓有殊色，執紅拂，立於前，",
+   "sentence": "獨目靖",
+   "context_after": "。靖既去，而執拂妓臨軒指吏，問曰：「去者處士第幾？住何處？」",
+   "keywords": [
+    {
+     "word": "目",
+     "gloss": "注視（名詞作動詞用）",
+     "pos": "動詞",
+     "distractors": [
+      "眼睛",
+      "條目、名目",
+      "以眼神示意離開"
+     ]
+    }
+   ],
+   "meaning": "只有她一個人一直注視著李靖。",
+   "meaning_distractors": [
+    "她獨自閉上眼睛，不想看李靖。",
+    "李靖獨自一人看著她。",
+    "她是唯一看不起李靖的人。"
+   ],
+   "needs_review": true,
+   "review_note": "「目」作動詞的解釋，講義與課本注釋未明列，依文意初擬，請老師確認。",
+   "source_note": "鷹架講義(教)單元二步驟3引句；字義依文意初擬",
+   "scene": "李靖在楊素面前滔滔議論時，站在楊素身旁的歌妓有什麼舉動？"
+  },
+  {
+   "id": "qiuran-06",
+   "lesson": "虬髯客傳",
+   "paragraph": 3,
+   "context_before": "靖既去，而執拂妓臨軒指吏，問曰：「",
+   "sentence": "去者處士第幾？住何處",
+   "context_after": "？」吏具以對，妓頷而去。",
+   "keywords": [
+    {
+     "word": "去",
+     "gloss": "離開",
+     "pos": "動詞",
+     "distractors": [
+      "前往",
+      "除去",
+      "距離"
+     ]
+    },
+    {
+     "word": "第幾",
+     "gloss": "在兄弟中排行第幾",
+     "pos": "名詞",
+     "distractors": [
+      "科舉考第幾名",
+      "第幾次來訪",
+      "住在第幾間房"
+     ]
+    }
+   ],
+   "meaning": "剛離開的那位處士在家排行第幾？住在哪裡？",
+   "meaning_distractors": [
+    "正要前往的那位處士考第幾名？住在哪裡？",
+    "被趕走的那位處士是第幾個來求見的？",
+    "要去拜訪的處士住在第幾間房？"
+   ],
+   "confusables": [
+    {
+     "word": "去",
+     "other": "諸妓知其無成，「去」者眾矣",
+     "other_lesson": "虬髯客傳",
+     "same": true,
+     "note": "都是離開"
+    },
+    {
+     "word": "去",
+     "other": "王果「去」牆數步",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "離開／距離"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟4；龍騰課本注p",
+   "scene": "李靖告退之後，手拿紅拂的歌妓走到窗前，向官吏打聽。"
+  },
+  {
+   "id": "qiuran-07",
+   "lesson": "虬髯客傳",
+   "paragraph": 4,
+   "context_before": "其夜五更初，忽聞扣門而聲低者，靖起問焉。乃紫衣戴帽人，杖揭一囊。靖問：「誰？」曰：「妾楊家之紅拂妓也。」",
+   "sentence": "靖遽延入",
+   "context_after": "。脫衣去帽，乃十八九佳麗人也，素面華衣而拜。",
+   "keywords": [
+    {
+     "word": "遽",
+     "gloss": "急忙",
+     "pos": "副詞",
+     "distractors": [
+      "慢慢地",
+      "竟然",
+      "於是拒絕"
+     ]
+    },
+    {
+     "word": "延",
+     "gloss": "引進、邀請",
+     "pos": "動詞",
+     "distractors": [
+      "拖延",
+      "延長",
+      "蔓延"
+     ]
+    }
+   ],
+   "meaning": "李靖急忙請她進來。",
+   "meaning_distractors": [
+    "李靖猶豫很久才讓她進來。",
+    "李靖連忙拒絕，要她離開。",
+    "李靖拖延時間，不肯開門。"
+   ],
+   "confusables": [
+    {
+     "word": "延",
+     "other": "遽致酒「延」焉",
+     "other_lesson": "虬髯客傳",
+     "same": true,
+     "note": "都是邀請、引進"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟4；龍騰課本注f",
+   "scene": "當天深夜，有人悄悄來敲李靖住處的門。"
+  },
+  {
+   "id": "qiuran-08",
+   "lesson": "虬髯客傳",
+   "paragraph": 4,
+   "context_before": "曰：「妾侍楊司空久，閱天下之人多矣，未有如公者。",
+   "sentence": "絲蘿非獨生，願託喬木",
+   "context_after": "，故來奔耳。」",
+   "keywords": [
+    {
+     "word": "託",
+     "gloss": "附託、依靠",
+     "pos": "動詞",
+     "distractors": [
+      "推託",
+      "委託別人傳話",
+      "假託名義"
+     ]
+    }
+   ],
+   "meaning": "菟絲、女蘿無法獨自生存，希望附託大樹。婉轉表達想託付終身。",
+   "meaning_distractors": [
+    "絲蘿不是獨生女，所以想把家業託付給你。",
+    "我要像藤蔓一樣獨立生長，不再依靠喬木。",
+    "我會像大樹一樣保護你，不讓你獨自生活。"
+   ],
+   "source_note": "龍騰課本注g；鷹架講義(教)單元五步驟5",
+   "scene": "紅拂深夜來到李靖住處，向他說明來意。"
+  },
+  {
+   "id": "qiuran-09",
+   "lesson": "虬髯客傳",
+   "paragraph": 4,
+   "context_before": "靖曰：「楊司空權重京師，如何？」曰：「",
+   "sentence": "彼屍居餘氣，不足畏也",
+   "context_after": "。諸妓知其無成，去者眾矣，彼亦不甚逐也。",
+   "keywords": [
+    {
+     "word": "屍居餘氣",
+     "gloss": "像死人一樣活著，只多一口氣，指楊素老朽昏庸",
+     "pos": "成語",
+     "distractors": [
+      "屍體停放的地方還有餘氣",
+      "權勢仍在，氣焰逼人",
+      "死後還留下好名聲"
+     ]
+    }
+   ],
+   "meaning": "他像死人一樣只剩一口氣，不值得害怕。",
+   "meaning_distractors": [
+    "他雖然快死了，但權勢仍然令人畏懼。",
+    "他已經去世，家裡只留下餘氣，不必再怕。",
+    "他很怕死，所以不足以讓人敬重。"
+   ],
+   "source_note": "龍騰課本注j；鷹架講義(教)單元二句型",
+   "scene": "李靖擔心楊素權勢太大，紅拂這樣回答他。"
+  },
+  {
+   "id": "qiuran-10",
+   "lesson": "虬髯客傳",
+   "paragraph": 4,
+   "context_before": "彼屍居餘氣，不足畏也。諸妓知其無成，去者眾矣，彼亦不甚逐也。",
+   "sentence": "計之詳矣，幸無疑焉",
+   "context_after": "。」問其姓，曰：「張。」",
+   "keywords": [
+    {
+     "word": "幸",
+     "gloss": "希望",
+     "pos": "動詞",
+     "distractors": [
+      "幸運",
+      "帝王親臨",
+      "寵愛"
+     ]
+    }
+   ],
+   "meaning": "我已經考慮得很周詳了，希望您不要再猶疑。",
+   "meaning_distractors": [
+    "我的計謀很詳細，幸好您沒有懷疑。",
+    "您的計畫很周詳，我幸運地不必懷疑。",
+    "皇帝親臨的日期已算好，請不要懷疑。"
+   ],
+   "confusables": [
+    {
+     "word": "幸",
+     "other": "隋煬帝之「幸」江都也",
+     "other_lesson": "虬髯客傳",
+     "same": false,
+     "note": "希望／帝王親臨"
+    }
+   ],
+   "source_note": "龍騰課本注l、注2；鷹架講義(教)單元五步驟5",
+   "scene": "紅拂向李靖分析楊素不會認真追捕，最後這樣說。"
+  },
+  {
+   "id": "qiuran-11",
+   "lesson": "虬髯客傳",
+   "paragraph": 4,
+   "context_before": "靖不自意獲之，愈喜愈懼，瞬息萬慮不安，而",
+   "sentence": "窺戶者足無停屨",
+   "context_after": "。既數日，聞追訪之聲，意亦非峻。",
+   "keywords": [
+    {
+     "word": "屨",
+     "gloss": "鞋，此指腳步",
+     "pos": "名詞",
+     "distractors": [
+      "屢次",
+      "穿鞋",
+      "腳上的傷"
+     ]
+    }
+   ],
+   "meaning": "不斷向門外窺看，腳步沒有停歇。",
+   "meaning_distractors": [
+    "偷看門內的人腳上沒有穿鞋。",
+    "躲在門後的人一動也不動。",
+    "看守門戶的人屢次停下腳步。"
+   ],
+   "confusables": [
+    {
+     "word": "屨",
+     "other": "不衫不「屨」，裼裘而來",
+     "other_lesson": "虬髯客傳",
+     "same": false,
+     "note": "鞋子（名詞）／穿鞋（動詞）"
+    }
+   ],
+   "source_note": "龍騰課本注z；鷹架講義(教)單元二步驟4",
+   "scene": "李靖意外得到紅拂，又擔心楊素派人追來。"
+  },
+  {
+   "id": "qiuran-12",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "既數日，聞追訪之聲，意亦非峻，乃雄服乘馬，排闥而去，將歸太原。",
+   "sentence": "行次靈石旅舍，既設床",
+   "context_after": "，爐中烹肉且熟，張氏以髮長委地，立梳床前。",
+   "keywords": [
+    {
+     "word": "次",
+     "gloss": "住宿",
+     "pos": "動詞",
+     "distractors": [
+      "次序",
+      "下一次",
+      "差一等"
+     ]
+    }
+   ],
+   "meaning": "路上在靈石的旅舍住宿，鋪好了床位。",
+   "meaning_distractors": [
+    "這是第二次走過靈石的旅舍，已經買了床。",
+    "靈石的旅舍次等，床鋪都沒有準備好。",
+    "依序走過靈石，才替旅舍設置床位。"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "20",
+     "quote": "行次靈石旅舍，既設床",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "exam_quote_official": "行次靈石旅舍，既設床，爐中烹肉且熟；張氏以髮長委地，立梳床前"
+    }
+   ],
+   "source_note": "龍騰課本注b",
+   "scene": "李靖和紅拂喬裝離開長安，前往太原，途中停下來。"
+  },
+  {
+   "id": "qiuran-13",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "行次靈石旅舍，既設床，",
+   "sentence": "爐中烹肉且熟",
+   "context_after": "，張氏以髮長委地，立梳床前。靖方刷馬，忽有一人。",
+   "keywords": [
+    {
+     "word": "且",
+     "gloss": "將要",
+     "pos": "副詞",
+     "distractors": [
+      "而且",
+      "又",
+      "姑且"
+     ]
+    }
+   ],
+   "meaning": "爐中煮的肉快要熟了。",
+   "meaning_distractors": [
+    "爐中煮的肉又香又熟。",
+    "爐中煮的肉姑且算是熟了。",
+    "爐中的肉已經煮熟很久了。"
+   ],
+   "confusables": [
+    {
+     "word": "且",
+     "other": "靖與張氏「且」驚懼",
+     "other_lesson": "虬髯客傳",
+     "same": false,
+     "note": "將要／又"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟3",
+   "scene": "兩人在靈石的旅舍安頓下來，準備用餐。",
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "20",
+     "quote": "爐中烹肉且熟",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "選項C"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-14",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "靖方刷馬，忽有一人，中形，赤髯而虬，",
+   "sentence": "乘蹇驢而來",
+   "context_after": "，投革囊於爐前，取枕攲臥，看張氏梳頭。",
+   "keywords": [
+    {
+     "word": "蹇",
+     "gloss": "跛腳（音ㄐㄧㄢˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "健壯",
+      "矮小",
+      "急速"
+     ]
+    }
+   ],
+   "meaning": "騎著一頭跛腳的驢子來了。",
+   "meaning_distractors": [
+    "騎著一頭高大健壯的驢子來了。",
+    "牽著一頭瘦小的驢子，慢慢走來。",
+    "快速地騎著驢子奔來。"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "2",
+     "quote": "命「蹇」時乖",
+     "note": "考同字的成語「命蹇時乖」"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "乘蹇驢而來",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段①"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟1提示；龍騰課本注,",
+   "scene": "李靖正在刷馬，一個陌生人來到旅舍。"
+  },
+  {
+   "id": "qiuran-15",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "忽有一人，中形，赤髯而虬，乘蹇驢而來，投革囊於爐前，",
+   "sentence": "取枕攲臥，看張氏梳頭",
+   "context_after": "。靖怒甚，未決，猶刷馬。",
+   "keywords": [
+    {
+     "word": "攲",
+     "gloss": "傾斜（音ㄑㄧ）；攲臥即斜躺",
+     "pos": "動詞",
+     "distractors": [
+      "欺負",
+      "站立",
+      "安睡"
+     ]
+    }
+   ],
+   "meaning": "拿了枕頭斜躺著，看張氏梳頭。",
+   "meaning_distractors": [
+    "拿起枕頭遮住自己，不敢看張氏。",
+    "替張氏拿枕頭，幫她梳頭。",
+    "拿了枕頭就睡著了，張氏自己梳頭。"
+   ],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "1",
+     "quote": "取枕「攲」臥"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "34",
+     "quote": "取枕攲臥，看張氏梳頭",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "異文引句",
+     "location": "第1小題內引語"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟1；龍騰課本注.",
+   "scene": "陌生人一進旅舍就毫不客氣，李靖看了很生氣。"
+  },
+  {
+   "id": "qiuran-16",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "靖怒甚，未決，猶刷馬。張氏熟觀其面，",
+   "sentence": "一手握髮，一手映身搖示，令勿怒",
+   "context_after": "。急急梳頭畢，斂衽前問其姓。",
+   "keywords": [
+    {
+     "word": "映",
+     "gloss": "隱藏",
+     "pos": "動詞",
+     "distractors": [
+      "照亮",
+      "反映",
+      "遮住臉"
+     ]
+    }
+   ],
+   "meaning": "一手握著頭髮，一手藏在身後搖動示意，要李靖不要發怒。",
+   "meaning_distractors": [
+    "一手握髮，一手舉到身前搖動，要虬髯客不要發怒。",
+    "雙手握著頭髮照鏡子，提醒自己不要生氣。",
+    "一手拉住李靖的頭髮，要他看著自己的影子。"
+   ],
+   "source_note": "龍騰課本注/；鷹架講義(教)單元三步驟1",
+   "scene": "李靖氣得快要發作，張氏（紅拂）看清來客後，暗中阻止他。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "一手握髮，一手映身搖示，令勿怒",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段①"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-17",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "曰：「煮者何肉？」曰：「羊肉，計已熟矣。」客曰：「飢甚！」",
+   "sentence": "靖出市胡餅",
+   "context_after": "。客抽匕首，切肉共食。",
+   "keywords": [
+    {
+     "word": "市",
+     "gloss": "購買",
+     "pos": "動詞",
+     "distractors": [
+      "市場",
+      "賣出",
+      "城市"
+     ]
+    }
+   ],
+   "meaning": "李靖出門去買胡餅。",
+   "meaning_distractors": [
+    "李靖出門到市場賣胡餅。",
+    "李靖拿出胡餅，分給市場的人。",
+    "李靖到城裡，看見有人賣胡餅。"
+   ],
+   "confusables": [
+    {
+     "word": "市",
+     "other": "東「市」買駿馬",
+     "other_lesson": "木蘭詩",
+     "same": false,
+     "note": "買／市場"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟3；龍騰課本注$",
+   "scene": "三人認了兄妹，圍坐爐邊。客人喊餓，李靖有什麼行動？",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "靖出市胡餅",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段②"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-18",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "食竟，餘肉亂切送驢前食之，甚速。客曰：「觀李郎之行，貧士也，",
+   "sentence": "何以致斯異人",
+   "context_after": "？」曰：「靖雖貧，亦有心者焉。",
+   "keywords": [
+    {
+     "word": "致",
+     "gloss": "得到",
+     "pos": "動詞",
+     "distractors": [
+      "使、讓",
+      "送達",
+      "以致於"
+     ]
+    }
+   ],
+   "meaning": "你怎麼能得到這樣不凡的女子？",
+   "meaning_distractors": [
+    "你怎麼會讓這位奇人如此生氣？",
+    "你為什麼要把信送給這位奇人？",
+    "你為什麼變成這樣奇怪的人？"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "36",
+     "quote": "何以致斯異人",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "第1小題內引語",
+     "exam_quote_official": "何以致斯異人"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "致",
+     "other": "李郎能「致」吾一見否",
+     "other_lesson": "虬髯客傳",
+     "same": false,
+     "note": "得到／使、讓"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟3",
+   "scene": "吃完後，虬髯客看李靖一副窮書生的樣子，對他身邊的紅拂感到好奇。"
+  },
+  {
+   "id": "qiuran-19",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "於是開革囊，取一人頭並心肝，卻收頭囊中，以匕首切心肝共食之。曰：「此人乃天下負心者也，",
+   "sentence": "銜之十年，今始獲，吾憾釋矣",
+   "context_after": "。」又曰：「觀李郎儀形器宇，真丈夫也。",
+   "keywords": [
+    {
+     "word": "銜",
+     "gloss": "懷恨在心",
+     "pos": "動詞",
+     "distractors": [
+      "用嘴叼著",
+      "官銜",
+      "連接"
+     ]
+    },
+    {
+     "word": "釋",
+     "gloss": "消除、放下",
+     "pos": "動詞",
+     "distractors": [
+      "解釋",
+      "釋放犯人",
+      "佛教"
+     ]
+    }
+   ],
+   "meaning": "我懷恨了十年，到今天才抓到他，心中的遺憾終於消除了。",
+   "meaning_distractors": [
+    "我追捕了十年，今天把他釋放了，覺得很遺憾。",
+    "他做了我十年的官，今天才領到俸祿，遺憾終於解釋清楚。",
+    "我叼著他的東西十年，今天才歸還，心裡仍有遺憾。"
+   ],
+   "needs_review": true,
+   "review_note": "「銜」「釋」課本未加注，依文意初擬，請老師確認。",
+   "source_note": "字義依文意初擬（龍騰課本此句無注）",
+   "scene": "虬髯客從皮袋取出人頭和心肝，說明這是誰的。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "銜之十年，今始獲，吾憾釋矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-20",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "以匕首切心肝共食之。曰：「此人乃天下負心者也，銜之十年，今始獲，吾憾釋矣。」又曰：「",
+   "sentence": "觀李郎儀形器宇，真丈夫也",
+   "context_after": "。亦知太原有異人乎？」",
+   "keywords": [
+    {
+     "word": "器宇",
+     "gloss": "胸襟氣度",
+     "pos": "名詞",
+     "distractors": [
+      "房屋的大小",
+      "用具和屋子",
+      "五官相貌"
+     ]
+    }
+   ],
+   "meaning": "看李郎的儀態形貌與胸襟氣度，真是個大丈夫。",
+   "meaning_distractors": [
+    "看李郎住的房子和用具，真是個有錢的丈夫。",
+    "看李郎的長相，真是張氏的好丈夫。",
+    "看李郎的文章器識，適合當個讀書人。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "36",
+     "quote": "儀形器宇",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "節錄概括",
+     "location": "第2小題內引語",
+     "exam_quote_official": "儀形器宇；真丈夫"
+    }
+   ],
+   "source_note": "龍騰課本注*；鷹架講義(教)單元三步驟2",
+   "scene": "李靖敢和虬髯客一起吃心肝，虬髯客這樣評價他。"
+  },
+  {
+   "id": "qiuran-21",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "context_before": "曰：「達之明日方曙，候我於汾陽橋。」言訖，乘驢而去，其行若飛，回顧已遠。",
+   "sentence": "靖與張氏且驚懼",
+   "context_after": "，久之，曰：「烈士不欺人，固無畏。」促鞭而行。",
+   "keywords": [
+    {
+     "word": "且",
+     "gloss": "又",
+     "pos": "連詞",
+     "distractors": [
+      "將要",
+      "暫且",
+      "而且只有"
+     ]
+    }
+   ],
+   "meaning": "李靖和張氏又驚訝又害怕。",
+   "meaning_distractors": [
+    "李靖和張氏將要受到驚嚇。",
+    "李靖和張氏姑且假裝害怕。",
+    "李靖驚訝，張氏卻一點也不怕。"
+   ],
+   "source_note": "鷹架講義(教)單元三步驟3",
+   "scene": "虬髯客約好見面地點，騎驢飛快離去，留下李靖和紅拂。"
+  },
+  {
+   "id": "qiuran-22",
+   "lesson": "虬髯客傳",
+   "paragraph": 6,
+   "context_before": "文靜素奇其人，一旦聞有客善相，遽致酒延焉。既而太宗至，",
+   "sentence": "不衫不屨，裼裘而來",
+   "context_after": "，神氣揚揚，貌與常異。",
+   "keywords": [
+    {
+     "word": "屨",
+     "gloss": "穿鞋（名詞作動詞用）",
+     "pos": "動詞",
+     "distractors": [
+      "鞋子",
+      "腳步",
+      "屢次"
+     ]
+    }
+   ],
+   "meaning": "沒穿正式服裝，也沒穿鞋，只披著皮衣就來了，寫他不拘小節。",
+   "meaning_distractors": [
+    "穿著整齊的衣服和鞋子，態度非常講究，一看就是貴族。",
+    "不賣衣服也不賣鞋，只賣皮衣，是來做生意的。",
+    "衣衫破舊、光著腳，樣子十分落魄可憐。"
+   ],
+   "confusables": [
+    {
+     "word": "屨",
+     "other": "窺戶者足無停「屨」",
+     "other_lesson": "虬髯客傳",
+     "same": false,
+     "note": "穿鞋（動詞）／鞋子（名詞）"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟4；龍騰課本注Y、U",
+   "scene": "劉文靜聽說有善於看相的客人，連忙請李世民前來。"
+  },
+  {
+   "id": "qiuran-23",
+   "lesson": "虬髯客傳",
+   "paragraph": 6,
+   "context_before": "既而太宗至，不衫不屨，裼裘而來，神氣揚揚，貌與常異。",
+   "sentence": "虬髯默居坐末，見之心死",
+   "context_after": "。飲數巡，起招靖曰：「真天子也！」",
+   "keywords": [
+    {
+     "word": "心死",
+     "gloss": "打消爭天下的念頭",
+     "pos": "動詞",
+     "distractors": [
+      "悲傷到極點",
+      "心臟病發",
+      "對李靖失望"
+     ]
+    }
+   ],
+   "meaning": "虬髯客默默坐在末座，一看見李世民就打消了爭天下的念頭。",
+   "meaning_distractors": [
+    "虬髯客默默坐在末座，因為悲傷而昏了過去。",
+    "虬髯客坐在上座，看見李世民就想殺了他。",
+    "虬髯客坐在末座，心裡對李靖徹底失望。"
+   ],
+   "needs_review": true,
+   "review_note": "「心死」課本未加注，依單元四導讀「虬髯客一看就心死」與全文文意初擬，請老師確認說法。",
+   "source_note": "鷹架講義(教)單元四導讀",
+   "scene": "李世民出現在酒席上，一直想看「真人」的虬髯客有什麼反應？"
+  },
+  {
+   "id": "qiuran-24",
+   "lesson": "虬髯客傳",
+   "paragraph": 7,
+   "context_before": "文靜飛書迎文皇看棋。道士對弈，虬髯與靖旁侍焉。俄而文皇來，",
+   "sentence": "精采驚人，長揖就坐",
+   "context_after": "，神清氣朗，滿坐風生，顧盼暐如也。",
+   "keywords": [
+    {
+     "word": "采",
+     "gloss": "神色；精采即神采",
+     "pos": "名詞",
+     "distractors": [
+      "摘取",
+      "色彩繽紛的布",
+      "文章的文采"
+     ]
+    }
+   ],
+   "meaning": "神采令人驚嘆，他拱手長揖後入座。",
+   "meaning_distractors": [
+    "表演十分精彩，觀眾起身歡呼。",
+    "摘下鮮花使人驚喜，彎腰請大家就坐。",
+    "他的文章很好，大家長揖請他坐下。"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "30",
+     "quote": "精「采」驚人",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "exam_quote_official": "俄而文皇來，精采驚人，長揖就坐，神清氣朗"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟1；龍騰課本注e；字義另見翰林 109 解析",
+   "scene": "虬髯客帶道士再來確認，李世民第二次出現。"
+  },
+  {
+   "id": "qiuran-25",
+   "lesson": "虬髯客傳",
+   "paragraph": 7,
+   "context_before": "道士一見慘然，下棋子曰：「",
+   "sentence": "此局全輸矣",
+   "context_after": "！於此失卻局，奇哉！救無路矣！復奚言！」罷弈請去。",
+   "keywords": [
+    {
+     "word": "局",
+     "gloss": "棋局，雙關天下局勢",
+     "pos": "名詞",
+     "distractors": [
+      "官署",
+      "騙局",
+      "局部"
+     ]
+    }
+   ],
+   "meaning": "這盤棋全輸了。雙關語，也指爭天下的局勢已經輸定。",
+   "meaning_distractors": [
+    "這盤棋輸了，但天下還有機會。",
+    "這場騙局已經被看穿了。",
+    "這個部門的人全部被打敗了。"
+   ],
+   "source_note": "龍騰課本注A；鷹架講義(教)單元四",
+   "scene": "道士正在下棋，一看見李世民就停手，這樣說。"
+  },
+  {
+   "id": "qiuran-26",
+   "lesson": "虬髯客傳",
+   "paragraph": 7,
+   "context_before": "罷弈請去。既出，謂虬髯曰：「",
+   "sentence": "此世界非公世界也，他方可圖",
+   "context_after": "。勉之，勿以為念！」因共入京。",
+   "keywords": [
+    {
+     "word": "圖",
+     "gloss": "謀取、圖謀",
+     "pos": "動詞",
+     "distractors": [
+      "圖畫",
+      "地圖",
+      "貪圖享樂"
+     ]
+    }
+   ],
+   "meaning": "這片天下不是您的天下，可以到別的地方去謀求發展。",
+   "meaning_distractors": [
+    "這世界不公平，別的地方也畫不出好圖。",
+    "這片天下不屬於您，別處也不值得貪圖。",
+    "這不是您的地盤，請把地圖交給別人。"
+   ],
+   "source_note": "鷹架講義(教)單元五步驟3",
+   "scene": "道士離開後，私下對虬髯客說。"
+  },
+  {
+   "id": "qiuran-27",
+   "lesson": "虬髯客傳",
+   "paragraph": 7,
+   "context_before": "一妹懸然如磬，欲令新婦祗謁，兼議從容，無前卻也。」",
+   "sentence": "言畢，吁嗟而去",
+   "context_after": "。靖亦策馬遄征，俄即到京。",
+   "keywords": [
+    {
+     "word": "吁",
+     "gloss": "嘆氣（音ㄒㄩ）",
+     "pos": "動詞",
+     "distractors": [
+      "大聲呼喊（音ㄩˋ）",
+      "請求",
+      "喘氣奔跑"
+     ]
+    }
+   ],
+   "meaning": "說完，嘆著氣離開了。",
+   "meaning_distractors": [
+    "說完，大聲呼喊後離開了。",
+    "說完，開心地笑著離開。",
+    "話沒說完，就急著跑走了。"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "1",
+     "quote": "「吁」嗟而去",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "短詞摘引",
+     "location": "選項D前詞",
+     "exam_quote_official": "「吁」嗟而去"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟2提示",
+   "scene": "虬髯客邀李靖夫婦到京城家中相見，交代完後。"
+  },
+  {
+   "id": "qiuran-28",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "context_before": "奴二十人引靖入東廳。廳之陳設，窮極珍異，",
+   "sentence": "巾箱妝奩冠鏡首飾之盛",
+   "context_after": "，非人間之物。巾櫛妝飾畢，請更衣，衣又珍奇。",
+   "keywords": [
+    {
+     "word": "奩",
+     "gloss": "盛裝梳妝用品的小箱子（音ㄌㄧㄢˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "掛在門上的簾子",
+      "割草用的鐮刀",
+      "嫁妝的禮金"
+     ]
+    }
+   ],
+   "meaning": "頭巾箱、梳妝盒、帽子、鏡子和首飾都極其豐盛。",
+   "meaning_distractors": [
+    "巾箱與簾幕都很破舊，首飾也很少。",
+    "妝容與衣冠都很盛大，像在辦婚禮。",
+    "箱子裡裝滿了嫁妝禮金和鐮刀。"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "1",
+     "quote": "妝「奩」冠鏡",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "短詞摘引",
+     "location": "選項D前詞",
+     "exam_quote_official": "妝「奩」冠鏡"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "25",
+     "quote": "巾箱妝奩「冠」鏡首飾之盛",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項E後句",
+     "exam_quote_official": "巾箱妝奩冠鏡首飾之盛，非人間之物"
+    }
+   ],
+   "source_note": "龍騰課本注L",
+   "scene": "李靖夫婦來到虬髯客家，被帶進東廳。"
+  },
+  {
+   "id": "qiuran-29",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "context_before": "食畢，行酒。",
+   "sentence": "家人自西堂舁出二十床",
+   "context_after": "，各以錦繡帕覆之。既陳，盡去其帕，乃文簿鎖匙耳。",
+   "keywords": [
+    {
+     "word": "舁",
+     "gloss": "扛抬（音ㄩˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "舉手",
+      "與、和",
+      "搬走丟棄"
+     ]
+    },
+    {
+     "word": "床",
+     "gloss": "放置器物的架子",
+     "pos": "名詞",
+     "distractors": [
+      "睡覺的床",
+      "坐榻",
+      "井邊的欄杆"
+     ]
+    }
+   ],
+   "meaning": "家人從西堂抬出二十個放器物的架子。",
+   "meaning_distractors": [
+    "家人從西堂抬出二十張睡覺的床。",
+    "家人在西堂鋪好二十張床讓客人休息。",
+    "二十個家人從西堂一起走出來。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "1",
+     "quote": "「舁」出寶貨",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "近用改寫",
+     "location": "選項A前詞",
+     "exam_quote_official": "「舁」出寶貨"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五步驟2提示；龍騰課本注B、N",
+   "scene": "宴席結束，虬髯客準備把一樣東西交給李靖。"
+  },
+  {
+   "id": "qiuran-30",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "context_before": "虬髯曰：「此盡寶貨泉貝之數，",
+   "sentence": "吾之所有，悉以充贈",
+   "context_after": "。何者？某本欲於此世界求事，",
+   "keywords": [
+    {
+     "word": "悉",
+     "gloss": "全部",
+     "pos": "副詞",
+     "distractors": [
+      "知道",
+      "悉心",
+      "一部分"
+     ]
+    }
+   ],
+   "meaning": "我所有的財產，全部拿來送給你們。",
+   "meaning_distractors": [
+    "我所有的東西，你們都已經知道了。",
+    "我悉心保管財物，只拿一部分送人。",
+    "我擁有的財物，希望你們補充給我。"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "26",
+     "quote": "吾之所有，「悉」以充贈",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項B後句",
+     "exam_quote_official": "吾之所有，悉以充贈"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "悉",
+     "other": "男女衣著，「悉」如外人",
+     "other_lesson": "桃花源記",
+     "same": true,
+     "note": "都是全、都"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五步驟2",
+   "scene": "虬髯客揭開帕子，對李靖說明這些帳簿和鑰匙的用途。"
+  },
+  {
+   "id": "qiuran-31",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "context_before": "吾之所有，悉以充贈。何者？某本欲於此世界求事，",
+   "sentence": "或當龍戰三二十載，建少功業",
+   "context_after": "。今既有主，住亦何為？",
+   "keywords": [
+    {
+     "word": "載",
+     "gloss": "年（表時間的名量詞）",
+     "pos": "量詞",
+     "distractors": [
+      "記載",
+      "裝運",
+      "動作的次數"
+     ]
+    }
+   ],
+   "meaning": "或許要和群雄爭戰二三十年，才能建立少許功業。",
+   "meaning_distractors": [
+    "龍爭虎鬥的事蹟，可以記載二三十本書。",
+    "只要爭戰三兩次，就能建立很大的功業。",
+    "我年少時已打過二三十場仗，功業不小。"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "21",
+     "quote": "二十載，建少功業",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "異文引句",
+     "location": "資料乙",
+     "exam_quote_official": "李郎以英特之才，輔清平之主（底本奇特之才、輔清平主）；其餘依對應原文"
+    },
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "14",
+     "quote": "或當龍戰三二十「載」，建少功業",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "例句⑤",
+     "exam_quote_official": "或當龍戰三二十載，建少功業"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟2、單元五步驟1",
+   "scene": "虬髯客說明自己為什麼要放棄。"
+  },
+  {
+   "id": "qiuran-32",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "context_before": "今既有主，住亦何為？太原李氏，真英主也。",
+   "sentence": "三五年內，即當太平",
+   "context_after": "。李郎以英特之才，輔清平之主，竭心盡善，必極人臣。",
+   "keywords": [
+    {
+     "word": "當",
+     "gloss": "將會",
+     "pos": "副詞",
+     "distractors": [
+      "對著",
+      "應該阻擋",
+      "典當"
+     ]
+    }
+   ],
+   "meaning": "三五年內，天下就會太平。",
+   "meaning_distractors": [
+    "三五年內，就應該去阻擋太平軍。",
+    "三五年內，當上皇帝的人會很太平。",
+    "三五年前，天下曾經太平過。"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "27",
+     "quote": "三五年內，即「當」太平",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項A前句",
+     "exam_quote_official": "三五年內，即當太平"
+    },
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "21",
+     "quote": "三五年內，即當太平",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "異文引句",
+     "location": "資料乙"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "當",
+     "other": "「當」窗理雲鬢",
+     "other_lesson": "木蘭詩",
+     "same": false,
+     "note": "將會／對著"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五步驟2",
+   "scene": "虬髯客預言天下局勢，勉勵李靖輔佐李世民。"
+  },
+  {
+   "id": "qiuran-33",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "context_before": "非一妹不能識李郎，非李郎不能遇一妹。聖賢起陸之漸，際會如期。虎嘯風生，龍吟雲萃，",
+   "sentence": "固非偶然也",
+   "context_after": "。將余之贈，以佐真主，贊功業，勉之哉！",
+   "keywords": [
+    {
+     "word": "固",
+     "gloss": "原本、本來",
+     "pos": "副詞",
+     "distractors": [
+      "堅固",
+      "固執",
+      "鞏固"
+     ]
+    }
+   ],
+   "meaning": "這本來就不是偶然的。",
+   "meaning_distractors": [
+    "這樣堅固的東西並不常見。",
+    "他固執地認為這只是偶然。",
+    "為了鞏固地位，不能靠偶然。"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "36",
+     "quote": "「固」非偶然也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "選項D前句",
+     "exam_quote_official": "虎嘯風生，龍吟雲萃，固非偶然也"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "固",
+     "other": "我「固」謂不能作苦",
+     "other_lesson": "勞山道士",
+     "same": true,
+     "note": "都是原本、本來，107 學測同題比較"
+    }
+   ],
+   "source_note": "翰林 107 解析（「固」：原本）",
+   "scene": "虬髯客說，英主與賢臣、李靖與紅拂的相遇都有其道理。"
+  },
+  {
+   "id": "qiuran-34",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "context_before": "將余之贈，以佐真主，贊功業，勉之哉！此後十餘年，當東南數千里外有異事，",
+   "sentence": "是吾得志之秋也",
+   "context_after": "。一妹與李郎可瀝酒東南相賀。」",
+   "keywords": [
+    {
+     "word": "秋",
+     "gloss": "時候、時機",
+     "pos": "名詞",
+     "distractors": [
+      "秋天",
+      "收成",
+      "一年"
+     ]
+    }
+   ],
+   "meaning": "那就是我實現志向的時候。",
+   "meaning_distractors": [
+    "那年秋天，我的志向就會被人知道。",
+    "到了秋收，我就會得到賞賜。",
+    "我一年之後就會放棄志向。"
+   ],
+   "needs_review": true,
+   "review_note": "「秋」課本未加注，依文意初擬（可與「此誠危急存亡之秋也」對照），請老師確認。",
+   "confusables": [
+    {
+     "word": "秋",
+     "other": "此誠危急存亡之「秋」也",
+     "other_lesson": "出師表",
+     "same": true,
+     "note": "都是時候、時機"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五步驟3引句；字義依文意初擬",
+   "scene": "虬髯客告別時，預告自己未來的去向。"
+  },
+  {
+   "id": "qiuran-35",
+   "lesson": "虬髯客傳",
+   "paragraph": 11,
+   "context_before": "靖知虬髯得事也，歸告張氏，具禮相賀，瀝酒東南祝拜之。",
+   "sentence": "乃知真人之興也，非英雄所冀",
+   "context_after": "，況非英雄乎？人臣之謬思亂者，乃螳臂之拒走輪耳。",
+   "keywords": [
+    {
+     "word": "乃",
+     "gloss": "才",
+     "pos": "副詞",
+     "distractors": [
+      "竟然",
+      "你的",
+      "就是"
+     ]
+    },
+    {
+     "word": "冀",
+     "gloss": "希望得到",
+     "pos": "動詞",
+     "distractors": [
+      "恐懼",
+      "河北一帶",
+      "奪取成功"
+     ]
+    }
+   ],
+   "meaning": "由此才知道真命天子的興起，不是英雄所能希望得到的。",
+   "meaning_distractors": [
+    "竟然知道修道的真人興盛，英雄也不敢反對。",
+    "於是知道英雄興起之後，真人就不再有希望。",
+    "你要知道真心待人，英雄才會願意追隨。"
+   ],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "25",
+     "quote": "「乃」知真人之興也，非英雄所冀",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "異文引句",
+     "location": "選項D後句",
+     "exam_quote_official": "乃知真人之興也，非英雄所冀"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "乃",
+     "other": "「乃」不知有漢",
+     "other_lesson": "桃花源記",
+     "same": false,
+     "note": "才／竟然，115 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元一步驟4、單元五步驟2",
+   "scene": "虬髯客果然在海外稱王。故事結束後，作者下結論。"
+  },
+  {
+   "id": "qiuran-36",
+   "lesson": "虬髯客傳",
+   "paragraph": 4,
+   "scene": "聽到追查的風聲不算緊急，李靖和紅拂決定動身。",
+   "context_before": "既數日，聞追訪之聲，意亦非峻，",
+   "sentence": "乃雄服乘馬，排闥而去",
+   "context_after": "，將歸太原。",
+   "keywords": [
+    {
+     "word": "闥",
+     "gloss": "門（音ㄊㄚˋ）；排闥即推開門",
+     "pos": "名詞",
+     "distractors": [
+      "窗戶",
+      "馬鞍",
+      "城牆"
+     ]
+    }
+   ],
+   "meaning": "紅拂於是穿上男裝騎馬，推開門離去。",
+   "meaning_distractors": [
+    "紅拂穿上華服坐車，排開眾人走出去。",
+    "男子們騎著馬排成隊伍離開。",
+    "李靖雄壯地騎馬，撞破城門逃走。"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "1",
+     "quote": "乃雄服乘馬，排闥而去",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "短詞摘引",
+     "location": "選項A前詞"
+    }
+   ],
+   "source_note": "龍騰課本注c、注v",
+   "from_pack": "kl08-014"
+  },
+  {
+   "id": "qiuran-37",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "陌生人躺著盯著張氏梳頭，李靖看見了。",
+   "context_before": "取枕攲臥，看張氏梳頭。",
+   "sentence": "靖怒甚，未決，猶刷馬",
+   "context_after": "。張氏熟觀其面，一手握髮，一手映身搖示，令勿怒。",
+   "keywords": [
+    {
+     "word": "未決",
+     "gloss": "還沒決定怎麼應對",
+     "pos": "動詞",
+     "distractors": [
+      "沒有決裂",
+      "還沒洗完",
+      "不願決鬥"
+     ]
+    }
+   ],
+   "meaning": "李靖非常生氣，但還沒決定怎麼做，仍在刷馬。",
+   "meaning_distractors": [
+    "李靖氣得馬上衝過去，連馬都不管了。",
+    "李靖不生氣，所以繼續專心刷馬。",
+    "李靖氣得和對方決裂，用刷子打馬。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "靖怒甚，未決，猶刷馬",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段①"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五引句；字義依參考包kl08-016",
+   "from_pack": "kl08-016"
+  },
+  {
+   "id": "qiuran-38",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "張氏上前問陌生人姓什麼，對方回答姓張。",
+   "context_before": "臥客答曰：「姓張。」對曰：「",
+   "sentence": "妾亦姓張，合是妹",
+   "context_after": "。」遽拜之。問：「第幾？」",
+   "keywords": [
+    {
+     "word": "合",
+     "gloss": "應該",
+     "pos": "副詞",
+     "distractors": [
+      "合起來",
+      "符合",
+      "全部"
+     ]
+    }
+   ],
+   "meaning": "我也姓張，應該算是你的妹妹。",
+   "meaning_distractors": [
+    "我也姓張，我們合起來算一家人。",
+    "我不姓張，但符合當妹妹的條件。",
+    "我妹妹也姓張，你們正好相配。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "妾亦姓張，合是妹",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段①"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "35",
+     "quote": "妾亦姓張，合是妹",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "第1小題內引語"
+    }
+   ],
+   "source_note": "龍騰課本注@",
+   "from_pack": "kl08-018"
+  },
+  {
+   "id": "qiuran-39",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "張氏和虬髯客認了兄妹，高興地招呼正在刷馬的李靖。",
+   "context_before": "遂喜曰：「今日多幸，遇一妹。」張氏遙呼曰：「",
+   "sentence": "李郎且來拜三兄",
+   "context_after": "！」靖驟拜，遂環坐。",
+   "keywords": [
+    {
+     "word": "且",
+     "gloss": "姑且、先",
+     "pos": "副詞",
+     "distractors": [
+      "而且",
+      "將要",
+      "又"
+     ]
+    }
+   ],
+   "meaning": "李郎，你先過來拜見三哥吧！",
+   "meaning_distractors": [
+    "李郎而且還要來拜見三哥。",
+    "李郎快要來拜見三哥了。",
+    "三哥，你先來拜見李郎吧！"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "李郎且來拜三兄",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段②"
+    }
+   ],
+   "source_note": "參考包kl08-057",
+   "from_pack": "kl08-057"
+  },
+  {
+   "id": "qiuran-40",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "張氏遠遠呼喚李靖來拜見虬髯客。",
+   "context_before": "張氏遙呼曰：「李郎且來拜三兄！」",
+   "sentence": "靖驟拜，遂環坐",
+   "context_after": "。曰：「煮者何肉？」",
+   "keywords": [
+    {
+     "word": "驟",
+     "gloss": "急忙",
+     "pos": "副詞",
+     "distractors": [
+      "突然下雨",
+      "馬奔跑",
+      "慢慢地"
+     ]
+    }
+   ],
+   "meaning": "李靖急忙下拜，於是三人圍坐。",
+   "meaning_distractors": [
+    "李靖慢慢走過去，不肯拜見。",
+    "李靖騎馬奔來，繞著他們坐下。",
+    "李靖拒絕下拜，自己坐到旁邊。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "靖驟拜，遂環坐",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段②"
+    }
+   ],
+   "source_note": "參考包kl08-057",
+   "from_pack": "kl08-057"
+  },
+  {
+   "id": "qiuran-41",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "三人圍坐，虬髯客問爐上煮什麼。",
+   "context_before": "遂環坐。曰：「煮者何肉？」曰：「",
+   "sentence": "羊肉，計已熟矣",
+   "context_after": "。」客曰：「飢甚！」",
+   "keywords": [
+    {
+     "word": "計",
+     "gloss": "估量",
+     "pos": "動詞",
+     "distractors": [
+      "計謀",
+      "總計",
+      "計較"
+     ]
+    }
+   ],
+   "meaning": "是羊肉，估計已經熟了。",
+   "meaning_distractors": [
+    "羊肉的計畫已經成熟了。",
+    "羊肉總共煮熟了好幾塊。",
+    "我的計謀是把羊肉煮熟。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "羊肉，計已熟矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段②"
+    }
+   ],
+   "source_note": "龍騰課本注#",
+   "from_pack": "kl08-058"
+  },
+  {
+   "id": "qiuran-43",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "虬髯客問窮書生李靖怎麼會有紅拂相隨，李靖回答。",
+   "context_before": "何以致斯異人？」曰：「",
+   "sentence": "靖雖貧，亦有心者焉",
+   "context_after": "。他人見問，固不言，兄之問，則無隱耳。」",
+   "keywords": [
+    {
+     "word": "有心",
+     "gloss": "有志向、有抱負",
+     "pos": "形容詞",
+     "distractors": [
+      "有心事",
+      "故意",
+      "心地善良"
+     ]
+    }
+   ],
+   "meaning": "我雖然貧窮，也是個有抱負的人。",
+   "meaning_distractors": [
+    "我雖然貧窮，但心裡有很多煩惱。",
+    "我雖然貧窮，還是故意這麼做。",
+    "我因為貧窮，才會對別人有戒心。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "靖雖貧，亦有心者焉",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "參考包kl08-060",
+   "from_pack": "kl08-060",
+   "needs_review": true,
+   "review_note": "「有心」課本未加注，依參考包與文意初擬，請老師確認。"
+  },
+  {
+   "id": "qiuran-44",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "李靖解釋自己的來歷之前，先對虬髯客這麼說。",
+   "context_before": "靖雖貧，亦有心者焉。",
+   "sentence": "他人見問，固不言，兄之問，則無隱耳",
+   "context_after": "。」具言其由。",
+   "keywords": [
+    {
+     "word": "見",
+     "gloss": "指向自己，見問即問我",
+     "pos": "助詞",
+     "distractors": [
+      "看見",
+      "被動",
+      "顯現"
+     ]
+    }
+   ],
+   "meaning": "別人問我，我本來不會說；兄長問，就不隱瞞了。",
+   "meaning_distractors": [
+    "看見別人發問，我本來就不想回答；兄長問也一樣。",
+    "別人被問到，一定不說；兄長就不會隱瞞。",
+    "別人問起你，我都不說；你問我，我也隱瞞。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "他人見問，固不言，兄之問，則無隱耳",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "參考包kl08-021",
+   "from_pack": "kl08-021",
+   "needs_review": true,
+   "review_note": "「見」的說法依參考包初擬，請老師確認要怎麼跟學生說明。"
+  },
+  {
+   "id": "qiuran-45",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "李靖表示不會隱瞞虬髯客。",
+   "context_before": "他人見問，固不言，兄之問，則無隱耳。」",
+   "sentence": "具言其由",
+   "context_after": "。曰：「然則將何之？」",
+   "keywords": [
+    {
+     "word": "具",
+     "gloss": "詳盡地",
+     "pos": "副詞",
+     "distractors": [
+      "器具",
+      "具備",
+      "全部的人"
+     ]
+    }
+   ],
+   "meaning": "把事情的緣由詳細說了出來。",
+   "meaning_distractors": [
+    "準備好器具，說明用途。",
+    "全部的人都說出自己的理由。",
+    "只說了事情的一小部分。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "具言其由",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "參考包kl08-061",
+   "from_pack": "kl08-061"
+  },
+  {
+   "id": "qiuran-46",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "聽完李靖和紅拂的經過，虬髯客問。",
+   "context_before": "具言其由。曰：「",
+   "sentence": "然則將何之",
+   "context_after": "？」曰：「將避地太原。」",
+   "keywords": [
+    {
+     "word": "之",
+     "gloss": "往、到",
+     "pos": "動詞",
+     "distractors": [
+      "他",
+      "的",
+      "這個"
+     ]
+    }
+   ],
+   "meaning": "那麼你們要往哪裡去？",
+   "meaning_distractors": [
+    "那麼你們要拿什麼東西？",
+    "然而這是誰的東西？",
+    "這樣的話，他要怎麼辦？"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "然則將何之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "參考包kl08-022",
+   "from_pack": "kl08-022"
+  },
+  {
+   "id": "qiuran-47",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "李靖說明此行的目的地。",
+   "context_before": "曰：「然則將何之？」曰：「",
+   "sentence": "將避地太原",
+   "context_after": "。」客曰：「然，吾故謂非君所能致也。」",
+   "keywords": [
+    {
+     "word": "避地",
+     "gloss": "遷居他處以避禍",
+     "pos": "動詞",
+     "distractors": [
+      "避開土地",
+      "躲進地下",
+      "到處旅遊"
+     ]
+    }
+   ],
+   "meaning": "打算到太原去避難。",
+   "meaning_distractors": [
+    "打算避開太原這個地方。",
+    "將要帶兵攻占太原。",
+    "準備到太原去旅遊。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "將避地太原",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "參考包kl08-062",
+   "from_pack": "kl08-062"
+  },
+  {
+   "id": "qiuran-48",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "虬髯客聽完紅拂主動投奔的經過，這樣回應。",
+   "context_before": "曰：「將避地太原。」客曰：「然，",
+   "sentence": "吾故謂非君所能致也",
+   "context_after": "。」曰：「有酒乎？」",
+   "keywords": [
+    {
+     "word": "故",
+     "gloss": "本來",
+     "pos": "副詞",
+     "distractors": [
+      "所以",
+      "緣故",
+      "老朋友"
+     ]
+    }
+   ],
+   "meaning": "我本來就認為她不是你能求得來的。",
+   "meaning_distractors": [
+    "所以我說你不能送她去。",
+    "我的老朋友說你做不到。",
+    "我本來以為你能夠娶到她。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "吾故謂非君所能致也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "參考包kl08-062",
+   "from_pack": "kl08-062"
+  },
+  {
+   "id": "qiuran-49",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "虬髯客問有沒有酒，李靖回答。",
+   "context_before": "客曰：「然，吾故謂非君所能致也。」曰：「有酒乎？」靖曰：「",
+   "sentence": "主人西則酒肆也",
+   "context_after": "。」靖取酒一斗。",
+   "keywords": [
+    {
+     "word": "肆",
+     "gloss": "店鋪",
+     "pos": "名詞",
+     "distractors": [
+      "放肆",
+      "數目字四",
+      "陳列"
+     ]
+    }
+   ],
+   "meaning": "旅館西邊就是酒店。",
+   "meaning_distractors": [
+    "主人從西邊帶酒回來了。",
+    "主人很放肆地喝著酒。",
+    "主人家的西邊放了四罈酒。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "主人西則酒肆也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "龍騰課本注%；字義依參考包kl08-063",
+   "from_pack": "kl08-063"
+  },
+  {
+   "id": "qiuran-52",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "喝了一輪酒，虬髯客拿出自己的下酒物。",
+   "context_before": "酒既巡，客曰：「",
+   "sentence": "吾有少下酒物，李郎能同之乎",
+   "context_after": "？」靖曰：「不敢。」",
+   "keywords": [
+    {
+     "word": "同",
+     "gloss": "一起吃、共享",
+     "pos": "動詞",
+     "distractors": [
+      "相同",
+      "陪同前往",
+      "贊同"
+     ]
+    }
+   ],
+   "meaning": "我有一點下酒的東西，李郎能和我一起吃嗎？",
+   "meaning_distractors": [
+    "我的下酒物很少，李郎能分給我嗎？",
+    "我少年時喝過這酒，李郎的和我相同嗎？",
+    "我少喝一點，李郎能陪我出門嗎？"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "吾有少下酒物，李郎能同之乎",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "參考包kl08-064",
+   "from_pack": "kl08-064",
+   "needs_review": true,
+   "review_note": "「同」作「共享」依文意初擬，請老師確認。"
+  },
+  {
+   "id": "qiuran-53",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "虬髯客打開皮袋，取出下酒物。",
+   "context_before": "靖曰：「不敢。」於是開革囊，",
+   "sentence": "取一人頭並心肝，卻收頭囊中",
+   "context_after": "，以匕首切心肝共食之。",
+   "keywords": [
+    {
+     "word": "卻",
+     "gloss": "退，此指放回",
+     "pos": "動詞",
+     "distractors": [
+      "但是",
+      "推辭",
+      "忘記"
+     ]
+    }
+   ],
+   "meaning": "取出一顆人頭和心肝，又把頭放回袋子裡。",
+   "meaning_distractors": [
+    "取出人頭和心肝，但是把頭丟掉。",
+    "取出一顆頭，推辭不肯收進袋子。",
+    "拿出心肝後，忘了把頭收起來。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "取一人頭並心肝，卻收頭囊中",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段③"
+    }
+   ],
+   "source_note": "龍騰課本注&",
+   "from_pack": "kl08-065"
+  },
+  {
+   "id": "qiuran-55",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "虬髯客約好在汾陽橋相見之後。",
+   "context_before": "曰：「達之明日方曙，候我於汾陽橋。」",
+   "sentence": "言訖，乘驢而去",
+   "context_after": "，其行若飛，回顧已遠。",
+   "keywords": [
+    {
+     "word": "訖",
+     "gloss": "完畢",
+     "pos": "動詞",
+     "distractors": [
+      "乞求",
+      "告訴",
+      "發怒"
+     ]
+    }
+   ],
+   "meaning": "說完，騎著驢離開了。",
+   "meaning_distractors": [
+    "說完之前，就騎著驢跑了。",
+    "乞求之後，騎著驢離開。",
+    "他生氣地騎驢走了。"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "19",
+     "quote": "言訖，乘驢而去",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項C"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五；字義依參考包kl08-068",
+   "from_pack": "kl08-068"
+  },
+  {
+   "id": "qiuran-56",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "虬髯客騎驢飛快離去，李靖和張氏又驚又怕，過了很久才開口。",
+   "context_before": "靖與張氏且驚懼，久之，曰：「",
+   "sentence": "烈士不欺人，固無畏",
+   "context_after": "。」促鞭而行。",
+   "keywords": [
+    {
+     "word": "烈士",
+     "gloss": "豪邁有志氣的人",
+     "pos": "名詞",
+     "distractors": [
+      "為國犧牲的人",
+      "勇猛的武士",
+      "忠烈的祠堂"
+     ]
+    }
+   ],
+   "meaning": "有志氣的人不會騙人，本來就不必害怕。",
+   "meaning_distractors": [
+    "為國犧牲的人不會欺騙人，大家都不怕死。",
+    "烈士被人欺騙，因此無所畏懼。",
+    "勇士不欺負人，所以堅固而不害怕。"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "19",
+     "quote": "烈士不欺人，固無畏",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項C"
+    }
+   ],
+   "source_note": "龍騰課本注R",
+   "from_pack": "kl08-026"
+  },
+  {
+   "id": "qiuran-57",
+   "lesson": "虬髯客傳",
+   "paragraph": 6,
+   "scene": "李靖依約到馬行東酒樓，看見虬髯客和道士。",
+   "context_before": "攬衣登樓，虬髯與一道士方對飲，",
+   "sentence": "見靖驚喜，召坐環飲。十數巡",
+   "context_after": "，曰：「樓下櫃中有錢十萬。」",
+   "keywords": [
+    {
+     "word": "巡",
+     "gloss": "飲酒的輪次（動量詞）",
+     "pos": "量詞",
+     "distractors": [
+      "巡邏",
+      "一種酒器",
+      "沿著"
+     ]
+    }
+   ],
+   "meaning": "見到李靖又驚又喜，叫他坐下圍著喝酒，喝了十幾輪。",
+   "meaning_distractors": [
+    "見到李靖很驚訝，叫他到處巡邏十幾次。",
+    "見到李靖卻不高興，一個人喝了十幾杯。",
+    "李靖驚喜地坐下，環顧十幾個人。"
+   ],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "14",
+     "quote": "見靖驚喜，召坐環飲。十數巡",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "例句④"
+    }
+   ],
+   "source_note": "龍騰課本注^；鷹架講義(教)單元四步驟2",
+   "from_pack": "kl08-070"
+  },
+  {
+   "id": "qiuran-58",
+   "lesson": "虬髯客傳",
+   "paragraph": 7,
+   "scene": "李世民來看道士下棋，作者描寫他入座後的樣子。",
+   "context_before": "俄而文皇來，精采驚人，長揖就坐，",
+   "sentence": "神清氣朗，滿坐風生，顧盼暐如也",
+   "context_after": "。道士一見慘然。",
+   "keywords": [
+    {
+     "word": "暐如",
+     "gloss": "光亮的樣子（暐，音ㄨㄟˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "溫暖如春",
+      "緩慢的樣子",
+      "憂愁的樣子"
+     ]
+    }
+   ],
+   "meaning": "神情清朗，言談使全場活絡，目光流轉，神采不凡。",
+   "meaning_distractors": [
+    "神情疲憊，風吹滿座，四處張望，十分憂愁。",
+    "滿座的人都起風般離開，他獨自緩慢地看著。",
+    "他神色清冷，看不起座上的人。"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "30",
+     "quote": "神清氣朗，滿坐風生，顧盼暐如也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項C"
+    }
+   ],
+   "source_note": "龍騰課本注O、注P",
+   "from_pack": "kl08-031"
+  },
+  {
+   "id": "qiuran-59",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "張氏阻止李靖發怒後，自己上前應對。",
+   "context_before": "張氏熟觀其面，一手握髮，一手映身搖示，令勿怒。",
+   "sentence": "急急梳頭畢，斂衽前問其姓",
+   "context_after": "。臥客答曰：「姓張。」",
+   "keywords": [
+    {
+     "word": "斂衽",
+     "gloss": "整理衣襟以表恭敬",
+     "pos": "動詞",
+     "distractors": [
+      "收起衣物",
+      "提起裙子逃走",
+      "脫下外衣"
+     ]
+    }
+   ],
+   "meaning": "趕快梳好頭，整理衣襟，恭敬地上前問他姓什麼。",
+   "meaning_distractors": [
+    "趕快梳好頭，脫下外衣，追問他的姓名。",
+    "慢慢梳完頭，收拾行李，不再理他。",
+    "急忙梳頭後，提起裙子逃開。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "32-36",
+     "quote": "急急梳頭畢，斂衽前問其姓",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "共用引文首段①"
+    }
+   ],
+   "source_note": "龍騰課本注!",
+   "from_pack": "kl08-055"
+  },
+  {
+   "id": "qiuran-60",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "scene": "虬髯客說明為什麼放棄爭天下。",
+   "context_before": "或當龍戰三二十載，建少功業。",
+   "sentence": "今既有主，住亦何為",
+   "context_after": "？太原李氏，真英主也。",
+   "keywords": [
+    {
+     "word": "何為",
+     "gloss": "做什麼",
+     "pos": "疑問詞",
+     "distractors": [
+      "為什麼",
+      "怎麼樣",
+      "為了誰"
+     ]
+    }
+   ],
+   "meaning": "如今天下既然已有真主，留下來又能做什麼？",
+   "meaning_distractors": [
+    "如今已經有家，住在這裡是為了誰？",
+    "主人已經回來，住客為什麼還不走？",
+    "今天既然有主人，住哪裡都可以。"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "21",
+     "quote": "今既有主，住亦何為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "異文引句",
+     "location": "資料乙"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五步驟1；字義依參考包kl08-037",
+   "from_pack": "kl08-037"
+  },
+  {
+   "id": "qiuran-61",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "scene": "虬髯客預言李靖未來的前途。",
+   "context_before": "太原李氏，真英主也。三五年內，即當太平。",
+   "sentence": "李郎以英特之才，輔清平之主，竭心盡善，必極人臣",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "極",
+     "gloss": "達到最高地位",
+     "pos": "動詞",
+     "distractors": [
+      "非常",
+      "盡頭",
+      "疲倦"
+     ]
+    }
+   ],
+   "meaning": "李郎憑傑出的才能輔佐太平君主，盡心盡力，必定做到臣子的最高地位。",
+   "meaning_distractors": [
+    "李郎才能出眾，輔佐君主太累，一定會疲倦不堪。",
+    "李郎雖有才能，但做臣子一定非常辛苦而無成。",
+    "李郎要自己當清平之主，讓臣子都盡心盡力。"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "21",
+     "quote": "李郎以英特之才，輔清平之主，竭心盡善，必極人臣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "異文引句",
+     "location": "資料乙"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五步驟3；字義依參考包kl08-038",
+   "from_pack": "kl08-038"
+  }
+ ]
+}

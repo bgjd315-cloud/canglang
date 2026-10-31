@@ -1,0 +1,2035 @@
+{
+ "lesson_id": "shishuo",
+ "lesson": "師說",
+ "author": "韓愈",
+ "tagline": "拜師，為何成了笑柄",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "shishuo-01",
+   "lesson": "師說",
+   "paragraph": 1,
+   "scene": "全文開頭，韓愈先提出一個斬釘截鐵的主張。",
+   "context_before": "",
+   "sentence": "古之學者必有師",
+   "context_after": "。師者，所以傳道、受業、解惑也。人非生而知之者，孰能無惑？惑而不從師，其為惑也終不解矣！",
+   "keywords": [
+    {
+     "word": "學者",
+     "gloss": "求學的人",
+     "pos": "名詞",
+     "distractors": [
+      "有學問的專家",
+      "學校的老師",
+      "研究學術的人"
+     ]
+    },
+    {
+     "word": "必",
+     "gloss": "一定",
+     "pos": "副詞",
+     "distractors": [
+      "必須",
+      "也許",
+      "大多"
+     ]
+    }
+   ],
+   "meaning": "古代求學的人一定有老師。第一句就立下全篇主張。",
+   "meaning_distractors": [
+    "古代的學者一定要收學生。",
+    "古代有學問的人都當老師。",
+    "古代的專家大多不需要老師。"
+   ],
+   "source_note": "龍騰課本注1；鷹架講義(教)單元二導讀",
+   "from_pack": [
+    "kl07-001"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "古之學者必有師",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-02",
+   "lesson": "師說",
+   "paragraph": 1,
+   "scene": "韓愈說明老師這個角色要做哪些事。",
+   "context_before": "古之學者必有師。",
+   "sentence": "師者，所以傳道、受業、解惑也",
+   "context_after": "。人非生而知之者，孰能無惑？惑而不從師，其為惑也終不解矣！",
+   "keywords": [
+    {
+     "word": "所以",
+     "gloss": "用來",
+     "pos": "連詞",
+     "distractors": [
+      "為什麼",
+      "因此",
+      "……的原因"
+     ]
+    },
+    {
+     "word": "受",
+     "gloss": "通「授」，教授",
+     "pos": "動詞",
+     "distractors": [
+      "接受",
+      "遭受",
+      "承受"
+     ]
+    },
+    {
+     "word": "業",
+     "gloss": "學業，泛指經史百家的作品",
+     "pos": "名詞",
+     "distractors": [
+      "職業",
+      "事業",
+      "功績"
+     ]
+    }
+   ],
+   "meaning": "老師是用來傳授道理、教授學業、解答疑惑的人。",
+   "meaning_distractors": [
+    "老師是因此傳播道理、接受學業、製造疑惑的人。",
+    "老師是接受道理、從事職業、解決糾紛的人。",
+    "老師傳授道理的原因，是為了得到事業與名聲。"
+   ],
+   "confusables": [
+    {
+     "word": "受",
+     "other": "「受」益良多",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "通「授」，教授／接受"
+    },
+    {
+     "word": "所以",
+     "other": "聖人之「所以」為聖",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "用來／何以、為什麼"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟1、步驟2比一比；龍騰課本注2；語文演練字詞義辨析",
+   "from_pack": [
+    "kl07-002"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "師者，所以傳道、受業、解惑也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-03",
+   "lesson": "師說",
+   "paragraph": 1,
+   "scene": "韓愈解釋為什麼每個人都需要老師。",
+   "context_before": "古之學者必有師。師者，所以傳道、受業、解惑也。",
+   "sentence": "人非生而知之者，孰能無惑",
+   "context_after": "？惑而不從師，其為惑也終不解矣！",
+   "keywords": [
+    {
+     "word": "孰",
+     "gloss": "誰（音ㄕㄨˊ）",
+     "pos": "疑問代詞",
+     "distractors": [
+      "哪裡",
+      "什麼",
+      "為何"
+     ]
+    }
+   ],
+   "meaning": "人不是生下來就什麼都懂，誰能沒有疑惑？",
+   "meaning_distractors": [
+    "人不是生下來就會迷惑，為何還要解惑？",
+    "人若生來就懂道理，哪裡還會有疑惑？",
+    "生下來就懂的人，什麼疑惑都能解決。"
+   ],
+   "confusables": [
+    {
+     "word": "孰",
+     "other": "人非聖賢，「孰」能無過",
+     "other_lesson": "俗語",
+     "same": true,
+     "note": "都作「誰」"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟2比一比；語文演練形音義彙整",
+   "from_pack": [
+    "kl07-003"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "人非生而知之者，孰能無惑",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12",
+     "quote": "人非生而知之者，孰能無惑",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項A"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-04",
+   "lesson": "師說",
+   "paragraph": 1,
+   "scene": "韓愈說明問題放著不去請教，會有什麼結果。",
+   "context_before": "師者，所以傳道、受業、解惑也。人非生而知之者，孰能無惑？",
+   "sentence": "惑而不從師，其為惑也終不解矣",
+   "context_after": "！生乎吾前，其聞道也，固先乎吾，吾從而師之；",
+   "keywords": [
+    {
+     "word": "其",
+     "gloss": "那些（代詞）",
+     "pos": "代詞",
+     "distractors": [
+      "大概",
+      "難道",
+      "如果"
+     ]
+    },
+    {
+     "word": "從師",
+     "gloss": "跟老師學習",
+     "pos": "動詞",
+     "distractors": [
+      "當老師",
+      "順從老師",
+      "跟隨軍隊"
+     ]
+    }
+   ],
+   "meaning": "有疑惑卻不向老師請教，那些疑惑終究解不開。",
+   "meaning_distractors": [
+    "有疑惑又不跟老師學，大概是因為問題太難解開。",
+    "疑惑不必靠老師，時間久了終究自然會解開。",
+    "老師有疑惑卻不說，弟子的問題也終究解不開。"
+   ],
+   "confusables": [
+    {
+     "word": "其",
+     "other": "「其」皆出於此乎",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "那些（代詞）／大概（推測）"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀；龍騰課本注3；語文演練字詞義辨析",
+   "from_pack": [
+    "kl07-004"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "惑而不從師，其為惑也終不解矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "14",
+     "quote": "惑而不從師，其為惑也終不解矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "題幹"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-05",
+   "lesson": "師說",
+   "paragraph": 2,
+   "scene": "韓愈談選老師的標準，先說比自己年長的人。",
+   "context_before": "惑而不從師，其為惑也終不解矣！",
+   "sentence": "生乎吾前，其聞道也，固先乎吾，吾從而師之",
+   "context_after": "；生乎吾後，其聞道也，亦先乎吾，吾從而師之。",
+   "keywords": [
+    {
+     "word": "固",
+     "gloss": "本來",
+     "pos": "副詞",
+     "distractors": [
+      "堅固",
+      "固執",
+      "必定"
+     ]
+    },
+    {
+     "word": "師",
+     "gloss": "學習（動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "老師",
+      "軍隊",
+      "樂師"
+     ]
+    }
+   ],
+   "meaning": "比我早出生的人，懂道理本來就比我早，我跟從他向他學習。",
+   "meaning_distractors": [
+    "比我早出生的人，懂道理一定很堅定，我跟隨他的軍隊。",
+    "比我早出生的人，道理未必比我懂，我仍請他當學生。",
+    "在我面前出生的人，固執己見，我便不再跟他學習。"
+   ],
+   "confusables": [
+    {
+     "word": "固",
+     "other": "「固」若金湯",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "本來／堅固"
+    },
+    {
+     "word": "師",
+     "other": "惑而不從「師」",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "學習（動詞）／老師（名詞）"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟2比一比；龍騰課本注5；學習講義p.79",
+   "from_pack": [
+    "kl07-005"
+   ],
+   "needs_review": true,
+   "review_note": "師字：課本注5與學習講義作「學習」，參考包作「以為師」。依序採課本，請老師確認。",
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "生乎吾前，其聞道也，固先乎吾，吾從而師之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-06",
+   "lesson": "師說",
+   "paragraph": 2,
+   "scene": "韓愈接著說比自己年輕的人，該怎麼看待。",
+   "context_before": "生乎吾前，其聞道也，固先乎吾，吾從而師之；",
+   "sentence": "生乎吾後，其聞道也，亦先乎吾，吾從而師之",
+   "context_after": "。吾師道也，夫庸知其年之先後生於吾乎？",
+   "keywords": [
+    {
+     "word": "聞",
+     "gloss": "懂得，本義是聽到",
+     "pos": "動詞",
+     "distractors": [
+      "名聲",
+      "用鼻子嗅",
+      "見聞廣博"
+     ]
+    }
+   ],
+   "meaning": "比我晚出生的人，懂道理若也比我早，我也跟從他向他學習。",
+   "meaning_distractors": [
+    "比我晚出生的人，名聲若比我大，我也跟從他向他學習。",
+    "比我晚出生的人，一定比我懂得少，我不必向他學習。",
+    "比我晚出生的人，聽說道理後也要跟從我向我學習。"
+   ],
+   "source_note": "鷹架講義(教)單元二導讀；龍騰課本注4、注5",
+   "from_pack": [
+    "kl07-006"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "生乎吾後，其聞道也，亦先乎吾，吾從而師之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-07",
+   "lesson": "師說",
+   "paragraph": 2,
+   "scene": "韓愈說明自己拜師時，到底在意的是什麼。",
+   "context_before": "生乎吾後，其聞道也，亦先乎吾，吾從而師之。",
+   "sentence": "吾師道也，夫庸知其年之先後生於吾乎",
+   "context_after": "？是故無貴、無賤、無長、無少，道之所存，師之所存也。",
+   "keywords": [
+    {
+     "word": "師",
+     "gloss": "學習（動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "老師",
+      "榜樣",
+      "教導"
+     ]
+    },
+    {
+     "word": "夫",
+     "gloss": "發語詞（音ㄈㄨˊ），無義",
+     "pos": "助詞",
+     "distractors": [
+      "丈夫",
+      "那個人",
+      "成年男子"
+     ]
+    },
+    {
+     "word": "庸",
+     "gloss": "豈、哪裡（表反詰）",
+     "pos": "副詞",
+     "distractors": [
+      "平凡",
+      "任用",
+      "功勞"
+     ]
+    }
+   ],
+   "meaning": "我學的是道理，哪裡需要知道他出生比我早還是晚呢？",
+   "meaning_distractors": [
+    "我教的是道理，平凡人不必知道我比他早還是晚生。",
+    "老師的道理，丈夫怎能知道他年紀比我大還是小。",
+    "我學的是道理，所以一定要先問清楚他的年紀。"
+   ],
+   "confusables": [
+    {
+     "word": "師",
+     "other": "「師」道之不傳也久矣",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "學習（動詞）／從師問學的（形容詞）"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟1；龍騰課本注6、注7；學習講義p.77 Q4、p.79",
+   "from_pack": [
+    "kl07-007"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "吾師道也，夫庸知其年之先後生於吾乎",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12",
+     "quote": "吾師道也，夫庸知其年之先後生於吾乎",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-08",
+   "lesson": "師說",
+   "paragraph": 2,
+   "scene": "韓愈歸結第二段，說出全文選老師的標準。",
+   "context_before": "吾師道也，夫庸知其年之先後生於吾乎？",
+   "sentence": "是故無貴、無賤、無長、無少，道之所存，師之所存也",
+   "context_after": "。嗟乎！師道之不傳也久矣！",
+   "keywords": [
+    {
+     "word": "無",
+     "gloss": "不論",
+     "pos": "連詞",
+     "distractors": [
+      "沒有",
+      "不要",
+      "不可"
+     ]
+    }
+   ],
+   "meaning": "所以不論地位高低、年紀大小，道理在哪裡，老師就在哪裡。全文主旨句。",
+   "meaning_distractors": [
+    "所以沒有貴賤長幼的人，才能保存道理，成為老師。",
+    "所以不要與富貴長者往來，道理要靠老師保存。",
+    "所以老師一定要年長位高，才能保存道理。"
+   ],
+   "source_note": "鷹架講義(教)單元一步驟3、單元五步驟1；龍騰課本注8；學習講義p.76重點句意",
+   "from_pack": [
+    "kl07-008"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "是故無貴、無賤、無長、無少，道之所存，師之所存也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-09",
+   "lesson": "師說",
+   "paragraph": 3,
+   "scene": "第三段開頭，韓愈對當時的風氣發出感嘆。",
+   "context_before": "道之所存，師之所存也。嗟乎！",
+   "sentence": "師道之不傳也久矣！欲人之無惑也難矣",
+   "context_after": "！古之聖人，其出人也遠矣，猶且從師而問焉；",
+   "keywords": [
+    {
+     "word": "師道",
+     "gloss": "從師問學的傳統",
+     "pos": "名詞",
+     "distractors": [
+      "學習道理",
+      "老師的權威",
+      "老師的教法"
+     ]
+    }
+   ],
+   "meaning": "從師問學的傳統不流傳已經很久了！要人沒有疑惑也就很難了！",
+   "meaning_distractors": [
+    "老師的權威不再被人傳頌已經很久了！要人不迷信也很難！",
+    "老師傳授道理的方式已經很老舊了！想讓人明白實在很難！",
+    "學習道理已經不是秘密了！要人沒有疑惑其實並不難！"
+   ],
+   "confusables": [
+    {
+     "word": "師道",
+     "other": "吾「師道」也",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "從師問學的傳統／學習道理"
+    }
+   ],
+   "source_note": "龍騰課本注9；學習講義p.77 Q4；鷹架講義(教)單元三導讀；課本作「不傳」，參考包底本作「不存」",
+   "from_pack": [
+    "kl07-009"
+   ]
+  },
+  {
+   "id": "shishuo-10",
+   "lesson": "師說",
+   "paragraph": 3,
+   "scene": "韓愈先舉古代聖人的做法，作為對比的一方。",
+   "context_before": "嗟乎！師道之不傳也久矣！欲人之無惑也難矣！",
+   "sentence": "古之聖人，其出人也遠矣，猶且從師而問焉",
+   "context_after": "；今之眾人，其下聖人也亦遠矣，而恥學於師。",
+   "keywords": [
+    {
+     "word": "出",
+     "gloss": "超出",
+     "pos": "動詞",
+     "distractors": [
+      "出現",
+      "離開",
+      "生產"
+     ]
+    },
+    {
+     "word": "猶且",
+     "gloss": "尚且",
+     "pos": "副詞",
+     "distractors": [
+      "好像",
+      "依然",
+      "況且"
+     ]
+    }
+   ],
+   "meaning": "古代的聖人，才智超出一般人很多，尚且向老師請教。",
+   "meaning_distractors": [
+    "古代的聖人，離開眾人很遠，好像還會跟老師問路。",
+    "古代的聖人，出現的時間很遠，依然有老師來請教他。",
+    "古代的聖人，才智超出眾人，所以不必再向老師請教。"
+   ],
+   "confusables": [
+    {
+     "word": "出",
+     "other": "「出」類拔萃",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "都作「超出」"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2比一比；龍騰課本注0",
+   "from_pack": [
+    "kl07-010"
+   ]
+  },
+  {
+   "id": "shishuo-11",
+   "lesson": "師說",
+   "paragraph": 3,
+   "scene": "韓愈再舉當時人們的態度，作為對比的另一方。",
+   "context_before": "古之聖人，其出人也遠矣，猶且從師而問焉；",
+   "sentence": "今之眾人，其下聖人也亦遠矣，而恥學於師",
+   "context_after": "。是故聖益聖，愚益愚，",
+   "keywords": [
+    {
+     "word": "下",
+     "gloss": "低於、不如",
+     "pos": "動詞",
+     "distractors": [
+      "下面",
+      "降下",
+      "謙遜"
+     ]
+    },
+    {
+     "word": "恥學於師",
+     "gloss": "以從師問學為恥",
+     "pos": "動詞",
+     "distractors": [
+      "羞於當老師",
+      "恥於教導別人",
+      "怕被老師羞辱"
+     ]
+    },
+    {
+     "word": "眾人",
+     "gloss": "一般人",
+     "pos": "名詞",
+     "distractors": [
+      "很多人",
+      "眾位聖人",
+      "全部的人"
+     ]
+    },
+    {
+     "word": "於",
+     "gloss": "向",
+     "pos": "介詞",
+     "distractors": [
+      "比",
+      "被",
+      "對於"
+     ]
+    }
+   ],
+   "meaning": "現在的一般人，才智比聖人低很多，卻以向老師學習為恥。",
+   "meaning_distractors": [
+    "現在的眾多聖人，地位低於常人，卻羞於當老師。",
+    "現在的一般人，已經超過聖人很多，所以不必跟老師學。",
+    "現在的很多人，在聖人底下學習，怕被老師羞辱。"
+   ],
+   "confusables": [
+    {
+     "word": "下",
+     "other": "每況愈「下」",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "低於／低落"
+    },
+    {
+     "word": "於",
+     "other": "不拘「於」時",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "向／被"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2比一比；龍騰課本注q、注w；學習講義p.80",
+   "from_pack": [
+    "kl07-011"
+   ]
+  },
+  {
+   "id": "shishuo-12",
+   "lesson": "師說",
+   "paragraph": 3,
+   "scene": "韓愈說明這兩種態度造成了什麼結果。",
+   "context_before": "今之眾人，其下聖人也亦遠矣，而恥學於師。是故",
+   "sentence": "聖益聖，愚益愚",
+   "context_after": "，聖人之所以為聖，愚人之所以為愚，其皆出於此乎！",
+   "keywords": [
+    {
+     "word": "益",
+     "gloss": "更加",
+     "pos": "副詞",
+     "distractors": [
+      "好處",
+      "增加",
+      "利益"
+     ]
+    }
+   ],
+   "meaning": "聖人越來越聖明，愚人越來越愚昧。",
+   "meaning_distractors": [
+    "聖人有好處，愚人也能得到好處。",
+    "聖人幫助聖人，愚人也幫助愚人。",
+    "聖人變得愚昧，愚人變得聖明。"
+   ],
+   "confusables": [
+    {
+     "word": "益",
+     "other": "「益」發明顯",
+     "other_lesson": "詞語",
+     "same": true,
+     "note": "都作「更加」"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2比一比",
+   "from_pack": [
+    "kl07-012"
+   ]
+  },
+  {
+   "id": "shishuo-13",
+   "lesson": "師說",
+   "paragraph": 3,
+   "scene": "韓愈回頭思考聖人與愚人之間的差距。",
+   "context_before": "是故聖益聖，愚益愚，",
+   "sentence": "聖人之所以為聖，愚人之所以為愚，其皆出於此乎",
+   "context_after": "！愛其子，擇師而教之，於其身也則恥師焉，惑矣！",
+   "keywords": [
+    {
+     "word": "所以",
+     "gloss": "何以、為什麼",
+     "pos": "連詞",
+     "distractors": [
+      "用來",
+      "因此",
+      "憑藉"
+     ]
+    },
+    {
+     "word": "其",
+     "gloss": "大概（表推測）",
+     "pos": "副詞",
+     "distractors": [
+      "那些",
+      "他的",
+      "難道"
+     ]
+    }
+   ],
+   "meaning": "聖人成為聖人、愚人成為愚人的原因，大概都出於這一點吧！指是否從師問學。",
+   "meaning_distractors": [
+    "聖人用來成聖、愚人用來變愚的方法，難道都是出於老師嗎！",
+    "聖人和愚人都是天生的，因此他們的差別都在這裡！",
+    "聖人之所以聖明，一定只因他們出身高貴！"
+   ],
+   "confusables": [
+    {
+     "word": "其",
+     "other": "「其」為惑也終不解矣",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "大概（推測）／那些（代詞）"
+    },
+    {
+     "word": "所以",
+     "other": "師者，「所以」傳道",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "何以、為什麼／用來"
+    }
+   ],
+   "source_note": "龍騰課本注e、注r；語文演練字詞義辨析；鷹架講義(教)單元三步驟1；學習講義p.76",
+   "from_pack": [
+    "kl07-013"
+   ]
+  },
+  {
+   "id": "shishuo-14",
+   "lesson": "師說",
+   "paragraph": 4,
+   "scene": "韓愈批評士大夫對孩子和對自己的兩套標準。",
+   "context_before": "聖人之所以為聖，愚人之所以為愚，其皆出於此乎！",
+   "sentence": "愛其子，擇師而教之，於其身也則恥師焉，惑矣",
+   "context_after": "！彼童子之師，授之書而習其句讀者也，",
+   "keywords": [
+    {
+     "word": "恥師",
+     "gloss": "以從師問學為恥",
+     "pos": "動詞",
+     "distractors": [
+      "羞辱老師",
+      "以當老師為恥",
+      "不敢面對老師"
+     ]
+    },
+    {
+     "word": "於",
+     "gloss": "對於",
+     "pos": "介詞",
+     "distractors": [
+      "比",
+      "被",
+      "向"
+     ]
+    },
+    {
+     "word": "惑",
+     "gloss": "糊塗",
+     "pos": "形容詞",
+     "distractors": [
+      "疑問",
+      "誘惑",
+      "迷戀"
+     ]
+    }
+   ],
+   "meaning": "愛自己的孩子，就選老師教他，對自己卻以從師為恥，真是糊塗！",
+   "meaning_distractors": [
+    "愛自己的孩子，就親自教他，對老師卻十分羞辱，真是誘惑！",
+    "愛自己的孩子，讓他當老師，自己則以當老師為恥，真是疑惑！",
+    "愛老師的孩子，就替他選老師，自己卻不敢面對老師，真是迷戀！"
+   ],
+   "confusables": [
+    {
+     "word": "於",
+     "other": "師不必賢「於」弟子",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "對於／比"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四導讀、步驟1；龍騰課本注t；學習講義p.80；課本作「於其身也」，參考包作「於其身」",
+   "from_pack": [
+    "kl07-014"
+   ]
+  },
+  {
+   "id": "shishuo-15",
+   "lesson": "師說",
+   "paragraph": 4,
+   "scene": "韓愈說明替孩子找來的老師，教的是什麼。",
+   "context_before": "愛其子，擇師而教之，於其身也則恥師焉，惑矣！",
+   "sentence": "彼童子之師，授之書而習其句讀者也，非吾所謂傳其道、解其惑者也",
+   "context_after": "。句讀之不知，惑之不解，",
+   "keywords": [
+    {
+     "word": "句讀",
+     "gloss": "文章的斷句（音ㄐㄩˋ ㄉㄡˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "文章的主旨",
+      "文章的字音",
+      "文章的注解"
+     ]
+    }
+   ],
+   "meaning": "那些孩子的老師，只是教書、練習斷句，不是我所說傳授道理、解答疑惑的老師。",
+   "meaning_distractors": [
+    "那些孩子的老師，既教書又傳授道理，正是我所說解答疑惑的老師。",
+    "那些孩子的老師，只教文章字音，不是我所說傳授學業的學者。",
+    "那些教孩子朗讀的人，都是我所說能解答疑惑的好老師。"
+   ],
+   "source_note": "龍騰課本注y；語文演練字音辨正；鷹架講義(教)單元四導讀",
+   "from_pack": [
+    "kl07-015"
+   ]
+  },
+  {
+   "id": "shishuo-16",
+   "lesson": "師說",
+   "paragraph": 4,
+   "scene": "韓愈分析人們遇到兩種不懂的狀況時，各自怎麼處理。",
+   "context_before": "彼童子之師，授之書而習其句讀者也，非吾所謂傳其道、解其惑者也。",
+   "sentence": "句讀之不知，惑之不解，或師焉，或不焉",
+   "context_after": "，小學而大遺，吾未見其明也。",
+   "keywords": [
+    {
+     "word": "或",
+     "gloss": "有的",
+     "pos": "代詞",
+     "distractors": [
+      "或許",
+      "或者",
+      "有時"
+     ]
+    },
+    {
+     "word": "或不焉",
+     "gloss": "有的不從師（不，通「否」，音ㄈㄡˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "有的不知道",
+      "或許不是這樣",
+      "有時不在場"
+     ]
+    }
+   ],
+   "meaning": "不懂斷句的會去從師，有疑惑不能解決的卻不從師。語序交錯，屬錯綜。",
+   "meaning_distractors": [
+    "不懂斷句的不從師，有疑惑不能解決的才去從師。",
+    "不懂斷句或不能解惑的人，或許都不用老師。",
+    "有的老師不懂斷句，有的老師不能解惑。"
+   ],
+   "source_note": "龍騰課本注u；語文演練形音義彙整、修辭辨析；學習講義p.78錯綜。對應kl07-016前半；111-26只引後半，故不帶出處",
+   "from_pack": []
+  },
+  {
+   "id": "shishuo-17",
+   "lesson": "師說",
+   "paragraph": 4,
+   "scene": "韓愈替前面士大夫的做法下評語。",
+   "context_before": "句讀之不知，惑之不解，或師焉，或不焉，",
+   "sentence": "小學而大遺",
+   "context_after": "，吾未見其明也。巫醫、樂師、百工之人，不恥相師；",
+   "keywords": [
+    {
+     "word": "小",
+     "gloss": "句讀",
+     "pos": "名詞",
+     "distractors": [
+      "孩子",
+      "短文",
+      "小學校"
+     ]
+    },
+    {
+     "word": "大",
+     "gloss": "道與業的疑惑",
+     "pos": "名詞",
+     "distractors": [
+      "大人",
+      "長文",
+      "大學校"
+     ]
+    },
+    {
+     "word": "遺",
+     "gloss": "遺漏",
+     "pos": "動詞",
+     "distractors": [
+      "遺留",
+      "贈送",
+      "遺憾"
+     ]
+    }
+   ],
+   "meaning": "學了斷句這種小事，卻丟了道理與解惑這種大事。",
+   "meaning_distractors": [
+    "孩子上小學時，大人卻把他們遺棄了。",
+    "小孩學得少，大人留給他們的東西卻很多。",
+    "學習短文之後，長文就可以留到以後再讀。"
+   ],
+   "confusables": [
+    {
+     "word": "遺",
+     "other": "一覽無「遺」",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "都作「遺漏」"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟1、步驟2比一比；龍騰課本注i；語文演練文意搜查第3題",
+   "from_pack": [
+    "kl07-016"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "26",
+     "quote": "小學而大遺",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項C前句"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-18",
+   "lesson": "師說",
+   "paragraph": 4,
+   "scene": "韓愈對士大夫的做法給出結論。",
+   "context_before": "句讀之不知，惑之不解，或師焉，或不焉，小學而大遺，",
+   "sentence": "吾未見其明也",
+   "context_after": "。巫醫、樂師、百工之人，不恥相師；",
+   "keywords": [
+    {
+     "word": "見",
+     "gloss": "看出",
+     "pos": "動詞",
+     "distractors": [
+      "通「現」，顯現",
+      "拜見",
+      "看見東西"
+     ]
+    },
+    {
+     "word": "明",
+     "gloss": "明智",
+     "pos": "形容詞",
+     "distractors": [
+      "看得清楚",
+      "明亮",
+      "明白告知"
+     ]
+    }
+   ],
+   "meaning": "我看不出這樣有什麼明智。",
+   "meaning_distractors": [
+    "我還沒看見他們的光明前途。",
+    "我沒有拜見過這樣明白的人。",
+    "我還不明白他們的意思。"
+   ],
+   "confusables": [
+    {
+     "word": "見",
+     "other": "鬚眉畢「見」",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "看出／通「現」，顯現，111 學測第 26 題原組合"
+    },
+    {
+     "word": "明",
+     "other": "「明」察秋毫",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "明智／看得清楚"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四導讀、步驟2比一比；111學測第26題",
+   "from_pack": [
+    "kl07-017"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "26",
+     "quote": "吾未見其明也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項C前句"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-19",
+   "lesson": "師說",
+   "paragraph": 5,
+   "scene": "第五段，韓愈先說一群靠手藝吃飯的人如何看待學習。",
+   "context_before": "小學而大遺，吾未見其明也。",
+   "sentence": "巫醫、樂師、百工之人，不恥相師",
+   "context_after": "；士大夫之族，曰師、曰弟子云者，則群聚而笑之。",
+   "keywords": [
+    {
+     "word": "不恥",
+     "gloss": "不以……為恥",
+     "pos": "動詞",
+     "distractors": [
+      "不屑與之同列",
+      "不知羞恥",
+      "不懂恥辱"
+     ]
+    },
+    {
+     "word": "相師",
+     "gloss": "互相拜師學習",
+     "pos": "動詞",
+     "distractors": [
+      "輔助老師",
+      "相信老師",
+      "面見老師"
+     ]
+    },
+    {
+     "word": "百工",
+     "gloss": "各種工匠",
+     "pos": "名詞",
+     "distractors": [
+      "各種官員",
+      "上百位工人",
+      "各種工程"
+     ]
+    }
+   ],
+   "meaning": "巫師、醫生、樂師和各種工匠，不以互相學習為恥。",
+   "meaning_distractors": [
+    "巫師、醫生、樂師和各種官員，都不屑與老師同列。",
+    "巫師、醫生和樂師不知羞恥，只相信自己的老師。",
+    "上百位工匠和巫醫樂師，不敢面見自己的老師。"
+   ],
+   "confusables": [
+    {
+     "word": "不恥",
+     "other": "君子「不齒」",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "不以……為恥／不屑與之同列，字音相同要辨字形"
+    }
+   ],
+   "source_note": "龍騰課本注o、注a、注s；學習講義p.81不齒vs.不恥；語文演練形音義彙整",
+   "from_pack": [
+    "kl07-018"
+   ]
+  },
+  {
+   "id": "shishuo-20",
+   "lesson": "師說",
+   "paragraph": 5,
+   "scene": "韓愈寫士大夫一聽到有人談拜師時的反應。",
+   "context_before": "巫醫、樂師、百工之人，不恥相師；",
+   "sentence": "士大夫之族，曰師、曰弟子云者，則群聚而笑之",
+   "context_after": "。問之，則曰：「彼與彼年相若也，道相似也。」",
+   "keywords": [
+    {
+     "word": "族",
+     "gloss": "類",
+     "pos": "名詞",
+     "distractors": [
+      "家族",
+      "民族",
+      "聚集"
+     ]
+    },
+    {
+     "word": "云者",
+     "gloss": "語尾助詞，有「如此等等」的意味",
+     "pos": "助詞",
+     "distractors": [
+      "說話的人",
+      "引用的話",
+      "雲一般多的人"
+     ]
+    }
+   ],
+   "meaning": "士大夫這類人，一聽到稱老師、稱弟子這些話，就聚在一起取笑。",
+   "meaning_distractors": [
+    "士大夫家族中，當老師和弟子的人，常聚在一起說笑。",
+    "士大夫這類人，常常聚集老師和弟子，一起開懷談笑。",
+    "士大夫的民族，師生說話的時候，大家都安靜聆聽。"
+   ],
+   "source_note": "龍騰課本注d、注f；鷹架講義(教)單元五導讀",
+   "from_pack": [
+    "kl07-019"
+   ]
+  },
+  {
+   "id": "shishuo-21",
+   "lesson": "師說",
+   "paragraph": 5,
+   "scene": "有人問士大夫為什麼要取笑拜師的人，士大夫這樣回答。",
+   "context_before": "士大夫之族，曰師、曰弟子云者，則群聚而笑之。問之，則曰：「",
+   "sentence": "彼與彼年相若也，道相似也",
+   "context_after": "。」位卑則足羞，官盛則近諛。",
+   "keywords": [
+    {
+     "word": "相",
+     "gloss": "互相",
+     "pos": "副詞",
+     "distractors": [
+      "相貌",
+      "輔助",
+      "察看"
+     ]
+    }
+   ],
+   "meaning": "他和他年紀差不多，學問也差不多。",
+   "meaning_distractors": [
+    "他長得很像他，道理也講得一樣。",
+    "他比他年長許多，學問也比他好。",
+    "他的年紀比較輕，懂的道理卻很像古人。"
+   ],
+   "confusables": [
+    {
+     "word": "相",
+     "other": "「相」敬如賓",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "都作「互相」"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五導讀、步驟2比一比；參考包kl07-020作「相若：相近」",
+   "from_pack": [
+    "kl07-020"
+   ],
+   "needs_review": true,
+   "review_note": "鷹架比一比把「年相若」的「相」作「互相」；參考包把「相若」整個作「相近」。依序採鷹架，請老師確認是否要這樣考。"
+  },
+  {
+   "id": "shishuo-22",
+   "lesson": "師說",
+   "paragraph": 5,
+   "scene": "韓愈寫士大夫對拜師對象的心態：不管對方地位高低，都能找到理由。",
+   "context_before": "問之，則曰：「彼與彼年相若也，道相似也。」",
+   "sentence": "位卑則足羞，官盛則近諛",
+   "context_after": "。嗚呼！師道之不復可知矣！",
+   "keywords": [
+    {
+     "word": "卑",
+     "gloss": "低下",
+     "pos": "形容詞",
+     "distractors": [
+      "自卑",
+      "卑鄙",
+      "謙卑"
+     ]
+    },
+    {
+     "word": "足",
+     "gloss": "十分、非常（音ㄗㄨˊ）",
+     "pos": "副詞",
+     "distractors": [
+      "足夠",
+      "滿足",
+      "過分"
+     ]
+    },
+    {
+     "word": "諛",
+     "gloss": "阿諛、諂媚（音ㄩˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "欺騙",
+      "嘲諷",
+      "責備"
+     ]
+    }
+   ],
+   "meaning": "以地位低的人為師就覺得十分羞恥，以官位高的人為師又覺得近於諂媚。上下句條件相反，屬反對。",
+   "meaning_distractors": [
+    "地位低的人足夠害羞，官位高的人靠近時就會嘲諷。",
+    "地位低就值得滿足，官位高的人身邊都是欺騙。",
+    "以地位低的人為師才不羞恥，以官位高的人為師才不諂媚。"
+   ],
+   "confusables": [
+    {
+     "word": "卑",
+     "other": "自「卑」",
+     "other_lesson": "詞語",
+     "same": true,
+     "note": "都作「低下」"
+    },
+    {
+     "word": "足",
+     "other": "巧言、令色、「足」恭",
+     "other_lesson": "論語",
+     "same": false,
+     "note": "十分、非常（ㄗㄨˊ）／過分（ㄐㄩˋ）"
+    }
+   ],
+   "source_note": "龍騰課本注g、注h；鷹架講義(教)單元五步驟1、步驟2比一比；學習講義p.79足；語文演練字形辨識",
+   "from_pack": [
+    "kl07-021"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "36",
+     "quote": "位卑則足羞，官盛則近諛",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "表格D正對欄"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-23",
+   "lesson": "師說",
+   "paragraph": 5,
+   "scene": "韓愈看完士大夫的表現，發出一聲長嘆。",
+   "context_before": "位卑則足羞，官盛則近諛。嗚呼！",
+   "sentence": "師道之不復可知矣",
+   "context_after": "！巫醫、樂師、百工之人，君子不齒，今其智乃反不能及，其可怪也歟！",
+   "keywords": [
+    {
+     "word": "復",
+     "gloss": "恢復",
+     "pos": "動詞",
+     "distractors": [
+      "再",
+      "回答",
+      "報復"
+     ]
+    }
+   ],
+   "meaning": "從師問學的傳統不能恢復，由此可知了！",
+   "meaning_distractors": [
+    "老師的教法不會再有人知道了！",
+    "學習道理不用回答，大家也都知道！",
+    "老師不再報復，大家都可以放心了！"
+   ],
+   "confusables": [
+    {
+     "word": "復",
+     "other": "一去不「復」返",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "恢復／再"
+    },
+    {
+     "word": "復",
+     "other": "克己「復」禮",
+     "other_lesson": "論語",
+     "same": true,
+     "note": "都作「恢復」，112 學測第 26 題"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五導讀、步驟2比一比；學習講義p.77 Q4；112學測第26題",
+   "from_pack": [
+    "kl07-032"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "26",
+     "quote": "師道之不復可知矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項A後句"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-24",
+   "lesson": "師說",
+   "paragraph": 5,
+   "scene": "韓愈把這些工匠與讀書人的見識放在一起比較，感到意外。",
+   "context_before": "嗚呼！師道之不復可知矣！",
+   "sentence": "巫醫、樂師、百工之人，君子不齒，今其智乃反不能及，其可怪也歟",
+   "context_after": "！聖人無常師：孔子師郯子、萇弘、師襄、老聃。",
+   "keywords": [
+    {
+     "word": "君子",
+     "gloss": "上文的士大夫",
+     "pos": "名詞",
+     "distractors": [
+      "品德高尚的人",
+      "在位的國君",
+      "孔子的弟子"
+     ]
+    },
+    {
+     "word": "不齒",
+     "gloss": "不屑與之同列",
+     "pos": "動詞",
+     "distractors": [
+      "不以為恥",
+      "牙齒脫落",
+      "不好意思說"
+     ]
+    },
+    {
+     "word": "其",
+     "gloss": "士大夫的",
+     "pos": "代詞",
+     "distractors": [
+      "工匠們的",
+      "孔子的",
+      "大概"
+     ]
+    }
+   ],
+   "meaning": "巫醫、樂師、百工這些人，士大夫看不起，如今士大夫的見識反而比不上他們，真是奇怪啊！",
+   "meaning_distractors": [
+    "巫醫、樂師、百工這些人，品德高尚的人不屑理會，如今他們的見識卻不如士大夫，真奇怪！",
+    "巫醫、樂師、百工這些人，士大夫不以為恥，如今士大夫的見識仍遠遠超過他們，真奇怪！",
+    "巫醫、樂師、百工這些人，國君十分尊敬，如今他們的智慧已趕上士大夫，真奇怪！"
+   ],
+   "confusables": [
+    {
+     "word": "不齒",
+     "other": "不「恥」相師",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "不屑與之同列／不以……為恥"
+    }
+   ],
+   "source_note": "龍騰課本注j；學習講義p.81不齒vs.不恥；鷹架講義(教)單元五導讀",
+   "from_pack": [
+    "kl07-022"
+   ]
+  },
+  {
+   "id": "shishuo-25",
+   "lesson": "師說",
+   "paragraph": 6,
+   "scene": "第六段，韓愈要舉最有分量的例子，先說聖人怎麼學習。",
+   "context_before": "巫醫、樂師、百工之人，君子不齒，今其智乃反不能及，其可怪也歟！",
+   "sentence": "聖人無常師",
+   "context_after": "：孔子師郯子、萇弘、師襄、老聃。",
+   "keywords": [
+    {
+     "word": "常",
+     "gloss": "固定不變",
+     "pos": "形容詞",
+     "distractors": [
+      "時常",
+      "平常",
+      "普通"
+     ]
+    }
+   ],
+   "meaning": "聖人沒有固定的老師。",
+   "meaning_distractors": [
+    "聖人不常常跟老師學習。",
+    "聖人沒有普通的老師。",
+    "聖人平常不需要老師。"
+   ],
+   "confusables": [
+    {
+     "word": "常",
+     "other": "反覆無「常」",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "都作「固定不變」"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元六步驟1比一比；龍騰課本注k；語文演練文意搜查第4題",
+   "from_pack": [
+    "kl07-023"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "聖人無常師",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文乙"
+    },
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12",
+     "quote": "聖人無常師",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項C"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-26",
+   "lesson": "師說",
+   "paragraph": 6,
+   "scene": "韓愈舉孔子為例，列出他曾經請教的人。",
+   "context_before": "聖人無常師：",
+   "sentence": "孔子師郯子、萇弘、師襄、老聃",
+   "context_after": "。郯子之徒，其賢不及孔子。孔子曰：「三人行，則必有我師。」",
+   "keywords": [
+    {
+     "word": "師",
+     "gloss": "學習（動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "老師",
+      "教導",
+      "當老師"
+     ]
+    }
+   ],
+   "meaning": "孔子曾向郯子、萇弘、師襄、老聃學習。",
+   "meaning_distractors": [
+    "孔子曾當過郯子、萇弘、師襄、老聃的老師。",
+    "孔子教導郯子、萇弘、師襄、老聃學習。",
+    "孔子和郯子、萇弘、師襄、老聃一起當老師。"
+   ],
+   "confusables": [
+    {
+     "word": "師",
+     "other": "「師」襄",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "學習（動詞）／專精某種技藝的人，此指樂師"
+    }
+   ],
+   "source_note": "學習講義p.79師；鷹架講義(教)單元六導讀；課本注l、注;、注z、注x",
+   "from_pack": [
+    "kl07-030"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "孔子師郯子、萇弘、師襄、老聃",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文乙"
+    },
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "41",
+     "quote": "孔子師郯子、萇弘、師襄、老聃",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "題幹"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-27",
+   "lesson": "師說",
+   "paragraph": 6,
+   "scene": "韓愈比較孔子和他請教過的那些人。",
+   "context_before": "聖人無常師：孔子師郯子、萇弘、師襄、老聃。",
+   "sentence": "郯子之徒，其賢不及孔子",
+   "context_after": "。孔子曰：「三人行，則必有我師。」",
+   "keywords": [
+    {
+     "word": "子",
+     "gloss": "爵位等級之一",
+     "pos": "名詞",
+     "distractors": [
+      "對男子的美稱",
+      "對老師的尊稱",
+      "孩子"
+     ]
+    },
+    {
+     "word": "徒",
+     "gloss": "輩、類",
+     "pos": "名詞",
+     "distractors": [
+      "弟子",
+      "步行",
+      "只有"
+     ]
+    }
+   ],
+   "meaning": "郯子這些人，他們的賢能比不上孔子。",
+   "meaning_distractors": [
+    "郯子的弟子，賢能遠遠超過孔子。",
+    "只有郯子一個人的賢能比不上孔子。",
+    "郯子和孔子的徒弟，賢能都差不多。"
+   ],
+   "confusables": [
+    {
+     "word": "子",
+     "other": "孔「子」師郯子",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "爵位等級／對男子的美稱"
+    }
+   ],
+   "source_note": "龍騰課本注l、注c；學習講義p.79子。課本作「不及」，參考包底本作「不如」，107學測原卷作「不及」",
+   "from_pack": [
+    "kl07-024"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "郯子之徒，其賢不及孔子",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文乙"
+    },
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12",
+     "quote": "郯子之徒，其賢不及孔子",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-28",
+   "lesson": "師說",
+   "paragraph": 6,
+   "scene": "韓愈引用孔子說過的話，當作說理的根據。",
+   "context_before": "郯子之徒，其賢不及孔子。孔子曰：「",
+   "sentence": "三人行，則必有我師",
+   "context_after": "。」是故弟子不必不如師，師不必賢於弟子。",
+   "keywords": [
+    {
+     "word": "師",
+     "gloss": "可效法的人，或引以為戒的人",
+     "pos": "名詞",
+     "distractors": [
+      "向人學習",
+      "比我年長的人",
+      "有官位的人"
+     ]
+    }
+   ],
+   "meaning": "三個人同行，其中一定有我可以效法或引以為戒的人。",
+   "meaning_distractors": [
+    "三個人同行，其中一定有比我年長的人。",
+    "三個老師同行，其中一定有我的老師。",
+    "三個人一起走路，一定要請一個人當老師。"
+   ],
+   "source_note": "龍騰課本注v；學習講義p.79師；語文演練論證行不行、修辭辨析。參考包kl07-031把此句併入「是故」句，110-37只考「是故」句，故此句不帶出處；此句實際也在107-12～14共用引文內",
+   "from_pack": []
+  },
+  {
+   "id": "shishuo-29",
+   "lesson": "師說",
+   "paragraph": 6,
+   "scene": "韓愈由孔子的話，推出老師與弟子的關係。",
+   "context_before": "郯子之徒，其賢不及孔子。孔子曰：「三人行，則必有我師。」",
+   "sentence": "是故弟子不必不如師，師不必賢於弟子",
+   "context_after": "。聞道有先後，術業有專攻，如是而已。",
+   "keywords": [
+    {
+     "word": "不必",
+     "gloss": "不一定",
+     "pos": "副詞",
+     "distractors": [
+      "不需要",
+      "不可能",
+      "不應該"
+     ]
+    },
+    {
+     "word": "於",
+     "gloss": "比（放在形容詞後表比較）",
+     "pos": "介詞",
+     "distractors": [
+      "被",
+      "向",
+      "對於"
+     ]
+    }
+   ],
+   "meaning": "所以弟子不一定不如老師，老師不一定比弟子賢能。",
+   "meaning_distractors": [
+    "所以弟子不需要超過老師，老師也不應該賢於弟子。",
+    "所以弟子不可能勝過老師，老師被弟子看作賢能。",
+    "所以弟子一定比老師強，老師不必對弟子賢能。"
+   ],
+   "confusables": [
+    {
+     "word": "於",
+     "other": "不拘「於」時",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "比／被"
+    },
+    {
+     "word": "於",
+     "other": "恥學「於」師",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "比／向"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元六導讀、步驟1第2題；學習講義p.80於；110學測第37題",
+   "from_pack": [
+    "kl07-025",
+    "kl07-031"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "是故弟子不必不如師，師不必賢於弟子",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文乙"
+    },
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "37",
+     "quote": "是故弟子不必不如師，師不必賢於弟子",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-30",
+   "lesson": "師說",
+   "paragraph": 6,
+   "scene": "韓愈說明為什麼弟子和老師的高下不是固定的。",
+   "context_before": "孔子曰：「三人行，則必有我師。」是故弟子不必不如師，師不必賢於弟子。",
+   "sentence": "聞道有先後，術業有專攻，如是而已",
+   "context_after": "。李氏子蟠，年十七，好古文，",
+   "keywords": [
+    {
+     "word": "術業",
+     "gloss": "技藝、學問",
+     "pos": "名詞",
+     "distractors": [
+      "法術和職業",
+      "權術與功業",
+      "手術和事業"
+     ]
+    },
+    {
+     "word": "攻",
+     "gloss": "研究、專精",
+     "pos": "動詞",
+     "distractors": [
+      "攻打",
+      "責備",
+      "治理"
+     ]
+    },
+    {
+     "word": "如是",
+     "gloss": "如此",
+     "pos": "代詞",
+     "distractors": [
+      "如果",
+      "好像",
+      "如同"
+     ]
+    }
+   ],
+   "meaning": "懂得道理有先有後，學問技藝各有專門研究，不過如此而已。",
+   "meaning_distractors": [
+    "聽到消息有先有後，法術職業各有專門攻打的對象，如此而已。",
+    "懂得道理有先有後，學問技藝只有一門可以專攻，如果這樣才行。",
+    "道理不必分先後，學問技藝要互相批評，好像就是這樣。"
+   ],
+   "confusables": [
+    {
+     "word": "攻",
+     "other": "「攻」城略地",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "研究、專精／攻打"
+    }
+   ],
+   "source_note": "龍騰課本注b；鷹架講義(教)單元六步驟1比一比（研究、專精）；學習講義p.76；109學測第23題",
+   "from_pack": [
+    "kl07-026"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "12-14",
+     "quote": "聞道有先後，術業有專攻，如是而已",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "共用引文乙"
+    },
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "23",
+     "quote": "聞道有先後，術業有專攻，如是而已",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項A"
+    }
+   ]
+  },
+  {
+   "id": "shishuo-31",
+   "lesson": "師說",
+   "paragraph": 7,
+   "scene": "末段，韓愈介紹這篇文章要送給的那位年輕人。",
+   "context_before": "聞道有先後，術業有專攻，如是而已。",
+   "sentence": "李氏子蟠，年十七，好古文",
+   "context_after": "，六藝經傳，皆通習之。不拘於時，請學於余。",
+   "keywords": [
+    {
+     "word": "子",
+     "gloss": "輩分小、年紀輕的人",
+     "pos": "名詞",
+     "distractors": [
+      "爵位等級",
+      "對老師的尊稱",
+      "你"
+     ]
+    },
+    {
+     "word": "好",
+     "gloss": "喜歡（音ㄏㄠˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "美好",
+      "擅長",
+      "容易"
+     ]
+    },
+    {
+     "word": "古文",
+     "gloss": "先秦、兩漢的散文",
+     "pos": "名詞",
+     "distractors": [
+      "古代的文字",
+      "六朝的駢文",
+      "唐代的時文"
+     ]
+    }
+   ],
+   "meaning": "李家的孩子李蟠，十七歲，喜歡先秦、兩漢的散文。",
+   "meaning_distractors": [
+    "李家的孩子李蟠，十七歲，擅長寫六朝的駢文。",
+    "李氏夫子李蟠，年近七十，喜歡古代的文字。",
+    "李家的孩子李蟠，十七歲，覺得唐代時文很好。"
+   ],
+   "confusables": [
+    {
+     "word": "子",
+     "other": "郯「子」之徒",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "輩分小、年紀輕的人／爵位等級"
+    }
+   ],
+   "source_note": "龍騰課本注n、注m；學習講義p.79子；鷹架講義(教)單元六導讀",
+   "from_pack": []
+  },
+  {
+   "id": "shishuo-32",
+   "lesson": "師說",
+   "paragraph": 7,
+   "scene": "韓愈介紹這位年輕人的學習範圍。",
+   "context_before": "李氏子蟠，年十七，好古文，",
+   "sentence": "六藝經傳，皆通習之",
+   "context_after": "。不拘於時，請學於余。余嘉其能行古道，作〈師說〉以貽之。",
+   "keywords": [
+    {
+     "word": "六藝",
+     "gloss": "六經，即詩、書、禮、樂、易、春秋",
+     "pos": "名詞",
+     "distractors": [
+      "禮樂射御書數",
+      "六種才藝",
+      "六種武術"
+     ]
+    },
+    {
+     "word": "傳",
+     "gloss": "後賢解經之書（音ㄓㄨㄢˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "傳授",
+      "傳記人物",
+      "流傳"
+     ]
+    },
+    {
+     "word": "通習",
+     "gloss": "通曉熟習",
+     "pos": "動詞",
+     "distractors": [
+      "交通學習",
+      "通常練習",
+      "通知演習"
+     ]
+    }
+   ],
+   "meaning": "六經的經文和傳文，他都通曉熟習。",
+   "meaning_distractors": [
+    "禮樂射御書數這些才藝，他都常常練習。",
+    "六種才藝的經典和傳記，他都傳授給別人。",
+    "六經的經文和傳文，他只大略知道一點。"
+   ],
+   "source_note": "龍騰課本注,、注.；鷹架講義(教)單元六導讀",
+   "from_pack": [
+    "kl07-027"
+   ]
+  },
+  {
+   "id": "shishuo-33",
+   "lesson": "師說",
+   "paragraph": 7,
+   "scene": "韓愈說明這位年輕人難得的地方。",
+   "context_before": "李氏子蟠，年十七，好古文，六藝經傳，皆通習之。",
+   "sentence": "不拘於時，請學於余",
+   "context_after": "。余嘉其能行古道，作〈師說〉以貽之。",
+   "keywords": [
+    {
+     "word": "拘",
+     "gloss": "拘束、限制",
+     "pos": "動詞",
+     "distractors": [
+      "拘捕",
+      "抓住",
+      "拘泥小節"
+     ]
+    },
+    {
+     "word": "於",
+     "gloss": "被",
+     "pos": "介詞",
+     "distractors": [
+      "向",
+      "比",
+      "對於"
+     ]
+    },
+    {
+     "word": "時",
+     "gloss": "時俗，指當時恥於從師的風氣",
+     "pos": "名詞",
+     "distractors": [
+      "時間",
+      "當時的年紀",
+      "時機"
+     ]
+    }
+   ],
+   "meaning": "不受時俗限制，向我請教。",
+   "meaning_distractors": [
+    "不受時間限制，隨時教導我。",
+    "不被時機拘束，請我向他學習。",
+    "不拘泥小節，隨時向別人請教。"
+   ],
+   "confusables": [
+    {
+     "word": "於",
+     "other": "師不必賢「於」弟子",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "被／比"
+    }
+   ],
+   "source_note": "龍騰課本注/；學習講義p.80於；語文演練文意搜查第4題",
+   "from_pack": [
+    "kl07-028"
+   ]
+  },
+  {
+   "id": "shishuo-34",
+   "lesson": "師說",
+   "paragraph": 7,
+   "scene": "全文結尾，韓愈交代寫這篇文章的緣由。",
+   "context_before": "李氏子蟠，年十七，好古文，六藝經傳，皆通習之。不拘於時，請學於余。",
+   "sentence": "余嘉其能行古道，作〈師說〉以貽之",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "嘉",
+     "gloss": "讚許",
+     "pos": "動詞",
+     "distractors": [
+      "美好",
+      "喜慶",
+      "增加"
+     ]
+    },
+    {
+     "word": "古道",
+     "gloss": "古人從師問學之道",
+     "pos": "名詞",
+     "distractors": [
+      "古老的道路",
+      "古代的道教",
+      "古人的官位"
+     ]
+    },
+    {
+     "word": "以",
+     "gloss": "為了、用來（表目的）",
+     "pos": "連詞",
+     "distractors": [
+      "因為",
+      "拿",
+      "認為"
+     ]
+    },
+    {
+     "word": "貽",
+     "gloss": "贈送（音ㄧˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "留下",
+      "怠慢",
+      "遺失"
+     ]
+    }
+   ],
+   "meaning": "我讚許他能實行古人從師問學之道，寫了〈師說〉送給他。",
+   "meaning_distractors": [
+    "我很高興他走在古老的道路上，寫了〈師說〉來批評他。",
+    "我因為他能教導古人之道，拿〈師說〉向他請教。",
+    "我讚美古代的道教，寫了〈師說〉留給後人。"
+   ],
+   "confusables": [
+    {
+     "word": "以",
+     "other": "「以」亂易整",
+     "other_lesson": "燭之武退秦師",
+     "same": false,
+     "note": "為了（目的）／用"
+    },
+    {
+     "word": "以",
+     "other": "「以」其無禮於晉",
+     "other_lesson": "燭之武退秦師",
+     "same": false,
+     "note": "為了（目的）／因為"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元六步驟1第1題；龍騰課本注!、注@；113學測第26題",
+   "from_pack": [
+    "kl07-029"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "26",
+     "quote": "余嘉其能行古道，作〈師說〉以貽之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項E"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1012 @@
+{
+ "lesson_id": "wanyou",
+ "lesson": "晚遊六橋待月記",
+ "author": "袁宏道",
+ "tagline": "人人擠著看花，他卻等月",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "wanyou-01",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 1,
+   "scene": "文章一開頭，作者先說他心目中的西湖。",
+   "context_before": "",
+   "sentence": "西湖最盛，為春為月",
+   "context_after": "。一日之盛，為朝煙，為夕嵐。今歲春雪甚盛，梅花為寒所勒，與杏、桃相次開發，尤為奇觀。",
+   "keywords": [
+    {
+     "word": "盛",
+     "gloss": "美（音ㄕㄥˋ）",
+     "pos": "形容詞",
+     "distractors": [
+      "多",
+      "裝盛",
+      "強壯"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "是",
+     "pos": "動詞",
+     "distractors": [
+      "被",
+      "向",
+      "像"
+     ]
+    }
+   ],
+   "meaning": "西湖最美的時候，是春天，是月夜。",
+   "meaning_distractors": [
+    "西湖遊人最多的時候，被春天和月夜占滿。",
+    "西湖最茂盛的草木，都是為了春天和月夜而生。",
+    "西湖最美的是春天，月夜反而不值得看。"
+   ],
+   "source_note": "鷹架講義(教)單元二導讀；龍騰學習講義 p.36「為」字表、p.36 字音辨析（盛）",
+   "from_pack": [
+    "kl10-001"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "30-31",
+     "quote": "西湖最盛，為春為月",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文乙前兩句"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-02",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 1,
+   "scene": "作者把範圍縮小，談一天之中的西湖。",
+   "context_before": "西湖最盛，為春為月。",
+   "sentence": "一日之盛，為朝煙，為夕嵐",
+   "context_after": "。今歲春雪甚盛，梅花為寒所勒，與杏、桃相次開發，尤為奇觀。",
+   "keywords": [
+    {
+     "word": "嵐",
+     "gloss": "山中的霧氣",
+     "pos": "名詞",
+     "distractors": [
+      "傍晚的霞光",
+      "山間的清風",
+      "水面的波紋"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "是",
+     "pos": "動詞",
+     "distractors": [
+      "被",
+      "向",
+      "像"
+     ]
+    }
+   ],
+   "meaning": "一天裡最美的時候，是早晨的煙霧和傍晚的山氣。",
+   "meaning_distractors": [
+    "一天裡遊人最多的時候，在早晨和傍晚的市集。",
+    "一天的盛況，都被早晨的炊煙和傍晚的霞光遮住。",
+    "一天裡最美的，是中午的陽光和傍晚的晚風。"
+   ],
+   "source_note": "鷹架講義(教)單元二導讀；龍騰課本注1",
+   "from_pack": [
+    "kl10-002"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "30-31",
+     "quote": "一日之盛，為朝煙，為夕嵐",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文乙前兩句"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-03",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 2,
+   "scene": "作者說起今年春天的天氣，對花期有什麼影響。",
+   "context_before": "西湖最盛，為春為月。一日之盛，為朝煙，為夕嵐。",
+   "sentence": "今歲春雪甚盛，梅花為寒所勒",
+   "context_after": "，與杏、桃相次開發，尤為奇觀。",
+   "keywords": [
+    {
+     "word": "盛",
+     "gloss": "多（音ㄕㄥˋ）",
+     "pos": "形容詞",
+     "distractors": [
+      "美",
+      "裝盛",
+      "興隆"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "被",
+     "pos": "介詞",
+     "distractors": [
+      "是",
+      "向",
+      "替"
+     ]
+    },
+    {
+     "word": "勒",
+     "gloss": "抑制（音ㄌㄜˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "雕刻",
+      "率領",
+      "強迫"
+     ]
+    }
+   ],
+   "meaning": "今年春雪下得很多，梅花被寒氣抑制而晚開。",
+   "meaning_distractors": [
+    "今年春雪非常美麗，梅花替寒冬留下了雕刻般的姿態。",
+    "今年春雪很少，梅花因為寒冷而全部凋謝。",
+    "今年春雪下得很多，梅花向寒氣屈服，今年不再開放。"
+   ],
+   "confusables": [
+    {
+     "word": "為",
+     "other": "身死人手，「為」天下笑者",
+     "other_lesson": "過秦論",
+     "same": true,
+     "note": "被／被，鷹架講義跨課判斷"
+    },
+    {
+     "word": "為",
+     "other": "如今人方為刀俎，我「為」魚肉",
+     "other_lesson": "鴻門宴",
+     "same": false,
+     "note": "被／是、成為"
+    }
+   ],
+   "source_note": "龍騰課本注2；龍騰學習講義 p.36–37（為、盛、勒）、p.34 重點句意；鷹架講義(教)單元二步驟1第3題；參考包kl10-003前半",
+   "from_pack": [
+    "kl10-003"
+   ],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "25",
+     "quote": "今歲春雪甚盛，梅花為寒所勒",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項B前句"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-04",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 2,
+   "scene": "寒冷的春天過後，湖邊的花開成什麼樣子。",
+   "context_before": "今歲春雪甚盛，梅花為寒所勒，",
+   "sentence": "與杏、桃相次開發，尤為奇觀",
+   "context_after": "。石簣數為余言：「傅金吾園中梅，張功甫玉照堂故物也，急往觀之。」",
+   "keywords": [
+    {
+     "word": "相次開發",
+     "gloss": "相繼開放",
+     "pos": "動詞",
+     "distractors": [
+      "同時開墾",
+      "依次開採",
+      "互相啟發"
+     ]
+    },
+    {
+     "word": "尤",
+     "gloss": "更加",
+     "pos": "副詞",
+     "distractors": [
+      "責怪",
+      "過失",
+      "優異"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "是",
+     "pos": "動詞",
+     "distractors": [
+      "被",
+      "向",
+      "替"
+     ]
+    }
+   ],
+   "meaning": "梅花和杏花、桃花接連開放，更是奇特的景觀。",
+   "meaning_distractors": [
+    "梅花和杏花、桃花同時被開墾，是少見的工程。",
+    "梅花和杏花、桃花輪流凋謝，令人責怪春雪。",
+    "杏花、桃花都開了，只有梅花不開，十分奇怪。"
+   ],
+   "confusables": [
+    {
+     "word": "尤",
+     "other": "怨天「尤」人",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "更加／責怪"
+    }
+   ],
+   "source_note": "龍騰課本注3；鷹架講義(教)單元二導讀、步驟2比一比；龍騰學習講義 p.36「為」字表。拆自參考包kl10-003後半，115-25 只引前半，故不對應大考出處",
+   "from_pack": []
+  },
+  {
+   "id": "wanyou-05",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 2,
+   "scene": "作者的好友陶石簣想邀他去賞梅。",
+   "context_before": "與杏、桃相次開發，尤為奇觀。",
+   "sentence": "石簣數為余言",
+   "context_after": "：「傅金吾園中梅，張功甫玉照堂故物也，急往觀之。」余時為桃花所戀，竟不忍去湖上。",
+   "keywords": [
+    {
+     "word": "數",
+     "gloss": "屢次（音ㄕㄨㄛˋ）",
+     "pos": "副詞",
+     "distractors": [
+      "幾個",
+      "責備",
+      "細密"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "向",
+     "pos": "介詞",
+     "distractors": [
+      "被",
+      "是",
+      "替"
+     ]
+    }
+   ],
+   "meaning": "石簣多次對我說。石簣即陶望齡，簣音ㄎㄨㄟˋ。",
+   "meaning_distractors": [
+    "石簣被我說了好幾次。",
+    "石簣替我說了幾句話。",
+    "石簣責備我說的話。"
+   ],
+   "confusables": [
+    {
+     "word": "數",
+     "other": "復行「數」十步",
+     "other_lesson": "桃花源記",
+     "same": false,
+     "note": "屢次／幾，龍騰學習講義 p.37"
+    }
+   ],
+   "source_note": "龍騰課本注4、注5；龍騰學習講義 p.36「為」字表、p.37 字音辨析（數）；鷹架講義(教)單元二導讀",
+   "from_pack": [
+    "kl10-004"
+   ]
+  },
+  {
+   "id": "wanyou-06",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 2,
+   "scene": "石簣向作者推薦一處賞梅的地方。",
+   "context_before": "石簣數為余言：「",
+   "sentence": "傅金吾園中梅，張功甫玉照堂故物也，急往觀之",
+   "context_after": "。」余時為桃花所戀，竟不忍去湖上。",
+   "keywords": [
+    {
+     "word": "故",
+     "gloss": "舊的",
+     "pos": "形容詞",
+     "distractors": [
+      "故意",
+      "原因",
+      "朋友"
+     ]
+    },
+    {
+     "word": "急",
+     "gloss": "趕快",
+     "pos": "副詞",
+     "distractors": [
+      "熱心",
+      "焦躁",
+      "危急"
+     ]
+    }
+   ],
+   "meaning": "傅金吾園中的梅花，是南宋張功甫玉照堂的舊物，快去看吧。這是石簣說的話；傅，音ㄈㄨˋ。",
+   "meaning_distractors": [
+    "傅金吾園中的梅花，是張功甫故意送的，你別急著去看。",
+    "傅金吾園中的梅花，因為張功甫的緣故，已經危急枯死了。",
+    "傅金吾的朋友張功甫，熱心地邀大家到玉照堂賞梅。"
+   ],
+   "confusables": [
+    {
+     "word": "急",
+     "other": "「急」公好義",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "趕快／熱心"
+    },
+    {
+     "word": "故",
+     "other": "明知「故」犯",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "舊的／故意"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟2比一比；單元一步驟3（傅音）；龍騰課本注6、注7；龍騰學習講義 p.34",
+   "from_pack": [
+    "kl10-005"
+   ]
+  },
+  {
+   "id": "wanyou-07",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 2,
+   "scene": "朋友的邀約就在眼前，作者當時的心思卻在湖邊。",
+   "context_before": "石簣數為余言：「傅金吾園中梅，張功甫玉照堂故物也，急往觀之。」",
+   "sentence": "余時為桃花所戀，竟不忍去湖上",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "為",
+     "gloss": "被",
+     "pos": "介詞",
+     "distractors": [
+      "是",
+      "向",
+      "替"
+     ]
+    },
+    {
+     "word": "竟",
+     "gloss": "終究",
+     "pos": "副詞",
+     "distractors": [
+      "整個",
+      "竟然",
+      "完成"
+     ]
+    },
+    {
+     "word": "去",
+     "gloss": "離開",
+     "pos": "動詞",
+     "distractors": [
+      "前往",
+      "距離",
+      "死亡"
+     ]
+    }
+   ],
+   "meaning": "我當時被桃花迷住，終究捨不得離開湖上。「為桃花所戀」寫出作者迷戀桃花之深。",
+   "meaning_distractors": [
+    "我當時替桃花感到可惜，竟然不忍心前往湖上。",
+    "我當時向桃花告別，整天都捨不得走到湖上。",
+    "我當時被桃花迷住，所以決定立刻前往傅金吾的園子。"
+   ],
+   "confusables": [
+    {
+     "word": "竟",
+     "other": "何「竟」日默默在此",
+     "other_lesson": "項脊軒志",
+     "same": false,
+     "note": "終究／整個，112 學測同題比較"
+    },
+    {
+     "word": "去",
+     "other": "人至不「去」",
+     "other_lesson": "項脊軒志",
+     "same": true,
+     "note": "都是離開，龍騰學習講義 p.38"
+    },
+    {
+     "word": "去",
+     "other": "功成「去」五湖",
+     "other_lesson": "贈韋祕書子春詩",
+     "same": false,
+     "note": "離開／前往，龍騰學習講義 p.38"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟1第2題；龍騰課本注8、賞析三；龍騰學習講義 p.36、p.38（去）、p.43 解答（112 學測「竟」：最終、終究）",
+   "from_pack": [
+    "kl10-006"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "26",
+     "quote": "余時為桃花所戀，竟不忍去湖上",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項E前句"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-08",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 3,
+   "scene": "作者開始寫春日白天，斷橋到蘇堤一路的景色。",
+   "context_before": "余時為桃花所戀，竟不忍去湖上。",
+   "sentence": "由斷橋至蘇堤一帶，綠煙紅霧，彌漫二十餘里",
+   "context_after": "。歌吹為風，粉汗為雨，羅紈之盛，多於堤畔之草，豔冶極矣！",
+   "keywords": [
+    {
+     "word": "綠煙紅霧",
+     "gloss": "柳綠桃紅如煙似霧",
+     "pos": "名詞",
+     "distractors": [
+      "湖面升起的彩色雲霧",
+      "遊人燃放的彩色煙火",
+      "朝夕變幻的煙霧霞光"
+     ]
+    }
+   ],
+   "meaning": "從斷橋到蘇堤一帶，翠柳紅桃如煙似霧，一路布滿二十多里。「綠」借代柳樹，「紅」借代桃花；彌，音ㄇㄧˊ。",
+   "meaning_distractors": [
+    "從斷橋到蘇堤一帶，炊煙和濃霧籠罩，二十多里都看不清楚。",
+    "從斷橋到蘇堤一帶，遊人放起彩色煙火，二十多里都很熱鬧。",
+    "從斷橋到蘇堤只有二十多里，傍晚的紅霞映著綠色的湖水。"
+   ],
+   "source_note": "龍騰課本注9、注10、注11；龍騰學習講義 p.34、p.35 借代；鷹架講義(教)單元三導讀、單元一步驟3（彌音）",
+   "from_pack": [
+    "kl10-007"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "16",
+     "quote": "由斷橋至蘇堤一帶，綠煙紅霧，彌漫二十餘里",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "異文引句",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-09",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 3,
+   "scene": "花木之外，作者接著寫白天湖上的遊人。",
+   "context_before": "由斷橋至蘇堤一帶，綠煙紅霧，彌漫二十餘里。",
+   "sentence": "歌吹為風，粉汗為雨",
+   "context_after": "，羅紈之盛，多於堤畔之草，豔冶極矣！",
+   "keywords": [
+    {
+     "word": "吹",
+     "gloss": "管樂的吹奏聲",
+     "pos": "名詞",
+     "distractors": [
+      "微風的吹拂聲",
+      "用口呼氣降溫",
+      "吹噓誇耀的話"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "如、像",
+     "pos": "動詞",
+     "distractors": [
+      "是",
+      "被",
+      "向"
+     ]
+    }
+   ],
+   "meaning": "歌聲與吹奏聲悠揚如風，遊湖仕女揮汗如雨。這是誇大遊人之多。",
+   "meaning_distractors": [
+    "唱歌的人吹著風，擦粉的人碰上一場大雨。",
+    "歌聲被大風吹散，仕女的脂粉被大雨沖掉。",
+    "歌聲與樂聲停了就起風，遊人流汗後就下雨。"
+   ],
+   "source_note": "龍騰課本注12、注13；龍騰學習講義 p.36「為」字表、p.35；鷹架講義(教)單元五步驟2選項(C)",
+   "from_pack": [
+    "kl10-008"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "16",
+     "quote": "歌吹為風，粉汗為雨",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "異文引句",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-10",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 3,
+   "scene": "作者用堤邊的草來比較湖上的景象。",
+   "context_before": "由斷橋至蘇堤一帶，綠煙紅霧，彌漫二十餘里。歌吹為風，粉汗為雨，",
+   "sentence": "羅紈之盛，多於堤畔之草",
+   "context_after": "，豔冶極矣！",
+   "keywords": [
+    {
+     "word": "羅紈",
+     "gloss": "衣著華美的遊客（紈，音ㄨㄢˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "精美的絲織品",
+      "販賣綢緞的布莊",
+      "整排的白色紈扇"
+     ]
+    }
+   ],
+   "meaning": "穿著綾羅綢緞的遊人，比堤邊的草還多。羅紈原指絲織品，這裡借代遊客。",
+   "meaning_distractors": [
+    "西湖附近的布莊很多，比堤邊的草還密集。",
+    "堤邊的草長得很茂盛，像綾羅綢緞一樣美麗。",
+    "遊人踩壞了堤邊的草，只好鋪上綾羅綢緞。"
+   ],
+   "source_note": "龍騰課本注14；鷹架講義(教)單元三導讀、步驟1第1題；龍騰學習講義 p.35 借代；單元一步驟3（紈音）",
+   "from_pack": [
+    "kl10-009"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "16",
+     "quote": "羅紈之盛，多於堤畔之草",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "異文引句",
+     "location": "選項B"
+    },
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "37",
+     "quote": "羅紈之盛，多於堤畔之草",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "題幹例句"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-11",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 3,
+   "scene": "作者替白天的西湖下了一句總評。",
+   "context_before": "歌吹為風，粉汗為雨，羅紈之盛，多於堤畔之草，",
+   "sentence": "豔冶極矣",
+   "context_after": "！然杭人遊湖，止午、未、申三時。",
+   "keywords": [
+    {
+     "word": "豔冶",
+     "gloss": "豔麗（冶，音ㄧㄝˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "冶煉",
+      "輕浮",
+      "嬌羞"
+     ]
+    },
+    {
+     "word": "極",
+     "gloss": "到了極點",
+     "pos": "動詞",
+     "distractors": [
+      "最高的地方",
+      "全部用盡",
+      "十分急切"
+     ]
+    }
+   ],
+   "meaning": "真是豔麗到了極點。作者先把白天寫到極盛，下一段才用「然」字轉折。",
+   "meaning_distractors": [
+    "真是輕浮得令人厭惡。",
+    "真是冶煉得十分精良。",
+    "真是遊人多到全部走光。"
+   ],
+   "confusables": [
+    {
+     "word": "極",
+     "other": "登峰造「極」",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "到了極點（作謂語）／頂點、最高處（名詞）"
+    }
+   ],
+   "source_note": "龍騰課本注15；鷹架講義(教)單元三導讀、步驟2、步驟3比一比；單元一步驟3（冶音）",
+   "from_pack": [
+    "kl10-010"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "16",
+     "quote": "豔冶極矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "異文引句",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-12",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 4,
+   "scene": "寫完白天的熱鬧，作者談起杭州人遊湖的習慣。",
+   "context_before": "羅紈之盛，多於堤畔之草，豔冶極矣！",
+   "sentence": "然杭人遊湖，止午、未、申三時",
+   "context_after": "。其實湖光染翠之工，山嵐設色之妙，皆在朝日始出，夕舂未下，始極其濃媚。",
+   "keywords": [
+    {
+     "word": "然",
+     "gloss": "然而",
+     "pos": "連詞",
+     "distractors": [
+      "這樣",
+      "對的",
+      "燃燒"
+     ]
+    },
+    {
+     "word": "止",
+     "gloss": "只，僅",
+     "pos": "副詞",
+     "distractors": [
+      "停留",
+      "達到",
+      "阻擋"
+     ]
+    },
+    {
+     "word": "午、未、申三時",
+     "gloss": "上午十一時至下午五時；每個時辰兩小時",
+     "pos": "名詞",
+     "distractors": [
+      "清晨五時至上午十一時",
+      "上午九時至下午三時",
+      "下午一時至晚上七時"
+     ]
+    }
+   ],
+   "meaning": "然而杭州人遊西湖，只在午、未、申三個時辰。「只」字透露作者的惋惜。",
+   "meaning_distractors": [
+    "這樣一來杭州人遊西湖，都停留到午、未、申三時之後。",
+    "然而杭州人遊西湖，都阻擋別人在午、未、申三時進入。",
+    "而且杭州人遊西湖，整天從早到晚都不肯離開。"
+   ],
+   "confusables": [
+    {
+     "word": "止",
+     "other": "「止」於至善",
+     "other_lesson": "大學",
+     "same": false,
+     "note": "只／停留、達到"
+    }
+   ],
+   "source_note": "龍騰課本注16；鷹架講義(教)單元四導讀、步驟1、步驟2比一比；龍騰學習講義 p.38（止）",
+   "from_pack": [
+    "kl10-011"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "30-31",
+     "quote": "然杭人遊湖，止午、未、申三時",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文乙後半"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-13",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 4,
+   "scene": "作者說出杭州人遊湖時段之外，湖光山色另有看頭。",
+   "context_before": "然杭人遊湖，止午、未、申三時。",
+   "sentence": "其實湖光染翠之工，山嵐設色之妙",
+   "context_after": "，皆在朝日始出，夕舂未下，始極其濃媚。",
+   "keywords": [
+    {
+     "word": "染",
+     "gloss": "點染著色",
+     "pos": "動詞",
+     "distractors": [
+      "沾染疾病",
+      "感染情緒",
+      "弄髒汙損"
+     ]
+    },
+    {
+     "word": "工",
+     "gloss": "精巧",
+     "pos": "形容詞",
+     "distractors": [
+      "擅長",
+      "工人",
+      "工作"
+     ]
+    },
+    {
+     "word": "設色",
+     "gloss": "渲染色彩",
+     "pos": "動詞",
+     "distractors": [
+      "陳設物品",
+      "布置場地",
+      "假裝臉色"
+     ]
+    }
+   ],
+   "meaning": "其實湖光被染成翠綠的精巧，山間霧氣渲染色彩的美妙。這是下一句的主語，說這兩種美出現在什麼時候。",
+   "meaning_distractors": [
+    "其實湖邊染布工人的手藝，和山中畫家的上色一樣巧妙。",
+    "其實湖水汙染成綠色的情形，和山中霧氣一樣嚴重。",
+    "其實擅長染布的工人，都在湖邊和山上設立工坊。"
+   ],
+   "confusables": [
+    {
+     "word": "工",
+     "other": "「工」於心計",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "精巧／擅長"
+    }
+   ],
+   "source_note": "龍騰課本注17、注18、注19；鷹架講義(教)單元四導讀、步驟2比一比。全句分成兩句練習",
+   "from_pack": [
+    "kl10-012",
+    "kl10-016"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "30-31",
+     "quote": "其實湖光染翠之工，山嵐設色之妙",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文乙後半"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-14",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 4,
+   "scene": "作者說出湖光山色最好看的時刻。",
+   "context_before": "其實湖光染翠之工，山嵐設色之妙，",
+   "sentence": "皆在朝日始出，夕舂未下，始極其濃媚",
+   "context_after": "。月景尤不可言，花態柳情，山容水意，別是一種趣味。",
+   "keywords": [
+    {
+     "word": "始",
+     "gloss": "剛剛",
+     "pos": "副詞",
+     "distractors": [
+      "才",
+      "當初",
+      "始終"
+     ]
+    },
+    {
+     "word": "夕舂",
+     "gloss": "夕陽（舂，音ㄔㄨㄥ）",
+     "pos": "名詞",
+     "distractors": [
+      "春日黃昏",
+      "傍晚鐘聲",
+      "傍晚舂米"
+     ]
+    },
+    {
+     "word": "始極",
+     "gloss": "才達到極致",
+     "pos": "動詞",
+     "distractors": [
+      "開始走向盡頭",
+      "剛剛到達頂點",
+      "始終維持極限"
+     ]
+    },
+    {
+     "word": "濃媚",
+     "gloss": "濃豔嫵媚",
+     "pos": "形容詞",
+     "distractors": [
+      "濃妝諂媚",
+      "濃霧瀰漫",
+      "濃厚親密"
+     ]
+    }
+   ],
+   "meaning": "都在太陽剛出來、夕陽還沒落下的時候，才濃豔嫵媚到了極點。呼應第一段的朝煙夕嵐。",
+   "meaning_distractors": [
+    "都在太陽出來以後、晚上舂米之前，開始變得濃霧瀰漫。",
+    "都在太陽升到最高、夕陽已經落下之後，才濃妝豔抹。",
+    "都從日出開始、到傍晚為止，一直維持濃豔的樣子。"
+   ],
+   "confusables": [
+    {
+     "word": "始",
+     "other": "「始」極其濃媚",
+     "other_lesson": "晚遊六橋待月記",
+     "same": false,
+     "note": "剛剛／到這時才，鷹架講義比一比"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四導讀、步驟2比一比（始）；龍騰課本注20；龍騰學習講義 p.36（舂字形）、p.34 重點句意。全句分成兩句練習",
+   "from_pack": [
+    "kl10-013",
+    "kl10-016"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "30-31",
+     "quote": "皆在朝日始出，夕舂未下，始極其濃媚",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文乙後半"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-15",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 4,
+   "scene": "寫完朝夕的湖山，作者轉到夜裡。",
+   "context_before": "皆在朝日始出，夕舂未下，始極其濃媚。",
+   "sentence": "月景尤不可言，花態柳情，山容水意，別是一種趣味",
+   "context_after": "。此樂留與山僧、遊客受用，安可為俗士道哉！",
+   "keywords": [
+    {
+     "word": "尤",
+     "gloss": "尤其",
+     "pos": "副詞",
+     "distractors": [
+      "怪罪",
+      "過失",
+      "優異"
+     ]
+    },
+    {
+     "word": "別",
+     "gloss": "另外",
+     "pos": "副詞",
+     "distractors": [
+      "離別",
+      "區別",
+      "不要"
+     ]
+    }
+   ],
+   "meaning": "月下的景色尤其無法用言語形容，花、柳、山、水的姿態情韻，另有一種趣味。作者只用八個字帶過，留給讀者想像。",
+   "meaning_distractors": [
+    "月下的景色不值得多說，花、柳、山、水都和白天一模一樣。",
+    "月下的景色無人責怪，花、柳、山、水都要離別，讓人傷感。",
+    "月下的景色已經說盡，花、柳、山、水不要再多寫了。"
+   ],
+   "source_note": "鷹架講義(教)單元五導讀、步驟1第1題；龍騰學習講義 p.34 重點句意",
+   "from_pack": [
+    "kl10-014"
+   ],
+   "needs_review": true,
+   "review_note": "「尤」鷹架講義導讀作「尤其」，參考包作「更加」，依講義採「尤其」；此字課本未注，請老師確認。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "30-31",
+     "quote": "月景尤不可言，花態柳情，山容水意，別是一種趣味",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文乙後半"
+    }
+   ]
+  },
+  {
+   "id": "wanyou-16",
+   "lesson": "晚遊六橋待月記",
+   "paragraph": 4,
+   "scene": "文章最後，作者說這份月下的樂趣該留給誰。",
+   "context_before": "月景尤不可言，花態柳情，山容水意，別是一種趣味。",
+   "sentence": "此樂留與山僧、遊客受用，安可為俗士道哉",
+   "context_after": "！",
+   "keywords": [
+    {
+     "word": "受用",
+     "gloss": "享受",
+     "pos": "動詞",
+     "distractors": [
+      "接受任用",
+      "使用消耗",
+      "承受苦難"
+     ]
+    },
+    {
+     "word": "安可",
+     "gloss": "怎麼可以",
+     "pos": "副詞",
+     "distractors": [
+      "安然可以",
+      "或許可以",
+      "平安才可"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "向",
+     "pos": "介詞",
+     "distractors": [
+      "被",
+      "是",
+      "替"
+     ]
+    },
+    {
+     "word": "道",
+     "gloss": "說",
+     "pos": "動詞",
+     "distractors": [
+      "道路",
+      "道理",
+      "道術"
+     ]
+    }
+   ],
+   "meaning": "這種樂趣只留給山中僧人和遊客享受，怎麼可以對俗人說呢。「安可……哉」是反問，加強「不可以」。",
+   "meaning_distractors": [
+    "這種樂趣留給山僧和遊客使用，或許可以替俗人指路。",
+    "這種樂趣俗人也能享受，所以要向山僧和遊客說明道理。",
+    "這種樂趣被山僧和遊客占走，俗人只好安然離開。"
+   ],
+   "source_note": "鷹架講義(教)單元五導讀、步驟1第2題；龍騰學習講義 p.36「為」字表",
+   "from_pack": [
+    "kl10-015"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "30-31",
+     "quote": "此樂留與山僧、遊客受用，安可為俗士道哉",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文乙後半"
+    }
+   ]
+  }
+ ]
+}

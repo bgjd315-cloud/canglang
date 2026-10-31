@@ -1,0 +1,157 @@
+/* 關鍵句練功坊：沿用 css/style.css 的配色與字型，另加朱砂色與書卷質感 */
+:root{--seal:#B23A2A; --paper:#F4EFE3}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--seal:#E06B58; --paper:#1D2422}}
+:root[data-theme="dark"]{--seal:#E06B58; --paper:#1D2422}
+body{max-width:720px; margin:0 auto; font-size:17px; padding-bottom:40px}
+#app{display:flex; flex-direction:column; gap:14px}
+a{color:inherit}
+.kl-error{padding:40px 0; text-align:center}
+
+/* 首頁主視覺 */
+.kl-hero{position:relative; margin:-12px calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 0; min-height:min(92vw, 460px); display:flex; align-items:flex-end; overflow:hidden; background:#26383A}
+.kl-hero-img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+.kl-hero::after{content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(15,22,21,.88) 0%, rgba(15,22,21,.45) 42%, rgba(15,22,21,0) 72%)}
+.kl-hero-text{position:relative; z-index:1; padding:24px 20px; color:#F8F4EA; text-shadow:0 1px 8px rgba(0,0,0,.45)}
+.kl-eyebrow{margin:0 0 6px; font-size:.9rem; letter-spacing:.18em; opacity:.92}
+.kl-hero h1{font-size:clamp(2.3rem, 11vw, 3.4rem); font-weight:900; letter-spacing:.08em}
+.kl-hero h1 small{display:block; font-size:.5em; font-weight:700; letter-spacing:.2em; margin-bottom:.15em}
+.kl-hero-sub{margin:10px 0 0; font-size:1.05rem; line-height:1.7}
+
+.kl-stats,.kl-boxes{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:8px}
+.kl-stats>div,.kl-boxes>div{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:10px 6px; text-align:center; display:grid; gap:2px}
+.kl-stats b,.kl-boxes b{font-family:var(--display); font-size:1.6rem; line-height:1.2; font-variant-numeric:tabular-nums}
+.kl-stats span,.kl-boxes span{font-size:.82rem; color:var(--muted)}
+.kl-boxes .gold b{color:var(--seal)}
+.kl-section{font-size:1.25rem; margin-top:10px; padding-left:.6em; border-left:4px solid var(--seal)}
+
+/* 課程卡 */
+.kl-cards{display:grid; gap:14px}
+.kl-card{display:block; background:var(--surface); border:1px solid var(--line); border-radius:16px; overflow:hidden; text-decoration:none; transition:transform .2s, box-shadow .2s}
+.kl-card:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.kl-card:focus-visible,.kl-top a:focus-visible,.kl-project:focus-visible{outline:3px solid var(--river); outline-offset:2px}
+.kl-card-img{display:block; width:100%; aspect-ratio:16/8; object-fit:cover}
+.kl-card-body{padding:14px 16px 16px; display:grid; gap:8px}
+.kl-card-head{display:flex; justify-content:space-between; align-items:baseline; gap:10px}
+.kl-card-head h3{font-size:1.5rem; letter-spacing:.05em}
+.kl-card-head span{color:var(--muted); font-size:.92rem; white-space:nowrap}
+.kl-tagline{margin:0; color:var(--muted); line-height:1.5}
+.kl-track{height:8px; border-radius:4px; background:var(--line); overflow:hidden}
+.kl-track i{display:block; height:100%; background:var(--seal); border-radius:4px; transition:width .6s}
+.kl-card-foot{display:flex; justify-content:space-between; gap:8px; flex-wrap:wrap; font-size:.88rem}
+.kl-exam{color:var(--seal); font-weight:500}
+
+/* 即將開放 */
+.kl-soon{display:grid; grid-auto-flow:column; grid-auto-columns:128px; gap:10px; overflow-x:auto; padding-bottom:8px; scrollbar-width:thin}
+.kl-soon div{position:relative; border-radius:10px; overflow:hidden; aspect-ratio:4/3}
+.kl-soon img{display:block; width:100%; height:100%; object-fit:cover; filter:grayscale(.85); opacity:.75}
+.kl-soon span{position:absolute; inset:auto 0 0 0; padding:14px 8px 6px; color:#fff; font-family:var(--display); font-weight:700; font-size:.92rem; background:linear-gradient(to top, rgba(0,0,0,.72), transparent)}
+
+/* 上方列 */
+.kl-top{display:flex; justify-content:space-between; align-items:center; gap:10px; min-height:40px}
+.kl-top a{text-decoration:none; padding:6px 8px 6px 0; font-weight:500}
+.kl-top span{color:var(--muted); font-size:.95rem}
+.kl-combo.on{color:var(--seal); font-weight:700}
+.kl-title{font-size:2.3rem; letter-spacing:.08em; font-weight:900}
+
+.kl-head{display:flex; justify-content:space-between; align-items:flex-end; gap:10px; margin-bottom:-22px}
+.kl-head>div{min-width:0; padding-bottom:30px}
+.kl-figure{height:150px; width:auto; max-width:38%; object-fit:contain; object-position:bottom; position:relative; z-index:1; flex:none}
+
+/* 畫卷顯影 */
+.kl-scroll{position:relative; border-radius:14px; overflow:hidden; aspect-ratio:16/9; border:1px solid var(--line); background:var(--paper)}
+.kl-scroll img{display:block; width:100%; height:100%; object-fit:cover}
+.kl-scroll img.kl-base{filter:grayscale(1) blur(7px) opacity(.42); transform:scale(1.08)}
+.kl-mist{position:absolute; inset:0; display:grid}
+.kl-mist i{opacity:0; background-repeat:no-repeat; margin:-.5px}
+.kl-mist i.open{opacity:1}
+.kl-mist i.reveal{animation:klReveal 1s var(--d) ease-out forwards}
+@keyframes klReveal{to{opacity:1}}
+.kl-caption{margin:-4px 0 0; color:var(--muted); font-size:.92rem; text-align:center}
+
+.kl-seat{display:grid; grid-template-columns:auto 96px minmax(0,1fr); gap:10px; align-items:center}
+.kl-seat label{font-weight:700}
+.kl-seat input{width:100%; text-align:center; min-height:44px}
+.kl-seat small{color:var(--muted); line-height:1.4}
+.kl-go{width:100%; min-height:56px; font-size:1.2rem; font-family:var(--display); font-weight:700; letter-spacing:.1em; border-radius:12px; background:var(--seal); border-color:var(--seal); color:#fff}
+button.kl-go:hover:not([disabled]){border-color:var(--seal); filter:brightness(1.08)}
+.kl-project{text-align:center; color:var(--muted); font-size:.95rem; padding:6px}
+
+/* 作答 */
+.kl-dots{list-style:none; display:grid; grid-template-columns:repeat(10, minmax(0,1fr)); gap:5px; padding:0; margin:0}
+.kl-dots li{height:7px; border-radius:4px; background:var(--line)}
+.kl-dots li.cur{background:var(--ink)} .kl-dots li.ok{background:var(--good)} .kl-dots li.no{background:var(--bad)}
+.kl-q{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:20px 18px 24px; display:grid; gap:12px}
+.kl-scene{margin:0; color:var(--muted); font-size:.95rem; line-height:1.55}
+.kl-prompt{margin:0; font-weight:700; font-size:1.08rem}
+.kl-passage{margin:0; font-family:var(--display); font-weight:500; font-size:1.08rem; line-height:1.95; color:var(--muted); overflow-wrap:anywhere}
+.kl-sentence{font-weight:700; font-size:1.42em; line-height:1.6; letter-spacing:.03em; color:var(--ink)}
+.kl-sentence mark{background:none; color:var(--seal); font-weight:900; border-bottom:3px solid var(--seal); padding:0 .06em}
+.kl-whole{background:linear-gradient(transparent 62%, color-mix(in srgb, var(--seal) 22%, transparent) 62%)}
+.kl-options{display:grid; gap:9px}
+.kl-options button,.kl-options>div{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:start; text-align:left; min-height:54px; padding:12px 14px; border-radius:12px; border:1.5px solid var(--line); background:var(--surface); line-height:1.5; overflow-wrap:anywhere}
+.kl-options span{font-family:var(--display); font-weight:700; color:var(--muted)}
+.kl-options button:disabled{opacity:1; cursor:default}
+.kl-options .right{border-color:var(--good); background:color-mix(in srgb, var(--good) 14%, var(--surface)); font-weight:500}
+.kl-options .wrong{border-color:var(--bad); background:color-mix(in srgb, var(--bad) 12%, var(--surface)); animation:klShake .35s}
+.kl-options .dim{opacity:.55}
+@keyframes klShake{25%{transform:translateX(-6px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
+
+/* 答後回饋 */
+#after{display:grid; gap:12px; scroll-margin-top:8px}
+#after:empty{display:none}
+.kl-feedback{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:16px; display:grid; gap:12px}
+.kl-feedback.good{border-top:4px solid var(--good)} .kl-feedback.bad{border-top:4px solid var(--bad)}
+.kl-verdict{display:flex; align-items:center; gap:12px}
+.kl-verdict b{display:block; font-family:var(--display); font-size:1.2rem}
+.kl-verdict small{color:var(--muted)}
+.kl-portrait{width:64px; height:64px; object-fit:cover; object-position:50% 0; border-radius:50%; background:var(--paper); border:1px solid var(--line); flex:none}
+.kl-seal{flex:none; width:46px; height:46px; display:grid; place-items:center; border:3px solid var(--seal); border-radius:6px; color:var(--seal); font-family:var(--display); font-weight:900; font-size:1.55rem; transform:rotate(-7deg); animation:klStamp .32s cubic-bezier(.2,1.5,.5,1)}
+.bad .kl-seal{border-color:var(--bad); color:var(--bad)}
+@keyframes klStamp{from{transform:rotate(-7deg) scale(2); opacity:0}}
+.kl-explain{margin:0; display:grid; gap:8px}
+.kl-explain>div{display:grid; grid-template-columns:4.6em minmax(0,1fr); gap:8px}
+.kl-explain dt{font-family:var(--display); font-weight:700}
+.kl-explain dd{margin:0; line-height:1.55}
+.kl-explain em{font-style:normal; font-size:.8rem; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:0 .55em; margin-left:.45em; white-space:nowrap}
+.kl-compare{border-top:1px dashed var(--line); padding-top:10px; display:grid; gap:6px}
+.kl-compare p{margin:0; line-height:1.6}
+.kl-compare span{color:var(--muted); font-size:.9rem}
+.kl-compare i{font-style:normal; font-size:.82rem; font-weight:700; border-radius:4px; padding:0 .4em; margin-right:.45em; color:#fff}
+.kl-compare i.same{background:var(--good)} .kl-compare i.diff{background:var(--river)}
+.kl-stamps{display:flex; flex-wrap:wrap; gap:6px 8px; align-items:center; border-top:1px dashed var(--line); padding-top:10px}
+.kl-stamp{color:var(--seal); border:1.5px solid var(--seal); border-radius:4px; padding:.05em .5em; font-size:.9rem; font-weight:500}
+.kl-stamp small{display:block; font-weight:400; font-size:.78rem}
+.kl-next{position:sticky; bottom:max(10px, env(safe-area-inset-bottom, 0px)); box-shadow:0 6px 18px rgba(0,0,0,.2)}
+
+/* 成績 */
+.kl-result{text-align:center; display:grid; gap:4px; padding:6px 0}
+.kl-result h1{font-size:1.8rem; font-weight:900; letter-spacing:.06em}
+.kl-result p{margin:0; color:var(--muted)}
+.kl-score{font-family:var(--display); color:var(--seal); line-height:1}
+.kl-score b{font-size:4.6rem; font-weight:900}
+.kl-score span{font-size:1.6rem}
+.kl-wrong{list-style:none; margin:0; padding:0; display:grid; gap:8px}
+.kl-wrong li{background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--bad); border-radius:10px; padding:10px 14px; line-height:1.55}
+.kl-wrong b{display:block; font-family:var(--display)}
+
+/* 教師投影：教室後排也看得清楚 */
+.kl-projecting{max-width:1400px; font-size:clamp(22px, 2.5vw, 38px)}
+.kl-projector{display:grid; gap:18px}
+.kl-projector header{display:flex; justify-content:space-between; align-items:baseline; gap:16px; font-size:.8em; color:var(--muted)}
+.kl-projector header b{font-family:var(--display); font-size:1.3em; color:var(--ink)}
+.kl-projector .kl-scene{font-size:.85em}
+.kl-projector .kl-passage{font-size:1.15em; line-height:1.8}
+.kl-projector .kl-prompt{font-size:1em}
+.kl-projector .kl-sentence{font-size:1.3em}
+.kl-projector .kl-options{grid-template-columns:repeat(2, minmax(0,1fr))}
+.kl-projector .kl-feedback{font-size:.82em}
+.kl-projector footer{display:flex; gap:16px; align-items:center; justify-content:flex-end}
+.kl-projector footer button{min-width:8em; min-height:2.6em}
+.kl-projector footer small{color:var(--muted)}
+
+@media (prefers-reduced-motion: reduce){
+  .kl-seal,.kl-options .wrong{animation:none}
+  .kl-mist i.reveal{animation:none; opacity:1}
+  .kl-card,.kl-track i{transition:none}
+}
+@media (max-width:380px){.kl-seat{grid-template-columns:auto 84px} .kl-seat small{grid-column:1 / -1}}

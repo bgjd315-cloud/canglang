@@ -1,0 +1,2199 @@
+{
+ "lesson_id": "chibi",
+ "lesson": "赤壁賦",
+ "author": "蘇軾",
+ "tagline": "同一片江月，為何一悲一喜",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "chibi-01",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "文章開頭，交代這次出遊的時間、地點和同行的人。",
+   "context_before": "",
+   "sentence": "壬戌之秋，七月既望，蘇子與客泛舟遊於赤壁之下",
+   "context_after": "。清風徐來，水波不興。舉酒屬客，誦明月之詩，歌窈窕之章。",
+   "keywords": [
+    {
+     "word": "既望",
+     "gloss": "農曆十六日（望是十五日，既望是隔天）",
+     "pos": "名詞",
+     "distractors": [
+      "農曆十五日",
+      "農曆初一日",
+      "農曆三十日"
+     ]
+    },
+    {
+     "word": "於",
+     "gloss": "在",
+     "pos": "介詞",
+     "distractors": [
+      "比",
+      "被",
+      "向"
+     ]
+    }
+   ],
+   "meaning": "壬戌年秋天七月十六日，蘇子和客人在赤壁下泛舟遊覽。",
+   "meaning_distractors": [
+    "壬戌年秋天七月十五日，蘇子和客人到赤壁上登高遠望。",
+    "壬戌年秋天，蘇子在七月盼望客人一起到赤壁泛舟。",
+    "壬戌年秋天七月十六日，蘇子被客人帶到赤壁下泛舟。"
+   ],
+   "confusables": [
+    {
+     "word": "於",
+     "other": "冰，水為之，而寒「於」水",
+     "other_lesson": "勸學",
+     "same": false,
+     "note": "在／比"
+    },
+    {
+     "word": "既",
+     "other": "「既」出，得其船",
+     "other_lesson": "桃花源記",
+     "same": true,
+     "note": "已經"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2、比一比",
+   "from_pack": [
+    "kl09-001"
+   ]
+  },
+  {
+   "id": "chibi-02",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "船剛駛上江面，作者寫下當時的天氣和水面。",
+   "context_before": "壬戌之秋，七月既望，蘇子與客泛舟遊於赤壁之下。",
+   "sentence": "清風徐來，水波不興",
+   "context_after": "。舉酒屬客，誦明月之詩，歌窈窕之章。",
+   "keywords": [
+    {
+     "word": "徐",
+     "gloss": "緩慢",
+     "pos": "副詞",
+     "distractors": [
+      "急促",
+      "陸續",
+      "清涼"
+     ]
+    },
+    {
+     "word": "興",
+     "gloss": "起",
+     "pos": "動詞",
+     "distractors": [
+      "高興",
+      "興盛",
+      "興建"
+     ]
+    }
+   ],
+   "meaning": "清風緩緩吹來，水面上沒有興起波浪。",
+   "meaning_distractors": [
+    "清風急急吹來，水面上掀起了大浪。",
+    "清風令人高興，水波也跟著歡欣起來。",
+    "清風陸續吹來，水面上的波浪愈來愈高。"
+   ],
+   "source_note": "字義依參考包kl09-002；龍騰混合題本第2題「清風和江水一片平靜安寧」",
+   "from_pack": [
+    "kl09-002"
+   ],
+   "needs_review": true,
+   "review_note": "徐、興字義講義與手邊龍騰資料未明列，依參考包。"
+  },
+  {
+   "id": "chibi-03",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "江上風平浪靜，蘇子拿起酒杯，朝向同船的人。",
+   "context_before": "清風徐來，水波不興。",
+   "sentence": "舉酒屬客，誦明月之詩，歌窈窕之章",
+   "context_after": "。少焉，月出於東山之上，徘徊於斗牛之間。",
+   "keywords": [
+    {
+     "word": "屬",
+     "gloss": "勸人飲酒（音ㄓㄨˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "屬於客人",
+      "類別",
+      "請託"
+     ]
+    }
+   ],
+   "meaning": "舉杯勸客人飲酒，吟誦關於明月的詩句，歌唱〈窈窕〉的篇章。",
+   "meaning_distractors": [
+    "舉杯屬於客人所有，吟誦自己新寫的詩，歌唱美女的故事。",
+    "舉杯請託客人寫文章，記下明月和美女。",
+    "舉杯和客人同類相聚，朗誦明月詩，再請歌女唱歌。"
+   ],
+   "confusables": [
+    {
+     "word": "屬",
+     "other": "舉匏樽以相「屬」",
+     "other_lesson": "赤壁賦",
+     "same": true,
+     "note": "勸請"
+    },
+    {
+     "word": "屬",
+     "other": "有良田、美池、桑、竹之「屬」",
+     "other_lesson": "桃花源記",
+     "same": false,
+     "note": "勸請／類"
+    },
+    {
+     "word": "屬",
+     "other": "若夫銀鉤鐵畫，固「屬」難窺",
+     "other_lesson": "畫菊自序",
+     "same": false,
+     "note": "勸請／係、是"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2；龍騰學習講義p.95-96字詞辨析；龍騰語文演練字義辨析；龍騰混合題本第2題",
+   "from_pack": [
+    "kl09-003"
+   ]
+  },
+  {
+   "id": "chibi-04",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "眾人飲酒吟詠之際，夜空出現了變化。",
+   "context_before": "舉酒屬客，誦明月之詩，歌窈窕之章。",
+   "sentence": "少焉，月出於東山之上，徘徊於斗牛之間",
+   "context_after": "。白露橫江，水光接天。縱一葦之所如，凌萬頃之茫然。",
+   "keywords": [
+    {
+     "word": "少焉",
+     "gloss": "不久",
+     "pos": "副詞",
+     "distractors": [
+      "稍微",
+      "年少時",
+      "很少"
+     ]
+    },
+    {
+     "word": "斗牛",
+     "gloss": "星斗（斗宿、牛宿，此處借代）",
+     "pos": "名詞",
+     "distractors": [
+      "酒器與耕牛",
+      "相鬥的牛群",
+      "北方的山嶺"
+     ]
+    }
+   ],
+   "meaning": "不久，月亮從東山上升起，在星斗之間緩緩移動。",
+   "meaning_distractors": [
+    "稍微等候，月亮就從東山落下，停在兩座山嶺之間。",
+    "年少時常見月亮從東山升起，照著相鬥的牛群。",
+    "很少看見月亮升到東山之上，停留在星斗旁邊。"
+   ],
+   "confusables": [
+    {
+     "word": "少",
+     "other": "而往復挹注，竟不「少」減",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "少焉：不久／稍微"
+    }
+   ],
+   "source_note": "龍騰混合題本第1題解析(少：不久)；龍騰學習講義p.94借代(斗牛)",
+   "from_pack": []
+  },
+  {
+   "id": "chibi-05",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "月亮升起後，江面上的景色變得迷濛開闊。",
+   "context_before": "少焉，月出於東山之上，徘徊於斗牛之間。",
+   "sentence": "白露橫江，水光接天",
+   "context_after": "。縱一葦之所如，凌萬頃之茫然。",
+   "keywords": [
+    {
+     "word": "白露",
+     "gloss": "白色水氣",
+     "pos": "名詞",
+     "distractors": [
+      "節氣名稱",
+      "白色露珠",
+      "皎潔月光"
+     ]
+    },
+    {
+     "word": "橫",
+     "gloss": "瀰漫",
+     "pos": "動詞",
+     "distractors": [
+      "橫渡",
+      "橫向擺放",
+      "蠻橫"
+     ]
+    }
+   ],
+   "meaning": "白茫茫的水氣瀰漫江面，波光與天空相接。",
+   "meaning_distractors": [
+    "秋天的白露節氣到了，江水橫流到天邊。",
+    "白色露珠橫掛江岸，水面倒映著天空。",
+    "白色月光橫渡江面，水流一路流向天邊。"
+   ],
+   "confusables": [
+    {
+     "word": "橫",
+     "other": "雲「橫」秦嶺家何在",
+     "other_lesson": "左遷至藍關示姪孫湘",
+     "same": true,
+     "note": "瀰漫"
+    }
+   ],
+   "source_note": "龍騰混合題本第1題解析與第2題參考答案",
+   "from_pack": [
+    "kl09-004"
+   ]
+  },
+  {
+   "id": "chibi-06",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "眾人不再划槳，讓船順著江水漂在月光下。",
+   "context_before": "白露橫江，水光接天。",
+   "sentence": "縱一葦之所如，凌萬頃之茫然",
+   "context_after": "。浩浩乎如馮虛御風，而不知其所止；飄飄乎如遺世獨立，羽化而登仙。",
+   "keywords": [
+    {
+     "word": "縱",
+     "gloss": "任憑",
+     "pos": "動詞",
+     "distractors": [
+      "放縱",
+      "縱向",
+      "即使"
+     ]
+    },
+    {
+     "word": "一葦",
+     "gloss": "小船（把船比成一片蘆葦，葦音ㄨㄟˇ）",
+     "pos": "名詞",
+     "distractors": [
+      "一根蘆葦",
+      "一片葉子",
+      "一支船槳"
+     ]
+    },
+    {
+     "word": "如",
+     "gloss": "往、到",
+     "pos": "動詞",
+     "distractors": [
+      "好像",
+      "如果",
+      "比得上"
+     ]
+    },
+    {
+     "word": "凌",
+     "gloss": "越過",
+     "pos": "動詞",
+     "distractors": [
+      "欺凌",
+      "冰塊",
+      "接近"
+     ]
+    }
+   ],
+   "meaning": "任憑小船隨意漂流，越過廣闊的江面。",
+   "meaning_distractors": [
+    "好像一片蘆葦隨風飄動，看著江面感到茫然。",
+    "即使只有一條小船，也要欺凌萬頃的江水。",
+    "放縱自己拿著一根蘆葦，在茫茫江面迷了路。"
+   ],
+   "confusables": [
+    {
+     "word": "如",
+     "other": "沛公起「如」廁",
+     "other_lesson": "鴻門宴",
+     "same": true,
+     "note": "往、到"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2；龍騰混合題本第2題參考答案；龍騰學習講義p.95葦字音",
+   "from_pack": [
+    "kl09-005"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "縱一葦之所如，凌萬頃之茫然",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "節錄概括",
+     "location": "共用引文第5段①"
+    }
+   ]
+  },
+  {
+   "id": "chibi-07",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "小船漂在月夜大江上，作者寫自己此刻的感受。",
+   "context_before": "白露橫江，水光接天。縱一葦之所如，凌萬頃之茫然。",
+   "sentence": "浩浩乎如馮虛御風，而不知其所止",
+   "context_after": "；飄飄乎如遺世獨立，羽化而登仙。",
+   "keywords": [
+    {
+     "word": "馮",
+     "gloss": "憑藉（通「憑」）",
+     "pos": "動詞",
+     "distractors": [
+      "姓氏",
+      "欺侮",
+      "渡河"
+     ]
+    },
+    {
+     "word": "虛",
+     "gloss": "天空",
+     "pos": "名詞",
+     "distractors": [
+      "虛假",
+      "虛弱",
+      "謙虛"
+     ]
+    },
+    {
+     "word": "御",
+     "gloss": "駕馭",
+     "pos": "動詞",
+     "distractors": [
+      "抵抗",
+      "皇帝的",
+      "防守"
+     ]
+    }
+   ],
+   "meaning": "廣闊無邊地像憑藉天空駕風而行，不知道會在哪裡停下。",
+   "meaning_distractors": [
+    "姓馮的人說話虛假，駕車時不知道停在哪裡。",
+    "心裡空虛得像被風吹走，不知道人生的方向。",
+    "廣闊無邊地抵抗著風，始終找不到靠岸的地方。"
+   ],
+   "confusables": [
+    {
+     "word": "虛",
+     "other": "及牆，「虛」若無物",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "天空／虛空"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2(馮)；龍騰混合題本第1題解析(虛)；御字義依參考包kl09-006",
+   "from_pack": [
+    "kl09-006"
+   ],
+   "needs_review": true,
+   "review_note": "御字義講義未明列，依參考包。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "浩浩乎如馮虛御風，而不知其所止",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "節錄概括",
+     "location": "共用引文第5段①"
+    }
+   ]
+  },
+  {
+   "id": "chibi-08",
+   "lesson": "赤壁賦",
+   "paragraph": 1,
+   "scene": "同一段感受再往上推一層，寫到最輕快的時刻。",
+   "context_before": "縱一葦之所如，凌萬頃之茫然。浩浩乎如馮虛御風，而不知其所止；",
+   "sentence": "飄飄乎如遺世獨立，羽化而登仙",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "遺世",
+     "gloss": "超脫世俗",
+     "pos": "動詞",
+     "distractors": [
+      "遺棄親人",
+      "留給後世",
+      "遺失世間物"
+     ]
+    },
+    {
+     "word": "羽化",
+     "gloss": "飛升成仙",
+     "pos": "動詞",
+     "distractors": [
+      "鳥羽變色",
+      "化為灰燼",
+      "羽毛飄落"
+     ]
+    }
+   ],
+   "meaning": "輕飄飄地好像超脫塵世、獨自站立，飛升成了神仙。第一段快樂的頂點。",
+   "meaning_distractors": [
+    "輕飄飄地好像被世人遺棄，只好孤獨地出家修道。",
+    "心神不定地離開世間，身上的羽毛一片片掉落。",
+    "飄泊不定，好像遺失了世間的一切，惶惶不安。"
+   ],
+   "source_note": "字義依參考包kl09-007；句意參考龍騰語文演練文意搜查第2題(輕鬆自在)",
+   "from_pack": [
+    "kl09-007"
+   ],
+   "needs_review": true,
+   "review_note": "遺世、羽化字義講義未明列，依參考包與文意。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "飄飄乎如遺世獨立，羽化而登仙",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "節錄概括",
+     "location": "共用引文第5段①"
+    }
+   ]
+  },
+  {
+   "id": "chibi-09",
+   "lesson": "赤壁賦",
+   "paragraph": 2,
+   "scene": "船上的人被眼前的景色感染，興致正高。",
+   "context_before": "飄飄乎如遺世獨立，羽化而登仙。",
+   "sentence": "於是飲酒樂甚，扣舷而歌之",
+   "context_after": "。歌曰：「桂棹兮蘭槳，擊空明兮泝流光；",
+   "keywords": [
+    {
+     "word": "扣",
+     "gloss": "敲打",
+     "pos": "動詞",
+     "distractors": [
+      "扣住",
+      "扣除",
+      "詢問"
+     ]
+    },
+    {
+     "word": "舷",
+     "gloss": "船邊",
+     "pos": "名詞",
+     "distractors": [
+      "琴弦",
+      "船帆",
+      "船艙"
+     ]
+    }
+   ],
+   "meaning": "於是喝酒喝得非常快樂，敲著船邊唱起歌來。",
+   "meaning_distractors": [
+    "於是喝酒喝到樂極生悲，扣住船身哭了起來。",
+    "於是喝酒後彈起琴弦，獨自唱歌給自己聽。",
+    "於是停止喝酒，敲著船艙請人唱歌助興。"
+   ],
+   "source_note": "字義依參考包kl09-034；鷹架講義(教)單元二導讀",
+   "from_pack": [
+    "kl09-034"
+   ],
+   "needs_review": true,
+   "review_note": "扣、舷字義講義未明列，依參考包與文意。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "於是飲酒樂甚，扣舷而歌之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "共用引文第4段短引"
+    }
+   ]
+  },
+  {
+   "id": "chibi-10",
+   "lesson": "赤壁賦",
+   "paragraph": 2,
+   "scene": "蘇子敲著船邊，開口唱起歌，這是歌的前半。",
+   "context_before": "於是飲酒樂甚，扣舷而歌之。歌曰：「",
+   "sentence": "桂棹兮蘭槳，擊空明兮泝流光",
+   "context_after": "；渺渺兮予懷，望美人兮天一方。」",
+   "keywords": [
+    {
+     "word": "棹",
+     "gloss": "船槳（音ㄓㄠˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "船帆",
+      "船艙",
+      "木桌"
+     ]
+    },
+    {
+     "word": "空明",
+     "gloss": "月下澄澈的江水",
+     "pos": "名詞",
+     "distractors": [
+      "空蕩明亮的房間",
+      "皎潔的滿月",
+      "無人的江岸"
+     ]
+    },
+    {
+     "word": "泝",
+     "gloss": "逆流而上",
+     "pos": "動詞",
+     "distractors": [
+      "順流而下",
+      "追憶往事",
+      "飛越江面"
+     ]
+    }
+   ],
+   "meaning": "划著桂木與蘭木做的槳，拍打月下澄澈的江水，迎著流動的月光逆流而上。",
+   "meaning_distractors": [
+    "坐在桂木與蘭木做的船艙裡，望著空蕩的房間，順著月光漂流而下。",
+    "敲打桂木桌子與蘭花，對著明亮的天空，追憶流逝的時光。",
+    "拿著桂花與蘭花，拍打空中的明月，飛越閃爍的江面。"
+   ],
+   "source_note": "龍騰語文演練形音義彙整(棹)；鷹架講義(教)單元二步驟2(泝)；空明字義依參考包kl09-008",
+   "from_pack": [
+    "kl09-008"
+   ],
+   "needs_review": true,
+   "review_note": "空明字義講義未明列，依參考包。字形依鷹架與龍騰作「泝」，參考包作「溯」。",
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "1",
+     "quote": "桂棹兮蘭槳，擊空明兮泝流光",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "短詞摘引",
+     "location": "選項C前詞"
+    }
+   ]
+  },
+  {
+   "id": "chibi-11",
+   "lesson": "赤壁賦",
+   "paragraph": 2,
+   "scene": "歌唱到後半，歌詞的情緒有了變化。",
+   "context_before": "於是飲酒樂甚，扣舷而歌之。歌曰：「桂棹兮蘭槳，擊空明兮泝流光；",
+   "sentence": "渺渺兮予懷，望美人兮天一方",
+   "context_after": "。」客有吹洞簫者，倚歌而和之，",
+   "keywords": [
+    {
+     "word": "渺渺",
+     "gloss": "悠遠",
+     "pos": "形容詞",
+     "distractors": [
+      "微小",
+      "模糊",
+      "水大"
+     ]
+    },
+    {
+     "word": "美人",
+     "gloss": "所思慕卻見不到的人",
+     "pos": "名詞",
+     "distractors": [
+      "歌女",
+      "妻子",
+      "同船的客人"
+     ]
+    }
+   ],
+   "meaning": "我的情思悠遠綿長，遙望所思慕的人，卻遠在天的另一方。全文由樂轉悲的轉折句。",
+   "meaning_distractors": [
+    "我的懷抱微不足道，只望美人能來到船上同遊。",
+    "我的心情模糊不清，看著同船的美人站在船的那一方。",
+    "我懷念渺小的家鄉，希望美人能和我一起歸去。"
+   ],
+   "source_note": "鷹架講義(教)單元二步驟3；龍騰混合題本第3題；龍騰語文演練解題關鍵(美人與〈月出〉佼人相應)；渺渺字義依參考包kl09-009",
+   "from_pack": [
+    "kl09-009"
+   ],
+   "needs_review": true,
+   "review_note": "渺渺字義講義未明列。美人依鷹架取「思念卻見不到」；參考包另提理想、君主等寄託，講義未採，未寫入，請確認。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "渺渺兮予懷，望美人兮天一方",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "共用引文第4段短引"
+    }
+   ]
+  },
+  {
+   "id": "chibi-12",
+   "lesson": "赤壁賦",
+   "paragraph": 2,
+   "scene": "歌聲響起時，船上有人拿起樂器加入。",
+   "context_before": "歌曰：「桂棹兮蘭槳，擊空明兮泝流光；渺渺兮予懷，望美人兮天一方。」",
+   "sentence": "客有吹洞簫者，倚歌而和之",
+   "context_after": "，其聲嗚嗚然：如怨、如慕、如泣、如訴。",
+   "keywords": [
+    {
+     "word": "倚",
+     "gloss": "依著",
+     "pos": "動詞",
+     "distractors": [
+      "斜靠",
+      "倚仗",
+      "偏向"
+     ]
+    },
+    {
+     "word": "和",
+     "gloss": "應和（音ㄏㄜˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "和平",
+      "溫和",
+      "和好"
+     ]
+    }
+   ],
+   "meaning": "客人中有位吹洞簫的，依著歌聲吹簫應和。",
+   "meaning_distractors": [
+    "客人中有位吹洞簫的，斜靠著船邊獨自吹奏。",
+    "客人中有位吹洞簫的，倚仗歌聲與蘇子和好。",
+    "蘇子吹起洞簫，請客人依著節拍唱歌。"
+   ],
+   "source_note": "字義依參考包kl09-010；龍騰學習講義p.93 Q4",
+   "from_pack": [
+    "kl09-010"
+   ],
+   "needs_review": true,
+   "review_note": "倚、和字義講義未明列，依參考包。"
+  },
+  {
+   "id": "chibi-13",
+   "lesson": "赤壁賦",
+   "paragraph": 2,
+   "scene": "簫聲一起，作者開始描寫它聽起來像什麼。",
+   "context_before": "客有吹洞簫者，倚歌而和之，",
+   "sentence": "其聲嗚嗚然：如怨、如慕、如泣、如訴",
+   "context_after": "。餘音嫋嫋，不絕如縷，",
+   "keywords": [
+    {
+     "word": "慕",
+     "gloss": "思慕",
+     "pos": "動詞",
+     "distractors": [
+      "羨慕",
+      "模仿",
+      "募集"
+     ]
+    },
+    {
+     "word": "訴",
+     "gloss": "傾訴",
+     "pos": "動詞",
+     "distractors": [
+      "告狀",
+      "訴訟",
+      "責備"
+     ]
+    }
+   ],
+   "meaning": "簫聲嗚嗚作響，像在哀怨、思慕，又像在哭泣、傾訴。以人的情感描寫音樂。",
+   "meaning_distractors": [
+    "簫聲嗚嗚作響，像在埋怨別人、羨慕他人，又像在告狀。",
+    "歌聲高亢嘹亮，像在表達仰慕，又像在責備客人。",
+    "簫聲時有時無，聽的人都怨恨起來，哭著向蘇子告狀。"
+   ],
+   "source_note": "龍騰學習講義p.92重點句意(第一層)；龍騰混合題本第4題；慕、訴字義依文意初擬",
+   "from_pack": [
+    "kl09-011"
+   ],
+   "needs_review": true,
+   "review_note": "慕、訴字義講義未明列，依文意與參考包。"
+  },
+  {
+   "id": "chibi-14",
+   "lesson": "赤壁賦",
+   "paragraph": 2,
+   "scene": "簫聲吹完一段，聲音還沒有完全消失。",
+   "context_before": "其聲嗚嗚然：如怨、如慕、如泣、如訴。",
+   "sentence": "餘音嫋嫋，不絕如縷",
+   "context_after": "，舞幽壑之潛蛟，泣孤舟之嫠婦。",
+   "keywords": [
+    {
+     "word": "嫋嫋",
+     "gloss": "聲音悠長",
+     "pos": "形容詞",
+     "distractors": [
+      "聲音高亢",
+      "忽高忽低",
+      "女子美好"
+     ]
+    },
+    {
+     "word": "縷",
+     "gloss": "細絲線",
+     "pos": "名詞",
+     "distractors": [
+      "一縷炊煙",
+      "衣服",
+      "頭髮"
+     ]
+    }
+   ],
+   "meaning": "吹完後的餘音悠長不斷，像細細的絲線一樣沒有斷絕。",
+   "meaning_distractors": [
+    "吹完後的聲音高亢響亮，一陣又一陣沒有間斷。",
+    "吹完後的餘音立刻斷絕，像被剪斷的絲線。",
+    "吹完後還有餘音，聽的人都像穿上了絲衣。"
+   ],
+   "source_note": "龍騰學習講義p.92重點句意(第二層，以絲縷為喻)；龍騰語文演練聲情並茂；嫋嫋字義依參考包kl09-012",
+   "from_pack": [
+    "kl09-012"
+   ],
+   "needs_review": true,
+   "review_note": "嫋嫋字義講義未明列，依參考包。"
+  },
+  {
+   "id": "chibi-15",
+   "lesson": "赤壁賦",
+   "paragraph": 2,
+   "scene": "作者用想像寫這段簫聲傳得多遠、多感人。",
+   "context_before": "其聲嗚嗚然：如怨、如慕、如泣、如訴。餘音嫋嫋，不絕如縷，",
+   "sentence": "舞幽壑之潛蛟，泣孤舟之嫠婦",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "舞",
+     "gloss": "使……起舞",
+     "pos": "動詞",
+     "distractors": [
+      "揮舞",
+      "舞弊",
+      "跳舞的人"
+     ]
+    },
+    {
+     "word": "泣",
+     "gloss": "使……哭泣",
+     "pos": "動詞",
+     "distractors": [
+      "悄悄地哭",
+      "哭泣的人",
+      "眼淚"
+     ]
+    },
+    {
+     "word": "嫠婦",
+     "gloss": "寡婦（嫠音ㄌㄧˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "漁婦",
+      "老婦",
+      "歌女"
+     ]
+    }
+   ],
+   "meaning": "能使深谷裡潛藏的蛟龍起舞，使孤舟上的寡婦哭泣。極寫簫聲的感染力。",
+   "meaning_distractors": [
+    "深谷裡的蛟龍自己在跳舞，孤舟上的漁婦因害怕而哭泣。",
+    "舞者走進深谷捉蛟龍，孤舟上的寡婦為他哭泣。",
+    "蛟龍在深谷裡揮舞身體，掀翻了漁婦的小船。"
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2(嫠)；龍騰語文演練(嫠)；龍騰學習講義p.92重點句意(第三層)；舞、泣使動依參考包kl09-013",
+   "from_pack": [
+    "kl09-013"
+   ],
+   "needs_review": true,
+   "review_note": "舞、泣的使動用法講義未直接標示，依參考包與文意。"
+  },
+  {
+   "id": "chibi-16",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "聽完簫聲，蘇子的神情和坐姿都變了，開口問客。",
+   "context_before": "舞幽壑之潛蛟，泣孤舟之嫠婦。",
+   "sentence": "蘇子愀然，正襟危坐而問客曰：「何為其然也",
+   "context_after": "？」客曰：「『月明星稀，烏鵲南飛』，此非曹孟德之詩乎？",
+   "keywords": [
+    {
+     "word": "愀然",
+     "gloss": "憂愁變色的樣子（愀音ㄑㄧㄠˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "大怒的樣子",
+      "驚喜的樣子",
+      "疲倦的樣子"
+     ]
+    },
+    {
+     "word": "危",
+     "gloss": "端正",
+     "pos": "形容詞",
+     "distractors": [
+      "危險",
+      "危急",
+      "高聳"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "為什麼",
+     "pos": "疑問詞",
+     "distractors": [
+      "成為",
+      "替",
+      "作為"
+     ]
+    }
+   ],
+   "meaning": "蘇子神色憂愁，整理衣襟端正坐好，問客人：「簫聲為什麼這樣悲涼？」",
+   "meaning_distractors": [
+    "蘇子勃然大怒，整理衣服準備離開，責問客人：「為什麼吹成這樣？」",
+    "蘇子驚喜萬分，危險地坐在船邊，問客人：「這是誰吹的？」",
+    "蘇子臉色疲倦，端正坐好，請客人：「替我再吹一曲吧。」"
+   ],
+   "confusables": [
+    {
+     "word": "危",
+     "other": "此誠「危」急存亡之秋也",
+     "other_lesson": "出師表",
+     "same": false,
+     "note": "端正／危險"
+    },
+    {
+     "word": "為",
+     "other": "耳得之而「為」聲",
+     "other_lesson": "赤壁賦",
+     "same": false,
+     "note": "為什麼／成為"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟3、單元四步驟5；龍騰語文演練字形辨正(愀音)；愀然字義依參考包kl09-014",
+   "from_pack": [
+    "kl09-014",
+    "kl09-032"
+   ],
+   "needs_review": true,
+   "review_note": "愀然字義講義未明列，依參考包。龍騰作「正襟危坐而問客」，參考包多一逗號。",
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "35",
+     "quote": "蘇子愀然，正襟危坐而問客曰：「何為其然也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "選項D前句"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "蘇子愀然，正襟危坐而問客曰：「何為其然也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "共用引文第4段短引"
+    }
+   ]
+  },
+  {
+   "id": "chibi-17",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客回答蘇子，從眼前的江山形勢說起。",
+   "context_before": "客曰：「『月明星稀，烏鵲南飛』，此非曹孟德之詩乎？",
+   "sentence": "西望夏口，東望武昌，山川相繆，鬱乎蒼蒼",
+   "context_after": "，此非孟德之困於周郎者乎？",
+   "keywords": [
+    {
+     "word": "繆",
+     "gloss": "纏繞（音ㄌㄧㄠˊ，通「繚」）",
+     "pos": "動詞",
+     "distractors": [
+      "錯誤",
+      "姓氏",
+      "預備"
+     ]
+    },
+    {
+     "word": "蒼蒼",
+     "gloss": "草木青蒼的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "頭髮灰白",
+      "天色昏暗",
+      "江水茫茫"
+     ]
+    }
+   ],
+   "meaning": "向西望見夏口，向東望見武昌，山水互相環繞，草木茂盛青蒼。",
+   "meaning_distractors": [
+    "向西望見夏口，向東望見武昌，山水錯亂難辨，天色一片昏暗。",
+    "向西走到夏口，向東走到武昌，山河荒廢，人們頭髮都白了。",
+    "從夏口看不到武昌，山水之間相隔太遠，江水一片茫茫。"
+   ],
+   "source_note": "龍騰學習講義p.95字音辨析(繆)；龍騰語文演練字音辨正；蒼蒼字義依參考包kl09-033",
+   "from_pack": [
+    "kl09-033"
+   ],
+   "needs_review": true,
+   "review_note": "蒼蒼字義講義未明列，依參考包。",
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "35",
+     "quote": "西望夏口，東望武昌，山川相繆，鬱乎蒼蒼",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "選項A前句"
+    }
+   ]
+  },
+  {
+   "id": "chibi-18",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客看著眼前的山川，想起一場有名的戰役。",
+   "context_before": "西望夏口，東望武昌，山川相繆，鬱乎蒼蒼，",
+   "sentence": "此非孟德之困於周郎者乎",
+   "context_after": "？方其破荊州、下江陵，順流而東也，舳艫千里，旌旗蔽空，",
+   "keywords": [
+    {
+     "word": "於",
+     "gloss": "被",
+     "pos": "介詞",
+     "distractors": [
+      "在",
+      "比",
+      "到"
+     ]
+    },
+    {
+     "word": "困",
+     "gloss": "圍困",
+     "pos": "動詞",
+     "distractors": [
+      "疲倦",
+      "困惑",
+      "貧窮"
+     ]
+    }
+   ],
+   "meaning": "這裡不就是曹操被周瑜圍困的地方嗎？",
+   "meaning_distractors": [
+    "這裡不就是曹操圍困周瑜的地方嗎？",
+    "這不是曹操在周瑜面前感到困惑的事嗎？",
+    "這裡並不是曹操和周瑜交戰的地方啊。"
+   ],
+   "source_note": "鷹架講義(教)單元三步驟1提示；龍騰學習講義p.95激問、p.103被動句",
+   "from_pack": [
+    "kl09-015"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "37",
+     "quote": "此非孟德之困於周郎者乎",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    },
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "25",
+     "quote": "此非孟德之困於周郎者乎",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項C後句"
+    }
+   ]
+  },
+  {
+   "id": "chibi-19",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客回想當年曹操率軍南下時的陣容。",
+   "context_before": "此非孟德之困於周郎者乎？",
+   "sentence": "方其破荊州、下江陵，順流而東也，舳艫千里，旌旗蔽空",
+   "context_after": "，釃酒臨江，橫槊賦詩，",
+   "keywords": [
+    {
+     "word": "方",
+     "gloss": "當",
+     "pos": "介詞",
+     "distractors": [
+      "正方形",
+      "方法",
+      "方向"
+     ]
+    },
+    {
+     "word": "東",
+     "gloss": "向東行",
+     "pos": "動詞",
+     "distractors": [
+      "東邊",
+      "主人",
+      "東西"
+     ]
+    },
+    {
+     "word": "舳艫",
+     "gloss": "船隻（舳船尾、艫船頭，音ㄓㄨˊ ㄌㄨˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "軍旗",
+      "酒宴",
+      "城牆"
+     ]
+    }
+   ],
+   "meaning": "當曹操攻破荊州、拿下江陵，順著長江向東進軍時，戰船綿延千里，旌旗遮蔽天空。寫軍容壯盛。",
+   "meaning_distractors": [
+    "曹操正要逃離荊州、退回江陵，逆流而上，戰船燒毀，旌旗倒地。",
+    "當周瑜攻破荊州、拿下江陵，順流向東時，酒宴擺了千里，旗幟滿天。",
+    "曹操用方法修補荊州、江陵的城牆，城牆綿延千里，戰況慘烈。"
+   ],
+   "source_note": "龍騰學習講義p.92重點句意、p.94借代；龍騰語文演練(舳艫、軍容壯盛)；龍騰混合題本第5題；方、東字義依文意初擬",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "方、東字義依文意初擬，講義未明列。參考包kl09-037 的出處只涉下一句，故本句未列 from_pack。"
+  },
+  {
+   "id": "chibi-20",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客接著想像曹操在江邊的模樣。",
+   "context_before": "方其破荊州、下江陵，順流而東也，舳艫千里，旌旗蔽空，",
+   "sentence": "釃酒臨江，橫槊賦詩",
+   "context_after": "，固一世之雄也，而今安在哉？",
+   "keywords": [
+    {
+     "word": "釃",
+     "gloss": "斟酒（音ㄙ）",
+     "pos": "動詞",
+     "distractors": [
+      "釀酒",
+      "灑酒祭江",
+      "喝醉"
+     ]
+    },
+    {
+     "word": "槊",
+     "gloss": "長矛",
+     "pos": "名詞",
+     "distractors": [
+      "船槳",
+      "長劍",
+      "馬鞭"
+     ]
+    },
+    {
+     "word": "賦",
+     "gloss": "創作",
+     "pos": "動詞",
+     "distractors": [
+      "田稅",
+      "朗誦",
+      "賞賜"
+     ]
+    }
+   ],
+   "meaning": "在江邊斟酒，橫拿長矛創作詩篇。形容意氣自得，能文能武。",
+   "meaning_distractors": [
+    "在江邊釀酒，用船槳在水面寫詩。",
+    "面對大江灑酒祭拜，橫拿長劍朗誦他人的詩。",
+    "到江邊喝醉了，拿馬鞭賞賜部下詩篇。"
+   ],
+   "source_note": "龍騰語文演練形音義彙整(釃)、文意搜查第4題；龍騰學習講義p.92重點句意；槊依參考包kl09-037；賦依文意初擬",
+   "from_pack": [
+    "kl09-037"
+   ],
+   "needs_review": true,
+   "review_note": "槊依參考包、賦依文意，講義未明列。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "釃酒臨江，橫槊賦詩",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "語詞援用",
+     "location": "共用引文末段敘述"
+    }
+   ]
+  },
+  {
+   "id": "chibi-21",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "說完曹操的威風，客的語氣一轉，發出一句問話。",
+   "context_before": "舳艫千里，旌旗蔽空，釃酒臨江，橫槊賦詩，",
+   "sentence": "固一世之雄也，而今安在哉",
+   "context_after": "？況吾與子，漁樵於江渚之上，侶魚蝦而友麋鹿。",
+   "keywords": [
+    {
+     "word": "固",
+     "gloss": "的確",
+     "pos": "副詞",
+     "distractors": [
+      "本來",
+      "堅固",
+      "固執"
+     ]
+    },
+    {
+     "word": "安在",
+     "gloss": "在哪裡",
+     "pos": "疑問詞",
+     "distractors": [
+      "平安存在",
+      "安穩居住",
+      "怎麼存在"
+     ]
+    }
+   ],
+   "meaning": "他的確是一代英雄，但如今又在哪裡呢？感嘆英雄終究消逝。",
+   "meaning_distractors": [
+    "他本來就是一代英雄，如今也平安地活著。",
+    "他固執地想當一代英雄，如今安穩地住在哪裡？",
+    "他堅固地守住一世基業，如今仍然安在。"
+   ],
+   "confusables": [
+    {
+     "word": "固",
+     "other": "其聞道也，「固」先乎吾",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "的確／本來"
+    },
+    {
+     "word": "固",
+     "other": "我「固」謂不能作苦",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "的確／本來"
+    }
+   ],
+   "source_note": "龍騰語文演練字義辨析(固：的確、確實)；龍騰混合題本第6題解析；參考包kl09-016作「本來」",
+   "from_pack": [
+    "kl09-016"
+   ],
+   "needs_review": true,
+   "review_note": "固：龍騰語文演練作「的確、確實」，參考包作「本來」，採龍騰。安在依參考包。"
+  },
+  {
+   "id": "chibi-22",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客把話題從曹操轉回到船上的兩個人。",
+   "context_before": "固一世之雄也，而今安在哉？",
+   "sentence": "況吾與子，漁樵於江渚之上，侶魚蝦而友麋鹿",
+   "context_after": "。駕一葉之扁舟，舉匏樽以相屬。",
+   "keywords": [
+    {
+     "word": "漁樵",
+     "gloss": "捕魚砍柴",
+     "pos": "動詞",
+     "distractors": [
+      "漁夫與船夫",
+      "釣魚賞景",
+      "賣魚賣柴"
+     ]
+    },
+    {
+     "word": "侶",
+     "gloss": "以……為伴",
+     "pos": "動詞",
+     "distractors": [
+      "情侶",
+      "僧侶",
+      "陪伴他人"
+     ]
+    },
+    {
+     "word": "友",
+     "gloss": "以……為友",
+     "pos": "動詞",
+     "distractors": [
+      "朋友",
+      "友善",
+      "結交權貴"
+     ]
+    }
+   ],
+   "meaning": "何況你我在江邊捕魚砍柴，以魚蝦為伴，以麋鹿為友。",
+   "meaning_distractors": [
+    "何況你我在江邊賣魚賣柴，和情侶一起吃魚蝦、養麋鹿。",
+    "即使你我在江邊捕魚砍柴，也勝過魚蝦和麋鹿。",
+    "何況你我在江邊賞景，帶著朋友去打獵捕鹿。"
+   ],
+   "source_note": "鷹架講義(教)單元一步驟4第3題(漁樵)；侶、友意動依參考包kl09-017；龍騰混合題本",
+   "from_pack": [
+    "kl09-017"
+   ],
+   "needs_review": true,
+   "review_note": "侶、友的意動用法講義未直接標示，依參考包。"
+  },
+  {
+   "id": "chibi-23",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客繼續描述自己和蘇子此刻的處境。",
+   "context_before": "況吾與子，漁樵於江渚之上，侶魚蝦而友麋鹿。",
+   "sentence": "駕一葉之扁舟，舉匏樽以相屬",
+   "context_after": "。寄蜉蝣於天地，渺滄海之一粟，",
+   "keywords": [
+    {
+     "word": "匏樽",
+     "gloss": "葫蘆做的酒器（匏音ㄆㄠˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "瓠瓜做的湯匙",
+      "玉做的酒杯",
+      "陶土的飯碗"
+     ]
+    },
+    {
+     "word": "屬",
+     "gloss": "勸酒（音ㄓㄨˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "類別",
+      "隸屬",
+      "寫作"
+     ]
+    }
+   ],
+   "meaning": "駕著小船，舉起葫蘆做的酒器互相勸酒。",
+   "meaning_distractors": [
+    "駕著大船，舉起玉杯向長官敬酒，歸屬於他。",
+    "乘著一片葉子，舉起葫蘆請託對方寫文章。",
+    "駕車到江邊，舉起酒杯，大家同屬一類人。"
+   ],
+   "confusables": [
+    {
+     "word": "屬",
+     "other": "舉酒「屬」客",
+     "other_lesson": "赤壁賦",
+     "same": true,
+     "note": "勸請"
+    }
+   ],
+   "source_note": "龍騰學習講義p.95字形辨析(匏音)、p.95-96字音辨析(屬)；匏樽字義依文意初擬",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "匏樽字義依文意初擬，講義只列字音與「匏瓜」。"
+  },
+  {
+   "id": "chibi-24",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客說出自己心裡第一層的悲傷，用了兩個比喻。",
+   "context_before": "駕一葉之扁舟，舉匏樽以相屬。",
+   "sentence": "寄蜉蝣於天地，渺滄海之一粟",
+   "context_after": "，哀吾生之須臾，羨長江之無窮，",
+   "keywords": [
+    {
+     "word": "蜉蝣",
+     "gloss": "朝生暮死的小蟲，比喻生命短促",
+     "pos": "名詞",
+     "distractors": [
+      "水中的小魚",
+      "飄浮的雲",
+      "空中的飛鳥"
+     ]
+    },
+    {
+     "word": "一粟",
+     "gloss": "一粒小米，比喻渺小",
+     "pos": "名詞",
+     "distractors": [
+      "一片海浪",
+      "一杯水",
+      "一粒沙金"
+     ]
+    }
+   ],
+   "meaning": "人生像蜉蝣一樣短暫寄居天地間，又渺小得像大海裡的一粒小米。",
+   "meaning_distractors": [
+    "人生像飛鳥一樣自在於天地間，又像大海一樣廣闊。",
+    "把蜉蝣寄放在天地間，再將小米撒進滄海之中。",
+    "人生的景象虛幻不實，歲月如梭，一下就到了滄海。"
+   ],
+   "source_note": "鷹架講義(教)單元三步驟2提示；龍騰學習講義p.93 Q2；龍騰語文演練字形辨正與文意搜查第4題",
+   "from_pack": [
+    "kl09-018"
+   ]
+  },
+  {
+   "id": "chibi-25",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客說出悲傷的核心，把自己和眼前的江水相比。",
+   "context_before": "寄蜉蝣於天地，渺滄海之一粟，",
+   "sentence": "哀吾生之須臾，羨長江之無窮",
+   "context_after": "，挾飛仙以遨遊，抱明月而長終，",
+   "keywords": [
+    {
+     "word": "之",
+     "gloss": "不譯的助詞，用在主語和謂語之間",
+     "pos": "助詞",
+     "distractors": [
+      "的",
+      "往、到",
+      "他、它"
+     ]
+    },
+    {
+     "word": "須臾",
+     "gloss": "短暫（臾音ㄩˊ）",
+     "pos": "形容詞",
+     "distractors": [
+      "漫長",
+      "辛苦",
+      "悠閒"
+     ]
+    }
+   ],
+   "meaning": "悲傷我的生命短暫，羨慕長江無窮無盡。",
+   "meaning_distractors": [
+    "悲傷我的一生太過漫長，厭惡長江無窮無盡。",
+    "可憐我的生命辛苦，羨慕長江可以往東流去。",
+    "悲傷我的親人離世，羨慕長江邊無窮的美景。"
+   ],
+   "confusables": [
+    {
+     "word": "之",
+     "other": "師道「之」不傳也久矣",
+     "other_lesson": "師說",
+     "same": true,
+     "note": "用在主語和謂語之間"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟2、步驟3比一比；須臾字義依參考包kl09-019",
+   "from_pack": [
+    "kl09-019"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "1",
+     "quote": "哀吾生之須臾，羨長江之無窮",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "短詞摘引",
+     "location": "選項A後詞"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "哀吾生之須臾，羨長江之無窮",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "共用引文第5段短引"
+    }
+   ]
+  },
+  {
+   "id": "chibi-26",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客說出心裡真正的願望。",
+   "context_before": "寄蜉蝣於天地，渺滄海之一粟，哀吾生之須臾，羨長江之無窮，",
+   "sentence": "挾飛仙以遨遊，抱明月而長終",
+   "context_after": "，知不可乎驟得，託遺響於悲風。」",
+   "keywords": [
+    {
+     "word": "挾",
+     "gloss": "偕同",
+     "pos": "動詞",
+     "distractors": [
+      "要脅",
+      "夾帶",
+      "挾持"
+     ]
+    },
+    {
+     "word": "長終",
+     "gloss": "長存",
+     "pos": "動詞",
+     "distractors": [
+      "最後死去",
+      "結束一生",
+      "終止"
+     ]
+    }
+   ],
+   "meaning": "想要和飛仙一同遨遊，和明月一起長存。這是願望，不是已實現的事。",
+   "meaning_distractors": [
+    "已經和飛仙一同遨遊，抱著明月離開人世。",
+    "要脅飛仙帶自己遨遊，取走明月後就結束一生。",
+    "夢見自己變成飛仙，抱著明月，一夢到終。"
+   ],
+   "source_note": "龍騰語文演練文意搜查第3題解析(與飛仙同遊，與明月長存)；鷹架講義(教)單元三步驟2；挾依文意",
+   "from_pack": [
+    "kl09-020"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "26",
+     "quote": "挾飛仙以遨遊，抱明月而長終",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "18",
+     "quote": "挾飛仙以遨遊，抱明月而長終",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "題幹①"
+    }
+   ]
+  },
+  {
+   "id": "chibi-27",
+   "lesson": "赤壁賦",
+   "paragraph": 3,
+   "scene": "客的回答到了最後，說明簫聲為何這麼悲。",
+   "context_before": "哀吾生之須臾，羨長江之無窮，挾飛仙以遨遊，抱明月而長終，",
+   "sentence": "知不可乎驟得，託遺響於悲風",
+   "context_after": "。」蘇子曰：「客亦知夫水與月乎？",
+   "keywords": [
+    {
+     "word": "驟",
+     "gloss": "輕易",
+     "pos": "副詞",
+     "distractors": [
+      "多次",
+      "緩慢",
+      "馬奔跑"
+     ]
+    },
+    {
+     "word": "託",
+     "gloss": "寄託",
+     "pos": "動詞",
+     "distractors": [
+      "推託",
+      "託人轉交",
+      "托舉"
+     ]
+    },
+    {
+     "word": "遺響",
+     "gloss": "餘音",
+     "pos": "名詞",
+     "distractors": [
+      "遺失的聲響",
+      "遺留的書信",
+      "山谷的回音"
+     ]
+    },
+    {
+     "word": "悲風",
+     "gloss": "悲涼的秋風",
+     "pos": "名詞",
+     "distractors": [
+      "悲傷的歌聲",
+      "狂暴的颱風",
+      "哀悼的文字"
+     ]
+    }
+   ],
+   "meaning": "知道這個願望不可能輕易實現，只好把簫聲的餘音寄託在悲涼的秋風裡。回答了蘇子「何為其然」的問題。",
+   "meaning_distractors": [
+    "知道仙人不會突然出現，只好推託是秋風吹走了簫聲。",
+    "知道自己多次求不到長生，就把遺書交給悲傷的朋友。",
+    "知道願望很快就會實現，便在秋風中吹響歡樂的簫聲。"
+   ],
+   "source_note": "龍騰學習講義解-2(輕易實現)；鷹架講義(教)單元三步驟2；龍騰語文演練悲喜交集；遺響、悲風字義依文意初擬",
+   "from_pack": [
+    "kl09-021"
+   ],
+   "needs_review": true,
+   "review_note": "遺響、悲風依文意初擬。參考包把句意解成「寄於悲涼簫聲」，與「悲風」不合，未採。字形依龍騰作「託」，參考包作「托」。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "18",
+     "quote": "知不可乎驟得，託遺響於悲風",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "題幹①"
+    }
+   ]
+  },
+  {
+   "id": "chibi-28",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "蘇子聽完客的悲傷，指著江水回應他。",
+   "context_before": "蘇子曰：「客亦知夫水與月乎？",
+   "sentence": "逝者如斯，而未嘗往也",
+   "context_after": "；盈虛者如彼，而卒莫消長也。",
+   "keywords": [
+    {
+     "word": "逝者",
+     "gloss": "流走的江水",
+     "pos": "名詞",
+     "distractors": [
+      "過世的人",
+      "離開的客人",
+      "逝去的時光"
+     ]
+    },
+    {
+     "word": "往",
+     "gloss": "真正離開",
+     "pos": "動詞",
+     "distractors": [
+      "前往",
+      "往昔",
+      "往來"
+     ]
+    }
+   ],
+   "meaning": "江水不斷流逝，但江水本體未曾真正離開。",
+   "meaning_distractors": [
+    "過世的人就像這樣，再也不曾回來。",
+    "江水不斷流逝，所以前往的人都不曾回來。",
+    "時光不斷流逝，往昔的事未曾被人遺忘。"
+   ],
+   "source_note": "鷹架講義(教)單元四步驟1提示；龍騰混合題本第7題",
+   "from_pack": [
+    "kl09-022"
+   ]
+  },
+  {
+   "id": "chibi-29",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "蘇子接著指向天上，用另一個例子。",
+   "context_before": "蘇子曰：「客亦知夫水與月乎？逝者如斯，而未嘗往也；",
+   "sentence": "盈虛者如彼，而卒莫消長也",
+   "context_after": "。蓋將自其變者而觀之，則天地曾不能以一瞬；",
+   "keywords": [
+    {
+     "word": "盈虛者",
+     "gloss": "有圓有缺的月亮",
+     "pos": "名詞",
+     "distractors": [
+      "漲退的潮水",
+      "有虛有實的人",
+      "時多時少的錢財"
+     ]
+    },
+    {
+     "word": "卒",
+     "gloss": "終究",
+     "pos": "副詞",
+     "distractors": [
+      "士兵",
+      "死亡",
+      "倉促"
+     ]
+    },
+    {
+     "word": "消長",
+     "gloss": "增減",
+     "pos": "動詞",
+     "distractors": [
+      "消失與成長",
+      "消息",
+      "消化"
+     ]
+    }
+   ],
+   "meaning": "月亮有圓有缺，但月亮本體終究不曾增減。",
+   "meaning_distractors": [
+    "月亮有圓有缺，士兵卻不知道它會消失。",
+    "潮水時漲時退，終究會慢慢增加。",
+    "月亮有圓有缺，最後終於消失不見。"
+   ],
+   "source_note": "龍騰混合題本第7題(月亮本體不曾增損)；龍騰學習講義p.91內容結構；卒字義依參考包kl09-023",
+   "from_pack": [
+    "kl09-023"
+   ],
+   "needs_review": true,
+   "review_note": "卒字義依參考包，手邊講義只在表格譯作「終究」。"
+  },
+  {
+   "id": "chibi-30",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "蘇子由水和月說起道理，先談第一個角度。",
+   "context_before": "逝者如斯，而未嘗往也；盈虛者如彼，而卒莫消長也。",
+   "sentence": "蓋將自其變者而觀之，則天地曾不能以一瞬",
+   "context_after": "；自其不變者而觀之，則物與我皆無盡也，",
+   "keywords": [
+    {
+     "word": "自",
+     "gloss": "從",
+     "pos": "介詞",
+     "distractors": [
+      "自己",
+      "自然",
+      "自從"
+     ]
+    },
+    {
+     "word": "曾",
+     "gloss": "竟、連（音ㄘㄥˊ）",
+     "pos": "副詞",
+     "distractors": [
+      "曾經",
+      "姓氏",
+      "增加"
+     ]
+    },
+    {
+     "word": "一瞬",
+     "gloss": "一眨眼",
+     "pos": "名詞",
+     "distractors": [
+      "一天",
+      "一年",
+      "一整夜"
+     ]
+    }
+   ],
+   "meaning": "如果從變動的角度來看，天地連一眨眼的時間都不曾停止變化。",
+   "meaning_distractors": [
+    "如果自己變了再去看，天地曾經只存在一眨眼。",
+    "如果天地發生變化，人就不能再看見任何東西。",
+    "如果從不變的角度來看，天地曾經有過短暫的靜止。"
+   ],
+   "source_note": "鷹架講義(教)單元四導讀(連一眨眼都不停)、單元一步驟4；龍騰混合題本第2題解析；龍騰學習講義p.92；曾字義依參考包kl09-024",
+   "from_pack": [
+    "kl09-024"
+   ],
+   "needs_review": true,
+   "review_note": "曾字義與字音講義未明列，依參考包與文意。"
+  },
+  {
+   "id": "chibi-31",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "蘇子換到第二個角度，再回應客的羨慕。",
+   "context_before": "蓋將自其變者而觀之，則天地曾不能以一瞬；",
+   "sentence": "自其不變者而觀之，則物與我皆無盡也，而又何羨乎",
+   "context_after": "？且夫天地之間，物各有主，",
+   "keywords": [
+    {
+     "word": "無盡",
+     "gloss": "沒有窮盡",
+     "pos": "形容詞",
+     "distractors": [
+      "沒有錢財",
+      "沒有盡力",
+      "無法見面"
+     ]
+    },
+    {
+     "word": "何羨",
+     "gloss": "何必羨慕",
+     "pos": "動詞",
+     "distractors": [
+      "為何嫉妒",
+      "多麼羨慕",
+      "羨慕什麼"
+     ]
+    }
+   ],
+   "meaning": "如果從不變的角度來看，萬物和我都沒有窮盡，又何必羨慕長江呢？",
+   "meaning_distractors": [
+    "如果從不變的角度來看，只有長江沒有窮盡，當然令我十分羨慕。",
+    "如果事物都不變，我和萬物都會結束，為何還要嫉妒別人？",
+    "如果自己不改變，就看不見萬物的無窮，多麼值得羨慕。"
+   ],
+   "source_note": "鷹架講義(教)單元四導讀與步驟1；龍騰學習講義p.92重點句意；龍騰混合題本第5題參考答案",
+   "from_pack": [
+    "kl09-025"
+   ]
+  },
+  {
+   "id": "chibi-32",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "道理說完，蘇子進一步談人應該怎麼對待身外之物。",
+   "context_before": "自其不變者而觀之，則物與我皆無盡也，而又何羨乎？",
+   "sentence": "且夫天地之間，物各有主，苟非吾之所有，雖一毫而莫取",
+   "context_after": "。惟江上之清風，與山間之明月，",
+   "keywords": [
+    {
+     "word": "且夫",
+     "gloss": "況且",
+     "pos": "連詞",
+     "distractors": [
+      "丈夫",
+      "暫且",
+      "將要"
+     ]
+    },
+    {
+     "word": "苟",
+     "gloss": "如果",
+     "pos": "連詞",
+     "distractors": [
+      "姑且",
+      "隨便",
+      "苟且"
+     ]
+    },
+    {
+     "word": "雖",
+     "gloss": "即使",
+     "pos": "連詞",
+     "distractors": [
+      "雖然",
+      "只是",
+      "唯獨"
+     ]
+    }
+   ],
+   "meaning": "況且天地之間，萬物各有主人，如果不是我所擁有的，即使一絲一毫也不拿取。",
+   "meaning_distractors": [
+    "況且天地之間，萬物沒有主人，姑且拿一點點也沒關係。",
+    "而且天地之間，萬物都歸我所有，一絲一毫也不能少。",
+    "暫且不管天地間萬物屬於誰，隨便拿一點來用就好。"
+   ],
+   "confusables": [
+    {
+     "word": "苟",
+     "other": "「苟」全性命於亂世",
+     "other_lesson": "出師表",
+     "same": false,
+     "note": "如果／姑且"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟5比一比(苟)；龍騰學習講義p.92重點句意；且夫、雖字義依參考包kl09-036、kl09-026",
+   "from_pack": [
+    "kl09-026",
+    "kl09-036"
+   ],
+   "needs_review": true,
+   "review_note": "且夫、雖字義講義未明列，依參考包。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "18",
+     "quote": "且夫天地之間，物各有主，苟非吾之所有，雖一毫而莫取",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "題幹②"
+    }
+   ]
+  },
+  {
+   "id": "chibi-33",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "說完不能拿的，蘇子舉出一樣人人都能享有的東西。",
+   "context_before": "苟非吾之所有，雖一毫而莫取。",
+   "sentence": "惟江上之清風，與山間之明月，耳得之而為聲，目遇之而成色",
+   "context_after": "，取之無禁、用之不竭，",
+   "keywords": [
+    {
+     "word": "惟",
+     "gloss": "只有",
+     "pos": "副詞",
+     "distractors": [
+      "思考",
+      "因為",
+      "並且"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "成為",
+     "pos": "動詞",
+     "distractors": [
+      "為什麼",
+      "替",
+      "被"
+     ]
+    },
+    {
+     "word": "色",
+     "gloss": "景色",
+     "pos": "名詞",
+     "distractors": [
+      "顏色",
+      "臉色",
+      "女色"
+     ]
+    }
+   ],
+   "meaning": "只有江上的清風和山間的明月，耳朵聽到就成為聲音，眼睛看見就成為景色。",
+   "meaning_distractors": [
+    "思考江上清風和山間明月時，耳朵和眼睛都派不上用場。",
+    "江上清風和山間明月，只有耳朵好、眼睛好的人才能占為己有。",
+    "因為清風明月的緣故，人的耳朵被聲音干擾，臉色也變了。"
+   ],
+   "confusables": [
+    {
+     "word": "為",
+     "other": "何「為」其然也",
+     "other_lesson": "赤壁賦",
+     "same": false,
+     "note": "成為／為什麼"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟5比一比(為)；龍騰學習講義p.92重點句意；惟、色字義依參考包kl09-027",
+   "from_pack": [
+    "kl09-027"
+   ],
+   "needs_review": true,
+   "review_note": "惟、色字義講義未明列，依參考包。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "15-19",
+     "quote": "惟江上之清風，與山間之明月，耳得之而為聲，目遇之而成色",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "共用引文第5段括注"
+    }
+   ]
+  },
+  {
+   "id": "chibi-34",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "蘇子說明清風明月和其他東西有什麼不同。",
+   "context_before": "惟江上之清風，與山間之明月，耳得之而為聲，目遇之而成色，",
+   "sentence": "取之無禁、用之不竭",
+   "context_after": "，是造物者之無盡藏也，而吾與子之所共適。」",
+   "keywords": [
+    {
+     "word": "禁",
+     "gloss": "禁止",
+     "pos": "動詞",
+     "distractors": [
+      "忍住",
+      "宮禁",
+      "監禁"
+     ]
+    },
+    {
+     "word": "竭",
+     "gloss": "窮盡",
+     "pos": "動詞",
+     "distractors": [
+      "盡力",
+      "乾燥",
+      "舉起"
+     ]
+    }
+   ],
+   "meaning": "取用它們沒有人禁止，享用它們也不會窮盡。",
+   "meaning_distractors": [
+    "取用它們被人禁止，只有盡力才能使用。",
+    "想取用的人會被監禁，用完就不再有。",
+    "取用時要忍耐，使用時要竭盡心力。"
+   ],
+   "source_note": "龍騰學習講義p.93 Q3；鷹架講義(教)單元五步驟4；龍騰混合題本第7題；禁、竭字義依參考包kl09-028",
+   "from_pack": [
+    "kl09-028"
+   ],
+   "needs_review": true,
+   "review_note": "禁、竭字義講義未明列，依參考包。"
+  },
+  {
+   "id": "chibi-35",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "蘇子把話說到最後，勸客人一起看待眼前的風月。",
+   "context_before": "耳得之而為聲，目遇之而成色，取之無禁、用之不竭，",
+   "sentence": "是造物者之無盡藏也，而吾與子之所共適",
+   "context_after": "。」客喜而笑，洗盞更酌，",
+   "keywords": [
+    {
+     "word": "是",
+     "gloss": "這",
+     "pos": "代詞",
+     "distractors": [
+      "對",
+      "正確",
+      "凡是"
+     ]
+    },
+    {
+     "word": "造物者",
+     "gloss": "大自然",
+     "pos": "名詞",
+     "distractors": [
+      "工匠",
+      "皇帝",
+      "建築師"
+     ]
+    },
+    {
+     "word": "適",
+     "gloss": "享受（音ㄕˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "往、到",
+      "恰巧",
+      "專主"
+     ]
+    }
+   ],
+   "meaning": "這是大自然無窮無盡的寶藏，也是我和你可以一同享受的。",
+   "meaning_distractors": [
+    "這是工匠打造的珍寶，只有我和你才能到那裡去。",
+    "對大自然來說沒有收藏，你我恰巧一起遇到而已。",
+    "凡是造物者的寶藏，都由我和你共同收藏。"
+   ],
+   "confusables": [
+    {
+     "word": "是",
+     "other": "「是」故弟子不必不如師",
+     "other_lesson": "師說",
+     "same": true,
+     "note": "這、此"
+    },
+    {
+     "word": "適",
+     "other": "子「適」衛，冉有僕",
+     "other_lesson": "論語．子路",
+     "same": false,
+     "note": "享受／往、到"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟5比一比(是)；龍騰學習講義p.96字音辨析(適)；龍騰混合題本第7題參考答案(大自然)",
+   "from_pack": [
+    "kl09-029"
+   ]
+  },
+  {
+   "id": "chibi-36",
+   "lesson": "赤壁賦",
+   "paragraph": 5,
+   "scene": "蘇子說完後，客人的心情和動作都有了變化。",
+   "context_before": "是造物者之無盡藏也，而吾與子之所共適。」",
+   "sentence": "客喜而笑，洗盞更酌",
+   "context_after": "，肴核既盡，杯盤狼藉，相與枕藉乎舟中，不知東方之既白。",
+   "keywords": [
+    {
+     "word": "更",
+     "gloss": "再",
+     "pos": "副詞",
+     "distractors": [
+      "更加",
+      "更換",
+      "打更"
+     ]
+    },
+    {
+     "word": "酌",
+     "gloss": "飲酒",
+     "pos": "動詞",
+     "distractors": [
+      "斟酌",
+      "參考",
+      "稍微"
+     ]
+    }
+   ],
+   "meaning": "客人高興地笑了，洗好杯子再次飲酒。",
+   "meaning_distractors": [
+    "客人高興地笑了，換了杯子繼續商量。",
+    "客人假裝高興，洗好杯子便更加悲傷。",
+    "客人氣得笑了出來，洗完杯子再斟酌用語。"
+   ],
+   "source_note": "鷹架講義(教)單元五導讀；龍騰混合題本第8題；更、酌字義依參考包kl09-030",
+   "from_pack": [
+    "kl09-030"
+   ],
+   "needs_review": true,
+   "review_note": "更、酌字義講義未直接列表，導讀作「重新喝酒」，依參考包。",
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "19",
+     "quote": "客喜而笑，洗盞更酌",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "chibi-37",
+   "lesson": "赤壁賦",
+   "paragraph": 5,
+   "scene": "兩人再喝了一輪，作者寫下船上的樣子。",
+   "context_before": "而吾與子之所共適。」客喜而笑，洗盞更酌，",
+   "sentence": "肴核既盡，杯盤狼藉",
+   "context_after": "，相與枕藉乎舟中，不知東方之既白。",
+   "keywords": [
+    {
+     "word": "肴核",
+     "gloss": "菜餚和果品",
+     "pos": "名詞",
+     "distractors": [
+      "魚和果核",
+      "酒和肉",
+      "碗和筷"
+     ]
+    },
+    {
+     "word": "既",
+     "gloss": "已經",
+     "pos": "副詞",
+     "distractors": [
+      "而且",
+      "不久",
+      "既然"
+     ]
+    },
+    {
+     "word": "狼藉",
+     "gloss": "散亂的樣子（藉音ㄐㄧˊ）",
+     "pos": "形容詞",
+     "distractors": [
+      "凶狠的樣子",
+      "乾淨的樣子",
+      "破碎的樣子"
+     ]
+    }
+   ],
+   "meaning": "菜餚和果品都已吃完，杯盤散亂一片。",
+   "meaning_distractors": [
+    "魚和酒都還沒吃完，杯盤被人收得乾乾淨淨。",
+    "菜餚吃完後，杯盤都被狼咬碎了。",
+    "果核全部吃完，大家凶狠地砸碎杯盤。"
+   ],
+   "confusables": [
+    {
+     "word": "藉",
+     "other": "相與枕「藉」乎舟中",
+     "other_lesson": "赤壁賦",
+     "same": false,
+     "note": "散亂（ㄐㄧˊ）／以物襯墊（ㄐㄧㄝˋ）"
+    }
+   ],
+   "source_note": "龍騰學習講義p.96字音辨析(藉)；鷹架講義(教)單元五導讀；肴核字義依參考包kl09-035",
+   "from_pack": [
+    "kl09-035"
+   ],
+   "needs_review": true,
+   "review_note": "肴核字義依參考包。龍騰混合題本作「狼藉」，學習講義p.100選項作「狼籍」，採「狼藉」。",
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "19",
+     "quote": "肴核既盡，杯盤狼藉",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "chibi-38",
+   "lesson": "赤壁賦",
+   "paragraph": 5,
+   "scene": "全文最後一個畫面，夜已經過去。",
+   "context_before": "客喜而笑，洗盞更酌，肴核既盡，杯盤狼藉，",
+   "sentence": "相與枕藉乎舟中，不知東方之既白",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "枕藉",
+     "gloss": "互相枕靠著（枕音ㄓㄣˋ，藉音ㄐㄧㄝˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "憑藉枕頭",
+      "借用枕頭",
+      "互相安慰"
+     ]
+    },
+    {
+     "word": "白",
+     "gloss": "天亮",
+     "pos": "動詞",
+     "distractors": [
+      "白色",
+      "說明",
+      "清白"
+     ]
+    }
+   ],
+   "meaning": "大家互相枕靠著睡在船中，不知道東方已經天亮。全文以安適的畫面作結。",
+   "meaning_distractors": [
+    "大家互相安慰，坐在船中，不知道東方已經變白了。",
+    "大家憑藉枕頭在船中討論，不知道東方在哪裡。",
+    "大家在船中醉倒，不知道東方的太陽還沒升起。"
+   ],
+   "source_note": "龍騰語文演練形音義彙整(枕)、文意搜查第4題；龍騰學習講義p.96字音辨析(藉)；白字義依文意初擬",
+   "from_pack": [
+    "kl09-031"
+   ],
+   "needs_review": true,
+   "review_note": "白作「天亮」依文意初擬。",
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "19",
+     "quote": "相與枕藉乎舟中，不知東方之既白",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    }
+   ]
+  }
+ ]
+}

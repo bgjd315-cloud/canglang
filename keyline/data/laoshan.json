@@ -1,0 +1,1701 @@
+{
+ "lesson_id": "laoshan",
+ "lesson": "勞山道士",
+ "author": "蒲松齡",
+ "tagline": "穿牆的法術，撞上真正的硬牆",
+ "sentences": [
+  {
+   "id": "laoshan-01",
+   "lesson": "勞山道士",
+   "paragraph": 1,
+   "context_before": "邑有王生，行七，故家子。",
+   "sentence": "少慕道",
+   "context_after": "，聞勞山多仙人，負笈往遊。",
+   "keywords": [
+    {
+     "word": "少",
+     "gloss": "年少、從小（音ㄕㄠˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "稍微",
+      "數量不多",
+      "輕視"
+     ]
+    }
+   ],
+   "meaning": "從小就嚮往道術。",
+   "meaning_distractors": [
+    "稍微羨慕別人修道。",
+    "很少有人嚮往道術。",
+    "年老時才開始嚮往道術。"
+   ],
+   "confusables": [
+    {
+     "word": "少",
+     "other": "往復挹注，竟不「少」減",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "年少／稍微"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2；龍騰課本注4",
+   "scene": "故事開頭，介紹主角王生。"
+  },
+  {
+   "id": "laoshan-02",
+   "lesson": "勞山道士",
+   "paragraph": 1,
+   "context_before": "登一頂，有觀宇，甚幽。一道士坐蒲團上，",
+   "sentence": "素髮垂領，而神觀爽邁",
+   "context_after": "。叩而與語，理甚玄妙。",
+   "keywords": [
+    {
+     "word": "領",
+     "gloss": "脖子",
+     "pos": "名詞",
+     "distractors": [
+      "衣領",
+      "帶領",
+      "領土"
+     ]
+    },
+    {
+     "word": "神觀",
+     "gloss": "神采容貌（觀，音ㄍㄨㄢˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "供奉神明的道觀",
+      "對神明的看法",
+      "看見神明"
+     ]
+    }
+   ],
+   "meaning": "白髮披垂到頸部，而神采容貌爽朗脫俗。",
+   "meaning_distractors": [
+    "素色的頭髮綁在衣領上，樣子十分疲憊。",
+    "他帶領弟子走向道觀，態度豪邁。",
+    "白色頭巾蓋住脖子，一副看不起神明的樣子。"
+   ],
+   "source_note": "龍騰課本注8、注9",
+   "scene": "王生登上勞山，在道觀裡見到一位道士。"
+  },
+  {
+   "id": "laoshan-03",
+   "lesson": "勞山道士",
+   "paragraph": 1,
+   "context_before": "一道士坐蒲團上，素髮垂領，而神觀爽邁。",
+   "sentence": "叩而與語，理甚玄妙",
+   "context_after": "。請師之，道士曰：「恐嬌惰不能作苦。」",
+   "keywords": [
+    {
+     "word": "叩",
+     "gloss": "叩頭拜見",
+     "pos": "動詞",
+     "distractors": [
+      "敲門",
+      "敲擊",
+      "詢問"
+     ]
+    }
+   ],
+   "meaning": "王生拜見道士並和他交談，發現他說的道理非常玄妙。",
+   "meaning_distractors": [
+    "王生敲門進去後，道士不肯和他交談。",
+    "王生用手杖敲道士，聽到玄妙的聲音。",
+    "王生詢問別人，才知道道理很玄妙。"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "學測",
+     "no": "35",
+     "quote": "「叩」而與語，理甚玄妙",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j193641495705823071/01-108%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "選項C前句",
+     "exam_quote_official": "叩而與語，理甚玄妙"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "叩",
+     "other": "以杖「叩」其脛",
+     "other_lesson": "論語．憲問",
+     "same": false,
+     "note": "拜見／敲"
+    },
+    {
+     "word": "叩",
+     "other": "「叩」之寺僧",
+     "other_lesson": "左忠毅公逸事",
+     "same": false,
+     "note": "拜見／詢問，108 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2；翰林 108 解析",
+   "scene": "王生見到道士後，想拜他為師。"
+  },
+  {
+   "id": "laoshan-04",
+   "lesson": "勞山道士",
+   "paragraph": 1,
+   "context_before": "叩而與語，理甚玄妙。請師之，道士曰：「",
+   "sentence": "恐嬌惰不能作苦",
+   "context_after": "。」答言：「能之。」",
+   "keywords": [
+    {
+     "word": "作",
+     "gloss": "勞動",
+     "pos": "動詞",
+     "distractors": [
+      "寫作",
+      "假裝",
+      "興起"
+     ]
+    }
+   ],
+   "meaning": "恐怕你嬌弱懶散，不能勞動吃苦。",
+   "meaning_distractors": [
+    "恐怕你太嬌弱，寫不出苦澀的作品。",
+    "我怕你只是假裝吃苦，其實很懶惰。",
+    "你太勤勞了，恐怕會變得很辛苦。"
+   ],
+   "source_note": "龍騰課本注q；鷹架講義(教)單元二步驟1",
+   "scene": "世家子弟王生請求拜師，道士看了看他，這樣說。"
+  },
+  {
+   "id": "laoshan-05",
+   "lesson": "勞山道士",
+   "paragraph": 2,
+   "context_before": "凌晨，道士呼王去，授以斧，使隨眾採樵。王謹受教。",
+   "sentence": "過月餘，手足重繭，不堪其苦，陰有歸志",
+   "context_after": "。一夕歸，見二人與師共酌。",
+   "keywords": [
+    {
+     "word": "陰",
+     "gloss": "暗中",
+     "pos": "副詞",
+     "distractors": [
+      "陰天",
+      "山的北面",
+      "陰險"
+     ]
+    }
+   ],
+   "meaning": "過了一個多月，手腳長滿厚繭，受不了這種苦，暗中有了回家的念頭。",
+   "meaning_distractors": [
+    "過了一個多月，手腳痊癒了，不再怕苦，打算留下來。",
+    "一個月後天氣轉陰，他手腳受傷，只好向師父告辭。",
+    "過了一個多月，他陰險地想把苦差事推給別人。"
+   ],
+   "source_note": "鷹架講義(教)單元二步驟1；龍騰課本注r、注t",
+   "scene": "王生每天被派去砍柴，日子一久。"
+  },
+  {
+   "id": "laoshan-06",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "一夕歸，見二人與師共酌。日已暮，尚無燈燭。師乃剪紙如鏡，黏壁間。俄頃，",
+   "sentence": "月明輝室，光鑑毫芒",
+   "context_after": "。諸門人環聽奔走。",
+   "keywords": [
+    {
+     "word": "鑑",
+     "gloss": "照",
+     "pos": "動詞",
+     "distractors": [
+      "鑑定",
+      "鏡子",
+      "警惕"
+     ]
+    }
+   ],
+   "meaning": "明月照亮屋子，光亮得能照見極細微的東西。",
+   "meaning_distractors": [
+    "月亮照在屋外，光線暗得看不見毫毛。",
+    "明月下大家鑑定寶物，連毛筆都看得清楚。",
+    "屋裡光線刺眼，大家趕緊拿鏡子遮擋。"
+   ],
+   "source_note": "龍騰課本注i",
+   "scene": "天黑沒有燈，道士把一張圓紙貼在牆上。"
+  },
+  {
+   "id": "laoshan-07",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "一客曰：「良宵勝樂，不可不同。」乃於案上取壺酒，",
+   "sentence": "分賚諸徒，且囑盡醉",
+   "context_after": "。王自思：「七、八人，壺酒何能遍給？」",
+   "keywords": [
+    {
+     "word": "賚",
+     "gloss": "賞賜（音ㄌㄞˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "依賴",
+      "懷抱",
+      "責備"
+     ]
+    }
+   ],
+   "meaning": "把酒分賞給弟子們，並囑咐大家盡情喝醉。",
+   "meaning_distractors": [
+    "依賴弟子們分酒，還囑咐不可喝醉。",
+    "把酒收回，責備弟子們不該喝醉。",
+    "讓弟子們自己買酒，喝到盡興為止。"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "1",
+     "quote": "「賚」賞諸徒",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "近用改寫",
+     "location": "選項A前詞",
+     "exam_quote_official": "「賚」賞諸徒"
+    }
+   ],
+   "source_note": "龍騰課本注s；翰林 110 解析",
+   "scene": "客人提議大家一起享受良宵，於是拿起一壺酒。"
+  },
+  {
+   "id": "laoshan-08",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "遂各覓盎盂，競飲先釂，惟恐樽盡，而",
+   "sentence": "往復挹注，竟不少減",
+   "context_after": "。心奇之。",
+   "keywords": [
+    {
+     "word": "少",
+     "gloss": "稍微",
+     "pos": "副詞",
+     "distractors": [
+      "年少",
+      "很多",
+      "缺少"
+     ]
+    }
+   ],
+   "meaning": "來來回回地倒酒，酒竟然一點也沒有減少。",
+   "meaning_distractors": [
+    "來回倒酒以後，酒少了一大半。",
+    "年少的弟子來回倒酒，竟然不覺得累。",
+    "酒注滿之後，大家就不再倒了。"
+   ],
+   "confusables": [
+    {
+     "word": "少",
+     "other": "「少」慕道",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "稍微／年少"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2；龍騰課本注j、注k",
+   "scene": "弟子們怕一壺酒不夠喝，爭著倒酒乾杯，結果很神奇。"
+  },
+  {
+   "id": "laoshan-09",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "俄，一客曰：「",
+   "sentence": "蒙賜月明之照，乃爾寂飲",
+   "context_after": "，何不呼嫦娥來？」乃以箸擲月中。",
+   "keywords": [
+    {
+     "word": "爾",
+     "gloss": "如此",
+     "pos": "代詞",
+     "distractors": [
+      "你",
+      "而已",
+      "語助詞，無義"
+     ]
+    }
+   ],
+   "meaning": "承蒙賜予明月照耀，竟然如此冷清地喝酒。",
+   "meaning_distractors": [
+    "你賜給我月光，我才能安靜地喝酒。",
+    "承蒙賜酒，你就安靜地喝完吧。",
+    "明月照著你，你為什麼不獨自喝酒？"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "27",
+     "quote": "蒙賜月明之照，乃「爾」寂飲",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項C後句",
+     "exam_quote_official": "蒙賜月明之照，乃爾寂飲，何不呼嫦娥來"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "爾",
+     "other": "「爾」安敢輕吾射",
+     "other_lesson": "賣油翁",
+     "same": false,
+     "note": "如此／你"
+    },
+    {
+     "word": "爾",
+     "other": "爾其自戕「爾」手",
+     "other_lesson": "勸和論",
+     "same": false,
+     "note": "如此／你，113 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟2；龍騰課本注l",
+   "scene": "月光下喝著酒，一位客人覺得少了點什麼。"
+  },
+  {
+   "id": "laoshan-10",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "乃以箸擲月中。見一美人，自光中出，……歌畢，盤旋而起，躍登几上。",
+   "sentence": "驚顧之間，已復為箸",
+   "context_after": "。三人大笑。",
+   "keywords": [
+    {
+     "word": "箸",
+     "gloss": "筷子",
+     "pos": "名詞",
+     "distractors": [
+      "著作",
+      "鐵鎚",
+      "舞者的頭飾"
+     ]
+    }
+   ],
+   "meaning": "大家驚訝地看著時，她已經變回筷子了。",
+   "meaning_distractors": [
+    "大家還來不及看，她就寫完一篇著作。",
+    "大家嚇得四處逃開，她又跳起舞來。",
+    "三位客人驚訝地回頭，發現筷子不見了。"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "19",
+     "quote": "驚顧之間，已復為箸",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "exam_quote_official": "其（嫦娥）聲清越，烈如簫管。歌畢，盤旋而起，躍登几上，驚顧之間，已復為箸"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟1",
+   "scene": "客人把手邊的東西丟向月亮，走出一位美人，唱歌跳舞。眾人正看得入神。"
+  },
+  {
+   "id": "laoshan-11",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "又一客曰：「今宵最樂，",
+   "sentence": "然不勝酒力矣",
+   "context_after": "。其餞我於月宮，可乎？」三人移席，漸入月中。",
+   "keywords": [
+    {
+     "word": "勝",
+     "gloss": "承受（音ㄕㄥ）",
+     "pos": "動詞",
+     "distractors": [
+      "勝利",
+      "美好",
+      "超過"
+     ]
+    }
+   ],
+   "meaning": "但是已經承受不了酒力了。",
+   "meaning_distractors": [
+    "而且我的酒量勝過大家。",
+    "這樣的酒不算美好。",
+    "這樣還沒有打敗酒力。"
+   ],
+   "confusables": [
+    {
+     "word": "勝",
+     "other": "良宵「勝」樂",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "承受／美好"
+    }
+   ],
+   "source_note": "龍騰課本注n",
+   "scene": "酒喝到一半，另一位客人提議換個地方。"
+  },
+  {
+   "id": "laoshan-12",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "又一客曰：「今宵最樂，然不勝酒力矣。",
+   "sentence": "其餞我於月宮，可乎",
+   "context_after": "？」三人移席，漸入月中。",
+   "keywords": [
+    {
+     "word": "其",
+     "gloss": "表示希望的語氣詞",
+     "pos": "語氣詞",
+     "distractors": [
+      "指那個人的代詞",
+      "表示反問的語氣詞",
+      "表示時間的副詞"
+     ]
+    }
+   ],
+   "meaning": "希望你們在月宮為我餞別，可以嗎？",
+   "meaning_distractors": [
+    "他在月宮送我禮物，可以收下嗎？",
+    "那座月宮是餞別的地方嗎？",
+    "難道我要在月宮送別他們嗎？"
+   ],
+   "source_note": "龍騰課本注m、注,",
+   "scene": "客人喝得差不多了，向另外兩人提出請求。"
+  },
+  {
+   "id": "laoshan-13",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "三人移席，漸入月中。眾視三人坐月中飲，",
+   "sentence": "鬚眉畢見，如影之在鏡中",
+   "context_after": "。移時，月漸暗。",
+   "keywords": [
+    {
+     "word": "見",
+     "gloss": "顯現（通「現」，音ㄒㄧㄢˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "看見",
+      "拜見",
+      "被"
+     ]
+    }
+   ],
+   "meaning": "連鬍鬚眉毛都完全顯現出來，好像鏡中的影子。",
+   "meaning_distractors": [
+    "他們看見鬍鬚眉毛，才發現鏡子裡有人。",
+    "鬍鬚眉毛都看不清楚，只剩鏡中的影子。",
+    "他們照著鏡子修剪鬍鬚眉毛。"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "26",
+     "quote": "鬚眉畢「見」"
+    },
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "20",
+     "quote": "鬚眉畢見，如影之在鏡中",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "exam_quote_official": "三人移席，漸入月中。眾視三人坐月中飲，鬚眉畢見，如影之在鏡中"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "見",
+     "other": "「見」漁人，乃大驚",
+     "other_lesson": "桃花源記",
+     "same": false,
+     "note": "顯現／看見"
+    },
+    {
+     "word": "見",
+     "other": "吾未「見」其明也",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "顯現／看見，111 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟2；龍騰課本注.",
+   "scene": "三人走進月亮裡喝酒，弟子們在下面看著。"
+  },
+  {
+   "id": "laoshan-14",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "移時，月漸暗。",
+   "sentence": "門人然燭來，則道士獨坐，而客杳矣",
+   "context_after": "。几上肴核尚存，壁上月，紙圓如鏡而已。",
+   "keywords": [
+    {
+     "word": "然",
+     "gloss": "點燃（「燃」的本字）",
+     "pos": "動詞",
+     "distractors": [
+      "但是",
+      "這樣",
+      "正確"
+     ]
+    },
+    {
+     "word": "杳",
+     "gloss": "不見蹤影（音ㄧㄠˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "昏暗",
+      "安靜地坐著",
+      "喝醉"
+     ]
+    }
+   ],
+   "meaning": "弟子點燈過來，只見道士獨自坐著，客人都不見蹤影了。",
+   "meaning_distractors": [
+    "弟子舉著燭火離開，道士和客人都喝醉了。",
+    "雖然弟子點了燈，道士仍和客人對坐。",
+    "弟子認為點燈不對，所以道士獨自坐在黑暗裡。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "29",
+     "quote": "門人然燭來，則道士獨坐，而客杳矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "exam_quote_official": "門人然燭來，則道士獨坐，而客杳矣"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "然",
+     "other": "「然」不勝酒力矣",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "點燃／但是"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三步驟2；龍騰課本注!、注@",
+   "scene": "月亮漸漸暗了下來，屋裡看不清楚。"
+  },
+  {
+   "id": "laoshan-15",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "context_before": "「足，宜早寢，勿誤樵蘇。」眾諾而退。",
+   "sentence": "王竊忻慕，歸念遂息",
+   "context_after": "。又一月，苦不可忍，而道士並不傳教一術。",
+   "keywords": [
+    {
+     "word": "竊",
+     "gloss": "暗中",
+     "pos": "副詞",
+     "distractors": [
+      "偷東西",
+      "謙稱自己",
+      "公開地"
+     ]
+    },
+    {
+     "word": "遂",
+     "gloss": "於是、就",
+     "pos": "連詞",
+     "distractors": [
+      "順利完成",
+      "竟然",
+      "仍然"
+     ]
+    }
+   ],
+   "meaning": "王生暗中欣喜羨慕，回家的念頭就打消了。",
+   "meaning_distractors": [
+    "王生偷偷羨慕，於是決定馬上回家。",
+    "王生公開表示羨慕，回家後才休息。",
+    "王生覺得很悲傷，回家的念頭更強了。"
+   ],
+   "confusables": [
+    {
+     "word": "遂",
+     "other": "「遂」留觀中",
+     "other_lesson": "勞山道士",
+     "same": true,
+     "note": "都是於是、就"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2；龍騰課本注%",
+   "scene": "王生本來想回家，看完這場法術之後。"
+  },
+  {
+   "id": "laoshan-16",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "心不能待，辭曰：「弟子數百里受業仙師，",
+   "sentence": "縱不能得長生術，或小有傳習",
+   "context_after": "，亦可慰求教之心。今閱兩、三月，不過早樵而暮歸。",
+   "keywords": [
+    {
+     "word": "或",
+     "gloss": "如果",
+     "pos": "連詞",
+     "distractors": [
+      "有人",
+      "或者",
+      "迷惑"
+     ]
+    }
+   ],
+   "meaning": "即使學不到長生術，如果能稍微傳授一些，也可以安慰我求教的心。",
+   "meaning_distractors": [
+    "縱使學到長生術，有人還是會傳給別人，不能安慰我的心。",
+    "因為學不到長生術，我決定傳授別人，才能安慰求教的心。",
+    "我放棄了長生術，也不想再學任何東西，這樣心裡才安慰。"
+   ],
+   "source_note": "龍騰課本注^；鷹架講義(教)單元四步驟1",
+   "scene": "砍柴又過了一個月，道士什麼也沒教，王生去向道士辭行。"
+  },
+  {
+   "id": "laoshan-17",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "今閱兩、三月，不過早樵而暮歸，弟子在家，",
+   "sentence": "未諳此苦",
+   "context_after": "。」道士笑曰：「我固謂不能作苦，今果然。明早當遣汝行。」",
+   "keywords": [
+    {
+     "word": "諳",
+     "gloss": "熟悉（音ㄢ），此指經歷",
+     "pos": "動詞",
+     "distractors": [
+      "昏暗",
+      "說話",
+      "害怕"
+     ]
+    }
+   ],
+   "meaning": "沒有經歷過這樣的苦。",
+   "meaning_distractors": [
+    "不怕這樣的苦。",
+    "不曾對人說過這種苦。",
+    "從來不覺得這是苦。"
+   ],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "1",
+     "quote": "不諳水性",
+     "note": "考同字的「不諳水性」"
+    }
+   ],
+   "source_note": "龍騰課本注*；翰林 115 解析",
+   "scene": "王生向道士訴苦。"
+  },
+  {
+   "id": "laoshan-18",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "弟子在家，未諳此苦。」道士笑曰：「",
+   "sentence": "我固謂不能作苦，今果然",
+   "context_after": "。明早當遣汝行。」",
+   "keywords": [
+    {
+     "word": "固",
+     "gloss": "原本、本來",
+     "pos": "副詞",
+     "distractors": [
+      "堅持",
+      "鞏固",
+      "必定"
+     ]
+    }
+   ],
+   "meaning": "我本來就說你吃不了苦，現在果然如此。",
+   "meaning_distractors": [
+    "我堅持要你吃苦，現在果然有效。",
+    "我一定能吃苦，現在證明了。",
+    "我不會再說你吃不了苦，現在你做到了。"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "學測",
+     "no": "36",
+     "quote": "我「固」謂不能作苦",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j076800993877603476/01-107%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項D後句",
+     "exam_quote_official": "道士笑曰：我固謂不能作苦，今果然"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "34",
+     "quote": "我固謂不能作苦"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "固",
+     "other": "「固」非偶然也",
+     "other_lesson": "虬髯客傳",
+     "same": true,
+     "note": "都是原本、本來，107 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟1；翰林 107 解析",
+   "scene": "聽完王生訴苦，道士笑著回答。第一次見面時，道士就說過類似的話。"
+  },
+  {
+   "id": "laoshan-19",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "王曰：「弟子操作多日，師略授小技，",
+   "sentence": "此來為不負也",
+   "context_after": "。」道士問：「何術之求？」",
+   "keywords": [
+    {
+     "word": "負",
+     "gloss": "辜負",
+     "pos": "動詞",
+     "distractors": [
+      "背負",
+      "失敗",
+      "自負"
+     ]
+    }
+   ],
+   "meaning": "這一趟來才不算白費。",
+   "meaning_distractors": [
+    "這次回來不必再背負東西。",
+    "我這次來不會失敗。",
+    "我不想辜負別人，所以才走。"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "25",
+     "quote": "此來為不「負」也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項C後句",
+     "exam_quote_official": "師略授小技，此來為不負也"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "此來為不負也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "負",
+     "other": "客何「負」於秦哉",
+     "other_lesson": "諫逐客書",
+     "same": true,
+     "note": "都是辜負，114 學測同題比較"
+    }
+   ],
+   "source_note": "龍騰課本注(；翰林 114 解析",
+   "scene": "王生希望離開前多少學點東西。"
+  },
+  {
+   "id": "laoshan-20",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "師略授小技，此來為不負也。」道士問：「",
+   "sentence": "何術之求",
+   "context_after": "？」王曰：「每見師行處，牆壁所不能隔，但得此法足矣。」",
+   "keywords": [
+    {
+     "word": "之",
+     "gloss": "賓語提前的標誌，「何術之求」即「求何術」",
+     "pos": "助詞",
+     "distractors": [
+      "表示前往的動詞",
+      "指代他的代詞",
+      "表示所有的助詞"
+     ]
+    }
+   ],
+   "meaning": "你想學哪一種法術？",
+   "meaning_distractors": [
+    "法術要到哪裡去求？",
+    "你為什麼要追求法術？",
+    "這是誰的法術？"
+   ],
+   "source_note": "龍騰課本注)",
+   "scene": "王生請道士傳授一點小本事，道士問他。",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "何術之求",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "laoshan-21",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "道士問：「何術之求？」王曰：「每見師行處，牆壁所不能隔，",
+   "sentence": "但得此法足矣",
+   "context_after": "。」道士笑而允之，乃傳以訣。",
+   "keywords": [
+    {
+     "word": "但",
+     "gloss": "只、僅",
+     "pos": "副詞",
+     "distractors": [
+      "但是",
+      "空有",
+      "全部"
+     ]
+    }
+   ],
+   "meaning": "只要學到這個法術就夠了。",
+   "meaning_distractors": [
+    "但是學到這個法術還不夠。",
+    "全部法術都學會才算滿足。",
+    "雖然得到法術，腳卻走不動了。"
+   ],
+   "source_note": "龍騰課本注Q；鷹架講義(教)單元四步驟1",
+   "scene": "王生說出自己想學什麼。",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "但得此法足矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "laoshan-22",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "乃傳以訣，令自咒，畢，呼曰：「入之！」",
+   "sentence": "王面牆，不敢入",
+   "context_after": "。又曰：「試入之。」王果從容入，及牆而阻。",
+   "keywords": [
+    {
+     "word": "面",
+     "gloss": "面對",
+     "pos": "動詞",
+     "distractors": [
+      "臉",
+      "當面",
+      "表面"
+     ]
+    }
+   ],
+   "meaning": "王生面對牆壁，不敢進去。",
+   "meaning_distractors": [
+    "王生的臉撞到牆，不敢再進去。",
+    "王生當面質問道士，不肯進牆。",
+    "王生看牆的表面，覺得不必進去。"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "35",
+     "quote": "王「面」牆",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項B前句",
+     "exam_quote_official": "呼曰：入之！王面牆，不敢入"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "王面牆，不敢入",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "面",
+     "other": "即「面」署第一",
+     "other_lesson": "左忠毅公逸事",
+     "same": false,
+     "note": "面對／當面，109 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟2；翰林 109 解析",
+   "scene": "道士傳授穿牆的口訣，要王生試試看。"
+  },
+  {
+   "id": "laoshan-23",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "道士曰：「俛首驟入，勿逡巡！」王果去牆數步，奔而入，",
+   "sentence": "及牆，虛若無物",
+   "context_after": "，回視，果在牆外矣。",
+   "keywords": [
+    {
+     "word": "及",
+     "gloss": "到",
+     "pos": "動詞",
+     "distractors": [
+      "以及",
+      "趁著",
+      "比得上"
+     ]
+    }
+   ],
+   "meaning": "到了牆邊，竟然空虛得像沒有東西一樣。",
+   "meaning_distractors": [
+    "牆和其他東西都是虛假的。",
+    "趁著牆倒下，他看見裡面沒有東西。",
+    "他的本領比不上這堵牆。"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "26",
+     "quote": "奔而入，「及」牆，虛若無物",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項B後句",
+     "exam_quote_official": "奔而入，及牆，虛若無物"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "及牆，虛若無物",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ],
+   "confusables": [
+    {
+     "word": "及",
+     "other": "「及」郡下，詣太守",
+     "other_lesson": "桃花源記",
+     "same": true,
+     "note": "都是到"
+    },
+    {
+     "word": "及",
+     "other": "微夫人之力不「及」此",
+     "other_lesson": "燭之武退秦師",
+     "same": true,
+     "note": "都是到，112 學測同題比較"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟2；翰林 112 解析",
+   "scene": "王生照道士的話，衝向牆壁。"
+  },
+  {
+   "id": "laoshan-24",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "王果從容入，及牆而阻。道士曰：「俛首驟入，",
+   "sentence": "勿逡巡",
+   "context_after": "！」王果去牆數步，奔而入。",
+   "keywords": [
+    {
+     "word": "逡巡",
+     "gloss": "徘徊不進（逡，音ㄑㄩㄣ）",
+     "pos": "動詞",
+     "distractors": [
+      "快速巡邏",
+      "低頭快走",
+      "害怕得發抖"
+     ]
+    }
+   ],
+   "meaning": "不要徘徊不前！",
+   "meaning_distractors": [
+    "不要到處巡邏！",
+    "不要走得太快！",
+    "不要害怕得發抖！"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "1",
+     "quote": "切勿「逡」巡",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "近用改寫",
+     "location": "選項D前詞",
+     "exam_quote_official": "切勿「逡」巡"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "勿逡巡",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "34",
+     "quote": "勿逡巡",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "異文引句",
+     "location": "作答提示表格"
+    }
+   ],
+   "source_note": "龍騰課本注R；翰林 113 解析",
+   "scene": "王生慢慢走被牆擋住，道士教他該怎麼做。"
+  },
+  {
+   "id": "laoshan-25",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "王果從容入，及牆而阻。道士曰：「俛首驟入，勿逡巡！」",
+   "sentence": "王果去牆數步，奔而入",
+   "context_after": "。及牆，虛若無物，回視，果在牆外矣。",
+   "keywords": [
+    {
+     "word": "去",
+     "gloss": "距離",
+     "pos": "動詞",
+     "distractors": [
+      "離開",
+      "前往",
+      "除去"
+     ]
+    }
+   ],
+   "meaning": "王生果然退到離牆幾步的地方，跑著衝進去。",
+   "meaning_distractors": [
+    "王生果然離開牆壁，再也不跑了。",
+    "王生把牆拆掉幾步，才走進去。",
+    "王生果然走了幾步，就從門進去了。"
+   ],
+   "confusables": [
+    {
+     "word": "去",
+     "other": "停數日，辭「去」",
+     "other_lesson": "桃花源記",
+     "same": false,
+     "note": "距離／離開"
+    },
+    {
+     "word": "去",
+     "other": "「去」者處士第幾",
+     "other_lesson": "虬髯客傳",
+     "same": false,
+     "note": "距離／離開"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四步驟2；龍騰課本注T",
+   "scene": "聽了道士的指點，王生再試一次。",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "王果去牆數步，奔而入",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "laoshan-26",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "回視，果在牆外矣。大喜，入謝。道士曰：「",
+   "sentence": "歸宜潔持，否則不驗",
+   "context_after": "。」遂助資斧遣之歸。",
+   "keywords": [
+    {
+     "word": "潔持",
+     "gloss": "潔身修持",
+     "pos": "動詞",
+     "distractors": [
+      "保持衣著乾淨",
+      "拿好法器",
+      "清掃房屋"
+     ]
+    }
+   ],
+   "meaning": "回去應該潔身修持，否則法術就不靈驗。",
+   "meaning_distractors": [
+    "回去要把衣服洗乾淨，否則別人不信。",
+    "回去要拿好法器，否則會被檢查。",
+    "回去就不必修行，也不必再試驗。"
+   ],
+   "source_note": "龍騰課本注Y；鷹架講義(教)單元五步驟3",
+   "scene": "王生成功穿牆，很高興。道士在他回家前叮嚀。",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "歸宜潔持，否則不驗",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "laoshan-27",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "context_before": "道士曰：「歸宜潔持，否則不驗。」",
+   "sentence": "遂助資斧遣之歸",
+   "context_after": "。抵家，自詡遇仙，堅壁所不能阻。",
+   "keywords": [
+    {
+     "word": "資斧",
+     "gloss": "旅費（借代）",
+     "pos": "名詞",
+     "distractors": [
+      "砍柴的斧頭",
+      "學費",
+      "防身的兵器"
+     ]
+    }
+   ],
+   "meaning": "於是資助他旅費，送他回家。",
+   "meaning_distractors": [
+    "於是送他一把斧頭，要他回去砍柴。",
+    "於是收了他的學費，趕他回家。",
+    "於是幫他找到兵器，派他出征。"
+   ],
+   "source_note": "龍騰課本注U；鷹架講義(教)使用地圖",
+   "scene": "交代完畢，道士讓王生下山。",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "遂助資斧遣之歸",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "laoshan-28",
+   "lesson": "勞山道士",
+   "paragraph": 5,
+   "context_before": "遂助資斧遣之歸。",
+   "sentence": "抵家，自詡遇仙，堅壁所不能阻",
+   "context_after": "。妻不信。王傚其作為，去牆數尺，奔而入，頭觸硬壁。",
+   "keywords": [
+    {
+     "word": "詡",
+     "gloss": "誇口（音ㄒㄩˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "期許",
+      "欺騙",
+      "懷疑"
+     ]
+    }
+   ],
+   "meaning": "回到家，自誇遇到仙人，再堅硬的牆也擋不住他。",
+   "meaning_distractors": [
+    "回到家，懷疑自己遇到仙人，不敢碰牆。",
+    "回到家，發現家裡的牆太硬，自己過不去。",
+    "抵達仙人的家，發現牆壁很堅固。"
+   ],
+   "source_note": "龍騰課本注I；鷹架講義(教)單元五步驟3",
+   "scene": "王生下山回家，對妻子說的話。",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "抵家，自詡遇仙，堅壁所不能阻",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "laoshan-29",
+   "lesson": "勞山道士",
+   "paragraph": 5,
+   "context_before": "妻不信。王傚其作為，去牆數尺，奔而入，頭觸硬壁，",
+   "sentence": "驀然而踣",
+   "context_after": "。妻扶視之，額上墳起如巨卵焉。",
+   "keywords": [
+    {
+     "word": "驀",
+     "gloss": "忽然（音ㄇㄛˋ）",
+     "pos": "副詞",
+     "distractors": [
+      "慢慢地",
+      "招募",
+      "沉默地"
+     ]
+    },
+    {
+     "word": "踣",
+     "gloss": "跌倒（音ㄅㄛˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "撞破",
+      "抨擊",
+      "飛奔"
+     ]
+    }
+   ],
+   "meaning": "忽然跌倒在地。",
+   "meaning_distractors": [
+    "慢慢地站了起來。",
+    "默默地撞破牆壁。",
+    "突然飛奔出去。"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "1",
+     "quote": "驀然而「踣」",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "短詞摘引",
+     "location": "選項C前詞",
+     "exam_quote_official": "驀然而「踣」"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "驀然而踣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ],
+   "source_note": "龍騰課本注O；翰林 112 解析",
+   "scene": "妻子不相信，王生當場示範穿牆。"
+  },
+  {
+   "id": "laoshan-30",
+   "lesson": "勞山道士",
+   "paragraph": 5,
+   "context_before": "頭觸硬壁，驀然而踣。妻扶視之，額上墳起如巨卵焉。",
+   "sentence": "妻揶揄之，王慚忿",
+   "context_after": "，罵老道士之無良而已。",
+   "keywords": [
+    {
+     "word": "揶揄",
+     "gloss": "嘲弄譏笑",
+     "pos": "動詞",
+     "distractors": [
+      "攙扶安慰",
+      "責打",
+      "稱讚"
+     ]
+    }
+   ],
+   "meaning": "妻子嘲笑他，王生又羞愧又氣憤。",
+   "meaning_distractors": [
+    "妻子安慰他，王生感到慚愧。",
+    "妻子打他，王生氣得離家。",
+    "妻子稱讚他，王生反而不好意思。"
+   ],
+   "source_note": "龍騰課本注A",
+   "scene": "王生撞牆之後，額頭腫了起來。夫妻倆的反應：",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "妻揶揄之，王慚忿",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ]
+  },
+  {
+   "id": "laoshan-31",
+   "lesson": "勞山道士",
+   "paragraph": 6,
+   "context_before": "聞此事，未有不大笑者，而不知世之為王生者，正復不少。今有傖父，",
+   "sentence": "喜疢毒而畏藥石",
+   "context_after": "，遂有吮癰舐痔者，進宣威逞暴之術，以迎其旨。",
+   "keywords": [
+    {
+     "word": "藥石",
+     "gloss": "比喻直言忠告",
+     "pos": "名詞",
+     "distractors": [
+      "比喻阿諛奉承",
+      "比喻金銀財寶",
+      "比喻毒藥"
+     ]
+    }
+   ],
+   "meaning": "喜歡如毒病般的奉承，卻害怕如良藥般的直言忠告。",
+   "meaning_distractors": [
+    "喜歡吃藥治病，卻害怕別人下毒害他，所以每餐都很小心。",
+    "喜歡聽直言忠告，卻害怕別人奉承，所以遠離小人。",
+    "喜歡石頭和藥草，常常上山採集，不願理會政事。"
+   ],
+   "source_note": "龍騰課本注G；鷹架講義(教)單元五步驟1提示",
+   "scene": "故事結束，作者以「異史氏」的身分評論當權者。"
+  },
+  {
+   "id": "laoshan-32",
+   "lesson": "勞山道士",
+   "paragraph": 6,
+   "context_before": "詒之曰：「執此術也以往，可以橫行而無礙。」初試，未嘗不小效，遂謂天下之大，",
+   "sentence": "舉可以如是行矣",
+   "context_after": "，勢不至觸硬壁而顛蹶，不止也。",
+   "keywords": [
+    {
+     "word": "舉",
+     "gloss": "全、皆",
+     "pos": "副詞",
+     "distractors": [
+      "舉起",
+      "推舉",
+      "舉動"
+     ]
+    }
+   ],
+   "meaning": "全都可以這樣行得通了。",
+   "meaning_distractors": [
+    "舉起手來就可以這樣走了。",
+    "推舉他就能治理天下了。",
+    "只有少數地方可以這樣做。"
+   ],
+   "source_note": "龍騰課本注:",
+   "scene": "小人獻計給當權者，一開始似乎有效，當權者就以為。"
+  },
+  {
+   "id": "laoshan-33",
+   "lesson": "勞山道士",
+   "paragraph": 6,
+   "context_before": "初試，未嘗不小效，遂謂天下之大，舉可以如是行矣，",
+   "sentence": "勢不至觸硬壁而顛蹶，不止也",
+   "context_after": "。」",
+   "keywords": [
+    {
+     "word": "蹶",
+     "gloss": "跌倒；顛蹶即跌倒（音ㄐㄩㄝˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "挖掘",
+      "翹起",
+      "奔馳"
+     ]
+    }
+   ],
+   "meaning": "情勢上不到撞上硬牆跌倒，是不會停止的。比喻不碰壁不罷休。",
+   "meaning_distractors": [
+    "只要撞到硬牆，就會馬上停止作惡。",
+    "他的權勢大到撞不倒硬牆，所以不必停止。",
+    "牆壁太硬，他沒有跌倒就停下來了。"
+   ],
+   "source_note": "龍騰課本注Z；鷹架講義(教)單元五步驟1提示",
+   "scene": "作者預告這種當權者的下場。"
+  },
+  {
+   "id": "laoshan-34",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "scene": "客人把手邊的東西丟向月亮，走出一位美人，開始唱歌。",
+   "context_before": "已而歌曰：「仙仙乎！而還乎？而幽我於廣寒乎？」",
+   "sentence": "其聲清越，烈如簫管",
+   "context_after": "。歌畢，盤旋而起，躍登几上。",
+   "keywords": [
+    {
+     "word": "烈",
+     "gloss": "美妙",
+     "pos": "形容詞",
+     "distractors": [
+      "猛烈",
+      "剛烈",
+      "燃燒"
+     ]
+    }
+   ],
+   "meaning": "她的歌聲清脆悠揚，美妙得像簫管的樂音。",
+   "meaning_distractors": [
+    "她的聲音猛烈，像把簫管吹破。",
+    "她的聲音沙啞，比不上簫管。",
+    "簫管燃燒起來，發出清脆的聲音。"
+   ],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "19",
+     "quote": "其聲清越，烈如簫管",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項A"
+    }
+   ],
+   "source_note": "龍騰課本注v、注b",
+   "from_pack": "kl12-041"
+  },
+  {
+   "id": "laoshan-35",
+   "lesson": "勞山道士",
+   "paragraph": 3,
+   "scene": "客人提議到月宮為他餞別。",
+   "context_before": "其餞我於月宮，可乎？」",
+   "sentence": "三人移席，漸入月中",
+   "context_after": "。眾視三人坐月中飲，鬚眉畢見。",
+   "keywords": [
+    {
+     "word": "席",
+     "gloss": "座位、酒席",
+     "pos": "名詞",
+     "distractors": [
+      "草蓆",
+      "主席",
+      "全部"
+     ]
+    }
+   ],
+   "meaning": "三人移動酒席，漸漸走進月亮裡。",
+   "meaning_distractors": [
+    "三人移開草蓆，看著月亮。",
+    "三人推舉主席，慢慢走向月宮。",
+    "三人離開座位，下山賞月。"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "20",
+     "quote": "三人移席，漸入月中",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ],
+   "source_note": "參考包kl12-013；鷹架講義(教)單元三導讀",
+   "from_pack": "kl12-013"
+  },
+  {
+   "id": "laoshan-36",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "scene": "王生只想學穿牆，道士答應了。",
+   "context_before": "但得此法足矣。」道士笑而允之，",
+   "sentence": "乃傳以訣，令自咒",
+   "context_after": "，畢，呼曰：「入之！」",
+   "keywords": [
+    {
+     "word": "訣",
+     "gloss": "口訣",
+     "pos": "名詞",
+     "distractors": [
+      "告別",
+      "祕密的計畫",
+      "決定"
+     ]
+    }
+   ],
+   "meaning": "於是傳授他口訣，要他自己念咒語。",
+   "meaning_distractors": [
+    "於是跟他告別，要他自己回家。",
+    "於是決定傳他法術，替他念咒語。",
+    "於是詛咒他，讓他自己穿牆。"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "35",
+     "quote": "乃傳以訣，令自咒",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項B前句"
+    },
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "乃傳以訣，令自咒",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ],
+   "source_note": "龍騰課本注W",
+   "from_pack": "kl12-046"
+  },
+  {
+   "id": "laoshan-37",
+   "lesson": "勞山道士",
+   "paragraph": 4,
+   "scene": "道士要王生再試著穿牆。",
+   "context_before": "王面牆，不敢入。又曰：「試入之。」",
+   "sentence": "王果從容入，及牆而阻",
+   "context_after": "。道士曰：「俛首驟入，勿逡巡！」",
+   "keywords": [
+    {
+     "word": "從容",
+     "gloss": "舒緩、不急促",
+     "pos": "形容詞",
+     "distractors": [
+      "順從",
+      "容納",
+      "放縱"
+     ]
+    }
+   ],
+   "meaning": "王生果然慢慢走進去，到了牆邊就被擋住。",
+   "meaning_distractors": [
+    "王生果然順從地跑過去，一下就穿過牆。",
+    "王生慌張地進去，還沒到牆邊就停下。",
+    "王生放心地走進去，到牆邊卻找到了路。"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "王果從容入，及牆而阻",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "異文引句",
+     "location": "共用引文甲"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四導讀；字義依參考包kl12-047",
+   "from_pack": "kl12-047"
+  },
+  {
+   "id": "laoshan-39",
+   "lesson": "勞山道士",
+   "paragraph": 5,
+   "scene": "妻子不相信王生會穿牆，王生當場示範。",
+   "context_before": "抵家，自詡遇仙，堅壁所不能阻。妻不信。",
+   "sentence": "王傚其作為，去牆數尺，奔而入",
+   "context_after": "，頭觸硬壁，驀然而踣。",
+   "keywords": [
+    {
+     "word": "傚",
+     "gloss": "模仿",
+     "pos": "動詞",
+     "distractors": [
+      "效果",
+      "學校",
+      "奉獻"
+     ]
+    }
+   ],
+   "meaning": "王生模仿道士教的做法，退到離牆幾尺的地方，衝了進去。",
+   "meaning_distractors": [
+    "王生見到效果，就離開牆壁幾尺跑走了。",
+    "王生拆掉幾尺牆，衝進屋裡。",
+    "王生學校的牆有幾尺厚，他衝不過去。"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "王傚其作為，去牆數尺，奔而入",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ],
+   "source_note": "參考包kl12-050；龍騰課本注T",
+   "from_pack": "kl12-050"
+  },
+  {
+   "id": "laoshan-40",
+   "lesson": "勞山道士",
+   "paragraph": 5,
+   "scene": "王生撞上硬牆跌倒，妻子扶他起來查看。",
+   "context_before": "頭觸硬壁，驀然而踣。",
+   "sentence": "妻扶視之，額上墳起如巨卵焉",
+   "context_after": "。妻揶揄之，王慚忿。",
+   "keywords": [
+    {
+     "word": "墳起",
+     "gloss": "凸起、腫起來",
+     "pos": "動詞",
+     "distractors": [
+      "堆成墳墓",
+      "下陷",
+      "流血"
+     ]
+    }
+   ],
+   "meaning": "妻子扶他起來查看，額頭腫得像一顆大蛋。",
+   "meaning_distractors": [
+    "妻子扶他到墳前，額頭貼著巨大的石頭。",
+    "妻子查看，他額頭凹下一塊，血流不止。",
+    "妻子扶他起來，他的頭比蛋還硬。"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "33-34",
+     "quote": "妻扶視之，額上墳起如巨卵焉",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "共用引文甲"
+    }
+   ],
+   "source_note": "龍騰課本注P",
+   "from_pack": "kl12-051"
+  }
+ ]
+}

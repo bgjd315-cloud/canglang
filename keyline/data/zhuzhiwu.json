@@ -1,0 +1,1660 @@
+{
+ "lesson_id": "zhuzhiwu",
+ "lesson": "燭之武退秦師",
+ "author": "左傳",
+ "tagline": "一個老臣，能擋下兩國大軍嗎？",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "zhuzhiwu-01",
+   "lesson": "燭之武退秦師",
+   "paragraph": 1,
+   "scene": "魯僖公三十年，兩國大軍包圍鄭國，史書先交代出兵的理由。",
+   "context_before": "九月，甲午，晉侯、秦伯圍鄭，",
+   "sentence": "以其無禮於晉，且貳於楚也",
+   "context_after": "。晉軍函陵，秦軍氾南。",
+   "keywords": [
+    {
+     "word": "貳",
+     "gloss": "懷有二心，此作動詞用",
+     "pos": "動詞",
+     "distractors": [
+      "排第二位",
+      "再做一次",
+      "兩國結盟"
+     ]
+    },
+    {
+     "word": "於",
+     "gloss": "對，表對象",
+     "pos": "介詞",
+     "distractors": [
+      "比，表比較",
+      "被，表被動",
+      "在，表地點"
+     ]
+    }
+   ],
+   "meaning": "因為鄭國曾對晉文公無禮，又對晉國懷有二心而親附楚國。圍鄭的兩個理由都是晉、鄭之間的事。",
+   "meaning_distractors": [
+    "因為鄭國比晉國無禮，又比楚國更有野心。",
+    "因為晉國對鄭國無禮，又想再次攻打楚國。",
+    "因為鄭國被晉國羞辱，只好第二次投靠楚國。"
+   ],
+   "confusables": [
+    {
+     "word": "於",
+     "other": "苛政猛「於」虎也",
+     "other_lesson": "講義例句",
+     "same": false,
+     "note": "對，表對象／比，表比較；110 學測考過形容詞＋於＋名詞"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元一導讀、步驟3第2題；龍騰課本注5、注6",
+   "from_pack": [
+    "kl01-001"
+   ],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "學測",
+     "no": "24",
+     "quote": "以其無禮於晉，且貳於楚也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0m053395009167828203/01-1-111%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項A"
+    },
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "25",
+     "quote": "以其無禮於晉，且貳於楚也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項C前句"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-02",
+   "lesson": "燭之武退秦師",
+   "paragraph": 1,
+   "scene": "大軍到了鄭國境內，史書記下兩支軍隊各在哪裡。",
+   "context_before": "晉侯、秦伯圍鄭，以其無禮於晉，且貳於楚也。",
+   "sentence": "晉軍函陵，秦軍氾南",
+   "context_after": "。佚之狐言於鄭伯曰：「國危矣！」",
+   "keywords": [
+    {
+     "word": "軍",
+     "gloss": "駐紮，此作動詞用",
+     "pos": "動詞",
+     "distractors": [
+      "軍隊",
+      "將領",
+      "進攻"
+     ]
+    }
+   ],
+   "meaning": "晉國軍隊駐紮在函陵，秦國軍隊駐紮在氾水之南。兩軍分駐兩地。",
+   "meaning_distractors": [
+    "晉國軍隊攻下函陵，秦國軍隊攻下氾水之南。",
+    "晉國的將領來自函陵，秦國的將領來自氾南。",
+    "晉軍從函陵撤退，秦軍退到氾水之南。"
+   ],
+   "source_note": "龍騰課本注7、注8；鷹架講義(教)單元一導讀",
+   "from_pack": [
+    "kl01-002"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-03",
+   "lesson": "燭之武退秦師",
+   "paragraph": 2,
+   "scene": "鄭國大夫佚之狐向國君鄭文公獻策。",
+   "context_before": "晉軍函陵，秦軍氾南。佚之狐言於鄭伯曰：「國危矣！",
+   "sentence": "若使燭之武見秦君，師必退",
+   "context_after": "。」公從之。",
+   "keywords": [
+    {
+     "word": "師",
+     "gloss": "軍隊，此指秦軍",
+     "pos": "名詞",
+     "distractors": [
+      "老師",
+      "京城",
+      "效法"
+     ]
+    }
+   ],
+   "meaning": "如果派燭之武去見秦君，秦軍一定會退。佚之狐選秦君，是因為圍鄭的理由都和晉國有關。",
+   "meaning_distractors": [
+    "如果讓秦君接見燭之武的老師，燭之武就會退下。",
+    "假如燭之武效法秦君，鄭國的軍隊一定能退敵。",
+    "如果派燭之武去見秦君，晉軍必定跟著進攻。"
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟1第1題",
+   "from_pack": [
+    "kl01-003"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-04",
+   "lesson": "燭之武退秦師",
+   "paragraph": 2,
+   "scene": "鄭文公聽完佚之狐的建議，做出決定。",
+   "context_before": "佚之狐言於鄭伯曰：「國危矣！若使燭之武見秦君，師必退。」",
+   "sentence": "公從之",
+   "context_after": "。辭曰：「臣之壯也，猶不如人，今老矣！無能為也已。」",
+   "keywords": [
+    {
+     "word": "從",
+     "gloss": "聽從",
+     "pos": "動詞",
+     "distractors": [
+      "跟隨前往",
+      "從前",
+      "隨從的人"
+     ]
+    }
+   ],
+   "meaning": "鄭文公聽從了佚之狐的建議。",
+   "meaning_distractors": [
+    "鄭文公親自跟隨佚之狐前往。",
+    "燭之武聽從了鄭文公的命令。",
+    "鄭文公從此不再理會佚之狐。"
+   ],
+   "confusables": [
+    {
+     "word": "從",
+     "other": "「從」善如流",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "都是聽從"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二步驟2比一比",
+   "from_pack": []
+  },
+  {
+   "id": "zhuzhiwu-05",
+   "lesson": "燭之武退秦師",
+   "paragraph": 2,
+   "scene": "鄭文公找燭之武出面，燭之武先開口推辭。",
+   "context_before": "若使燭之武見秦君，師必退。」公從之。辭曰：「",
+   "sentence": "臣之壯也，猶不如人，今老矣！無能為也已",
+   "context_after": "。」公曰：「吾不能早用子，今急而求子，是寡人之過也。」",
+   "keywords": [
+    {
+     "word": "壯",
+     "gloss": "壯年",
+     "pos": "名詞",
+     "distractors": [
+      "強壯有力",
+      "雄壯豪邁",
+      "勇敢大膽"
+     ]
+    },
+    {
+     "word": "也已",
+     "gloss": "表肯定的語氣詞",
+     "pos": "語氣詞",
+     "distractors": [
+      "表示也已完成",
+      "表示到此停止",
+      "表示也是如此"
+     ]
+    }
+   ],
+   "meaning": "我壯年時都還比不上別人，現在老了，更做不了什麼了。話中帶著不受重用的怨氣。",
+   "meaning_distractors": [
+    "我壯年時身體不如別人，老了反而更有能力。",
+    "您壯年時尚且不如別人，如今老了更無能為力。",
+    "我年輕時比別人強壯，現在老了也還能做事。"
+   ],
+   "confusables": [
+    {
+     "word": "也已",
+     "other": "可謂好學「也已」",
+     "other_lesson": "論語",
+     "same": true,
+     "note": "都是語氣詞，表示肯定"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟1第2題、步驟2比一比；龍騰補充講義文句闡釋",
+   "from_pack": [
+    "kl01-004"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-06",
+   "lesson": "燭之武退秦師",
+   "paragraph": 2,
+   "scene": "聽了燭之武的推辭，鄭文公這樣回應他。",
+   "context_before": "「臣之壯也，猶不如人，今老矣！無能為也已。」公曰：「",
+   "sentence": "吾不能早用子，今急而求子，是寡人之過也",
+   "context_after": "。然鄭亡，子亦有不利焉！」",
+   "keywords": [
+    {
+     "word": "子",
+     "gloss": "您，對人的尊稱",
+     "pos": "代詞",
+     "distractors": [
+      "兒子",
+      "孩子們",
+      "弟子"
+     ]
+    },
+    {
+     "word": "寡人",
+     "gloss": "寡德之人，國君自稱的謙詞",
+     "pos": "代詞",
+     "distractors": [
+      "孤單的人",
+      "人數很少",
+      "失去伴侶的人"
+     ]
+    }
+   ],
+   "meaning": "我沒能早點重用您，現在危急才來求您，這是我的過錯。",
+   "meaning_distractors": [
+    "您沒能早點來幫我，現在危急才來求我，這是您的過錯。",
+    "我沒能早點任用兒子，現在危急才求他，是百姓的過錯。",
+    "我不該這麼早用您，現在危急又求您，這是秦君的過錯。"
+   ],
+   "source_note": "鷹架講義(教)單元二導讀；龍騰課本注w；龍騰補充講義文句闡釋",
+   "from_pack": [
+    "kl01-005"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-07",
+   "lesson": "燭之武退秦師",
+   "paragraph": 2,
+   "scene": "鄭文公認錯之後，又對燭之武再說一句，燭之武聽完才答應。",
+   "context_before": "公曰：「吾不能早用子，今急而求子，是寡人之過也。",
+   "sentence": "然鄭亡，子亦有不利焉",
+   "context_after": "！」許之。",
+   "keywords": [
+    {
+     "word": "然",
+     "gloss": "然而",
+     "pos": "連詞",
+     "distractors": [
+      "對的",
+      "這樣",
+      "燃燒"
+     ]
+    }
+   ],
+   "meaning": "但是鄭國滅亡了，對您也不利。鄭文公先認錯，再點出彼此利害相連。",
+   "meaning_distractors": [
+    "既然鄭國滅亡了，您也就不必再推辭。",
+    "這樣看來鄭國會滅亡，只對您一個人不利。",
+    "鄭國若沒有滅亡，對您才真的不利。"
+   ],
+   "confusables": [
+    {
+     "word": "然",
+     "other": "不以為「然」",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "然而／對的"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元二導讀、步驟2比一比；龍騰補充講義文句闡釋",
+   "from_pack": [
+    "kl01-006"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-08",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "城被包圍，答應任務的燭之武要趁黑離開。",
+   "context_before": "然鄭亡，子亦有不利焉！」許之。",
+   "sentence": "夜縋而出",
+   "context_after": "。見秦伯，曰：「秦、晉圍鄭，鄭既知亡矣！」",
+   "keywords": [
+    {
+     "word": "縋",
+     "gloss": "用繩子綁住物體懸墜而下，音ㄓㄨㄟˋ",
+     "pos": "動詞",
+     "distractors": [
+      "翻越城牆跳下去",
+      "打開城門走出去",
+      "挖掘地道鑽出去"
+     ]
+    }
+   ],
+   "meaning": "燭之武在夜裡從城牆用繩子垂下而出城。這四字寫出他的膽識，也襯出戰前的肅殺。",
+   "meaning_distractors": [
+    "燭之武在夜裡打開城門，悄悄地走出去。",
+    "秦軍在夜裡用繩子爬上城牆，闖入城中。",
+    "燭之武在夜裡挖好地道，帶著士兵逃出城。"
+   ],
+   "source_note": "龍騰課本注e、賞析三；鷹架講義(教)單元一導讀。龍騰分段「許之」屬第二段、「夜縋而出」屬第三段，參考包併在第二段",
+   "from_pack": [
+    "kl01-007"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-09",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武見到秦穆公，開口第一句話這麼說。",
+   "context_before": "夜縋而出。見秦伯，曰：「",
+   "sentence": "秦、晉圍鄭，鄭既知亡矣",
+   "context_after": "！若亡鄭而有益於君，敢以煩執事。越國以鄙遠，君知其難也。",
+   "keywords": [
+    {
+     "word": "既",
+     "gloss": "已經",
+     "pos": "副詞",
+     "distractors": [
+      "既然",
+      "全部",
+      "不久"
+     ]
+    }
+   ],
+   "meaning": "秦、晉包圍鄭國，鄭國已經知道要滅亡了。先示弱，不站在鄭國的立場求情。",
+   "meaning_distractors": [
+    "秦、晉包圍鄭國，鄭國既然知道就不會滅亡。",
+    "秦、晉包圍鄭國，秦國已經知道晉國要滅亡。",
+    "秦、晉包圍鄭國，鄭國不久就要滅掉他們。"
+   ],
+   "source_note": "鷹架講義(教)單元三導讀；龍騰補充講義文句闡釋、語文演練「知亡示弱」",
+   "from_pack": [
+    "kl01-008"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "37",
+     "quote": "秦、晉圍鄭，鄭既知亡矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項E"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-10",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武對秦穆公提出一個假設，作為下文的前提。",
+   "context_before": "見秦伯，曰：「秦、晉圍鄭，鄭既知亡矣！",
+   "sentence": "若亡鄭而有益於君",
+   "context_after": "，敢以煩執事。越國以鄙遠，君知其難也，焉用亡鄭以陪鄰？",
+   "keywords": [
+    {
+     "word": "亡",
+     "gloss": "使滅亡，滅掉",
+     "pos": "動詞",
+     "distractors": [
+      "逃亡",
+      "遺失",
+      "死去"
+     ]
+    },
+    {
+     "word": "益",
+     "gloss": "好處",
+     "pos": "名詞",
+     "distractors": [
+      "更加",
+      "增加",
+      "富裕"
+     ]
+    }
+   ],
+   "meaning": "如果滅了鄭國對您有好處。這是假設語氣，是先讓步的說法。",
+   "meaning_distractors": [
+    "如果鄭國逃亡後會更加依賴您。",
+    "如果鄭國滅了晉國而更加富裕。",
+    "如果放過鄭國對您更有好處。"
+   ],
+   "confusables": [
+    {
+     "word": "益",
+     "other": "多多「益」善",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "好處／更加"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟1、步驟2比一比。「亡」的使動說法依參考包kl01-009",
+   "from_pack": [
+    "kl01-009"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "37",
+     "quote": "若亡鄭而有益於君",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項E"
+    },
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "27",
+     "quote": "若亡鄭而有益於君",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項D前句"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "33",
+     "quote": "若亡鄭而有益於君",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-11",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武接著前面的假設，把話說得很客氣。",
+   "context_before": "秦、晉圍鄭，鄭既知亡矣！若亡鄭而有益於君，",
+   "sentence": "敢以煩執事",
+   "context_after": "。越國以鄙遠，君知其難也，焉用亡鄭以陪鄰？",
+   "keywords": [
+    {
+     "word": "敢",
+     "gloss": "冒昧，謙詞",
+     "pos": "副詞",
+     "distractors": [
+      "有膽量",
+      "勇於承擔",
+      "不敢"
+     ]
+    },
+    {
+     "word": "執事",
+     "gloss": "左右辦事的人，敬稱對方，此指秦穆公",
+     "pos": "名詞",
+     "distractors": [
+      "主管政事的鄭君",
+      "掌管軍事的晉將",
+      "負責傳話的使者"
+     ]
+    }
+   ],
+   "meaning": "那就冒昧地拿這件事來麻煩您的左右。不直稱對方，表示尊敬。",
+   "meaning_distractors": [
+    "那我就有膽量親自去麻煩晉國的將領。",
+    "那麼鄭國絕不敢再麻煩秦國的人。",
+    "那就請您大膽地處理鄭國的政事。"
+   ],
+   "confusables": [
+    {
+     "word": "敢",
+     "other": "毫毛不「敢」有所近",
+     "other_lesson": "鴻門宴",
+     "same": false,
+     "note": "謙詞，冒昧／有膽量；113 學測同題比較"
+    },
+    {
+     "word": "敢",
+     "other": "勇「敢」",
+     "other_lesson": "詞語",
+     "same": false,
+     "note": "謙詞，冒昧／有膽量"
+    },
+    {
+     "word": "敢",
+     "other": "「敢」藉陶彭澤之黃花",
+     "other_lesson": "畫菊自序",
+     "same": true,
+     "note": "都是冒昧的謙詞"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2比一比與提示；龍騰課本注r、注t；畫菊自序的比較依參考包kl15-010",
+   "needs_review": true,
+   "review_note": "「執事」來源不一：鷹架講義導讀譯作「您的部下」，課本注t作「本指左右辦事的人，此指秦穆公」。照規則應採講義，但兩者其實是字面與實指之分，故答案寫「左右辦事的人」、補充寫實指，請老師確認。",
+   "from_pack": [
+    "kl01-009"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "學測",
+     "no": "37",
+     "quote": "敢以煩執事",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l069610597439395113/110%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項E"
+    },
+    {
+     "year": 113,
+     "exam": "學測",
+     "no": "27",
+     "quote": "敢以煩執事",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0o051429609806157906/01-113%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項D前句"
+    },
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "33",
+     "quote": "敢以煩執事",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-12",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武請秦穆公想想秦、晉、鄭三國的地理位置。",
+   "context_before": "若亡鄭而有益於君，敢以煩執事。",
+   "sentence": "越國以鄙遠，君知其難也",
+   "context_after": "，焉用亡鄭以陪鄰？鄰之厚，君之薄也。",
+   "keywords": [
+    {
+     "word": "越",
+     "gloss": "越過",
+     "pos": "動詞",
+     "distractors": [
+      "更加",
+      "遠方",
+      "超過限度"
+     ]
+    },
+    {
+     "word": "鄙",
+     "gloss": "以……為邊邑，此作動詞用",
+     "pos": "動詞",
+     "distractors": [
+      "輕視",
+      "粗俗淺陋",
+      "攻打占領"
+     ]
+    }
+   ],
+   "meaning": "越過他國以遠地作為自己的邊邑，您知道那是很困難的。他國指晉國，遠地指鄭國。",
+   "meaning_distractors": [
+    "越是輕視遠方的國家，您就越知道它的困難。",
+    "超越各國，看不起遠方的小國，您知道這是難免的。",
+    "翻越國境攻打遠方的晉國，您知道它很難打。"
+   ],
+   "source_note": "龍騰課本注y；鷹架講義(教)單元三導讀、步驟1",
+   "from_pack": [
+    "kl01-010"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "33",
+     "quote": "越國以鄙遠，君知其難也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-13",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武說完地理的難處，反問秦穆公為何要出這趟兵。",
+   "context_before": "越國以鄙遠，君知其難也，",
+   "sentence": "焉用亡鄭以陪鄰",
+   "context_after": "？鄰之厚，君之薄也。若舍鄭以為東道主，行李之往來，共其乏困，君亦無所害。",
+   "keywords": [
+    {
+     "word": "焉用",
+     "gloss": "何必",
+     "pos": "疑問詞",
+     "distractors": [
+      "於是用",
+      "哪裡能用",
+      "在此使用"
+     ]
+    },
+    {
+     "word": "陪",
+     "gloss": "增加",
+     "pos": "動詞",
+     "distractors": [
+      "陪伴",
+      "賠償",
+      "輔佐"
+     ]
+    }
+   ],
+   "meaning": "何必滅了鄭國去增加鄰國的土地呢？鄰國指晉國。",
+   "meaning_distractors": [
+    "怎麼能滅了鄭國去陪伴鄰國呢？",
+    "於是滅掉鄭國來賠償鄰國的損失。",
+    "哪裡用得著滅了鄰國來補償鄭國呢？"
+   ],
+   "confusables": [
+    {
+     "word": "焉",
+     "other": "心不在「焉」",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "何必、哪裡／於此"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀、步驟2比一比；龍騰課本注u",
+   "from_pack": [
+    "kl01-011"
+   ],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "學測",
+     "no": "33",
+     "quote": "焉用亡鄭以陪鄰",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0p056424313827932684/01-114%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e9%a1%8c.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-14",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武提醒秦穆公，秦、晉是相鄰的兩國，此消彼長。",
+   "context_before": "越國以鄙遠，君知其難也，焉用亡鄭以陪鄰？",
+   "sentence": "鄰之厚，君之薄也",
+   "context_after": "。若舍鄭以為東道主，行李之往來，共其乏困，君亦無所害。",
+   "keywords": [
+    {
+     "word": "厚",
+     "gloss": "變強",
+     "pos": "形容詞",
+     "distractors": [
+      "待人寬厚",
+      "深厚的交情",
+      "禮物豐厚"
+     ]
+    },
+    {
+     "word": "薄",
+     "gloss": "少，薄弱",
+     "pos": "形容詞",
+     "distractors": [
+      "輕視",
+      "迫近",
+      "不敦厚"
+     ]
+    }
+   ],
+   "meaning": "鄰國變強，就是您變弱。",
+   "meaning_distractors": [
+    "鄰國待您寬厚，您卻看不起對方。",
+    "鄰國交情深厚，您的福氣也就淺薄。",
+    "鄰國變弱，就是您變得更加強大。"
+   ],
+   "confusables": [
+    {
+     "word": "薄",
+     "other": "不宜妄自菲「薄」",
+     "other_lesson": "出師表",
+     "same": false,
+     "note": "少，薄弱／輕視"
+    },
+    {
+     "word": "薄",
+     "other": "「薄」暮畢集",
+     "other_lesson": "勞山道士",
+     "same": false,
+     "note": "少，薄弱／迫近"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元三導讀；龍騰語文演練字義辨析、補充講義字義比較",
+   "from_pack": [
+    "kl01-012"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-15",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "指出出兵的壞處之後，燭之武向秦穆公提出另一個做法。",
+   "context_before": "焉用亡鄭以陪鄰？鄰之厚，君之薄也。",
+   "sentence": "若舍鄭以為東道主",
+   "context_after": "，行李之往來，共其乏困，君亦無所害。且君嘗為晉君賜矣。",
+   "keywords": [
+    {
+     "word": "舍",
+     "gloss": "放棄，通「捨」，音ㄕㄜˇ",
+     "pos": "動詞",
+     "distractors": [
+      "住宿",
+      "房屋",
+      "施予"
+     ]
+    },
+    {
+     "word": "東道主",
+     "gloss": "東方路上的接待主人，指鄭國",
+     "pos": "名詞",
+     "distractors": [
+      "東方諸國的盟主",
+      "東方土地的領主",
+      "東邊道路的盜賊"
+     ]
+    }
+   ],
+   "meaning": "如果放過鄭國，讓它當您東方路上負責接待的主人。秦在西而鄭在東。",
+   "meaning_distractors": [
+    "如果住進鄭國，讓它成為東方諸國的盟主。",
+    "如果把鄭國的土地施予東方的領主。",
+    "如果捨棄鄭國，改由晉國當東方的主人。"
+   ],
+   "source_note": "龍騰課本注i、注o；語文演練形音義；鷹架講義(教)單元三導讀譯「舍」為放過，與注釋「放棄」同義",
+   "from_pack": [
+    "kl01-013"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-16",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武說明留下鄭國，秦國往後東行時可以得到什麼。",
+   "context_before": "鄰之厚，君之薄也。若舍鄭以為東道主，",
+   "sentence": "行李之往來，共其乏困，君亦無所害",
+   "context_after": "。且君嘗為晉君賜矣，許君焦、瑕，朝濟而夕設版焉！",
+   "keywords": [
+    {
+     "word": "行李",
+     "gloss": "奉命出使的人",
+     "pos": "名詞",
+     "distractors": [
+      "出門帶的包裹",
+      "遠行的旅客",
+      "運貨的車隊"
+     ]
+    },
+    {
+     "word": "共",
+     "gloss": "供給，通「供」",
+     "pos": "動詞",
+     "distractors": [
+      "一起",
+      "恭敬",
+      "總共"
+     ]
+    }
+   ],
+   "meaning": "您的使者往來時，供給他們缺乏的物資，對您也沒有害處。",
+   "meaning_distractors": [
+    "您的包裹往來時，大家一起分擔，對您也沒有害處。",
+    "您的使者往來時，恭敬地聽他們訴苦，對鄭國才有好處。",
+    "鄭國的使者往來時，向您要求物資，您也不會受害。"
+   ],
+   "source_note": "龍騰課本注p、注a；鷹架講義(教)單元三導讀、步驟1",
+   "from_pack": [
+    "kl01-013"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-17",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武把話題轉到從前秦國和晉國之間的一段往事。",
+   "context_before": "若舍鄭以為東道主，行李之往來，共其乏困，君亦無所害。",
+   "sentence": "且君嘗為晉君賜矣",
+   "context_after": "，許君焦、瑕，朝濟而夕設版焉！君之所知也。",
+   "keywords": [
+    {
+     "word": "嘗",
+     "gloss": "曾經",
+     "pos": "副詞",
+     "distractors": [
+      "品嘗",
+      "嘗試",
+      "經常"
+     ]
+    },
+    {
+     "word": "賜",
+     "gloss": "恩惠",
+     "pos": "名詞",
+     "distractors": [
+      "請求",
+      "賞賜的財物",
+      "封爵"
+     ]
+    }
+   ],
+   "meaning": "況且您曾經給予晉君恩惠。這位晉君指晉惠公，不是現在圍鄭的晉文公。",
+   "meaning_distractors": [
+    "況且您曾經向晉君請求賞賜。",
+    "況且晉君經常賞賜財物給您。",
+    "況且您曾經試著替晉君請求封爵。"
+   ],
+   "source_note": "龍騰課本注s；鷹架講義(教)單元四導讀、步驟1第2題",
+   "from_pack": [
+    "kl01-014"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "39",
+     "quote": "且君嘗為晉君賜矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    },
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "5",
+     "quote": "且君嘗為晉君賜矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "資料甲"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-18",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武提醒秦穆公，當年晉君回國前後的作為。",
+   "context_before": "且君嘗為晉君賜矣，",
+   "sentence": "許君焦、瑕，朝濟而夕設版焉！君之所知也",
+   "context_after": "。夫晉，何厭之有？既東封鄭，又欲肆其西封。",
+   "keywords": [
+    {
+     "word": "濟",
+     "gloss": "渡河",
+     "pos": "動詞",
+     "distractors": [
+      "救助",
+      "完成",
+      "接濟"
+     ]
+    },
+    {
+     "word": "版",
+     "gloss": "築牆用的夾板，此指防禦工事",
+     "pos": "名詞",
+     "distractors": [
+      "書籍的版本",
+      "刻字的木板",
+      "國家的版圖"
+     ]
+    }
+   ],
+   "meaning": "晉君答應給您焦、瑕兩地，卻早晨剛渡河回國，傍晚就築起防禦工事，這是您知道的。表示晉國很快就違背諾言。",
+   "meaning_distractors": [
+    "您答應給晉君焦、瑕兩地，早晨救他，傍晚就替他築牆，這是您知道的。",
+    "晉君答應給您焦、瑕兩地，早晚派人渡河送去版圖，這是您知道的。",
+    "晉君請您讓出焦、瑕兩地，早晨渡河，傍晚便刻版紀念，這是您知道的。"
+   ],
+   "confusables": [
+    {
+     "word": "濟",
+     "other": "同舟共「濟」",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "都是渡河"
+    }
+   ],
+   "source_note": "龍騰課本注d；鷹架講義(教)單元四導讀、步驟1、步驟2比一比。「君之所知也」與前句合為一句",
+   "from_pack": [
+    "kl01-015",
+    "kl01-027"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "39",
+     "quote": "許君焦、瑕，朝濟而夕設版焉！君之所知也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    },
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "5",
+     "quote": "許君焦、瑕，朝濟而夕設版焉！君之所知也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "資料甲"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-19",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "舉完往事，燭之武下了一個關於晉國的斷語。",
+   "context_before": "許君焦、瑕，朝濟而夕設版焉！君之所知也。",
+   "sentence": "夫晉，何厭之有",
+   "context_after": "？既東封鄭，又欲肆其西封。若不闕秦，將焉取之？",
+   "keywords": [
+    {
+     "word": "厭",
+     "gloss": "滿足，通「饜」，音ㄧㄢˋ",
+     "pos": "動詞",
+     "distractors": [
+      "討厭",
+      "厭倦",
+      "壓制"
+     ]
+    }
+   ],
+   "meaning": "晉國哪有滿足的時候。「何厭之有」即「有何厭」，是賓語提前的倒裝句。",
+   "meaning_distractors": [
+    "晉國有什麼好討厭的呢？",
+    "晉國哪會厭倦打仗呢？",
+    "那個晉國到底討厭誰呢？"
+   ],
+   "source_note": "龍騰課本注f；鷹架講義(教)單元四導讀；龍騰補充講義重要語法",
+   "from_pack": [
+    "kl01-016"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "學測",
+     "no": "39",
+     "quote": "夫晉，何厭之有",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k050365403832359411/01-109%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e9%81%b8%e6%93%87%e9%a1%8c%29%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D"
+    },
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "5",
+     "quote": "夫晉，何厭之有",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "資料甲"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-20",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武替秦穆公推想：鄭國滅亡之後，晉國下一步會怎麼走。",
+   "context_before": "君之所知也。夫晉，何厭之有？",
+   "sentence": "既東封鄭，又欲肆其西封",
+   "context_after": "。若不闕秦，將焉取之？闕秦以利晉，唯君圖之！",
+   "keywords": [
+    {
+     "word": "東封",
+     "gloss": "向東以……為領土",
+     "pos": "動詞",
+     "distractors": [
+      "向東封閉道路",
+      "向東分封諸侯",
+      "向東封鎖消息"
+     ]
+    },
+    {
+     "word": "肆",
+     "gloss": "擴張",
+     "pos": "動詞",
+     "distractors": [
+      "放縱",
+      "店鋪",
+      "陳列"
+     ]
+    }
+   ],
+   "meaning": "向東占領鄭國作為領土之後，又想擴張西方的疆域。第一個「封」作動詞，第二個「封」作名詞。",
+   "meaning_distractors": [
+    "已經把鄭國分封出去，又想放縱西邊的諸侯。",
+    "既然封閉了東邊的鄭國，就想開放西邊的店鋪。",
+    "向東封鎖鄭國之後，又想把西方的土地送人。"
+   ],
+   "source_note": "龍騰課本注g、注h；鷹架講義(教)單元四導讀；語文演練形音義",
+   "from_pack": [
+    "kl01-017"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "5",
+     "quote": "既東封鄭，又欲肆其西封",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "資料甲"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-21",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武說到晉國要往西發展，直接點出這對秦國的意義。",
+   "context_before": "夫晉，何厭之有？既東封鄭，又欲肆其西封。",
+   "sentence": "若不闕秦，將焉取之",
+   "context_after": "？闕秦以利晉，唯君圖之！",
+   "keywords": [
+    {
+     "word": "闕",
+     "gloss": "損害，音ㄑㄩㄝ",
+     "pos": "動詞",
+     "distractors": [
+      "宮門",
+      "詞的單位",
+      "過失"
+     ]
+    },
+    {
+     "word": "焉",
+     "gloss": "哪裡",
+     "pos": "疑問詞",
+     "distractors": [
+      "何必",
+      "於此",
+      "語尾助詞"
+     ]
+    }
+   ],
+   "meaning": "不損害秦國，要從哪裡取得土地？",
+   "meaning_distractors": [
+    "不到秦國的宮門，要從哪裡拿到財物？",
+    "如果秦國沒有過失，晉國何必攻打它？",
+    "不損害晉國，秦國要從這裡取得什麼？"
+   ],
+   "source_note": "龍騰課本注j；語文演練字音辨正；鷹架講義(教)單元四導讀、單元三比一比「焉」",
+   "from_pack": [
+    "kl01-017"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "5",
+     "quote": "若不闕秦，將焉取之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "資料甲"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-22",
+   "lesson": "燭之武退秦師",
+   "paragraph": 3,
+   "scene": "燭之武的說辭到此收尾，把決定權交給秦穆公。",
+   "context_before": "既東封鄭，又欲肆其西封。若不闕秦，將焉取之？",
+   "sentence": "闕秦以利晉，唯君圖之",
+   "context_after": "！」秦伯說，與鄭人盟。",
+   "keywords": [
+    {
+     "word": "唯",
+     "gloss": "希望，表示祈請",
+     "pos": "副詞",
+     "distractors": [
+      "只有",
+      "應答聲",
+      "雖然"
+     ]
+    },
+    {
+     "word": "圖",
+     "gloss": "考慮",
+     "pos": "動詞",
+     "distractors": [
+      "圖畫",
+      "地圖",
+      "奪取"
+     ]
+    }
+   ],
+   "meaning": "損害秦國來讓晉國得利，希望您考慮這種情況。",
+   "meaning_distractors": [
+    "損害晉國來讓秦國得利，只有您才能奪取。",
+    "秦國缺少的讓晉國補足，只有您能畫出地圖。",
+    "幫助秦國對晉國有利，希望您多加奪取。"
+   ],
+   "confusables": [
+    {
+     "word": "圖",
+     "other": "地「圖」",
+     "other_lesson": "詞語",
+     "same": false,
+     "note": "考慮／圖畫"
+    },
+    {
+     "word": "唯",
+     "other": "何以解憂，「唯」有杜康",
+     "other_lesson": "短歌行",
+     "same": false,
+     "note": "表示希望、祈請／獨，只有"
+    }
+   ],
+   "source_note": "龍騰課本注k；鷹架講義(教)單元四導讀、步驟2比一比；龍騰補充講義字義比較。參考包作「惟」，依龍騰作「唯」",
+   "from_pack": [
+    "kl01-018"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-23",
+   "lesson": "燭之武退秦師",
+   "paragraph": 4,
+   "scene": "聽完燭之武這番話，秦穆公有了反應和行動。",
+   "context_before": "闕秦以利晉，唯君圖之！」",
+   "sentence": "秦伯說，與鄭人盟",
+   "context_after": "，使杞子、逢孫、楊孫戍之，乃還。子犯請擊之。",
+   "keywords": [
+    {
+     "word": "說",
+     "gloss": "高興，通「悅」，音ㄩㄝˋ",
+     "pos": "動詞",
+     "distractors": [
+      "說話",
+      "遊說",
+      "學說"
+     ]
+    },
+    {
+     "word": "與",
+     "gloss": "和，音ㄩˇ",
+     "pos": "介詞",
+     "distractors": [
+      "給予",
+      "親近",
+      "贊成"
+     ]
+    }
+   ],
+   "meaning": "秦穆公聽了很高興，和鄭國人結盟。「說」字顯示遊說已經成功。",
+   "meaning_distractors": [
+    "秦穆公說完話，就把盟約給了鄭國人。",
+    "秦穆公遊說鄭國人，要他們贊成結盟。",
+    "秦穆公的話讓鄭國人很高興，於是主動親近他。"
+   ],
+   "confusables": [
+    {
+     "word": "說",
+     "other": "不亦「說」乎",
+     "other_lesson": "論語",
+     "same": true,
+     "note": "都通「悅」，高興"
+    },
+    {
+     "word": "與",
+     "other": "失其所「與」，不知",
+     "other_lesson": "燭之武退秦師",
+     "same": false,
+     "note": "和／親近"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元四導讀、步驟2比一比；龍騰語文演練字義辨析；龍騰補充講義段落大意",
+   "from_pack": [
+    "kl01-019"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-24",
+   "lesson": "燭之武退秦師",
+   "paragraph": 4,
+   "scene": "秦穆公和鄭國結盟之後，安排好幾位大夫，自己才離開。",
+   "context_before": "闕秦以利晉，唯君圖之！」秦伯說，與鄭人盟，",
+   "sentence": "使杞子、逢孫、楊孫戍之，乃還",
+   "context_after": "。子犯請擊之。",
+   "keywords": [
+    {
+     "word": "使",
+     "gloss": "派遣",
+     "pos": "動詞",
+     "distractors": [
+      "使者",
+      "假使",
+      "使用"
+     ]
+    },
+    {
+     "word": "戍",
+     "gloss": "駐兵防守，音ㄕㄨˋ",
+     "pos": "動詞",
+     "distractors": [
+      "攻打占領",
+      "駐軍監視",
+      "接待照料"
+     ]
+    }
+   ],
+   "meaning": "派杞子、逢孫、楊孫三位大夫駐兵幫鄭國防守，就回國了。「之」指鄭國。",
+   "meaning_distractors": [
+    "假使杞子、逢孫、楊孫攻打鄭國，秦伯才會回國。",
+    "派杞子、逢孫、楊孫出使晉國，就回國了。",
+    "杞子、逢孫、楊孫奉命攻占鄭國，才把土地還給秦。"
+   ],
+   "source_note": "龍騰課本注l；鷹架講義(教)單元四導讀；龍騰語文演練字音辨正",
+   "from_pack": [
+    "kl01-020"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-25",
+   "lesson": "燭之武退秦師",
+   "paragraph": 5,
+   "scene": "秦國撤退之後，晉國大夫子犯向晉文公提出建議。",
+   "context_before": "使杞子、逢孫、楊孫戍之，乃還。",
+   "sentence": "子犯請擊之",
+   "context_after": "，公曰：「不可。微夫人之力不及此。」",
+   "keywords": [
+    {
+     "word": "之",
+     "gloss": "秦軍",
+     "pos": "代詞",
+     "distractors": [
+      "鄭軍",
+      "燭之武",
+      "晉文公"
+     ]
+    }
+   ],
+   "meaning": "子犯請求攻擊秦軍。子犯是晉國大夫，這裡的「公」是晉文公。",
+   "meaning_distractors": [
+    "子犯請求攻擊鄭軍。",
+    "子犯請秦軍攻擊晉國。",
+    "子犯請晉文公去擊退燭之武。"
+   ],
+   "source_note": "鷹架講義(教)單元五導讀；龍騰課本注;",
+   "from_pack": [
+    "kl01-021"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-26",
+   "lesson": "燭之武退秦師",
+   "paragraph": 5,
+   "scene": "晉文公拒絕攻秦，先說起自己一路走來靠的是什麼。",
+   "context_before": "子犯請擊之，公曰：「不可。",
+   "sentence": "微夫人之力不及此",
+   "context_after": "。因人之力而敝之，不仁；失其所與，不知；以亂易整，不武。",
+   "keywords": [
+    {
+     "word": "微",
+     "gloss": "沒有",
+     "pos": "動詞",
+     "distractors": [
+      "微小",
+      "暗中",
+      "精深"
+     ]
+    },
+    {
+     "word": "夫人",
+     "gloss": "那個人，夫音ㄈㄨˊ，指秦穆公",
+     "pos": "代詞",
+     "distractors": [
+      "您的妻子",
+      "諸侯的妻子",
+      "那些百姓"
+     ]
+    },
+    {
+     "word": "及",
+     "gloss": "到",
+     "pos": "動詞",
+     "distractors": [
+      "趕上",
+      "以及",
+      "涉及"
+     ]
+    }
+   ],
+   "meaning": "沒有那個人的力量，我到不了今天。那個人指秦穆公，他曾幫晉文公返國為君。",
+   "meaning_distractors": [
+    "夫人的力量微小，我無法趕上她。",
+    "沒有我妻子的力量，我趕不上這一仗。",
+    "那個人力量微小，比不上我今天的地位。"
+   ],
+   "confusables": [
+    {
+     "word": "及",
+     "other": "奔而入，「及」牆",
+     "other_lesson": "勞山道士",
+     "same": true,
+     "note": "都是到，112 學測同題比較"
+    },
+    {
+     "word": "及",
+     "other": "「及」郡下，詣太守",
+     "other_lesson": "桃花源記",
+     "same": true,
+     "note": "都是到"
+    },
+    {
+     "word": "微",
+     "other": "「微」行，入古寺",
+     "other_lesson": "左忠毅公逸事",
+     "same": false,
+     "note": "沒有／暗中"
+    },
+    {
+     "word": "微",
+     "other": "「微」管仲，吾其被髮左衽矣",
+     "other_lesson": "論語．憲問",
+     "same": true,
+     "note": "都是沒有"
+    }
+   ],
+   "source_note": "龍騰課本注z；鷹架講義(教)單元五導讀、步驟1比一比與提示；龍騰補充講義字義比較、語文演練字義辨析",
+   "from_pack": [
+    "kl01-022"
+   ],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "學測",
+     "no": "26",
+     "quote": "微夫人之力不及此",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0n045361284386617720/01-1-112%e5%ad%b8%e6%b8%ac%e5%9c%8b%e6%96%87%28%e5%9c%8b%e7%b6%9c%29%e8%a9%a6%e5%8d%b7.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項B前句"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-27",
+   "lesson": "燭之武退秦師",
+   "paragraph": 5,
+   "scene": "晉文公說出不能攻秦的第一個理由。",
+   "context_before": "公曰：「不可。微夫人之力不及此。",
+   "sentence": "因人之力而敝之，不仁",
+   "context_after": "；失其所與，不知；以亂易整，不武。",
+   "keywords": [
+    {
+     "word": "因",
+     "gloss": "憑藉",
+     "pos": "動詞",
+     "distractors": [
+      "趁機",
+      "因為",
+      "於是"
+     ]
+    },
+    {
+     "word": "敝",
+     "gloss": "損害",
+     "pos": "動詞",
+     "distractors": [
+      "破舊",
+      "謙稱自己",
+      "疲累"
+     ]
+    }
+   ],
+   "meaning": "憑藉他人的力量卻反過來傷害他，是不仁。這是道義上的理由。",
+   "meaning_distractors": [
+    "因為別人力量破舊就拋棄他，是不仁。",
+    "趁著別人疲累時幫助他，是不仁。",
+    "因為別人傷害自己就回擊，並不算不仁。"
+   ],
+   "confusables": [
+    {
+     "word": "因",
+     "other": "不如「因」善遇之",
+     "other_lesson": "鴻門宴",
+     "same": false,
+     "note": "憑藉／趁機"
+    },
+    {
+     "word": "因",
+     "other": "余「因」停機教子之餘",
+     "other_lesson": "畫菊自序",
+     "same": false,
+     "note": "憑藉／趁著"
+    }
+   ],
+   "source_note": "龍騰課本注x；語文演練形音義；鷹架講義(教)單元五導讀、步驟3；因的比較依參考包kl01-023",
+   "from_pack": [
+    "kl01-023"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-28",
+   "lesson": "燭之武退秦師",
+   "paragraph": 5,
+   "scene": "晉文公說出不能攻秦的第二個理由。",
+   "context_before": "微夫人之力不及此。因人之力而敝之，不仁；",
+   "sentence": "失其所與，不知",
+   "context_after": "；以亂易整，不武。吾其還也。",
+   "keywords": [
+    {
+     "word": "與",
+     "gloss": "親近，音ㄩˇ",
+     "pos": "動詞",
+     "distractors": [
+      "給予",
+      "和、跟",
+      "參與"
+     ]
+    },
+    {
+     "word": "知",
+     "gloss": "同「智」",
+     "pos": "名詞",
+     "distractors": [
+      "知道",
+      "知識",
+      "主持"
+     ]
+    }
+   ],
+   "meaning": "失去自己親近的盟友，是不明智。「所與」此指秦國。",
+   "meaning_distractors": [
+    "失去自己給出去的東西，是不知道珍惜。",
+    "丟掉參與的機會，表示他不知道實情。",
+    "失去他的盟友，晉國卻不知道這件事。"
+   ],
+   "confusables": [
+    {
+     "word": "與",
+     "other": "此樂留「與」山僧、遊客受用",
+     "other_lesson": "晚遊六橋待月記",
+     "same": false,
+     "note": "親近／給予"
+    }
+   ],
+   "source_note": "龍騰課本注c、注v；語文演練字義辨析；補充講義字音比較；鷹架講義(教)單元五導讀",
+   "from_pack": [
+    "kl01-024"
+   ],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "學測",
+     "no": "4",
+     "quote": "失其所與，不知",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0q054337448417166461/01-115%e5%ad%b8%e6%b8%ac%e5%9c%8b%e7%b6%9c%e8%a9%a6%e5%8d%b7.pdf#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B"
+    }
+   ]
+  },
+  {
+   "id": "zhuzhiwu-29",
+   "lesson": "燭之武退秦師",
+   "paragraph": 5,
+   "scene": "晉文公說出不能攻秦的第三個理由。",
+   "context_before": "因人之力而敝之，不仁；失其所與，不知；",
+   "sentence": "以亂易整，不武",
+   "context_after": "。吾其還也。」亦去之。",
+   "keywords": [
+    {
+     "word": "易",
+     "gloss": "替換、取代",
+     "pos": "動詞",
+     "distractors": [
+      "容易",
+      "交易",
+      "改正"
+     ]
+    },
+    {
+     "word": "不武",
+     "gloss": "不合用武之道",
+     "pos": "形容詞",
+     "distractors": [
+      "不夠勇猛",
+      "沒有武器",
+      "不學武藝"
+     ]
+    }
+   ],
+   "meaning": "用混亂代替整齊，不合用武之道。也可解作以混亂分裂代替團結和諧。",
+   "meaning_distractors": [
+    "用混亂去交易整齊，是沒有武器的緣故。",
+    "在混亂中整頓軍隊很容易，不必動武。",
+    "把混亂改正為整齊，就是不夠勇猛。"
+   ],
+   "confusables": [
+    {
+     "word": "易",
+     "other": "輕而「易」舉",
+     "other_lesson": "成語",
+     "same": false,
+     "note": "替換／容易"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五導讀、步驟1比一比；龍騰課本注b、注n",
+   "needs_review": true,
+   "review_note": "「整」的解釋來源不一：鷹架講義導讀作「整齊」，課本注b作「團結和諧」。依規則句意採講義，課本注列在補充，請老師確認要教哪一種。",
+   "from_pack": [
+    "kl01-025"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-30",
+   "lesson": "燭之武退秦師",
+   "paragraph": 5,
+   "scene": "三個理由說完，晉文公做出最後的決定。",
+   "context_before": "因人之力而敝之，不仁；失其所與，不知；以亂易整，不武。",
+   "sentence": "吾其還也",
+   "context_after": "。」亦去之。",
+   "keywords": [
+    {
+     "word": "其",
+     "gloss": "還是",
+     "pos": "副詞",
+     "distractors": [
+      "他的",
+      "那個",
+      "難道"
+     ]
+    },
+    {
+     "word": "還",
+     "gloss": "返回，音ㄏㄨㄢˊ",
+     "pos": "動詞",
+     "distractors": [
+      "仍然",
+      "歸還",
+      "環繞"
+     ]
+    }
+   ],
+   "meaning": "我們還是回去吧。",
+   "meaning_distractors": [
+    "我們仍然要留下來。",
+    "我把他的東西歸還吧。",
+    "難道我還要再回來嗎？"
+   ],
+   "source_note": "龍騰課本注m；鷹架講義(教)單元五導讀",
+   "from_pack": [
+    "kl01-026"
+   ]
+  },
+  {
+   "id": "zhuzhiwu-31",
+   "lesson": "燭之武退秦師",
+   "paragraph": 5,
+   "scene": "全文最後一句，交代晉軍的動向。",
+   "context_before": "失其所與，不知；以亂易整，不武。吾其還也。」",
+   "sentence": "亦去之",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "去",
+     "gloss": "離開",
+     "pos": "動詞",
+     "distractors": [
+      "前往",
+      "除去",
+      "距離"
+     ]
+    }
+   ],
+   "meaning": "晉軍也撤離了鄭國。",
+   "meaning_distractors": [
+    "晉軍也前往秦國。",
+    "秦軍也回到了鄭國。",
+    "晉軍也把鄭國除去了。"
+   ],
+   "confusables": [
+    {
+     "word": "去",
+     "other": "「去」國懷鄉",
+     "other_lesson": "成語",
+     "same": true,
+     "note": "都是離開"
+    },
+    {
+     "word": "去",
+     "other": "脫身獨「去」",
+     "other_lesson": "鴻門宴",
+     "same": true,
+     "note": "都是離開"
+    },
+    {
+     "word": "去",
+     "other": "「去」之五里",
+     "other_lesson": "鹿港乘桴記",
+     "same": false,
+     "note": "離開／距離"
+    }
+   ],
+   "source_note": "鷹架講義(教)單元五導讀、步驟1比一比；鴻門宴、鹿港乘桴記的比較依參考包kl01-026",
+   "from_pack": [
+    "kl01-026"
+   ]
+  }
+ ]
+}
