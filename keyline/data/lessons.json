@@ -9,7 +9,8 @@
    "available": true,
    "reference_code": "kl08",
    "sentence_count": 62,
-   "tagline": "看一眼，就知道誰是真命天子"
+   "tagline": "看一眼，就知道誰是真命天子",
+   "exam_sentences": 48
   },
   {
    "id": "laoshan",
@@ -19,7 +20,8 @@
    "available": true,
    "reference_code": "kl12",
    "sentence_count": 39,
-   "tagline": "穿牆的法術，撞上真正的硬牆"
+   "tagline": "穿牆的法術，撞上真正的硬牆",
+   "exam_sentences": 27
   },
   {
    "id": "hongmen",
@@ -29,7 +31,8 @@
    "available": true,
    "reference_code": "kl04",
    "sentence_count": 82,
-   "tagline": "一場酒宴，誰能活著走出去"
+   "tagline": "一場酒宴，誰能活著走出去",
+   "exam_sentences": 18
   },
   {
    "id": "chushi",
@@ -39,7 +42,8 @@
    "available": true,
    "reference_code": "kl05",
    "sentence_count": 35,
-   "tagline": "出征之前，老臣放不下的叮嚀"
+   "tagline": "出征之前，老臣放不下的叮嚀",
+   "exam_sentences": 19
   },
   {
    "id": "huaju",
@@ -49,7 +53,8 @@
    "available": true,
    "reference_code": "kl15",
    "sentence_count": 14,
-   "tagline": "家務之餘，她畫下一朵菊"
+   "tagline": "家務之餘，她畫下一朵菊",
+   "exam_sentences": 14
   },
   {
    "id": "quanhe",
@@ -59,7 +64,8 @@
    "available": true,
    "reference_code": "kl13",
    "sentence_count": 35,
-   "tagline": "同是臺灣人，為何刀槍相向？"
+   "tagline": "同是臺灣人，為何刀槍相向？",
+   "exam_sentences": 14
   },
   {
    "id": "chibi",
@@ -69,7 +75,8 @@
    "available": true,
    "reference_code": "kl09",
    "sentence_count": 39,
-   "tagline": "同一片江月，為何一悲一喜"
+   "tagline": "同一片江月，為何一悲一喜",
+   "exam_sentences": 21
   },
   {
    "id": "jianzhu",
@@ -79,7 +86,8 @@
    "available": true,
    "reference_code": "kl03",
    "sentence_count": 39,
-   "tagline": "被下令趕走前，他寫了一封信"
+   "tagline": "被下令趕走前，他寫了一封信",
+   "exam_sentences": 14
   },
   {
    "id": "xiangji",
@@ -89,7 +97,8 @@
    "available": true,
    "reference_code": "kl11",
    "sentence_count": 43,
-   "tagline": "一間小書房，藏著半生悲喜"
+   "tagline": "一間小書房，藏著半生悲喜",
+   "exam_sentences": 22
   },
   {
    "id": "zhuzhiwu",
@@ -99,7 +108,8 @@
    "available": true,
    "reference_code": "kl01",
    "sentence_count": 31,
-   "tagline": "一個老臣，能擋下兩國大軍嗎？"
+   "tagline": "一個老臣，能擋下兩國大軍嗎？",
+   "exam_sentences": 14
   },
   {
    "id": "lugang",
@@ -109,7 +119,8 @@
    "available": true,
    "reference_code": "kl14",
    "sentence_count": 44,
-   "tagline": "一條竹筏，划過百年盛衰"
+   "tagline": "一條竹筏，划過百年盛衰",
+   "exam_sentences": 5
   },
   {
    "id": "taohua",
@@ -119,7 +130,8 @@
    "available": true,
    "reference_code": "kl06",
    "sentence_count": 25,
-   "tagline": "洞口那道光，後面藏著什麼？"
+   "tagline": "洞口那道光，後面藏著什麼？",
+   "exam_sentences": 10
   },
   {
    "id": "shishuo",
@@ -129,7 +141,8 @@
    "available": true,
    "reference_code": "kl07",
    "sentence_count": 34,
-   "tagline": "拜師，為何成了笑柄"
+   "tagline": "拜師，為何成了笑柄",
+   "exam_sentences": 21
   },
   {
    "id": "datong",
@@ -139,7 +152,8 @@
    "available": true,
    "reference_code": "kl02",
    "sentence_count": 29,
-   "tagline": "夜不閉戶的世界，真的存在過嗎"
+   "tagline": "夜不閉戶的世界，真的存在過嗎",
+   "exam_sentences": 19
   },
   {
    "id": "wanyou",
@@ -149,7 +163,38 @@
    "available": true,
    "reference_code": "kl10",
    "sentence_count": 16,
-   "tagline": "人人擠著看花，他卻等月"
+   "tagline": "人人擠著看花，他卻等月",
+   "exam_sentences": 14
   }
- ]
+ ],
+ "exam_share": {
+  "note": "111–115 學測國綜：題目或題組引文用到課綱十五篇的題數。依參考包原卷核對資料的題號（含題組範圍）展開去重計算。",
+  "years": [
+   {
+    "year": 111,
+    "hit": 9,
+    "total": 37
+   },
+   {
+    "year": 112,
+    "hit": 5,
+    "total": 37
+   },
+   {
+    "year": 113,
+    "hit": 4,
+    "total": 36
+   },
+   {
+    "year": 114,
+    "hit": 16,
+    "total": 36
+   },
+   {
+    "year": 115,
+    "hit": 12,
+    "total": 36
+   }
+  ]
+ }
 }

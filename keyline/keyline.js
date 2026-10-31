@@ -5,6 +5,7 @@ const ROUND = 10;
 const RANKS = [[0, "初入書房"], [.25, "字字有得"], [.6, "句句分明"], [1, "爐火純青"]];
 const cache = {};
 let lessons = [];
+let examStats = null;
 
 const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -63,6 +64,28 @@ function scroll(doc, mastered, fresh = 0) {
 }
 
 // ---------- 首頁 ----------
+// 首頁的考情數據：讓學生看見為什麼值得練
+function examShare() {
+  const s = examStats;
+  if (!s) return "";
+  const hit = s.years.reduce((a, y) => a + y.hit, 0);
+  const total = s.years.reduce((a, y) => a + y.total, 0);
+  const late = s.years.slice(-2);
+  const lateHit = late.reduce((a, y) => a + y.hit, 0);
+  const lateTotal = late.reduce((a, y) => a + y.total, 0);
+  return `
+    <section class="kl-share" aria-label="部定古文出題比例">
+      <p class="kl-share-kicker">近五年學測</p>
+      <p class="kl-share-hero">每 <b>4</b> 題，就有 <b>1</b> 題<br>用到部定古文</p>
+      <p class="kl-share-sub">${total} 題裡有 ${hit} 題。最近兩年更多：${lateTotal} 題裡有 ${lateHit} 題，將近五分之二。</p>
+      <ul class="kl-bars">
+        ${s.years.map((y) => `<li title="${y.year} 學測：${y.total} 題中有 ${y.hit} 題"><span>${y.year}</span><i><u style="width:${y.hit / y.total * 100}%"></u></i><b>${y.hit} / ${y.total} 題</b></li>`).join("")}
+      </ul>
+      <p class="kl-share-sub">這裡要練的 ${lessons.reduce((a, l) => a + l.sentence_count, 0)} 句，有 <b>${lessons.reduce((a, l) => a + (l.exam_sentences || 0), 0)} 句</b>在學測或指考出現過。</p>
+      <small>依大考中心原卷統計。題目或題組引文用到十五篇就算一題，包含只考一個字詞的題目。</small>
+    </section>`;
+}
+
 function home() {
   // 首頁只讀課程清單，不載入十五課的句子，手機開起來才快
   const open = lessons.filter((l) => l.available);
@@ -73,11 +96,12 @@ function home() {
     <header class="kl-hero">
       ${art("hero", "keyline", "kl-hero-img")}
       <div class="kl-hero-text">
-        <p class="kl-eyebrow">滄浪闖關・基礎層</p>
+        <p class="kl-eyebrow">滄浪闖關・基礎篇</p>
         <h1><small>部定古文</small>關鍵句練功坊</h1>
-        <p class="kl-hero-sub">一回十句，五分鐘。<br>認得字，說得出句意，大考遇到不慌。</p>
+        <p class="kl-hero-sub">每回十句，五分鐘。<br>讀懂關鍵字，掌握整句意。<br>一句句練熟，讓古文閱讀更有底氣。</p>
       </div>
     </header>
+    ${examShare()}
     <section class="kl-stats" aria-label="我的進度">
       <div><b>${done}</b><span>句已練熟</span></div>
       <div><b>${all - done}</b><span>句待修煉</span></div>
@@ -300,5 +324,5 @@ async function route() {
   }
 }
 window.addEventListener("hashchange", route);
-fetch("data/lessons.json").then((r) => r.json()).then((d) => { lessons = d.lessons; route(); })
+fetch("data/lessons.json").then((r) => r.json()).then((d) => { lessons = d.lessons; examStats = d.exam_share; route(); })
   .catch(() => { app.innerHTML = `<p class="kl-error">資料讀取失敗，請確認網路後重新整理。</p>`; });

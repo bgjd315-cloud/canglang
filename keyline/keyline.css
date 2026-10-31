@@ -10,12 +10,28 @@ a{color:inherit}
 /* 首頁主視覺 */
 .kl-hero{position:relative; margin:-12px calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 0; min-height:min(92vw, 460px); display:flex; align-items:flex-end; overflow:hidden; background:#26383A}
 .kl-hero-img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
-.kl-hero::after{content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(15,22,21,.88) 0%, rgba(15,22,21,.45) 42%, rgba(15,22,21,0) 72%)}
+.kl-hero::after{content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(15,22,21,.9) 0%, rgba(15,22,21,.68) 50%, rgba(15,22,21,0) 86%)}
 .kl-hero-text{position:relative; z-index:1; padding:24px 20px; color:#F8F4EA; text-shadow:0 1px 8px rgba(0,0,0,.45)}
 .kl-eyebrow{margin:0 0 6px; font-size:.9rem; letter-spacing:.18em; opacity:.92}
 .kl-hero h1{font-size:clamp(2.3rem, 11vw, 3.4rem); font-weight:900; letter-spacing:.08em}
 .kl-hero h1 small{display:block; font-size:.5em; font-weight:700; letter-spacing:.2em; margin-bottom:.15em}
 .kl-hero-sub{margin:10px 0 0; font-size:1.05rem; line-height:1.7}
+
+/* 考情數據 */
+.kl-share{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:18px; display:grid; gap:10px}
+.kl-share p{margin:0}
+.kl-share-kicker{color:var(--seal); font-weight:700; letter-spacing:.12em; font-size:.92rem}
+.kl-share-hero{font-family:var(--display); font-weight:900; font-size:clamp(1.45rem, 6.2vw, 1.9rem); line-height:1.35}
+.kl-share-hero b{color:var(--seal); font-size:1.5em; font-variant-numeric:tabular-nums}
+.kl-share-sub{line-height:1.6}
+.kl-share-sub b{color:var(--seal)}
+.kl-bars{list-style:none; margin:2px 0; padding:0; display:grid; gap:7px}
+.kl-bars li{display:grid; grid-template-columns:2.2em minmax(0,1fr) 5.2em; gap:8px; align-items:center; font-size:.92rem}
+.kl-bars i{display:block; height:10px; background:color-mix(in srgb, var(--line) 55%, transparent); border-radius:4px; overflow:hidden}
+.kl-bars u{display:block; height:100%; background:var(--seal); border-radius:0 4px 4px 0}
+.kl-bars b{font-weight:500; text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+.kl-bars span{color:var(--muted); font-variant-numeric:tabular-nums}
+.kl-share small{color:var(--muted); line-height:1.5}
 
 .kl-stats,.kl-boxes{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:8px}
 .kl-stats>div,.kl-boxes>div{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:10px 6px; text-align:center; display:grid; gap:2px}
