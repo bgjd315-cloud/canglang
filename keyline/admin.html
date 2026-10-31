@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>練功坊教師後台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="keyline.css">
+<style>
+  body{max-width:1120px}
+  #admin{display:grid; gap:14px}
+  .ad-top{display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:10px}
+  .ad-top h1{font-size:1.6rem; font-weight:900; letter-spacing:.05em}
+  .ad-top small{color:var(--muted)}
+  .ad-demo{background:var(--paper); border:1px solid var(--seal); color:var(--seal); border-radius:10px; padding:8px 12px; font-weight:500}
+  .ad-login{max-width:440px; margin:12vh auto; display:grid; gap:14px; text-align:center}
+  .ad-bar{display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+  .ad-bar .sp{flex:1}
+  .ad-bar input{width:7em; min-height:40px}
+  .ad-bar button{min-height:40px}
+  .ad-danger{color:var(--bad); border-color:var(--bad)}
+  .ad-tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:8px}
+  .ad-tiles div{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:10px; text-align:center}
+  .ad-tiles b{display:block; font-family:var(--display); font-size:1.7rem; line-height:1.2; font-variant-numeric:tabular-nums}
+  .ad-tiles span{font-size:.85rem; color:var(--muted)}
+  .ad-wrap{overflow-x:auto; background:var(--surface); border:1px solid var(--line); border-radius:12px}
+  table{border-collapse:collapse; width:100%; min-width:760px; font-variant-numeric:tabular-nums}
+  th,td{padding:9px 10px; border-bottom:1px solid var(--line); text-align:right; white-space:nowrap}
+  th{position:sticky; top:0; background:var(--paper); font-size:.88rem}
+  th button{border:0; background:none; padding:0; font-weight:700; font-size:inherit}
+  th.on button{color:var(--seal)}
+  td.l,th.l{text-align:left}
+  tr:last-child td{border-bottom:0}
+  tr.sel td{background:color-mix(in srgb, var(--seal) 8%, transparent)}
+  td input[type=checkbox],th input[type=checkbox]{width:1.15em; height:1.15em}
+  .ad-flag{color:var(--warn); border:1px solid var(--warn); border-radius:999px; font-size:.78rem; padding:0 .5em; margin-left:.4em}
+  .ad-idle{color:var(--muted)}
+  .ad-del{min-height:34px; padding:.1em .7em; color:var(--bad); border-color:var(--bad); font-size:.88rem}
+  .ad-empty{padding:36px; text-align:center; color:var(--muted)}
+  .ad-note{color:var(--muted); line-height:1.6; font-size:.9rem; margin:0}
+  dialog{border:1px solid var(--line); border-radius:14px; background:var(--surface); color:var(--ink); padding:20px; max-width:min(440px,calc(100vw - 32px))}
+  dialog::backdrop{background:rgba(0,0,0,.45)}
+  dialog h2{font-size:1.25rem; margin-bottom:8px}
+  dialog p{line-height:1.6; margin:0 0 10px}
+  dialog input{width:100%; min-height:42px; margin-bottom:12px}
+  .ad-acts{display:flex; justify-content:flex-end; gap:8px}
+  .ad-acts .go{background:var(--bad); border-color:var(--bad); color:#fff; font-weight:700}
+  .ad-acts .go:disabled{opacity:.4}
+  .ad-msg{min-height:1.4em; font-weight:500}
+</style>
+</head>
+<body>
+<main id="admin"></main>
+<dialog id="dlg"></dialog>
+<script type="module" src="admin.js"></script>
+</body>
+</html>
