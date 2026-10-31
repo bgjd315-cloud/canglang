@@ -2475,6 +2475,266 @@
    ],
    "source_note": "鷹架講義(教)單元五步驟3；字義依參考包kl08-038",
    "from_pack": "kl08-038"
+  },
+  {
+   "id": "qiuran-62",
+   "lesson": "虬髯客傳",
+   "paragraph": 2,
+   "scene": "楊素權勢正盛時，一位還沒做官的年輕人來求見。",
+   "context_before": "末年益甚，無復知所負荷、有扶危持顛之心。一日，",
+   "sentence": "衛公李靖以布衣來謁，獻奇策",
+   "context_after": "，素亦踞見之。靖前揖曰：「天下方亂，英雄競起。」",
+   "keywords": [
+    {
+     "word": "策",
+     "gloss": "計策",
+     "pos": "名詞",
+     "distractors": [
+      "馬鞭",
+      "竹簡",
+      "鞭打"
+     ]
+    },
+    {
+     "word": "布衣",
+     "gloss": "平民",
+     "pos": "名詞",
+     "distractors": [
+      "布做的衣服",
+      "窮苦的書生",
+      "隱居的道士"
+     ]
+    }
+   ],
+   "meaning": "李靖以平民身分前來拜見，獻上奇妙的計策。",
+   "meaning_distractors": [
+    "李靖穿著布衣前來拜見，獻上一根珍奇的馬鞭。",
+    "李靖以大臣身分來見楊素，獻上特別的竹簡。",
+    "平民們都來拜見李靖，向他請教奇妙的計策。"
+   ],
+   "source_note": "龍騰課本注釋；字義依文意初擬",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "35",
+     "quote": "衛公李靖以布衣來謁，獻奇策",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-63",
+   "lesson": "虬髯客傳",
+   "paragraph": 5,
+   "scene": "虬髯客想見李靖口中的那位異人，問他能否引見，李靖這樣回答。",
+   "context_before": "曰：「似矣，亦須見之，李郎能致吾一見否？」曰：「",
+   "sentence": "靖之友劉文靜者與之狎，因文靜見之可也",
+   "context_after": "。兄欲何為？」",
+   "keywords": [
+    {
+     "word": "因",
+     "gloss": "透過",
+     "pos": "介詞",
+     "distractors": [
+      "因為",
+      "於是",
+      "沿襲"
+     ]
+    },
+    {
+     "word": "狎",
+     "gloss": "親近",
+     "pos": "形容詞",
+     "distractors": [
+      "輕視",
+      "捉弄",
+      "同事"
+     ]
+    }
+   ],
+   "meaning": "我的朋友劉文靜和他很親近，透過文靜就可以見到他。",
+   "meaning_distractors": [
+    "我的朋友劉文靜常捉弄他，因此文靜不願見他。",
+    "劉文靜和他是同事，因為這樣我才見過文靜。",
+    "我和劉文靜都輕視他，所以不必去見他。"
+   ],
+   "source_note": "龍騰課本注W；因依文意初擬",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "36",
+     "quote": "靖之友劉文靜者與之狎，因文靜見之可也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-64",
+   "lesson": "虬髯客傳",
+   "paragraph": 6,
+   "scene": "李靖和張氏快馬趕往太原，赴虬髯客的約。",
+   "context_before": "靖與張氏且驚懼，久之，曰：「烈士不欺人，固無畏。」促鞭而行。",
+   "sentence": "及期，入太原候之，相見大喜",
+   "context_after": "，偕詣劉氏，詐謂文靜曰：「有善相者思見郎君，請迎之。」",
+   "keywords": [
+    {
+     "word": "期",
+     "gloss": "約定的日期",
+     "pos": "名詞",
+     "distractors": [
+      "期望",
+      "一段時間",
+      "限制"
+     ]
+    },
+    {
+     "word": "候",
+     "gloss": "等候",
+     "pos": "動詞",
+     "distractors": [
+      "問候",
+      "時候",
+      "看望病人"
+     ]
+    }
+   ],
+   "meaning": "到了約定的日子，進入太原等候虬髯客，見面後非常高興。",
+   "meaning_distractors": [
+    "到了期限還沒進城，向太原的人問候，大家很高興。",
+    "他們期望進入太原，問候虬髯客的家人。",
+    "時候到了，虬髯客在太原看望李靖，兩人不高興地分開。"
+   ],
+   "source_note": "字義依文意初擬",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "37",
+     "quote": "及期，入太原候之，相見大喜",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-65",
+   "lesson": "虬髯客傳",
+   "paragraph": 6,
+   "scene": "他們一起到劉文靜家，想找藉口讓虬髯客見到李世民。",
+   "context_before": "及期，入太原候之，相見大喜，偕詣劉氏，詐謂文靜曰：「",
+   "sentence": "有善相者思見郎君，請迎之",
+   "context_after": "。」文靜素奇其人，一旦聞有客善相，遽致酒延焉。",
+   "keywords": [
+    {
+     "word": "相",
+     "gloss": "看相（音ㄒㄧㄤˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "互相",
+      "宰相",
+      "幫助"
+     ]
+    },
+    {
+     "word": "見",
+     "gloss": "見到",
+     "pos": "動詞",
+     "distractors": [
+      "被",
+      "顯現",
+      "拜見君主"
+     ]
+    }
+   ],
+   "meaning": "有個擅長看相的人想見郎君，請您把他請來。",
+   "meaning_distractors": [
+    "有位善良的宰相想被郎君接見，請您迎接他。",
+    "有個好人和郎君互相思念，請您幫助他們。",
+    "郎君想見一位善於看相的人，請您親自去迎接。"
+   ],
+   "source_note": "龍騰課本注T；鷹架講義(教)單元四",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "36",
+     "quote": "有善相者思見郎君，請迎之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
+  },
+  {
+   "id": "qiuran-66",
+   "lesson": "虬髯客傳",
+   "paragraph": 8,
+   "scene": "虬髯客在家中盛情款待李靖夫婦，用餐後的場面。",
+   "context_before": "遂延中堂，陳設盤筵之盛，雖王公家不侔也。",
+   "sentence": "四人對饌訖，陳女樂二十人，列奏於前",
+   "context_after": "，似從天降，非人間之曲度。",
+   "keywords": [
+    {
+     "word": "陳",
+     "gloss": "排列",
+     "pos": "動詞",
+     "distractors": [
+      "陳舊",
+      "陳述",
+      "朝代名"
+     ]
+    },
+    {
+     "word": "訖",
+     "gloss": "完畢",
+     "pos": "動詞",
+     "distractors": [
+      "乞求",
+      "告訴",
+      "發怒"
+     ]
+    }
+   ],
+   "meaning": "四人對坐吃完飯，排列出二十名女樂師，在面前演奏。",
+   "meaning_distractors": [
+    "四人對坐吃飯前，陳述二十位女子的來歷。",
+    "四人吃不完飯菜，留給二十位舊日的樂師。",
+    "四人向二十位女子乞求，請她們奏樂助興。"
+   ],
+   "source_note": "龍騰課本注C；字義依文意初擬",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "36",
+     "quote": "四人對饌訖，陳女樂二十人，列奏於前",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   }
  ]
 }

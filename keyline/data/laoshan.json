@@ -77,7 +77,20 @@
     "白色頭巾蓋住脖子，一副看不起神明的樣子。"
    ],
    "source_note": "龍騰課本注8、注9",
-   "scene": "王生登上勞山，在道觀裡見到一位道士。"
+   "scene": "王生登上勞山，在道觀裡見到一位道士。",
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "37",
+     "quote": "一道士坐蒲團上，素髮垂領，而神觀爽邁。叩而與語，理甚玄妙",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "laoshan-03",
@@ -115,6 +128,17 @@
      "relation_type": "直接引文",
      "location": "選項C前句",
      "exam_quote_official": "叩而與語，理甚玄妙",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "37",
+     "quote": "一道士坐蒲團上，素髮垂領，而神觀爽邁。叩而與語，理甚玄妙",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],
@@ -257,6 +281,17 @@
      "relation_type": "近用改寫",
      "location": "選項A前詞",
      "exam_quote_official": "「賚」賞諸徒",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "36",
+     "quote": "於案上取壺酒，分賚諸徒，且囑盡醉",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],
@@ -747,6 +782,17 @@
      "exam": "學測",
      "no": "34",
      "quote": "我固謂不能作苦",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "38",
+     "quote": "道士笑曰：我固謂不能作苦，今果然",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],
@@ -1589,6 +1635,17 @@
      "pdf_page": 10,
      "relation_type": "異文引句",
      "location": "共用引文甲",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "17",
+     "quote": "道士笑而允之，乃傳以訣，令自咒",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],

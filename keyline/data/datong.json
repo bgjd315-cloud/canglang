@@ -460,6 +460,17 @@
      "relation_type": "直接引文",
      "location": "選項A",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "選賢與能，講信脩睦",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -514,7 +525,20 @@
     "kl02-006"
    ],
    "review_note": "課本注 10 作「親長、子弟」，鷹架講義導讀作「父母、子女」，依規則採講義，請老師確認要用哪一種說法。",
-   "teacher_reviewed": "2026-10-31"
+   "teacher_reviewed": "2026-10-31",
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "不獨親其親，不獨子其子",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "datong-10",
@@ -588,6 +612,19 @@
    "source_note": "鷹架講義(教)單元三導讀、步驟1第1題、步驟2比一比；龍騰課本注11–13",
    "from_pack": [
     "kl02-007"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "18-19",
+     "quote": "老有所終，壯有所用，幼有所長，矜寡孤獨廢疾者皆有所養",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -679,6 +716,17 @@
      "pdf_page": 2,
      "relation_type": "短詞摘引",
      "location": "選項D前詞",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "18-19",
+     "quote": "老有所終，壯有所用，幼有所長，矜寡孤獨廢疾者皆有所養",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=6",
+     "pdf_page": 6,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ]
@@ -1048,6 +1096,30 @@
    "source_note": "鷹架講義(教)單元五導讀；龍騰課本注21；龍騰補充講義詞義補充「既隱」",
    "from_pack": [
     "kl02-014"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "38",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己，大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1101,7 +1173,31 @@
     "kl02-015"
    ],
    "review_note": "「親」「子」的對象同第 2 段（課本作親長、子弟，講義作父母、子女）；「貨力」課本注作資源財貨、心力，講義作財物和力氣。依規則採講義，請老師確認。",
-   "teacher_reviewed": "2026-10-31"
+   "teacher_reviewed": "2026-10-31",
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "38",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己，大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "datong-19",
@@ -1162,6 +1258,30 @@
    "source_note": "鷹架講義(教)單元五導讀、步驟1第1題；龍騰課本注23",
    "from_pack": [
     "kl02-016"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "38",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己，大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1229,6 +1349,30 @@
    "source_note": "鷹架講義(教)單元五導讀、步驟2比一比；龍騰課本注24、注25",
    "from_pack": [
     "kl02-017"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "38",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己，大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1299,6 +1443,19 @@
    "source_note": "鷹架講義(教)單元五導讀、步驟2比一比；龍騰課本注26；龍騰補充講義詞義補充「以正君臣」",
    "from_pack": [
     "kl02-018"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1360,6 +1517,19 @@
    "source_note": "鷹架講義(教)單元五導讀；龍騰課本注27–29",
    "from_pack": [
     "kl02-019"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1449,6 +1619,17 @@
      "relation_type": "直接引文",
      "location": "朱熹對話引文、選項E",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -1510,6 +1691,19 @@
    "source_note": "鷹架講義(教)單元五導讀；龍騰課本注31；龍騰補充講義字義比較「由」",
    "from_pack": [
     "kl02-021"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1551,6 +1745,19 @@
    "source_note": "鷹架講義(教)單元五導讀；龍騰補充講義詞義補充「君子」",
    "from_pack": [
     "kl02-022"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1620,7 +1827,20 @@
     "用禮彰明君王功績，考察書信真假，掩蓋君王過失。"
    ],
    "source_note": "鷹架講義(教)單元五導讀；龍騰課本注32–34。參考包 kl02-023 的前半；114 學測只引後半，所以這句不帶大考出處",
-   "from_pack": []
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "datong-27",
@@ -1716,6 +1936,17 @@
      "relation_type": "直接引文",
      "location": "選項A前句",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -1778,6 +2009,19 @@
    "source_note": "鷹架講義(教)單元五導讀、單元一步驟3提示；龍騰課本注37；龍騰補充講義字義比較「由」",
    "from_pack": [
     "kl02-024"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1819,6 +2063,19 @@
    "source_note": "鷹架講義(教)單元五導讀、單元六步驟1；龍騰課本題解；龍騰補充講義詞義補充「是」",
    "from_pack": [
     "kl02-025"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "28-32",
+     "quote": "今大道既隱，天下為家，各親其親，各子其子，貨力為己。大人世及以為禮，城郭溝池以為",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   }
  ]

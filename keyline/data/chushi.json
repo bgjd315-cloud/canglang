@@ -1571,6 +1571,19 @@
    "source_note": "龍騰課本注2、注49；鷹架講義(教)單元四步驟1",
    "from_pack": [
     "kl05-023"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "36",
+     "quote": "先帝知臣謹慎，故臨崩寄臣以大事也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1970,6 +1983,17 @@
      "relation_type": "異文引句",
      "location": "共用引文乙",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "36",
+     "quote": "斟酌損益，進盡忠言",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -2230,6 +2254,17 @@
      "pdf_page": 10,
      "relation_type": "異文引句",
      "location": "共用引文乙",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "36",
+     "quote": "諮諏善道，察納雅言",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],

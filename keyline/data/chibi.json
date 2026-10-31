@@ -205,7 +205,20 @@
     }
    ],
    "source_note": "龍騰混合題本第1題解析(少：不久)；龍騰學習講義p.94借代(斗牛)",
-   "from_pack": []
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "37",
+     "quote": "月出於東山之上",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "chibi-05",
@@ -255,6 +268,19 @@
    "source_note": "龍騰混合題本第1題解析與第2題參考答案",
    "from_pack": [
     "kl09-004"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "37",
+     "quote": "水光接天",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1030,6 +1056,17 @@
      "relation_type": "直接引文",
      "location": "選項C後句",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "40",
+     "quote": "此非孟德之困於周郎者乎",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -1713,7 +1750,20 @@
     "kl09-024"
    ],
    "review_note": "曾字義與字音講義未明列，依參考包與文意。",
-   "teacher_reviewed": "2026-10-31"
+   "teacher_reviewed": "2026-10-31",
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "17",
+     "quote": "蓋將自其變者而觀之，則天地曾不能以一瞬",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "chibi-31",
@@ -1902,6 +1952,17 @@
      "pdf_page": 6,
      "relation_type": "直接引文",
      "location": "共用引文第5段括注",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "42",
+     "quote": "惟江上之清風，與山間之明月，耳得之而為聲，目遇之而成色",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],
@@ -2203,6 +2264,48 @@
     }
    ],
    "teacher_reviewed": "2026-10-31"
+  },
+  {
+   "id": "chibi-39",
+   "lesson": "赤壁賦",
+   "paragraph": 4,
+   "scene": "客說完人生短暫的悲傷，蘇子指著眼前的江水和月亮開口。",
+   "context_before": "託遺響於悲風。」蘇子曰：「",
+   "sentence": "客亦知夫水與月乎",
+   "context_after": "？逝者如斯，而未嘗往也；盈虛者如彼，而卒莫消長也。",
+   "keywords": [
+    {
+     "word": "夫",
+     "gloss": "那",
+     "pos": "代詞",
+     "distractors": [
+      "丈夫",
+      "發語詞，無義",
+      "成年男子"
+     ]
+    }
+   ],
+   "meaning": "您也知道那江水和月亮的道理嗎？",
+   "meaning_distractors": [
+    "您的丈夫也知道江水和月亮嗎？",
+    "您知道江水和月亮是誰的嗎？",
+    "客人和丈夫都看過江水和月亮了嗎？"
+   ],
+   "source_note": "字義依文意初擬",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "37",
+     "quote": "客亦知夫水與月乎",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   }
  ]
 }

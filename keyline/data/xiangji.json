@@ -314,6 +314,17 @@
      "relation_type": "直接引文",
      "location": "選項A",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "38",
+     "quote": "前闢四窗，垣牆周庭，以當南日，日影反照，室始洞然",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -467,6 +478,19 @@
    "source_note": "鷹架講義(教)單元二步驟1第2題；「時」不單獨出題",
    "from_pack": [
     "kl11-007"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "36",
+     "quote": "小鳥時來啄食，人至不去",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -551,7 +575,20 @@
     "kl11-009"
    ],
    "review_note": "「然」作然而，課本、講義未單獨列注，依文意與參考包；請確認。",
-   "teacher_reviewed": "2026-10-31"
+   "teacher_reviewed": "2026-10-31",
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "37",
+     "quote": "居於此，多可喜",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "xiangji-11",
@@ -664,7 +701,20 @@
     "kl11-011"
    ],
    "review_note": "「東犬西吠」鷹架講義導讀作「狗對著自家人亂叫」，課本注24作「東家、西家的狗相互吠叫」，補充講義作互文。句意暫依鷹架講義；請確認。",
-   "teacher_reviewed": "2026-10-31"
+   "teacher_reviewed": "2026-10-31",
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "37",
+     "quote": "東犬西吠，客踰庖而宴",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "xiangji-13",
@@ -2335,6 +2385,18 @@
      "location": "共用引文乙",
      "paper_checked": "2026-10-31",
      "note": "原卷作「復葺」"
+    },
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "35",
+     "quote": "乃使人復葺南閣子，其制稍異於前",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31",
+     "note": "原卷作「復葺南閣子」"
     }
    ]
   },

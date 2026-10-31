@@ -150,6 +150,17 @@
      "relation_type": "節錄概括",
      "location": "引文內多處短引",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "27",
+     "quote": "芳草鮮美，落英繽紛，漁人甚異之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -247,6 +258,17 @@
      "pdf_page": 8,
      "relation_type": "直接引文",
      "location": "選項B",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "27",
+     "quote": "芳草鮮美，落英繽紛，漁人甚異之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],
@@ -526,6 +548,17 @@
      "relation_type": "短詞摘引",
      "location": "選項B前詞",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "35",
+     "quote": "阡陌交通，雞犬相聞。其中往來種作，男女衣著，悉如外人",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -576,6 +609,19 @@
      "other_lesson": "虬髯客傳",
      "same": true,
      "note": "都是全、都"
+    }
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "35",
+     "quote": "阡陌交通，雞犬相聞。其中往來種作，男女衣著，悉如外人",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -685,6 +731,19 @@
    "source_note": "鷹架講義(教)單元四導讀、步驟1第3題；龍騰課本注i",
    "from_pack": [
     "kl06-011"
+   ],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "37",
+     "quote": "見漁人，乃大驚，問所從來，具答之，便要還家",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {

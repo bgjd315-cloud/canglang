@@ -457,6 +457,19 @@
    "from_pack": [
     "kl13-008",
     "kl13-009"
+   ],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "38",
+     "quote": "友從兩手，朋從兩肉，是朋友如一身左右手，即吾身之肉",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1337,6 +1350,19 @@
    "source_note": "鷹架講義(教)單元四步驟2比一比；龍騰補充講義字詞解釋（元氣、殆）、文句闡釋（去年）",
    "from_pack": [
     "kl13-021"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "21-23",
+     "quote": "自分類興，而元氣剝削殆盡，未有如去年之甚也！干戈之禍愈烈，村市半成邱墟。問為漳、",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1378,6 +1404,19 @@
    "source_note": "龍騰課本注33；龍騰學習講義p.25借代（干戈）；龍騰補充講義字詞解釋（烈）",
    "from_pack": [
     "kl13-022"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "21-23",
+     "quote": "自分類興，而元氣剝削殆盡，未有如去年之甚也！干戈之禍愈烈，村市半成邱墟。問為漳、",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -1430,7 +1469,20 @@
     "kl13-023"
    ],
    "review_note": "龍騰補充講義另列「或指因漳泉仇恨、利益」的解法；參考包譯作「難道只是漳泉之間才有」與龍騰不合。已採龍騰主解，請確認。",
-   "teacher_reviewed": "2026-10-31"
+   "teacher_reviewed": "2026-10-31",
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "21-23",
+     "quote": "自分類興，而元氣剝削殆盡，未有如去年之甚也！干戈之禍愈烈，村市半成邱墟。問為漳、",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "quanhe-26",
@@ -1522,6 +1574,17 @@
      "pdf_page": 2,
      "relation_type": "短詞摘引",
      "location": "選項B前詞",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "21-23",
+     "quote": "自分類興，而元氣剝削殆盡，未有如去年之甚也！干戈之禍愈烈，村市半成邱墟。問為漳、",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],

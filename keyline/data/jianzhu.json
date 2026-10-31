@@ -1268,7 +1268,20 @@
     "kl03-014"
    ],
    "review_note": "「就」作趨向、選取，講義與課本注釋未明列，依參考包與文意。",
-   "teacher_reviewed": "2026-10-31"
+   "teacher_reviewed": "2026-10-31",
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "42",
+     "quote": "今棄擊甕叩缶而就鄭、衛，退彈箏而取韶虞，若是者何也？快意當前，適觀而已矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   },
   {
    "id": "jianzhu-25",
@@ -1321,6 +1334,17 @@
      "pdf_page": 9,
      "relation_type": "直接引文",
      "location": "選項A後句",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "42",
+     "quote": "今棄擊甕叩缶而就鄭、衛，退彈箏而取韶虞，若是者何也？快意當前，適觀而已矣",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ],
@@ -1903,6 +1927,17 @@
      "pdf_page": 2,
      "relation_type": "直接引文",
      "location": "選項C",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "28",
+     "quote": "此所謂藉寇兵而齎盜糧者也",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ]

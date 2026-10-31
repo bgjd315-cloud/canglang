@@ -409,6 +409,17 @@
      "relation_type": "直接引文",
      "location": "選項D後句",
      "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "36",
+     "quote": "楚左尹項伯者，項羽季父也，素善留侯張良",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
     }
    ]
   },
@@ -591,6 +602,19 @@
    "source_note": "龍騰課本注a；龍騰補充講義字詞解釋第二段",
    "from_pack": [
     "kl04-009"
+   ],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "指考",
+     "no": "38",
+     "quote": "沛公今事有急，亡去不義",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0l251624599347192627/01-110%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e7%a7%91%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -966,6 +990,19 @@
    "source_note": "龍騰補充講義字詞解釋第二段",
    "from_pack": [
     "kl04-014"
+   ],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "指考",
+     "no": "27",
+     "quote": "秦時與臣游，項伯殺人，臣活之",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0k220526685012562444/01-109%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
    ]
   },
   {
@@ -2033,6 +2070,17 @@
      "pdf_page": 8,
      "relation_type": "直接引文",
      "location": "選項B後句",
+     "paper_checked": "2026-10-31"
+    },
+    {
+     "year": 107,
+     "exam": "指考",
+     "no": "40",
+     "quote": "若屬皆且為所虜",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j075833530646040285/01-107%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
      "paper_checked": "2026-10-31"
     }
    ]
@@ -3795,6 +3843,48 @@
    ],
    "review_note": "「立」課本與講義未列字義，依文意與參考包作「立刻」，請老師確認。",
    "teacher_reviewed": "2026-10-31"
+  },
+  {
+   "id": "hongmen-83",
+   "lesson": "鴻門宴",
+   "paragraph": 4,
+   "scene": "沛公要獨自騎馬抄小路逃回軍營，臨走前交代張良。",
+   "context_before": "沛公則置車騎，脫身獨騎，從酈山下，道芷陽閒行。沛公謂張良曰：「",
+   "sentence": "從此道至吾軍，不過二十里耳",
+   "context_after": "。度我至軍中，公乃入。」",
+   "keywords": [
+    {
+     "word": "耳",
+     "gloss": "而已、罷了",
+     "pos": "語氣詞",
+     "distractors": [
+      "耳朵",
+      "聽說",
+      "嗎"
+     ]
+    }
+   ],
+   "meaning": "從這條路到我的軍營，不過二十里罷了。",
+   "meaning_distractors": [
+    "從這條路到我的軍營，聽說不止二十里。",
+    "沿著這條路走二十里，還到不了我的軍營嗎？",
+    "從我的軍營到這裡，要花二十天的路程。"
+   ],
+   "source_note": "字義依文意初擬",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "指考",
+     "no": "36",
+     "quote": "從此道至吾軍，不過二十里耳",
+     "official_url": "https://www.ceec.edu.tw/files/file_pool/1/0j196363695706288959/01-108%e6%8c%87%e8%80%83%e5%9c%8b%e6%96%87%e8%a9%a6%e5%8d%b7%e5%ae%9a%e7%a8%bf.pdf#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "",
+     "paper_checked": "2026-10-31"
+    }
+   ]
   }
  ]
 }
