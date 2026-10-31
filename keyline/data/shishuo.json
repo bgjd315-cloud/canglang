@@ -327,7 +327,6 @@
    "from_pack": [
     "kl07-005"
    ],
-   "needs_review": true,
    "review_note": "師字：課本注5與學習講義作「學習」，參考包作「以為師」。依序採課本，請老師確認。",
    "exam_refs": [
     {
@@ -340,7 +339,8 @@
      "relation_type": "直接引文",
      "location": "共用引文甲"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "shishuo-06",
@@ -1185,8 +1185,8 @@
    "from_pack": [
     "kl07-020"
    ],
-   "needs_review": true,
-   "review_note": "鷹架比一比把「年相若」的「相」作「互相」；參考包把「相若」整個作「相近」。依序採鷹架，請老師確認是否要這樣考。"
+   "review_note": "鷹架比一比把「年相若」的「相」作「互相」；參考包把「相若」整個作「相近」。依序採鷹架，請老師確認是否要這樣考。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "shishuo-22",

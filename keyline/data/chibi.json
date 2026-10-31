@@ -102,8 +102,8 @@
    "from_pack": [
     "kl09-002"
    ],
-   "needs_review": true,
-   "review_note": "徐、興字義講義與手邊龍騰資料未明列，依參考包。"
+   "review_note": "徐、興字義講義與手邊龍騰資料未明列，依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-03",
@@ -398,7 +398,6 @@
    "from_pack": [
     "kl09-006"
    ],
-   "needs_review": true,
    "review_note": "御字義講義未明列，依參考包。",
    "exam_refs": [
     {
@@ -411,7 +410,8 @@
      "relation_type": "節錄概括",
      "location": "共用引文第5段①"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-08",
@@ -453,7 +453,6 @@
    "from_pack": [
     "kl09-007"
    ],
-   "needs_review": true,
    "review_note": "遺世、羽化字義講義未明列，依參考包與文意。",
    "exam_refs": [
     {
@@ -466,7 +465,8 @@
      "relation_type": "節錄概括",
      "location": "共用引文第5段①"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-09",
@@ -508,7 +508,6 @@
    "from_pack": [
     "kl09-034"
    ],
-   "needs_review": true,
    "review_note": "扣、舷字義講義未明列，依參考包與文意。",
    "exam_refs": [
     {
@@ -521,7 +520,8 @@
      "relation_type": "直接引文",
      "location": "共用引文第4段短引"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-10",
@@ -573,7 +573,6 @@
    "from_pack": [
     "kl09-008"
    ],
-   "needs_review": true,
    "review_note": "空明字義講義未明列，依參考包。字形依鷹架與龍騰作「泝」，參考包作「溯」。",
    "exam_refs": [
     {
@@ -586,7 +585,8 @@
      "relation_type": "短詞摘引",
      "location": "選項C前詞"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-11",
@@ -628,7 +628,6 @@
    "from_pack": [
     "kl09-009"
    ],
-   "needs_review": true,
    "review_note": "渺渺字義講義未明列。美人依鷹架取「思念卻見不到」；參考包另提理想、君主等寄託，講義未採，未寫入，請確認。",
    "exam_refs": [
     {
@@ -641,7 +640,8 @@
      "relation_type": "直接引文",
      "location": "共用引文第4段短引"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-12",
@@ -683,8 +683,8 @@
    "from_pack": [
     "kl09-010"
    ],
-   "needs_review": true,
-   "review_note": "倚、和字義講義未明列，依參考包。"
+   "review_note": "倚、和字義講義未明列，依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-13",
@@ -726,8 +726,8 @@
    "from_pack": [
     "kl09-011"
    ],
-   "needs_review": true,
-   "review_note": "慕、訴字義講義未明列，依文意與參考包。"
+   "review_note": "慕、訴字義講義未明列，依文意與參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-14",
@@ -769,8 +769,8 @@
    "from_pack": [
     "kl09-012"
    ],
-   "needs_review": true,
-   "review_note": "嫋嫋字義講義未明列，依參考包。"
+   "review_note": "嫋嫋字義講義未明列，依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-15",
@@ -822,8 +822,8 @@
    "from_pack": [
     "kl09-013"
    ],
-   "needs_review": true,
-   "review_note": "舞、泣的使動用法講義未直接標示，依參考包與文意。"
+   "review_note": "舞、泣的使動用法講義未直接標示，依參考包與文意。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-16",
@@ -892,7 +892,6 @@
     "kl09-014",
     "kl09-032"
    ],
-   "needs_review": true,
    "review_note": "愀然字義講義未明列，依參考包。龍騰作「正襟危坐而問客」，參考包多一逗號。",
    "exam_refs": [
     {
@@ -915,7 +914,8 @@
      "relation_type": "直接引文",
      "location": "共用引文第4段短引"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-17",
@@ -957,7 +957,6 @@
    "from_pack": [
     "kl09-033"
    ],
-   "needs_review": true,
    "review_note": "蒼蒼字義講義未明列，依參考包。",
    "exam_refs": [
     {
@@ -970,7 +969,8 @@
      "relation_type": "直接引文",
      "location": "選項A前句"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-18",
@@ -1056,7 +1056,7 @@
     },
     {
      "word": "東",
-     "gloss": "向東行",
+     "gloss": "向東，依水流方向指南下",
      "pos": "動詞",
      "distractors": [
       "東邊",
@@ -1075,7 +1075,7 @@
      ]
     }
    ],
-   "meaning": "當曹操攻破荊州、拿下江陵，順著長江向東進軍時，戰船綿延千里，旌旗遮蔽天空。寫軍容壯盛。",
+   "meaning": "當曹操攻破荊州、拿下江陵，順著長江水流向東南下時，戰船綿延千里，旌旗遮蔽天空。寫軍容壯盛。",
    "meaning_distractors": [
     "曹操正要逃離荊州、退回江陵，逆流而上，戰船燒毀，旌旗倒地。",
     "當周瑜攻破荊州、拿下江陵，順流向東時，酒宴擺了千里，旗幟滿天。",
@@ -1083,8 +1083,8 @@
    ],
    "source_note": "龍騰學習講義p.92重點句意、p.94借代；龍騰語文演練(舳艫、軍容壯盛)；龍騰混合題本第5題；方、東字義依文意初擬",
    "from_pack": [],
-   "needs_review": true,
-   "review_note": "方、東字義依文意初擬，講義未明列。參考包kl09-037 的出處只涉下一句，故本句未列 from_pack。"
+   "review_note": "方字義依文意初擬，講義未明列（東已由老師確認：向東，依水流指南下）。參考包kl09-037 的出處只涉下一句，故本句未列 from_pack。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-20",
@@ -1136,7 +1136,6 @@
    "from_pack": [
     "kl09-037"
    ],
-   "needs_review": true,
    "review_note": "槊依參考包、賦依文意，講義未明列。",
    "exam_refs": [
     {
@@ -1149,7 +1148,8 @@
      "relation_type": "語詞援用",
      "location": "共用引文末段敘述"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-21",
@@ -1207,8 +1207,8 @@
    "from_pack": [
     "kl09-016"
    ],
-   "needs_review": true,
-   "review_note": "固：龍騰語文演練作「的確、確實」，參考包作「本來」，採龍騰。安在依參考包。"
+   "review_note": "固：龍騰語文演練作「的確、確實」，參考包作「本來」，採龍騰。安在依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-22",
@@ -1260,8 +1260,8 @@
    "from_pack": [
     "kl09-017"
    ],
-   "needs_review": true,
-   "review_note": "侶、友的意動用法講義未直接標示，依參考包。"
+   "review_note": "侶、友的意動用法講義未直接標示，依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-23",
@@ -1274,12 +1274,12 @@
    "keywords": [
     {
      "word": "匏樽",
-     "gloss": "葫蘆做的酒器（匏音ㄆㄠˊ）",
+     "gloss": "葫蘆瓢（匏音ㄆㄠˊ）",
      "pos": "名詞",
      "distractors": [
-      "瓠瓜做的湯匙",
-      "玉做的酒杯",
-      "陶土的飯碗"
+      "竹湯匙",
+      "玉酒杯",
+      "陶飯碗"
      ]
     },
     {
@@ -1293,7 +1293,7 @@
      ]
     }
    ],
-   "meaning": "駕著小船，舉起葫蘆做的酒器互相勸酒。",
+   "meaning": "駕著小船，舉起葫蘆瓢互相勸酒。",
    "meaning_distractors": [
     "駕著大船，舉起玉杯向長官敬酒，歸屬於他。",
     "乘著一片葉子，舉起葫蘆請託對方寫文章。",
@@ -1310,8 +1310,8 @@
    ],
    "source_note": "龍騰學習講義p.95字形辨析(匏音)、p.95-96字音辨析(屬)；匏樽字義依文意初擬",
    "from_pack": [],
-   "needs_review": true,
-   "review_note": "匏樽字義依文意初擬，講義只列字音與「匏瓜」。"
+   "review_note": "匏樽已由老師確認：葫蘆瓢。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-24",
@@ -1549,7 +1549,6 @@
    "from_pack": [
     "kl09-021"
    ],
-   "needs_review": true,
    "review_note": "遺響、悲風依文意初擬。參考包把句意解成「寄於悲涼簫聲」，與「悲風」不合，未採。字形依龍騰作「託」，參考包作「托」。",
    "exam_refs": [
     {
@@ -1562,7 +1561,8 @@
      "relation_type": "直接引文",
      "location": "題幹①"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-28",
@@ -1655,8 +1655,8 @@
    "from_pack": [
     "kl09-023"
    ],
-   "needs_review": true,
-   "review_note": "卒字義依參考包，手邊講義只在表格譯作「終究」。"
+   "review_note": "卒字義依參考包，手邊講義只在表格譯作「終究」。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-30",
@@ -1708,8 +1708,8 @@
    "from_pack": [
     "kl09-024"
    ],
-   "needs_review": true,
-   "review_note": "曾字義與字音講義未明列，依參考包與文意。"
+   "review_note": "曾字義與字音講義未明列，依參考包與文意。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-31",
@@ -1812,7 +1812,6 @@
     "kl09-026",
     "kl09-036"
    ],
-   "needs_review": true,
    "review_note": "且夫、雖字義講義未明列，依參考包。",
    "exam_refs": [
     {
@@ -1825,7 +1824,8 @@
      "relation_type": "直接引文",
      "location": "題幹②"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-33",
@@ -1886,7 +1886,6 @@
    "from_pack": [
     "kl09-027"
    ],
-   "needs_review": true,
    "review_note": "惟、色字義講義未明列，依參考包。",
    "exam_refs": [
     {
@@ -1899,7 +1898,8 @@
      "relation_type": "直接引文",
      "location": "共用引文第5段括注"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-34",
@@ -1941,8 +1941,8 @@
    "from_pack": [
     "kl09-028"
    ],
-   "needs_review": true,
-   "review_note": "禁、竭字義講義未明列，依參考包。"
+   "review_note": "禁、竭字義講義未明列，依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-35",
@@ -2051,7 +2051,6 @@
    "from_pack": [
     "kl09-030"
    ],
-   "needs_review": true,
    "review_note": "更、酌字義講義未直接列表，導讀作「重新喝酒」，依參考包。",
    "exam_refs": [
     {
@@ -2064,7 +2063,8 @@
      "relation_type": "直接引文",
      "location": "選項B"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-37",
@@ -2125,7 +2125,6 @@
    "from_pack": [
     "kl09-035"
    ],
-   "needs_review": true,
    "review_note": "肴核字義依參考包。龍騰混合題本作「狼藉」，學習講義p.100選項作「狼籍」，採「狼藉」。",
    "exam_refs": [
     {
@@ -2138,7 +2137,8 @@
      "relation_type": "直接引文",
      "location": "選項B"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chibi-38",
@@ -2180,7 +2180,6 @@
    "from_pack": [
     "kl09-031"
    ],
-   "needs_review": true,
    "review_note": "白作「天亮」依文意初擬。",
    "exam_refs": [
     {
@@ -2193,7 +2192,8 @@
      "relation_type": "直接引文",
      "location": "選項B"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   }
  ]
 }

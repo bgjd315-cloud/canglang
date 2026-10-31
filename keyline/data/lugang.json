@@ -394,8 +394,8 @@
    "from_pack": [
     "kl14-007"
    ],
-   "needs_review": true,
-   "review_note": "「去之五里」的起算點：鷹架講義作「離岸五里」，補充講義解「之」指海；參考包作「距鹿港五里」。依鷹架。"
+   "review_note": "「去之五里」的起算點：鷹架講義作「離岸五里」，補充講義解「之」指海；參考包作「距鹿港五里」。依鷹架。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-08",
@@ -437,8 +437,8 @@
    "from_pack": [
     "kl14-008"
    ],
-   "needs_review": true,
-   "review_note": "參考包譯「鹽場排列如鋪瓦，長堤環列如城隍」，與龍騰注（甃為井壁、隍為無水壕溝）不同。依龍騰。"
+   "review_note": "參考包譯「鹽場排列如鋪瓦，長堤環列如城隍」，與龍騰注（甃為井壁、隍為無水壕溝）不同。依龍騰。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-09",
@@ -873,8 +873,8 @@
    "from_pack": [
     "kl14-015"
    ],
-   "needs_review": true,
-   "review_note": "「歲」非講義或課本注釋明列，鷹架僅譯「常有人考中功名」，此處依參考包解「每年」。"
+   "review_note": "「歲」非講義或課本注釋明列，鷹架僅譯「常有人考中功名」，此處依參考包解「每年」。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-17",
@@ -1007,8 +1007,8 @@
    "from_pack": [
     "kl14-018"
    ],
-   "needs_review": true,
-   "review_note": "「只能」：鷹架講義譯「只能停在沖西」，補充講義解「止泊」為停息，參考包解「止」為「只」。依鷹架。參考包作「止泊於沖西內津」，龍騰斷在「沖西」。"
+   "review_note": "「只能」：鷹架講義譯「只能停在沖西」，補充講義解「止泊」為停息，參考包解「止」為「只」。依鷹架。參考包作「止泊於沖西內津」，龍騰斷在「沖西」。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-20",
@@ -1050,7 +1050,6 @@
    "from_pack": [
     "kl14-019"
    ],
-   "needs_review": true,
    "review_note": "異文：龍騰作「止泊於沖西，內津之所謂」，參考包與 111 學測引文作「昔之所謂」，字形依龍騰。「概見」依龍騰注，參考包解「普遍看見」。",
    "exam_refs": [
     {
@@ -1063,7 +1062,8 @@
      "relation_type": "直接引文",
      "location": "選項E後句"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-21",
@@ -1468,8 +1468,8 @@
    "from_pack": [
     "kl14-029"
    ],
-   "needs_review": true,
-   "review_note": "「究竟」鷹架作「追究到底」，龍騰課本注n作「真相」，來源不同，依鷹架。"
+   "review_note": "「究竟」鷹架作「追究到底」，龍騰課本注n作「真相」，來源不同，依鷹架。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-30",
@@ -1799,7 +1799,6 @@
     "kl14-035",
     "kl14-043"
    ],
-   "needs_review": true,
    "review_note": "「迤邐」依龍騰注（緩行的樣子），參考包解「曲折延伸」。",
    "exam_refs": [
     {
@@ -1822,7 +1821,8 @@
      "relation_type": "短詞摘引",
      "location": "選項C前詞"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-36",
@@ -1962,8 +1962,8 @@
    "from_pack": [
     "kl14-037"
    ],
-   "needs_review": true,
-   "review_note": "「挈」龍騰課本僅注音、無注釋，鷹架也未解，字義依文意初擬，請老師確認。"
+   "review_note": "「挈」龍騰課本僅注音、無注釋，鷹架也未解，字義依文意初擬，請老師確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-39",
@@ -2076,8 +2076,8 @@
    "from_pack": [
     "kl14-039"
    ],
-   "needs_review": true,
-   "review_note": "「不齒」課本與講義皆未注，依文意初擬，請老師確認。"
+   "review_note": "「不齒」課本與講義皆未注，依文意初擬，請老師確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-41",
@@ -2109,8 +2109,8 @@
    "from_pack": [
     "kl14-040"
    ],
-   "needs_review": true,
-   "review_note": "「不可知」非注釋明列，字義依文意初擬。"
+   "review_note": "「不可知」非注釋明列，字義依文意初擬。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-42",
@@ -2152,8 +2152,8 @@
    "from_pack": [
     "kl14-041"
    ],
-   "needs_review": true,
-   "review_note": "「滄桑」「類」未見課本注釋或講義明解，「時之可怖心」句法也有不同讀法，句意依文意初擬。"
+   "review_note": "「滄桑」「類」未見課本注釋或講義明解，「時之可怖心」句法也有不同讀法，句意依文意初擬。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "lugang-43",

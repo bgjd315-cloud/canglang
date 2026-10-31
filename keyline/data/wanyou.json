@@ -920,7 +920,6 @@
    "from_pack": [
     "kl10-014"
    ],
-   "needs_review": true,
    "review_note": "「尤」鷹架講義導讀作「尤其」，參考包作「更加」，依講義採「尤其」；此字課本未注，請老師確認。",
    "exam_refs": [
     {
@@ -933,7 +932,8 @@
      "relation_type": "直接引文",
      "location": "共用引文乙後半"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "wanyou-16",

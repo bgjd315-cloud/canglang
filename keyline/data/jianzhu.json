@@ -164,7 +164,6 @@
    "from_pack": [
     "kl03-002"
    ],
-   "needs_review": true,
    "review_note": "「產」作出生，講義與課本注釋未明列，依參考包與文意。",
    "exam_refs": [
     {
@@ -177,7 +176,8 @@
      "relation_type": "直接引文",
      "location": "選項B"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-04",
@@ -471,7 +471,6 @@
    "from_pack": [
     "kl03-005"
    ],
-   "needs_review": true,
    "review_note": "「事」作事奉，講義與課本注釋未明列，依參考包核對表。",
    "exam_refs": [
     {
@@ -484,7 +483,8 @@
      "relation_type": "直接引文",
      "location": "選項B後句"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-10",
@@ -536,8 +536,8 @@
    "from_pack": [
     "kl03-006"
    ],
-   "needs_review": true,
-   "review_note": "「蠶食」作逐步侵吞，課本未注，依參考包。"
+   "review_note": "「蠶食」作逐步侵吞，課本未注，依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-11",
@@ -569,8 +569,8 @@
    "from_pack": [
     "kl03-007"
    ],
-   "needs_review": true,
-   "review_note": "「以」作憑藉，講義與課本注釋未明列，依參考包與文意。"
+   "review_note": "「以」作憑藉，講義與課本注釋未明列，依參考包與文意。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-12",
@@ -869,7 +869,6 @@
    "from_pack": [
     "kl03-011"
    ],
-   "needs_review": true,
    "review_note": "「必」作一定要，講義與課本注釋未明列，依參考包與文意。",
    "exam_refs": [
     {
@@ -882,7 +881,8 @@
      "relation_type": "直接引文",
      "location": "選項E"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-18",
@@ -988,8 +988,8 @@
    "from_pack": [
     "kl03-012"
    ],
-   "needs_review": true,
-   "review_note": "「說耳目」的「說」作使愉悅，課本只注音，依參考包與文意。"
+   "review_note": "「說耳目」的「說」作使愉悅，課本只注音，依參考包與文意。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-20",
@@ -1258,8 +1258,8 @@
    "from_pack": [
     "kl03-014"
    ],
-   "needs_review": true,
-   "review_note": "「就」作趨向、選取，講義與課本注釋未明列，依參考包與文意。"
+   "review_note": "「就」作趨向、選取，講義與課本注釋未明列，依參考包與文意。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-25",
@@ -1301,7 +1301,6 @@
    "from_pack": [
     "kl03-015"
    ],
-   "needs_review": true,
    "review_note": "「當」作在、面對，依參考包核對表；「適觀」採鷹架講義「看起來合意」，參考包作「適合觀賞」。",
    "exam_refs": [
     {
@@ -1314,7 +1313,8 @@
      "relation_type": "直接引文",
      "location": "選項A後句"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-26",
@@ -1418,8 +1418,8 @@
    "from_pack": [
     "kl03-018"
    ],
-   "needs_review": true,
-   "review_note": "「民人」課本未注，依文意作人民；脈絡實指被驅逐的客卿人才，請老師確認選項顯示方式。"
+   "review_note": "「民人」課本未注，依文意作人民；脈絡實指被驅逐的客卿人才，請老師確認選項顯示方式。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-28",
@@ -1568,8 +1568,8 @@
    "from_pack": [
     "kl03-021"
    ],
-   "needs_review": true,
-   "review_note": "參考包作讓＝拒絕、擇＝排拒，本句依課本注49與鷹架講義改為推辭捨棄、挑選；「就」作成就、達到是依文意初擬。"
+   "review_note": "參考包作讓＝拒絕、擇＝排拒，本句依課本注49與鷹架講義改為推辭捨棄、挑選；「就」作成就、達到是依文意初擬。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-31",
@@ -1611,8 +1611,8 @@
    "from_pack": [
     "kl03-022"
    ],
-   "needs_review": true,
-   "review_note": "「明」作彰明，學習講義只標形容詞轉動詞，字義依參考包。"
+   "review_note": "「明」作彰明，學習講義只標形容詞轉動詞，字義依參考包。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-32",
@@ -1673,8 +1673,8 @@
    "from_pack": [
     "kl03-023"
    ],
-   "needs_review": true,
-   "review_note": "「無」作不分，講義與課本注釋未明列，依參考包與文意。"
+   "review_note": "「無」作不分，講義與課本注釋未明列，依參考包與文意。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "jianzhu-33",
@@ -2039,7 +2039,6 @@
    "from_pack": [
     "kl03-030"
    ],
-   "needs_review": true,
    "review_note": "「得」依文意作得到、辦到；參考包作「能夠」，講義只譯全句為「是不可能的」。",
    "exam_refs": [
     {
@@ -2052,7 +2051,8 @@
      "relation_type": "直接引文",
      "location": "資料甲"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   }
  ]
 }

@@ -159,8 +159,8 @@
    "from_pack": [
     "kl13-003"
    ],
-   "needs_review": true,
-   "review_note": "「或」依龍騰補充講義作「有人」，參考包句意作「可能」；已採龍騰，請確認。"
+   "review_note": "「或」依龍騰補充講義作「有人」，參考包句意作「可能」；已採龍騰，請確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "quanhe-04",
@@ -212,7 +212,6 @@
    "from_pack": [
     "kl13-004"
    ],
-   "needs_review": true,
    "review_note": "「類」作量詞為參考包所列 115 學測第 14 題考點，課本與講義未注；此字僅依參考包，請確認 gloss 寫法。",
    "exam_refs": [
     {
@@ -225,7 +224,8 @@
      "relation_type": "直接引文",
      "location": "例句①"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "quanhe-05",
@@ -1422,8 +1422,8 @@
    "from_pack": [
     "kl13-023"
    ],
-   "needs_review": true,
-   "review_note": "龍騰補充講義另列「或指因漳泉仇恨、利益」的解法；參考包譯作「難道只是漳泉之間才有」與龍騰不合。已採龍騰主解，請確認。"
+   "review_note": "龍騰補充講義另列「或指因漳泉仇恨、利益」的解法；參考包譯作「難道只是漳泉之間才有」與龍騰不合。已採龍騰主解，請確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "quanhe-26",
@@ -1504,7 +1504,6 @@
    "from_pack": [
     "kl13-024"
    ],
-   "needs_review": true,
    "review_note": "「非漳泉」依課本注36作「互相否定」；參考包譯作「不只是漳泉閩粵之間」，與課本不合，已採課本，請確認。",
    "exam_refs": [
     {
@@ -1517,7 +1516,8 @@
      "relation_type": "短詞摘引",
      "location": "選項B前詞"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "quanhe-27",
@@ -1934,8 +1934,8 @@
    "from_pack": [
     "kl13-031"
    ],
-   "needs_review": true,
-   "review_note": "「斯」依龍騰補充講義作「則」，參考包作「如此」（此）；已採龍騰，請確認。"
+   "review_note": "「斯」依龍騰補充講義作「則」，參考包作「如此」（此）；已採龍騰，請確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "quanhe-34",

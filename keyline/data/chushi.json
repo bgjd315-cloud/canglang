@@ -766,7 +766,6 @@
     "kl05-011",
     "kl05-036"
    ],
-   "needs_review": true,
    "review_note": "參考包把「試用」解為試行任用，課本注27作「任用，試與用同義」；已採課本，請老師確認。",
    "exam_refs": [
     {
@@ -779,7 +778,8 @@
      "relation_type": "直接引文",
      "location": "選項A"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chushi-12",
@@ -1722,7 +1722,6 @@
    "from_pack": [
     "kl05-026"
    ],
-   "needs_review": true,
    "review_note": "「獎」課本與講義未列字義，「激勵」取自參考包與文意，請老師確認。",
    "exam_refs": [
     {
@@ -1745,7 +1744,8 @@
      "relation_type": "異文引句",
      "location": "共用引文乙"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chushi-28",
@@ -1817,7 +1817,6 @@
    "from_pack": [
     "kl05-027"
    ],
-   "needs_review": true,
    "review_note": "參考包把「攘除」解為排除，課本注55作「攘，消滅」；已採課本，請老師確認。",
    "exam_refs": [
     {
@@ -1830,7 +1829,8 @@
      "relation_type": "異文引句",
      "location": "共用引文乙"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chushi-29",
@@ -2199,7 +2199,6 @@
    "from_pack": [
     "kl05-032"
    ],
-   "needs_review": true,
    "review_note": "參考包把「課」解為督責，課本注61作「自我省察。課，考察」；已採課本，請老師確認。",
    "exam_refs": [
     {
@@ -2212,7 +2211,8 @@
      "relation_type": "異文引句",
      "location": "共用引文乙"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chushi-34",
@@ -2273,7 +2273,6 @@
    "from_pack": [
     "kl05-033"
    ],
-   "needs_review": true,
    "review_note": "「不勝」「追」課本與講義未列字義，取自參考包與文意，請老師確認。",
    "exam_refs": [
     {
@@ -2286,7 +2285,8 @@
      "relation_type": "異文引句",
      "location": "共用引文乙"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "chushi-35",

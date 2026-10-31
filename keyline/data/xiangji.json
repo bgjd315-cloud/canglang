@@ -548,8 +548,8 @@
    "from_pack": [
     "kl11-009"
    ],
-   "needs_review": true,
-   "review_note": "「然」作然而，課本、講義未單獨列注，依文意與參考包；請確認。"
+   "review_note": "「然」作然而，課本、講義未單獨列注，依文意與參考包；請確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "xiangji-11",
@@ -661,8 +661,8 @@
    "from_pack": [
     "kl11-011"
    ],
-   "needs_review": true,
-   "review_note": "「東犬西吠」鷹架講義導讀作「狗對著自家人亂叫」，課本注24作「東家、西家的狗相互吠叫」，補充講義作互文。句意暫依鷹架講義；請確認。"
+   "review_note": "「東犬西吠」鷹架講義導讀作「狗對著自家人亂叫」，課本注24作「東家、西家的狗相互吠叫」，補充講義作互文。句意暫依鷹架講義；請確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "xiangji-13",
@@ -997,8 +997,8 @@
    "from_pack": [
     "kl11-016"
    ],
-   "needs_review": true,
-   "review_note": "母親「扣門扉」與老嫗「從板外」兩人究竟各在門的哪一側，以及「相為」，課本與講義都沒有注；句意依注35「門外」初擬，請確認。"
+   "review_note": "母親「扣門扉」與老嫗「從板外」兩人究竟各在門的哪一側，以及「相為」，課本與講義都沒有注；句意依注35「門外」初擬，請確認。",
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "xiangji-20",
@@ -1359,7 +1359,6 @@
    "from_pack": [
     "kl11-037"
    ],
-   "needs_review": true,
    "review_note": "「頃之」作不久，課本、講義沒有列注，依文意與參考包；請確認。",
    "exam_refs": [
     {
@@ -1372,7 +1371,8 @@
      "relation_type": "直接引文",
      "location": "共用引文甲第一段"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "xiangji-26",
@@ -2053,7 +2053,6 @@
    "from_pack": [
     "kl11-029"
    ],
-   "needs_review": true,
    "review_note": "「或」作有時，課本、講義沒有單獨列注，依文意與參考包；請確認。",
    "exam_refs": [
     {
@@ -2066,7 +2065,8 @@
      "relation_type": "直接引文",
      "location": "共用引文乙"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "xiangji-38",
@@ -2161,7 +2161,6 @@
    "from_pack": [
     "kl11-035"
    ],
-   "needs_review": true,
    "review_note": "「且」作發語詞，課本、講義沒有列注，依參考包；請確認。",
    "exam_refs": [
     {
@@ -2174,7 +2173,8 @@
      "relation_type": "直接引文",
      "location": "共用引文乙"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "xiangji-40",
@@ -2367,7 +2367,6 @@
    "from_pack": [
     "kl11-033"
    ],
-   "needs_review": true,
    "review_note": "「然」作然而、「居」作居住，課本、講義沒有列注，依文意與參考包；請確認。",
    "exam_refs": [
     {
@@ -2390,7 +2389,8 @@
      "relation_type": "直接引文",
      "location": "選項A後句"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   },
   {
    "id": "xiangji-43",
@@ -2442,7 +2442,6 @@
    "from_pack": [
     "kl11-034"
    ],
-   "needs_review": true,
    "review_note": "種樹的人：鷹架講義、課本題解、補充講義都作妻子親手種；參考包認為原文省略主詞，不宜判定。此處依前者；請確認。",
    "exam_refs": [
     {
@@ -2455,7 +2454,8 @@
      "relation_type": "直接引文",
      "location": "共用引文乙"
     }
-   ]
+   ],
+   "teacher_reviewed": "2026-10-31"
   }
  ]
 }
