@@ -2,13 +2,14 @@
 :root{--seal:#B23A2A; --paper:#F4EFE3}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--seal:#E06B58; --paper:#1D2422}}
 :root[data-theme="dark"]{--seal:#E06B58; --paper:#1D2422}
+html{overflow-x:clip}
 body{max-width:720px; margin:0 auto; font-size:17px; padding-bottom:40px}
 #app{display:flex; flex-direction:column; gap:14px}
 a{color:inherit}
 .kl-error{padding:40px 0; text-align:center}
 
 /* 首頁主視覺 */
-.kl-hero{position:relative; margin:-12px calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 0; min-height:min(92vw, 460px); display:flex; align-items:flex-end; overflow:hidden; background:#26383A}
+.kl-hero{position:relative; width:100vw; margin:-12px 0 0 calc(50% - 50vw); min-height:min(92vw, 460px); display:flex; align-items:flex-end; overflow:hidden; background:#26383A}
 .kl-hero-img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
 .kl-hero::after{content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(15,22,21,.9) 0%, rgba(15,22,21,.68) 50%, rgba(15,22,21,0) 86%)}
 .kl-hero-text{position:relative; z-index:1; padding:24px 20px; color:#F8F4EA; text-shadow:0 1px 8px rgba(0,0,0,.45)}
@@ -62,6 +63,49 @@ a{color:inherit}
 .kl-soon img{display:block; width:100%; height:100%; object-fit:cover; filter:grayscale(.85); opacity:.75}
 .kl-soon span{position:absolute; inset:auto 0 0 0; padding:14px 8px 6px; color:#fff; font-family:var(--display); font-weight:700; font-size:.92rem; background:linear-gradient(to top, rgba(0,0,0,.72), transparent)}
 
+/* 排行榜與我的紀錄 */
+.kl-board{display:grid; gap:10px}
+.kl-tabs{display:flex; gap:8px}
+.kl-tabs button{min-height:40px; border-radius:999px; padding:.3em 1.1em}
+.kl-tabs button[aria-pressed="true"]{background:var(--seal); border-color:var(--seal); color:#fff; font-weight:700}
+.kl-mine{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:10px 4px; text-align:center}
+.kl-mine b{display:block; font-family:var(--display); font-size:1.45rem; line-height:1.2; color:var(--seal); font-variant-numeric:tabular-nums}
+.kl-mine span{font-size:.82rem; color:var(--muted)}
+.kl-rank{list-style:none; counter-reset:r; margin:0; padding:0; display:grid; gap:6px}
+.kl-rank li{counter-increment:r; display:grid; grid-template-columns:2em minmax(0,1fr) auto auto; gap:10px; align-items:center; background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:8px 12px}
+.kl-rank li::before{content:counter(r); font-family:var(--display); font-weight:900; color:var(--muted); text-align:center}
+.kl-rank li:nth-child(-n+3)::before{color:var(--seal); font-size:1.2em}
+.kl-rank li.me{border:2px solid var(--seal)}
+.kl-rank em{font-style:normal; color:var(--muted); font-size:.88rem}
+.kl-rank b{font-variant-numeric:tabular-nums}
+.kl-board-note{margin:0; color:var(--muted); line-height:1.5}
+
+/* 對戰 */
+.kl-setup{display:grid; gap:10px}
+.kl-rival{display:flex; align-items:center; gap:12px}
+.kl-rival small{display:block; color:var(--muted)}
+.kl-rival b{font-family:var(--display); font-size:1.3rem}
+.kl-levels{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px}
+.kl-levels button{min-height:56px; border-radius:12px; display:grid; gap:0; padding:.4em}
+.kl-levels small{color:var(--muted); font-size:.8rem}
+.kl-levels button[aria-pressed="true"]{border:2px solid var(--seal); background:color-mix(in srgb, var(--seal) 10%, var(--surface))}
+.kl-duel{display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); align-items:center; gap:8px; background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:6px 12px}
+.kl-duel>div{display:flex; align-items:center; gap:8px; min-width:0}
+.kl-duel>div:last-child{justify-content:flex-end}
+.kl-duel small{color:var(--muted); font-size:.82rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.kl-duel b{font-family:var(--display); font-size:1.4rem; font-variant-numeric:tabular-nums}
+.kl-duel>span{color:var(--seal); font-family:var(--display); font-weight:900}
+.kl-duel .kl-portrait{width:34px; height:34px}
+.kl-rival-move{margin:0; font-weight:500; background:var(--paper); border-radius:8px; padding:6px 10px}
+.kl-final{display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); align-items:center; gap:10px; margin-bottom:6px}
+.kl-final>div{display:grid; justify-items:center; gap:2px}
+.kl-final small{color:var(--muted)}
+.kl-final b{font-family:var(--display); font-size:2.6rem; line-height:1.1; color:var(--seal); font-variant-numeric:tabular-nums}
+.kl-final .kl-seal{width:60px; height:60px; font-size:2rem}
+.kl-final .kl-portrait{width:52px; height:52px}
+.kl-gain b{color:var(--seal); font-size:1.25em}
+#sync:empty{display:none}
+
 /* 上方列 */
 .kl-top{display:flex; justify-content:space-between; align-items:center; gap:10px; min-height:40px}
 .kl-top a{text-decoration:none; padding:6px 8px 6px 0; font-weight:500}
@@ -84,7 +128,9 @@ a{color:inherit}
 @keyframes klReveal{to{opacity:1}}
 .kl-caption{margin:-4px 0 0; color:var(--muted); font-size:.92rem; text-align:center}
 
-.kl-seat{display:grid; grid-template-columns:auto 96px minmax(0,1fr); gap:10px; align-items:center}
+.kl-seat{display:grid; grid-template-columns:auto minmax(72px,96px) auto minmax(64px,84px); justify-content:start; gap:8px 10px; align-items:center}
+.kl-seat small{grid-column:1 / -1}
+.kl-seat select{width:100%; min-height:44px}
 .kl-seat label{font-weight:700}
 .kl-seat input{width:100%; text-align:center; min-height:44px}
 .kl-seat small{color:var(--muted); line-height:1.4}
@@ -170,4 +216,19 @@ button.kl-go:hover:not([disabled]){border-color:var(--seal); filter:brightness(1
   .kl-mist i.reveal{animation:none; opacity:1}
   .kl-card,.kl-track i{transition:none}
 }
-@media (max-width:380px){.kl-seat{grid-template-columns:auto 84px} .kl-seat small{grid-column:1 / -1}}
+/* 電腦版首頁：主視覺滿版，內容加寬成多欄；練習頁維持窄欄方便閱讀 */
+@media (min-width:900px){
+  body.kl-home{max-width:1180px}
+  .kl-home .kl-hero{min-height:min(52vw, 78vh)}
+  .kl-home .kl-hero-img{object-position:center 14%}
+  .kl-home .kl-hero-text{padding:48px max(32px, calc(50vw - 574px))}
+  .kl-home .kl-hero h1{font-size:clamp(3.4rem, 5.4vw, 5rem)}
+  .kl-home .kl-hero-sub{font-size:1.2rem}
+  .kl-home .kl-cards{grid-template-columns:repeat(auto-fill, minmax(330px, 1fr))}
+  .kl-home .kl-share{grid-template-columns:minmax(0,1fr) minmax(0,1fr); column-gap:40px; padding:26px 30px}
+  .kl-home .kl-share>*{grid-column:1}
+  .kl-home .kl-bars{grid-column:2; grid-row:1 / span 5; align-self:center; gap:12px}
+  .kl-home .kl-card-img{aspect-ratio:16/9}
+  .kl-home .kl-soon{grid-auto-columns:160px}
+  .kl-home .kl-rank{grid-template-columns:repeat(2,minmax(0,1fr))}
+}

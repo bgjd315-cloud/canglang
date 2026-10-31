@@ -6,6 +6,14 @@ const RANKS = [[0, "初入書房"], [.25, "字字有得"], [.6, "句句分明"],
 const cache = {};
 let lessons = [];
 let examStats = null;
+const SOLO = !!window.KL_SOLO; // 單機版：不接班級排行榜，成績只存在這台裝置
+const CLASSES = ["301", "307"];
+const RIVALS = { qiuran: "虬髯客", laoshan: "勞山道士", hongmen: "樊噲", chushi: "諸葛亮", chibi: "蘇軾", huaju: "張李德和", quanhe: "鄭用錫", jianzhu: "李斯", lugang: "洪繻", xiangji: "歸有光", zhuzhiwu: "燭之武", shishuo: "韓愈", taohua: "武陵漁人", datong: "孔子", wanyou: "袁宏道" };
+const LEVELS = { easy: { name: "簡單", accuracy: .5, mult: 1 }, normal: { name: "普通", accuracy: .7, mult: 1.2 }, hard: { name: "困難", accuracy: .85, mult: 1.5 } };
+// 答對 10 分；連中再加 2、4、6（最多加 6）
+const hitScore = (combo) => 10 + Math.min(6, Math.max(0, combo - 1) * 2);
+const loadBoard = () => import("./board.js");
+const validSeat = (s) => /^\d{1,2}$/.test(s) && +s >= 1 && +s <= 45;
 
 const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -102,6 +110,7 @@ function home() {
       </div>
     </header>
     ${examShare()}
+    <section class="kl-board" id="board" aria-label="${SOLO ? "我的紀錄" : "班級排行榜"}"></section>
     <section class="kl-stats" aria-label="我的進度">
       <div><b>${done}</b><span>句已練熟</span></div>
       <div><b>${all - done}</b><span>句待修煉</span></div>
@@ -124,6 +133,51 @@ function home() {
     <section class="kl-soon" aria-label="即將開放的篇章">
       ${lessons.filter((l) => !l.available).map((l) => `<div>${art("thumb-" + l.id, l.id)}<span>${l.lesson}</span></div>`).join("")}
     </section>` : ""}`;
+  renderBoard();
+}
+
+// 首頁的排行榜；單機版只顯示自己的紀錄
+async function renderBoard(cls) {
+  const el = document.getElementById("board");
+  if (!el) return;
+  const my = Rec.totals();
+  const mine = `<div class="kl-mine"><div><b>${my.points}</b><span>累積積分</span></div><div><b>${my.wins}</b><span>勝場</span></div><div><b>${my.rounds}</b><span>對戰次數</span></div></div>`;
+  if (SOLO) {
+    const best = lessons.filter((l) => my.best[l.id]).sort((a, b) => my.best[b.id] - my.best[a.id]).slice(0, 5);
+    el.innerHTML = `<h2 class="kl-section">我的紀錄</h2>${mine}${best.length ? `<ol class="kl-rank">${best.map((l) => `<li><span>${l.lesson}</span><em>最高分</em><b>${my.best[l.id]} 分</b></li>`).join("")}</ol>` : `<p class="kl-board-note">選一課，和課文裡的人物比一場。</p>`}<small class="kl-board-note">成績只存在這台裝置。</small>`;
+    return;
+  }
+  cls = cls || Rec.cls() || CLASSES[0];
+  const tabs = CLASSES.map((c) => `<button data-c="${c}" aria-pressed="${c === cls}">${c} 班</button>`).join("");
+  el.innerHTML = `<h2 class="kl-section">班級排行榜</h2><div class="kl-tabs">${tabs}</div>${mine}<div id="rank"><p class="kl-board-note">讀取中…</p></div>`;
+  el.querySelectorAll("[data-c]").forEach((b) => (b.onclick = () => renderBoard(b.dataset.c)));
+  try {
+    const rows = await (await loadBoard()).top(cls);
+    const box = document.getElementById("rank");
+    if (!box) return;
+    const me = Rec.cls() === cls ? +Rec.seat() : -1;
+    box.innerHTML = rows.length
+      ? `<ol class="kl-rank">${rows.map((r) => `<li class="${r.seat === me ? "me" : ""}"><span>${r.seat} 號</span><em>${r.wins} 勝</em><b>${r.points} 分</b></li>`).join("")}</ol>`
+      : `<p class="kl-board-note">還沒有人上榜，第一名等你來拿。</p>`;
+  } catch (e) {
+    console.warn(e);
+    const box = document.getElementById("rank");
+    if (box) box.innerHTML = `<p class="kl-board-note">排行榜暫時讀不到，練習和積分不受影響。</p>`;
+  }
+}
+
+// 把還沒上傳的分數送到排行榜；回傳給成績頁顯示的文字
+async function syncBoard() {
+  if (SOLO) return "";
+  if (!Rec.cls() || !validSeat(Rec.seat())) return "填好班級和座號，積分才會上排行榜。";
+  const { points, win } = Rec.pending();
+  if (!points) return "";
+  try {
+    const res = await (await loadBoard()).submit({ cls: Rec.cls(), seat: +Rec.seat(), points, win, mastered: Rec.masteredAll() });
+    if (res.ok) { Rec.sent(res.sent); return `已更新排行榜：${Rec.cls()} 班 ${Rec.seat()} 號，累積 ${res.points} 分。`; }
+    if (res.reason === "taken") return "這個座號已經被其他裝置使用，積分先留在這支手機，請找老師處理。";
+  } catch (e) { console.warn(e); }
+  return "排行榜暫時連不上，積分先留在這支手機，下一回會一起送出。";
 }
 
 // ---------- 課程頁 ----------
@@ -143,15 +197,30 @@ async function lessonPage(id) {
       <div><b>${st.boxes[1]}</b><span>第二盒・再一次</span></div>
       <div class="gold"><b>${st.boxes[2]}</b><span>第三盒・練熟</span></div>
     </section>
-    <div class="kl-seat">
+    <section class="kl-setup" aria-label="對戰設定">
+      <div class="kl-rival">${portrait(id)}<div><small>這一課的對手</small><b>${RIVALS[id]}</b></div></div>
+      <div class="kl-levels" role="group" aria-label="對手難度">
+        ${Object.entries(LEVELS).map(([k, v]) => `<button data-lv="${k}" aria-pressed="${Rec.level() === k}"><b>${v.name}</b><small>積分 ×${v.mult}</small></button>`).join("")}
+      </div>
+    </section>
+    ${SOLO ? "" : `<div class="kl-seat">
+      <label for="cls">班級</label>
+      <select id="cls"><option value="">請選</option>${CLASSES.map((c) => `<option ${Rec.cls() === c ? "selected" : ""}>${c}</option>`).join("")}</select>
       <label for="seat">座號</label>
-      <input id="seat" inputmode="numeric" maxlength="3" autocomplete="off" value="${esc(Rec.seat())}" placeholder="例如 12">
-      <small>只存在這支手機，不用填姓名</small>
-    </div>
-    <button class="primary kl-go" id="go">開始修煉（十句）</button>
-    <a class="kl-project" href="#/project/${id}">老師投影模式</a>`;
+      <input id="seat" inputmode="numeric" maxlength="2" autocomplete="off" value="${esc(Rec.seat())}" placeholder="12">
+      <small>填了才會上班級排行榜，不用填姓名</small>
+    </div>`}
+    <button class="primary kl-go" id="go">開始對戰（十句）</button>
+    ${SOLO ? "" : `<a class="kl-project" href="#/project/${id}">老師投影模式</a>`}`;
+  app.querySelectorAll("[data-lv]").forEach((b) => (b.onclick = () => {
+    Rec.setLevel(b.dataset.lv);
+    app.querySelectorAll("[data-lv]").forEach((x) => x.setAttribute("aria-pressed", x === b));
+  }));
   document.getElementById("go").onclick = () => {
-    Rec.setSeat(document.getElementById("seat").value.trim());
+    if (!SOLO) {
+      Rec.setSeat(document.getElementById("seat").value.trim());
+      Rec.setCls(document.getElementById("cls").value);
+    }
     location.hash = `#/play/${id}`;
   };
 }
@@ -219,11 +288,14 @@ async function play(id) {
   const before = stats(doc).mastered;
   const qs = pickRound(doc);
   const results = [];
-  let i = 0, combo = 0, best = 0;
+  let i = 0, combo = 0, best = 0, cpuCombo = 0, myScore = 0, cpuScore = 0;
+  const lv = LEVELS[Rec.level()] || LEVELS.normal, rival = RIVALS[id];
+  const duelBar = () => `<div class="kl-duel" aria-label="目前比分：你 ${myScore} 分，${rival} ${cpuScore} 分"><div><small>你</small><b>${myScore}</b></div><span>VS</span><div>${portrait(id)}<small>${rival}・${lv.name}</small><b>${cpuScore}</b></div></div>`;
   const show = () => {
     const q = qs[i];
     app.innerHTML = `
       <nav class="kl-top"><a href="#/lesson/${id}">‹ 離開</a><span class="kl-combo ${combo >= 2 ? "on" : ""}">${combo >= 2 ? `連中 ${combo} 句` : doc.lesson}</span></nav>
+      ${duelBar()}
       <ol class="kl-dots" aria-label="第 ${i + 1} 句，共 ${qs.length} 句">${qs.map((_, k) => `<li class="${k < i ? (results[k] ? "ok" : "no") : k === i ? "cur" : ""}"></li>`).join("")}</ol>
       <article class="kl-q">${questionCard(q)}</article>
       <div class="kl-options">${q.options.map((o, k) => `<button data-o="${esc(o)}"><span>${"ABCD"[k]}</span>${esc(o)}</button>`).join("")}</div>
@@ -237,6 +309,11 @@ async function play(id) {
     results[i] = ok;
     combo = ok ? combo + 1 : 0;
     best = Math.max(best, combo);
+    if (ok) myScore += hitScore(combo);
+    const cpuOk = Math.random() < lv.accuracy;
+    cpuCombo = cpuOk ? cpuCombo + 1 : 0;
+    if (cpuOk) cpuScore += hitScore(cpuCombo);
+    app.querySelector(".kl-duel").outerHTML = duelBar();
     app.querySelectorAll(".kl-options button").forEach((b) => {
       b.disabled = true;
       if (b.dataset.o === q.answer) b.classList.add("right");
@@ -246,6 +323,7 @@ async function play(id) {
     after.innerHTML = `
       <section class="kl-feedback ${ok ? "good" : "bad"}">
         <div class="kl-verdict">${portrait(id)}<span class="kl-seal">${ok ? "中" : "再"}</span><div><b>${ok ? "答對了" : "這句會再回來"}</b><small>${ok ? "往下一盒移動" : "回到第一盒，下一回優先出現"}</small></div></div>
+        <p class="kl-rival-move">${rival}${cpuOk ? "也答對了" : "這句答錯了"}。比分：你 ${myScore}，${rival} ${cpuScore}</p>
         ${reveal(q)}
       </section>
       <button class="primary kl-go kl-next" id="next">${i + 1 < qs.length ? "下一句" : "看這回成績"}</button>`;
@@ -254,6 +332,9 @@ async function play(id) {
   };
   const finish = () => {
     Rec.finishRound();
+    const win = myScore > cpuScore, tie = myScore === cpuScore;
+    const gained = Math.round(myScore * lv.mult) + (win ? 20 : tie ? 10 : 0);
+    Rec.addResult(id, gained, myScore, win);
     const st = stats(doc);
     const score = results.filter(Boolean).length;
     const fresh = Math.max(0, st.mastered - before);
@@ -261,17 +342,20 @@ async function play(id) {
     app.innerHTML = `
       <nav class="kl-top"><a href="#/">‹ 回首頁</a><span>${doc.lesson}</span></nav>
       <section class="kl-result">
-        <div class="kl-score"><b>${score}</b><span>／${qs.length}</span></div>
-        <h1>${score === qs.length ? "十句全中" : score >= 7 ? "功力漸長" : score >= 4 ? "再練一回更穩" : "先認字，慢慢來"}</h1>
+        <div class="kl-final"><div><small>你</small><b>${myScore}</b></div><span class="kl-seal">${win ? "勝" : tie ? "平" : "敗"}</span><div>${portrait(id)}<small>${rival}・${lv.name}</small><b>${cpuScore}</b></div></div>
+        <h1>${win ? `贏了${rival}` : tie ? "平分秋色" : `${rival}略勝一籌`}</h1>
+        <p class="kl-gain">答對 ${score} / ${qs.length} 句，這回得到 <b>${gained}</b> 積分</p>
+        <p id="sync"></p>
         <p>${rankOf(st.pct)}${best >= 2 ? `・最高連中 ${best} 句` : ""}${Rec.streak() ? `・連續修煉 ${Rec.streak()} 天` : ""}</p>
       </section>
       ${scroll(doc, st.mastered, fresh)}
       <p class="kl-caption">${fresh ? `這回畫卷多顯影 ${fresh} 格，` : ""}已練熟 ${st.mastered} / ${st.total} 句</p>
       ${wrong.length ? `<h2 class="kl-section">下一回會再遇到</h2><ul class="kl-wrong">${wrong.map((q) => `<li><b>${esc(q.s.sentence)}</b>${esc(q.s.meaning)}</li>`).join("")}</ul>` : ""}
-      <button class="primary kl-go" id="again">再修煉一回</button>
+      <button class="primary kl-go" id="again">再戰一回</button>
       <a class="kl-project" href="#/lesson/${id}">看畫卷與三盒進度</a>`;
     window.scrollTo(0, 0);
     document.getElementById("again").onclick = () => play(id);
+    syncBoard().then((m) => { const el = document.getElementById("sync"); if (el) el.textContent = m; });
   };
   show();
 }
@@ -313,6 +397,7 @@ async function route() {
   const [, page, id] = location.hash.split("/");
   const known = lessons.some((l) => l.id === id && l.available);
   document.body.classList.toggle("kl-projecting", page === "project" && known);
+  document.body.classList.toggle("kl-home", !(known && ["lesson", "play", "project"].includes(page)));
   try {
     if (page === "lesson" && known) await lessonPage(id);
     else if (page === "play" && known) await play(id);
