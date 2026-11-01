@@ -114,7 +114,7 @@ function home() {
   const all = open.reduce((a, l) => a + l.sentence_count, 0);
   app.innerHTML = `
     <header class="kl-hero">
-      ${art("hero", "keyline", "kl-hero-img")}
+      ${art(CFG.hero || "hero", "keyline", "kl-hero-img")}
       <div class="kl-hero-text">
         <p class="kl-eyebrow">滄浪闖關・基礎篇</p>
         <h1><small>${CFG.titleSmall || "部定古文"}</small>關鍵句練功坊</h1>
