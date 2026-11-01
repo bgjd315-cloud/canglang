@@ -1,0 +1,954 @@
+{
+ "lesson_id": "yufu",
+ "lesson": "漁父",
+ "author": "屈原",
+ "tagline": "全世界都醉了，你要跟著喝嗎？",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "yufu-01",
+   "lesson": "漁父",
+   "paragraph": 1,
+   "scene": "故事開頭，一位失意的臣子來到水邊。",
+   "context_before": "",
+   "sentence": "屈原既放，游於江潭",
+   "context_after": "，行吟澤畔，顏色憔悴，形容枯槁。",
+   "keywords": [
+    {
+     "word": "既",
+     "gloss": "已經",
+     "pos": "副詞",
+     "distractors": [
+      "全部",
+      "既然",
+      "不久"
+     ]
+    },
+    {
+     "word": "放",
+     "gloss": "被放逐",
+     "pos": "動詞",
+     "distractors": [
+      "放鬆心情",
+      "釋放犯人",
+      "放棄官職"
+     ]
+    },
+    {
+     "word": "游",
+     "gloss": "徘徊，通「遊」",
+     "pos": "動詞",
+     "distractors": [
+      "游泳",
+      "遊玩",
+      "流浪他鄉"
+     ]
+    }
+   ],
+   "meaning": "屈原已經被放逐，在江邊徘徊。",
+   "meaning_distractors": [
+    "屈原既然放下一切，在江中游泳。",
+    "屈原放棄了官職，到江邊遊玩。",
+    "屈原被釋放以後，乘船游過江潭。"
+   ],
+   "source_note": "技國課本注1、2；110、115 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "統測",
+     "no": "4",
+     "quote": "屈原既放，遊於江潭，行吟澤畔，顏色憔悴，形容枯槁",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/110_4y/downloader.php?obj=MTEwLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「遊」，課本作「游」"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "7",
+     "quote": "屈原既放，遊於江潭，行吟澤畔，顏色憔悴",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "題幹",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「遊」，課本作「游」"
+    }
+   ]
+  },
+  {
+   "id": "yufu-02",
+   "lesson": "漁父",
+   "paragraph": 1,
+   "scene": "他一面走一面出聲，旁人一眼就看得出他的狀況。",
+   "context_before": "屈原既放，游於江潭，",
+   "sentence": "行吟澤畔，顏色憔悴，形容枯槁",
+   "context_after": "。漁父見而問之曰：「子非三閭大夫與？何故至於斯？」",
+   "keywords": [
+    {
+     "word": "吟",
+     "gloss": "悲嘆",
+     "pos": "動詞",
+     "distractors": [
+      "吟詩作對",
+      "歌唱",
+      "低聲交談"
+     ]
+    },
+    {
+     "word": "顏色",
+     "gloss": "臉色，指人的神情、氣色",
+     "pos": "名詞",
+     "distractors": [
+      "色彩",
+      "衣服的顏色",
+      "面子"
+     ]
+    },
+    {
+     "word": "形容",
+     "gloss": "形體、容貌",
+     "pos": "名詞",
+     "distractors": [
+      "描述",
+      "比喻",
+      "身形姿勢"
+     ]
+    },
+    {
+     "word": "槁",
+     "gloss": "乾瘦（音ㄍㄠˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "悲傷",
+      "草木茂盛",
+      "疲倦"
+     ]
+    }
+   ],
+   "meaning": "在水澤旁一邊走一邊悲嘆，臉色憔悴，形體容貌乾瘦。",
+   "meaning_distractors": [
+    "在水澤旁吟詩漫步，衣著褪色，言談枯燥。",
+    "一邊走一邊唱歌，面色紅潤，身材消瘦。",
+    "在水澤旁悲嘆，顏面無光，難以用言語形容。"
+   ],
+   "source_note": "技國課本注3、4、5；110、115 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "統測",
+     "no": "4",
+     "quote": "屈原既放，遊於江潭，行吟澤畔，顏色憔悴，形容枯槁",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/110_4y/downloader.php?obj=MTEwLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「遊」，課本作「游」"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "7",
+     "quote": "屈原既放，遊於江潭，行吟澤畔，顏色憔悴",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "題幹",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「遊」，課本作「游」"
+    }
+   ]
+  },
+  {
+   "id": "yufu-03",
+   "lesson": "漁父",
+   "paragraph": 1,
+   "scene": "一位在水邊的老人認出他，上前開口。",
+   "context_before": "游於江潭，行吟澤畔，顏色憔悴，形容枯槁。漁父見而問之曰：「",
+   "sentence": "子非三閭大夫與？何故至於斯",
+   "context_after": "？」屈原曰：「舉世皆濁我獨清，眾人皆醉我獨醒，是以見放。」",
+   "keywords": [
+    {
+     "word": "三閭大夫",
+     "gloss": "楚國官名，掌管屈、昭、景三姓宗族事務",
+     "pos": "名詞",
+     "distractors": [
+      "楚國君主的尊稱",
+      "掌管三座城門的武官",
+      "對三位大夫的合稱"
+     ]
+    }
+   ],
+   "meaning": "您不是三閭大夫嗎？為什麼會到這種地步呢？",
+   "meaning_distractors": [
+    "您不是三閭大夫的兒子嗎？為什麼來到這裡呢？",
+    "您並不是三閭大夫吧？究竟為了什麼事來呢？",
+    "您非要當三閭大夫嗎？何苦走到這裡呢？"
+   ],
+   "source_note": "技國課本注6；「斯」課本無注，只在句意呈現",
+   "from_pack": []
+  },
+  {
+   "id": "yufu-04",
+   "lesson": "漁父",
+   "paragraph": 1,
+   "scene": "他回答自己落到這步田地的原因。",
+   "context_before": "漁父見而問之曰：「子非三閭大夫與？何故至於斯？」屈原曰：「",
+   "sentence": "舉世皆濁我獨清，眾人皆醉我獨醒，是以見放",
+   "context_after": "。」漁父曰：「聖人不凝滯於物，而能與世推移。",
+   "keywords": [
+    {
+     "word": "見",
+     "gloss": "被，用在動詞前表示被動",
+     "pos": "助詞",
+     "distractors": [
+      "看見",
+      "拜見",
+      "見解"
+     ]
+    },
+    {
+     "word": "放",
+     "gloss": "放逐",
+     "pos": "動詞",
+     "distractors": [
+      "放縱",
+      "放下",
+      "放棄"
+     ]
+    }
+   ],
+   "meaning": "全世界都汙濁只有我清白，眾人都沉醉只有我清醒，因此被放逐。",
+   "meaning_distractors": [
+    "全世界都汙濁我也不清白，眾人都沉醉我也不清醒，因此被放逐。",
+    "世人都讚美我的清白與清醒，所以我才看開而放下一切。",
+    "全世界都清白只有我汙濁，眾人都清醒只有我沉醉，因此被放逐。"
+   ],
+   "source_note": "技國課本注7；109 統測題組選文",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "二技",
+     "no": "5",
+     "quote": "眾人皆醉，何不餔其糟而啜其醨",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_2y/downloader.php?obj=MTA4LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「啜」，課本作「歠」"
+    }
+   ]
+  },
+  {
+   "id": "yufu-05",
+   "lesson": "漁父",
+   "paragraph": 2,
+   "scene": "老人聽了，先說出他認同的處世方式。",
+   "context_before": "「舉世皆濁我獨清，眾人皆醉我獨醒，是以見放。」漁父曰：「",
+   "sentence": "聖人不凝滯於物，而能與世推移",
+   "context_after": "。世人皆濁，何不淈其泥而揚其波？",
+   "keywords": [
+    {
+     "word": "凝滯",
+     "gloss": "執著、拘泥（滯，音ㄓˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "結冰",
+      "停止前進",
+      "滯留在外"
+     ]
+    },
+    {
+     "word": "聖人",
+     "gloss": "此指懂得隨俗應對進退的人",
+     "pos": "名詞",
+     "distractors": [
+      "道德完美的孔子",
+      "統治天下的君王",
+      "隱居山林的高士"
+     ]
+    },
+    {
+     "word": "與世推移",
+     "gloss": "隨著世俗轉換應變",
+     "pos": "動詞",
+     "distractors": [
+      "推動世道改變",
+      "遠離世俗生活",
+      "與世人爭奪權力"
+     ]
+    }
+   ],
+   "meaning": "聖人不執著於任何事物，而能隨著世俗轉換應變。",
+   "meaning_distractors": [
+    "聖人不被外物阻礙，而能推動世俗向前改變。",
+    "聖人執著於事物本身，不隨世俗改變立場。",
+    "聖人不接觸外物，能遠離世人而獨自修行。"
+   ],
+   "source_note": "技國課本注8、9；112、114 統測選項引此句；109 統測題組選文",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "26",
+     "quote": "甲文漁父所稱的「聖人」深明安時處順的意義",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "題組選文",
+     "location": "題組選文【甲】、選項C",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "37",
+     "quote": "聖人不凝滯於物，而能與世推移",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "22",
+     "quote": "不凝滯於物，而能與世推移",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01",
+     "note": "省「聖人」"
+    }
+   ]
+  },
+  {
+   "id": "yufu-06",
+   "lesson": "漁父",
+   "paragraph": 2,
+   "scene": "老人接著用水來比喻，勸他換個做法。",
+   "context_before": "漁父曰：「聖人不凝滯於物，而能與世推移。",
+   "sentence": "世人皆濁，何不淈其泥而揚其波",
+   "context_after": "？眾人皆醉，何不餔其糟而歠其醨？",
+   "keywords": [
+    {
+     "word": "淈",
+     "gloss": "攪渾（音ㄍㄨˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "挖掘",
+      "洗淨",
+      "堵塞"
+     ]
+    },
+    {
+     "word": "揚",
+     "gloss": "掀起",
+     "pos": "動詞",
+     "distractors": [
+      "表揚",
+      "揚棄",
+      "平息"
+     ]
+    }
+   ],
+   "meaning": "世人都汙濁，為何不攪渾水底汙泥、掀起水波？意指順應世俗。",
+   "meaning_distractors": [
+    "世人都汙濁，為何不挖掉水底汙泥、平息水波？",
+    "世人都汙濁，為何不獨自澄清汙泥，表揚清流？",
+    "世人都汙濁，何不離開泥水，乘著波浪遠去？"
+   ],
+   "source_note": "技國課本注10；110 統測選項、109 統測第 27 題引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "27",
+     "quote": "甲文「何不淈其泥而揚其波」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "題組選文",
+     "location": "甲",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 110,
+     "exam": "統測",
+     "no": "16",
+     "quote": "勿淈其泥而揚其波",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/110_4y/downloader.php?obj=MTEwLTR5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "節錄改寫",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "選項改為「勿……」"
+    }
+   ]
+  },
+  {
+   "id": "yufu-07",
+   "lesson": "漁父",
+   "paragraph": 2,
+   "scene": "老人再用喝酒來比喻。",
+   "context_before": "世人皆濁，何不淈其泥而揚其波？",
+   "sentence": "眾人皆醉，何不餔其糟而歠其醨",
+   "context_after": "？何故深思高舉，自令放為？」",
+   "keywords": [
+    {
+     "word": "餔",
+     "gloss": "吃（音ㄅㄨ）",
+     "pos": "動詞",
+     "distractors": [
+      "釀造",
+      "倒掉",
+      "購買"
+     ]
+    },
+    {
+     "word": "糟",
+     "gloss": "酒渣",
+     "pos": "名詞",
+     "distractors": [
+      "情況很差",
+      "糟蹋",
+      "好酒"
+     ]
+    },
+    {
+     "word": "歠",
+     "gloss": "喝，通「啜」（音ㄔㄨㄛˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "哭泣",
+      "吐掉",
+      "斟酌"
+     ]
+    },
+    {
+     "word": "醨",
+     "gloss": "薄酒（音ㄌㄧˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "烈酒",
+      "離別",
+      "酒杯"
+     ]
+    }
+   ],
+   "meaning": "眾人都沉醉，為何不吃酒糟、喝薄酒？意指與眾人同醉。",
+   "meaning_distractors": [
+    "眾人都沉醉，為何不倒掉酒渣、獨自清醒？",
+    "眾人都沉醉，為何不釀造好酒，勸他們少喝？",
+    "眾人都沉醉，為何不捧著烈酒，與他們告別？"
+   ],
+   "source_note": "技國課本注11；108 二技引此句（原卷作「啜」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "二技",
+     "no": "5",
+     "quote": "眾人皆醉，何不餔其糟而啜其醨",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_2y/downloader.php?obj=MTA4LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「啜」，課本作「歠」"
+    }
+   ]
+  },
+  {
+   "id": "yufu-08",
+   "lesson": "漁父",
+   "paragraph": 2,
+   "scene": "老人最後反問他，為什麼要走到這一步。",
+   "context_before": "眾人皆醉，何不餔其糟而歠其醨？",
+   "sentence": "何故深思高舉，自令放為",
+   "context_after": "？」屈原曰：「吾聞之，新沐者必彈冠，新浴者必振衣，安能以身之察察，",
+   "keywords": [
+    {
+     "word": "高舉",
+     "gloss": "舉止清高",
+     "pos": "動詞",
+     "distractors": [
+      "高高舉起",
+      "官位升遷",
+      "大肆宣揚"
+     ]
+    },
+    {
+     "word": "令",
+     "gloss": "使、讓",
+     "pos": "動詞",
+     "distractors": [
+      "命令",
+      "美好的",
+      "官名"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "句末助詞，表示疑問",
+     "pos": "助詞",
+     "distractors": [
+      "成為",
+      "因為",
+      "做"
+     ]
+    }
+   ],
+   "meaning": "為什麼思慮深遠、舉止清高，使自己被放逐呢？",
+   "meaning_distractors": [
+    "為什麼苦思冥想、高舉旗幟，下令放逐別人呢？",
+    "為什麼深入思考、官位高升，卻自己放棄了呢？",
+    "為什麼想得太多，舉止高傲，還命令自己遠行呢？"
+   ],
+   "source_note": "技國課本注12、13；109 統測第 29 題選項引「深思高舉」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "29",
+     "quote": "深思高舉",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "題組選文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yufu-09",
+   "lesson": "漁父",
+   "paragraph": 3,
+   "scene": "他用日常的小動作回答老人。",
+   "context_before": "何故深思高舉，自令放為？」屈原曰：「",
+   "sentence": "吾聞之，新沐者必彈冠，新浴者必振衣",
+   "context_after": "，安能以身之察察，受物之汶汶者乎？",
+   "keywords": [
+    {
+     "word": "沐",
+     "gloss": "洗頭",
+     "pos": "動詞",
+     "distractors": [
+      "洗澡",
+      "蒙受",
+      "洗手"
+     ]
+    },
+    {
+     "word": "彈冠",
+     "gloss": "彈去帽子上的灰塵",
+     "pos": "動詞",
+     "distractors": [
+      "戴上帽子",
+      "演奏樂器",
+      "脫下帽子"
+     ]
+    },
+    {
+     "word": "浴",
+     "gloss": "洗澡",
+     "pos": "動詞",
+     "distractors": [
+      "洗頭",
+      "沐浴恩澤",
+      "洗衣"
+     ]
+    },
+    {
+     "word": "振",
+     "gloss": "抖動",
+     "pos": "動詞",
+     "distractors": [
+      "振奮",
+      "救濟",
+      "摺疊"
+     ]
+    }
+   ],
+   "meaning": "我聽說，剛洗過頭的人一定會彈去帽子上的灰塵，剛洗過澡的人一定會抖掉衣服上的塵土。",
+   "meaning_distractors": [
+    "我聽說，要洗頭的人一定先脫帽子，要洗澡的人一定先換衣服。",
+    "我聽說，剛洗過頭的人會演奏樂器，剛洗過澡的人會振奮精神。",
+    "我聽說，洗過頭的人不必戴帽子，洗過澡的人不必穿舊衣。"
+   ],
+   "source_note": "技國課本注14、15；109 統測第 26 題選項提「彈冠、振衣」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "26",
+     "quote": "甲文屈原藉「彈冠、振衣」彰顯自己不役於物",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "題組選文",
+     "location": "題組選文【甲】、選項A",
+     "paper_checked": "2026-11-01",
+     "note": "選文自「屈原曰：舉世皆濁」至「不復與言」，原卷作「歠其釃」「乃歌曰」"
+    }
+   ]
+  },
+  {
+   "id": "yufu-10",
+   "lesson": "漁父",
+   "paragraph": 3,
+   "scene": "他由洗頭洗澡，轉到自己的身心。",
+   "context_before": "屈原曰：「吾聞之，新沐者必彈冠，新浴者必振衣，",
+   "sentence": "安能以身之察察，受物之汶汶者乎",
+   "context_after": "？寧赴湘流，葬於江魚之腹中，安能以皓皓之白，而蒙世俗之塵埃乎？」",
+   "keywords": [
+    {
+     "word": "察察",
+     "gloss": "乾淨的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "高大的樣子",
+      "仔細觀察",
+      "明白清楚"
+     ]
+    },
+    {
+     "word": "汶汶",
+     "gloss": "骯髒的樣子（汶，音ㄨㄣˋ）",
+     "pos": "形容詞",
+     "distractors": [
+      "昏暗不明",
+      "大水流動",
+      "安靜無聲"
+     ]
+    }
+   ],
+   "meaning": "怎能以乾淨的身體，去承受外物的骯髒呢？",
+   "meaning_distractors": [
+    "怎能以骯髒的身體，去承受外物的乾淨呢？",
+    "怎能憑仔細觀察，就接受萬物昏暗不明呢？",
+    "怎能以高大的身軀，去接受外物的贈與呢？"
+   ],
+   "source_note": "技國課本注16、17；109 二技第 13 題引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "二技",
+     "no": "13",
+     "quote": "安能以身之「察察」，受物之汶汶者乎",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_2y/downloader.php?obj=MTA5LTJ5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yufu-11",
+   "lesson": "漁父",
+   "paragraph": 3,
+   "scene": "他說出願意付出的最大代價。",
+   "context_before": "新沐者必彈冠，新浴者必振衣，安能以身之察察，受物之汶汶者乎？",
+   "sentence": "寧赴湘流，葬於江魚之腹中",
+   "context_after": "，安能以皓皓之白，而蒙世俗之塵埃乎？」",
+   "keywords": [
+    {
+     "word": "寧",
+     "gloss": "寧可",
+     "pos": "副詞",
+     "distractors": [
+      "安寧",
+      "難道",
+      "平靜"
+     ]
+    }
+   ],
+   "meaning": "寧可投入湘水，葬身江魚腹中。",
+   "meaning_distractors": [
+    "難道要投入湘水，被江魚吃掉嗎？",
+    "安然渡過湘水，把江魚埋葬。",
+    "寧可在湘水捕魚，也不願回朝。"
+   ],
+   "source_note": "課本無注；寧字依課本賞析「寧可葬身江中」；113 統測第 3 題引此句",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「寧」課本未立注，依賞析用語；必收句（大考引用），請老師確認",
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "29",
+     "quote": "寧赴湘流",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "題組選文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "3",
+     "quote": "寧赴湘流，葬於「江魚」之腹中",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yufu-12",
+   "lesson": "漁父",
+   "paragraph": 3,
+   "scene": "他用一個顏色收束自己的回答。",
+   "context_before": "安能以身之察察，受物之汶汶者乎？寧赴湘流，葬於江魚之腹中，",
+   "sentence": "安能以皓皓之白，而蒙世俗之塵埃乎",
+   "context_after": "？」漁父莞爾而笑，鼓枻而去，歌曰：「滄浪之水清兮，可以濯吾纓；",
+   "keywords": [
+    {
+     "word": "皓皓",
+     "gloss": "潔白的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "明亮的月光",
+      "鬍鬚花白",
+      "廣闊的樣子"
+     ]
+    }
+   ],
+   "meaning": "怎能以潔白的本質，蒙上世俗的塵埃呢？",
+   "meaning_distractors": [
+    "怎能以花白的鬍鬚，去除世俗的塵埃呢？",
+    "怎能以明亮的月色，照亮世俗的塵埃呢？",
+    "怎能憑潔白的衣服，去騙過世俗的人呢？"
+   ],
+   "source_note": "技國課本注18；107 統測第 19 題引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "統測",
+     "no": "19",
+     "quote": "安能以皓皓之白，而蒙世俗之塵埃乎",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/107_4y/downloader.php?obj=MTA3LTR5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yufu-13",
+   "lesson": "漁父",
+   "paragraph": 4,
+   "scene": "聽完他的話，老人有了反應。",
+   "context_before": "屈原曰：「吾聞之，新沐者必彈冠，新浴者必振衣，安能以身之察察，受物之汶汶者乎？寧赴湘流，葬於江魚之腹中，安能以皓皓之白，而蒙世俗之塵埃乎？」",
+   "sentence": "漁父莞爾而笑，鼓枻而去",
+   "context_after": "，歌曰：「滄浪之水清兮，可以濯吾纓；滄浪之水濁兮，可以濯吾足。」",
+   "keywords": [
+    {
+     "word": "莞爾",
+     "gloss": "微笑的樣子（莞，音ㄨㄢˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "放聲大笑",
+      "苦笑的樣子",
+      "嘲諷的樣子"
+     ]
+    },
+    {
+     "word": "鼓",
+     "gloss": "划",
+     "pos": "動詞",
+     "distractors": [
+      "敲打",
+      "鼓勵",
+      "鼓起"
+     ]
+    },
+    {
+     "word": "枻",
+     "gloss": "船槳（音ㄧˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "船帆",
+      "樂器",
+      "小船"
+     ]
+    }
+   ],
+   "meaning": "漁父微笑著，划動船槳離去。",
+   "meaning_distractors": [
+    "漁父放聲大笑，敲著鼓走了。",
+    "漁父苦笑一下，鼓起船帆離去。",
+    "漁父含笑鼓勵他，然後一起離開。"
+   ],
+   "source_note": "技國課本注19、20；109 統測題組選文",
+   "from_pack": []
+  },
+  {
+   "id": "yufu-14",
+   "lesson": "漁父",
+   "paragraph": 4,
+   "scene": "老人一邊划船，一邊唱起歌。",
+   "context_before": "漁父莞爾而笑，鼓枻而去，歌曰：「",
+   "sentence": "滄浪之水清兮，可以濯吾纓",
+   "context_after": "；滄浪之水濁兮，可以濯吾足。」",
+   "keywords": [
+    {
+     "word": "滄浪",
+     "gloss": "河流名，漢水下游的別名",
+     "pos": "名詞",
+     "distractors": [
+      "海上的波浪",
+      "青色的大海",
+      "湖泊名"
+     ]
+    },
+    {
+     "word": "濯",
+     "gloss": "洗滌（音ㄓㄨㄛˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "光亮",
+      "灌溉",
+      "綁住"
+     ]
+    },
+    {
+     "word": "纓",
+     "gloss": "帽帶（音ㄧㄥ）",
+     "pos": "名詞",
+     "distractors": [
+      "衣領",
+      "馬鞭",
+      "長矛"
+     ]
+    }
+   ],
+   "meaning": "滄浪的水清澈，可以洗滌我的帽帶。比喻出任官職，積極作為。",
+   "meaning_distractors": [
+    "滄浪的水清澈，可以照見我的帽子。",
+    "滄浪的波浪洶湧，可以洗去我的鞋帶。",
+    "滄浪的水清澈，比喻人應當退職隱居。"
+   ],
+   "source_note": "技國課本注21、22；107 二技、108 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "統測",
+     "no": "15",
+     "quote": "〔滄浪之水清兮，可以濯吾纓〕；【滄浪之水濁兮，可以濯吾足】",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_4y/downloader.php?obj=MTA4LTR5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "28",
+     "quote": "甲文「歌曰」以「濯纓濯足」，寓托與世推移的處世之道",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "題組選文",
+     "location": "選項A、C",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 107,
+     "exam": "二技",
+     "no": "4",
+     "quote": "危言危行，滄浪之水濯吾纓",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/107_2y/downloader.php?obj=MTA3LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "節錄改寫",
+     "location": "選項D",
+     "paper_checked": "2026-11-01",
+     "note": "濃縮課文句"
+    }
+   ]
+  },
+  {
+   "id": "yufu-15",
+   "lesson": "漁父",
+   "paragraph": 4,
+   "scene": "老人的歌唱到下一句。",
+   "context_before": "漁父莞爾而笑，鼓枻而去，歌曰：「滄浪之水清兮，可以濯吾纓；",
+   "sentence": "滄浪之水濁兮，可以濯吾足",
+   "context_after": "。」遂去，不復與言。",
+   "keywords": [
+    {
+     "word": "濯",
+     "gloss": "洗滌",
+     "pos": "動詞",
+     "distractors": [
+      "光亮",
+      "灌溉",
+      "綁住"
+     ]
+    },
+    {
+     "word": "足",
+     "gloss": "腳",
+     "pos": "名詞",
+     "distractors": [
+      "足夠",
+      "滿足",
+      "鞋子"
+     ]
+    }
+   ],
+   "meaning": "滄浪的水混濁，可以洗滌我的腳。比喻退職隱居，明哲保身。",
+   "meaning_distractors": [
+    "滄浪的水混濁，足夠洗滌我的衣服。",
+    "滄浪的水混濁，比喻應當積極出任官職。",
+    "滄浪的水混濁，所以不可以用來洗腳。"
+   ],
+   "source_note": "技國課本注23；108 統測第 15 題引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "統測",
+     "no": "15",
+     "quote": "〔滄浪之水清兮，可以濯吾纓〕；【滄浪之水濁兮，可以濯吾足】",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_4y/downloader.php?obj=MTA4LTR5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "28",
+     "quote": "甲文「歌曰」以「濯纓濯足」，寓托與世推移的處世之道",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "題組選文",
+     "location": "選項A、C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  }
+ ]
+}

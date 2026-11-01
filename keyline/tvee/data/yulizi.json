@@ -1,0 +1,1376 @@
+{
+ "lesson_id": "yulizi",
+ "lesson": "郁離子",
+ "author": "劉基",
+ "tagline": "破屋能修嗎？他卻放聲大哭",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "yulizi-01",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子走到市集，看見一棟破敗的房子，有了反應。",
+   "context_before": "",
+   "sentence": "郁離子之市，見壞宅而哭之慟",
+   "context_after": "。或曰：「是猶可葺與？」郁離子曰：「有魯般、王爾則可也，而今亡矣夫，誰與謀之？」",
+   "keywords": [
+    {
+     "word": "之",
+     "gloss": "往、到",
+     "pos": "動詞",
+     "distractors": [
+      "的",
+      "他",
+      "這"
+     ]
+    },
+    {
+     "word": "而",
+     "gloss": "然後，表順承",
+     "pos": "連詞",
+     "distractors": [
+      "卻，表轉折",
+      "如果，表假設",
+      "你，第二人稱"
+     ]
+    },
+    {
+     "word": "慟",
+     "gloss": "極度悲傷",
+     "pos": "動詞",
+     "distractors": [
+      "大聲呼喊",
+      "驚慌害怕",
+      "心生憐憫"
+     ]
+    }
+   ],
+   "meaning": "郁離子到市集去，看見毀壞的房屋，便為它痛哭。",
+   "meaning_distractors": [
+    "郁離子走過市集，看見壞宅卻只是暗自嘆息。",
+    "郁離子的市集裡，有人為毀壞的房屋痛哭。",
+    "郁離子到市集買屋，見屋況差便哭著離開。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：之，往；而，則、就；慟，過度悲傷；統測113第8題選項C（原卷，「而」非轉折）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "8",
+     "quote": "郁離子之市，見壞宅而哭之慟",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-02",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "有人看見郁離子的反應，便問他一個問題。",
+   "context_before": "郁離子之市，見壞宅而哭之慟。或曰：「",
+   "sentence": "是猶可葺與",
+   "context_after": "？」郁離子曰：「有魯般、王爾則可也，而今亡矣夫，誰與謀之？」",
+   "keywords": [
+    {
+     "word": "葺",
+     "gloss": "修補（音ㄑㄧˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "拆除",
+      "搬遷",
+      "買賣"
+     ]
+    },
+    {
+     "word": "是",
+     "gloss": "這，指這棟房子",
+     "pos": "代詞",
+     "distractors": [
+      "正確",
+      "但是",
+      "就是"
+     ]
+    }
+   ],
+   "meaning": "這房子還可以修補嗎？",
+   "meaning_distractors": [
+    "這房子是不是還能買賣？",
+    "這樣做還算正確的嗎？",
+    "這房子該不該拆掉呢？"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：葺（ㄑㄧˋ），修補；是，此",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-03",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子說明什麼樣的破屋才有修復的可能。",
+   "context_before": "有魯般、王爾則可也，而今亡矣夫，誰與謀之？",
+   "sentence": "吾聞宅壞而棟不撓者可葺",
+   "context_after": "，今其棟與梁皆朽且折矣，舉之則覆，不可觸已。",
+   "keywords": [
+    {
+     "word": "撓",
+     "gloss": "彎曲",
+     "pos": "動詞",
+     "distractors": [
+      "抓搔",
+      "阻擾",
+      "動搖"
+     ]
+    },
+    {
+     "word": "棟",
+     "gloss": "屋子的正梁",
+     "pos": "名詞",
+     "distractors": [
+      "一座房屋",
+      "柱子底座",
+      "屋頂的瓦"
+     ]
+    }
+   ],
+   "meaning": "我聽說房子毀壞但正梁沒有彎曲的，還可以修補。",
+   "meaning_distractors": [
+    "我聽說房子壞了只要梁柱能抓牢，就不必修補。",
+    "我聽說房子毀壞又無人阻撓的，就應拆除。",
+    "我聽說一棟房子壞了，其他棟也不可修補。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：撓，屈曲；棟，房屋的正梁；易文言網譯文",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-04",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "棟梁已朽，郁離子主張眼下該怎麼面對這棟房子。",
+   "context_before": "今其棟與梁皆朽且折矣，舉之則覆，不可觸已，",
+   "sentence": "不如姑仍之，則甍桷之未解者猶有所附，以待能者",
+   "context_after": "。苟振而摧之，將歸咎於葺者，弗可當也。",
+   "keywords": [
+    {
+     "word": "姑",
+     "gloss": "暫且",
+     "pos": "副詞",
+     "distractors": [
+      "丈夫的母親",
+      "父親的姊妹",
+      "勉強"
+     ]
+    },
+    {
+     "word": "仍",
+     "gloss": "維持原狀",
+     "pos": "動詞",
+     "distractors": [
+      "仍然、還是",
+      "頻繁",
+      "多次"
+     ]
+    },
+    {
+     "word": "甍桷",
+     "gloss": "屋脊和屋椽（音ㄇㄥˊ ㄐㄩㄝˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "門窗和牆壁",
+      "柱子和基石",
+      "庭院與屋瓦"
+     ]
+    },
+    {
+     "word": "解",
+     "gloss": "散落、脫開",
+     "pos": "動詞",
+     "distractors": [
+      "理解",
+      "解釋",
+      "解救"
+     ]
+    }
+   ],
+   "meaning": "不如暫且維持原狀，讓還沒散落的屋脊屋椽仍有依附，等待有能力的人。",
+   "meaning_distractors": [
+    "不如趕快拆掉重建，讓屋脊屋椽不再脫落，並等待工匠來驗收。",
+    "不如請姑姑保管房子，讓尚未了解的人有所依靠，等待高手。",
+    "不如仍然進屋居住，讓還沒理解的人有所依靠，以等候賢人。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：姑，暫且；仍，因循；解，分散；易文言網注：甍，屋脊；桷，方屋椽",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-05",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子接著談，真要動手修房子，材料該怎麼處理。",
+   "context_before": "苟振而摧之，將歸咎於葺者，弗可當也。",
+   "sentence": "況葺宅必新其材，間其蠹腐",
+   "context_after": "，其外完而中潰者悉屏之，不束椽以為楹，不斲柱以為椽。",
+   "keywords": [
+    {
+     "word": "新",
+     "gloss": "更新，形容詞作動詞用",
+     "pos": "動詞",
+     "distractors": [
+      "新穎的",
+      "最近",
+      "開始"
+     ]
+    },
+    {
+     "word": "間",
+     "gloss": "隔開、剔除（音ㄐㄧㄢˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "中間",
+      "房間",
+      "偶爾"
+     ]
+    },
+    {
+     "word": "蠹",
+     "gloss": "被蟲蛀（音ㄉㄨˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "灰塵",
+      "雨水",
+      "老鼠"
+     ]
+    }
+   ],
+   "meaning": "何況修房子一定要更新材料，剔除被蟲蛀腐朽的部分。",
+   "meaning_distractors": [
+    "何況修房子一定要用新式工法，在蛀壞的木料中間補強。",
+    "何況修房子必須先買新屋，把蟲蛀的地方隔成房間。",
+    "何況修房子偶爾才換材料，蟲蛀腐朽的部分仍可留用。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：新，使成為新的；間（ㄐㄧㄢˋ）更替、分隔；蠹，蛀蟲、蛀爛；每日頭條王立群譯文作剔除",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「間」易文言網本作「簡」、每日頭條王立群譯作剔除、辭典作更替或分隔，請確認課本字形與注釋。"
+  },
+  {
+   "id": "yulizi-06",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子繼續說明揀選木材的標準。",
+   "context_before": "況葺宅必新其材，間其蠹腐，",
+   "sentence": "其外完而中潰者悉屏之",
+   "context_after": "，不束椽以為楹，不斲柱以為椽。其取材也，惟其良，不問其所產。",
+   "keywords": [
+    {
+     "word": "完",
+     "gloss": "完好",
+     "pos": "形容詞",
+     "distractors": [
+      "結束",
+      "完成",
+      "全部"
+     ]
+    },
+    {
+     "word": "潰",
+     "gloss": "腐爛",
+     "pos": "動詞",
+     "distractors": [
+      "戰敗",
+      "決堤",
+      "逃散"
+     ]
+    },
+    {
+     "word": "悉",
+     "gloss": "全部",
+     "pos": "副詞",
+     "distractors": [
+      "知道",
+      "熟悉",
+      "詳細"
+     ]
+    },
+    {
+     "word": "屏",
+     "gloss": "排除（音ㄅㄧㄥˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "屏風",
+      "遮蔽",
+      "屏障"
+     ]
+    }
+   ],
+   "meaning": "外表完好而內部腐爛的木材，全部都要排除。",
+   "meaning_distractors": [
+    "外表完工但內部戰敗的工匠，全都要知道。",
+    "外觀結束而中間決裂的木材，全部用屏風遮住。",
+    "外表腐壞而內部完好的木材，全部都要保留。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：完，完整；潰，腐爛；悉，全部；屏（ㄅㄧㄥˇ），排除",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-07",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子談到椽木和柱子該怎麼對待。",
+   "context_before": "況葺宅必新其材，間其蠹腐，其外完而中潰者悉屏之，",
+   "sentence": "不束椽以為楹，不斲柱以為椽",
+   "context_after": "。其取材也，惟其良，不問其所產。",
+   "keywords": [
+    {
+     "word": "束",
+     "gloss": "捆綁",
+     "pos": "動詞",
+     "distractors": [
+      "結束",
+      "約束",
+      "一束"
+     ]
+    },
+    {
+     "word": "楹",
+     "gloss": "廳堂前的直柱",
+     "pos": "名詞",
+     "distractors": [
+      "屋頂的正梁",
+      "門前的臺階",
+      "牆上的窗"
+     ]
+    },
+    {
+     "word": "斲",
+     "gloss": "砍削（音ㄓㄨㄛˊ，同「斫」），114 統測原卷作「斫」",
+     "pos": "動詞",
+     "distractors": [
+      "測量",
+      "立起",
+      "燒烤"
+     ]
+    },
+    {
+     "word": "椽",
+     "gloss": "承屋頂的木材（音ㄔㄨㄢˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "廳堂的大柱",
+      "屋脊的橫梁",
+      "門檻的石條"
+     ]
+    }
+   ],
+   "meaning": "不把椽木捆起來當柱子用，也不把柱子削小當椽木用。比喻材料各有適用之處，不可小材大用或大材小用。",
+   "meaning_distractors": [
+    "不把柱子捆起來當屋椽，也不把屋椽削大當柱子用。",
+    "不把椽木約束在柱旁，也不把柱子砍斷後丟棄。",
+    "不用椽木與柱子，因為它們都已被蟲蛀壞。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：束，捆縛；楹，廳堂前的直柱；斲（ㄓㄨㄛˊ），砍、削木；椽，承接屋頂的木材；易文言網注；統測114第22題選項A（原卷作「斫」，對應大材小用之意）",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "底本與易文言網作「斲」，114統測原卷與中華古詩文古書籍網作「斫」，請依課本定字形；exam-refs 用「斲」比對，故未改。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "22",
+     "quote": "不斫柱以為椽",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01",
+     "note": "底稿作「不斲柱以為椽」"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-08",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子說出挑選木材時最看重的是什麼。",
+   "context_before": "不束椽以為楹，不斲柱以為椽。",
+   "sentence": "其取材也，惟其良，不問其所產",
+   "context_after": "。楓、柟、松、栝、杉、櫧、柞、檀無所不收，大者為棟為梁。",
+   "keywords": [
+    {
+     "word": "惟",
+     "gloss": "只",
+     "pos": "副詞",
+     "distractors": [
+      "思考",
+      "雖然",
+      "因為"
+     ]
+    },
+    {
+     "word": "良",
+     "gloss": "優良",
+     "pos": "形容詞",
+     "distractors": [
+      "善良",
+      "良人",
+      "很久"
+     ]
+    },
+    {
+     "word": "所產",
+     "gloss": "出產的地方",
+     "pos": "名詞",
+     "distractors": [
+      "生產的數量",
+      "產品的價格",
+      "擁有的財產"
+     ]
+    }
+   ],
+   "meaning": "選取木材時，只看品質是否優良，不問它出產於何處。比喻用人唯才。",
+   "meaning_distractors": [
+    "選取木材時，只考慮善良與否，不過問生產的數量。",
+    "選取木材時，要思考它的優點，並追問它的價格。",
+    "選取木材時，只用本地出產的，不問品質好壞。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：惟，僅；良，善；每日頭條王立群譯文；寓意參樵客老師國文教學網站摘要（用人適才）；統測111第32題題幹框內引文（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "32",
+     "quote": "其取材也，惟其良，不問其所產。楓、柟、松、栝、杉、櫧、柞、檀無所不收，大者為棟為梁，小者為杙為栭，曲者為枅，直者為楹，長者為榱，短者為梲，非空中而液身者，無所不用",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-09",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子列舉可用的木材種類。",
+   "context_before": "其取材也，惟其良，不問其所產。",
+   "sentence": "楓、柟、松、栝、杉、櫧、柞、檀無所不收",
+   "context_after": "，大者為棟為梁，小者為杙為栭，曲者為枅，直者為楹。",
+   "keywords": [
+    {
+     "word": "無所不收",
+     "gloss": "全都收用",
+     "pos": "動詞片語",
+     "distractors": [
+      "全都不收",
+      "很少收用",
+      "收而不用"
+     ]
+    }
+   ],
+   "meaning": "楓、楠、松等各種木材，只要是好材料全都收用。",
+   "meaning_distractors": [
+    "楓、楠、松等各種木材，都因名貴而無法收購。",
+    "楓、楠、松等各種木材，只挑其中幾種收用。",
+    "楓、楠、松等各種木材，收下後都不曾使用。"
+   ],
+   "source_note": "每日頭條王立群譯文：沒有一種木材不在選用範圍；統測111第32題題幹框內引文（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "32",
+     "quote": "其取材也，惟其良，不問其所產。楓、柟、松、栝、杉、櫧、柞、檀無所不收，大者為棟為梁，小者為杙為栭，曲者為枅，直者為楹，長者為榱，短者為梲，非空中而液身者，無所不用",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-10",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "各種木料依尺寸被分配到不同位置。",
+   "context_before": "楓、柟、松、栝、杉、櫧、柞、檀無所不收，",
+   "sentence": "大者為棟為梁，小者為杙為栭",
+   "context_after": "，曲者為枅，直者為楹，長者為榱，短者為梲。",
+   "keywords": [
+    {
+     "word": "杙",
+     "gloss": "小木樁（音ㄧˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "大屋梁",
+      "屋瓦",
+      "門板"
+     ]
+    },
+    {
+     "word": "栭",
+     "gloss": "柱上承托大梁的方木（音ㄦˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "屋頂的瓦片",
+      "窗戶的格子",
+      "牆角的基石"
+     ]
+    }
+   ],
+   "meaning": "大木料做棟做梁，小木料做木樁和柱上方木。",
+   "meaning_distractors": [
+    "大木料做木樁，小木料反而拿來做棟梁。",
+    "大的做屋瓦和門板，小的做窗框和門檻。",
+    "大木料賣給富人，小木料留給窮人。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：杙，小木樁；栭，柱上承托大梁的方木；統測111第32題題幹框內引文（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "32",
+     "quote": "其取材也，惟其良，不問其所產。楓、柟、松、栝、杉、櫧、柞、檀無所不收，大者為棟為梁，小者為杙為栭，曲者為枅，直者為楹，長者為榱，短者為梲，非空中而液身者，無所不用",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-11",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "木料的形狀也決定它的用途。",
+   "context_before": "大者為棟為梁，小者為杙為栭，",
+   "sentence": "曲者為枅，直者為楹",
+   "context_after": "，長者為榱，短者為梲，非空中而液身者，無所不用。",
+   "keywords": [
+    {
+     "word": "枅",
+     "gloss": "柱上的橫木（音ㄐㄧ）",
+     "pos": "名詞",
+     "distractors": [
+      "牆邊的短凳",
+      "窗上的木格",
+      "屋頂的瓦片"
+     ]
+    },
+    {
+     "word": "楹",
+     "gloss": "廳堂前的直柱",
+     "pos": "名詞",
+     "distractors": [
+      "屋脊的橫木",
+      "廳內的短凳",
+      "院外的籬笆"
+     ]
+    }
+   ],
+   "meaning": "彎曲的木料做柱上橫木，筆直的木料做直柱。",
+   "meaning_distractors": [
+    "彎曲的木料丟棄不用，筆直的才做直柱。",
+    "彎曲的木料做屋脊，筆直的做屋瓦。",
+    "筆直的木料做柱上橫木，彎曲的才做直柱。"
+   ],
+   "source_note": "易文言網注：枅，柱上的橫木；每日頭條王立群譯文同；重編國語辭典修訂本（萌典）：楹，廳堂前的直柱；重編查無「枅」；統測111第32題題幹框內引文（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "32",
+     "quote": "其取材也，惟其良，不問其所產。楓、柟、松、栝、杉、櫧、柞、檀無所不收，大者為棟為梁，小者為杙為栭，曲者為枅，直者為楹，長者為榱，短者為梲，非空中而液身者，無所不用",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-12",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "木料的長短，也各有去處。",
+   "context_before": "曲者為枅，直者為楹，",
+   "sentence": "長者為榱，短者為梲",
+   "context_after": "，非空中而液身者，無所不用。",
+   "keywords": [
+    {
+     "word": "榱",
+     "gloss": "屋椽（音ㄘㄨㄟ）",
+     "pos": "名詞",
+     "distractors": [
+      "正梁",
+      "門框",
+      "窗格"
+     ]
+    },
+    {
+     "word": "梲",
+     "gloss": "梁上的短柱（音ㄓㄨㄛˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "屋脊上的瓦",
+      "大門的門閂",
+      "牆角的基石"
+     ]
+    }
+   ],
+   "meaning": "長的木料做屋椽，短的木料做梁上短柱。",
+   "meaning_distractors": [
+    "長的木料做門框，短的木料做窗格。",
+    "短的木料做屋椽，長的才做梁上短柱。",
+    "長的木料當正梁，短的木料當柴燒。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：榱，屋椽；梲（ㄓㄨㄛˊ），梁上的短柱；統測115第4題框內例句（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "32",
+     "quote": "其取材也，惟其良，不問其所產。楓、柟、松、栝、杉、櫧、柞、檀無所不收，大者為棟為梁，小者為杙為栭，曲者為枅，直者為楹，長者為榱，短者為梲，非空中而液身者，無所不用",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "4",
+     "quote": "長者為榱，短者為梲",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "框內例句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-13",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子說明，什麼樣的木料才真的不能用。",
+   "context_before": "曲者為枅，直者為楹，長者為榱，短者為梲，",
+   "sentence": "非空中而液身者，無所不用",
+   "context_after": "。今醫閭之大木竭矣，規矩無恒，工失其度。",
+   "keywords": [
+    {
+     "word": "空中",
+     "gloss": "中間空洞",
+     "pos": "形容詞",
+     "distractors": [
+      "高掛空中",
+      "天空之中",
+      "空閒之時"
+     ]
+    },
+    {
+     "word": "液身",
+     "gloss": "木身朽爛滲水，一說未乾的濕木",
+     "pos": "形容詞",
+     "distractors": [
+      "全身泡在水裡",
+      "全身塗滿了漆",
+      "用汁液清洗"
+     ]
+    }
+   ],
+   "meaning": "只要不是中空或朽爛滲水的木料，沒有不能用的。",
+   "meaning_distractors": [
+    "只有中空或木身滲液的，才可以拿來用。",
+    "不是空中飛來或泡過水的，全都不能用。",
+    "除了棟梁之外，其他的木料都用不上。"
+   ],
+   "source_note": "易文言網注：液身，爛得流水；每日頭條王立群譯文作濕料；易文言網本作「中空」；統測111第32題題幹框內引文（原卷）",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「液身」來源不一（爛得流水／濕料），請確認課本注釋。",
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "32",
+     "quote": "其取材也，惟其良，不問其所產。楓、柟、松、栝、杉、櫧、柞、檀無所不收，大者為棟為梁，小者為杙為栭，曲者為枅，直者為楹，長者為榱，短者為梲，非空中而液身者，無所不用",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=10",
+     "pdf_page": 10,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-14",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子把話題轉回眼前的現況。",
+   "context_before": "非空中而液身者，無所不用。",
+   "sentence": "今醫閭之大木竭矣，規矩無恒，工失其度",
+   "context_after": "，斧鋸刀鑿，不知所裁。",
+   "keywords": [
+    {
+     "word": "竭",
+     "gloss": "窮盡、耗盡",
+     "pos": "動詞",
+     "distractors": [
+      "高舉",
+      "乾燥",
+      "盡力"
+     ]
+    },
+    {
+     "word": "規矩",
+     "gloss": "圓規和曲尺，引申為標準",
+     "pos": "名詞",
+     "distractors": [
+      "禮貌",
+      "法律條文",
+      "習慣"
+     ]
+    },
+    {
+     "word": "恒",
+     "gloss": "固定不變（同「恆」），114 二技原卷作「恆」",
+     "pos": "形容詞",
+     "distractors": [
+      "永遠",
+      "毅力",
+      "平常"
+     ]
+    },
+    {
+     "word": "度",
+     "gloss": "法度、準則",
+     "pos": "名詞",
+     "distractors": [
+      "度過",
+      "次數",
+      "寬容"
+     ]
+    }
+   ],
+   "meaning": "如今醫閭山的大木已耗盡，標準沒有定準，工匠也失去法度。",
+   "meaning_distractors": [
+    "如今醫閭山的大木正要高舉，標準恆久不變，工匠也度過難關。",
+    "如今醫閭山的大木已乾枯，工匠不懂禮貌，也沒有毅力。",
+    "如今醫閭山的大木雖多，工匠卻不肯盡力，只求賺錢。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：竭，窮盡；規矩，畫圓畫方的工具、法度；恒，恆的異體字；度，標準；易文言網注：醫閭，山名；114二技原卷作「恆」，exam-refs 用「恒」比對，故未改；二技114第22題選項D（原卷作「恆」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "二技",
+     "no": "22",
+     "quote": "規矩無恆，工失其度",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_2y/downloader.php?obj=MTE0LTJ5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01",
+     "note": "底稿作「恒」"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-15",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子形容現在的工匠拿著工具的樣子。",
+   "context_before": "規矩無恒，工失其度，",
+   "sentence": "斧鋸刀鑿，不知所裁，桂、樟、柟、櫨，剪為樵薪",
+   "context_after": "，雖有魯般、王爾不能輒施其巧。",
+   "keywords": [
+    {
+     "word": "裁",
+     "gloss": "裁斷、決定如何取用",
+     "pos": "動詞",
+     "distractors": [
+      "裁縫",
+      "減少",
+      "評斷"
+     ]
+    },
+    {
+     "word": "樵薪",
+     "gloss": "柴火",
+     "pos": "名詞",
+     "distractors": [
+      "砍柴的人",
+      "森林",
+      "庭院的樹木"
+     ]
+    }
+   ],
+   "meaning": "工匠拿著工具不知如何裁斷，連桂樟楠櫨這些好木材都被砍成柴火。",
+   "meaning_distractors": [
+    "工匠拿著工具努力裁衣，把桂樟楠櫨種成了森林。",
+    "工匠丟掉工具不再做工，把桂樟楠櫨都留給樵夫。",
+    "工匠用工具小心裁斷，把柴火做成了桂樟楠櫨。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：裁，決斷、量度；樵，木柴；每日頭條王立群譯文：燒火用的木柴",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-16",
+   "lesson": "郁離子",
+   "paragraph": 1,
+   "scene": "郁離子說到魯般、王爾這樣的人，為自己的悲哀作結。",
+   "context_before": "斧鋸刀鑿，不知所裁，桂、樟、柟、櫨，剪為樵薪，",
+   "sentence": "雖有魯般、王爾不能輒施其巧，而況於無之乎",
+   "context_after": "？吾何為而不悲也？」",
+   "keywords": [
+    {
+     "word": "輒",
+     "gloss": "立即",
+     "pos": "副詞",
+     "distractors": [
+      "總是",
+      "任意",
+      "停止"
+     ]
+    },
+    {
+     "word": "施",
+     "gloss": "施展",
+     "pos": "動詞",
+     "distractors": [
+      "給予",
+      "實行法令",
+      "散布"
+     ]
+    }
+   ],
+   "meaning": "即使有魯般、王爾也不能立刻施展技巧，何況現在連他們都沒有。全段以修屋喻救世。",
+   "meaning_distractors": [
+    "即使有魯般、王爾也總是不肯施捨，何況他們早已富有。",
+    "只要有魯般、王爾就能立刻修好，何況現在有許多工匠。",
+    "魯般、王爾已立刻施展技巧，何況其他工匠也都來了。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：輒，即、就；施，實行；寓意參樵客老師國文教學網站摘要（以朽宅喻元末政局）",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-17",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "故事換一位主角：鄭國有個人想靠一門本事過日子。",
+   "context_before": "",
+   "sentence": "鄭之鄙人學為蓋，三年藝成而大旱",
+   "context_after": "，蓋無所用，乃棄而為桔槔。",
+   "keywords": [
+    {
+     "word": "鄙人",
+     "gloss": "鄉下人、邊鄙之人",
+     "pos": "名詞",
+     "distractors": [
+      "自稱的謙詞",
+      "卑鄙的人",
+      "知識淺的人"
+     ]
+    },
+    {
+     "word": "蓋",
+     "gloss": "雨具，指傘",
+     "pos": "名詞",
+     "distractors": [
+      "覆蓋",
+      "建造房屋",
+      "大概"
+     ]
+    },
+    {
+     "word": "藝",
+     "gloss": "技藝",
+     "pos": "名詞",
+     "distractors": [
+      "藝術品",
+      "種植",
+      "才華"
+     ]
+    }
+   ],
+   "meaning": "鄭國一個鄉下人學做傘，學了三年學成卻遇上大旱。",
+   "meaning_distractors": [
+    "鄭國一個卑鄙的人學蓋房子，蓋了三年遇上大旱。",
+    "我是鄭國人，學做傘三年，靠技藝躲過了大旱。",
+    "鄭國有人學種田，三年豐收之後才遇上大旱。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：鄙人，住在偏遠鄉野的人；藝，才能、技術；中文百科全書〈鄙人學蓋〉注：蓋，雨具；統測115第19、21、22題題組選文（原卷，題文稱「鄭國匠人」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "19",
+     "quote": "鄭之鄙人學為蓋，三年藝成而大旱，蓋無所用，乃棄而為桔槔。又三年藝成而大雨，桔槔無所用，則又還為蓋焉。未幾而盜起，民盡改戎服，鮮有用蓋者。欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01",
+     "note": "Q20 只問白圭，不算"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "21",
+     "quote": "鄭之鄙人學為蓋……欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "22",
+     "quote": "鄭之鄙人學為蓋……欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-18",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "鄭國人學成後碰上大旱，他決定改變。",
+   "context_before": "鄭之鄙人學為蓋，三年藝成而大旱，",
+   "sentence": "蓋無所用，乃棄而為桔槔",
+   "context_after": "。又三年藝成而大雨，桔槔無所用，",
+   "keywords": [
+    {
+     "word": "乃",
+     "gloss": "於是",
+     "pos": "副詞",
+     "distractors": [
+      "你的",
+      "竟然",
+      "才是"
+     ]
+    },
+    {
+     "word": "桔槔",
+     "gloss": "汲水的器具（音ㄐㄧㄝˊ ㄍㄠ）",
+     "pos": "名詞",
+     "distractors": [
+      "曬穀的器具",
+      "遮雨的斗笠",
+      "造船的工具"
+     ]
+    }
+   ],
+   "meaning": "傘沒有用處，他就放棄改做汲水的器具。",
+   "meaning_distractors": [
+    "傘沒有地方用，他竟然把汲水器具丟棄了。",
+    "傘賣不出去，他只好改行去鑿井種田。",
+    "傘沒有人要，他便把傘改造成雨具。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：乃，於是；桔槔（ㄐㄧㄝˊ ㄍㄠ），汲水的工具；統測115第19、21、22題題組選文（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "19",
+     "quote": "鄭之鄙人學為蓋，三年藝成而大旱，蓋無所用，乃棄而為桔槔。又三年藝成而大雨，桔槔無所用，則又還為蓋焉。未幾而盜起，民盡改戎服，鮮有用蓋者。欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01",
+     "note": "Q20 只問白圭，不算"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-19",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "鄭國人再度學成，老天卻又變了臉。",
+   "context_before": "蓋無所用，乃棄而為桔槔。",
+   "sentence": "又三年藝成而大雨，桔槔無所用，則又還為蓋焉",
+   "context_after": "。未幾而盜起，民盡改戎服，鮮有用蓋者。",
+   "keywords": [
+    {
+     "word": "還",
+     "gloss": "返回，音ㄏㄨㄢˊ",
+     "pos": "動詞",
+     "distractors": [
+      "仍然",
+      "償還",
+      "環繞"
+     ]
+    },
+    {
+     "word": "焉",
+     "gloss": "句末語助，表陳述",
+     "pos": "助詞",
+     "distractors": [
+      "哪裡",
+      "於是",
+      "怎麼"
+     ]
+    }
+   ],
+   "meaning": "又花三年學成卻下大雨，汲水器具沒用，他又回頭去做傘。",
+   "meaning_distractors": [
+    "又花三年學成卻下大雨，只好把傘還給別人。",
+    "又花三年學成卻下大雨，他仍然繼續做汲水器具。",
+    "又花三年學成遇上大雨，汲水器具因而大賣。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：還（ㄏㄨㄢˊ），返回；焉，句末表肯定；統測115第19、21、22題題組選文（原卷，「則又還為蓋焉」前作逗號）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "19",
+     "quote": "鄭之鄙人學為蓋，三年藝成而大旱，蓋無所用，乃棄而為桔槔。又三年藝成而大雨，桔槔無所用，則又還為蓋焉。未幾而盜起，民盡改戎服，鮮有用蓋者。欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01",
+     "note": "Q20 只問白圭，不算"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-20",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "他才又做回老本行，世局再次變了。",
+   "context_before": "又三年藝成而大雨，桔槔無所用，則又還為蓋焉。",
+   "sentence": "未幾而盜起，民盡改戎服，鮮有用蓋者",
+   "context_after": "。欲學為兵，則老矣。",
+   "keywords": [
+    {
+     "word": "未幾",
+     "gloss": "不久",
+     "pos": "副詞",
+     "distractors": [
+      "沒有幾個",
+      "不多",
+      "還沒幾次"
+     ]
+    },
+    {
+     "word": "戎服",
+     "gloss": "軍服",
+     "pos": "名詞",
+     "distractors": [
+      "胡人的服裝",
+      "粗布衣服",
+      "喪服"
+     ]
+    },
+    {
+     "word": "鮮",
+     "gloss": "少（音ㄒㄧㄢˇ）",
+     "pos": "副詞",
+     "distractors": [
+      "新鮮",
+      "美味",
+      "鮮明"
+     ]
+    }
+   ],
+   "meaning": "不久盜賊四起，人民都改穿軍服，很少有人用傘。",
+   "meaning_distractors": [
+    "沒幾個盜賊起事，人民換上新衣，都很喜歡用傘。",
+    "不久盜賊四起，人民換上胡服，新鮮的傘賣得很好。",
+    "盜賊久久不起，人民脫下軍服，少有人再做傘。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：未幾，不久；戎服，軍裝；鮮（ㄒㄧㄢˇ），少；統測115第19、21、22題題組選文（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "19",
+     "quote": "鄭之鄙人學為蓋，三年藝成而大旱，蓋無所用，乃棄而為桔槔。又三年藝成而大雨，桔槔無所用，則又還為蓋焉。未幾而盜起，民盡改戎服，鮮有用蓋者。欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01",
+     "note": "Q20 只問白圭，不算"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-21",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "世道變成這樣，他最後又想改學別的。",
+   "context_before": "未幾而盜起，民盡改戎服，鮮有用蓋者。",
+   "sentence": "欲學為兵，則老矣",
+   "context_after": "。郁離子見而嗟之曰：「是殆類漢之老郎與？」",
+   "keywords": [
+    {
+     "word": "兵",
+     "gloss": "兵器",
+     "pos": "名詞",
+     "distractors": [
+      "士兵",
+      "戰爭",
+      "打仗"
+     ]
+    },
+    {
+     "word": "則",
+     "gloss": "卻",
+     "pos": "連詞",
+     "distractors": [
+      "法則",
+      "榜樣",
+      "如果"
+     ]
+    }
+   ],
+   "meaning": "想學製作兵器，卻已經年老了。",
+   "meaning_distractors": [
+    "想去當兵打仗，就立刻變年輕了。",
+    "想學兵法，於是拜老人為師。",
+    "想學製作兵器，老人卻不肯教他。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：兵，武器；則，卻、而；中文百科全書〈鄙人學蓋〉注：兵，兵器；統測115第19、21、22題題組選文（原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "19",
+     "quote": "鄭之鄙人學為蓋，三年藝成而大旱，蓋無所用，乃棄而為桔槔。又三年藝成而大雨，桔槔無所用，則又還為蓋焉。未幾而盜起，民盡改戎服，鮮有用蓋者。欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01",
+     "note": "Q20 只問白圭，不算"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "21",
+     "quote": "鄭之鄙人學為蓋……欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "22",
+     "quote": "鄭之鄙人學為蓋……欲學為兵，則老矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "題組選文",
+     "location": "題組討論案例",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yulizi-22",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "郁離子看到鄭國人的遭遇，開始評論他的選擇。",
+   "context_before": "老與少非人之所能為也，天也。",
+   "sentence": "藝事繇己之學，雖失時在命，而不可盡謂非己也",
+   "context_after": "。故粵有善農者鑿田以種稻。",
+   "keywords": [
+    {
+     "word": "繇",
+     "gloss": "由、取決於（通「由」）",
+     "pos": "介詞",
+     "distractors": [
+      "徭役",
+      "占卜的文辭",
+      "緩慢"
+     ]
+    },
+    {
+     "word": "失時",
+     "gloss": "錯過時機",
+     "pos": "動詞",
+     "distractors": [
+      "忘記時間",
+      "失去工作",
+      "時常失敗"
+     ]
+    }
+   ],
+   "meaning": "技藝由自己學習而來，雖然錯失時機與命運有關，卻不能全說與自己無關。",
+   "meaning_distractors": [
+    "技藝是別人傳授的，錯失時機全是命運，與自己完全無關。",
+    "技藝靠占卜決定，只要掌握時機，就不必問命運。",
+    "技藝由自己學習而來，所以一切成敗都與命運無關。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：失時，錯失機會；重編「繇（ㄧㄡˊ）」無釋義；通「由」僅見搜尋結果中的網路注釋摘要，來源頁未能開啟",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「繇」通「由」只見網路注釋摘要，請確認課本注釋；此句是本則評論核心。"
+  },
+  {
+   "id": "yulizi-23",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "粵地農夫連續三年受災，別人勸他改種，他有自己的打算。",
+   "context_before": "故粵有善農者鑿田以種稻，三年皆傷於澇，",
+   "sentence": "人謂之宜泄水以樹黍，弗對，而仍其舊",
+   "context_after": "。其年乃大旱，連三歲，",
+   "keywords": [
+    {
+     "word": "樹",
+     "gloss": "種植",
+     "pos": "動詞",
+     "distractors": [
+      "樹木",
+      "樹立",
+      "建立"
+     ]
+    },
+    {
+     "word": "仍",
+     "gloss": "沿襲、照舊",
+     "pos": "動詞",
+     "distractors": [
+      "仍然",
+      "多次",
+      "接著"
+     ]
+    }
+   ],
+   "meaning": "別人勸他該排水改種黍，他不回答，仍依舊種稻。",
+   "meaning_distractors": [
+    "別人勸他該排水種樹，他不回答，就改種黍了。",
+    "別人勸他多積水種稻，他沒有回答，便把田賣了。",
+    "別人勸他該排水種黍，他答應後一直沒做。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：樹，種植；仍，因循、沿襲；中文百科全書〈鄙人學蓋〉注",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-24",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "連年大旱時，這位農夫的收成算起來如何？",
+   "context_before": "其年乃大旱，連三歲，",
+   "sentence": "計其獲則償所歉而贏焉",
+   "context_after": "。故曰：『旱斯具舟，熱斯具裘。』",
+   "keywords": [
+    {
+     "word": "償",
+     "gloss": "補足",
+     "pos": "動詞",
+     "distractors": [
+      "償還債務",
+      "獎賞",
+      "實現願望"
+     ]
+    },
+    {
+     "word": "歉",
+     "gloss": "歉收",
+     "pos": "名詞",
+     "distractors": [
+      "抱歉",
+      "虧欠人情",
+      "不滿足"
+     ]
+    },
+    {
+     "word": "贏",
+     "gloss": "盈餘",
+     "pos": "動詞",
+     "distractors": [
+      "勝過別人",
+      "贏得比賽",
+      "伸長"
+     ]
+    }
+   ],
+   "meaning": "計算收成，不但補足先前的歉收，還有盈餘。",
+   "meaning_distractors": [
+    "計算收成，雖然補足歉收，卻仍無法贏過別人。",
+    "計算收成，他向人道歉，並賠償所有損失。",
+    "計算收成，因先前歉收，以致全無盈餘。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：償，相抵；歉，農作物收成不好；贏，所獲利益；中文百科全書〈鄙人學蓋〉注",
+   "from_pack": []
+  },
+  {
+   "id": "yulizi-25",
+   "lesson": "郁離子",
+   "paragraph": 2,
+   "scene": "郁離子引一句古語，作為這則故事的結論。",
+   "context_before": "計其獲則償所歉而贏焉。故曰：『",
+   "sentence": "旱斯具舟，熱斯具裘",
+   "context_after": "。』天下之名言也。",
+   "keywords": [
+    {
+     "word": "斯",
+     "gloss": "則、就",
+     "pos": "連詞",
+     "distractors": [
+      "這",
+      "盡",
+      "分開"
+     ]
+    },
+    {
+     "word": "具",
+     "gloss": "準備",
+     "pos": "動詞",
+     "distractors": [
+      "器具",
+      "全都",
+      "才能"
+     ]
+    },
+    {
+     "word": "裘",
+     "gloss": "皮衣",
+     "pos": "名詞",
+     "distractors": [
+      "夏衣",
+      "斗笠",
+      "草鞋"
+     ]
+    }
+   ],
+   "meaning": "乾旱時就準備船，炎熱時就準備皮衣。比喻要預先準備，等待時機。",
+   "meaning_distractors": [
+    "乾旱時這裡沒有船，炎熱時這裡沒有皮衣。",
+    "乾旱時應賣掉船隻，炎熱時應買進涼衣。",
+    "乾旱時要多備水，炎熱時要多休息，才能養生。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：斯，則、就；具，準備；裘，皮衣；中文百科全書〈鄙人學蓋〉注：指事先做好準備",
+   "from_pack": []
+  }
+ ]
+}

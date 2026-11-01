@@ -1,0 +1,251 @@
+{
+ "lessons": [
+  {
+   "id": "yueyang",
+   "count": 17,
+   "available": true,
+   "lesson": "岳陽樓記",
+   "author": "范仲淹",
+   "tagline": "登同一座樓，心情為何不同？",
+   "sentence_count": 28,
+   "exam_sentences": 14
+  },
+  {
+   "id": "zhuzhiwu",
+   "count": 14,
+   "available": true,
+   "lesson": "燭之武退秦師",
+   "author": "左傳",
+   "tagline": "一個老臣，能擋下兩國大軍嗎？",
+   "sentence_count": 31,
+   "exam_sentences": 22
+  },
+  {
+   "id": "hongmen",
+   "count": 14,
+   "available": true,
+   "lesson": "鴻門宴",
+   "author": "司馬遷",
+   "tagline": "一場酒宴，誰能活著走出去",
+   "sentence_count": 85,
+   "exam_sentences": 37
+  },
+  {
+   "id": "paoding",
+   "count": 14,
+   "available": true,
+   "lesson": "庖丁解牛",
+   "author": "莊周",
+   "tagline": "一把刀，為何十九年不鈍？",
+   "sentence_count": 18,
+   "exam_sentences": 15
+  },
+  {
+   "id": "taohua",
+   "count": 11,
+   "available": true,
+   "lesson": "桃花源記",
+   "author": "陶淵明",
+   "tagline": "洞口那道光，後面藏著什麼？",
+   "sentence_count": 26,
+   "exam_sentences": 19
+  },
+  {
+   "id": "chibi",
+   "count": 11,
+   "available": true,
+   "lesson": "赤壁賦",
+   "author": "蘇軾",
+   "tagline": "同一片江月，為何一悲一喜",
+   "sentence_count": 39,
+   "exam_sentences": 31
+  },
+  {
+   "id": "guotuotuo",
+   "count": 11,
+   "available": true,
+   "lesson": "種樹郭橐駝傳",
+   "author": "柳宗元",
+   "tagline": "駝背老人的種樹祕訣是什麼？",
+   "sentence_count": 32,
+   "exam_sentences": 10
+  },
+  {
+   "id": "mengxi",
+   "count": 10,
+   "available": true,
+   "lesson": "夢溪筆談",
+   "author": "沈括",
+   "tagline": "一面鏡子，藏著古人的算計",
+   "sentence_count": 39,
+   "exam_sentences": 15
+  },
+  {
+   "id": "tiangong",
+   "count": 10,
+   "available": true,
+   "lesson": "天工開物",
+   "author": "宋應星",
+   "tagline": "小小一滴油，撐起車與船",
+   "sentence_count": 22,
+   "exam_sentences": 12
+  },
+  {
+   "id": "shishuo",
+   "count": 9,
+   "available": true,
+   "lesson": "師說",
+   "author": "韓愈",
+   "tagline": "拜師，為何成了笑柄",
+   "sentence_count": 35,
+   "exam_sentences": 29
+  },
+  {
+   "id": "lanting",
+   "count": 8,
+   "available": true,
+   "lesson": "蘭亭集序",
+   "author": "王羲之",
+   "tagline": "最快樂的聚會，為何寫到悲傷？",
+   "sentence_count": 28,
+   "exam_sentences": 13
+  },
+  {
+   "id": "yulizi",
+   "count": 8,
+   "available": true,
+   "lesson": "郁離子",
+   "author": "劉基",
+   "tagline": "破屋能修嗎？他卻放聲大哭",
+   "sentence_count": 25,
+   "exam_sentences": 14
+  },
+  {
+   "id": "chushi",
+   "count": 7,
+   "available": true,
+   "lesson": "出師表",
+   "author": "諸葛亮",
+   "tagline": "出征之前，老臣放不下的叮嚀",
+   "sentence_count": 35,
+   "exam_sentences": 25
+  },
+  {
+   "id": "taimei",
+   "count": 7,
+   "available": true,
+   "lesson": "臺煤減稅片",
+   "author": "沈葆楨",
+   "tagline": "想賣更多煤，稅該怎麼算",
+   "sentence_count": 26,
+   "exam_sentences": 7
+  },
+  {
+   "id": "tielu",
+   "count": 7,
+   "available": true,
+   "lesson": "清代臺灣鐵路買票收費章程",
+   "author": "唐贊袞",
+   "tagline": "一張車票，管住整條鐵路",
+   "sentence_count": 25,
+   "exam_sentences": 6
+  },
+  {
+   "id": "tanchun",
+   "count": 6,
+   "available": true,
+   "lesson": "賈探春敏慧興利",
+   "author": "曹霑",
+   "tagline": "一根枯草，也能變成銀子？",
+   "sentence_count": 40,
+   "exam_sentences": 5
+  },
+  {
+   "id": "yufu",
+   "count": 6,
+   "available": true,
+   "lesson": "漁父",
+   "author": "屈原",
+   "tagline": "全世界都醉了，你要跟著喝嗎？",
+   "sentence_count": 15,
+   "exam_sentences": 13
+  },
+  {
+   "id": "shishuoxinyu",
+   "count": 1,
+   "available": true,
+   "lesson": "世說新語選",
+   "author": "劉義慶",
+   "tagline": "雪夜划了一整晚，為何不敲門？",
+   "sentence_count": 24,
+   "exam_sentences": 1
+  }
+ ],
+ "exam_share": {
+  "kicker": "近五年統測、二技",
+  "hero": "統測約每 <b>4</b> 題<br>二技約每 <b>8</b> 題<br>就有 <b>1</b> 題用到這些古文",
+  "groups": [
+   {
+    "name": "統測",
+    "years": [
+     {
+      "year": 111,
+      "hit": 8,
+      "total": 38
+     },
+     {
+      "year": 112,
+      "hit": 8,
+      "total": 38
+     },
+     {
+      "year": 113,
+      "hit": 9,
+      "total": 38
+     },
+     {
+      "year": 114,
+      "hit": 10,
+      "total": 38
+     },
+     {
+      "year": 115,
+      "hit": 9,
+      "total": 38
+     }
+    ]
+   },
+   {
+    "name": "二技",
+    "years": [
+     {
+      "year": 111,
+      "hit": 5,
+      "total": 50
+     },
+     {
+      "year": 112,
+      "hit": 9,
+      "total": 50
+     },
+     {
+      "year": 113,
+      "hit": 5,
+      "total": 50
+     },
+     {
+      "year": 114,
+      "hit": 3,
+      "total": 50
+     },
+     {
+      "year": 115,
+      "hit": 8,
+      "total": 50
+     }
+    ]
+   }
+  ],
+  "foot": "依測驗中心原卷統計，不含寫作。題目或題組引文用到這裡的十八課就算一題，包含只考一個字詞的題目。"
+ }
+}

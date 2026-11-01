@@ -1,0 +1,1083 @@
+{
+ "lesson_id": "taimei",
+ "lesson": "臺煤減稅片",
+ "author": "沈葆楨",
+ "tagline": "想賣更多煤，稅該怎麼算",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "taimei-01",
+   "lesson": "臺煤減稅片",
+   "paragraph": 1,
+   "scene": "沈葆楨向朝廷說明先前的奏請內容。",
+   "context_before": "再，臣等於本年七月二十九日附片奏稱：臺灣產煤甚富，",
+   "sentence": "請將出口土煤照進口洋煤一律徵收",
+   "context_after": "；八月十九日奉硃批：該衙門議奏，欽此。",
+   "keywords": [
+    {
+     "word": "土煤",
+     "gloss": "本地產的煤（土，本地的）",
+     "pos": "名詞",
+     "distractors": [
+      "泥土與煤",
+      "劣質的煤",
+      "土地稅"
+     ]
+    },
+    {
+     "word": "洋煤",
+     "gloss": "從外國進口的煤",
+     "pos": "名詞",
+     "distractors": [
+      "海上運來的煤",
+      "賣給外國的煤",
+      "海底開採的煤"
+     ]
+    }
+   ],
+   "meaning": "奏請把出口的本地煤比照進口外國煤，用相同標準課稅。",
+   "meaning_distractors": [
+    "奏請禁止本地煤出口，只許外國煤進口。",
+    "奏請把外國煤全部買下，再出口賣給本地人。",
+    "奏請本地煤免稅，外國煤一律加倍課稅。"
+   ],
+   "source_note": "課本注2、注3",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-02",
+   "lesson": "臺煤減稅片",
+   "paragraph": 1,
+   "scene": "朝廷交議之後，總理衙門有了回覆。",
+   "context_before": "八月十九日奉硃批：該衙門議奏，欽此。",
+   "sentence": "嗣經總理各國事務衙門覆奏：臺灣一口既據該大臣等稱，該處產煤甚富，應准其酌量核減，妥籌辦理等因",
+   "context_after": "。臣等伏思臺地之病，病於土曠。",
+   "keywords": [
+    {
+     "word": "嗣經",
+     "gloss": "後經（嗣，音ㄙˋ）",
+     "pos": "副詞",
+     "distractors": [
+      "繼承經書",
+      "子孫經手",
+      "曾經"
+     ]
+    },
+    {
+     "word": "一口",
+     "gloss": "一地的通商口岸",
+     "pos": "名詞",
+     "distractors": [
+      "一張嘴",
+      "一個人",
+      "一句話"
+     ]
+    },
+    {
+     "word": "酌量核減",
+     "gloss": "考量審核後予以減少（量，音ㄌㄧㄤˊ）",
+     "pos": "動詞片語",
+     "distractors": [
+      "斟酒後計算",
+      "核對後加倍",
+      "依數量全部免除"
+     ]
+    }
+   ],
+   "meaning": "後經總理衙門回覆：臺灣這個通商口岸既然產煤豐富，應准許考量審核後予以減稅，妥善籌辦。",
+   "meaning_distractors": [
+    "後經總理衙門回覆：臺灣這一個人既然有煤，應准許他全部免稅。",
+    "曾經總理衙門回覆：臺灣這個口岸應核對稅額後加倍徵收。",
+    "後經總理衙門回覆：臺灣產煤很少，不准減稅，應妥善辦理。"
+   ],
+   "source_note": "課本注7、注8、注9；測驗第2題選項A考「一口」",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-03",
+   "lesson": "臺煤減稅片",
+   "paragraph": 2,
+   "scene": "沈葆楨分析臺灣經營上的根本問題。",
+   "context_before": "妥籌辦理等因。",
+   "sentence": "臣等伏思臺地之病，病於土曠；土曠之病，由於人稀",
+   "context_after": "。重洋遠隔，必利市三倍而後內地食力之眾不召而來。",
+   "keywords": [
+    {
+     "word": "伏",
+     "gloss": "俯身，文中用以表達恭敬",
+     "pos": "動詞",
+     "distractors": [
+      "埋伏",
+      "屈服",
+      "潛藏"
+     ]
+    },
+    {
+     "word": "病",
+     "gloss": "經營上的弊病",
+     "pos": "名詞",
+     "distractors": [
+      "生病",
+      "瘟疫",
+      "疲勞"
+     ]
+    },
+    {
+     "word": "土曠",
+     "gloss": "土地空曠",
+     "pos": "形容詞",
+     "distractors": [
+      "土壤肥沃",
+      "土石崩落",
+      "土質疏鬆"
+     ]
+    }
+   ],
+   "meaning": "臣等恭敬思考：臺灣經營上的弊病在於土地空曠；土地空曠的弊病，是因為人口稀少。",
+   "meaning_distractors": [
+    "臣等埋伏思考：臺灣的瘟疫來自土壤；土壤的問題，來自人口太多。",
+    "臣等恭敬思考：臺灣人生病是因為土地肥沃，才造成人口稀少。",
+    "臣等恭敬思考：臺灣的弊病在於土石崩落；土石崩落，在於開墾過度。"
+   ],
+   "source_note": "課本注11、注12、注13",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-04",
+   "lesson": "臺煤減稅片",
+   "paragraph": 2,
+   "scene": "要讓人渡海來臺，得有誘因。",
+   "context_before": "土曠之病，由於人稀。",
+   "sentence": "重洋遠隔，必利市三倍而後內地食力之眾不召而來",
+   "context_after": "。墾田之利微，不若煤礦之利鉅。",
+   "keywords": [
+    {
+     "word": "利市三倍",
+     "gloss": "獲利豐厚",
+     "pos": "成語",
+     "distractors": [
+      "市場有三處",
+      "三倍地方稅",
+      "生意清淡"
+     ]
+    },
+    {
+     "word": "內地食力之眾",
+     "gloss": "中國大陸境內靠勞力營生的民眾",
+     "pos": "名詞",
+     "distractors": [
+      "中國大陸境內食量很大的人",
+      "中國大陸境內領俸祿的官吏",
+      "中國大陸境內有力氣的軍隊"
+     ]
+    }
+   ],
+   "meaning": "大海遠隔，一定要獲利豐厚，中國大陸靠勞力營生的民眾才會不經招募自己前來。",
+   "meaning_distractors": [
+    "大海遠隔，一定要付三倍稅金，中國大陸官員才會派人前來。",
+    "大海遠隔，中國大陸食量大的人，不必招募就會離開市場。",
+    "大海遠隔，獲利再多，中國大陸靠勞力營生的民眾也不肯前來。"
+   ],
+   "source_note": "內地食力之眾：課本注15；利市三倍：課本注14 內容空白，僅賞析一「提升臺灣的貿易獲利」可旁證",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "課本注14「利市」釋文空白（原檔即缺，已畫圖確認）；「利市三倍」字義依賞析與文意，請老師補上課本應有的解釋。"
+  },
+  {
+   "id": "taimei-05",
+   "lesson": "臺煤減稅片",
+   "paragraph": 3,
+   "scene": "作者比較兩種產業帶來的好處。",
+   "context_before": "必利市三倍而後內地食力之眾不召而來。",
+   "sentence": "墾田之利微，不若煤礦之利鉅；墾田之利緩，不若煤礦之利速",
+   "context_after": "。全臺之利以煤礦為始基，",
+   "keywords": [
+    {
+     "word": "利",
+     "gloss": "好處、益處",
+     "pos": "名詞",
+     "distractors": [
+      "鋒利",
+      "順利",
+      "利息"
+     ]
+    }
+   ],
+   "meaning": "墾田的好處微小，不如煤礦的好處大；墾田的好處來得慢，不如煤礦的好處來得快。",
+   "meaning_distractors": [
+    "墾田的好處大，煤礦的好處小；墾田來得快，煤礦來得慢。",
+    "墾田的工具不鋒利，不如採煤的工具；墾田很慢，採煤很快。",
+    "墾田和煤礦的好處一樣大，只是墾田的好處來得比較快。"
+   ],
+   "source_note": "課本注16；賞析一「與墾地相較，作者認為煤礦的開採與出口獲利更大」",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-06",
+   "lesson": "臺煤減稅片",
+   "paragraph": 3,
+   "scene": "作者比較過後，定下全臺之利的起點。",
+   "context_before": "墾田之利緩，不若煤礦之利速。",
+   "sentence": "全臺之利以煤礦為始基，而煤礦之利又以暢銷為出路",
+   "context_after": "。南北各省按日以煤炊爨，入冬以煤禦寒。",
+   "keywords": [
+    {
+     "word": "始基",
+     "gloss": "根源、基礎",
+     "pos": "名詞",
+     "distractors": [
+      "開工的地基",
+      "初次基地",
+      "最後成果"
+     ]
+    }
+   ],
+   "meaning": "全臺的好處以煤礦為基礎，而煤礦的好處又要靠暢銷才有出路。",
+   "meaning_distractors": [
+    "全臺的好處應放棄煤礦，轉向墾田，才有出路。",
+    "全臺的好處以墾田為基礎，煤礦只能作為補充。",
+    "全臺的煤礦已經暢銷，所以不必再尋找出路。"
+   ],
+   "source_note": "課本注17",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-07",
+   "lesson": "臺煤減稅片",
+   "paragraph": 3,
+   "scene": "作者說明煤在中國大陸各省的用途。",
+   "context_before": "全臺之利以煤礦為始基，而煤礦之利又以暢銷為出路。",
+   "sentence": "南北各省按日以煤炊爨，入冬以煤禦寒",
+   "context_after": "；若出口暢旺，煤價必昂，於民間不無窒礙。",
+   "keywords": [
+    {
+     "word": "南北各省",
+     "gloss": "中國大陸境內的各個省分",
+     "pos": "名詞",
+     "distractors": [
+      "臺灣南北各縣",
+      "南洋北洋的港口",
+      "東洋西洋的國家"
+     ]
+    },
+    {
+     "word": "炊爨",
+     "gloss": "燒火煮飯（音ㄔㄨㄟ ㄘㄨㄢˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "打鐵鑄造",
+      "燒磚製瓦",
+      "取暖烤火"
+     ]
+    }
+   ],
+   "meaning": "中國大陸各省每天用煤煮飯，入冬用煤抵擋寒冷。",
+   "meaning_distractors": [
+    "臺灣南北各縣每天用煤打鐵，入冬把煤獻給皇帝。",
+    "中國大陸各省依日期賣煤，入冬用煤駕車。",
+    "中國大陸各省不必用煤煮飯，只在入冬才用來取暖。"
+   ],
+   "source_note": "課本注18、注19",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "29",
+     "quote": "南北各省按日以煤炊爨，入冬以煤禦寒，若出口暢旺，煤價必昂，於民間不無窒礙。臺地則炊爨、禦寒均無藉於煤，除出口外，別無銷路",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01",
+     "note": "Q28 只問乙文，不算"
+    },
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "30",
+     "quote": "南北各省……臺地……／若出口暢旺……",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "選項A、B",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "taimei-08",
+   "lesson": "臺煤減稅片",
+   "paragraph": 3,
+   "scene": "作者推想煤大量出口之後，對各省民生的影響。",
+   "context_before": "南北各省按日以煤炊爨，入冬以煤禦寒；",
+   "sentence": "若出口暢旺，煤價必昂，於民間不無窒礙",
+   "context_after": "。臺地則炊爨、禦寒均無藉於煤，",
+   "keywords": [
+    {
+     "word": "昂",
+     "gloss": "高漲、上揚",
+     "pos": "動詞",
+     "distractors": [
+      "抬頭",
+      "振奮",
+      "下跌"
+     ]
+    },
+    {
+     "word": "不無窒礙",
+     "gloss": "有妨礙（窒，音ㄓˋ）",
+     "pos": "動詞片語",
+     "distractors": [
+      "沒有妨礙",
+      "窒息而死",
+      "通暢無阻"
+     ]
+    }
+   ],
+   "meaning": "如果出口興旺，煤價必定上漲，對民間有所妨礙。",
+   "meaning_distractors": [
+    "如果出口興旺，煤價必定下跌，對民間大有好處。",
+    "如果出口減少，煤價必定上漲，民間就會窒息。",
+    "如果出口興旺，人人抬頭挺胸，民間沒有妨礙。"
+   ],
+   "source_note": "課本注20、注21",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "29",
+     "quote": "南北各省按日以煤炊爨，入冬以煤禦寒，若出口暢旺，煤價必昂，於民間不無窒礙。臺地則炊爨、禦寒均無藉於煤，除出口外，別無銷路",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01",
+     "note": "Q28 只問乙文，不算"
+    },
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "30",
+     "quote": "南北各省……臺地……／若出口暢旺……",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "選項A、B",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "taimei-09",
+   "lesson": "臺煤減稅片",
+   "paragraph": 3,
+   "scene": "臺灣對煤的需求和中國大陸各省不同。",
+   "context_before": "若出口暢旺，煤價必昂，於民間不無窒礙。",
+   "sentence": "臺地則炊爨、禦寒均無藉於煤，除出口外，別無銷路",
+   "context_after": "。其煤質鬆脆，不敵西洋所產，",
+   "keywords": [
+    {
+     "word": "藉",
+     "gloss": "依賴（音ㄐㄧㄝˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "書籍",
+      "戶籍",
+      "藉口"
+     ]
+    }
+   ],
+   "meaning": "臺灣煮飯和禦寒都不依賴煤，除了出口以外，沒有別的銷路。",
+   "meaning_distractors": [
+    "臺灣沒有戶籍的人才用煤，除了出口，還有別的銷路。",
+    "臺灣煮飯和禦寒都依賴煤，所以不能出口。",
+    "臺灣不缺藉口，除了出口外，也賣給中國大陸各省。"
+   ],
+   "source_note": "課本注22；賞析二「缺乏內需市場，必須仰賴出口」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "29",
+     "quote": "南北各省按日以煤炊爨，入冬以煤禦寒，若出口暢旺，煤價必昂，於民間不無窒礙。臺地則炊爨、禦寒均無藉於煤，除出口外，別無銷路",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01",
+     "note": "Q28 只問乙文，不算"
+    }
+   ]
+  },
+  {
+   "id": "taimei-10",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "作者比較臺煤與外國煤的品質。",
+   "context_before": "除出口外，別無銷路。",
+   "sentence": "其煤質鬆脆，不敵西洋所產，而與東洋之煤尚相去不遠",
+   "context_after": "。然臺煤雖富，年來開採仍不甚旺。",
+   "keywords": [
+    {
+     "word": "敵",
+     "gloss": "比得上",
+     "pos": "動詞",
+     "distractors": [
+      "敵人",
+      "抵抗",
+      "攻打"
+     ]
+    },
+    {
+     "word": "東洋",
+     "gloss": "指日本",
+     "pos": "名詞",
+     "distractors": [
+      "東邊的海洋",
+      "東南亞各國",
+      "西洋以東的地方"
+     ]
+    }
+   ],
+   "meaning": "臺煤質地鬆脆，比不上西洋所產，但與日本的煤還相差不遠。",
+   "meaning_distractors": [
+    "臺煤質地堅硬，勝過西洋所產，但與日本的煤相差很遠。",
+    "臺煤抵抗西洋的煤，又和日本的煤一起前往遠方。",
+    "臺煤質地鬆脆，比不上日本所產，但與西洋煤相差不遠。"
+   ],
+   "source_note": "東洋：課本注23；敵：課本賞析二「質量與價格都競爭不過」；114統測第23題選項B引此句（原卷字形「所産」，課本作「所產」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "23",
+     "quote": "其煤質鬆脆，不敵西洋所産，而與東洋之煤尚相去不遠",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "taimei-11",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "臺煤儲量不少，卻有隱憂。",
+   "context_before": "其煤質鬆脆，不敵西洋所產，而與東洋之煤尚相去不遠。",
+   "sentence": "然臺煤雖富，年來開採仍不甚旺",
+   "context_after": "；其所以不旺之故，則由於滯銷。",
+   "keywords": [
+    {
+     "word": "然",
+     "gloss": "然而",
+     "pos": "連詞",
+     "distractors": [
+      "如此",
+      "的樣子",
+      "燃燒"
+     ]
+    }
+   ],
+   "meaning": "然而臺煤雖然豐富，近年來開採仍不很興盛。",
+   "meaning_distractors": [
+    "如此豐富的臺煤，明年開採一定興盛。",
+    "因為臺煤豐富，近年來開採非常興盛。",
+    "然而臺煤並不豐富，近年來開採已經停止。"
+   ],
+   "source_note": "115統測第2題選項C引此句，公告答案A（此「然」非「如此」）；課本無注，「然而」由上下文語氣可知",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "2",
+     "quote": "然臺煤雖富，年來開採仍不甚旺",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "taimei-12",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "作者說明開採不旺的真正原因。",
+   "context_before": "然臺煤雖富，年來開採仍不甚旺；",
+   "sentence": "其所以不旺之故，則由於滯銷",
+   "context_after": "。西洋產煤，金山最夥。",
+   "keywords": [
+    {
+     "word": "滯銷",
+     "gloss": "貨物銷售不順暢",
+     "pos": "動詞",
+     "distractors": [
+      "停止銷毀",
+      "運送延誤",
+      "銷路極好"
+     ]
+    }
+   ],
+   "meaning": "它不興盛的原因，是因為貨物賣不出去。",
+   "meaning_distractors": [
+    "它不興盛，因此更加暢銷。",
+    "它用來不興盛的方法，是延誤運送。",
+    "它不興盛的原因，是因為銷路太好。"
+   ],
+   "source_note": "課本注24；測驗第2題選項B考「滯銷」",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-13",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "從前臺煤的對手是誰？",
+   "context_before": "其所以不旺之故，則由於滯銷。",
+   "sentence": "西洋產煤，金山最夥",
+   "context_after": "；從前夾板船隻皆繞金山而來，",
+   "keywords": [
+    {
+     "word": "夥",
+     "gloss": "眾多",
+     "pos": "形容詞",
+     "distractors": [
+      "同夥",
+      "夥計",
+      "合作"
+     ]
+    }
+   ],
+   "meaning": "西洋產煤的地方，以金山最多。",
+   "meaning_distractors": [
+    "西洋產煤，金山的同夥最多。",
+    "西洋產煤，金山的夥計最少。",
+    "西洋產煤，只有金山合作生產。"
+   ],
+   "source_note": "課本注25",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-14",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "從前洋船運煤的方式。",
+   "context_before": "西洋產煤，金山最夥；",
+   "sentence": "從前夾板船隻皆繞金山而來，貨物而外以煤壓載",
+   "context_after": "；煤佳而價平，此固非臺煤所能敵。",
+   "keywords": [
+    {
+     "word": "夾板船隻",
+     "gloss": "兩層木板造的航海大帆船",
+     "pos": "名詞",
+     "distractors": [
+      "用木板夾住的小船",
+      "運送木板的貨船",
+      "甲板上的救生艇"
+     ]
+    },
+    {
+     "word": "壓載",
+     "gloss": "在船艙放重物以保持穩定（載，音ㄗㄞˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "壓迫運輸",
+      "超載罰款",
+      "卸下貨物"
+     ]
+    }
+   ],
+   "meaning": "從前的大帆船都繞經金山而來，貨物以外還裝煤來穩定船身。",
+   "meaning_distractors": [
+    "從前的大帆船都繞經金山而來，貨物太多，只好把煤丟棄。",
+    "從前的大帆船不經金山，只靠煤當燃料賣給別人。",
+    "從前的大帆船繞經金山，因為超載被罰，再也不裝煤。"
+   ],
+   "source_note": "課本注26、注27",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-15",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "航路改變以後，金山煤的處境也變了。",
+   "context_before": "煤佳而價平，此固非臺煤所能敵。",
+   "sentence": "自埃及紅海開通以後，洋船無須繞過金山，金山之煤遂稀，其價亦日昂",
+   "context_after": "。而臺煤仍不暢銷者，",
+   "keywords": [
+    {
+     "word": "埃及紅海開通",
+     "gloss": "蘇伊士運河通航",
+     "pos": "名詞片語",
+     "distractors": [
+      "埃及向紅海開放貿易",
+      "紅海的海盜被肅清",
+      "埃及發現新的煤礦"
+     ]
+    },
+    {
+     "word": "昂",
+     "gloss": "高漲、上揚",
+     "pos": "動詞",
+     "distractors": [
+      "抬頭",
+      "振奮",
+      "下跌"
+     ]
+    }
+   ],
+   "meaning": "自從蘇伊士運河通航以後，洋船不必繞過金山，金山的煤於是稀少，價格也日漸上漲。",
+   "meaning_distractors": [
+    "自從埃及發現新煤礦以後，洋船都繞過金山，金山的煤價日漸下跌。",
+    "自從蘇伊士運河通航以後，洋船更常到金山，金山的煤於是大增。",
+    "自從紅海海盜被肅清以後，洋船不必繞路，金山的煤價也下跌了。"
+   ],
+   "source_note": "課本注20、注28；測驗第4題選項C",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-16",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "金山煤變少了，臺煤仍賣不好。",
+   "context_before": "金山之煤遂稀，其價亦日昂。",
+   "sentence": "而臺煤仍不暢銷者，以東洋之煤成本較輕，獨擅其利故也",
+   "context_after": "。今欲分東洋之利，必將臺煤減稅以廣招徠。",
+   "keywords": [
+    {
+     "word": "擅",
+     "gloss": "專有、獨攬（音ㄕㄢˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "擅長",
+      "擅自",
+      "禪讓"
+     ]
+    }
+   ],
+   "meaning": "而臺煤仍賣不好，是因為日本的煤成本較低，獨攬了利益。",
+   "meaning_distractors": [
+    "而臺煤仍賣不好，是用日本的煤擅自代替的緣故。",
+    "而臺煤賣不好，是因為日本的煤成本較高，無利可圖。",
+    "而臺煤仍賣不好，是認為日本人擅長做生意。"
+   ],
+   "source_note": "課本注23、注29；賞析二「成本更低的東洋煤獨專其利」",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-17",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "作者提出全文的核心對策。",
+   "context_before": "以東洋之煤成本較輕，獨擅其利故也。",
+   "sentence": "今欲分東洋之利，必將臺煤減稅以廣招徠",
+   "context_after": "。洋商計較錙銖，聞風而至。",
+   "keywords": [
+    {
+     "word": "招徠",
+     "gloss": "招攬（徠，音ㄌㄞˊ，通「來」）",
+     "pos": "動詞",
+     "distractors": [
+      "招供",
+      "招待賓客",
+      "招致災禍"
+     ]
+    }
+   ],
+   "meaning": "現在想分得日本煤的利益，必須將臺煤減稅來廣泛招攬買主。",
+   "meaning_distractors": [
+    "現在想分得日本煤的利益，必須將臺煤加稅來限制買主。",
+    "現在想送給日本煤利益，必須減少臺煤產量。",
+    "現在想招待日本商人，必須將他們的稅金免除。"
+   ],
+   "source_note": "課本注30；賞析二；主旨句",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-18",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "減稅之後，洋商會有什麼反應？",
+   "context_before": "今欲分東洋之利，必將臺煤減稅以廣招徠。",
+   "sentence": "洋商計較錙銖，聞風而至",
+   "context_after": "。以後稅則雖減，而總計稅入仍不至懸殊。",
+   "keywords": [
+    {
+     "word": "計較錙銖",
+     "gloss": "微小的利益也要計較（錙銖，音ㄗ ㄓㄨ）",
+     "pos": "動詞片語",
+     "distractors": [
+      "精於計算長度",
+      "計算巨額稅收",
+      "比較笨重的器物"
+     ]
+    }
+   ],
+   "meaning": "洋商連微小的利益都計較，一聽到消息就會趕來。",
+   "meaning_distractors": [
+    "洋商不計較微利，聽到風聲反而離開。",
+    "洋商計算貨物長度，等風向好才來。",
+    "洋商想收取全部稅額，聽到減稅就趕來抗議。"
+   ],
+   "source_note": "課本注31",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-19",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "作者回應減稅是否會少收稅的疑慮。",
+   "context_before": "洋商計較錙銖，聞風而至。",
+   "sentence": "以後稅則雖減，而總計稅入仍不至懸殊，於民間生計當有起色",
+   "context_after": "。至船局所用臺煤，向係免稅，",
+   "keywords": [
+    {
+     "word": "懸殊",
+     "gloss": "相差很遠",
+     "pos": "形容詞",
+     "distractors": [
+      "懸掛獎賞",
+      "特別優待",
+      "懸而未決"
+     ]
+    }
+   ],
+   "meaning": "以後稅率雖然減少，但總計稅收也不至於相差很遠，民間生計應當會有起色。",
+   "meaning_distractors": [
+    "以後稅率雖然減少，但總計稅收大幅增加，民間生計反而變差。",
+    "以後稅率提高，總計稅收懸而未決，民間生計不會有起色。",
+    "以後稅率雖然減少，總計稅收相差很遠，朝廷將難以維持。"
+   ],
+   "source_note": "課本注32；賞析三「不會影響……國家整體稅收」",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-20",
+   "lesson": "臺煤減稅片",
+   "paragraph": 4,
+   "scene": "作者交代船政局用煤的情況。",
+   "context_before": "以後稅則雖減，而總計稅入仍不至懸殊，於民間生計當有起色。",
+   "sentence": "至船局所用臺煤，向係免稅，不在定則之內",
+   "context_after": "。今擬請將出口臺煤，每噸減為稅銀一錢。",
+   "keywords": [
+    {
+     "word": "向",
+     "gloss": "一直以來",
+     "pos": "副詞",
+     "distractors": [
+      "朝著",
+      "偏袒",
+      "方才"
+     ]
+    },
+    {
+     "word": "定則",
+     "gloss": "約定的法則",
+     "pos": "名詞",
+     "distractors": [
+      "固定的章節",
+      "決定的原因",
+      "穩定的情形"
+     ]
+    }
+   ],
+   "meaning": "至於福州船政局所用的臺煤，一直以來就是免稅，不在約定的法則之內。",
+   "meaning_distractors": [
+    "至於福州船政局所用的臺煤，方才開始課稅，要遵照約定的法則。",
+    "至於朝著船政局運送的臺煤，都不准免稅，以免違反法則。",
+    "至於民間船隻所用的臺煤，一直以來加倍課稅，寫在法則之內。"
+   ],
+   "source_note": "課本注33、注34、注35",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-21",
+   "lesson": "臺煤減稅片",
+   "paragraph": 5,
+   "scene": "作者提出具體稅額。",
+   "context_before": "至船局所用臺煤，向係免稅，不在定則之內。",
+   "sentence": "今擬請將出口臺煤，每噸減為稅銀一錢",
+   "context_after": "。如蒙天恩允准，伏懇飭下總理衙門劄行總稅司，",
+   "keywords": [
+    {
+     "word": "擬",
+     "gloss": "打算、準備",
+     "pos": "動詞",
+     "distractors": [
+      "模仿",
+      "起草",
+      "比較"
+     ]
+    }
+   ],
+   "meaning": "現在打算奏請把出口臺煤的稅，減為每噸稅銀一錢。",
+   "meaning_distractors": [
+    "現在模仿別國，把進口臺煤每噸加稅一錢。",
+    "現在已決定把出口臺煤的稅全部免除。",
+    "現在請求每噸臺煤賞賜銀子一錢。"
+   ],
+   "source_note": "課本注36",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-22",
+   "lesson": "臺煤減稅片",
+   "paragraph": 5,
+   "scene": "作者懇請皇帝批准並轉知相關單位。",
+   "context_before": "今擬請將出口臺煤，每噸減為稅銀一錢。",
+   "sentence": "如蒙天恩允准，伏懇飭下總理衙門劄行總稅司",
+   "context_after": "，明言臺煤無關民間日用，",
+   "keywords": [
+    {
+     "word": "天恩",
+     "gloss": "皇帝的恩澤",
+     "pos": "名詞",
+     "distractors": [
+      "上天的懲罰",
+      "父母的恩情",
+      "天氣的恩賜"
+     ]
+    },
+    {
+     "word": "飭下",
+     "gloss": "命令（飭，音ㄔˋ，通「敕」）",
+     "pos": "動詞",
+     "distractors": [
+      "裝飾下屬",
+      "修整下方",
+      "謹慎放下"
+     ]
+    },
+    {
+     "word": "劄行",
+     "gloss": "發出公文（劄，音ㄓㄚˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "札記出行",
+      "書信往來",
+      "捆綁發行"
+     ]
+    }
+   ],
+   "meaning": "如果承蒙皇上恩准，恭敬懇請命令總理衙門發公文給總稅司。",
+   "meaning_distractors": [
+    "如果承蒙總稅司同意，請皇上親自到總理衙門巡視。",
+    "如果皇上不准，請總理衙門裝飾文書再次上奏。",
+    "如果承蒙皇上恩准，請總稅司向總理衙門書信請安。"
+   ],
+   "source_note": "課本注37、注38、注39、注40",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "26",
+     "quote": "如蒙天恩允准，伏懇飭下總理衙門劄行總稅司",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "taimei-23",
+   "lesson": "臺煤減稅片",
+   "paragraph": 5,
+   "scene": "作者說明公文裡該如何交代減稅的理由。",
+   "context_before": "如蒙天恩允准，伏懇飭下總理衙門劄行總稅司，",
+   "sentence": "明言臺煤無關民間日用，而為洋舶所必需，是以減稅惠商",
+   "context_after": "；南北洋各口均不得援以為例。",
+   "keywords": [
+    {
+     "word": "洋舶",
+     "gloss": "外國的商船（舶，音ㄅㄛˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "海洋博物館",
+      "外國商人",
+      "海上補給"
+     ]
+    },
+    {
+     "word": "惠",
+     "gloss": "嘉惠",
+     "pos": "動詞",
+     "distractors": [
+      "聰明",
+      "實惠的價錢",
+      "賄賂"
+     ]
+    }
+   ],
+   "meaning": "明白表示臺煤與民間日常使用無關，而是外國商船所必需，因此減稅來嘉惠商人。",
+   "meaning_distractors": [
+    "明白表示臺煤是民間必需，外國商船不需要，因此減稅惠民。",
+    "明白表示臺煤與外國商船無關，因此提高稅額懲罰商人。",
+    "暗中告知洋商臺煤最好，這是用減稅來欺騙商人。"
+   ],
+   "source_note": "課本注41、注42",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-24",
+   "lesson": "臺煤減稅片",
+   "paragraph": 5,
+   "scene": "作者預先防範其他地方比照要求。",
+   "context_before": "明言臺煤無關民間日用，而為洋舶所必需，是以減稅惠商；",
+   "sentence": "南北洋各口均不得援以為例",
+   "context_after": "。愚昧之見，是否有當？",
+   "keywords": [
+    {
+     "word": "口",
+     "gloss": "通商口岸",
+     "pos": "名詞",
+     "distractors": [
+      "嘴巴",
+      "人口",
+      "缺口"
+     ]
+    },
+    {
+     "word": "援",
+     "gloss": "引用",
+     "pos": "動詞",
+     "distractors": [
+      "救助",
+      "攀爬",
+      "增援"
+     ]
+    },
+    {
+     "word": "例",
+     "gloss": "供依據的標準",
+     "pos": "名詞",
+     "distractors": [
+      "例外",
+      "舉例",
+      "慣常"
+     ]
+    }
+   ],
+   "meaning": "南北洋各通商口岸都不得引此作為標準。",
+   "meaning_distractors": [
+    "南北洋各地的人口都不得互相救助。",
+    "南北洋各通商口岸都應引此作為標準。",
+    "南北洋各地官員不得開口請求救援。"
+   ],
+   "source_note": "課本注43、注44",
+   "from_pack": []
+  },
+  {
+   "id": "taimei-25",
+   "lesson": "臺煤減稅片",
+   "paragraph": 5,
+   "scene": "奏片最後，作者以謙虛的語氣收束。",
+   "context_before": "南北洋各口均不得援以為例。",
+   "sentence": "愚昧之見，是否有當",
+   "context_after": "？謹附片覆陳，伏乞皇上聖鑒，訓示遵行。",
+   "keywords": [
+    {
+     "word": "當",
+     "gloss": "合宜、適合（音ㄉㄤˋ）",
+     "pos": "形容詞",
+     "distractors": [
+      "擔任",
+      "應當",
+      "當時"
+     ]
+    }
+   ],
+   "meaning": "我愚昧的見解，不知是否合宜？",
+   "meaning_distractors": [
+    "我愚昧的見解，一定非常合宜。",
+    "我聽說別人愚昧，應當擔任要職。",
+    "我的見解愚昧，當時無人理解。"
+   ],
+   "source_note": "課本注45；112統測第5題選項A（公告答案D，非反問慨歎）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "5",
+     "quote": "愚昧之見，是否有當",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "taimei-26",
+   "lesson": "臺煤減稅片",
+   "paragraph": 5,
+   "scene": "奏片的結尾用語。",
+   "context_before": "愚昧之見，是否有當？",
+   "sentence": "謹附片覆陳，伏乞皇上聖鑒，訓示遵行",
+   "context_after": "。謹奏。",
+   "keywords": [
+    {
+     "word": "片",
+     "gloss": "奏摺的附件",
+     "pos": "名詞",
+     "distractors": [
+      "一張紙片",
+      "切片",
+      "影片"
+     ]
+    },
+    {
+     "word": "覆陳",
+     "gloss": "回覆陳述",
+     "pos": "動詞",
+     "distractors": [
+      "再次擺設",
+      "翻覆舊事",
+      "重新審查"
+     ]
+    },
+    {
+     "word": "乞",
+     "gloss": "請求",
+     "pos": "動詞",
+     "distractors": [
+      "乞丐",
+      "給予",
+      "討飯"
+     ]
+    },
+    {
+     "word": "聖鑒",
+     "gloss": "皇帝明察",
+     "pos": "動詞",
+     "distractors": [
+      "聖人的鏡子",
+      "神聖的鑑定書",
+      "皇帝的畫像"
+     ]
+    }
+   ],
+   "meaning": "恭敬地附上這份奏片回覆陳述，俯身請求皇上明察，下達指示以便遵行。",
+   "meaning_distractors": [
+    "恭敬地附上切片標本，請皇上鑑定真偽。",
+    "恭敬地送上影片，請聖人照鏡子遵守。",
+    "請皇上不必審閱，由下官自行決定遵行。"
+   ],
+   "source_note": "片：課本題解；課本注11、注46、注47、注48",
+   "from_pack": []
+  }
+ ]
+}

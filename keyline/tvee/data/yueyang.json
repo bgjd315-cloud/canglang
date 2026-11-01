@@ -1,0 +1,1357 @@
+{
+ "lesson_id": "yueyang",
+ "lesson": "岳陽樓記",
+ "author": "范仲淹",
+ "tagline": "登同一座樓，心情為何不同？",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "yueyang-01",
+   "lesson": "岳陽樓記",
+   "paragraph": 1,
+   "scene": "文章開頭，交代一位官員來到此地的背景。",
+   "context_before": "",
+   "sentence": "慶曆四年春，滕子京謫守巴陵郡",
+   "context_after": "。越明年，政通人和，百廢具興，",
+   "keywords": [
+    {
+     "word": "謫",
+     "gloss": "貶官（音ㄓㄜˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "責備",
+      "升遷",
+      "隱居"
+     ]
+    },
+    {
+     "word": "守",
+     "gloss": "鎮守、治理",
+     "pos": "動詞",
+     "distractors": [
+      "等待",
+      "遵守",
+      "看守門戶"
+     ]
+    }
+   ],
+   "meaning": "慶曆四年春天，滕子京被貶任岳州知州。",
+   "meaning_distractors": [
+    "慶曆四年春天，滕子京升任岳州知州。",
+    "慶曆四年春天，滕子京因受責備而辭官隱居巴陵。",
+    "慶曆四年春天，滕子京到巴陵郡訪友遊歷。"
+   ],
+   "source_note": "技國課本注2",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-02",
+   "lesson": "岳陽樓記",
+   "paragraph": 1,
+   "scene": "這位官員到任之後，地方有了變化。",
+   "context_before": "慶曆四年春，滕子京謫守巴陵郡。",
+   "sentence": "越明年，政通人和，百廢具興，乃重修岳陽樓",
+   "context_after": "，增其舊制，刻唐賢今人詩賦於其上，",
+   "keywords": [
+    {
+     "word": "具",
+     "gloss": "全、都（通「俱」）",
+     "pos": "副詞",
+     "distractors": [
+      "準備",
+      "器具",
+      "才能"
+     ]
+    },
+    {
+     "word": "越",
+     "gloss": "及、到",
+     "pos": "動詞",
+     "distractors": [
+      "超過",
+      "越發",
+      "國名"
+     ]
+    }
+   ],
+   "meaning": "到了第二年，政事通達，人民和樂，眾多荒廢的政事全都興辦起來，於是重修岳陽樓。",
+   "meaning_distractors": [
+    "過了很多年，政事繁重，荒廢的事太多，只好先修岳陽樓。",
+    "第二年越來越亂，百姓不和，器具都壞了，便拆掉岳陽樓。",
+    "到了第二年，人民和樂，已準備好興辦百事，但還沒修樓。"
+   ],
+   "source_note": "技國課本注3–5；115 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "5",
+     "quote": "百廢具興，乃重修岳陽樓",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C前句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-03",
+   "lesson": "岳陽樓記",
+   "paragraph": 1,
+   "scene": "樓修好了，主事者拜託別人一件事。",
+   "context_before": "增其舊制，刻唐賢今人詩賦於其上，",
+   "sentence": "屬予作文以記之",
+   "context_after": "。予觀夫巴陵勝狀，在洞庭一湖。",
+   "keywords": [
+    {
+     "word": "屬",
+     "gloss": "請託（音ㄓㄨˇ，通「囑」）",
+     "pos": "動詞",
+     "distractors": [
+      "種類",
+      "連綴文字",
+      "勸酒"
+     ]
+    }
+   ],
+   "meaning": "請託我寫一篇文章來記述這件事。",
+   "meaning_distractors": [
+    "給我一份文章，讓我記在心裡。",
+    "我連綴文句，把這件事記下來獻給朋友。",
+    "請我喝酒，並要我記住這篇文章。"
+   ],
+   "confusables": [
+    {
+     "word": "屬",
+     "other": "舉酒「屬」客",
+     "other_lesson": "赤壁賦",
+     "same": false,
+     "note": "請託／勸請"
+    }
+   ],
+   "source_note": "技國課本注7；112 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "4",
+     "quote": "屬予作文以記之",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A後句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-04",
+   "lesson": "岳陽樓記",
+   "paragraph": 2,
+   "scene": "作者描寫巴陵最出名的湖。",
+   "context_before": "予觀夫巴陵勝狀，在洞庭一湖。",
+   "sentence": "銜遠山，吞長江，浩浩湯湯，橫無際涯",
+   "context_after": "，朝暉夕陰，氣象萬千，",
+   "keywords": [
+    {
+     "word": "浩浩湯湯",
+     "gloss": "水勢洶湧壯闊的樣子（湯，音ㄕㄤ）",
+     "pos": "形容詞",
+     "distractors": [
+      "熱水沸騰的樣子",
+      "水流緩慢的樣子",
+      "聲音響亮的樣子"
+     ]
+    },
+    {
+     "word": "銜",
+     "gloss": "含著",
+     "pos": "動詞",
+     "distractors": [
+      "官階",
+      "銜接道路",
+      "懷恨"
+     ]
+    }
+   ],
+   "meaning": "含著遠山，吸納長江的水，水勢洶湧壯闊，廣闊無邊。",
+   "meaning_distractors": [
+    "遠山銜接長江，江水平靜，一眼就望到邊。",
+    "湖邊有座叫銜遠的山，湯水橫流，到處都是邊界。",
+    "洞庭湖水流入長江，湯水滾燙，人們不能靠近。"
+   ],
+   "source_note": "技國課本注9–12",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-05",
+   "lesson": "岳陽樓記",
+   "paragraph": 2,
+   "scene": "湖上一天之內的變化。",
+   "context_before": "銜遠山，吞長江，浩浩湯湯，橫無際涯，",
+   "sentence": "朝暉夕陰，氣象萬千，此則岳陽樓之大觀也",
+   "context_after": "，前人之述備矣。",
+   "keywords": [
+    {
+     "word": "暉",
+     "gloss": "日光明朗",
+     "pos": "名詞",
+     "distractors": [
+      "月光",
+      "燈火",
+      "晚霞"
+     ]
+    },
+    {
+     "word": "大觀",
+     "gloss": "壯麗的景觀",
+     "pos": "名詞",
+     "distractors": [
+      "大的看法",
+      "宏大的樓閣",
+      "大批觀光客"
+     ]
+    }
+   ],
+   "meaning": "從早晨到傍晚的光影變化，景色豐富多變，這就是岳陽樓壯麗的景觀。",
+   "meaning_distractors": [
+    "早晚都有陰影，氣候很差，這是岳陽樓最大的缺點。",
+    "早晨陰暗，傍晚放晴，來岳陽樓的觀光客多到上萬。",
+    "朝廷的官員傍晚才來，看法不一，這就是岳陽樓的特點。"
+   ],
+   "source_note": "技國課本注13、14；111 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "10",
+     "quote": "朝暉夕陰，氣象萬千，此則岳陽樓之大觀也",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "框內例句③",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-06",
+   "lesson": "岳陽樓記",
+   "paragraph": 2,
+   "scene": "作者說明，這些景色不打算多寫。",
+   "context_before": "朝暉夕陰，氣象萬千，此則岳陽樓之大觀也，",
+   "sentence": "前人之述備矣",
+   "context_after": "。然則北通巫峽，南極瀟湘，",
+   "keywords": [
+    {
+     "word": "備",
+     "gloss": "完備、詳盡",
+     "pos": "形容詞",
+     "distractors": [
+      "準備",
+      "防備",
+      "設備"
+     ]
+    }
+   ],
+   "meaning": "前人作品中的描述已經很詳盡了。",
+   "meaning_distractors": [
+    "前人已經準備好要描述了。",
+    "前人的描述還不夠完備。",
+    "前人對這些描述有所防備。"
+   ],
+   "source_note": "技國課本注15",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-07",
+   "lesson": "岳陽樓記",
+   "paragraph": 2,
+   "scene": "這裡的交通位置，吸引了哪些人來？",
+   "context_before": "此則岳陽樓之大觀也，前人之述備矣。然則",
+   "sentence": "北通巫峽，南極瀟湘，遷客騷人，多會於此",
+   "context_after": "，覽物之情，得無異乎？",
+   "keywords": [
+    {
+     "word": "極",
+     "gloss": "到達（極，盡，引申為到達）",
+     "pos": "動詞",
+     "distractors": [
+      "最高點",
+      "非常",
+      "急迫"
+     ]
+    },
+    {
+     "word": "遷客",
+     "gloss": "遭貶謫遠調的官吏",
+     "pos": "名詞",
+     "distractors": [
+      "搬家的客人",
+      "遠道的商人",
+      "升官的人"
+     ]
+    },
+    {
+     "word": "騷人",
+     "gloss": "詩人或失意文人（騷，憂愁）",
+     "pos": "名詞",
+     "distractors": [
+      "吵鬧的人",
+      "憂愁的人",
+      "好色的人"
+     ]
+    }
+   ],
+   "meaning": "往北通到巫峽，往南可到達瀟水、湘江，遭貶謫遠調的官吏與失意的文人，大多聚集在這裡。",
+   "meaning_distractors": [
+    "北方的巫峽和南方的瀟湘最遠，只有商人和吵鬧的人會來。",
+    "向北能到巫峽，南方極為寒冷，搬家的人大多離開這裡。",
+    "北通巫峽，南接瀟湘，升官的人都在此處開會。"
+   ],
+   "source_note": "技國課本注16–18；112 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "4",
+     "quote": "北通巫峽，南極瀟湘，遷客騷人，多會於此",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "甲句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-08",
+   "lesson": "岳陽樓記",
+   "paragraph": 2,
+   "scene": "作者提出一個問題，引出下文。",
+   "context_before": "遷客騷人，多會於此，",
+   "sentence": "覽物之情，得無異乎",
+   "context_after": "？若夫霪雨霏霏，連月不開，",
+   "keywords": [
+    {
+     "word": "得無",
+     "gloss": "能夠沒有（為反詰語氣）",
+     "pos": "副詞",
+     "distractors": [
+      "得到",
+      "不得已",
+      "沒有得到"
+     ]
+    }
+   ],
+   "meaning": "他們觀覽景物的心情，能夠沒有不同嗎？",
+   "meaning_distractors": [
+    "他們看了風景，心情都沒有差別。",
+    "他們觀看別人的情緒，得不到任何異樣感受。",
+    "他們招攬物資的情況，有沒有差異？"
+   ],
+   "source_note": "技國課本注19（解為反詰「能夠沒有不同嗎」）",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-09",
+   "lesson": "岳陽樓記",
+   "paragraph": 3,
+   "scene": "天氣壞的時候，湖上是什麼樣子？",
+   "context_before": "覽物之情，得無異乎？",
+   "sentence": "若夫霪雨霏霏，連月不開",
+   "context_after": "，陰風怒號，濁浪排空；",
+   "keywords": [
+    {
+     "word": "霪",
+     "gloss": "久雨（音ㄧㄣˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "小雨",
+      "濕滑",
+      "淹沒"
+     ]
+    },
+    {
+     "word": "霏霏",
+     "gloss": "雨雪綿密的樣子（音ㄈㄟ ㄈㄟ）",
+     "pos": "形容詞",
+     "distractors": [
+      "雲氣散開的樣子",
+      "飛散的樣子",
+      "雷聲大作的樣子"
+     ]
+    },
+    {
+     "word": "開",
+     "gloss": "雲霧消散",
+     "pos": "動詞",
+     "distractors": [
+      "打開",
+      "開始",
+      "開墾"
+     ]
+    }
+   ],
+   "meaning": "至於久雨綿密不停，接連數月都不放晴。",
+   "meaning_distractors": [
+    "至於雨雪停了，一整個月都開著窗。",
+    "至於霧氣散開，連續幾個月都很晴朗。",
+    "至於小雨下了一下，月亮沒有出來。"
+   ],
+   "source_note": "技國課本注20–22；112 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "6",
+     "quote": "霪雨霏霏，連月不開",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01",
+     "note": "原文作「若夫霪雨霏霏，連月不開」；底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-10",
+   "lesson": "岳陽樓記",
+   "paragraph": 3,
+   "scene": "壞天氣時風浪如何？",
+   "context_before": "若夫霪雨霏霏，連月不開，",
+   "sentence": "陰風怒號，濁浪排空",
+   "context_after": "；日星隱耀，山岳潛形，",
+   "keywords": [
+    {
+     "word": "排",
+     "gloss": "推擠",
+     "pos": "動詞",
+     "distractors": [
+      "排列",
+      "排除",
+      "排解"
+     ]
+    }
+   ],
+   "meaning": "陰冷的風怒吼，渾濁的浪濤澎湃洶湧，推擠沖向空中。",
+   "meaning_distractors": [
+    "陰險的人大聲下令，把浪趕走。",
+    "風勢微弱，混濁的水排入空地。",
+    "冷風帶來名聲，混濁的浪排成隊伍。"
+   ],
+   "source_note": "技國課本注23；號字課本無注，改考有注的「排」",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-11",
+   "lesson": "岳陽樓記",
+   "paragraph": 3,
+   "scene": "連天上的光和地上的山都不見了。",
+   "context_before": "陰風怒號，濁浪排空；",
+   "sentence": "日星隱耀，山岳潛形",
+   "context_after": "，商旅不行，檣傾楫摧；",
+   "keywords": [
+    {
+     "word": "潛",
+     "gloss": "隱藏",
+     "pos": "動詞",
+     "distractors": [
+      "潛水",
+      "暗中",
+      "專心"
+     ]
+    }
+   ],
+   "meaning": "太陽和星星隱藏光芒，山岳隱藏形體。",
+   "meaning_distractors": [
+    "日星隱約發出光輝，山岳暗中移動。",
+    "太陽和星星很榮耀，山岳也專心修行。",
+    "太陽和星星照耀山岳，山形清楚顯現。"
+   ],
+   "source_note": "技國課本注24；耀字課本無注，故不列為選字；課本字形作「隱耀」，110 學測考正對",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-12",
+   "lesson": "岳陽樓記",
+   "paragraph": 3,
+   "scene": "這樣的天氣對往來的人有什麼影響？",
+   "context_before": "日星隱耀，山岳潛形，",
+   "sentence": "商旅不行，檣傾楫摧",
+   "context_after": "；薄暮冥冥，虎嘯猿啼。",
+   "keywords": [
+    {
+     "word": "檣",
+     "gloss": "船的桅杆（音ㄑㄧㄤˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "船帆",
+      "船尾",
+      "城牆"
+     ]
+    },
+    {
+     "word": "楫",
+     "gloss": "船槳（音ㄐㄧˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "船舵",
+      "船身",
+      "拱手作揖"
+     ]
+    },
+    {
+     "word": "摧",
+     "gloss": "折斷",
+     "pos": "動詞",
+     "distractors": [
+      "催促",
+      "傾斜",
+      "翻覆"
+     ]
+    }
+   ],
+   "meaning": "商人旅客無法通行，桅杆傾倒，船槳折斷。",
+   "meaning_distractors": [
+    "商人不想走路，城牆傾倒，船身翻覆。",
+    "旅客不肯拱手作揖，船帆被人催促前進。",
+    "商旅不可靠，船舵和船尾都被賣掉。"
+   ],
+   "source_note": "技國課本注25",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-13",
+   "lesson": "岳陽樓記",
+   "paragraph": 3,
+   "scene": "傍晚的湖邊，傳來動物的聲音。",
+   "context_before": "商旅不行，檣傾楫摧；",
+   "sentence": "薄暮冥冥，虎嘯猿啼",
+   "context_after": "。登斯樓也，則有去國懷鄉，",
+   "keywords": [
+    {
+     "word": "薄",
+     "gloss": "迫近、接近",
+     "pos": "動詞",
+     "distractors": [
+      "不厚",
+      "輕視",
+      "微小"
+     ]
+    },
+    {
+     "word": "冥冥",
+     "gloss": "昏暗",
+     "pos": "形容詞",
+     "distractors": [
+      "安靜",
+      "清澈",
+      "死後的世界"
+     ]
+    }
+   ],
+   "meaning": "傍晚時分天色昏暗，老虎吼叫，猿猴悲啼。",
+   "meaning_distractors": [
+    "傍晚的霧很薄，老虎和猿猴都很安靜。",
+    "輕視暮色的人，死後會變成虎和猿。",
+    "清晨微亮，老虎跟著猿猴一起跑走。"
+   ],
+   "source_note": "技國課本注26",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-14",
+   "lesson": "岳陽樓記",
+   "paragraph": 3,
+   "scene": "在這樣的天氣登樓，遷客騷人會想起什麼？",
+   "context_before": "薄暮冥冥，虎嘯猿啼。登斯樓也，則有",
+   "sentence": "去國懷鄉，憂讒畏譏",
+   "context_after": "，滿目蕭然，感極而悲者矣！",
+   "keywords": [
+    {
+     "word": "去",
+     "gloss": "離開",
+     "pos": "動詞",
+     "distractors": [
+      "前往",
+      "除掉",
+      "距離"
+     ]
+    },
+    {
+     "word": "讒",
+     "gloss": "毀謗（音ㄔㄢˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "貪吃",
+      "笑聲",
+      "勸諫"
+     ]
+    },
+    {
+     "word": "譏",
+     "gloss": "譏諷",
+     "pos": "名詞",
+     "distractors": [
+      "饑餓",
+      "稽查",
+      "機會"
+     ]
+    }
+   ],
+   "meaning": "就會有離開京城、懷念故鄉，擔憂遭人毀謗、害怕被人譏諷的心情。",
+   "meaning_distractors": [
+    "就會想回到國都和家鄉，擔心饑餓，害怕失去機會。",
+    "就會想前往異國，憂慮貪吃，害怕被別人稽查。",
+    "就會想除去國家的禍害，毫無憂慮，也不怕譏諷。"
+   ],
+   "confusables": [
+    {
+     "word": "去",
+     "other": "欲呼張良與俱「去」",
+     "other_lesson": "鴻門宴",
+     "same": true,
+     "note": "都是離開"
+    }
+   ],
+   "source_note": "技國課本注27、28；111 二技引此句；比較句「俱去」依文意與課本注27",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "二技",
+     "no": "16",
+     "quote": "去國懷鄉，憂讒畏譏，滿目蕭然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_2y/downloader.php?obj=MTExLTJ5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-15",
+   "lesson": "岳陽樓記",
+   "paragraph": 3,
+   "scene": "登樓的人情緒到了頂點。",
+   "context_before": "去國懷鄉，憂讒畏譏，",
+   "sentence": "滿目蕭然，感極而悲者矣",
+   "context_after": "！至若春和景明，波瀾不驚，",
+   "keywords": [
+    {
+     "word": "蕭然",
+     "gloss": "蕭條淒涼的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "瀟灑的樣子",
+      "寧靜美好的樣子",
+      "風聲大的樣子"
+     ]
+    }
+   ],
+   "meaning": "滿眼都是蕭條淒涼的景象，感慨到了極點就悲傷起來。",
+   "meaning_distractors": [
+    "滿眼都是瀟灑的人，大家都感動得流淚。",
+    "滿眼都是美好風光，高興到了極點。",
+    "看到別人淒涼，只覺得自己比他快樂。"
+   ],
+   "source_note": "技國課本注29；113、115 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "二技",
+     "no": "16",
+     "quote": "去國懷鄉，憂讒畏譏，滿目蕭然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_2y/downloader.php?obj=MTExLTJ5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "8",
+     "quote": "滿目蕭然，感極而悲者矣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "2",
+     "quote": "滿目蕭然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01",
+     "note": "四字短語"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-16",
+   "lesson": "岳陽樓記",
+   "paragraph": 4,
+   "scene": "換個好天氣，湖上又是什麼樣子？",
+   "context_before": "滿目蕭然，感極而悲者矣！",
+   "sentence": "至若春和景明，波瀾不驚",
+   "context_after": "，上下天光，一碧萬頃；",
+   "keywords": [
+    {
+     "word": "和",
+     "gloss": "和煦",
+     "pos": "形容詞",
+     "distractors": [
+      "和平",
+      "連同",
+      "應和"
+     ]
+    },
+    {
+     "word": "景",
+     "gloss": "日光",
+     "pos": "名詞",
+     "distractors": [
+      "景象",
+      "大",
+      "佩服仰慕"
+     ]
+    }
+   ],
+   "meaning": "至於春風和煦，陽光明亮，水面平靜沒有波瀾。",
+   "meaning_distractors": [
+    "至於春天景象很美，波瀾大作，令人害怕。",
+    "到了春天，大家都很佩服，波浪也不會嚇人。",
+    "春天雖暖但日光昏暗，大浪讓人驚訝。"
+   ],
+   "confusables": [
+    {
+     "word": "景",
+     "other": "我先王先民之「景」命",
+     "other_lesson": "臺灣通史序",
+     "same": false,
+     "note": "日光／大，103 指考"
+    }
+   ],
+   "source_note": "技國課本注30；驚字課本無注，改考有注的「和」",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-17",
+   "lesson": "岳陽樓記",
+   "paragraph": 4,
+   "scene": "向遠處望去，天色和水色連成一片。",
+   "context_before": "至若春和景明，波瀾不驚，",
+   "sentence": "上下天光，一碧萬頃",
+   "context_after": "；沙鷗翔集，錦鱗游泳；",
+   "keywords": [
+    {
+     "word": "頃",
+     "gloss": "百畝，形容湖面廣闊",
+     "pos": "量詞",
+     "distractors": [
+      "一會兒",
+      "傾斜",
+      "最近"
+     ]
+    }
+   ],
+   "meaning": "天光水色交互輝映，湖面一片碧綠，廣闊無邊。",
+   "meaning_distractors": [
+    "天光忽上忽下，一會兒就變綠了。",
+    "只有上方有光，綠色的田地傾斜了萬次。",
+    "天上有光，湖面一片黑暗。"
+   ],
+   "source_note": "技國課本注31、32",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-18",
+   "lesson": "岳陽樓記",
+   "paragraph": 4,
+   "scene": "湖上的生物也很活躍。",
+   "context_before": "上下天光，一碧萬頃；",
+   "sentence": "沙鷗翔集，錦鱗游泳",
+   "context_after": "；岸芷汀蘭，郁郁青青。",
+   "keywords": [
+    {
+     "word": "集",
+     "gloss": "棲息，鳥棲息在樹上",
+     "pos": "動詞",
+     "distractors": [
+      "市集",
+      "聚集成書",
+      "到達"
+     ]
+    },
+    {
+     "word": "錦鱗",
+     "gloss": "美麗的魚（鱗，借指魚）",
+     "pos": "名詞",
+     "distractors": [
+      "魚鱗般的錦緞",
+      "美麗的衣服",
+      "水面的波紋"
+     ]
+    }
+   ],
+   "meaning": "沙鷗飛翔棲息，美麗的魚兒在水中游動。",
+   "meaning_distractors": [
+    "沙洲上的海鷗都飛去集市，有人穿著錦衣游泳。",
+    "沙子聚集成堆，魚鱗般的波紋隨著水流。",
+    "海鷗編成詩集，魚兒用錦緞包好。"
+   ],
+   "source_note": "技國課本注33、34；113 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "3",
+     "quote": "沙鷗翔集，錦鱗游泳",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-19",
+   "lesson": "岳陽樓記",
+   "paragraph": 4,
+   "scene": "岸邊的植物長得如何？",
+   "context_before": "沙鷗翔集，錦鱗游泳；",
+   "sentence": "岸芷汀蘭，郁郁青青",
+   "context_after": "。而或長煙一空，皓月千里，",
+   "keywords": [
+    {
+     "word": "汀",
+     "gloss": "水邊平地或水中沙洲（音ㄊㄧㄥ）",
+     "pos": "名詞",
+     "distractors": [
+      "小船",
+      "小島上的樹",
+      "水中的深處"
+     ]
+    },
+    {
+     "word": "郁郁",
+     "gloss": "香氣濃烈的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "憂愁的樣子",
+      "文采豐富的樣子",
+      "寒冷的樣子"
+     ]
+    },
+    {
+     "word": "青青",
+     "gloss": "茂盛的樣子（青，音ㄐㄧㄥ，通「菁」）",
+     "pos": "形容詞",
+     "distractors": [
+      "清澈的樣子",
+      "年輕的樣子",
+      "顏色深綠的樣子"
+     ]
+    }
+   ],
+   "meaning": "岸邊及沙洲上的白芷和蘭草，香氣濃郁，花葉茂盛。",
+   "meaning_distractors": [
+    "岸邊的小船上放著蘭花，大家憂愁又傷心。",
+    "蘭花長在深水中，青色的葉子已經枯萎。",
+    "岸上的人名叫芷，水中的人名叫蘭，兩人文采都很好。"
+   ],
+   "source_note": "技國課本注35、36",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-20",
+   "lesson": "岳陽樓記",
+   "paragraph": 4,
+   "scene": "夜晚的洞庭湖又是一番景象。",
+   "context_before": "而或長煙一空，皓月千里，",
+   "sentence": "浮光躍金，靜影沉璧",
+   "context_after": "，漁歌互答，此樂何極！",
+   "keywords": [
+    {
+     "word": "璧",
+     "gloss": "璧玉",
+     "pos": "名詞",
+     "distractors": [
+      "牆壁",
+      "完整歸還",
+      "斷崖"
+     ]
+    },
+    {
+     "word": "躍金",
+     "gloss": "閃爍的黃金",
+     "pos": "名詞",
+     "distractors": [
+      "跳躍的金魚",
+      "熔化的金屬",
+      "躍動的火光"
+     ]
+    }
+   ],
+   "meaning": "月光照在浮動的水面上，有如閃爍的黃金；月影倒映在平靜的水中，有如沉下的璧玉。",
+   "meaning_distractors": [
+    "水面日光跳動，水中日影像牆壁一樣倒下。",
+    "黃金浮在水上跳躍，有人把玉璧沉到水裡祭祀。",
+    "光影全消失，只有漁人靜靜地坐著。"
+   ],
+   "source_note": "技國課本注38、39；114 統測化用此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "26",
+     "quote": "躍金沉璧岳陽樓",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "節錄改寫",
+     "location": "李穡〈詠月〉詩",
+     "paper_checked": "2026-11-01",
+     "note": "化用「浮光躍金，靜影沉璧」"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-21",
+   "lesson": "岳陽樓記",
+   "paragraph": 4,
+   "scene": "在好天氣登樓，心情如何？",
+   "context_before": "漁歌互答，此樂何極！登斯樓也，",
+   "sentence": "則有心曠神怡，寵辱偕忘",
+   "context_after": "，把酒臨風，其喜洋洋者矣！",
+   "keywords": [
+    {
+     "word": "偕",
+     "gloss": "皆、都（音ㄒㄧㄝ）",
+     "pos": "副詞",
+     "distractors": [
+      "和諧",
+      "一同前往",
+      "帶領"
+     ]
+    },
+    {
+     "word": "曠",
+     "gloss": "開朗",
+     "pos": "形容詞",
+     "distractors": [
+      "荒廢",
+      "空無一人",
+      "耽誤"
+     ]
+    }
+   ],
+   "meaning": "就會心情開朗，精神愉悅，榮耀和屈辱都忘記。",
+   "meaning_distractors": [
+    "就會感到荒廢心神，寵愛與屈辱全都記住。",
+    "就會心中空虛，只想被君王寵愛。",
+    "就會精神不濟，忘記和諧的道理。"
+   ],
+   "source_note": "技國課本注40、41；115 二技、統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "1",
+     "quote": "心曠神怡，寵辱偕忘",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A後句",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "7",
+     "quote": "登斯樓也，則有心曠神怡，寵辱偕忘",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-22",
+   "lesson": "岳陽樓記",
+   "paragraph": 4,
+   "scene": "登樓的人臨風舉杯。",
+   "context_before": "登斯樓也，則有心曠神怡，寵辱偕忘，",
+   "sentence": "把酒臨風，其喜洋洋者矣",
+   "context_after": "！",
+   "keywords": [
+    {
+     "word": "把",
+     "gloss": "拿、握",
+     "pos": "動詞",
+     "distractors": [
+      "把守",
+      "把柄",
+      "數量詞"
+     ]
+    },
+    {
+     "word": "洋洋",
+     "gloss": "得意快樂的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "水大的樣子",
+      "眾多的樣子",
+      "寬廣的樣子"
+     ]
+    }
+   ],
+   "meaning": "端起酒杯迎著風，那份喜悅顯得十分愉快。",
+   "meaning_distractors": [
+    "把酒倒在風中，滿心傷感。",
+    "看守酒罈的人吹著風，喜歡大海。",
+    "酒被風吹翻，大家都覺得可惜。"
+   ],
+   "source_note": "技國課本本句無注，字義依文意初擬",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "本句課本全無注釋，「把」作拿、「洋洋」作得意快樂都依文意，請老師確認。"
+  },
+  {
+   "id": "yueyang-23",
+   "lesson": "岳陽樓記",
+   "paragraph": 5,
+   "scene": "作者轉入感嘆，說到自己追尋的一種人。",
+   "context_before": "登斯樓也，則有心曠神怡，寵辱偕忘，把酒臨風，其喜洋洋者矣！嗟夫！",
+   "sentence": "予嘗求古仁人之心，或異二者之為",
+   "context_after": "，何哉？不以物喜，不以己悲。",
+   "keywords": [
+    {
+     "word": "或",
+     "gloss": "有的",
+     "pos": "副詞",
+     "distractors": [
+      "或許",
+      "或者",
+      "迷惑"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "表現",
+     "pos": "名詞",
+     "distractors": [
+      "因為",
+      "替",
+      "成為"
+     ]
+    },
+    {
+     "word": "二者",
+     "gloss": "因雨而悲、遇晴則喜兩種心情",
+     "pos": "名詞",
+     "distractors": [
+      "古代仁人",
+      "老師與學生",
+      "作者與滕子京"
+     ]
+    }
+   ],
+   "meaning": "我曾探求古代仁人的心思，有的不同於遷客騷人雨悲、晴喜的表現。",
+   "meaning_distractors": [
+    "我曾請求古代仁人的幫忙，有人懷疑兩人的作為。",
+    "我想知道仁人的心，他們和兩種人完全相同。",
+    "我曾經尋找仁人，有人替他們做了兩件怪事。"
+   ],
+   "source_note": "技國課本注42",
+   "from_pack": []
+  },
+  {
+   "id": "yueyang-24",
+   "lesson": "岳陽樓記",
+   "paragraph": 5,
+   "scene": "古代仁人的心境和一般人不同在哪裡？",
+   "context_before": "予嘗求古仁人之心，或異二者之為，何哉？",
+   "sentence": "不以物喜，不以己悲",
+   "context_after": "。居廟堂之高，則憂其民；處江湖之遠，則憂其君。",
+   "keywords": [
+    {
+     "word": "以",
+     "gloss": "因為",
+     "pos": "介詞",
+     "distractors": [
+      "用",
+      "以為",
+      "而且"
+     ]
+    }
+   ],
+   "meaning": "不因外在環境或自身遭遇的好壞，而感到欣喜或悲傷。",
+   "meaning_distractors": [
+    "不用物品取悅別人，也不為別人悲傷。",
+    "喜歡外物勝過喜歡自己，所以不會悲傷。",
+    "不認為外物可喜，只為自己感到悲傷。"
+   ],
+   "source_note": "技國課本注43；113 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "36",
+     "quote": "不以物喜，不以己悲",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-25",
+   "lesson": "岳陽樓記",
+   "paragraph": 5,
+   "scene": "無論在朝或在野，他們心裡都掛著別人。",
+   "context_before": "不以物喜，不以己悲。",
+   "sentence": "居廟堂之高，則憂其民；處江湖之遠，則憂其君",
+   "context_after": "。是進亦憂，退亦憂。然則何時而樂耶？",
+   "keywords": [
+    {
+     "word": "廟堂",
+     "gloss": "朝廷",
+     "pos": "名詞",
+     "distractors": [
+      "祖廟",
+      "廟裡的大殿",
+      "官員的家"
+     ]
+    },
+    {
+     "word": "江湖",
+     "gloss": "民間",
+     "pos": "名詞",
+     "distractors": [
+      "各地行走的藝人",
+      "江河與湖泊",
+      "幫派世界"
+     ]
+    }
+   ],
+   "meaning": "在朝為官，就憂慮人民；不在朝為官、退居在野，就憂慮國君。",
+   "meaning_distractors": [
+    "住在高高的廟裡，就替人民祈福；住在遠方的湖邊，就祭拜國君。",
+    "在朝為官只擔心自己，退居在野就完全忘記國君。",
+    "當官的人憂慮國君，隱居的人憂慮百姓。"
+   ],
+   "source_note": "技國課本注44、45；107 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "統測",
+     "no": "35",
+     "quote": "居廟堂之高，則憂其民；處江湖之遠，則憂其君",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/107_4y/downloader.php?obj=MTA3LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01",
+     "note": "此頁為圖檔，人工看圖確認"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-26",
+   "lesson": "岳陽樓記",
+   "paragraph": 5,
+   "scene": "一直憂慮，那要到什麼時候才能快樂？",
+   "context_before": "居廟堂之高，則憂其民；處江湖之遠，則憂其君。",
+   "sentence": "是進亦憂，退亦憂。然則何時而樂耶",
+   "context_after": "？其必曰「先天下之憂而憂，後天下之樂而樂」乎！",
+   "keywords": [
+    {
+     "word": "進",
+     "gloss": "在朝為官",
+     "pos": "動詞",
+     "distractors": [
+      "向前走",
+      "進獻",
+      "超越"
+     ]
+    },
+    {
+     "word": "然則",
+     "gloss": "既然如此，那麼",
+     "pos": "連詞",
+     "distractors": [
+      "然而",
+      "這樣的確",
+      "雖然"
+     ]
+    }
+   ],
+   "meaning": "這樣在朝憂慮，退隱也憂慮，那麼什麼時候才快樂呢？",
+   "meaning_distractors": [
+    "於是前進憂慮，後退快樂，什麼時候都能快樂。",
+    "這樣進獻和退回都讓人擔心，然而時時都很快樂。",
+    "只有在朝才憂慮，退隱之後就很快樂了。"
+   ],
+   "source_note": "技國課本本句無注；「進」對應注44「在朝為官」，「然則」依文意初擬",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「進」作在朝為官課本只注「居廟堂」，「然則」也無注，請老師確認。"
+  },
+  {
+   "id": "yueyang-27",
+   "lesson": "岳陽樓記",
+   "paragraph": 5,
+   "scene": "作者替古仁人回答前一個問題。",
+   "context_before": "是進亦憂，退亦憂。然則何時而樂耶？",
+   "sentence": "其必曰「先天下之憂而憂，後天下之樂而樂」乎",
+   "context_after": "！噫！微斯人，吾誰與歸？",
+   "keywords": [
+    {
+     "word": "先",
+     "gloss": "在……之前，先憂慮",
+     "pos": "動詞",
+     "distractors": [
+      "祖先",
+      "首先",
+      "已去世的"
+     ]
+    },
+    {
+     "word": "後",
+     "gloss": "在……之後，才快樂",
+     "pos": "動詞",
+     "distractors": [
+      "後代",
+      "落後",
+      "之後的人"
+     ]
+    }
+   ],
+   "meaning": "他們大概會說：在天下人還沒憂慮前就先憂慮，在天下人都快樂後才快樂吧！",
+   "meaning_distractors": [
+    "他一定說：天下人憂慮時他快樂，天下人快樂時他憂慮。",
+    "他們的祖先說：要先快樂，再為天下憂慮。",
+    "他說：天下的憂和樂都與自己無關。"
+   ],
+   "source_note": "技國課本注46；課本句末作「乎」；114 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "27",
+     "quote": "先天下之憂而憂，後天下之樂而樂",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "題組選文、選項B",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "yueyang-28",
+   "lesson": "岳陽樓記",
+   "paragraph": 5,
+   "scene": "文章的結尾，作者發出感嘆。",
+   "context_before": "其必曰「先天下之憂而憂，後天下之樂而樂」乎！",
+   "sentence": "噫！微斯人，吾誰與歸",
+   "context_after": "？",
+   "keywords": [
+    {
+     "word": "微",
+     "gloss": "無，沒有",
+     "pos": "動詞",
+     "distractors": [
+      "輕",
+      "暗中",
+      "卑賤"
+     ]
+    },
+    {
+     "word": "與",
+     "gloss": "向",
+     "pos": "介詞",
+     "distractors": [
+      "和",
+      "給予",
+      "親近"
+     ]
+    },
+    {
+     "word": "斯人",
+     "gloss": "這種人，指先憂後樂的仁人",
+     "pos": "名詞",
+     "distractors": [
+      "文雅的人",
+      "死去的人",
+      "這個地方"
+     ]
+    }
+   ],
+   "meaning": "唉！沒有這種人，我要歸附誰呢？",
+   "meaning_distractors": [
+    "唉！這個人很卑微，我不想和他同歸。",
+    "唉！暗中注意這個人，我和誰一起回家？",
+    "唉！這個人死了，我要向誰請教？"
+   ],
+   "confusables": [
+    {
+     "word": "微",
+     "other": "動刀甚「微」",
+     "other_lesson": "庖丁解牛",
+     "same": false,
+     "note": "無、沒有／輕"
+    },
+    {
+     "word": "微",
+     "other": "「微」夫人之力不及此",
+     "other_lesson": "燭之武退秦師",
+     "same": true,
+     "note": "都是無、沒有"
+    }
+   ],
+   "source_note": "技國課本注47、48；111 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "二技",
+     "no": "5",
+     "quote": "噫！微斯人，吾誰與歸",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_2y/downloader.php?obj=MTExLTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C後句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  }
+ ]
+}

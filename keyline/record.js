@@ -1,7 +1,7 @@
 // 紀錄模組（第一階段）：進度只存在這支手機的 localStorage，只記座號不記姓名。
 // 第二階段若要看全班錯題，只要換掉這個檔案裡的讀寫，遊戲本體不用改。
 window.KeylineRecord = (function () {
-  const KEY = "cl_keyline_v1";
+  const KEY = (window.KL_CFG && window.KL_CFG.storeKey) || "cl_keyline_v1";
   let mem = { seat: "", cls: "", level: "normal", lessons: {}, lastDay: "", streak: 0, points: 0, wins: 0, rounds: 0, pending: 0, pendingWin: false, best: {} };
   try { mem = Object.assign(mem, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch (e) { /* 私密視窗讀不到時，只留在記憶體 */ }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(mem)); } catch (e) { /* 同上 */ } };

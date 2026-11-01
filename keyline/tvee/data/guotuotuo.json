@@ -1,0 +1,1517 @@
+{
+ "lesson_id": "guotuotuo",
+ "lesson": "種樹郭橐駝傳",
+ "author": "柳宗元",
+ "tagline": "駝背老人的種樹祕訣是什麼？",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "guotuotuo-01",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 1,
+   "scene": "故事開頭，介紹這位種樹人的外型。",
+   "context_before": "郭橐駝，不知始何名。",
+   "sentence": "病僂，隆然伏行，有類橐駝者",
+   "context_after": "，故鄉人號之「駝」。",
+   "keywords": [
+    {
+     "word": "僂",
+     "gloss": "駝背（辭典音ㄌㄡˊ，另有注音ㄌㄩˇ）",
+     "pos": "名詞",
+     "distractors": [
+      "跛腳",
+      "失明",
+      "消瘦"
+     ]
+    },
+    {
+     "word": "類",
+     "gloss": "類似",
+     "pos": "動詞",
+     "distractors": [
+      "種類",
+      "類推",
+      "都"
+     ]
+    }
+   ],
+   "meaning": "他患了駝背病，背部高高隆起，彎身走路，樣子像駱駝。",
+   "meaning_distractors": [
+    "他腿有病，很高地跳著走，像駱駝一樣快。",
+    "他養了生病的駱駝，每天牽著慢慢走。",
+    "他身體消瘦，很像另一個叫橐駝的人。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：僂（ㄌㄡˊ），彎曲的背部；類，相似；國學治要學習網注：曲背；114 統測",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "3",
+     "quote": "病僂，隆然伏行，有類橐駝者",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-02",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 1,
+   "scene": "同鄉替他取了綽號，他的反應出人意料。",
+   "context_before": "故鄉人號之「駝」。駝聞之曰：「",
+   "sentence": "甚善，名我固當",
+   "context_after": "。」因舍其名，亦自謂橐駝云。",
+   "keywords": [
+    {
+     "word": "名",
+     "gloss": "替……命名",
+     "pos": "動詞",
+     "distractors": [
+      "名聲",
+      "有名的",
+      "名字"
+     ]
+    },
+    {
+     "word": "固",
+     "gloss": "確實",
+     "pos": "副詞",
+     "distractors": [
+      "堅固",
+      "固執",
+      "鞏固"
+     ]
+    }
+   ],
+   "meaning": "很好，這樣稱呼我確實恰當。",
+   "meaning_distractors": [
+    "很好，我的名聲很穩固，應當如此。",
+    "太過分了，我的名字不該被改。",
+    "很好，我一定會當上有名的人。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：名，指稱；固，當然、誠然；中華古詩文古書籍網注釋：名，稱呼；固，確實；111 統測",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "2",
+     "quote": "駝聞之，曰：甚善，名我固當",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B後句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-03",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 1,
+   "scene": "聽了綽號以後，他做了一個決定。",
+   "context_before": "駝聞之曰：「甚善，名我固當。」",
+   "sentence": "因舍其名，亦自謂橐駝云",
+   "context_after": "。其鄉曰豐樂鄉，在長安西。",
+   "keywords": [
+    {
+     "word": "舍",
+     "gloss": "捨棄（通「捨」）",
+     "pos": "動詞",
+     "distractors": [
+      "房舍",
+      "休息",
+      "軍隊行程"
+     ]
+    },
+    {
+     "word": "因",
+     "gloss": "於是",
+     "pos": "連詞",
+     "distractors": [
+      "因為",
+      "依照",
+      "沿襲"
+     ]
+    }
+   ],
+   "meaning": "於是捨棄原來的名字，也自稱橐駝。",
+   "meaning_distractors": [
+    "因為他的房舍很舊，所以自稱橐駝。",
+    "於是把名字留給房舍，自己不再叫橐駝。",
+    "依照原來的名字，他也叫別人橐駝。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：舍（ㄕㄜˇ），放棄；因，於是",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-04",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 2,
+   "scene": "他的種樹本領在長安很有名。",
+   "context_before": "其鄉曰豐樂鄉，在長安西。駝業種樹，",
+   "sentence": "凡長安豪富人為觀遊及賣果者，皆爭迎取養",
+   "context_after": "。視駝所種樹，或移徙，無不活。",
+   "keywords": [
+    {
+     "word": "爭",
+     "gloss": "爭相",
+     "pos": "副詞",
+     "distractors": [
+      "爭吵",
+      "諫諍",
+      "怎麼"
+     ]
+    },
+    {
+     "word": "取養",
+     "gloss": "雇用奉養",
+     "pos": "動詞",
+     "distractors": [
+      "領養孩子",
+      "取用食物",
+      "養育動物"
+     ]
+    }
+   ],
+   "meaning": "凡是長安經營園林遊覽和賣水果的富人，都爭著迎接雇用他。",
+   "meaning_distractors": [
+    "長安的富人要去旅遊賣果，都爭著請他餵養孩子。",
+    "長安的富人觀賞他種的樹後，爭著買他的水果。",
+    "長安的富人都討厭他，不肯讓他進園林。"
+   ],
+   "source_note": "中華古詩文古書籍網注釋：為觀遊，經營園林遊覽；取養，雇用；重編國語辭典修訂本（萌典）：爭，奪取、互不相讓",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-05",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 2,
+   "scene": "他種的樹和別人種的有什麼不同？",
+   "context_before": "皆爭迎取養。",
+   "sentence": "視駝所種樹，或移徙，無不活，且碩茂早實以蕃",
+   "context_after": "。他植者雖窺伺傚慕，莫能如也。",
+   "keywords": [
+    {
+     "word": "實",
+     "gloss": "結果實（作動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "確實",
+      "充實",
+      "實際"
+     ]
+    },
+    {
+     "word": "蕃",
+     "gloss": "繁盛（音ㄈㄢˊ）",
+     "pos": "形容詞",
+     "distractors": [
+      "外族",
+      "籬笆",
+      "遮蔽"
+     ]
+    },
+    {
+     "word": "或",
+     "gloss": "有的",
+     "pos": "副詞",
+     "distractors": [
+      "也許",
+      "迷惑",
+      "寧可"
+     ]
+    }
+   ],
+   "meaning": "看他種的樹，有的是移植來的，也沒有不活的，而且長得高大茂盛，結果又早又多。",
+   "meaning_distractors": [
+    "看他種的樹，有人偷走，樹都死了，果實晚而且稀少。",
+    "他的樹很早就確實長高，但外族的樹更多。",
+    "他只種不移的樹，其他的樹都不活。"
+   ],
+   "source_note": "中華古詩文古書籍網注釋：實，結果實；蕃，多；譯文作「有的是移植來的」；重編國語辭典修訂本（萌典）：蕃，茂盛、眾多；或，有的",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-06",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 2,
+   "scene": "別的種樹人怎麼看待他？",
+   "context_before": "視駝所種樹，或移徙，無不活，且碩茂早實以蕃。",
+   "sentence": "他植者雖窺伺傚慕，莫能如也",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "如",
+     "gloss": "比得上",
+     "pos": "動詞",
+     "distractors": [
+      "如果",
+      "往、到",
+      "順從"
+     ]
+    },
+    {
+     "word": "傚",
+     "gloss": "模仿",
+     "pos": "動詞",
+     "distractors": [
+      "功效",
+      "獻出",
+      "學校"
+     ]
+    }
+   ],
+   "meaning": "其他種樹的人雖然暗中觀察模仿，卻沒有人比得上他。",
+   "meaning_distractors": [
+    "其他種樹的人偷看他，也都順利種得一樣好。",
+    "其他種樹的人仰慕他，都來拜他為師。",
+    "如果其他人模仿他，就不必再種樹了。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：如，比得上；傚，摹仿；中華古詩文古書籍網注釋；113 統測（字形依原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "2",
+     "quote": "他植者雖窺伺傚慕，莫能如也",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "題幹",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-07",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "有人來問祕訣，他先否定一個說法。",
+   "context_before": "有問之，對曰：「",
+   "sentence": "橐駝非能使木壽且孳也",
+   "context_after": "，能順木之天，以致其性焉爾。",
+   "keywords": [
+    {
+     "word": "孳",
+     "gloss": "繁殖生長（音ㄗ）",
+     "pos": "動詞",
+     "distractors": [
+      "滋味",
+      "勤勉",
+      "嬰兒"
+     ]
+    },
+    {
+     "word": "壽",
+     "gloss": "長久生存",
+     "pos": "形容詞",
+     "distractors": [
+      "生日",
+      "祝賀",
+      "年紀"
+     ]
+    }
+   ],
+   "meaning": "我並不能使樹木活得長久又繁盛。",
+   "meaning_distractors": [
+    "我能使樹木活得長久又多子。",
+    "我不能祝賀樹木生日，也不能澆水。",
+    "我做的事不是讓樹長壽，而是讓樹快死。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：孳（ㄗ），滋生繁殖；壽，長久；中華古詩文古書籍網注釋；112 二技第 36–38 題題組選文",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "36",
+     "quote": "橐駝非能使木壽且孳也……又何以蕃吾生而安吾性耶",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "37",
+     "quote": "橐駝非能使木壽且孳也……又何以蕃吾生而安吾性耶",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "38",
+     "quote": "橐駝非能使木壽且孳也……又何以蕃吾生而安吾性耶",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-08",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "那麼他真正做到的是什麼？",
+   "context_before": "有問之，對曰：「橐駝非能使木壽且孳也，",
+   "sentence": "能順木之天，以致其性焉爾",
+   "context_after": "。凡植木之性，其本欲舒，其培欲平。",
+   "keywords": [
+    {
+     "word": "天",
+     "gloss": "天性",
+     "pos": "名詞",
+     "distractors": [
+      "上天",
+      "天氣",
+      "日子"
+     ]
+    },
+    {
+     "word": "致",
+     "gloss": "使……達到",
+     "pos": "動詞",
+     "distractors": [
+      "送達",
+      "招來",
+      "細密"
+     ]
+    }
+   ],
+   "meaning": "只是能順著樹木的天性，使它的本性得以發揮罷了。",
+   "meaning_distractors": [
+    "只是能順應天氣，導致樹木改變本性。",
+    "能使天空順暢，並送來樹木的種子。",
+    "能把樹木送到天上，讓它的本性消失。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：天，自然；致，達到；中華古詩文古書籍網注釋：天，自然生長規律；致其性，使它按本性成長；課程手冊示例：順應本性；115 統測第 8 題",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-09",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "他說明種樹的四個原則。",
+   "context_before": "能順木之天，以致其性焉爾。凡植木之性，",
+   "sentence": "其本欲舒，其培欲平，其土欲故，其築欲密",
+   "context_after": "。既然已，勿動勿慮，去不復顧。",
+   "keywords": [
+    {
+     "word": "本",
+     "gloss": "根",
+     "pos": "名詞",
+     "distractors": [
+      "書本",
+      "原本",
+      "本錢"
+     ]
+    },
+    {
+     "word": "故",
+     "gloss": "舊",
+     "pos": "形容詞",
+     "distractors": [
+      "所以",
+      "緣故",
+      "故意"
+     ]
+    },
+    {
+     "word": "築",
+     "gloss": "搗土使堅實",
+     "pos": "動詞",
+     "distractors": [
+      "建造房屋",
+      "樂器名",
+      "牆壁"
+     ]
+    }
+   ],
+   "meaning": "樹根要舒展，培土要平，要用原來的舊土，搗土要緊密。",
+   "meaning_distractors": [
+    "書本要攤開，培訓要公平，土地要故意翻過，建築要緊密。",
+    "樹根要緊密，培土要高，用新的土，搗土要鬆。",
+    "本錢要充足，土地要平整，要有舊房子，並建造圍牆。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：本，草木的根幹；故，原來的；築，擣土使堅實；中華古詩文古書籍網注釋；課程手冊示例列入對植物的認知；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-10",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "樹種好了以後，接下來怎麼辦？",
+   "context_before": "其土欲故，其築欲密。",
+   "sentence": "既然已，勿動勿慮，去不復顧",
+   "context_after": "。其蒔也若子，其置也若棄。",
+   "keywords": [
+    {
+     "word": "顧",
+     "gloss": "回頭看",
+     "pos": "動詞",
+     "distractors": [
+      "照顧他人",
+      "但是",
+      "拜訪"
+     ]
+    },
+    {
+     "word": "既",
+     "gloss": "已經",
+     "pos": "副詞",
+     "distractors": [
+      "既然",
+      "全部",
+      "不久"
+     ]
+    }
+   ],
+   "meaning": "這樣做完之後，就不要再動它、掛念它，離開後不再回頭看。",
+   "meaning_distractors": [
+    "既然這樣做不對，就不要動，走了以後再回頭照顧。",
+    "做完以後要時時擔心，每天回來看。",
+    "全部的樹都不動，也沒有人去照顧它們。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：顧，回頭看；既，已經；中華古詩文古書籍網注釋；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-11",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "他用兩個比喻說明種樹的態度。",
+   "context_before": "既然已，勿動勿慮，去不復顧。",
+   "sentence": "其蒔也若子，其置也若棄",
+   "context_after": "，則其天者全而其性得矣。",
+   "keywords": [
+    {
+     "word": "蒔",
+     "gloss": "栽種（辭典音ㄕˊ，另有注音ㄕˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "等待",
+      "時間",
+      "澆水"
+     ]
+    },
+    {
+     "word": "若",
+     "gloss": "好像",
+     "pos": "動詞",
+     "distractors": [
+      "你",
+      "如果",
+      "及"
+     ]
+    }
+   ],
+   "meaning": "栽種時要像照顧孩子般細心，種好後要像丟棄般不去理會。",
+   "meaning_distractors": [
+    "如果等待孩子，就要把他放棄。",
+    "他把樹當孩子養，一直放在身邊不放手。",
+    "你栽種時很隨便，放好後就日夜照顧。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：蒔（ㄕˊ），種植；若，似、好像；中華古詩文古書籍網注釋注音 shì；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-12",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "這樣做，樹木會怎麼樣？",
+   "context_before": "其蒔也若子，其置也若棄，",
+   "sentence": "則其天者全而其性得矣",
+   "context_after": "。故吾不害其長而已，非有能碩茂之也。",
+   "keywords": [
+    {
+     "word": "全",
+     "gloss": "保全",
+     "pos": "動詞",
+     "distractors": [
+      "全部",
+      "完美",
+      "都"
+     ]
+    },
+    {
+     "word": "得",
+     "gloss": "順遂發揮",
+     "pos": "動詞",
+     "distractors": [
+      "得到",
+      "能夠",
+      "必須"
+     ]
+    }
+   ],
+   "meaning": "那麼樹木的天性就得以保全，本性也能順遂發揮了。",
+   "meaning_distractors": [
+    "那麼天下人都全部得到本性了。",
+    "那麼樹木的天性全部消失，得不到本性了。",
+    "那麼上天就會保全他，他也能得到好處。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：全，使完整；中華古詩文古書籍網注釋：其性得矣，本性得到了；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-13",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "他謙虛地說明自己其實沒做什麼。",
+   "context_before": "則其天者全而其性得矣。故吾不害其長而已，非有能碩茂之也；",
+   "sentence": "不抑耗其實而已，非有能早而蕃之也",
+   "context_after": "。他植者則不然，根拳而土易。",
+   "keywords": [
+    {
+     "word": "抑耗",
+     "gloss": "壓抑損耗",
+     "pos": "動詞",
+     "distractors": [
+      "抑制消耗水分",
+      "抑鬱耗費",
+      "壓低價錢"
+     ]
+    },
+    {
+     "word": "實",
+     "gloss": "果實",
+     "pos": "名詞",
+     "distractors": [
+      "確實",
+      "老實",
+      "結果實"
+     ]
+    }
+   ],
+   "meaning": "只是不壓抑損耗它的果實罷了，並非有能力讓它早結果又結得多。",
+   "meaning_distractors": [
+    "只是不抑制它的果實，所以它一定能早結果又結得多。",
+    "他確實壓抑損耗了果實，但仍然使它繁盛。",
+    "他不敢損耗自己的老實，也不能很早就繁盛。"
+   ],
+   "source_note": "中華古詩文古書籍網注釋：不抑耗其實，不抑制、損耗它的果實；重編國語辭典修訂本（萌典）：實，果實；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-14",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "他再說別人種樹的做法。",
+   "context_before": "不抑耗其實而已，非有能早而蕃之也。",
+   "sentence": "他植者則不然，根拳而土易",
+   "context_after": "，其培之也，若不過焉則不及。",
+   "keywords": [
+    {
+     "word": "拳",
+     "gloss": "拳曲",
+     "pos": "形容詞",
+     "distractors": [
+      "拳頭",
+      "拳法",
+      "懇切"
+     ]
+    },
+    {
+     "word": "易",
+     "gloss": "更換",
+     "pos": "動詞",
+     "distractors": [
+      "容易",
+      "交易",
+      "《易經》"
+     ]
+    }
+   ],
+   "meaning": "其他種樹的人就不是這樣，他們讓樹根拳曲，又更換了土。",
+   "meaning_distractors": [
+    "其他種樹的人不一樣，根很容易像拳頭，土也容易種。",
+    "其他種樹的人也是這樣，把根放直，保留舊土。",
+    "別的人用拳頭打樹根，再拿土去交易。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：拳，彎曲；易，交換、改變；中華古詩文古書籍網注釋：樹根拳曲，更換新土；115 統測；112 二技題組",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "2",
+     "quote": "他植者則不然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-15",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "培土時他們又犯了什麼毛病？",
+   "context_before": "他植者則不然，根拳而土易，",
+   "sentence": "其培之也，若不過焉則不及",
+   "context_after": "。苟有能反是者，則又愛之太恩，憂之太勤。",
+   "keywords": [
+    {
+     "word": "過",
+     "gloss": "超過",
+     "pos": "動詞",
+     "distractors": [
+      "經過",
+      "過錯",
+      "拜訪"
+     ]
+    },
+    {
+     "word": "若",
+     "gloss": "如果",
+     "pos": "連詞",
+     "distractors": [
+      "好像",
+      "你",
+      "比得上"
+     ]
+    }
+   ],
+   "meaning": "他們培土時，如果不是太多，就是不夠。",
+   "meaning_distractors": [
+    "他們培土時，好像經過了就來不及了。",
+    "他們培土剛好適當，從不過多也不缺少。",
+    "他們培土時，你不去拜訪就趕不上。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：過，超出；若，如果；中華古詩文古書籍網注釋：如果不是過多就是不夠；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-16",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "也有人和前面的做法相反，又如何呢？",
+   "context_before": "其培之也，若不過焉則不及。",
+   "sentence": "苟有能反是者，則又愛之太恩，憂之太勤",
+   "context_after": "，旦視而暮撫，已去而復顧。",
+   "keywords": [
+    {
+     "word": "苟",
+     "gloss": "假如",
+     "pos": "連詞",
+     "distractors": [
+      "隨便",
+      "苟且",
+      "姓氏"
+     ]
+    },
+    {
+     "word": "恩",
+     "gloss": "情意深厚，手冊本作「殷」",
+     "pos": "名詞",
+     "distractors": [
+      "恩人",
+      "感謝",
+      "恩賜"
+     ]
+    }
+   ],
+   "meaning": "假如有能反其道而行的，又對樹木愛得太深，憂慮得太過殷勤。",
+   "meaning_distractors": [
+    "隨便反駁的人，就愛得不夠，也不夠勤勞。",
+    "假如有人違反規定，就要感謝他，並且處罰他。",
+    "苟且的人反而對樹愛得剛好，憂慮適中。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：苟，如果；恩，情愛；殷，情意深厚；中華古詩文古書籍網注釋作「恩」，課程手冊示例與國學治要學習網作「殷」；112 二技題組",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "底本「愛之太恩」，課程手冊示例作「愛之太殷」，兩本皆通行，請依課本定字形。"
+  },
+  {
+   "id": "guotuotuo-17",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "這些過度關心的人，具體怎麼做？",
+   "context_before": "苟有能反是者，則又愛之太恩，憂之太勤，",
+   "sentence": "旦視而暮撫，已去而復顧",
+   "context_after": "。甚者爪其膚以驗其生枯，搖其本以觀其疏密。",
+   "keywords": [
+    {
+     "word": "已",
+     "gloss": "已經",
+     "pos": "副詞",
+     "distractors": [
+      "停止",
+      "太",
+      "後來"
+     ]
+    },
+    {
+     "word": "撫",
+     "gloss": "撫摸",
+     "pos": "動詞",
+     "distractors": [
+      "安撫",
+      "撫養",
+      "彈奏"
+     ]
+    }
+   ],
+   "meaning": "早上看過，晚上又撫摸，已經離開了又回頭看。",
+   "meaning_distractors": [
+    "早上看，晚上睡，離開以後不再回來。",
+    "白天監視別人，晚上安撫孩子，已經不去看了。",
+    "每天早晚都不看，離開後也沒回頭。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：已，已經；撫，輕輕的摸；中華古詩文古書籍網注釋；114 統測第 23 題",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "23",
+     "quote": "旦視而暮撫，已去而復顧。甚者爪其膚以驗其生枯，搖其本以觀其疏密",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-18",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "更嚴重的人，會對樹做什麼？",
+   "context_before": "旦視而暮撫，已去而復顧。",
+   "sentence": "甚者爪其膚以驗其生枯，搖其本以觀其疏密",
+   "context_after": "，而木之性日以離矣。",
+   "keywords": [
+    {
+     "word": "爪",
+     "gloss": "用指甲抓（作動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "爪子",
+      "幫手",
+      "瓜果"
+     ]
+    },
+    {
+     "word": "驗",
+     "gloss": "檢驗",
+     "pos": "動詞",
+     "distractors": [
+      "應驗",
+      "效果",
+      "經歷"
+     ]
+    },
+    {
+     "word": "本",
+     "gloss": "根",
+     "pos": "名詞",
+     "distractors": [
+      "書本",
+      "本來",
+      "根源"
+     ]
+    }
+   ],
+   "meaning": "更過分的，用指甲抓破樹皮檢驗它的死活，搖動樹根觀察土的鬆緊。",
+   "meaning_distractors": [
+    "更過分的，用爪子抓自己的皮膚，來驗證生死。",
+    "更過分的，把樹皮剝下賣掉，搖動樹枝觀賞樹葉。",
+    "甚至有人翻書查看樹的生死，比較土的多少。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：爪，用爪抓；驗，察看；本，根；中華古詩文古書籍網注釋：爪，掐；疏密，土的鬆緊；114 統測第 23 題",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "23",
+     "quote": "旦視而暮撫，已去而復顧。甚者爪其膚以驗其生枯，搖其本以觀其疏密",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-19",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "這樣過度關心的結果如何？",
+   "context_before": "甚者爪其膚以驗其生枯，搖其本以觀其疏密，",
+   "sentence": "而木之性日以離矣",
+   "context_after": "。雖曰愛之，其實害之；雖曰憂之，其實讎之。",
+   "keywords": [
+    {
+     "word": "日",
+     "gloss": "一天天地（作副詞）",
+     "pos": "副詞",
+     "distractors": [
+      "太陽",
+      "白天",
+      "日期"
+     ]
+    },
+    {
+     "word": "離",
+     "gloss": "背離",
+     "pos": "動詞",
+     "distractors": [
+      "遭遇",
+      "告別",
+      "距離"
+     ]
+    }
+   ],
+   "meaning": "而樹木的本性就一天天背離了。",
+   "meaning_distractors": [
+    "而樹木的性命就在白天結束了。",
+    "而樹木離開太陽就不能活了。",
+    "而樹木的本性一天天回來了。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：日，每天；離，分開、背叛；國學治要學習網譯文作背離；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-20",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "他點破這種關心的真相。",
+   "context_before": "而木之性日以離矣。",
+   "sentence": "雖曰愛之，其實害之；雖曰憂之，其實讎之",
+   "context_after": "，故不我若也。吾又何能為哉？",
+   "keywords": [
+    {
+     "word": "讎",
+     "gloss": "仇視（音ㄔㄡˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "校對",
+      "應答",
+      "賣出"
+     ]
+    },
+    {
+     "word": "其實",
+     "gloss": "實際上",
+     "pos": "副詞",
+     "distractors": [
+      "它的果實",
+      "它確實",
+      "而且"
+     ]
+    }
+   ],
+   "meaning": "雖說是愛它，實際上是害它；雖說是憂慮它，實際上是仇視它。",
+   "meaning_distractors": [
+    "雖說愛護果實，實則傷害果實；憂慮時就校對。",
+    "雖說害它，實際上是愛它；雖說仇視，實際上是關心。",
+    "雖然他愛說話，其實他並不想害人。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：讎，仇怨；其實，真實的情況；中華古詩文古書籍網注釋作「仇」，譯作仇視；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-21",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 3,
+   "scene": "所以別人比不上他。",
+   "context_before": "雖曰愛之，其實害之；雖曰憂之，其實讎之，",
+   "sentence": "故不我若也",
+   "context_after": "。吾又何能為哉？」",
+   "keywords": [
+    {
+     "word": "若",
+     "gloss": "比得上",
+     "pos": "動詞",
+     "distractors": [
+      "好像",
+      "你",
+      "如果"
+     ]
+    },
+    {
+     "word": "故",
+     "gloss": "所以",
+     "pos": "連詞",
+     "distractors": [
+      "舊",
+      "緣故",
+      "故意"
+     ]
+    }
+   ],
+   "meaning": "所以他們比不上我。「不我若」即「不若我」。",
+   "meaning_distractors": [
+    "所以我不像他們。",
+    "所以我比不上他們。",
+    "所以我故意不像你。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：若，比得上；故，因此；中華古詩文古書籍網注釋：不我若，不若我；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-22",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "問的人由種樹想到另一件事。",
+   "context_before": "吾又何能為哉？」問者曰：「",
+   "sentence": "以子之道移之官理可乎",
+   "context_after": "？」駝曰：「我知種樹而已，官理，非吾業也。」",
+   "keywords": [
+    {
+     "word": "子",
+     "gloss": "您",
+     "pos": "代詞",
+     "distractors": [
+      "兒子",
+      "孔子",
+      "種子"
+     ]
+    },
+    {
+     "word": "移",
+     "gloss": "轉用",
+     "pos": "動詞",
+     "distractors": [
+      "遷移",
+      "改變",
+      "移植"
+     ]
+    },
+    {
+     "word": "官理",
+     "gloss": "為官治民",
+     "pos": "名詞",
+     "distractors": [
+      "官員的道理",
+      "官府的庭院",
+      "官方文書"
+     ]
+    }
+   ],
+   "meaning": "把您的方法轉用在為官治民上，可以嗎？",
+   "meaning_distractors": [
+    "把孩子的種樹方法告訴官員，可以嗎？",
+    "把您遷到官府去管理樹木，可以嗎？",
+    "把您的方法移到官方文書上，可以嗎？"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：子，你；中華古詩文古書籍網注釋：官理，為官治民，避高宗諱改治為理；移，轉用（譯文）；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-23",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "郭橐駝說起他在鄉里看到的官員。",
+   "context_before": "我知種樹而已，官理，非吾業也。然吾居鄉，",
+   "sentence": "見長人者好煩其令，若甚憐焉，而卒以禍",
+   "context_after": "。旦暮吏來而呼曰。",
+   "keywords": [
+    {
+     "word": "長",
+     "gloss": "統治、管理（音ㄓㄤˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "長久",
+      "長度",
+      "擅長"
+     ]
+    },
+    {
+     "word": "煩",
+     "gloss": "繁多",
+     "pos": "形容詞",
+     "distractors": [
+      "煩惱",
+      "麻煩別人",
+      "打擾"
+     ]
+    },
+    {
+     "word": "卒",
+     "gloss": "最後",
+     "pos": "副詞",
+     "distractors": [
+      "士兵",
+      "死亡",
+      "完成"
+     ]
+    }
+   ],
+   "meaning": "看見治民的官吏喜歡頒布繁多的政令，好像很愛惜百姓，最後卻造成禍害。",
+   "meaning_distractors": [
+    "看見長得高的人喜歡煩惱，士兵也因此遭殃。",
+    "看見長輩的人討厭政令，同情士兵，最後得到好處。",
+    "看見擅長管理的人減少政令，百姓最後受惠。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：長（ㄓㄤˇ），領導、執掌；煩，繁雜；卒，終於；中華古詩文古書籍網注釋；112 二技題組",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-24",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "官吏一早一晚來村裡喊話。",
+   "context_before": "旦暮吏來而呼曰：『",
+   "sentence": "官命促爾耕，勗爾植，督爾獲",
+   "context_after": "。早繅而緒，早織而縷。",
+   "keywords": [
+    {
+     "word": "勗",
+     "gloss": "勉勵（音ㄒㄩˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "早晨",
+      "責罰",
+      "幫助"
+     ]
+    },
+    {
+     "word": "督",
+     "gloss": "監督催促",
+     "pos": "動詞",
+     "distractors": [
+      "觀察",
+      "軍事長官",
+      "中間"
+     ]
+    },
+    {
+     "word": "爾",
+     "gloss": "你們",
+     "pos": "代詞",
+     "distractors": [
+      "這樣",
+      "而已",
+      "近"
+     ]
+    }
+   ],
+   "meaning": "官府命令催促你們耕田，勉勵你們種植，監督你們收割。",
+   "meaning_distractors": [
+    "官府命令你們早晨種田，並且責罰你們收割。",
+    "官員幫你們耕田和種植，還替你們收成。",
+    "官府禁止你們耕種，只讓你們收割。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：勗（ㄒㄩˋ），勉勵；督，催促、監察；爾，你；中華古詩文古書籍網注釋；112 統測第 27 題（字形依原卷）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "27",
+     "quote": "官命促爾耕，勗爾植",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項B後句",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-25",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "官吏連家裡的工作也要管。",
+   "context_before": "官命促爾耕，勗爾植，督爾獲。",
+   "sentence": "早繅而緒，早織而縷",
+   "context_after": "，字而幼孩，遂而雞豚。",
+   "keywords": [
+    {
+     "word": "繅",
+     "gloss": "抽繭出絲（音ㄙㄠ）",
+     "pos": "動詞",
+     "distractors": [
+      "纏繞",
+      "編織",
+      "染色"
+     ]
+    },
+    {
+     "word": "而",
+     "gloss": "你們的（通「爾」）",
+     "pos": "代詞",
+     "distractors": [
+      "而且",
+      "然後",
+      "但是"
+     ]
+    }
+   ],
+   "meaning": "趕快抽你們的絲，趕快織你們的布。",
+   "meaning_distractors": [
+    "早晨抽絲之後，再去織布。",
+    "早點纏好絲線，而且要染色。",
+    "不必早起織布，慢慢來就好。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：繅，將繭煮過抽絲；而，你；中華古詩文古書籍網注釋：而通爾",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-26",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "連孩子和牲畜也被下令。",
+   "context_before": "早繅而緒，早織而縷，",
+   "sentence": "字而幼孩，遂而雞豚",
+   "context_after": "。』鳴鼓而聚之，擊木而召之。",
+   "keywords": [
+    {
+     "word": "字",
+     "gloss": "養育",
+     "pos": "動詞",
+     "distractors": [
+      "文字",
+      "表字",
+      "愛護文字"
+     ]
+    },
+    {
+     "word": "遂",
+     "gloss": "使……成長",
+     "pos": "動詞",
+     "distractors": [
+      "於是",
+      "完成",
+      "順遂"
+     ]
+    }
+   ],
+   "meaning": "養育你們的小孩，把你們的雞和豬養大。",
+   "meaning_distractors": [
+    "教你們的小孩認字，於是雞和豬都賣掉。",
+    "幫小孩取表字，雞和豬順利逃走。",
+    "讓孩子寫字，完成雞和豬的買賣。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：字，撫育；遂，生長；國學治要學習網注",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-27",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "這麼多命令下來，百姓的日子怎麼過？",
+   "context_before": "鳴鼓而聚之，擊木而召之。",
+   "sentence": "吾小人輟飧饔以勞吏者，且不得暇",
+   "context_after": "，又何以蕃吾生而安吾性耶？",
+   "keywords": [
+    {
+     "word": "輟",
+     "gloss": "停止",
+     "pos": "動詞",
+     "distractors": [
+      "連綴",
+      "吃",
+      "準備"
+     ]
+    },
+    {
+     "word": "飧饔",
+     "gloss": "晚飯和早飯（音ㄙㄨㄣ ㄩㄥ）",
+     "pos": "名詞",
+     "distractors": [
+      "鍋子和碗",
+      "乾糧和水",
+      "早市和夜市"
+     ]
+    },
+    {
+     "word": "勞",
+     "gloss": "慰勞（音ㄌㄠˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "勞動",
+      "疲倦",
+      "功勞"
+     ]
+    }
+   ],
+   "meaning": "我們小百姓停下吃飯來慰勞官吏，尚且沒有空閒。",
+   "meaning_distractors": [
+    "我們小百姓準備飯菜，自己吃飽，才有空接待官吏。",
+    "我們小百姓放下鍋碗去勞動，官吏才有空閒。",
+    "官吏慰勞我們小百姓，大家都有時間吃飯。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：輟，停止；飧，晚飯；饔，早飯；勞（ㄌㄠˋ），慰問",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-28",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "郭橐駝反問：這樣怎麼活得好？",
+   "context_before": "吾小人輟飧饔以勞吏者，且不得暇，",
+   "sentence": "又何以蕃吾生而安吾性耶",
+   "context_after": "？故病且怠。",
+   "keywords": [
+    {
+     "word": "蕃",
+     "gloss": "使……繁衍",
+     "pos": "動詞",
+     "distractors": [
+      "外族",
+      "籬笆",
+      "遮蔽"
+     ]
+    },
+    {
+     "word": "安",
+     "gloss": "使……安定",
+     "pos": "動詞",
+     "distractors": [
+      "怎麼",
+      "平安",
+      "放置"
+     ]
+    }
+   ],
+   "meaning": "又怎麼能使我們生活繁衍、本性安定呢？",
+   "meaning_distractors": [
+    "又為何要到外地去安身立命？",
+    "還能讓我們的人口增加，生活安定。",
+    "又如何能遮蔽我們的生命，讓我們安置性命？"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：蕃，滋生；安，使穩定；中華古詩文古書籍網注釋譯文；112 二技題組結句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "36",
+     "quote": "橐駝非能使木壽且孳也……又何以蕃吾生而安吾性耶",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "37",
+     "quote": "橐駝非能使木壽且孳也……又何以蕃吾生而安吾性耶",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "38",
+     "quote": "橐駝非能使木壽且孳也……又何以蕃吾生而安吾性耶",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組甲文",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-29",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "百姓因此變成什麼樣子？",
+   "context_before": "又何以蕃吾生而安吾性耶？",
+   "sentence": "故病且怠",
+   "context_after": "。若是，則與吾業者其亦有類乎？",
+   "keywords": [
+    {
+     "word": "病",
+     "gloss": "困苦",
+     "pos": "形容詞",
+     "distractors": [
+      "生病",
+      "責備",
+      "擔憂"
+     ]
+    },
+    {
+     "word": "怠",
+     "gloss": "疲倦",
+     "pos": "形容詞",
+     "distractors": [
+      "危險",
+      "懷疑",
+      "懶得吃飯"
+     ]
+    }
+   ],
+   "meaning": "所以百姓既困苦又疲倦。",
+   "meaning_distractors": [
+    "因為生病所以很危險。",
+    "所以官吏受責備又懶惰。",
+    "老百姓既生病又懷疑。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：病，疲憊、為其所苦；怠，疲倦；國學治要學習網注：怠，疲倦；譯文作困苦、貧乏",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-30",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 4,
+   "scene": "他把治民和種樹連結起來。",
+   "context_before": "故病且怠。",
+   "sentence": "若是，則與吾業者其亦有類乎",
+   "context_after": "？」問者嘻曰：「不亦善夫！",
+   "keywords": [
+    {
+     "word": "類",
+     "gloss": "相似",
+     "pos": "形容詞",
+     "distractors": [
+      "種類",
+      "大概",
+      "善良"
+     ]
+    },
+    {
+     "word": "業",
+     "gloss": "職業",
+     "pos": "名詞",
+     "distractors": [
+      "已經",
+      "學業",
+      "功績"
+     ]
+    }
+   ],
+   "meaning": "像這樣，和我種樹的行業大概也有相似之處吧？",
+   "meaning_distractors": [
+    "如果這樣，我的行業就要改變種類了。",
+    "這樣說來，我和他們的學業毫不相干。",
+    "你和我同行，都是這一類的人吧？"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：類，相似；業，工作職務",
+   "from_pack": []
+  },
+  {
+   "id": "guotuotuo-31",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 5,
+   "scene": "聽完以後，問的人很開心地說出心得。",
+   "context_before": "若是，則與吾業者其亦有類乎？」問者嘻曰：「",
+   "sentence": "不亦善夫！吾問養樹，得養人術",
+   "context_after": "。」傳其事，以為官戒。",
+   "keywords": [
+    {
+     "word": "善",
+     "gloss": "好",
+     "pos": "形容詞",
+     "distractors": [
+      "善於",
+      "擦拭",
+      "善良的人"
+     ]
+    },
+    {
+     "word": "養人",
+     "gloss": "治理人民",
+     "pos": "動詞",
+     "distractors": [
+      "養活別人",
+      "培養人才",
+      "養家"
+     ]
+    }
+   ],
+   "meaning": "不是很好嗎！我問種樹的方法，卻得到治理人民的道理。",
+   "meaning_distractors": [
+    "真不好啊！我問種樹，他卻教我養孩子。",
+    "你真善良！我問種樹，得到養家的方法。",
+    "我不擅長種樹，只好學著培養人才。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：善，表讚美；中華古詩文古書籍網注釋：養人術，治民的方法；維基文庫作問者曰「嘻」，此依113統測原卷；113 統測（依原卷）、115 統測",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "26",
+     "quote": "問者嘻曰：不亦善夫！吾問養樹，得養人術",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "8",
+     "quote": "〈種樹郭橐駝傳〉的問者，因郭橐駝闡述「順木之天」而「得養人術」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "題幹知識",
+     "location": "題幹",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "guotuotuo-32",
+   "lesson": "種樹郭橐駝傳",
+   "paragraph": 5,
+   "scene": "作者交代寫這篇傳記的用意。",
+   "context_before": "吾問養樹，得養人術。」",
+   "sentence": "傳其事，以為官戒",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "戒",
+     "gloss": "警戒、借鑑",
+     "pos": "名詞",
+     "distractors": [
+      "戒指",
+      "戒酒",
+      "戒備軍隊"
+     ]
+    },
+    {
+     "word": "傳",
+     "gloss": "為……作傳",
+     "pos": "動詞",
+     "distractors": [
+      "傳遞",
+      "傳說",
+      "經書的解釋"
+     ]
+    }
+   ],
+   "meaning": "為這件事作傳，用來作為為官者的警戒。",
+   "meaning_distractors": [
+    "傳遞這件事，用來責備種樹的人。",
+    "把這個傳說當作官員的戒指。",
+    "傳聞這件事，官員才開始戒酒。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：戒，警告；傳（ㄓㄨㄢˋ），記載事跡；中華古詩文古書籍網注釋譯文：作傳作為鑑戒",
+   "from_pack": []
+  }
+ ]
+}

@@ -1,0 +1,1346 @@
+{
+ "lesson_id": "lanting",
+ "lesson": "蘭亭集序",
+ "author": "王羲之",
+ "tagline": "最快樂的聚會，為何寫到悲傷？",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "lanting-01",
+   "lesson": "蘭亭集序",
+   "paragraph": 1,
+   "scene": "序文開頭，交代這場聚會的時間、地點與緣由。",
+   "context_before": "永和九年，歲在癸丑，",
+   "sentence": "暮春之初，會於會稽山陰之蘭亭，脩禊事也",
+   "context_after": "。群賢畢至，少長咸集。",
+   "keywords": [
+    {
+     "word": "脩禊",
+     "gloss": "舉行禊禮（禊，音ㄒㄧˋ，祛除不祥的祭禮）",
+     "pos": "名詞",
+     "distractors": [
+      "修理祭器",
+      "簽訂契約",
+      "修築水道"
+     ]
+    },
+    {
+     "word": "脩",
+     "gloss": "舉行（音ㄒㄧㄡ，通「修」）",
+     "pos": "動詞",
+     "distractors": [
+      "修長",
+      "修改",
+      "乾肉"
+     ]
+    }
+   ],
+   "meaning": "暮春之初，在會稽山陰的蘭亭聚會，為了舉行禊禮。",
+   "meaning_distractors": [
+    "春天將盡時，在蘭亭會合，為了修理祭祀的器具。",
+    "暮色中的春天，大家到會稽休息，順便簽訂契約。",
+    "初春時節，在會稽修築蘭亭，慶祝完工。"
+   ],
+   "source_note": "技國課本注2；107、108 統測二技考字形（原卷多作「修禊」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "統測",
+     "no": "20",
+     "quote": "暮春之初，會於會稽山陰之蘭亭，修禊事也，群賢畢至，少長咸集",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/107_4y/downloader.php?obj=MTA3LTR5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 108,
+     "exam": "二技",
+     "no": "42",
+     "quote": "暮春之初，會于會稽山陰之蘭亭，休契事也。群賢必至，少長咸集",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_2y/downloader.php?obj=MTA4LTJ5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "節錄改寫",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "字形題，刻意改錯字（修禊→休契，畢至→必至）"
+    }
+   ]
+  },
+  {
+   "id": "lanting-02",
+   "lesson": "蘭亭集序",
+   "paragraph": 1,
+   "scene": "來參加聚會的人有哪些？",
+   "context_before": "暮春之初，會於會稽山陰之蘭亭，脩禊事也。",
+   "sentence": "群賢畢至，少長咸集",
+   "context_after": "。此地有崇山峻嶺，茂林脩竹，",
+   "keywords": [
+    {
+     "word": "畢",
+     "gloss": "全、都",
+     "pos": "副詞",
+     "distractors": [
+      "完畢、結束",
+      "畢業",
+      "姓氏"
+     ]
+    },
+    {
+     "word": "咸",
+     "gloss": "全、都",
+     "pos": "副詞",
+     "distractors": [
+      "鹹味",
+      "稍微",
+      "感動"
+     ]
+    }
+   ],
+   "meaning": "賢士全都到了，老老少少都聚集在此。",
+   "meaning_distractors": [
+    "賢士到完之後，年少的人才慢慢聚集。",
+    "賢士陸續離開，只剩下老人和小孩。",
+    "賢士到了一些，年長者比年少者多。"
+   ],
+   "source_note": "技國課本注3（「咸」字義同）；107 統測、108 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "統測",
+     "no": "20",
+     "quote": "暮春之初，會於會稽山陰之蘭亭，修禊事也，群賢畢至，少長咸集",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/107_4y/downloader.php?obj=MTA3LTR5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 108,
+     "exam": "二技",
+     "no": "42",
+     "quote": "暮春之初，會于會稽山陰之蘭亭，休契事也。群賢必至，少長咸集",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_2y/downloader.php?obj=MTA4LTJ5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "節錄改寫",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "字形題，刻意改錯字（修禊→休契，畢至→必至）"
+    }
+   ]
+  },
+  {
+   "id": "lanting-03",
+   "lesson": "蘭亭集序",
+   "paragraph": 1,
+   "scene": "眼前的山林是什麼樣子？",
+   "context_before": "群賢畢至，少長咸集。",
+   "sentence": "此地有崇山峻嶺，茂林脩竹",
+   "context_after": "，又有清流激湍，映帶左右，",
+   "keywords": [
+    {
+     "word": "脩",
+     "gloss": "長",
+     "pos": "形容詞",
+     "distractors": [
+      "修理",
+      "舉行",
+      "美好的品德"
+     ]
+    }
+   ],
+   "meaning": "這裡有高大的山嶺，茂密的樹林和細長的竹子。",
+   "meaning_distractors": [
+    "這裡有崇拜山神的習俗，人們修剪竹林。",
+    "這裡山勢低緩，樹林稀疏，竹子很矮。",
+    "這裡有人修建竹屋，四周山林全被砍伐。"
+   ],
+   "source_note": "技國課本注4",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-04",
+   "lesson": "蘭亭集序",
+   "paragraph": 1,
+   "scene": "除了山林，還有水景。",
+   "context_before": "此地有崇山峻嶺，茂林脩竹，",
+   "sentence": "又有清流激湍，映帶左右",
+   "context_after": "，引以為流觴曲水，列坐其次。",
+   "keywords": [
+    {
+     "word": "湍",
+     "gloss": "急流（音ㄊㄨㄢ）",
+     "pos": "名詞",
+     "distractors": [
+      "深潭",
+      "渡口",
+      "水氣"
+     ]
+    },
+    {
+     "word": "映",
+     "gloss": "映照",
+     "pos": "動詞",
+     "distractors": [
+      "放映",
+      "反映意見",
+      "遮蔽"
+     ]
+    },
+    {
+     "word": "帶",
+     "gloss": "環繞、圍繞",
+     "pos": "動詞",
+     "distractors": [
+      "攜帶",
+      "帶領",
+      "腰帶"
+     ]
+    }
+   ],
+   "meaning": "又有清澈、湍急的水流，波光映照，水流環繞於周圍。",
+   "meaning_distractors": [
+    "又有混濁的深潭，在左右兩邊遮蔽了日光。",
+    "又有人帶著清水，走在賓客的左右。",
+    "又有平靜的河流，映照出左右賓客的腰帶。"
+   ],
+   "source_note": "技國課本注5、6",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-05",
+   "lesson": "蘭亭集序",
+   "paragraph": 1,
+   "scene": "大家利用這道水，玩起當時的習俗。",
+   "context_before": "又有清流激湍，映帶左右，",
+   "sentence": "引以為流觴曲水，列坐其次",
+   "context_after": "。雖無絲竹管絃之盛，一觴一詠，",
+   "keywords": [
+    {
+     "word": "觴",
+     "gloss": "酒杯（音ㄕㄤ）",
+     "pos": "名詞",
+     "distractors": [
+      "夭折",
+      "憂傷",
+      "勸酒的人"
+     ]
+    },
+    {
+     "word": "次",
+     "gloss": "處所，此指曲水邊",
+     "pos": "名詞",
+     "distractors": [
+      "次序",
+      "第二",
+      "一次"
+     ]
+    }
+   ],
+   "meaning": "引來作為流觴的曲水，大家依序坐在水邊。",
+   "meaning_distractors": [
+    "把水引到酒杯中喝下，大家按官位次序坐好。",
+    "大家引吭高歌，依年齡排成隊伍。",
+    "大家把受傷的人引到曲水邊，再坐下休息。"
+   ],
+   "source_note": "技國課本注7、8",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-06",
+   "lesson": "蘭亭集序",
+   "paragraph": 1,
+   "scene": "這場聚會沒有樂隊助興，大家還是很盡興。",
+   "context_before": "引以為流觴曲水，列坐其次。",
+   "sentence": "雖無絲竹管絃之盛，一觴一詠，亦足以暢敘幽情",
+   "context_after": "。是日也，天朗氣清，惠風和暢。",
+   "keywords": [
+    {
+     "word": "絲竹管絃",
+     "gloss": "音樂（絃樂器與管樂器，此借指音樂）",
+     "pos": "名詞",
+     "distractors": [
+      "竹林與河水",
+      "絲綢與竹器",
+      "官府的儀仗"
+     ]
+    },
+    {
+     "word": "觴",
+     "gloss": "飲酒（作動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "酒杯",
+      "夭折",
+      "傷心"
+     ]
+    }
+   ],
+   "meaning": "雖然沒有音樂的盛況，一面飲酒一面作詩，也足以暢快抒發心中深藏的情懷。",
+   "meaning_distractors": [
+    "因為沒有音樂，只喝一杯酒、念一首詩，心情就很憂鬱。",
+    "雖有盛大的音樂，大家飲酒賦詩，仍舊訴不盡心中的怨恨。",
+    "雖然沒有酒，大家一面演奏一面賦詩，足以談論私情。"
+   ],
+   "confusables": [
+    {
+     "word": "觴",
+     "other": "流「觴」曲水",
+     "other_lesson": "蘭亭集序",
+     "same": false,
+     "note": "飲酒／酒杯"
+    }
+   ],
+   "source_note": "技國課本注9、10；幽情課本無注，故不列為選字；108 二技、115 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "二技",
+     "no": "14",
+     "quote": "雖無絲竹管絃之盛，一觴一詠，亦足以暢敘幽情",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_2y/downloader.php?obj=MTA4LTJ5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "7",
+     "quote": "雖無絲竹管絃之盛，一觴一詠，亦足以暢敘幽情",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "lanting-07",
+   "lesson": "蘭亭集序",
+   "paragraph": 2,
+   "scene": "聚會這一天的天氣如何？",
+   "context_before": "雖無絲竹管絃之盛，一觴一詠，亦足以暢敘幽情。",
+   "sentence": "是日也，天朗氣清，惠風和暢",
+   "context_after": "。仰觀宇宙之大，俯察品類之盛，",
+   "keywords": [
+    {
+     "word": "惠風",
+     "gloss": "溫和的風，指春風",
+     "pos": "名詞",
+     "distractors": [
+      "恩惠的風氣",
+      "秋風",
+      "賢明的教化"
+     ]
+    }
+   ],
+   "meaning": "這一天，天色晴朗，空氣清新，溫和的春風令人舒暢。",
+   "meaning_distractors": [
+    "這是對的日子，天氣清涼，秋風吹得人不舒服。",
+    "這一天，天色昏暗，只有恩澤像風一樣傳開。",
+    "這一天天氣太好，賢明的教化傳遍四方。"
+   ],
+   "source_note": "技國課本注11；112 統測引「惠風和暢」",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-08",
+   "lesson": "蘭亭集序",
+   "paragraph": 2,
+   "scene": "作者抬頭低頭，看見了天地萬物。",
+   "context_before": "是日也，天朗氣清，惠風和暢。",
+   "sentence": "仰觀宇宙之大，俯察品類之盛",
+   "context_after": "，所以游目騁懷，足以極視聽之娛，",
+   "keywords": [
+    {
+     "word": "品類",
+     "gloss": "萬物（品，眾多）",
+     "pos": "名詞",
+     "distractors": [
+      "品德高下",
+      "官階高低",
+      "食物種類"
+     ]
+    }
+   ],
+   "meaning": "抬頭觀看宇宙的廣大，低頭察看萬物的繁盛。",
+   "meaning_distractors": [
+    "抬頭敬仰宇宙，低頭品嘗豐盛的食物。",
+    "抬頭看不見天空，低頭也察覺不到品德的高尚。",
+    "仰望天地之大，也看出官階高低的盛況。"
+   ],
+   "source_note": "技國課本注12；114 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "3",
+     "quote": "仰觀宇宙之大，俯察品類之盛",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-09",
+   "lesson": "蘭亭集序",
+   "paragraph": 2,
+   "scene": "這樣的景色帶給人什麼樣的享受？",
+   "context_before": "仰觀宇宙之大，俯察品類之盛，",
+   "sentence": "所以游目騁懷，足以極視聽之娛",
+   "context_after": "，信可樂也。",
+   "keywords": [
+    {
+     "word": "騁",
+     "gloss": "舒展、放開（音ㄔㄥˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "聘請",
+      "懷念",
+      "壓抑"
+     ]
+    },
+    {
+     "word": "極",
+     "gloss": "盡情享受",
+     "pos": "動詞",
+     "distractors": [
+      "最高點",
+      "非常",
+      "到達"
+     ]
+    }
+   ],
+   "meaning": "所以放眼觀覽、舒展胸懷，足以盡情享受耳目之樂。",
+   "meaning_distractors": [
+    "所以四處遊歷、聘請賢才，足以滿足君王的娛樂。",
+    "所以閉目沉思、收斂心懷，不再追求感官之樂。",
+    "所以騎馬奔馳，到了最遠的地方才看到好戲。"
+   ],
+   "source_note": "技國課本注13、14（極字依注14句解）；課本字形作「游目」；112 統測引「足以極視聽之娛」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "4",
+     "quote": "足以極視聽之娛",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "框內②",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-10",
+   "lesson": "蘭亭集序",
+   "paragraph": 2,
+   "scene": "作者為這一天的快樂下結論。",
+   "context_before": "所以游目騁懷，足以極視聽之娛，",
+   "sentence": "信可樂也",
+   "context_after": "。夫人之相與，俯仰一世。",
+   "keywords": [
+    {
+     "word": "信",
+     "gloss": "的確、實在",
+     "pos": "副詞",
+     "distractors": [
+      "相信",
+      "書信",
+      "誠信"
+     ]
+    }
+   ],
+   "meaning": "確實是值得快樂的事啊。",
+   "meaning_distractors": [
+    "相信別人才會快樂。",
+    "收到書信就可以快樂。",
+    "守信的人才能得到快樂。"
+   ],
+   "source_note": "技國課本注15",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-11",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "作者由聚會轉入對人生的思考。",
+   "context_before": "所以游目騁懷，足以極視聽之娛，信可樂也。",
+   "sentence": "夫人之相與，俯仰一世",
+   "context_after": "。或取諸懷抱，晤言一室之內；",
+   "keywords": [
+    {
+     "word": "相與",
+     "gloss": "交往、相處",
+     "pos": "動詞",
+     "distractors": [
+      "互相贈送",
+      "一起前往",
+      "互相比較"
+     ]
+    },
+    {
+     "word": "俯仰",
+     "gloss": "形容時間短暫（低頭抬頭之間）",
+     "pos": "形容詞",
+     "distractors": [
+      "往來周旋",
+      "低頭抬頭看天地",
+      "順從別人的臉色"
+     ]
+    }
+   ],
+   "meaning": "人與人交往相處，一生轉眼就過去了。",
+   "meaning_distractors": [
+    "大人互相贈送禮物，一生都看人臉色。",
+    "人們一起前往遠方，一輩子抬頭看天。",
+    "人與人互相比較，轉眼就過完一輩子。"
+   ],
+   "confusables": [
+    {
+     "word": "俯仰",
+     "other": "「俛仰」之間，已為陳跡",
+     "other_lesson": "蘭亭集序",
+     "same": true,
+     "note": "同義，都形容時間短暫"
+    }
+   ],
+   "source_note": "技國課本注16、17、29（注29：俛仰與俯仰同義）；113 統測題幹引此句",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-12",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "有一種人喜歡這樣和朋友相處。",
+   "context_before": "夫人之相與，俯仰一世。",
+   "sentence": "或取諸懷抱，晤言一室之內",
+   "context_after": "；或因寄所託，放浪形骸之外。",
+   "keywords": [
+    {
+     "word": "晤",
+     "gloss": "見面（音ㄨˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "領悟",
+      "覺悟",
+      "錯誤"
+     ]
+    }
+   ],
+   "meaning": "有人喜歡與朋友一起抒發心聲抱負，在室內相聚暢談。",
+   "meaning_distractors": [
+    "有的人把孩子抱在懷裡，在室內領悟人生。",
+    "有的人從懷中取出東西，獨自在室內覺悟。",
+    "有的人收起懷抱，一個人在屋裡不說話。"
+   ],
+   "source_note": "技國課本注18；課本字形作「晤言」；113 統測原卷作「悟言」",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-13",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "另一種人的作風正好相反。",
+   "context_before": "或取諸懷抱，晤言一室之內；",
+   "sentence": "或因寄所託，放浪形骸之外",
+   "context_after": "。雖趣舍萬殊，靜躁不同，",
+   "keywords": [
+    {
+     "word": "因",
+     "gloss": "憑藉",
+     "pos": "動詞",
+     "distractors": [
+      "因為",
+      "沿襲舊制",
+      "於是"
+     ]
+    },
+    {
+     "word": "形骸",
+     "gloss": "身體（此指約束言行的禮法；骸，音ㄏㄞˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "骨灰",
+      "形勢",
+      "容貌"
+     ]
+    }
+   ],
+   "meaning": "有人藉著將情懷寄託於所喜愛的事物，言行放縱不受拘束。",
+   "meaning_distractors": [
+    "有的人因為寄託失敗，身體日漸消瘦。",
+    "有的人把信託人寄出，再到外地流浪。",
+    "有的人遵守禮俗，只在外表上假裝放浪。"
+   ],
+   "source_note": "技國課本注19",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-14",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "這兩種人有什麼不一樣？",
+   "context_before": "或因寄所託，放浪形骸之外。",
+   "sentence": "雖趣舍萬殊，靜躁不同",
+   "context_after": "，當其欣於所遇，暫得於己，快然自足，",
+   "keywords": [
+    {
+     "word": "趣舍",
+     "gloss": "歸向與取捨（趣，通「趨」；舍，通「捨」）",
+     "pos": "名詞",
+     "distractors": [
+      "有趣的房舍",
+      "趣味和住所",
+      "前往與停留"
+     ]
+    },
+    {
+     "word": "靜躁",
+     "gloss": "個性安靜與躁動",
+     "pos": "名詞",
+     "distractors": [
+      "環境安靜與喧鬧",
+      "水面平靜與翻騰",
+      "時局安定與動亂"
+     ]
+    },
+    {
+     "word": "殊",
+     "gloss": "差別、不同",
+     "pos": "形容詞",
+     "distractors": [
+      "特別好",
+      "斷絕",
+      "超過"
+     ]
+    }
+   ],
+   "meaning": "雖然處世態度各有取捨、差異極大，個性安靜與躁動也不相同。",
+   "meaning_distractors": [
+    "雖然有趣的房舍很多，安靜與吵鬧卻沒有差別。",
+    "雖然處世的態度完全一樣，個性卻冷靜又暴躁。",
+    "雖然一萬人捨棄了興趣，心情還是焦躁不安。"
+   ],
+   "source_note": "技國課本注20、21",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-15",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "不管是哪一種人，都會有這樣的時刻。",
+   "context_before": "雖趣舍萬殊，靜躁不同，",
+   "sentence": "當其欣於所遇，暫得於己，快然自足，不知老之將至",
+   "context_after": "。及其所之既倦，情隨事遷，",
+   "keywords": [
+    {
+     "word": "暫得於己",
+     "gloss": "暫時的自得",
+     "pos": "動詞",
+     "distractors": [
+      "暫時得到東西",
+      "暫時得罪自己",
+      "短暫獲得別人認同"
+     ]
+    },
+    {
+     "word": "快然自足",
+     "gloss": "感到喜悅及滿足",
+     "pos": "形容詞",
+     "distractors": [
+      "很快就自給自足",
+      "不高興而自責",
+      "直爽地自我滿足"
+     ]
+    }
+   ],
+   "meaning": "當人欣喜於所遭遇的事物，暫時自得，感到喜悅及滿足，不知老年即將到來。",
+   "meaning_distractors": [
+    "當人遇到討厭的事，一時得意，反而感覺自己變老。",
+    "當人想要快點成功，就知道老年將會到來。",
+    "當人羨慕別人的遭遇，便永遠滿足，不再衰老。"
+   ],
+   "source_note": "技國課本注22–24；欣字課本無注，故不列為選字；113 統測考「快然自足」「欣於所遇」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "12",
+     "quote": "死生亦大矣，豈不痛哉／快然自足／欣於所遇",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "題組選文",
+     "location": "題組選文引句、選項B",
+     "paper_checked": "2026-11-01",
+     "note": "Q11、14、15 不涉及本篇，不算"
+    },
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "13",
+     "quote": "永和九年，歲在癸丑，暮春之初，會於會稽山陰之蘭亭，脩禊事也。……是日也，天朗氣清，惠風和暢。……夫人之相與，俯仰一世，或取諸懷抱，悟言一室之內；或因寄所託，放浪形骸之外。雖趣舍萬殊，靜躁不同，當其欣於所遇，暫得於己，快然自足，不知老之將至",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "題幹表格",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-16",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "但快樂能持續多久呢？",
+   "context_before": "快然自足，不知老之將至。",
+   "sentence": "及其所之既倦，情隨事遷",
+   "context_after": "，感慨係之矣。",
+   "keywords": [
+    {
+     "word": "之",
+     "gloss": "往，此指追求",
+     "pos": "動詞",
+     "distractors": [
+      "的",
+      "他",
+      "這個"
+     ]
+    },
+    {
+     "word": "既",
+     "gloss": "已經",
+     "pos": "副詞",
+     "distractors": [
+      "既然",
+      "全部",
+      "不久"
+     ]
+    },
+    {
+     "word": "遷",
+     "gloss": "改變",
+     "pos": "動詞",
+     "distractors": [
+      "遷移居所",
+      "升官",
+      "貶謫"
+     ]
+    }
+   ],
+   "meaning": "等到對所追求、喜愛的事物已感到厭倦，心情隨著世事變化而改變。",
+   "meaning_distractors": [
+    "等到他去的地方太遠，身體疲倦了，心情就想要搬家。",
+    "等到事情完成，疲倦的感覺就隨著心情消失了。",
+    "既然他的所在讓人疲倦，大家就一起遷居。"
+   ],
+   "source_note": "技國課本注25、26（既字依注25句解「已感到厭倦」）",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-17",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "喜歡過的東西不再讓人滿足，心裡有什麼反應？",
+   "context_before": "及其所之既倦，情隨事遷，",
+   "sentence": "感慨係之矣",
+   "context_after": "。向之所欣，俛仰之間，已為陳跡，",
+   "keywords": [
+    {
+     "word": "係",
+     "gloss": "連接",
+     "pos": "動詞",
+     "distractors": [
+      "是",
+      "關係",
+      "綁住"
+     ]
+    }
+   ],
+   "meaning": "感慨也就隨之而來了。",
+   "meaning_distractors": [
+    "感慨自己與他人沒有關係。",
+    "這就是感慨了。",
+    "把感慨綁在心裡不再提起。"
+   ],
+   "source_note": "技國課本注27",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-18",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "曾讓人高興的事，後來變成了什麼？",
+   "context_before": "及其所之既倦，情隨事遷，感慨係之矣。",
+   "sentence": "向之所欣，俛仰之間，已為陳跡",
+   "context_after": "，猶不能不以之興懷，",
+   "keywords": [
+    {
+     "word": "俛仰之間",
+     "gloss": "形容時間短暫（俛，音ㄈㄨˇ；與「俯仰」同義）",
+     "pos": "時間詞",
+     "distractors": [
+      "低頭抬頭的動作",
+      "與人往來周旋",
+      "順從他人之時"
+     ]
+    },
+    {
+     "word": "向",
+     "gloss": "以前",
+     "pos": "時間詞",
+     "distractors": [
+      "朝向",
+      "方向",
+      "偏袒"
+     ]
+    }
+   ],
+   "meaning": "以前所感到快樂的事物，轉眼之間，已成為過去的陳跡。",
+   "meaning_distractors": [
+    "朝向喜歡的目標前進，一低頭就留下足跡。",
+    "將來所喜愛的事物，抬頭就能看見它的痕跡。",
+    "從前討厭的事，經過長時間以後，仍舊留在眼前。"
+   ],
+   "confusables": [
+    {
+     "word": "俛仰",
+     "other": "「俯仰」一世",
+     "other_lesson": "蘭亭集序",
+     "same": true,
+     "note": "同義，都形容時間短暫"
+    }
+   ],
+   "source_note": "技國課本注17、28、29；107、113 二技、109 統測引此句（大考原卷有作「俯仰之間已為陳跡」的異文）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 107,
+     "exam": "二技",
+     "no": "3",
+     "quote": "向之所欣，俛仰之間，已為陳跡",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/107_2y/downloader.php?obj=MTA3LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「俛仰」，通行本作「俯仰」"
+    },
+    {
+     "year": 113,
+     "exam": "二技",
+     "no": "4",
+     "quote": "向之所欣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_2y/downloader.php?obj=MTEzLTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A前句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-19",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "事情過去了，心裡卻放不下。",
+   "context_before": "向之所欣，俛仰之間，已為陳跡，",
+   "sentence": "猶不能不以之興懷",
+   "context_after": "，況脩短隨化，終期於盡。",
+   "keywords": [
+    {
+     "word": "興懷",
+     "gloss": "興發感觸",
+     "pos": "動詞",
+     "distractors": [
+      "興奮地懷念",
+      "產生懷疑",
+      "高興地懷抱"
+     ]
+    }
+   ],
+   "meaning": "仍然不能不因它而興發感觸。",
+   "meaning_distractors": [
+    "仍然不能因它而感到興奮。",
+    "還是不必用它來懷念別人。",
+    "尚且可以讓它引起懷疑。"
+   ],
+   "source_note": "技國課本注30；「以」課本無注，故不列為選字；109 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 109,
+     "exam": "統測",
+     "no": "4",
+     "quote": "俛仰之間，已為陳跡，猶不能不以之興懷",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/109_4y/downloader.php?obj=MTA5LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "原卷作「俛仰」"
+    }
+   ]
+  },
+  {
+   "id": "lanting-20",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "更讓人無奈的是，每個人都要面對生命的盡頭。",
+   "context_before": "猶不能不以之興懷，",
+   "sentence": "況脩短隨化，終期於盡",
+   "context_after": "。古人云：「死生亦大矣。」豈不痛哉！",
+   "keywords": [
+    {
+     "word": "脩短",
+     "gloss": "壽命長短",
+     "pos": "名詞",
+     "distractors": [
+      "修改長短",
+      "長竹短竹",
+      "時間長短不定"
+     ]
+    },
+    {
+     "word": "化",
+     "gloss": "造化（大自然運行的法則）",
+     "pos": "名詞",
+     "distractors": [
+      "教化",
+      "融化",
+      "感化"
+     ]
+    },
+    {
+     "word": "期",
+     "gloss": "必定",
+     "pos": "副詞",
+     "distractors": [
+      "期待",
+      "約定的時間",
+      "一周年"
+     ]
+    }
+   ],
+   "meaning": "何況壽命長短隨造化的安排，最終必有死亡的一天。",
+   "meaning_distractors": [
+    "何況修改長短要隨機應變，最後總算完成。",
+    "何況教化隨著長短而變，最後期待完美。",
+    "何況一生很短，最後卻約好再見。"
+   ],
+   "source_note": "技國課本注31",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-21",
+   "lesson": "蘭亭集序",
+   "paragraph": 3,
+   "scene": "作者引古人的話，說明自己為何難過。",
+   "context_before": "況脩短隨化，終期於盡。古人云：「",
+   "sentence": "死生亦大矣",
+   "context_after": "。」豈不痛哉！",
+   "keywords": [
+    {
+     "word": "大",
+     "gloss": "大事",
+     "pos": "名詞",
+     "distractors": [
+      "年紀大",
+      "巨大的體型",
+      "誇大"
+     ]
+    },
+    {
+     "word": "亦",
+     "gloss": "實在",
+     "pos": "副詞",
+     "distractors": [
+      "也",
+      "只是",
+      "又"
+     ]
+    }
+   ],
+   "meaning": "死生實在是件大事。語出《莊子．德充符》。",
+   "meaning_distractors": [
+    "人死了也算活得夠久了。",
+    "死和生都是誇大的說法。",
+    "死和生都不算什麼大事。"
+   ],
+   "source_note": "技國課本注32；113 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "12",
+     "quote": "死生亦大矣，豈不痛哉／快然自足／欣於所遇",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "題組選文",
+     "location": "題組選文引句、選項B",
+     "paper_checked": "2026-11-01",
+     "note": "Q11、14、15 不涉及本篇，不算"
+    }
+   ]
+  },
+  {
+   "id": "lanting-22",
+   "lesson": "蘭亭集序",
+   "paragraph": 4,
+   "scene": "作者讀前人文章時，發現了一件事。",
+   "context_before": "古人云：「死生亦大矣。」豈不痛哉！",
+   "sentence": "每覽昔人興感之由，若合一契",
+   "context_after": "，未嘗不臨文嗟悼，不能喻之於懷。",
+   "keywords": [
+    {
+     "word": "若合一契",
+     "gloss": "完全相同（好像兩片契約相合為一）",
+     "pos": "動詞",
+     "distractors": [
+      "訂下一份契約",
+      "完全合乎契約",
+      "彼此毫不相干"
+     ]
+    },
+    {
+     "word": "契",
+     "gloss": "契約，古人用竹片或木片刻寫，雙方各執一半作為憑證",
+     "pos": "名詞",
+     "distractors": [
+      "投合的朋友",
+      "切開",
+      "刻字的工具"
+     ]
+    }
+   ],
+   "meaning": "每次看到前人興發感慨的原因，都好像兩片契約相合為一般完全相同。",
+   "meaning_distractors": [
+    "每次看到前人的感想，都想和他們訂下契約。",
+    "每次閱讀昔人的文章，都覺得毫無共同之處。",
+    "每次看到前人的興致，就想與他成為投合的朋友。"
+   ],
+   "source_note": "技國課本注33；「由」課本無注，故不列為選字；110 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 110,
+     "exam": "統測",
+     "no": "3",
+     "quote": "每覽昔人興感之由",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/110_4y/downloader.php?obj=MTEwLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-23",
+   "lesson": "蘭亭集序",
+   "paragraph": 4,
+   "scene": "讀著前人文章，作者的反應如何？",
+   "context_before": "每覽昔人興感之由，若合一契，",
+   "sentence": "未嘗不臨文嗟悼，不能喻之於懷",
+   "context_after": "。固知一死生為虛誕，齊彭殤為妄作。",
+   "keywords": [
+    {
+     "word": "嗟悼",
+     "gloss": "嘆息悲傷（音ㄐㄧㄝ ㄉㄠˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "悼念死者",
+      "讚嘆",
+      "憤怒責罵"
+     ]
+    },
+    {
+     "word": "喻",
+     "gloss": "明白、了解，引申為釋懷、寬解",
+     "pos": "動詞",
+     "distractors": [
+      "比喻",
+      "告訴",
+      "譬如"
+     ]
+    }
+   ],
+   "meaning": "面對文章總是嘆息悲傷，內心無法釋懷。",
+   "meaning_distractors": [
+    "面對文章從不嘆息，並且能用比喻說出心裡的話。",
+    "來到文章前總是讚嘆，並把它告訴懷裡的孩子。",
+    "面對死者悲傷哭泣，不知道該比喻成什麼。"
+   ],
+   "source_note": "技國課本注34、35",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-24",
+   "lesson": "蘭亭集序",
+   "paragraph": 4,
+   "scene": "作者不同意《莊子》的看法。",
+   "context_before": "未嘗不臨文嗟悼，不能喻之於懷。",
+   "sentence": "固知一死生為虛誕，齊彭殤為妄作",
+   "context_after": "。後之視今，亦猶今之視昔。悲夫！",
+   "keywords": [
+    {
+     "word": "一",
+     "gloss": "等同，看作一致（作動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "第一個",
+      "全部",
+      "一旦"
+     ]
+    },
+    {
+     "word": "齊",
+     "gloss": "等同，看作一致（作動詞）",
+     "pos": "動詞",
+     "distractors": [
+      "整齊",
+      "同時",
+      "國名"
+     ]
+    },
+    {
+     "word": "殤",
+     "gloss": "未成年而死的人，此借指短命",
+     "pos": "名詞",
+     "distractors": [
+      "酒杯",
+      "長壽的人",
+      "悲傷"
+     ]
+    }
+   ],
+   "meaning": "才明白把死生看作一樣是虛妄荒誕的想法，把長壽和短命看作一樣是荒謬的言論。",
+   "meaning_distractors": [
+    "才明白第一次死亡很荒誕，彭祖夭折是妄想。",
+    "本來就知道死生相同，彭祖和夭折者也沒有差別。",
+    "才知道生死在同一天，彭祖整齊地寫下了作品。"
+   ],
+   "source_note": "技國課本注36、37；114 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "23",
+     "quote": "固知一死生爲虛誕，齊彭殤爲妄作。後之視今，亦猶今之視昔",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-25",
+   "lesson": "蘭亭集序",
+   "paragraph": 4,
+   "scene": "作者想到後人怎麼看待現在的我們。",
+   "context_before": "固知一死生為虛誕，齊彭殤為妄作。",
+   "sentence": "後之視今，亦猶今之視昔。悲夫",
+   "context_after": "！故列敘時人，錄其所述。",
+   "keywords": [
+    {
+     "word": "猶",
+     "gloss": "如同",
+     "pos": "動詞",
+     "distractors": [
+      "仍然",
+      "猶豫",
+      "尚且"
+     ]
+    },
+    {
+     "word": "視",
+     "gloss": "看待",
+     "pos": "動詞",
+     "distractors": [
+      "照顧",
+      "比較",
+      "視察"
+     ]
+    }
+   ],
+   "meaning": "後人看待今日，也如同今人看待往昔，真是可悲啊！",
+   "meaning_distractors": [
+    "後人看今人還比不上今人看古人，真是可笑。",
+    "後人照顧今人，也像今人照顧古人，令人安慰。",
+    "後人和今人都不再看古人的作品，真令人悲傷。"
+   ],
+   "source_note": "技國課本本句無注，字義依文意初擬；114 統測引此句",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "本句課本全無注釋，「猶」作如同、「視」作看待都依文意，請老師確認。",
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "23",
+     "quote": "固知一死生爲虛誕，齊彭殤爲妄作。後之視今，亦猶今之視昔",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-26",
+   "lesson": "蘭亭集序",
+   "paragraph": 4,
+   "scene": "作者交代為什麼要編這部詩集。",
+   "context_before": "後之視今，亦猶今之視昔。悲夫！",
+   "sentence": "故列敘時人，錄其所述",
+   "context_after": "。雖世殊事異，所以興懷，其致一也。",
+   "keywords": [
+    {
+     "word": "列敘",
+     "gloss": "逐一記述",
+     "pos": "動詞",
+     "distractors": [
+      "排成隊伍",
+      "列舉批評",
+      "依序敘舊"
+     ]
+    },
+    {
+     "word": "述",
+     "gloss": "所作詩文",
+     "pos": "名詞",
+     "distractors": [
+      "敘述的方法",
+      "遵循",
+      "傳說"
+     ]
+    }
+   ],
+   "meaning": "因此逐一記述當時與會的人，抄錄他們所作的詩文。",
+   "meaning_distractors": [
+    "因此排好與會者的座位，記下他們的官職。",
+    "因此批評當時的人，並隱藏他們的作品。",
+    "因此依序和當時的人敘舊，錄下他們的談話。"
+   ],
+   "source_note": "「述」依技國課本題解「眾人所作詩篇」；「列敘」課本無注，依文意初擬；112 統測引此句",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「列敘」作逐一記述課本無注，本句也沒有其他有注的字可替換，請老師確認。",
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "27",
+     "quote": "故列敘時人，錄其所述",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項A後句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "lanting-27",
+   "lesson": "蘭亭集序",
+   "paragraph": 4,
+   "scene": "時代會改變，但有一樣東西不變。",
+   "context_before": "故列敘時人，錄其所述。",
+   "sentence": "雖世殊事異，所以興懷，其致一也",
+   "context_after": "。後之覽者，亦將有感於斯文。",
+   "keywords": [
+    {
+     "word": "致",
+     "gloss": "情致",
+     "pos": "名詞",
+     "distractors": [
+      "導致",
+      "送達",
+      "極致"
+     ]
+    },
+    {
+     "word": "殊",
+     "gloss": "不同",
+     "pos": "形容詞",
+     "distractors": [
+      "特別好",
+      "斷絕",
+      "超過"
+     ]
+    }
+   ],
+   "meaning": "即使時代不同、事情相異，人們引發感懷的原因，那份情致是相同的。",
+   "meaning_distractors": [
+    "即使世道太平，引發感懷的事也會導致災難。",
+    "因為時代特殊，人們興起的懷念也都不一樣。",
+    "即使事情不同，感懷都送到同一個地方。"
+   ],
+   "source_note": "技國課本注38；殊字見注20「殊，差別、不同」",
+   "from_pack": []
+  },
+  {
+   "id": "lanting-28",
+   "lesson": "蘭亭集序",
+   "paragraph": 4,
+   "scene": "序文結尾，作者把話說給未來的人。",
+   "context_before": "雖世殊事異，所以興懷，其致一也。",
+   "sentence": "後之覽者，亦將有感於斯文",
+   "context_after": "。",
+   "keywords": [
+    {
+     "word": "斯",
+     "gloss": "這",
+     "pos": "代詞",
+     "distractors": [
+      "於是",
+      "離開",
+      "斯文有禮"
+     ]
+    },
+    {
+     "word": "覽",
+     "gloss": "閱讀",
+     "pos": "動詞",
+     "distractors": [
+      "遊覽",
+      "招攬",
+      "展示"
+     ]
+    }
+   ],
+   "meaning": "後世閱讀的人，也將對這篇文章有所感觸。",
+   "meaning_distractors": [
+    "後代的遊客，也將感謝這位斯文的作者。",
+    "後世閱讀的人，將不再對這篇文章有感。",
+    "以後招攬的人，也要像這樣溫文有禮。"
+   ],
+   "source_note": "技國課本本句無注，字義依文意初擬",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "本句課本全無注釋，「斯」作這、「覽」作閱讀都依文意，請老師確認。"
+  }
+ ]
+}

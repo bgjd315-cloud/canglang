@@ -1,0 +1,1032 @@
+{
+ "lesson_id": "tiangong",
+ "lesson": "天工開物",
+ "author": "宋應星",
+ "tagline": "小小一滴油，撐起車與船",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "tiangong-01",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "宋應星談舟車時，先從人與物的分布說起。",
+   "context_before": "宋子曰：",
+   "sentence": "人群分而物異產，來往貿遷，以成宇宙",
+   "context_after": "。若各居而老死，何藉有群類哉",
+   "keywords": [
+    {
+     "word": "貿遷",
+     "gloss": "買賣流通",
+     "pos": "動詞",
+     "distractors": [
+      "貿然遷移",
+      "換季搬家",
+      "貿易戰爭"
+     ]
+    },
+    {
+     "word": "宇宙",
+     "gloss": "天下世界",
+     "pos": "名詞",
+     "distractors": [
+      "天文太空",
+      "屋簷與棟梁",
+      "時間與空間的理論"
+     ]
+    }
+   ],
+   "meaning": "人分散居住而物產各地不同，彼此往來買賣流通，才構成天下世界。",
+   "meaning_distractors": [
+    "人群分裂而物產稀少，貿然遷移，才能飛向宇宙。",
+    "人們聚居而物產相同，不必往來，也能構成世界。",
+    "人分散居住而物產各異，應該停止買賣，才能守住家鄉。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：宇宙，天地、天下；易文言網注：懋遷（底本作貿遷），貿易、運輸",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "7",
+     "quote": "人群分而物異產，來往貿遷，以成宇宙",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-02",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "如果人人都不往來，會怎麼樣？",
+   "context_before": "人群分而物異產，來往貿遷，以成宇宙。",
+   "sentence": "若各居而老死，何藉有群類哉",
+   "context_after": "？人有貴而必出，行畏周行",
+   "keywords": [
+    {
+     "word": "藉",
+     "gloss": "憑藉",
+     "pos": "動詞",
+     "distractors": [
+      "狼藉",
+      "書籍",
+      "藉口"
+     ]
+    },
+    {
+     "word": "群類",
+     "gloss": "人類群體",
+     "pos": "名詞",
+     "distractors": [
+      "物品種類",
+      "類似的人",
+      "品行"
+     ]
+    }
+   ],
+   "meaning": "如果各自居住到老死，又憑什麼形成人類群體呢？",
+   "meaning_distractors": [
+    "如果各自老死，就沒有藉口再分類了。",
+    "如果大家同住到老，就會變得彼此相似。",
+    "如果各自居住到老死，人群反而會更興盛。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：藉，依賴；易文言網譯文作憑什麼構成人類社會；114統測第3題選項C（公告答案D，此「類」非「類似」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "3",
+     "quote": "若各居而老死，何藉有群類哉",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-03",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "有些人非出門不可，卻有難處。",
+   "context_before": "若各居而老死，何藉有群類哉？",
+   "sentence": "人有貴而必出，行畏周行",
+   "context_after": "；物有賤而必須，坐窮負販",
+   "keywords": [
+    {
+     "word": "周行",
+     "gloss": "四處奔走遠行",
+     "pos": "動詞",
+     "distractors": [
+      "寬闊大道",
+      "行為周到",
+      "巡邏站崗"
+     ]
+    }
+   ],
+   "meaning": "人有地位尊貴而必須外出的，出行卻怕四處奔走的辛苦。",
+   "meaning_distractors": [
+    "人有地位尊貴的就不必外出，不怕走遠路。",
+    "人有富貴便想周遊列國，走路非常快樂。",
+    "人有貴重物品必須帶出門，出行時怕遇到小偷。"
+   ],
+   "source_note": "易文言網注：周行，四處旅行，古時路途艱難故曰畏；113統測第10題公告答案B（載人怕走路累）；113統測第10題公告答案B（載人怕走路累）支持句意方向",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "10",
+     "quote": "人有貴而必出，行畏周行；物有賤而必須，坐窮負販。四海之內，南資舟而北資車",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "題幹",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-04",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "物品也有運送的難處。",
+   "context_before": "人有貴而必出，行畏周行；",
+   "sentence": "物有賤而必須，坐窮負販",
+   "context_after": "。四海之內，南資舟而北資車",
+   "keywords": [
+    {
+     "word": "負販",
+     "gloss": "挑擔販賣的小販",
+     "pos": "名詞",
+     "distractors": [
+      "揹負債務",
+      "販賣人口",
+      "失敗的商人"
+     ]
+    }
+   ],
+   "meaning": "有些物品雖低賤卻不可缺，只靠挑擔小販運送又力有未逮。",
+   "meaning_distractors": [
+    "有些物品低賤所以不必買，小販只好坐著窮困度日。",
+    "有些物品低賤又多餘，商人揹著債務難以販賣。",
+    "有些物品貴重而必須，坐在家裡就有小販送到。"
+   ],
+   "source_note": "易文言網譯文作「因為缺乏而需要有人販運」，與本句意方向不盡相同；負販二字各辭書未見條目；113統測第10題公告答案B（運貨互通有無）",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「坐窮負販」解法不一（困於肩挑運送／因缺乏而需販運），請確認課本注釋。",
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "10",
+     "quote": "人有貴而必出，行畏周行；物有賤而必須，坐窮負販。四海之內，南資舟而北資車",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "題幹",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-05",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "所以各地要用什麼來解決運輸？",
+   "context_before": "人有貴而必出，行畏周行；物有賤而必須，坐窮負販。",
+   "sentence": "四海之內，南資舟而北資車",
+   "context_after": "。梯航萬國，能使帝京元氣充然",
+   "keywords": [
+    {
+     "word": "資",
+     "gloss": "憑藉",
+     "pos": "動詞",
+     "distractors": [
+      "資本",
+      "資質",
+      "資料"
+     ]
+    }
+   ],
+   "meaning": "全國各地，南方依靠船運，北方依靠車運。",
+   "meaning_distractors": [
+    "全國各地，南方資本在船上，北方資本在車上。",
+    "全國各地，南方造船供應北方，北方造車供應南方。",
+    "全國各地，南方禁止行船，北方禁止行車。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：資，憑藉、取用；易文言網譯文；113統測第10題題幹引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "10",
+     "quote": "人有貴而必出，行畏周行；物有賤而必須，坐窮負販。四海之內，南資舟而北資車",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "題幹",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-06",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "遠方的物資、使節都到了京城。",
+   "context_before": "四海之內，南資舟而北資車。",
+   "sentence": "梯航萬國，能使帝京元氣充然",
+   "context_after": "。何其始造舟車者，不食尸祝之報也",
+   "keywords": [
+    {
+     "word": "梯航",
+     "gloss": "登山渡海往來",
+     "pos": "動詞",
+     "distractors": [
+      "階梯與航線",
+      "攀爬船梯",
+      "航海圖"
+     ]
+    },
+    {
+     "word": "充然",
+     "gloss": "充足的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "充當的樣子",
+      "忽然的樣子",
+      "空虛的樣子"
+     ]
+    }
+   ],
+   "meaning": "越山渡海連通各國，能使京城元氣充足。",
+   "meaning_distractors": [
+    "攀爬階梯登上船隻，能使京城人口減少。",
+    "各國的航海圖傳來，能使京城的人忽然驚訝。",
+    "萬國使節架梯登船，使京城充當海港。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：梯航，梯山航海；充然，滿足、盛大；易文言網注；115統測第2題選項D引此句（公告答案A，非「如此」之「然」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "2",
+     "quote": "梯航萬國，能使帝京元氣充然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-07",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "發明舟車功勞這麼大，作者卻替發明者不平。",
+   "context_before": "梯航萬國，能使帝京元氣充然。",
+   "sentence": "何其始造舟車者，不食尸祝之報也",
+   "context_after": "？浮海長年，視萬頃波如平地",
+   "keywords": [
+    {
+     "word": "尸祝",
+     "gloss": "主持祭祀的人，此指祭祀",
+     "pos": "名詞",
+     "distractors": [
+      "屍體與祝福",
+      "巫師治病",
+      "祝壽儀式"
+     ]
+    },
+    {
+     "word": "食",
+     "gloss": "享用",
+     "pos": "動詞",
+     "distractors": [
+      "食物",
+      "吃飯",
+      "俸祿"
+     ]
+    }
+   ],
+   "meaning": "為什麼當初發明舟車的人，竟沒有享受到人們祭祀的回報呢？",
+   "meaning_distractors": [
+    "為什麼當初發明舟車的人，不肯吃祭祀的食物呢？",
+    "為什麼當初發明舟車的人，要向主祭者討回報酬呢？",
+    "當初發明舟車的人，因得到祭祀回報而不再吃飯。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：尸祝，祭祀時主讀祝文者；食，嚐到、承受；易文言網注：尸祝之報，後代祭祀紀念以報答；112統測第5題公告答案D（以反問語氣表達慨歎）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "5",
+     "quote": "何其始造舟車者，不食尸祝之報也",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-08",
+   "lesson": "天工開物",
+   "paragraph": 1,
+   "scene": "長年在海上的人，練出了驚人的本事。",
+   "context_before": "何其始造舟車者，不食尸祝之報也？",
+   "sentence": "浮海長年，視萬頃波如平地",
+   "context_after": "，此與列子所謂御泠風者無異",
+   "keywords": [
+    {
+     "word": "長年",
+     "gloss": "船工，一說長年航行",
+     "pos": "名詞",
+     "distractors": [
+      "年老的人",
+      "一整年",
+      "海上盜賊"
+     ]
+    }
+   ],
+   "meaning": "航海的船工，看待萬頃波濤就像走在平地上。",
+   "meaning_distractors": [
+    "航海很多年後，大海就會變成平地。",
+    "年長的人漂浮海上，把波浪當成田地耕種。",
+    "航海一整年，才看到萬頃的平地。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）「長年」僅列長壽、長時間；易文言網譯文作長年航行；「船工」未查到書面注釋",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「長年」查不到船工的書面依據，易文言網作長年航行，請確認課本注釋。"
+  },
+  {
+   "id": "tiangong-09",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "宋應星談油脂時，先問人為何要工作到晚上。",
+   "context_before": "宋子曰：天道平分晝夜，而",
+   "sentence": "人工繼晷以襄事，豈好勞而惡逸哉",
+   "context_after": "？使織女燃薪，書生映雪，所濟成何事也",
+   "keywords": [
+    {
+     "word": "繼晷",
+     "gloss": "接續日光（晷，音ㄍㄨㄟˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "計算時間",
+      "承繼家業",
+      "躲避日曬"
+     ]
+    },
+    {
+     "word": "襄",
+     "gloss": "成就，一說幫助",
+     "pos": "動詞",
+     "distractors": [
+      "衣襟",
+      "地名",
+      "高舉"
+     ]
+    },
+    {
+     "word": "惡",
+     "gloss": "厭惡（音ㄨˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "罪惡",
+      "兇狠",
+      "疑問詞"
+     ]
+    }
+   ],
+   "meaning": "人們夜以繼日地工作來完成事情，難道是喜歡勞苦而厭惡安逸嗎？",
+   "meaning_distractors": [
+    "人們躲避日曬來工作，難道是喜歡安逸而厭惡勞苦嗎？",
+    "人們承繼家業來成事，一定是喜歡勞苦而厭惡安逸。",
+    "人工計算時間來做事，難道是因為勞苦而做惡事嗎？"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：襄，完成、成就（又輔助）；惡（ㄨˋ），憎恨、討厭；快學網《天工開物》注：晷，時光；襄，幫助；「繼晷以襄事」112統測第37題選項D引",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「襄」重編國語辭典有成就、輔助二義，快學網注作幫助，請確認課本注釋。",
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "37",
+     "quote": "人工繼晷以襄事，豈好勞而惡逸哉",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-10",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "如果沒有燈油，夜間工作會是什麼景況？",
+   "context_before": "人工繼晷以襄事，豈好勞而惡逸哉？",
+   "sentence": "使織女燃薪，書生映雪，所濟成何事也",
+   "context_after": "。草木之實，其中韞藏膏液，而不能自流",
+   "keywords": [
+    {
+     "word": "使",
+     "gloss": "假使",
+     "pos": "連詞",
+     "distractors": [
+      "派遣",
+      "使者",
+      "使用"
+     ]
+    },
+    {
+     "word": "濟",
+     "gloss": "助益",
+     "pos": "動詞",
+     "distractors": [
+      "渡河",
+      "救濟災民",
+      "人才眾多"
+     ]
+    }
+   ],
+   "meaning": "假使織女只能燒柴照明、書生只能映雪讀書，能助成什麼事呢？",
+   "meaning_distractors": [
+    "派遣織女燒柴、書生映雪，就能救濟所有災民。",
+    "織女使用薪柴織布、書生賞雪，都渡過難關。",
+    "假使織女不燒柴、書生不讀書，就成不了任何事。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：使，假設、如果；濟，助益；快學網《天工開物》注",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-11",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "油從哪裡來？答案藏在植物裡。",
+   "context_before": "使織女燃薪，書生映雪，所濟成何事也。",
+   "sentence": "草木之實，其中韞藏膏液，而不能自流",
+   "context_after": "；假媒水火，憑藉木石，而後傾注而出焉",
+   "keywords": [
+    {
+     "word": "實",
+     "gloss": "果實、種子",
+     "pos": "名詞",
+     "distractors": [
+      "誠實",
+      "事實",
+      "充滿"
+     ]
+    },
+    {
+     "word": "韞藏",
+     "gloss": "蘊藏",
+     "pos": "動詞",
+     "distractors": [
+      "隱居",
+      "封印",
+      "收購"
+     ]
+    }
+   ],
+   "meaning": "草木的果實種子，裡面蘊藏著油脂，卻不能自己流出來。",
+   "meaning_distractors": [
+    "草木確實都有血液，會自己流出來。",
+    "草木的樹幹裡，藏著水分，卻不能自己流出來。",
+    "草木的果實被人收購，裡面的油脂自動流出來。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：實，植物的種子、果實；快學網《天工開物》注本作蘊藏膏液；114統測第19題②引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "19",
+     "quote": "草木之實，其中韞藏膏液，而不能自流；假媒水火，憑藉木石，而後傾注而出焉",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "②",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-12",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "要把油取出來，得靠人的手段。",
+   "context_before": "草木之實，其中韞藏膏液，而不能自流；",
+   "sentence": "假媒水火，憑藉木石，而後傾注而出焉",
+   "context_after": "。此人巧聰明，不知於何稟度也",
+   "keywords": [
+    {
+     "word": "假",
+     "gloss": "借助",
+     "pos": "動詞",
+     "distractors": [
+      "虛假",
+      "假期",
+      "如果"
+     ]
+    },
+    {
+     "word": "媒",
+     "gloss": "作為媒介",
+     "pos": "動詞",
+     "distractors": [
+      "婚姻介紹",
+      "煤炭",
+      "消息來源"
+     ]
+    }
+   ],
+   "meaning": "藉助水火作媒介，憑藉木製石製的器具，然後油才能傾注流出。",
+   "meaning_distractors": [
+    "假裝用水火當煤炭，靠木石放火，然後油才消失。",
+    "如果水火結合，靠木石就可以把油倒回果實。",
+    "請人介紹水火工匠，靠木石抬著，然後油才賣出。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：假，借；媒，聯繫雙方的事物；快學網《天工開物》注譯文；114統測第19題②引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "19",
+     "quote": "草木之實，其中韞藏膏液，而不能自流；假媒水火，憑藉木石，而後傾注而出焉",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=7",
+     "pdf_page": 7,
+     "relation_type": "直接引文",
+     "location": "②",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-13",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "作者驚嘆人類取油的本領從何而來。",
+   "context_before": "假媒水火，憑藉木石，而後傾注而出焉。",
+   "sentence": "此人巧聰明，不知於何稟度也",
+   "context_after": "。人間負重致遠，恃有舟車",
+   "keywords": [
+    {
+     "word": "稟度",
+     "gloss": "被賦予、承受",
+     "pos": "動詞",
+     "distractors": [
+      "稟告揣測",
+      "度量寬大",
+      "取得法律"
+     ]
+    }
+   ],
+   "meaning": "這種人的巧思與聰明，不知是從哪裡得來的。",
+   "meaning_distractors": [
+    "這種人假裝聰明，不知向誰稟告才好。",
+    "這種人巧妙聰明，不知道什麼才叫度量寬大。",
+    "這種人的技術，不知從何處可以給予他人。"
+   ],
+   "source_note": "快學網《天工開物》注：於何稟度，從何處被賦予；113統測第36題選項D引此句（公告答案C）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "36",
+     "quote": "此人巧聰明，不知於何稟度也",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-14",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "油的用處不只照明，也跟運輸有關。",
+   "context_before": "此人巧聰明，不知於何稟度也。",
+   "sentence": "人間負重致遠，恃有舟車",
+   "context_after": "。乃車得一銖而轄轉，舟得一石而罅完",
+   "keywords": [
+    {
+     "word": "致",
+     "gloss": "到達",
+     "pos": "動詞",
+     "distractors": [
+      "導致",
+      "贈送",
+      "情趣"
+     ]
+    },
+    {
+     "word": "恃",
+     "gloss": "依靠",
+     "pos": "動詞",
+     "distractors": [
+      "自負",
+      "侍奉",
+      "等待"
+     ]
+    }
+   ],
+   "meaning": "人間要載重物到遠方，要依靠舟車。",
+   "meaning_distractors": [
+    "人間負擔太重導致遠行，因為舟車太多。",
+    "人們贈送重物到遠方，要侍奉舟車。",
+    "人間的重擔來自遠方，只能等待舟車。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：致，達到；恃，依賴",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-15",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "舟車要動起來，還缺不了一點點油。",
+   "context_before": "人間負重致遠，恃有舟車。",
+   "sentence": "乃車得一銖而轄轉，舟得一石而罅完",
+   "context_after": "，非此物之為功也不可行矣",
+   "keywords": [
+    {
+     "word": "轄",
+     "gloss": "車軸兩端的固定鍵，此指車軸",
+     "pos": "名詞",
+     "distractors": [
+      "管轄",
+      "車輪外框",
+      "車篷"
+     ]
+    },
+    {
+     "word": "罅",
+     "gloss": "裂縫（音ㄒㄧㄚˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "船帆",
+      "船槳",
+      "缺糧"
+     ]
+    },
+    {
+     "word": "完",
+     "gloss": "完好",
+     "pos": "形容詞",
+     "distractors": [
+      "完畢",
+      "繳納",
+      "完全"
+     ]
+    }
+   ],
+   "meaning": "車子得到一點油，車軸就能轉動；船得到一石油，裂縫就能補好。",
+   "meaning_distractors": [
+    "車子賣出一銖錢，就能管轄地方；船賣出一石米，就能完工。",
+    "車子得到一銖重的轄，就能完工；船得到一石就會裂開。",
+    "車子沒油也能轉動，船得到一石油反而裂開。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：轄，貫穿車軸的金屬鍵；罅，隙縫；完，修繕、齊全；快學網《天工開物》注：車軸上一點油便可轉動，上百斤油可補好船縫",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-16",
+   "lesson": "天工開物",
+   "paragraph": 2,
+   "scene": "作者把話題轉回餐桌，又反問一句。",
+   "context_before": "至葅蔬之登釜也，莫或膏之，猶啼兒失乳焉。",
+   "sentence": "斯其功用一端而已哉",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "端",
+     "gloss": "方面",
+     "pos": "名詞",
+     "distractors": [
+      "端正",
+      "開頭",
+      "末端"
+     ]
+    },
+    {
+     "word": "斯",
+     "gloss": "這",
+     "pos": "代詞",
+     "distractors": [
+      "撕開",
+      "於是",
+      "文雅"
+     ]
+    }
+   ],
+   "meaning": "這難道只是它功用的一個方面而已嗎？",
+   "meaning_distractors": [
+    "這是它功用的開頭，以後不再有用了。",
+    "這些功用都很端正，再也沒有別的了。",
+    "於是它的功用只剩下末端這一點。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：端，項目、方面；斯，此",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-17",
+   "lesson": "天工開物",
+   "paragraph": 3,
+   "scene": "宋應星談造紙時，先問知識靠什麼傳下去。",
+   "context_before": "宋子曰：物象精華，乾坤微妙，",
+   "sentence": "古傳今而華達夷，使後起含生，目授而心識之",
+   "context_after": "，承載者以何物哉",
+   "keywords": [
+    {
+     "word": "夷",
+     "gloss": "外族",
+     "pos": "名詞",
+     "distractors": [
+      "平坦",
+      "消滅",
+      "平定"
+     ]
+    },
+    {
+     "word": "含生",
+     "gloss": "有生命的人類",
+     "pos": "名詞",
+     "distractors": [
+      "含苞的生機",
+      "懷抱生機的草木",
+      "新出生的嬰兒"
+     ]
+    },
+    {
+     "word": "識",
+     "gloss": "知道、記住",
+     "pos": "動詞",
+     "distractors": [
+      "標記",
+      "見解",
+      "朋友"
+     ]
+    }
+   ],
+   "meaning": "從古傳到今，從中原傳到外族，使後來的人，眼睛看了便心裡領會。",
+   "meaning_distractors": [
+    "古今華夏都消滅外族，使後人眼見心驚。",
+    "從今傳回古代，使新生嬰兒的眼睛受傷。",
+    "從古傳到今，只傳中原，後人只用耳朵聽著記住。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：夷，中原以外各族；含生，擁有生命；識，知道；快學網《天工開物》注：後世生民眼觀而心會",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-18",
+   "lesson": "天工開物",
+   "paragraph": 3,
+   "scene": "只靠一張嘴，能傳多遠？",
+   "context_before": "古傳今而華達夷，使後起含生，目授而心識之，承載者以何物哉？",
+   "sentence": "君與民通，師將弟命，憑藉呫呫口語，其與幾何",
+   "context_after": "？持寸符，握半卷，終事詮旨，風行而冰釋焉",
+   "keywords": [
+    {
+     "word": "呫呫",
+     "gloss": "低聲細語（音ㄔㄜˋ）",
+     "pos": "形容詞",
+     "distractors": [
+      "大聲吼叫",
+      "吃東西",
+      "寫字的聲音"
+     ]
+    },
+    {
+     "word": "幾何",
+     "gloss": "多少",
+     "pos": "代詞",
+     "distractors": [
+      "幾何學",
+      "何時",
+      "怎麼"
+     ]
+    }
+   ],
+   "meaning": "君王與百姓溝通，老師對弟子傳授教誨，只憑一張嘴低聲說話，能傳達多少呢？",
+   "meaning_distractors": [
+    "君民與師弟同席，只憑大聲吼叫，就能傳達幾何學。",
+    "君王與百姓相通，老師與弟子爭吵，憑書寫才能完成。",
+    "君王命令老師帶領弟子，用低語傳達，可以傳遍天下。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：呫呫，低聲細語；幾何，多少；快學網注：瑣屑的言語；師將弟命句依快學網譯文",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-19",
+   "lesson": "天工開物",
+   "paragraph": 3,
+   "scene": "有了一樣東西，天下的人都受惠。",
+   "context_before": "持寸符，握半卷，終事詮旨，風行而冰釋焉。",
+   "sentence": "覆載之間之藉有楮先生也，聖頑咸嘉賴之矣",
+   "context_after": "。身為竹骨與木皮，殺其青而白乃見",
+   "keywords": [
+    {
+     "word": "覆載",
+     "gloss": "天地之間",
+     "pos": "名詞",
+     "distractors": [
+      "翻覆裝載",
+      "反覆記載",
+      "貨物運輸"
+     ]
+    },
+    {
+     "word": "楮先生",
+     "gloss": "紙的別稱（楮，音ㄔㄨˇ）",
+     "pos": "名詞",
+     "distractors": [
+      "姓楮的老師",
+      "楮樹專家",
+      "造筆的工匠"
+     ]
+    },
+    {
+     "word": "咸",
+     "gloss": "都",
+     "pos": "副詞",
+     "distractors": [
+      "鹹味",
+      "感應",
+      "全部的人"
+     ]
+    }
+   ],
+   "meaning": "天地之間仰賴有紙，聖人與愚人都感激依賴它。",
+   "meaning_distractors": [
+    "天地之間有位楮老師，聖人與愚人都向他學習。",
+    "翻覆的車上裝著楮樹，聖人與愚人都覺得很鹹。",
+    "世界依賴楮樹專家，聖人才能教化愚人。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：覆載，本指天地；楮先生，紙；咸，都；快學網注：聖頑，聖賢與愚頑；「楮」字音見115二技第1題選項C（公告答案A，與「渚」不同音）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "1",
+     "quote": "覆載之間之藉有楮先生也",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C前句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "tiangong-20",
+   "lesson": "天工開物",
+   "paragraph": 3,
+   "scene": "紙是怎麼來的？作者說了製作的關鍵。",
+   "context_before": "覆載之間之藉有楮先生也，聖頑咸嘉賴之矣。",
+   "sentence": "身為竹骨與木皮，殺其青而白乃見，萬卷百家，基從此起",
+   "context_after": "。其精在此，而其粗效於障風護物之間",
+   "keywords": [
+    {
+     "word": "見",
+     "gloss": "同「現」，顯現（音ㄒㄧㄢˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "看見",
+      "見解",
+      "會面"
+     ]
+    },
+    {
+     "word": "基",
+     "gloss": "根基",
+     "pos": "名詞",
+     "distractors": [
+      "基因",
+      "牆壁",
+      "基金"
+     ]
+    }
+   ],
+   "meaning": "紙的本體是竹骨與樹皮，去掉青色後白色才顯現，萬卷百家的學問都以它為根基。",
+   "meaning_distractors": [
+    "紙張來自竹骨與牛皮，殺了青蛇才看見白色，百家都起身敬佩。",
+    "身體像竹骨與樹皮一樣瘦，殺青時才看見白色，百家從此興起。",
+    "紙的本體是青色的竹子，染白後才能看見，萬卷書才能賣出。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：見（ㄒㄧㄢˋ），顯露；基，事物的根本；「與」字依 Project Gutenberg #25273、快學網",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-21",
+   "lesson": "天工開物",
+   "paragraph": 3,
+   "scene": "紙不只用來寫字。",
+   "context_before": "身為竹骨與木皮，殺其青而白乃見，萬卷百家，基從此起。",
+   "sentence": "其精在此，而其粗效於障風護物之間",
+   "context_after": "。事已開於上古，而使漢、晉時人擅名記者，何其陋哉",
+   "keywords": [
+    {
+     "word": "粗",
+     "gloss": "粗略的用途",
+     "pos": "名詞",
+     "distractors": [
+      "粗糙",
+      "粗魯",
+      "粗細"
+     ]
+    },
+    {
+     "word": "效",
+     "gloss": "發揮功用",
+     "pos": "動詞",
+     "distractors": [
+      "模仿",
+      "效果",
+      "獻出"
+     ]
+    },
+    {
+     "word": "障",
+     "gloss": "遮擋",
+     "pos": "動詞",
+     "distractors": [
+      "關卡",
+      "障礙",
+      "保護區"
+     ]
+    }
+   ],
+   "meaning": "紙的精要用途在這裡，粗略的用途則發揮在遮風和包裹物品上。",
+   "meaning_distractors": [
+    "紙的品質精良，只有粗魯的人才用來模仿風景。",
+    "紙張精美，粗糙的紙則會擋住風，造成障礙。",
+    "紙的粗略用途在文字上，精要用途才是遮風護物。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：效，功用；障，遮蔽；快學網注：障風、護物，糊窗戶、包東西",
+   "from_pack": []
+  },
+  {
+   "id": "tiangong-22",
+   "lesson": "天工開物",
+   "paragraph": 3,
+   "scene": "作者最後對造紙起源提出批評。",
+   "context_before": "其精在此，而其粗效於障風護物之間。",
+   "sentence": "事已開於上古，而使漢、晉時人擅名記者，何其陋哉",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "擅名",
+     "gloss": "獨享名聲",
+     "pos": "動詞",
+     "distractors": [
+      "擅長起名",
+      "假冒姓名",
+      "簽署名字"
+     ]
+    },
+    {
+     "word": "陋",
+     "gloss": "淺薄無知",
+     "pos": "形容詞",
+     "distractors": [
+      "面貌醜陋",
+      "狹小簡陋",
+      "隱瞞"
+     ]
+    }
+   ],
+   "meaning": "這事在上古就已開始，卻讓漢、晉時人獨享發明之名而記載下來，是多麼淺薄啊！",
+   "meaning_distractors": [
+    "這事在上古就已開始，漢、晉時人擅長起名，是多麼優美啊！",
+    "這事到漢、晉才開始，上古的人卻假冒名聲，是多麼醜陋啊！",
+    "這事在上古就已開始，漢、晉的房屋卻很簡陋，是多麼可惜啊！"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：陋，學識淺薄；快學網注：把造紙發明權記在漢、晉某人名下不對；擅名未見辭典條目，據此注",
+   "from_pack": []
+  }
+ ]
+}

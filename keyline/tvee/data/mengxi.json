@@ -1,0 +1,1762 @@
+{
+ "lesson_id": "mengxi",
+ "lesson": "夢溪筆談",
+ "author": "沈括",
+ "tagline": "一面鏡子，藏著古人的算計",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "mengxi-01",
+   "lesson": "夢溪筆談",
+   "paragraph": 1,
+   "scene": "沈括談起古代工匠鑄造銅鏡的一條規律。",
+   "context_before": "",
+   "sentence": "古人鑄鑑，鑑大則平，鑑小則凸",
+   "context_after": "。凡鑑窪則照人面大，凸則照人面小。小鑑不能全視人面，故令微凸，收人面令小",
+   "keywords": [
+    {
+     "word": "鑑",
+     "gloss": "鏡子",
+     "pos": "名詞",
+     "distractors": [
+      "鑑定",
+      "教訓",
+      "書信"
+     ]
+    }
+   ],
+   "meaning": "古人鑄造銅鏡，大鏡做成平面，小鏡做成凸面。",
+   "meaning_distractors": [
+    "古人鑑定銅鏡，大的平庸，小的才算突出。",
+    "古人鑄造銅鏡，大鏡做成凸面，小鏡做成平面。",
+    "古人照鏡時，鏡子大就平靜，鏡子小就不安。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：鑑，鏡子；勸學網《夢溪筆談》譯文；112統測第29題引此句，公告答案判其與銅鏡簡圖不符",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "29",
+     "quote": "鑑大則平，鑑小則凸／工之巧智",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "①②",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-02",
+   "lesson": "夢溪筆談",
+   "paragraph": 1,
+   "scene": "沈括說明鏡面形狀和照出人臉大小的關係。",
+   "context_before": "古人鑄鑑，鑑大則平，鑑小則凸。",
+   "sentence": "凡鑑窪則照人面大，凸則照人面小",
+   "context_after": "。小鑑不能全視人面，故令微凸，收人面令小，則鑑雖小而能全納人面",
+   "keywords": [
+    {
+     "word": "窪",
+     "gloss": "向內凹陷（音ㄨㄚ）",
+     "pos": "形容詞",
+     "distractors": [
+      "積水",
+      "低賤",
+      "平坦"
+     ]
+    },
+    {
+     "word": "則",
+     "gloss": "就，表某條件下的狀態",
+     "pos": "連詞",
+     "distractors": [
+      "卻，表語意轉折",
+      "是，表解釋",
+      "法則，表規範"
+     ]
+    }
+   ],
+   "meaning": "鏡面凹下就把人臉照得大，鏡面凸起就把人臉照得小。",
+   "meaning_distractors": [
+    "鏡面積水就照不清人臉，鏡面凸起才照得完整。",
+    "鏡面凹下卻把人臉照得小，鏡面凸起卻照得大。",
+    "鏡子大就把人臉照得大，鏡子小就把人臉照得小。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：窪，凹陷的；則，便、就；「則」的用法見111統測第10題框內例句①（相當於「就」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "10",
+     "quote": "凡鑑窪則照人面大",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=4",
+     "pdf_page": 4,
+     "relation_type": "直接引文",
+     "location": "框內例句①",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    },
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "28",
+     "quote": "古人鑄鑑，鑑大則平，鑑小則凸。凡鑑窪則照人面大，凸則照人面小。小鑑不能全視人面，故令微凸，收人面令小，則鑑雖小而能全納人面。仍復量鑑之小大，增損高下，常令人面與鑑大小相若。此工之巧智，後人不能造",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組圖表「宋代沈括」",
+     "paper_checked": "2026-11-01",
+     "note": "Q30 問當代學者，不算"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "4",
+     "quote": "凡鑑窪則照人面大，凸則照人面小",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項D",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-03",
+   "lesson": "夢溪筆談",
+   "paragraph": 1,
+   "scene": "小鏡子照不全人臉，工匠想出了辦法。",
+   "context_before": "凡鑑窪則照人面大，凸則照人面小。",
+   "sentence": "小鑑不能全視人面，故令微凸",
+   "context_after": "，收人面令小，則鑑雖小而能全納人面",
+   "keywords": [
+    {
+     "word": "令",
+     "gloss": "使（音ㄌㄧㄥˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "命令",
+      "美好",
+      "官名"
+     ]
+    }
+   ],
+   "meaning": "小鏡子無法照見整張臉，所以讓鏡面稍微凸起。",
+   "meaning_distractors": [
+    "小鏡子不能讓人看全，所以下令稍微磨平。",
+    "小鏡子照得太清楚，所以工匠稍微把它磨凹。",
+    "小鏡子照不到別人，所以命令工匠改做大鏡。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：令，使、讓",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "28",
+     "quote": "古人鑄鑑，鑑大則平，鑑小則凸。凡鑑窪則照人面大，凸則照人面小。小鑑不能全視人面，故令微凸，收人面令小，則鑑雖小而能全納人面。仍復量鑑之小大，增損高下，常令人面與鑑大小相若。此工之巧智，後人不能造",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組圖表「宋代沈括」",
+     "paper_checked": "2026-11-01",
+     "note": "Q30 問當代學者，不算"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-04",
+   "lesson": "夢溪筆談",
+   "paragraph": 1,
+   "scene": "接著說明把鏡面做凸之後的效果。",
+   "context_before": "小鑑不能全視人面，故令微凸，",
+   "sentence": "收人面令小，則鑑雖小而能全納人面",
+   "context_after": "，仍復量鑑之小大，增損高下，常令人面與鑑大小相若",
+   "keywords": [
+    {
+     "word": "收",
+     "gloss": "使縮小",
+     "pos": "動詞",
+     "distractors": [
+      "收藏",
+      "收割",
+      "接受"
+     ]
+    },
+    {
+     "word": "納",
+     "gloss": "容納",
+     "pos": "動詞",
+     "distractors": [
+      "繳交",
+      "接受意見",
+      "縫補"
+     ]
+    }
+   ],
+   "meaning": "把人臉的影像縮小，那麼鏡子雖小也能容納整張臉。",
+   "meaning_distractors": [
+    "把人臉收藏起來，那麼鏡子雖小也不會損壞。",
+    "讓人的臉變瘦，那麼鏡子雖小也能繳交上去。",
+    "把鏡子再縮小，那麼人臉就會全部看不見。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：收，聚斂、縮合；納，容、受；勸學網《夢溪筆談》譯文",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "28",
+     "quote": "古人鑄鑑，鑑大則平，鑑小則凸。凡鑑窪則照人面大，凸則照人面小。小鑑不能全視人面，故令微凸，收人面令小，則鑑雖小而能全納人面。仍復量鑑之小大，增損高下，常令人面與鑑大小相若。此工之巧智，後人不能造",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組圖表「宋代沈括」",
+     "paper_checked": "2026-11-01",
+     "note": "Q30 問當代學者，不算"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-05",
+   "lesson": "夢溪筆談",
+   "paragraph": 1,
+   "scene": "工匠不只把鏡面做凸，還依鏡子大小再調整。",
+   "context_before": "收人面令小，則鑑雖小而能全納人面，",
+   "sentence": "仍復量鑑之小大，增損高下，常令人面與鑑大小相若",
+   "context_after": "。此工之巧智，後人不能造",
+   "keywords": [
+    {
+     "word": "量",
+     "gloss": "衡量（音ㄌㄧㄤˊ）",
+     "pos": "動詞",
+     "distractors": [
+      "容量",
+      "數量",
+      "度量寬宏"
+     ]
+    },
+    {
+     "word": "增損",
+     "gloss": "增減",
+     "pos": "動詞",
+     "distractors": [
+      "增加損失",
+      "損害",
+      "補償"
+     ]
+    },
+    {
+     "word": "相若",
+     "gloss": "相似",
+     "pos": "動詞",
+     "distractors": [
+      "互相順從",
+      "彼此喜歡",
+      "如果相遇"
+     ]
+    }
+   ],
+   "meaning": "又衡量鏡子大小，增減鏡面高低，常使人臉影像與鏡子大小相似。",
+   "meaning_distractors": [
+    "又測量人臉大小，增加鏡子的損傷，常使人臉與鏡子互相遮蔽。",
+    "又依鏡子大小調整懸掛高低，常使人的臉比鏡子大。",
+    "又把鏡子分成大小兩類，損壞的一律丟棄不用。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：量（ㄌㄧㄤˊ），商酌；增損，增加或減少；相若，相似；勸學網《夢溪筆談》譯文",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "28",
+     "quote": "古人鑄鑑，鑑大則平，鑑小則凸。凡鑑窪則照人面大，凸則照人面小。小鑑不能全視人面，故令微凸，收人面令小，則鑑雖小而能全納人面。仍復量鑑之小大，增損高下，常令人面與鑑大小相若。此工之巧智，後人不能造",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組圖表「宋代沈括」",
+     "paper_checked": "2026-11-01",
+     "note": "Q30 問當代學者，不算"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-06",
+   "lesson": "夢溪筆談",
+   "paragraph": 1,
+   "scene": "沈括讚嘆古代鑄鏡的工藝。",
+   "context_before": "仍復量鑑之小大，增損高下，常令人面與鑑大小相若。",
+   "sentence": "此工之巧智，後人不能造",
+   "context_after": "。比得古鑑，皆刮磨令平",
+   "keywords": [
+    {
+     "word": "工",
+     "gloss": "工匠",
+     "pos": "名詞",
+     "distractors": [
+      "工程",
+      "工作",
+      "精巧"
+     ]
+    }
+   ],
+   "meaning": "這是工匠的巧思與智慧，後人做不出來。",
+   "meaning_distractors": [
+    "這項工程十分巧妙，後人不願再建造。",
+    "這是工作的訣竅，後人不能任意模仿。",
+    "這是精巧的智慧，後人不必再學習。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：工，有專門技術的人；勸學網《夢溪筆談》譯文作「工藝」；112統測第29題提及「工之巧智」，公告答案判「殷商工匠」之說無法判斷",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「工」重編國語辭典列工匠義，勸學網譯文作工藝，兩解並存，請確認課本注釋。",
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "28",
+     "quote": "古人鑄鑑，鑑大則平，鑑小則凸。凡鑑窪則照人面大，凸則照人面小。小鑑不能全視人面，故令微凸，收人面令小，則鑑雖小而能全納人面。仍復量鑑之小大，增損高下，常令人面與鑑大小相若。此工之巧智，後人不能造",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組圖表「宋代沈括」",
+     "paper_checked": "2026-11-01",
+     "note": "Q30 問當代學者，不算"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-07",
+   "lesson": "夢溪筆談",
+   "paragraph": 1,
+   "scene": "後人得到古鏡，卻不懂當初的用心。",
+   "context_before": "此工之巧智，後人不能造。",
+   "sentence": "比得古鑑，皆刮磨令平，此師曠所以傷知音也",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "比",
+     "gloss": "等到，一說近來",
+     "pos": "副詞",
+     "distractors": [
+      "比較",
+      "靠近",
+      "並列"
+     ]
+    },
+    {
+     "word": "所以",
+     "gloss": "……的緣故",
+     "pos": "連接詞組",
+     "distractors": [
+      "因此",
+      "用來",
+      "已經"
+     ]
+    }
+   ],
+   "meaning": "等到得到古鏡，都把鏡面刮磨成平面，這正是師曠感傷知音難遇的緣故。",
+   "meaning_distractors": [
+    "比較各種古鏡，都比平面好，因此師曠才能結交知音。",
+    "古鏡一到手就交給師曠刮磨，因此他失去了知音。",
+    "靠近古鏡細看，鏡面都很平，所以師曠用它來尋找知音。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：比（ㄅㄧˋ）列「最近、近來」「及、等到」二義；勸學網《夢溪筆談》注：及，等到；中文百科全書注作「一旦」；所以，重編列原故、理由",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「比」三家解法不同（等到／近來／一旦），暫依勸學網注作等到，請確認課本注釋。"
+  },
+  {
+   "id": "mengxi-08",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "宋初一艘巨大的龍船進貢到京城。",
+   "context_before": "國初，兩浙獻龍船，長二十餘丈，",
+   "sentence": "上為宮室層樓，設御榻，以備遊幸",
+   "context_after": "。歲久腹敗，欲修治，而水中不可施工",
+   "keywords": [
+    {
+     "word": "御榻",
+     "gloss": "皇帝的坐臥具",
+     "pos": "名詞",
+     "distractors": [
+      "駕車的座位",
+      "抵禦的工事",
+      "驅趕的工具"
+     ]
+    },
+    {
+     "word": "遊幸",
+     "gloss": "帝王出遊",
+     "pos": "動詞",
+     "distractors": [
+      "幸運地遊玩",
+      "四處遊蕩",
+      "遊客光臨"
+     ]
+    }
+   ],
+   "meaning": "船上建有宮室樓閣，設置皇帝的坐臥具，以備帝王出遊。",
+   "meaning_distractors": [
+    "船上建有宮室樓閣，設置防禦工事，以備打仗。",
+    "船上建有宮室樓閣，開放給遊客，以求好運。",
+    "船上建有宮室樓閣，存放車馬，以備遠行。"
+   ],
+   "source_note": "遊幸、句意參勸學網《夢溪筆談》譯文；「御榻」重編國語辭典無此條，字義依文意",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「御榻」查無辭典或注釋條目，僅依文意與譯文，請確認。"
+  },
+  {
+   "id": "mengxi-09",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "龍船用了很多年，出了問題。",
+   "context_before": "國初，兩浙獻龍船，長二十餘丈，上為宮室層樓，設御榻，以備遊幸。",
+   "sentence": "歲久腹敗，欲修治，而水中不可施工",
+   "context_after": "。熙寧中，宦官黃懷信獻計",
+   "keywords": [
+    {
+     "word": "腹",
+     "gloss": "船身底部",
+     "pos": "名詞",
+     "distractors": [
+      "肚子",
+      "內心",
+      "前方"
+     ]
+    },
+    {
+     "word": "敗",
+     "gloss": "毀壞",
+     "pos": "動詞",
+     "distractors": [
+      "戰敗",
+      "失敗",
+      "衰落"
+     ]
+    }
+   ],
+   "meaning": "時間一久，船身底部損壞，想要修理，但在水中無法施工。",
+   "meaning_distractors": [
+    "連年戰敗，船上的人想要修養身體，卻找不到地方。",
+    "年歲已大，主人腹痛虛弱，想要治療，卻無法下水。",
+    "多年失敗，朝廷想要整治，卻無人願意施工。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：敗，毀壞、腐爛；腹，泛稱中心部位；樵客老師國文教學網站轉載游適宏文摘要作「龍船底部」；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-10",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "有人提出修船的新辦法。",
+   "context_before": "歲久腹敗，欲修治，而水中不可施工。熙寧中，宦官黃懷信獻計，",
+   "sentence": "於金明池北鑿大澳，可容龍船",
+   "context_after": "，其下置柱，以大木梁其上",
+   "keywords": [
+    {
+     "word": "澳",
+     "gloss": "可停船的水灣（音ㄠˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "溫暖的房間",
+      "大河的上游",
+      "高聳的堤防"
+     ]
+    }
+   ],
+   "meaning": "在金明池北岸開挖一個大水灣，大小足以容納龍船。",
+   "meaning_distractors": [
+    "在金明池北岸建一座大橋，寬度足以讓龍船通過。",
+    "在金明池北岸堆一座大山，高度足以遮蔽龍船。",
+    "在金明池北岸鑿穿大石，用來打造新的龍船。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：澳，船舶可停靠的港灣；勸學網《夢溪筆談》注：可以泊船的水灣，此指人工船塢",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-37",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "水灣挖好了，接著要在底下布置東西。",
+   "context_before": "於金明池北鑿大澳，可容龍船，",
+   "sentence": "其下置柱，以大木梁其上",
+   "context_after": "。乃決水入澳，引船當梁上",
+   "keywords": [
+    {
+     "word": "置",
+     "gloss": "安放",
+     "pos": "動詞",
+     "distractors": [
+      "購買",
+      "釋放",
+      "廢棄"
+     ]
+    },
+    {
+     "word": "梁",
+     "gloss": "架上橫木，名詞作動詞",
+     "pos": "動詞",
+     "distractors": [
+      "橋梁",
+      "屋脊",
+      "綁緊"
+     ]
+    }
+   ],
+   "meaning": "在水灣底部立起柱子，再用大木在柱上架橫梁。",
+   "meaning_distractors": [
+    "在水灣底部堆起木材，再用大木把龍船綁緊。",
+    "在水灣上方搭起屋頂，再用大木當作船槳。",
+    "在水灣底部放置大石，再用大木做成新船。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：置，安放；梁，架在柱上的橫木；勸學網《夢溪筆談》譯文（四庫本同文）；原底本脫此段，今補",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-38",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "柱和梁架好後，龍船要怎麼進來？",
+   "context_before": "其下置柱，以大木梁其上。",
+   "sentence": "乃決水入澳，引船當梁上",
+   "context_after": "，即車出澳中水，船乃笐於空中",
+   "keywords": [
+    {
+     "word": "決",
+     "gloss": "開口放水",
+     "pos": "動詞",
+     "distractors": [
+      "決定",
+      "處死",
+      "離別"
+     ]
+    },
+    {
+     "word": "當",
+     "gloss": "正對",
+     "pos": "動詞",
+     "distractors": [
+      "應當",
+      "抵擋",
+      "典當"
+     ]
+    }
+   ],
+   "meaning": "於是開口放水進入水灣，把船牽引到正對橫梁上方的位置。",
+   "meaning_distractors": [
+    "於是決定把水排出水灣，把船拖上岸邊。",
+    "於是開口放水進入水灣，讓船順流漂到海上。",
+    "於是用水沖毀橫梁，把船牽引到水灣外。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：決，疏通水道；勸學網《夢溪筆談》譯文：決水入湖灣，牽引到正當橫梁的位置；原底本脫此段，今補",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-39",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "船就定位後，工匠讓它離開水面。",
+   "context_before": "乃決水入澳，引船當梁上，",
+   "sentence": "即車出澳中水，船乃笐於空中",
+   "context_after": "。完補訖，復以水浮船，撤去梁柱",
+   "keywords": [
+    {
+     "word": "車",
+     "gloss": "用水車排水，名詞作動詞",
+     "pos": "動詞",
+     "distractors": [
+      "用車載運",
+      "車輪轉動",
+      "駕車出門"
+     ]
+    },
+    {
+     "word": "笐",
+     "gloss": "架起（音ㄍㄤ）",
+     "pos": "動詞",
+     "distractors": [
+      "搖晃",
+      "沉沒",
+      "捆綁"
+     ]
+    }
+   ],
+   "meaning": "接著用水車把水灣的水排出，船就被架在半空中。",
+   "meaning_distractors": [
+    "接著用車把水運到別處，船就沉到水灣底部。",
+    "接著放更多水進來，船就浮得比橫梁還高。",
+    "接著用水車把船拉上岸，船就停在空地上。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：車，用水車將水引至高處；勸學網《夢溪筆談》注：笐，通「扛」，抬起；底本依勸學網作「車出」，四庫本（維基文庫）作「車盡」",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「車出」（勸學網）與「車盡」（四庫本）異文未定；「笐」重編國語辭典無架起義，僅據勸學網注，請確認課本。"
+  },
+  {
+   "id": "mengxi-11",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "修補工作結束後，要把龍船放回水中。",
+   "context_before": "即車出澳中水，船乃笐於空中。完補訖，",
+   "sentence": "復以水浮船，撤去梁柱",
+   "context_after": "，以大屋蒙之，遂為藏船之室，永無暴露之患",
+   "keywords": [
+    {
+     "word": "復",
+     "gloss": "再",
+     "pos": "副詞",
+     "distractors": [
+      "恢復",
+      "回答",
+      "報復"
+     ]
+    },
+    {
+     "word": "浮",
+     "gloss": "使……浮起",
+     "pos": "動詞",
+     "distractors": [
+      "輕浮",
+      "超過",
+      "空虛"
+     ]
+    }
+   ],
+   "meaning": "再放水使船浮起，撤除支撐的梁柱。",
+   "meaning_distractors": [
+    "恢復水流使船漂走，留下支撐的梁柱。",
+    "再把水抽乾使船落地，拆掉船上的樓閣。",
+    "回頭用水沖洗船身，把梁柱架得更高。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：復，再、又；浮，漂在水上；勸學網《夢溪筆談》譯文（四庫本補筆談卷下同文）",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-12",
+   "lesson": "夢溪筆談",
+   "paragraph": 2,
+   "scene": "修好的龍船接下來怎麼存放。",
+   "context_before": "完補訖，復以水浮船，撤去梁柱，",
+   "sentence": "以大屋蒙之，遂為藏船之室，永無暴露之患",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "蒙",
+     "gloss": "覆蓋",
+     "pos": "動詞",
+     "distractors": [
+      "欺騙",
+      "年幼無知",
+      "承受"
+     ]
+    },
+    {
+     "word": "暴露",
+     "gloss": "露在外面（暴，音ㄆㄨˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "揭發隱情",
+      "洩漏祕密",
+      "舉止粗暴"
+     ]
+    }
+   ],
+   "meaning": "用大屋把它遮蓋起來，於是成為藏船的屋室，永遠沒有露在外面的憂慮。",
+   "meaning_distractors": [
+    "用大屋欺瞞眾人，於是成為祕密船室，永遠不怕隱情被揭發。",
+    "建大屋讓孩童學習，於是成為學堂，永遠沒有洩密的憂慮。",
+    "用大屋承受雨水，於是成為蓄水池，永遠沒有缺水的憂慮。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：蒙，覆蓋；暴露（ㄆㄨˋ ㄌㄨˋ），顯現在外；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-13",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "北宋皇祐年間，東南一帶發生嚴重災荒。",
+   "context_before": "",
+   "sentence": "皇祐二年，吳中大饑，殍殣枕路",
+   "context_after": "，是時范文正領浙西，發粟及募民存餉，為術甚備",
+   "keywords": [
+    {
+     "word": "殍殣",
+     "gloss": "餓死的人（音ㄆㄧㄠˇ ㄐㄧㄣˇ）",
+     "pos": "名詞",
+     "distractors": [
+      "逃難的災民",
+      "乞討的孩童",
+      "運糧的車隊"
+     ]
+    },
+    {
+     "word": "枕路",
+     "gloss": "遍布路上",
+     "pos": "動詞",
+     "distractors": [
+      "睡在路邊休息",
+      "沿路設置客棧",
+      "躺著擋住去路"
+     ]
+    }
+   ],
+   "meaning": "皇祐二年，吳中大饑荒，餓死的人遍布路上。",
+   "meaning_distractors": [
+    "皇祐二年，吳中大豐收，運糧的車隊擠滿道路。",
+    "皇祐二年，吳中鬧饑荒，災民都在路邊安穩睡覺。",
+    "皇祐二年，吳中缺糧，孩童沿路乞討卻無人餓死。"
+   ],
+   "source_note": "勸學網《夢溪筆談》注：殍殣，餓死的人；譯文：枕藉道路",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-14",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "饑荒當頭，范仲淹卻做了一件出人意料的事。",
+   "context_before": "吳人喜競渡，好為佛事。",
+   "sentence": "希文乃縱民競渡，太守日出宴於湖上",
+   "context_after": "，自春至夏，居民空巷出遊",
+   "keywords": [
+    {
+     "word": "縱",
+     "gloss": "放任",
+     "pos": "動詞",
+     "distractors": [
+      "即使",
+      "南北方向",
+      "放火"
+     ]
+    },
+    {
+     "word": "日",
+     "gloss": "每天",
+     "pos": "副詞",
+     "distractors": [
+      "太陽",
+      "白天",
+      "從前"
+     ]
+    }
+   ],
+   "meaning": "范仲淹於是放任百姓舉行龍舟競渡，太守每天到湖上宴飲。",
+   "meaning_distractors": [
+    "范仲淹於是禁止百姓舉行龍舟競渡，太守每天到湖上巡視。",
+    "即使百姓舉行龍舟競渡，太守也只在日出時才到湖上。",
+    "范仲淹於是帶領百姓競渡，太守從前也曾在湖上宴客。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：縱，不加拘束；日，每天；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-15",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "范仲淹把各佛寺的主事者找來說話。",
+   "context_before": "又召諸佛寺主首，諭之曰：「",
+   "sentence": "饑歲工價至賤，可以大興土木之役",
+   "context_after": "。」於是諸寺工作鼎興",
+   "keywords": [
+    {
+     "word": "工價",
+     "gloss": "工錢",
+     "pos": "名詞",
+     "distractors": [
+      "工程品質",
+      "工人身分",
+      "商品價值"
+     ]
+    },
+    {
+     "word": "至",
+     "gloss": "非常",
+     "pos": "副詞",
+     "distractors": [
+      "到達",
+      "至於",
+      "周到"
+     ]
+    },
+    {
+     "word": "役",
+     "gloss": "勞役工程",
+     "pos": "名詞",
+     "distractors": [
+      "僕人",
+      "戰爭",
+      "兵役"
+     ]
+    }
+   ],
+   "meaning": "荒年工錢非常便宜，可以大規模興建土木工程。",
+   "meaning_distractors": [
+    "荒年物價上漲，可以大規模徵召百姓當兵。",
+    "荒年工人身分低賤，可以大量買來當僕人。",
+    "荒年到來時工程停擺，可以暫時放下土木工作。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：工價，工資；至，極、甚；役，為國家盡的勞力；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-16",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "除了佛寺，官方也有自己的工程。",
+   "context_before": "「饑歲工價至賤，可以大興土木之役。」於是諸寺工作鼎興。",
+   "sentence": "又新敖倉吏舍，日役千夫",
+   "context_after": "。監司奏劾杭州不恤荒政",
+   "keywords": [
+    {
+     "word": "新",
+     "gloss": "翻修",
+     "pos": "動詞",
+     "distractors": [
+      "新鮮",
+      "最近",
+      "新人"
+     ]
+    },
+    {
+     "word": "敖倉",
+     "gloss": "官府糧倉",
+     "pos": "名詞",
+     "distractors": [
+      "遊樂場所",
+      "軍營",
+      "驕傲的官員"
+     ]
+    },
+    {
+     "word": "役",
+     "gloss": "役使",
+     "pos": "動詞",
+     "distractors": [
+      "戰役",
+      "僕人",
+      "工程"
+     ]
+    }
+   ],
+   "meaning": "又翻修官府糧倉和吏員宿舍，每天役使上千名工人。",
+   "meaning_distractors": [
+    "又新蓋遊樂場所和官舍，每天招待上千名客人。",
+    "又賣掉官府糧倉和宿舍，每天救濟上千名災民。",
+    "又遷走新來的吏員，每天派千名士兵守倉。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：新，使成為新的；役，使喚、差遣；勸學網《夢溪筆談》譯文（敖倉作糧倉）",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-17",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "這些做法傳到上級耳中，引來批評。",
+   "context_before": "又新敖倉吏舍，日役千夫。",
+   "sentence": "監司奏劾杭州不恤荒政，嬉遊不節，及公私興造，傷耗民力",
+   "context_after": "，文正乃自條敘所以宴遊及興造",
+   "keywords": [
+    {
+     "word": "奏劾",
+     "gloss": "向皇帝檢舉",
+     "pos": "動詞",
+     "distractors": [
+      "上奏表揚",
+      "演奏音樂",
+      "奏請賞賜"
+     ]
+    },
+    {
+     "word": "恤",
+     "gloss": "救濟",
+     "pos": "動詞",
+     "distractors": [
+      "恐懼",
+      "謹慎",
+      "憐愛"
+     ]
+    },
+    {
+     "word": "荒政",
+     "gloss": "救荒政事",
+     "pos": "名詞",
+     "distractors": [
+      "荒廢的政務",
+      "邊疆政策",
+      "荒謬的政令"
+     ]
+    }
+   ],
+   "meaning": "監察官員上奏檢舉杭州不救濟災荒，遊樂沒有節制，又大興公私工程，耗損民力。",
+   "meaning_distractors": [
+    "監察官員上奏表揚杭州救災得法，遊樂有節，公私工程也都節省民力。",
+    "監察官員上奏請求杭州暫停救災，把民力全部投入公私工程。",
+    "監察官員上奏說杭州政務荒廢，是因為百姓不肯出力興建工程。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：恤，賑濟；荒政，救濟饑荒的政務；勸學網《夢溪筆談》注與譯文（監司、奏劾）",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-18",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "范仲淹面對彈劾，提出說明。",
+   "context_before": "監司奏劾杭州不恤荒政，嬉遊不節，及公私興造，傷耗民力，文正乃自條敘所以宴遊及興造，",
+   "sentence": "皆欲以發有餘之財，以惠貧者",
+   "context_after": "。貿易飲食、工技服力之人，仰食於公私者",
+   "keywords": [
+    {
+     "word": "發",
+     "gloss": "動用、使流出",
+     "pos": "動詞",
+     "distractors": [
+      "出發",
+      "發生",
+      "頭髮"
+     ]
+    },
+    {
+     "word": "惠",
+     "gloss": "施恩惠給",
+     "pos": "動詞",
+     "distractors": [
+      "聰明",
+      "恩怨",
+      "讓步"
+     ]
+    }
+   ],
+   "meaning": "都是想藉此動用有餘的錢財，好使窮苦的人受惠。",
+   "meaning_distractors": [
+    "都是想藉此徵收富人的錢財，好讓官府更加富裕。",
+    "都是想藉此發放自己的俸祿，好讓窮人感謝他。",
+    "都是想藉此展示富裕，好讓窮人勤奮工作。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：惠，給人好處；勸學網《夢溪筆談》譯文（發作徵集社會餘財）",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-19",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "范仲淹算出這些做法帶來的效果。",
+   "context_before": "皆欲以發有餘之財，以惠貧者。",
+   "sentence": "貿易飲食、工技服力之人，仰食於公私者，日無慮數萬人",
+   "context_after": "。荒政之施，莫此為大",
+   "keywords": [
+    {
+     "word": "仰食",
+     "gloss": "依賴維生",
+     "pos": "動詞",
+     "distractors": [
+      "抬頭吃飯",
+      "敬仰飲食",
+      "仰賴父母"
+     ]
+    },
+    {
+     "word": "無慮",
+     "gloss": "大約",
+     "pos": "副詞",
+     "distractors": [
+      "沒有憂慮",
+      "不必考慮",
+      "沒有疑問"
+     ]
+    }
+   ],
+   "meaning": "做買賣、賣飲食、靠手藝勞力維生的人，依賴官府與民間過活的，每天大約有數萬人。",
+   "meaning_distractors": [
+    "做買賣與賣飲食的人，抬頭仰望官府救濟，每天有數萬人沒有憂慮。",
+    "做工的人只靠官府供餐，每天都有數萬人不必考慮生計。",
+    "商販與工匠拒絕公私僱用，每天有數萬人失去工作。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：仰食，依靠他人生活；無慮，大率、大約；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-20",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "范仲淹總結這些措施的意義。",
+   "context_before": "貿易飲食、工技服力之人，仰食於公私者，日無慮數萬人。",
+   "sentence": "荒政之施，莫此為大",
+   "context_after": "。是歲，兩浙唯杭州晏然，民不流徙",
+   "keywords": [
+    {
+     "word": "莫",
+     "gloss": "沒有什麼",
+     "pos": "代詞",
+     "distractors": [
+      "不要",
+      "傍晚",
+      "輕視"
+     ]
+    }
+   ],
+   "meaning": "救荒政事的施行，沒有比這個功效更大的。",
+   "meaning_distractors": [
+    "救荒政事的施行，不要把規模弄得太大。",
+    "救荒政事的施行，到傍晚才算全部完成。",
+    "救荒政事的施行，不該輕視此事的危害。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：莫，沒有；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-21",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "這一年災荒過後，各地情況不同。",
+   "context_before": "荒政之施，莫此為大。",
+   "sentence": "是歲，兩浙唯杭州晏然，民不流徙",
+   "context_after": "，皆文正之惠也",
+   "keywords": [
+    {
+     "word": "晏然",
+     "gloss": "安定的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "晚起的樣子",
+      "歡樂的樣子",
+      "驚訝的樣子"
+     ]
+    },
+    {
+     "word": "流徙",
+     "gloss": "流離遷移",
+     "pos": "動詞",
+     "distractors": [
+      "流放罪犯",
+      "順流而下",
+      "傳播消息"
+     ]
+    }
+   ],
+   "meaning": "這一年，兩浙只有杭州安定，百姓沒有流離遷移。",
+   "meaning_distractors": [
+    "這一年，兩浙只有杭州豐收，百姓不再流放罪犯。",
+    "這一年，兩浙只有杭州晚起，百姓不願順流而下。",
+    "這一年，兩浙都很安定，只有杭州的百姓流離遷移。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：晏然，安寧；流徙，流離遷徙；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-22",
+   "lesson": "夢溪筆談",
+   "paragraph": 3,
+   "scene": "作者對這類措施下了評語。",
+   "context_before": "歲饑發司農之粟，募民興利，近歲遂著為令。",
+   "sentence": "既已恤饑，因之以成就民利，此先王之美澤也",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "因",
+     "gloss": "藉著",
+     "pos": "介詞",
+     "distractors": [
+      "原因",
+      "沿襲",
+      "於是"
+     ]
+    },
+    {
+     "word": "美澤",
+     "gloss": "美好的恩澤",
+     "pos": "名詞",
+     "distractors": [
+      "漂亮的光澤",
+      "美麗的湖泊",
+      "華麗的辭藻"
+     ]
+    }
+   ],
+   "meaning": "既已救濟饑荒，又藉此成就百姓的利益，這是古代聖王美好的恩澤。",
+   "meaning_distractors": [
+    "既已救濟饑荒，就該停止興利，這是古代聖王留下的規定。",
+    "雖未救濟饑荒，卻讓官府獲利，這是古代聖王的美好傳統。",
+    "既已發生饑荒，都因百姓逐利，這是古代聖王所憂慮的事。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：因，憑藉、利用；美澤，勸學網《夢溪筆談》譯文作先王恩澤",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-23",
+   "lesson": "夢溪筆談",
+   "paragraph": 4,
+   "scene": "沈括記錄當時方士製作指南針的做法。",
+   "context_before": "",
+   "sentence": "方家以磁石磨針鋒，則能指南，然常微偏東，不全南也",
+   "context_after": "，水浮多蕩搖",
+   "keywords": [
+    {
+     "word": "方家",
+     "gloss": "方術之士，一說精通某學問者",
+     "pos": "名詞",
+     "distractors": [
+      "藥鋪商人",
+      "地方人家",
+      "四方大家"
+     ]
+    },
+    {
+     "word": "微",
+     "gloss": "稍微",
+     "pos": "副詞",
+     "distractors": [
+      "細小",
+      "隱祕",
+      "卑賤"
+     ]
+    }
+   ],
+   "meaning": "方術之士用磁石摩擦針尖，針就能指南，但常稍微偏東，不完全朝正南。",
+   "meaning_distractors": [
+    "各地人家用磁石打造針尖，針就能指南，而且完全朝正南。",
+    "專家用針尖刮磨磁石，磁石就會朝南，但常稍微偏西。",
+    "方術之士用磁石摩擦針尖，針就朝東，不會朝向南方。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：方家，精通某種學問的人；微，稍、略；勸學網《夢溪筆談》譯文作方術家",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "「方家」重編國語辭典作精通學問者，勸學網譯作方術家，來源不一，請確認課本注釋。",
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "29",
+     "quote": "方家以磁石磨針鋒，則能指南／磁石之指南，……莫可原其理",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組選文、選項D",
+     "paper_checked": "2026-11-01",
+     "note": "Q27、28、30 主問《事林廣記》《武經總要》，不算"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-24",
+   "lesson": "夢溪筆談",
+   "paragraph": 4,
+   "scene": "沈括比較幾種安放磁針的方法。",
+   "context_before": "方家以磁石磨針鋒，則能指南，然常微偏東，不全南也，水浮多蕩搖。",
+   "sentence": "指爪及碗唇上皆可為之，運轉尤速，但堅滑易墜",
+   "context_after": "，不若縷懸為最善",
+   "keywords": [
+    {
+     "word": "及",
+     "gloss": "和",
+     "pos": "連詞",
+     "distractors": [
+      "到達",
+      "趕上",
+      "等到"
+     ]
+    },
+    {
+     "word": "唇",
+     "gloss": "邊緣",
+     "pos": "名詞",
+     "distractors": [
+      "嘴唇",
+      "底部",
+      "裂縫"
+     ]
+    },
+    {
+     "word": "尤",
+     "gloss": "特別",
+     "pos": "副詞",
+     "distractors": [
+      "怨恨",
+      "過失",
+      "優異"
+     ]
+    }
+   ],
+   "meaning": "指甲和碗的邊緣上都可以放置磁針，轉動特別快，但又硬又滑，針容易掉落。",
+   "meaning_distractors": [
+    "指甲到碗底之間都能放針，轉動特別慢，但堅固不會掉落。",
+    "手指碰到碗邊就能轉動，轉得特別快，但容易把碗打破。",
+    "指甲和碗邊都不能放針，因為太硬太滑，只好放棄。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：及，與、和；尤，更加、格外；碗唇，勸學網《夢溪筆談》譯文作碗邊；「及」見112統測第27題選項（公告答案非C，該題「及門」為到）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "27",
+     "quote": "指爪及碗唇上皆可為之",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "直接引文",
+     "location": "選項C後句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-25",
+   "lesson": "夢溪筆談",
+   "paragraph": 4,
+   "scene": "幾種方法比較下來，沈括提出結論。",
+   "context_before": "指爪及碗唇上皆可為之，運轉尤速，但堅滑易墜，",
+   "sentence": "不若縷懸為最善",
+   "context_after": "。其法取新纊中獨繭縷，以芥子許蠟，綴於針腰",
+   "keywords": [
+    {
+     "word": "不若",
+     "gloss": "比不上",
+     "pos": "動詞",
+     "distractors": [
+      "不像話",
+      "不順從",
+      "假如不是"
+     ]
+    },
+    {
+     "word": "縷",
+     "gloss": "絲線",
+     "pos": "名詞",
+     "distractors": [
+      "詳細",
+      "一陣煙",
+      "破舊"
+     ]
+    }
+   ],
+   "meaning": "比不上用絲線懸掛最好。",
+   "meaning_distractors": [
+    "不如用繩索綁在柱上最好。",
+    "不要用絲線懸掛才最好。",
+    "像絲線一樣細的針是最好的。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：不若，比不上；縷，線；勸學網《夢溪筆談》譯文",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-26",
+   "lesson": "夢溪筆談",
+   "paragraph": 4,
+   "scene": "沈括詳細說明懸掛磁針的做法。",
+   "context_before": "不若縷懸為最善。",
+   "sentence": "其法取新纊中獨繭縷，以芥子許蠟，綴於針腰",
+   "context_after": "，無風處懸之，則針常指南",
+   "keywords": [
+    {
+     "word": "纊",
+     "gloss": "絲綿（音ㄎㄨㄤˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "棉布",
+      "麻繩",
+      "羊毛"
+     ]
+    },
+    {
+     "word": "許",
+     "gloss": "大約的數量",
+     "pos": "助詞",
+     "distractors": [
+      "允許",
+      "處所",
+      "讚許"
+     ]
+    },
+    {
+     "word": "綴",
+     "gloss": "黏接",
+     "pos": "動詞",
+     "distractors": [
+      "停止",
+      "裝飾",
+      "編寫"
+     ]
+    }
+   ],
+   "meaning": "方法是從新絲綿中取一根蠶絲，用芥菜籽大小的蠟，把絲黏在針的中段。",
+   "meaning_distractors": [
+    "方法是從舊棉布中抽一條麻線，用很多蠟，把線封在針尖。",
+    "方法是取一根新羊毛，允許蠟滴下，把針頭裝飾起來。",
+    "方法是把蠶繭整顆拿來，塗上芥菜油，綁在針尾。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：纊，棉絮；許，約略估計；綴，連結；勸學網《夢溪筆談》注：纊，絲棉絮；芥子，芥末粒；「纊」字音見115二技第1題（公告答案A，與「曠」同音）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "1",
+     "quote": "其法取新纊中獨繭縷",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A前句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-27",
+   "lesson": "夢溪筆談",
+   "paragraph": 4,
+   "scene": "磁針為何能指南？沈括說出自己的看法。",
+   "context_before": "其中有磨而指北者。余家指南、北者皆有之。",
+   "sentence": "磁石之指南，猶柏之指西，莫可原其理",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "猶",
+     "gloss": "如同",
+     "pos": "動詞",
+     "distractors": [
+      "仍然",
+      "猶豫",
+      "尚且"
+     ]
+    },
+    {
+     "word": "原",
+     "gloss": "推究",
+     "pos": "動詞",
+     "distractors": [
+      "原本",
+      "平原",
+      "寬恕"
+     ]
+    }
+   ],
+   "meaning": "磁石指向南方，如同柏樹朝向西方，無法推究其中的道理。",
+   "meaning_distractors": [
+    "磁石仍然指向南方，柏樹卻朝向西方，道理原本很簡單。",
+    "磁石指向南方，比柏樹朝西更有道理，不必再推究。",
+    "磁石原本朝西，就像柏樹一樣，後來才能指南。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：猶，如同；原，推究根源",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "29",
+     "quote": "方家以磁石磨針鋒，則能指南／磁石之指南，……莫可原其理",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "題組選文",
+     "location": "題組選文、選項D",
+     "paper_checked": "2026-11-01",
+     "note": "Q27、28、30 主問《事林廣記》《武經總要》，不算"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-35",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "沈括先批評當時收藏書畫的風氣。",
+   "context_before": "",
+   "sentence": "藏書畫者，多取空名",
+   "context_after": "。偶傳為鍾、王、顧、陸之筆，見者爭售，此所謂「耳鑒」",
+   "keywords": [
+    {
+     "word": "空名",
+     "gloss": "虛有的名聲",
+     "pos": "名詞",
+     "distractors": [
+      "題名留白",
+      "無名小卒",
+      "空白畫紙"
+     ]
+    }
+   ],
+   "meaning": "收藏書畫的人，多半只看重虛有的名聲。",
+   "meaning_distractors": [
+    "收藏書畫的人，多半不願留下姓名。",
+    "收藏書畫的人，多半只挑空白的畫紙。",
+    "收藏書畫的人，多半把名字題在空處。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：空名，虛有的名聲；維基文庫《夢溪筆談》卷17；114統測第9題引此段（exam-refs 標 uncertain，未掛出處）",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "此段是否屬課文未定：樵客老師國文教學網站摘要稱物態研判開頭先舉反例，但普高選本由「歐陽公」起，請依課本決定去留。"
+  },
+  {
+   "id": "mengxi-36",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "一幅畫只要傳說是名家所作，大家會怎麼做？",
+   "context_before": "藏書畫者，多取空名。",
+   "sentence": "偶傳為鍾、王、顧、陸之筆，見者爭售",
+   "context_after": "，此所謂「耳鑒」。又有觀畫而以手摸之，相傳以謂色不隱指者為佳畫",
+   "keywords": [
+    {
+     "word": "筆",
+     "gloss": "手筆，親手所作",
+     "pos": "名詞",
+     "distractors": [
+      "毛筆",
+      "書寫",
+      "筆記"
+     ]
+    },
+    {
+     "word": "售",
+     "gloss": "搶著買下",
+     "pos": "動詞",
+     "distractors": [
+      "賣出",
+      "收藏",
+      "模仿"
+     ]
+    }
+   ],
+   "meaning": "偶爾傳說是鍾繇、王羲之、顧愷之、陸探微的手筆，看到的人就搶著買。",
+   "meaning_distractors": [
+    "偶爾傳說是名家的毛筆，看到的人就搶著賣。",
+    "偶爾有名家路過，看到的人就請他寫字。",
+    "偶爾傳說是假畫，看到的人就爭相退貨。"
+   ],
+   "source_note": "維基文庫《夢溪筆談》卷17；「售」重編國語辭典修訂本（萌典）僅列賣出，此處作買依文意；四人姓名依文意補全",
+   "from_pack": [],
+   "needs_review": true,
+   "review_note": "此段是否屬課文未定；「爭售」解作爭購僅依文意，辭典「售」只列賣出，請確認。"
+  },
+  {
+   "id": "mengxi-28",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "歐陽脩收藏了一幅舊畫，卻說不出它的好壞。",
+   "context_before": "此又在耳鑒之下，謂之「揣骨聽聲」。",
+   "sentence": "歐陽公嘗得一古畫牡丹叢，其下有一貓，未知其精粗",
+   "context_after": "。丞相正肅吳公與歐公姻家，一見曰：「此正午牡丹也",
+   "keywords": [
+    {
+     "word": "精粗",
+     "gloss": "優劣",
+     "pos": "名詞",
+     "distractors": [
+      "粗細",
+      "多少",
+      "用料"
+     ]
+    },
+    {
+     "word": "嘗",
+     "gloss": "曾經",
+     "pos": "副詞",
+     "distractors": [
+      "品嘗",
+      "試探",
+      "常常"
+     ]
+    }
+   ],
+   "meaning": "歐陽脩曾得到一幅古畫，畫著牡丹花叢，下有一隻貓，他不知道這幅畫的優劣。",
+   "meaning_distractors": [
+    "歐陽脩曾親手畫一幅牡丹，下有一隻貓，他不知道線條粗細。",
+    "歐陽脩常常品嘗牡丹，身邊有一隻貓，他不知道花瓣粗細。",
+    "歐陽脩試著買一幅古畫，下有一隻貓，他不知道價錢多少。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：精粗，精密粗疏；嘗，曾經；易文言網注：精良和粗劣",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "38",
+     "quote": "歐陽公嘗得一古畫──牡丹叢其下有一貓，未知其精粗。丞相正肅吳公與歐公姻家，一見曰：「此正午牡丹也。何以明之？其花披哆而色燥，此日中時花也；貓眼黑睛如線，此正午貓眼也。」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-29",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "有一位親戚看到了這幅畫。",
+   "context_before": "歐陽公嘗得一古畫牡丹叢，其下有一貓，未知其精粗。",
+   "sentence": "丞相正肅吳公與歐公姻家，一見曰",
+   "context_after": "：「此正午牡丹也。何以明之",
+   "keywords": [
+    {
+     "word": "姻家",
+     "gloss": "有婚姻關係的親家",
+     "pos": "名詞",
+     "distractors": [
+      "同姓族人",
+      "鄰居人家",
+      "世交朋友"
+     ]
+    }
+   ],
+   "meaning": "丞相吳正肅公是歐陽脩的親家，一看到畫就說。",
+   "meaning_distractors": [
+    "丞相吳正肅公是歐陽脩的同族，一看到畫就走。",
+    "丞相吳正肅公是歐陽脩的鄰居，一看到畫就買。",
+    "丞相吳正肅公是歐陽脩的老師，看了很久才說。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：姻家，締結婚姻的家族",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "38",
+     "quote": "歐陽公嘗得一古畫──牡丹叢其下有一貓，未知其精粗。丞相正肅吳公與歐公姻家，一見曰：「此正午牡丹也。何以明之？其花披哆而色燥，此日中時花也；貓眼黑睛如線，此正午貓眼也。」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-30",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "吳公看畫後提出判斷，並主動說要給出證據。",
+   "context_before": "丞相正肅吳公與歐公姻家，一見曰：「",
+   "sentence": "此正午牡丹也。何以明之",
+   "context_after": "？其花披哆而色燥，此日中時花也",
+   "keywords": [
+    {
+     "word": "明",
+     "gloss": "辨明、證明",
+     "pos": "動詞",
+     "distractors": [
+      "明亮",
+      "聰明",
+      "清楚"
+     ]
+    }
+   ],
+   "meaning": "這畫的是正午的牡丹。憑什麼證明呢？",
+   "meaning_distractors": [
+    "這正午的牡丹很明亮。為什麼這樣亮呢？",
+    "這牡丹中午才開。到明天會怎樣呢？",
+    "這是聰明人畫的牡丹。怎麼才能學會呢？"
+   ],
+   "source_note": "易文言網注：明之，辨別它；重編國語辭典修訂本（萌典）：明，昭示、彰顯；112統測第5題選項C（公告答案D，非反問慨歎）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "38",
+     "quote": "歐陽公嘗得一古畫──牡丹叢其下有一貓，未知其精粗。丞相正肅吳公與歐公姻家，一見曰：「此正午牡丹也。何以明之？其花披哆而色燥，此日中時花也；貓眼黑睛如線，此正午貓眼也。」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "5",
+     "quote": "此正午牡丹也。何以明之",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-31",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "吳公指出畫中花朵的第一項證據。",
+   "context_before": "此正午牡丹也。何以明之？",
+   "sentence": "其花披哆而色燥，此日中時花也",
+   "context_after": "；貓眼黑睛如線，此正午貓眼也",
+   "keywords": [
+    {
+     "word": "披哆",
+     "gloss": "綻開（辭典音ㄆㄧ ㄔㄜˇ）",
+     "pos": "形容詞",
+     "distractors": [
+      "含苞待放的樣子",
+      "挺直向上的樣子",
+      "凋謝落地的樣子"
+     ]
+    },
+    {
+     "word": "燥",
+     "gloss": "乾枯",
+     "pos": "形容詞",
+     "distractors": [
+      "性情急躁",
+      "鮮豔奪目",
+      "炎熱難耐"
+     ]
+    }
+   ],
+   "meaning": "那花朵綻開而顏色乾枯，這是中午時的花。",
+   "meaning_distractors": [
+    "那花朵含苞待放而顏色鮮豔，這是中午時的花。",
+    "那花朵披著露水而顏色潤澤，這是早晨的花。",
+    "那花朵凋落滿地而顏色急變，這是傍晚的花。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：披哆（ㄆㄧ ㄔㄜˇ），綻開；燥，乾的；勸學網《夢溪筆談》注音 chǐ，解作披散、張開",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "38",
+     "quote": "歐陽公嘗得一古畫──牡丹叢其下有一貓，未知其精粗。丞相正肅吳公與歐公姻家，一見曰：「此正午牡丹也。何以明之？其花披哆而色燥，此日中時花也；貓眼黑睛如線，此正午貓眼也。」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-32",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "吳公再指出貓身上的第二項證據。",
+   "context_before": "此正午牡丹也。何以明之？其花披哆而色燥，此日中時花也；",
+   "sentence": "貓眼黑睛如線，此正午貓眼也",
+   "context_after": "。有帶露花，則房斂而色澤",
+   "keywords": [
+    {
+     "word": "如",
+     "gloss": "像",
+     "pos": "動詞",
+     "distractors": [
+      "到",
+      "比得上",
+      "如果"
+     ]
+    }
+   ],
+   "meaning": "貓眼的黑色瞳孔細得像一條線，這是正午的貓眼。",
+   "meaning_distractors": [
+    "貓眼的黑色瞳孔比得上絲線，這是夜晚的貓眼。",
+    "貓眼如果變黑，就會看到細線，這是生病的貓眼。",
+    "貓眼的黑色瞳孔圓得像珠子，這是正午的貓眼。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：如，如同；113統測第2題選項B（公告答案D，此「如」非「比得上」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "統測",
+     "no": "38",
+     "quote": "歐陽公嘗得一古畫──牡丹叢其下有一貓，未知其精粗。丞相正肅吳公與歐公姻家，一見曰：「此正午牡丹也。何以明之？其花披哆而色燥，此日中時花也；貓眼黑睛如線，此正午貓眼也。」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_4y/downloader.php?obj=MTExLTR5LTAwLWMucGRm#page=11",
+     "pdf_page": 11,
+     "relation_type": "直接引文",
+     "location": "題幹框內",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "2",
+     "quote": "貓眼黑睛如線，此正午貓眼也",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "mengxi-33",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "吳公拿另一種花作對照。",
+   "context_before": "貓眼黑睛如線，此正午貓眼也。",
+   "sentence": "有帶露花，則房斂而色澤",
+   "context_after": "。貓眼早暮則睛圓，日漸中狹長，正午則如一線耳",
+   "keywords": [
+    {
+     "word": "房",
+     "gloss": "花房，指花冠",
+     "pos": "名詞",
+     "distractors": [
+      "房屋",
+      "廂房",
+      "妻室"
+     ]
+    },
+    {
+     "word": "斂",
+     "gloss": "收攏",
+     "pos": "動詞",
+     "distractors": [
+      "徵收",
+      "收藏",
+      "約束"
+     ]
+    }
+   ],
+   "meaning": "如果是帶著露水的花，花冠就收攏而顏色潤澤。",
+   "meaning_distractors": [
+    "如果是帶著露水的花，房屋就收藏而顏色暗淡。",
+    "如果是沒有露水的花，花朵就收攏而顏色潤澤。",
+    "如果是帶著露水的花，花瓣就張開而顏色乾枯。"
+   ],
+   "source_note": "易文言網注：房斂，花冠收攏；重編國語辭典修訂本（萌典）：斂，聚集",
+   "from_pack": []
+  },
+  {
+   "id": "mengxi-34",
+   "lesson": "夢溪筆談",
+   "paragraph": 5,
+   "scene": "聽完吳公的分析，作者下了評語。",
+   "context_before": "有帶露花，則房斂而色澤。貓眼早暮則睛圓，日漸中狹長，正午則如一線耳。",
+   "sentence": "此亦善求古人心意也",
+   "context_after": "",
+   "keywords": [
+    {
+     "word": "善",
+     "gloss": "善於",
+     "pos": "動詞",
+     "distractors": [
+      "善良",
+      "美好",
+      "友善"
+     ]
+    },
+    {
+     "word": "求",
+     "gloss": "探求",
+     "pos": "動詞",
+     "distractors": [
+      "請求",
+      "尋找工作",
+      "要求"
+     ]
+    }
+   ],
+   "meaning": "這也是善於探求古人作畫心意的表現。",
+   "meaning_distractors": [
+    "這也是善良地懇求古人同意的表現。",
+    "這也是用來要求古人改畫的好方法。",
+    "這也表示古人的心意原本就很美好。"
+   ],
+   "source_note": "重編國語辭典修訂本（萌典）：善，擅長；求，找尋、探索；底本作「心意」，國語文學科中心、易文言網作「筆意」",
+   "from_pack": []
+  }
+ ]
+}

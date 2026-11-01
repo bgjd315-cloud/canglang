@@ -1,0 +1,1139 @@
+{
+ "lesson_id": "paoding",
+ "lesson": "庖丁解牛",
+ "author": "莊周",
+ "tagline": "一把刀，為何十九年不鈍？",
+ "dropped": [],
+ "sentences": [
+  {
+   "id": "paoding-01",
+   "lesson": "庖丁解牛",
+   "paragraph": 1,
+   "scene": "故事開頭，廚師在國君面前動手，先看他全身怎麼動。",
+   "context_before": "庖丁為文惠君解牛。",
+   "sentence": "手之所觸，肩之所倚，足之所履，膝之所踦",
+   "context_after": "，砉然響然，奏刀騞然，莫不中音：",
+   "keywords": [
+    {
+     "word": "踦",
+     "gloss": "抵住（音ㄧˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "跨越",
+      "傾斜",
+      "跪下"
+     ]
+    },
+    {
+     "word": "履",
+     "gloss": "踩踏（音ㄌㄩˇ）",
+     "pos": "動詞",
+     "distractors": [
+      "鞋子",
+      "實行",
+      "經歷"
+     ]
+    }
+   ],
+   "meaning": "手所接觸的、肩所依靠的、腳所踩踏的、膝所抵住的地方。",
+   "meaning_distractors": [
+    "手所撫摸的、肩所扛起的、腳所穿的、膝所跪拜的地方。",
+    "手接觸牛以後，肩膀傾斜、腳步踉蹌、膝蓋發軟。",
+    "手指向的、肩靠近的、腳走過的、膝蓋跨過的地方。"
+   ],
+   "source_note": "技國課本注2、3；115 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "1",
+     "quote": "足之所履，膝之所踦",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B前句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-02",
+   "lesson": "庖丁解牛",
+   "paragraph": 1,
+   "scene": "廚師動作間傳出聲響，旁人聽在耳裡。",
+   "context_before": "足之所履，膝之所踦，",
+   "sentence": "砉然響然，奏刀騞然，莫不中音",
+   "context_after": "：合於桑林之舞，乃中經首之會。",
+   "keywords": [
+    {
+     "word": "奏刀",
+     "gloss": "進刀、運刀",
+     "pos": "動詞",
+     "distractors": [
+      "向國君進獻刀",
+      "演奏樂器",
+      "磨刀"
+     ]
+    },
+    {
+     "word": "中",
+     "gloss": "符合（音ㄓㄨㄥˋ）",
+     "pos": "動詞",
+     "distractors": [
+      "裡面",
+      "射中",
+      "中間"
+     ]
+    },
+    {
+     "word": "砉然",
+     "gloss": "皮肉與筋骨相離的聲音（砉，音ㄏㄨㄛˋ）",
+     "pos": "狀聲詞",
+     "distractors": [
+      "刀割物的聲音",
+      "筋骨折斷的聲音",
+      "牛的叫聲"
+     ]
+    }
+   ],
+   "meaning": "皮肉與筋骨相離和運刀的聲音，沒有不符合音樂節奏的。",
+   "meaning_distractors": [
+    "牛叫聲和磨刀聲，全都蓋過了音樂的節奏。",
+    "他一面運刀一面演奏，音樂聲沒有停過。",
+    "皮骨相離的聲音很刺耳，完全不合節奏。"
+   ],
+   "source_note": "技國課本注4–7；115 統測引「奏刀騞然」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "2",
+     "quote": "奏刀騞然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "四字短語"
+    }
+   ]
+  },
+  {
+   "id": "paoding-03",
+   "lesson": "庖丁解牛",
+   "paragraph": 1,
+   "scene": "這些動作和聲音，讓人想起古代的樂舞。",
+   "context_before": "奏刀騞然，莫不中音：",
+   "sentence": "合於桑林之舞，乃中經首之會",
+   "context_after": "。文惠君曰：「嘻，善哉！技蓋至此乎？」",
+   "keywords": [
+    {
+     "word": "會",
+     "gloss": "節奏",
+     "pos": "名詞",
+     "distractors": [
+      "聚會",
+      "領悟",
+      "恰好遇到"
+     ]
+    },
+    {
+     "word": "桑林",
+     "gloss": "商湯時的樂曲名",
+     "pos": "名詞",
+     "distractors": [
+      "桑樹林",
+      "祭祀的地方",
+      "唐堯時樂曲名"
+     ]
+    }
+   ],
+   "meaning": "合於桑林樂曲的舞蹈，也符合經首樂曲的節奏。",
+   "meaning_distractors": [
+    "在桑樹林裡跳舞，又到經書開頭處聚會。",
+    "他曾學過桑林之舞，後來又去參加經首大會。",
+    "比桑林之舞更美，只是不合經首的節奏。"
+   ],
+   "source_note": "技國課本注8、9",
+   "from_pack": []
+  },
+  {
+   "id": "paoding-04",
+   "lesson": "庖丁解牛",
+   "paragraph": 2,
+   "scene": "在旁觀看的國君忍不住開口讚嘆。",
+   "context_before": "合於桑林之舞，乃中經首之會。文惠君曰：「",
+   "sentence": "嘻，善哉！技蓋至此乎",
+   "context_after": "？」庖丁釋刀對曰：「臣之所好者，道也，",
+   "keywords": [
+    {
+     "word": "蓋",
+     "gloss": "為何（音ㄏㄜˊ，通「盍」）",
+     "pos": "副詞",
+     "distractors": [
+      "大概",
+      "遮蓋",
+      "超過"
+     ]
+    }
+   ],
+   "meaning": "啊，太好了！你的技術怎麼能到這種地步呢？",
+   "meaning_distractors": [
+    "唉，真可惜！你的技術大概只到這裡了吧？",
+    "啊，太好了！你的技術已經超過我了吧？",
+    "好吧！你的技術足以遮蓋所有缺點嗎？"
+   ],
+   "source_note": "技國課本注10；111 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "二技",
+     "no": "4",
+     "quote": "庖丁爲文惠君解牛……文惠君曰：嘻！善哉！技蓋至此乎",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_2y/downloader.php?obj=MTExLTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "丁句",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-05",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "聽到讚美，廚師放下工具回答國君。",
+   "context_before": "文惠君曰：「嘻，善哉！技蓋至此乎？」",
+   "sentence": "庖丁釋刀對曰：「臣之所好者，道也，進乎技矣",
+   "context_after": "。始臣之解牛之時，所見無非牛者。",
+   "keywords": [
+    {
+     "word": "釋",
+     "gloss": "放下、放開",
+     "pos": "動詞",
+     "distractors": [
+      "解釋",
+      "釋放犯人",
+      "消除"
+     ]
+    },
+    {
+     "word": "進",
+     "gloss": "超過",
+     "pos": "動詞",
+     "distractors": [
+      "進入",
+      "進獻",
+      "前進求學"
+     ]
+    }
+   ],
+   "meaning": "庖丁放下刀回答：我所愛好的是道，已經超過技術的層次了。",
+   "meaning_distractors": [
+    "庖丁解釋刀法：我喜歡的道理，就是不斷精進技術。",
+    "庖丁放下刀回答：我不喜歡道，只想進一步磨練技術。",
+    "庖丁拿起刀回答：道和技完全無關，我只愛好技術。"
+   ],
+   "confusables": [
+    {
+     "word": "釋",
+     "other": "解「釋」",
+     "other_lesson": "講義例詞",
+     "same": false,
+     "note": "放下／說明"
+    }
+   ],
+   "source_note": "技國課本注11–13",
+   "from_pack": []
+  },
+  {
+   "id": "paoding-06",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師回顧學藝的過程，前後看到的東西不一樣。",
+   "context_before": "臣之所好者，道也，進乎技矣。",
+   "sentence": "始臣之解牛之時，所見無非牛者。三年之後，未嘗見全牛也",
+   "context_after": "。方今之時，臣以神遇而不以目視，",
+   "keywords": [
+    {
+     "word": "全牛",
+     "gloss": "整隻牛",
+     "pos": "名詞",
+     "distractors": [
+      "全部的牛群",
+      "活生生的牛",
+      "最好的牛"
+     ]
+    }
+   ],
+   "meaning": "我起初解牛時，眼中所見都是整隻牛；三年以後，眼前所見不再是整隻牛。意指對牛體組織與骨節空隙了解透徹。",
+   "meaning_distractors": [
+    "我起初解牛時，看不見任何牛，三年後才看到整頭牛。",
+    "我起初只解一頭牛，三年以後，就再也不解牛了。",
+    "我起初所見都不是牛，三年後所解的牛全都完整無缺。"
+   ],
+   "source_note": "技國課本注14、15（全牛依句解「整隻牛」）；115 二技第 22 題引此二句（原卷作「所見無非全牛者」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "21",
+     "quote": "始臣之解牛之時，所見無非全牛者……謋然已解，如土委地",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "題組選文",
+     "location": "題組乙文、甲文討論",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "22",
+     "quote": "所見無非全牛者／未嘗見全牛也／以神遇而不以目視／每至於族，吾見其難為",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項A至D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-07",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師說到如今的境界，已不靠眼睛了。",
+   "context_before": "三年之後，未嘗見全牛也。方今之時，",
+   "sentence": "臣以神遇而不以目視，官知止而神欲行",
+   "context_after": "。依乎天理，批大郤，導大窾，因其固然。",
+   "keywords": [
+    {
+     "word": "官知",
+     "gloss": "感覺器官的知覺，指視覺、觸覺等",
+     "pos": "名詞",
+     "distractors": [
+      "官員的智慧",
+      "朝廷的消息",
+      "知道官職"
+     ]
+    },
+    {
+     "word": "神欲",
+     "gloss": "心靈直覺等精神活動",
+     "pos": "名詞",
+     "distractors": [
+      "神明的願望",
+      "想當神仙",
+      "貪念"
+     ]
+    },
+    {
+     "word": "遇",
+     "gloss": "感受",
+     "pos": "動詞",
+     "distractors": [
+      "遭逢不幸",
+      "受到賞識",
+      "招待"
+     ]
+    }
+   ],
+   "meaning": "我用心神感受，而不用眼睛看；感官知覺停止運作，而以精神直覺來行事。",
+   "meaning_distractors": [
+    "我遇到神明就不敢直視，官員知道了也想拜神。",
+    "我用眼睛仔細盯著牛，感官全開，不讓心神分散。",
+    "我閉著眼隨便下刀，停止思考，只想著要快點完成。"
+   ],
+   "source_note": "技國課本注16、17（遇字依注16句解「用心神感受」）",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "22",
+     "quote": "所見無非全牛者／未嘗見全牛也／以神遇而不以目視／每至於族，吾見其難為",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項A至D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-08",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師說明下刀時依循的原則。",
+   "context_before": "臣以神遇而不以目視，官知止而神欲行。",
+   "sentence": "依乎天理，批大郤，導大窾，因其固然",
+   "context_after": "。技經肯綮之未嘗，而況大軱乎？",
+   "keywords": [
+    {
+     "word": "天理",
+     "gloss": "牛天生的肌理、經絡等結構",
+     "pos": "名詞",
+     "distractors": [
+      "上天的意志",
+      "道德法則",
+      "國君的命令"
+     ]
+    },
+    {
+     "word": "批",
+     "gloss": "劈、擊",
+     "pos": "動詞",
+     "distractors": [
+      "評論",
+      "批准",
+      "批改"
+     ]
+    },
+    {
+     "word": "導",
+     "gloss": "順著",
+     "pos": "動詞",
+     "distractors": [
+      "引導別人",
+      "教導",
+      "傳導"
+     ]
+    },
+    {
+     "word": "固然",
+     "gloss": "本來的骨肉結構",
+     "pos": "名詞",
+     "distractors": [
+      "雖然如此",
+      "堅固的樣子",
+      "固定的方法"
+     ]
+    }
+   ],
+   "meaning": "依照牛天生的肌理，劈開筋骨相連的空隙，順著骨骼間的空隙切入，依照牛體本來的骨肉結構下刀。",
+   "meaning_distractors": [
+    "依照上天的意志，評論牛的大小，引導牛自行倒下。",
+    "依靠道德法則，用力砍開大骨，改變牛本來的結構。",
+    "遵守國君的命令，批准大刀下放，並固定牛的身體。"
+   ],
+   "confusables": [
+    {
+     "word": "批",
+     "other": "「批」評",
+     "other_lesson": "講義例詞",
+     "same": false,
+     "note": "劈、擊／評論"
+    }
+   ],
+   "source_note": "技國課本注18–21（固然依注21句解）；112 二技、112 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "二技",
+     "no": "36",
+     "quote": "依乎天理，批大郤，導大窾，因其固然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_2y/downloader.php?obj=MTEyLTJ5LTAwLWMucGRm#page=9",
+     "pdf_page": 9,
+     "relation_type": "直接引文",
+     "location": "①",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "37",
+     "quote": "批大郤，導大窾，因其固然",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=12",
+     "pdf_page": 12,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-09",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師說自己的刀法精到什麼程度，連最容易卡刀的地方也一樣。",
+   "context_before": "依乎天理，批大郤，導大窾，因其固然。",
+   "sentence": "技經肯綮之未嘗，而況大軱乎",
+   "context_after": "？良庖歲更刀，割也；族庖月更刀，折也。",
+   "keywords": [
+    {
+     "word": "未嘗",
+     "gloss": "不曾觸碰",
+     "pos": "副詞",
+     "distractors": [
+      "不曾品嘗",
+      "不值得嘗試",
+      "未來會試"
+     ]
+    },
+    {
+     "word": "肯綮",
+     "gloss": "附著在骨頭上的肉和筋肉盤結的地方（綮，音ㄑㄧㄥˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "答應的話",
+      "關節的骨頭",
+      "刀刃的鋒口"
+     ]
+    },
+    {
+     "word": "軱",
+     "gloss": "大骨（音ㄍㄨ）",
+     "pos": "名詞",
+     "distractors": [
+      "車輪",
+      "大刀",
+      "大塊肥肉"
+     ]
+    },
+    {
+     "word": "技",
+     "gloss": "支脈（應為「枝」字之誤）",
+     "pos": "名詞",
+     "distractors": [
+      "技術",
+      "技巧",
+      "手藝"
+     ]
+    }
+   ],
+   "meaning": "不曾觸碰支脈、經絡、附著在骨頭上的肉和筋肉盤結的地方，何況是大骨呢？",
+   "meaning_distractors": [
+    "他的技巧與經驗都還沒嘗試過，何況用大刀呢？",
+    "枝脈和經絡他都切開了，連大骨頭也一起砍斷。",
+    "他只肯吃筋肉聚結處，不曾品嘗大塊骨頭。"
+   ],
+   "source_note": "技國課本注22、23；112 統測考「肯綮」出處",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 112,
+     "exam": "統測",
+     "no": "2",
+     "quote": "肯綮／莊子〈庖丁解牛〉",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/112_4y/downloader.php?obj=MTEyLTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "只提篇名或作者",
+     "location": "題幹、選項A、C",
+     "paper_checked": "2026-11-01",
+     "note": "考「肯綮」出處"
+    }
+   ]
+  },
+  {
+   "id": "paoding-10",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師拿其他同行的用刀情形作比較。",
+   "context_before": "技經肯綮之未嘗，而況大軱乎？",
+   "sentence": "良庖歲更刀，割也；族庖月更刀，折也",
+   "context_after": "。今臣之刀十九年矣，所解數千牛矣，",
+   "keywords": [
+    {
+     "word": "更",
+     "gloss": "改換（音ㄍㄥ）",
+     "pos": "動詞",
+     "distractors": [
+      "更加",
+      "夜間時段",
+      "經歷"
+     ]
+    },
+    {
+     "word": "族",
+     "gloss": "一般的（眾）",
+     "pos": "形容詞",
+     "distractors": [
+      "家族",
+      "筋肉交錯處",
+      "滅族"
+     ]
+    },
+    {
+     "word": "折",
+     "gloss": "劈砍，此指用刀劈砍骨頭",
+     "pos": "動詞",
+     "distractors": [
+      "折斷筷子",
+      "打折扣",
+      "彎腰"
+     ]
+    },
+    {
+     "word": "歲",
+     "gloss": "一年",
+     "pos": "名詞",
+     "distractors": [
+      "年紀",
+      "年成",
+      "歲星"
+     ]
+    }
+   ],
+   "meaning": "好廚師一年換一把刀，因為用刀割肉；一般技術普通的廚師一個月換一把刀，因為用刀劈砍骨頭。",
+   "meaning_distractors": [
+    "好廚師一年更加努力割肉；同族廚師每月才折一次刀。",
+    "一般廚師一年換刀，因為砍骨；好廚師每月換刀，因為割肉。",
+    "好廚師歲數較大才換刀；族中長輩每月把刀折斷。"
+   ],
+   "confusables": [
+    {
+     "word": "更",
+     "other": "「更」加",
+     "other_lesson": "講義例詞",
+     "same": false,
+     "note": "改換／越發"
+    },
+    {
+     "word": "族",
+     "other": "每至於「族」",
+     "other_lesson": "庖丁解牛",
+     "same": false,
+     "note": "一般的／筋肉交錯聚結處"
+    }
+   ],
+   "source_note": "技國課本注24–26；歲字課本無注，依課本插圖「每年更換」；111 二技改寫此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "二技",
+     "no": "38",
+     "quote": "庖丁對文惠君說：技術一般的廚師每月換一把刀，技術好的廚師每年換一把刀，我這把刀用了十九年，刀刃就像新磨的一樣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_2y/downloader.php?obj=MTExLTJ5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "節錄改寫",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "白話改寫"
+    }
+   ]
+  },
+  {
+   "id": "paoding-11",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師說起自己手上這把刀。",
+   "context_before": "良庖歲更刀，割也；族庖月更刀，折也。",
+   "sentence": "今臣之刀十九年矣，所解數千牛矣，而刀刃若新發於硎",
+   "context_after": "。彼節者有間，而刀刃者無厚，",
+   "keywords": [
+    {
+     "word": "硎",
+     "gloss": "磨刀石（音ㄒㄧㄥˊ）",
+     "pos": "名詞",
+     "distractors": [
+      "刀鞘",
+      "打鐵爐",
+      "砧板"
+     ]
+    },
+    {
+     "word": "發",
+     "gloss": "起、出",
+     "pos": "動詞",
+     "distractors": [
+      "發射",
+      "發現",
+      "發放"
+     ]
+    }
+   ],
+   "meaning": "如今我的刀用了十九年，解過數千隻牛，刀刃卻像剛從磨刀石上磨出來的一樣。",
+   "meaning_distractors": [
+    "如今我的刀買了十九年，只解了幾頭牛，刀刃一直放在刀鞘裡。",
+    "如今我換了十九把刀，解過數千頭牛，刀刃還是常常缺損。",
+    "如今我解牛十九年，刀刃已鈍，正要送去打鐵爐重新鍛造。"
+   ],
+   "source_note": "技國課本注27",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 111,
+     "exam": "二技",
+     "no": "38",
+     "quote": "庖丁對文惠君說：技術一般的廚師每月換一把刀，技術好的廚師每年換一把刀，我這把刀用了十九年，刀刃就像新磨的一樣",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/111_2y/downloader.php?obj=MTExLTJ5LTAwLWMucGRm#page=8",
+     "pdf_page": 8,
+     "relation_type": "節錄改寫",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "白話改寫"
+    }
+   ]
+  },
+  {
+   "id": "paoding-12",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師解釋刀子為什麼能用這麼久。",
+   "context_before": "今臣之刀十九年矣，所解數千牛矣，而刀刃若新發於硎。",
+   "sentence": "彼節者有間，而刀刃者無厚",
+   "context_after": "，以無厚入有間，恢恢乎其於游刃必有餘地矣！",
+   "keywords": [
+    {
+     "word": "間",
+     "gloss": "空隙（音ㄐㄧㄢˋ）",
+     "pos": "名詞",
+     "distractors": [
+      "空閒時間",
+      "房間",
+      "期間"
+     ]
+    },
+    {
+     "word": "無厚",
+     "gloss": "沒有厚度，指刀刃極薄、極銳利",
+     "pos": "形容詞",
+     "distractors": [
+      "不厚道",
+      "沒有好處",
+      "沒有重量"
+     ]
+    },
+    {
+     "word": "節",
+     "gloss": "骨節",
+     "pos": "名詞",
+     "distractors": [
+      "節奏",
+      "節省",
+      "節日"
+     ]
+    }
+   ],
+   "meaning": "那些骨節間有空隙，而刀刃薄得沒有厚度。",
+   "meaning_distractors": [
+    "那些節日很空閒，而刀刃的主人不厚道。",
+    "那些骨節緊密沒有縫隙，而刀刃非常厚重。",
+    "那些節奏很悠閒，而刀刃沒有什麼好處。"
+   ],
+   "source_note": "技國課本注28、29；114、115 統測引此句，字形作「間」；節字依注28句解「骨節」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 114,
+     "exam": "統測",
+     "no": "6",
+     "quote": "彼節者有間，而刀刃者無厚",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/114_4y/downloader.php?obj=MTE0LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    },
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "4",
+     "quote": "彼節者有間，而刀刃者無厚",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項B",
+     "paper_checked": "2026-11-01",
+     "note": "底稿字形與原卷有異，句子依原卷"
+    }
+   ]
+  },
+  {
+   "id": "paoding-13",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "用很薄的東西穿過縫隙，會發生什麼事？",
+   "context_before": "彼節者有間，而刀刃者無厚，",
+   "sentence": "以無厚入有間，恢恢乎其於游刃必有餘地矣",
+   "context_after": "！是以十九年而刀刃若新發於硎。",
+   "keywords": [
+    {
+     "word": "恢恢乎",
+     "gloss": "寬闊的樣子",
+     "pos": "形容詞",
+     "distractors": [
+      "恢復的樣子",
+      "疏失的樣子",
+      "害怕的樣子"
+     ]
+    },
+    {
+     "word": "游刃",
+     "gloss": "運刀",
+     "pos": "動詞",
+     "distractors": [
+      "在水裡洗刀",
+      "拿刀亂揮",
+      "遊歷時帶刀"
+     ]
+    }
+   ],
+   "meaning": "用沒有厚度的刀刃進入有空隙的骨節，寬闊得運刀一定還有餘地。",
+   "meaning_distractors": [
+    "用厚重的刀砍進骨節，雖然費力，還是剩下很多牛肉。",
+    "刀刃恢復鋒利之後，就能到處遊歷，不必再解牛。",
+    "把刀放進水裡清洗，一定還剩下許多空間。"
+   ],
+   "source_note": "技國課本注28–31；115 統測引「游刃有餘」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "8",
+     "quote": "〈庖丁解牛〉的文惠君，因庖丁闡述「游刃有餘」而「得養生焉」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "題幹知識",
+     "location": "題幹",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-14",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "就算這麼熟練，遇到某種地方，廚師仍不敢大意。",
+   "context_before": "是以十九年而刀刃若新發於硎。",
+   "sentence": "雖然，每至於族，吾見其難為，怵然為戒",
+   "context_after": "，視為止，行為遲，動刀甚微，",
+   "keywords": [
+    {
+     "word": "族",
+     "gloss": "筋肉交錯聚結處",
+     "pos": "名詞",
+     "distractors": [
+      "一般的",
+      "家族",
+      "眾人"
+     ]
+    },
+    {
+     "word": "怵然",
+     "gloss": "驚懼的樣子（怵，音ㄔㄨˋ）",
+     "pos": "形容詞",
+     "distractors": [
+      "生氣的樣子",
+      "悠閒的樣子",
+      "得意的樣子"
+     ]
+    },
+    {
+     "word": "為",
+     "gloss": "因而（音ㄨㄟˋ）",
+     "pos": "連詞",
+     "distractors": [
+      "作為",
+      "成為",
+      "替"
+     ]
+    }
+   ],
+   "meaning": "即使這樣，每遇到筋肉交錯聚結處，我看出它難處理，就因驚懼而戒慎小心。",
+   "meaning_distractors": [
+    "雖然如此，每次到族人家中，我都覺得難為情，並且戒酒。",
+    "雖然技術純熟，每到難處，我就生氣地放棄不做。",
+    "雖然很難，我看到筋骨交錯處反而很得意，並不戒備。"
+   ],
+   "confusables": [
+    {
+     "word": "族",
+     "other": "「族」庖月更刀",
+     "other_lesson": "庖丁解牛",
+     "same": false,
+     "note": "筋肉交錯聚結處／一般的"
+    },
+    {
+     "word": "族",
+     "other": "士大夫之「族」",
+     "other_lesson": "師說",
+     "same": false,
+     "note": "筋肉交錯聚結處／類、輩"
+    }
+   ],
+   "source_note": "技國課本注32–34；師說「族」見技國《國文 1》師說注27",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "22",
+     "quote": "所見無非全牛者／未嘗見全牛也／以神遇而不以目視／每至於族，吾見其難為",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "選項A至D",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-15",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "遇到難處時，廚師的眼睛、動作都變了。",
+   "context_before": "每至於族，吾見其難為，怵然為戒，",
+   "sentence": "視為止，行為遲",
+   "context_after": "，動刀甚微，謋然已解，如土委地。",
+   "keywords": [
+    {
+     "word": "止",
+     "gloss": "定、集中",
+     "pos": "動詞",
+     "distractors": [
+      "停止不看",
+      "禁止",
+      "到達"
+     ]
+    },
+    {
+     "word": "遲",
+     "gloss": "遲緩",
+     "pos": "形容詞",
+     "distractors": [
+      "遲到",
+      "猶豫不決",
+      "晚"
+     ]
+    }
+   ],
+   "meaning": "目光因而專注，行動因而遲緩。意指專注而小心謹慎。",
+   "meaning_distractors": [
+    "目光因而離開，動作因而遲到。",
+    "看到以後就停手不做，行動也中止了。",
+    "把看和走當作禁止的事，一直拖延。"
+   ],
+   "source_note": "技國課本注35",
+   "from_pack": []
+  },
+  {
+   "id": "paoding-16",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "廚師小心下刀，接下來的結果出人意料地順利。",
+   "context_before": "視為止，行為遲，",
+   "sentence": "動刀甚微，謋然已解，如土委地",
+   "context_after": "。提刀而立，為之四顧，為之躊躇滿志，",
+   "keywords": [
+    {
+     "word": "微",
+     "gloss": "輕",
+     "pos": "形容詞",
+     "distractors": [
+      "暗中",
+      "沒有",
+      "卑賤"
+     ]
+    },
+    {
+     "word": "謋然",
+     "gloss": "骨肉分離的聲音（謋，音ㄏㄨㄛˋ）",
+     "pos": "狀聲詞",
+     "distractors": [
+      "刀割物的聲音",
+      "土塊落地的樣子",
+      "牛倒下的聲音"
+     ]
+    },
+    {
+     "word": "委",
+     "gloss": "散落",
+     "pos": "動詞",
+     "distractors": [
+      "委屈",
+      "委託",
+      "蜿蜒"
+     ]
+    }
+   ],
+   "meaning": "下刀很輕，骨肉謋的一聲就分開了，像土塊崩落在地上。",
+   "meaning_distractors": [
+    "暗中動刀，牛就發出叫聲，委屈地倒在地上。",
+    "動刀幅度很大，骨肉用力一砍才散落滿地。",
+    "沒有動刀，牛就自己解開，土地也跟著崩塌。"
+   ],
+   "confusables": [
+    {
+     "word": "委",
+     "other": "「委」屈",
+     "other_lesson": "講義例詞",
+     "same": false,
+     "note": "散落／受冤屈"
+    },
+    {
+     "word": "微",
+     "other": "「微」斯人，吾誰與歸",
+     "other_lesson": "岳陽樓記",
+     "same": false,
+     "note": "輕／無、沒有"
+    },
+    {
+     "word": "解",
+     "other": "庖丁為文惠君「解」牛",
+     "other_lesson": "庖丁解牛",
+     "same": true,
+     "note": "都是分解、宰割"
+    }
+   ],
+   "source_note": "技國課本注36、37；微字課本無注，原依龍騰學習講義形義「微」；115 二技引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "21",
+     "quote": "始臣之解牛之時，所見無非全牛者……謋然已解，如土委地",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "題組選文",
+     "location": "題組乙文、甲文討論",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 115,
+     "exam": "二技",
+     "no": "23",
+     "quote": "謋然已解，如土委地",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_2y/downloader.php?obj=MTE1LTJ5LTAwLWMucGRm#page=5",
+     "pdf_page": 5,
+     "relation_type": "直接引文",
+     "location": "題幹",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-17",
+   "lesson": "庖丁解牛",
+   "paragraph": 3,
+   "scene": "難處解決以後，廚師沒有立刻走開。",
+   "context_before": "動刀甚微，謋然已解，如土委地。",
+   "sentence": "提刀而立，為之四顧，為之躊躇滿志，善刀而藏之",
+   "context_after": "。」文惠君曰：「善哉！",
+   "keywords": [
+    {
+     "word": "躊躇滿志",
+     "gloss": "從容自信的樣子（躊躇，音ㄔㄡˊ ㄔㄨˊ，得意的樣子）",
+     "pos": "形容詞",
+     "distractors": [
+      "猶豫不決的樣子",
+      "志向遠大的樣子",
+      "滿腹心事的樣子"
+     ]
+    },
+    {
+     "word": "善",
+     "gloss": "擦拭（通「繕」，修治）",
+     "pos": "動詞",
+     "distractors": [
+      "善良",
+      "善於",
+      "好好地"
+     ]
+    }
+   ],
+   "meaning": "提著刀站立，因而環顧四周，從容自信，把刀擦拭好收藏起來。",
+   "meaning_distractors": [
+    "提著刀站著，四處張望，猶豫不決，不知道該不該把刀收好。",
+    "提著刀站著，看四周沒人，就把善良的念頭藏在心裡。",
+    "拿刀威嚇四周的人，得意忘形，把刀藏起來不給別人看。"
+   ],
+   "confusables": [
+    {
+     "word": "善",
+     "other": "「善」良",
+     "other_lesson": "講義例詞",
+     "same": false,
+     "note": "擦拭／好心"
+    }
+   ],
+   "source_note": "技國課本注38、39；108 二技、113 統測引此句",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 108,
+     "exam": "二技",
+     "no": "2",
+     "quote": "提刀而立，為之四顧，為之躊躇滿志，善刀而藏之",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/108_2y/downloader.php?obj=MTA4LTJ5LTAwLWMucGRm#page=2",
+     "pdf_page": 2,
+     "relation_type": "直接引文",
+     "location": "選項C",
+     "paper_checked": "2026-11-01"
+    },
+    {
+     "year": 113,
+     "exam": "統測",
+     "no": "8",
+     "quote": "提刀而立，為之四顧",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/113_4y/downloader.php?obj=MTEzLTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "直接引文",
+     "location": "選項A",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "id": "paoding-18",
+   "lesson": "庖丁解牛",
+   "paragraph": 4,
+   "scene": "聽完廚師整段話，國君得到意想不到的收穫。",
+   "context_before": "提刀而立，為之四顧，為之躊躇滿志，善刀而藏之。」文惠君曰：「善哉！",
+   "sentence": "吾聞庖丁之言，得養生焉",
+   "context_after": "。」",
+   "keywords": [
+    {
+     "word": "養生",
+     "gloss": "保全自身之道",
+     "pos": "名詞",
+     "distractors": [
+      "鍛鍊身體",
+      "飼養牲畜",
+      "養家活口"
+     ]
+    },
+    {
+     "word": "焉",
+     "gloss": "語助詞，無義",
+     "pos": "助詞",
+     "distractors": [
+      "哪裡",
+      "於是",
+      "怎麼"
+     ]
+    }
+   ],
+   "meaning": "我聽了庖丁的話，懂得保全自身的養生之道了。解牛比喻處世，隨順世態才能不受傷害。",
+   "meaning_distractors": [
+    "我聽了庖丁的話，學會了飼養牛隻的方法。",
+    "我聽了庖丁的話，決定每天鍛鍊身體。",
+    "我聽了庖丁的話，知道怎樣宰牛才能賺錢養家。"
+   ],
+   "source_note": "技國課本無注；養生依題解「養生與處世之道……就能保全自身」與賞析；焉字課本無注，依老師投影稿標「助詞」；115 統測題幹引「得養生焉」",
+   "from_pack": [],
+   "exam_refs": [
+    {
+     "year": 115,
+     "exam": "統測",
+     "no": "8",
+     "quote": "〈庖丁解牛〉的文惠君，因庖丁闡述「游刃有餘」而「得養生焉」",
+     "official_url": "https://web1.tcte.edu.tw/EXAM/115_4y/downloader.php?obj=MTE1LTR5LTAwLWMucGRm#page=3",
+     "pdf_page": 3,
+     "relation_type": "題幹知識",
+     "location": "題幹",
+     "paper_checked": "2026-11-01"
+    }
+   ]
+  }
+ ]
+}

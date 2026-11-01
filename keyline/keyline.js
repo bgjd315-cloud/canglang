@@ -7,8 +7,10 @@ const cache = {};
 let lessons = [];
 let examStats = null;
 const SOLO = !!window.KL_SOLO; // 單機版：不接班級排行榜，成績只存在這台裝置
+const CFG = window.KL_CFG || {}; // 技專版的文字與圖片位置；普高版用預設值
+const IMG = CFG.img || "img/";
 const CLASSES = ["301", "307"];
-const RIVALS = { qiuran: "虬髯客", laoshan: "勞山道士", hongmen: "樊噲", chushi: "諸葛亮", chibi: "蘇軾", huaju: "張李德和", quanhe: "鄭用錫", jianzhu: "李斯", lugang: "洪繻", xiangji: "歸有光", zhuzhiwu: "燭之武", shishuo: "韓愈", taohua: "武陵漁人", datong: "孔子", wanyou: "袁宏道" };
+const RIVALS = { qiuran: "虬髯客", laoshan: "勞山道士", hongmen: "樊噲", chushi: "諸葛亮", chibi: "蘇軾", huaju: "張李德和", quanhe: "鄭用錫", jianzhu: "李斯", lugang: "洪繻", xiangji: "歸有光", zhuzhiwu: "燭之武", shishuo: "韓愈", taohua: "武陵漁人", datong: "孔子", wanyou: "袁宏道", paoding: "庖丁", lanting: "王羲之", guotuotuo: "郭橐駝", mengxi: "沈括", yueyang: "范仲淹", yulizi: "劉基", tiangong: "宋應星", tanchun: "賈探春", taimei: "沈葆楨", tielu: "鐵路票房", shishuoxinyu: "謝道韞", yufu: "漁父", ...CFG.rivals };
 const LEVELS = { easy: { name: "簡單", accuracy: .5, mult: 1 }, normal: { name: "普通", accuracy: .7, mult: 1.2 }, hard: { name: "困難", accuracy: .85, mult: 1.5 } };
 // 答對 10 分；連中再加 2、4、6（最多加 6）
 const hitScore = (combo) => 10 + Math.min(6, Math.max(0, combo - 1) * 2);
@@ -38,10 +40,10 @@ function inkArt(seed) {
   return "data:image/svg+xml," + encodeURIComponent(svg);
 }
 function art(name, seed, cls = "", alt = "") {
-  return `<img class="${cls}" src="img/${name}.webp" alt="${esc(alt)}" loading="lazy" onerror="this.onerror=null;this.src=inkArt('${seed}')">`;
+  return `<img class="${cls}" src="${IMG}${name}.webp" alt="${esc(alt)}" loading="lazy" onerror="this.onerror=null;this.src=inkArt('${seed}')">`;
 }
 window.inkArt = inkArt;
-const portrait = (id) => `<img class="kl-portrait" src="img/char-${id}.webp" alt="" onerror="this.remove()">`;
+const portrait = (id) => `<img class="kl-portrait" src="${IMG}char-${id}.webp" alt="" onerror="this.remove()">`;
 
 // ---------- 進度統計 ----------
 function stats(doc) {
@@ -66,7 +68,7 @@ function scroll(doc, mastered, fresh = 0) {
     const anim = mastered < n ? i >= mastered - fresh && i < mastered : fresh > 0;
     // 每格是清晰原圖的一小塊，蓋在霧化的底圖上，格與格之間才不會有接縫
     const pos = `${(t % cols) / Math.max(1, cols - 1) * 100}% ${Math.floor(t / cols) / Math.max(1, rows - 1) * 100}%`;
-    tiles += `<i class="${open && !anim ? "open" : ""} ${anim ? "reveal" : ""}" style="--d:${anim ? (Math.max(0, i - (mastered - fresh))) * .22 : 0}s;background-image:url(img/cover-${doc.lesson_id}.webp);background-size:${cols * 100}% ${rows * 100}%;background-position:${pos}"></i>`;
+    tiles += `<i class="${open && !anim ? "open" : ""} ${anim ? "reveal" : ""}" style="--d:${anim ? (Math.max(0, i - (mastered - fresh))) * .22 : 0}s;background-image:url(${IMG}cover-${doc.lesson_id}.webp);background-size:${cols * 100}% ${rows * 100}%;background-position:${pos}"></i>`;
   }
   return `<div class="kl-scroll">${art("cover-" + doc.lesson_id, doc.lesson_id, "kl-base", doc.lesson + "畫卷")}<div class="kl-mist" style="grid-template-columns:repeat(${cols},1fr);grid-template-rows:repeat(${rows},1fr)">${tiles}</div></div>`;
 }
@@ -76,6 +78,16 @@ function scroll(doc, mastered, fresh = 0) {
 function examShare() {
   const s = examStats;
   if (!s) return "";
+  // 技專版：統測、二技各一組，主標由資料提供，數字變了才不會寫死
+  if (s.groups) return `
+    <section class="kl-share" aria-label="部定古文出題比例">
+      <p class="kl-share-kicker">${esc(s.kicker)}</p>
+      <p class="kl-share-hero">${s.hero}</p>
+      ${s.groups.map((g) => `<p class="kl-share-sub"><b>${esc(g.name)}</b>：${g.years.reduce((a, y) => a + y.total, 0)} 題裡有 ${g.years.reduce((a, y) => a + y.hit, 0)} 題</p>
+      <ul class="kl-bars">${g.years.map((y) => `<li title="${y.year} ${esc(g.name)}：${y.total} 題中有 ${y.hit} 題"><span>${y.year}</span><i><u style="width:${y.hit / y.total * 100}%"></u></i><b>${y.hit} / ${y.total} 題</b></li>`).join("")}</ul>`).join("")}
+      <p class="kl-share-sub">這裡要練的 ${lessons.reduce((a, l) => a + l.sentence_count, 0)} 句，有 <b>${lessons.reduce((a, l) => a + (l.exam_sentences || 0), 0)} 句</b>在大考出現過。</p>
+      <small>${esc(s.foot)}</small>
+    </section>`;
   const hit = s.years.reduce((a, y) => a + y.hit, 0);
   const total = s.years.reduce((a, y) => a + y.total, 0);
   const late = s.years.slice(-2);
@@ -105,7 +117,7 @@ function home() {
       ${art("hero", "keyline", "kl-hero-img")}
       <div class="kl-hero-text">
         <p class="kl-eyebrow">滄浪闖關・基礎篇</p>
-        <h1><small>部定古文</small>關鍵句練功坊</h1>
+        <h1><small>${CFG.titleSmall || "部定古文"}</small>關鍵句練功坊</h1>
         <p class="kl-hero-sub">每回十句，五分鐘。<br>讀懂關鍵字，掌握整句意。<br>一句句練熟，讓古文閱讀更有底氣。</p>
       </div>
     </header>
@@ -116,7 +128,7 @@ function home() {
       <div><b>${all - done}</b><span>句待修煉</span></div>
       <div><b>${Rec.streak()}</b><span>天連續修煉</span></div>
     </section>
-    <h2 class="kl-section">${open.length >= 15 ? "部定十五篇" : "試行篇章"}</h2>
+    <h2 class="kl-section">${CFG.listTitle || (open.length >= 15 ? "部定十五篇" : "試行篇章")}</h2>
     <section class="kl-cards">
       ${open.map((l) => { const m = masteredOf(l); const pct = m / l.sentence_count; return `
         <a class="kl-card" href="#/lesson/${l.id}">
@@ -125,7 +137,7 @@ function home() {
             <div class="kl-card-head"><h3>${l.lesson}</h3><span>${l.author}</span></div>
             <p class="kl-tagline">${esc(l.tagline)}</p>
             <div class="kl-track" role="img" aria-label="已練熟 ${m} 句，共 ${l.sentence_count} 句"><i style="width:${pct * 100}%"></i></div>
-            <div class="kl-card-foot"><span>${m} / ${l.sentence_count} 句・${rankOf(pct)}</span><span class="kl-exam">近五年學測 ${l.count} 處</span></div>
+            <div class="kl-card-foot"><span>${m} / ${l.sentence_count} 句・${rankOf(pct)}</span><span class="kl-exam">${CFG.countLabel || "近五年學測"} ${l.count} 處</span></div>
           </div>
         </a>`; }).join("")}
     </section>
@@ -188,7 +200,7 @@ async function lessonPage(id) {
     <nav class="kl-top"><a href="#/">‹ 返回</a><span>${doc.author}</span></nav>
     <header class="kl-head">
       <div><h1 class="kl-title">${doc.lesson}</h1><p class="kl-tagline">${doc.tagline}</p></div>
-      <img class="kl-figure" src="img/char-${id}.webp" alt="" onerror="this.remove()">
+      <img class="kl-figure" src="${IMG}char-${id}.webp" alt="" onerror="this.remove()">
     </header>
     ${scroll(doc, st.mastered)}
     <p class="kl-caption">每練熟一句，畫卷就顯影一格。全部練熟，才看得到整幅畫。</p>
