@@ -79,6 +79,7 @@ function render() {
       <div class="kl-tabs">${CLASSES.map((c) => `<button data-c="${c}" aria-pressed="${c === S.cls}">${c} 班（${S.rows.filter((r) => r.cls === c).length}）</button>`).join("")}</div>
       <input id="q" inputmode="numeric" placeholder="查座號" aria-label="查座號" value="${esc(S.q)}">
       <span class="sp"></span>
+      <button id="weekly">查每週最高分</button>
       <button id="reload">重新整理</button>
       <button id="csv" ${all.length ? "" : "disabled"}>下載 CSV</button>
     </div>
@@ -116,12 +117,74 @@ function bind() {
   q.oninput = () => { S.q = q.value; S.sel.clear(); render(); const n = document.getElementById("q"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); };
   const all = document.getElementById("checkAll");
   if (all) all.onchange = () => { shownRows().forEach((r) => (all.checked ? S.sel.add(idOf(r)) : S.sel.delete(idOf(r)))); render(); };
+  document.getElementById("weekly").onclick = weeklyTop;
   document.getElementById("reload").onclick = refresh;
   document.getElementById("csv").onclick = downloadCsv;
   document.getElementById("delSel").onclick = () => confirmDelete([...S.sel], `刪除勾選的 ${S.sel.size} 筆紀錄？`);
   document.getElementById("clear").onclick = () => { const ids = classRows().map(idOf); confirmDelete(ids, `清空 ${S.cls} 班全部 ${ids.length} 筆紀錄？`, S.cls); };
   const lo = document.getElementById("logout");
   if (lo) lo.onclick = () => signOut(auth);
+}
+
+// ---------- 每週最高分 ----------
+// 各班結算日不同。資料庫只存目前累計，所以每週的紀錄存在老師這台電腦的瀏覽器：
+// 按一次記一次，結算日當天按的會蓋掉這一輪較早的紀錄
+const CHECK_DAY = { "307": 1, "301": 2 };
+const WEEK_KEY = "cl_kl_admin_weeks";
+const WEEK_KEEP = 30;
+const DAY_NAME = "日一二三四五六";
+const checkDateOf = (c, d) => { const m = new Date(d); m.setDate(m.getDate() - (m.getDay() - CHECK_DAY[c] + 7) % 7); return m.toLocaleDateString("sv"); };
+const mdOf = (d) => new Date(d).toLocaleDateString("zh-TW", { month: "numeric", day: "numeric" });
+
+function readWeeks() {
+  if (DEMO) { // 範例：上一輪的紀錄，看得到「增加最多」和歷史
+    const last = new Date(Date.now() - 7 * 864e5);
+    const rec = (c, points) => ({ [checkDateOf(c, last)]: { at: last.toISOString(), points } });
+    return { "301": rec("301", { 12: 560, 3: 300, 33: 1240 }), "307": rec("307", { 5: 650, 21: 400 }) };
+  }
+  try { return JSON.parse(localStorage.getItem(WEEK_KEY) || "{}"); } catch (e) { return {}; }
+}
+function saveWeeks(w) {
+  const out = {};
+  for (const c of CLASSES) out[c] = Object.fromEntries(Object.keys(w[c] || {}).sort().slice(-WEEK_KEEP).map((k) => [k, w[c][k]]));
+  try { localStorage.setItem(WEEK_KEY, JSON.stringify(out)); } catch (e) { /* 無痕視窗存不了，這次仍可查看 */ }
+}
+// 回傳分數最高的座號（同分都列）；沒有人得分時回傳 null
+function topOf(entries) {
+  const best = Math.max(0, ...entries.map((e) => e[1]));
+  if (!best) return null;
+  return { points: best, seats: entries.filter((e) => e[1] === best).map((e) => +e[0]).sort((a, b) => a - b) };
+}
+const seatsText = (t) => t.seats.map((s) => `${s} 號`).join("、");
+
+async function weeklyTop() {
+  try { await load(); } catch (e) { console.error(e); S.msg = `讀取失敗（${e.code || e.message}）。`; render(); return; }
+  const now = new Date(), weeks = readWeeks();
+  const card = (c) => {
+    const list = S.rows.filter((r) => r.cls === c);
+    const rec = (weeks[c] = weeks[c] || {});
+    const key = checkDateOf(c, now), isDay = now.getDay() === CHECK_DAY[c];
+    if (isDay || !rec[key]) rec[key] = { at: now.toISOString(), points: Object.fromEntries(list.map((r) => [r.seat, r.points])) };
+    const past = Object.keys(rec).sort().reverse().filter((k) => k < key);
+    const prev = past[0] && rec[past[0]];
+    const top = topOf(list.map((r) => [r.seat, r.points]));
+    const flagged = top && list.some((r) => top.seats.includes(r.seat) && avg(r) > SUSPECT_AVG);
+    const gain = prev && topOf(list.map((r) => [r.seat, r.points - (prev.points[r.seat] || 0)]));
+    const history = past.slice(0, 8).map((k) => { const t = topOf(Object.entries(rec[k].points)); return `<li>${mdOf(rec[k].at)}：${t ? `${seatsText(t)}（${t.points} 分）` : "沒有人上榜"}</li>`; }).join("");
+    return `<div class="ad-week"><h3>${c} 班・每週${DAY_NAME[CHECK_DAY[c]]}</h3>
+      <small>${isDay ? "今天是結算日" : `今天不是結算日，這是截至 ${mdOf(now)} 的分數`}</small>
+      <p>累計最高：${top ? `<b>${seatsText(top)}</b>，${top.points} 分${flagged ? `<span class="ad-flag" title="每回平均超過 ${SUSPECT_AVG} 分">請留意</span>` : ""}` : "還沒有人上榜"}</p>
+      ${prev ? `<p>比 ${mdOf(prev.at)} 增加最多：${gain ? `<b>${seatsText(gain)}</b>，多 ${gain.points} 分` : "沒有人增加"}</p>` : ""}
+      ${history ? `<ul class="ad-history">${history}</ul>` : ""}</div>`;
+  };
+  const cards = [...CLASSES].sort((a, b) => CHECK_DAY[a] - CHECK_DAY[b]).map(card).join("");
+  if (!DEMO) saveWeeks(weeks);
+  dlg.innerHTML = `<h2>每週累計最高分</h2>${cards}
+    <p class="ad-note">${DEMO ? "範例資料，不會存檔。" : "每週紀錄存在這台電腦的瀏覽器，換電腦或清除瀏覽資料就看不到；結算日沒有按，那一輪就不會有當天的紀錄。"}</p>
+    <div class="ad-acts"><button id="ok">關閉</button></div>`;
+  dlg.querySelector("#ok").onclick = () => dlg.close();
+  dlg.showModal();
+  render();
 }
 
 // typed 有值時，要輸入相同文字才能確認（清空全班用）
