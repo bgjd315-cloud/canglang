@@ -260,9 +260,10 @@ function makeQuestion(s, box) {
     const answer = kw.gloss.split(/[，；（]/)[0];
     return { s, type, kw, answer, prompt: `「${kw.word}」在這句是什麼意思？`, options: shuffle([answer, ...kw.distractors]) };
   }
-  // 句意以「？」「！」收尾時不再補「。」，否則正解會多出「？。」一眼就被認出
+  // 資料有 meaning_answer 時，選項直接用它（句意後面的補充說明只在答後顯示）。
+  // 沒有時取句意第一句；以「？」「！」收尾時不再補「。」，否則正解會多出「？。」一眼就被認出
   const first = s.meaning.split("。")[0];
-  const answer = /[？！]$/.test(first) ? first : first + "。";
+  const answer = s.meaning_answer || (/[？！]$/.test(first) ? first : first + "。");
   return { s, type, kw: s.keywords[0], answer, prompt: "這句話的意思是？", options: shuffle([answer, ...s.meaning_distractors]) };
 }
 function markSentence(q) {
