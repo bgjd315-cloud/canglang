@@ -103,7 +103,8 @@ async function join(resume) {
   S.unsubRoom = onSnapshot(roomRef,
     s => onRoom(s.exists() ? s.data() : null).catch(showCrash),
     e => fatal(`和房間的連線中斷（${e.code}），請重新整理。`));
-  setInterval(() => updateDoc(pRef, { lastSeen: serverTimestamp() }).catch(() => {}), CONFIG.heartbeatMs);
+  clearInterval(S.heartbeat); // 被移出後重新加入時，不要留著舊座號的心跳
+  S.heartbeat = setInterval(() => updateDoc(pRef, { lastSeen: serverTimestamp() }).catch(() => {}), CONFIG.heartbeatMs);
 }
 
 function kicked() {
@@ -116,7 +117,12 @@ function kicked() {
 
 /* ---------- 房間狀態 ---------- */
 async function onRoom(room) {
-  if (!room || room.status === "closed") { save({}); return fatal("這場遊戲已經結束並清除，謝謝參與！"); }
+  if (!room || room.status === "closed") {
+    // 先記下房間已關閉，接著座號被刪除時才不會誤顯示「被老師移出」
+    S.room = { ...(S.room || {}), status: "closed" };
+    S.unsubMe?.(); S.unsubMe = null;
+    save({}); return fatal("這場遊戲已經結束並清除，謝謝參與！");
+  }
   const prevStatus = S.room?.status, prevSeg = S.room?.seg;
   S.room = room;
   const sig = (room.lessons || []).join(",");
@@ -248,6 +254,9 @@ function renderQuestion(head) {
 async function submit(sel) {
   if (S.busy) return;
   S.busy = true; S.err = "";
+  // 網路慢或暫時斷線時，送出會等比較久；先讓學生知道已經按到了
+  const pending = $("err");
+  if (pending) { pending.className = "muted"; pending.textContent = "送出中……網路慢時請稍等，不要關掉畫面"; }
   const { key, first, tier } = S.cur;
   const rec = { uid: S.uid, cls: S.cls, seat: S.seat, seg: S.room.seg, key, sel, first, at: Date.now(), ts: serverTimestamp() };
   try {

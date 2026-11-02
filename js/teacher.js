@@ -235,7 +235,7 @@ function openRoom(roomId) {
 
 function leaveRoom() {
   T.unsubs.forEach(u => u()); T.unsubs = [];
-  clearInterval(T.timer);
+  clearInterval(T.timer); clearTimeout(T.writeTimer);
   T.room = null; T.roomId = null; store.set("room", null);
   T.pick = []; render();
 }
@@ -261,9 +261,12 @@ function scheduleWrite(now = false) {
   if (same) return;
   clearTimeout(T.writeTimer);
   const wait = now ? 0 : Math.max(0, CONFIG.roomWriteThrottleMs - (Date.now() - T.lastWrite));
+  const roomId = T.roomId;
   T.writeTimer = setTimeout(() => {
+    // 延遲期間房間可能已經清除或換了一間，就不要再寫
+    if (!T.room || !T.battle || T.roomId !== roomId) return;
     T.lastWrite = Date.now();
-    updateDoc(doc(db, "cl_rooms", T.roomId), { battle: battleForRoom(T.battle) }).catch(() => {});
+    updateDoc(doc(db, "cl_rooms", roomId), { battle: battleForRoom(T.battle) }).catch(() => {});
   }, wait);
 }
 
