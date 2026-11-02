@@ -260,12 +260,18 @@ function makeQuestion(s, box) {
     const answer = kw.gloss.split(/[，；（]/)[0];
     return { s, type, kw, answer, prompt: `「${kw.word}」在這句是什麼意思？`, options: shuffle([answer, ...kw.distractors]) };
   }
-  const answer = s.meaning.split("。")[0] + "。";
+  // 資料有 meaning_answer 時，選項直接用它（句意後面的補充說明只在答後顯示）。
+  // 沒有時取句意第一句；以「？」「！」收尾時不再補「。」，否則正解會多出「？。」一眼就被認出
+  const first = s.meaning.split("。")[0];
+  const answer = s.meaning_answer || (/[？！]$/.test(first) ? first : first + "。");
   return { s, type, kw: s.keywords[0], answer, prompt: "這句話的意思是？", options: shuffle([answer, ...s.meaning_distractors]) };
 }
 function markSentence(q) {
   if (q.type !== "word") return `<span class="kl-whole">${esc(q.s.sentence)}</span>`;
-  const i = q.s.sentence.indexOf(q.kw.word);
+  // 同一個字在句中出現多次時，資料可用 nth 指定要標第幾個（預設第一個）
+  let i = -1;
+  for (let n = 0; n < (q.kw.nth || 1); n++) i = q.s.sentence.indexOf(q.kw.word, i + 1);
+  if (i < 0) return esc(q.s.sentence);
   return esc(q.s.sentence.slice(0, i)) + `<mark>${esc(q.kw.word)}</mark>` + esc(q.s.sentence.slice(i + q.kw.word.length));
 }
 // 作答前就給情境與前後文，讓學生從上下文推論字義、句意
@@ -366,6 +372,8 @@ async function play(id) {
       <button class="primary kl-go" id="again">再戰一回</button>
       <a class="kl-project" href="#/lesson/${id}">看畫卷與三盒進度</a>`;
     window.scrollTo(0, 0);
+    // 成績頁重新整理時回到課程頁，不要直接默默開新的一回
+    try { history.replaceState(null, "", `#/lesson/${id}`); } catch (e) { /* 舊瀏覽器不支援時維持原樣 */ }
     document.getElementById("again").onclick = () => play(id);
     syncBoard().then((m) => { const el = document.getElementById("sync"); if (el) el.textContent = m; });
   };
@@ -373,6 +381,7 @@ async function play(id) {
 }
 
 // ---------- 教師投影：逐題揭曉，不寫入學生紀錄 ----------
+let projectKey = null;
 async function project(id) {
   const doc = await loadLesson(id);
   const qs = shuffle(doc.sentences).slice(0, ROUND).map((s, k) => makeQuestion(s, k % 2 ? 2 : 1));
@@ -400,6 +409,9 @@ async function project(id) {
     if (!location.hash.startsWith("#/project")) { document.removeEventListener("keydown", key); return; }
     if (e.code === "Space") { e.preventDefault(); step(); }
   };
+  // 離開投影再進來時，先拿掉上一次留下的空白鍵監聽，避免按一次跳兩題
+  if (projectKey) document.removeEventListener("keydown", projectKey);
+  projectKey = key;
   document.addEventListener("keydown", key);
   draw();
 }
