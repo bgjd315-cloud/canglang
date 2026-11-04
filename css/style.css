@@ -95,3 +95,27 @@ details.howto[open] > summary{margin-bottom:10px}
 .musicbtn{position:fixed; left:max(12px, env(safe-area-inset-left,0px)); bottom:12px; z-index:16; font-size:.9rem; padding:.45em .8em; border-radius:999px; background:color-mix(in srgb, var(--surface) 92%, transparent); border:1px solid var(--line)}
 .musicbtn.off{color:var(--muted); text-decoration:line-through}
 @media print{.musicbtn{display:none !important}}
+
+/* 得分浮字與勝利大字卡（js/celebrate.js） */
+.celebrate{position:fixed; inset:0; pointer-events:none; z-index:40; overflow:hidden}
+.pop{position:absolute; transform:translate(-50%,-50%); display:grid; justify-items:center; gap:2px; white-space:nowrap; font-family:var(--display); font-weight:700; padding:.35em .9em .45em; background:var(--surface); border:3px solid var(--good); border-radius:16px; box-shadow:0 8px 24px rgba(0,0,0,.22); animation:popup 1.8s ease-out forwards}
+.pop.gold{border-color:var(--gold)} .pop.part{border-color:var(--warn)}
+.pop b{font-size:clamp(1.6rem, 4.2vw, 2.8rem); line-height:1.1}
+.pop small{font-family:var(--body); font-size:clamp(.95rem, 2vw, 1.3rem); font-weight:700; color:var(--ink)}
+.pop.big b{font-size:clamp(2.2rem, 6vw, 4rem)}
+.pop.good b{color:var(--good)} .pop.gold b{color:var(--gold)} .pop.part b{color:var(--warn)}
+@keyframes popup{0%{opacity:0; transform:translate(-50%,-30%) scale(.6)}15%{opacity:1; transform:translate(-50%,-50%) scale(1.12)}30%{transform:translate(-50%,-60%) scale(1)}80%{opacity:1}100%{opacity:0; transform:translate(-50%,-160%) scale(.95)}}
+.victory{position:absolute; inset:0; display:grid; place-items:center; pointer-events:auto; background:color-mix(in srgb, var(--bg) 55%, transparent); animation:vfade .3s ease-out}
+.vcard{display:grid; justify-items:center; gap:.4em; padding:1.2em 1.6em; max-width:min(92vw, 900px); text-align:center; background:var(--surface); border:3px solid var(--gold); border-radius:22px; box-shadow:0 20px 60px rgba(0,0,0,.25); animation:vpop .55s cubic-bezier(.2,1.6,.4,1) both}
+.victory.lose .vcard{border-color:var(--muted)}
+.vcard img{width:min(46vmin, 360px); height:min(40vmin, 300px); object-fit:contain}
+.vtitle{font-family:var(--display); font-weight:700; font-size:clamp(2.4rem, 8vw, 5.5rem); line-height:1.1; color:var(--gold)}
+.victory.lose .vtitle{color:var(--ink)}
+.vsub{font-size:clamp(1.05rem, 2.6vw, 1.7rem); font-weight:700; overflow-wrap:anywhere}
+.victory i{position:absolute; left:50%; top:50%; width:2.2vmin; height:2.2vmin; border-radius:50%; opacity:0; animation:burst var(--d) cubic-bezier(.1,.8,.3,1) .15s forwards}
+.victory i.gold{background:var(--gold)} .victory i.red{background:var(--bad); border-radius:3px} .victory i.ink{background:var(--ink); width:1.4vmin; height:1.4vmin}
+@keyframes vfade{from{opacity:0}to{opacity:1}}
+@keyframes vpop{0%{opacity:0; transform:scale(.4) rotate(-4deg)}100%{opacity:1; transform:scale(1) rotate(0)}}
+@keyframes burst{0%{opacity:1; transform:translate(-50%,-50%) scale(.4)}80%{opacity:1}100%{opacity:0; transform:translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(1)}}
+@media (prefers-reduced-motion: reduce){.pop{animation:popfade 1.8s forwards} .vcard{animation:vfade .3s both} .victory i{display:none}}
+@keyframes popfade{0%,80%{opacity:1; transform:translate(-50%,-50%)}100%{opacity:0; transform:translate(-50%,-50%)}}

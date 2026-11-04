@@ -4,6 +4,7 @@ import { scoreAnswer, nextQuestion, shuffle, pickQuestions, qKey, progress } fro
 import { SOLO, newSide, applySolo, cpuTier } from "./solo-game.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
 import { setMood, mountMusicToggle } from "./music.js";
+import { popScore, victory } from "./celebrate.js";
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -180,8 +181,11 @@ function checkWinner() {
   if (!S.winner) return;
   stopCpu();
   const left = S.keys.length - progress(S.keys, S.mine).done;
-  if (S.winner === "me") { banner("你贏了！"); S.feed = { text: `你先打倒了${S.boss.name}！${left ? `繼續答完剩下 ${left} 題拿成績` : ""}`, cls: "good" }; }
-  else S.feed = { text: `電腦先打倒魔王了。${left ? `繼續答完剩下 ${left} 題拿成績` : ""}`, cls: "bad" };
+  if (S.winner === "me") { victory({ title: "你勝利！", sub: `你先打倒了${S.boss.name}！`, image: S.boss.imageDefeated || "" }); S.feed = { text: `你先打倒了${S.boss.name}！${left ? `繼續答完剩下 ${left} 題拿成績` : ""}`, cls: "good" }; }
+  else {
+    victory({ title: "電腦勝利", sub: "差一點！答完剩下的題目，看看成績", tone: "lose", ms: 3000 });
+    S.feed = { text: `電腦先打倒魔王了。${left ? `繼續答完剩下 ${left} 題拿成績` : ""}`, cls: "bad" };
+  }
 }
 
 /* 電腦對手：每隔一段思考時間答一題 */
@@ -282,7 +286,10 @@ function submit(sel) {
   S.mine.push({ key, sel, first });
   if (!S.winner) {
     const ev = applySolo(S.me, S.cpu, tier, r.correct);
-    if (r.correct) { S.feed = { text: `答對！你的魔王扣 ${SOLO.effects[tier].damage} 滴血`, cls: "good" }; shake("scene-me"); }
+    if (r.correct) {
+      S.feed = { text: `答對！你的魔王扣 ${SOLO.effects[tier].damage} 滴血`, cls: "good" }; shake("scene-me");
+      popScore(first ? `+${r.points} 分` : "重答答對", { sub: `魔王 −${SOLO.effects[tier].damage} 滴血`, tone: tier === "a" ? "gold" : "good", at: $("scene-me"), big: true });
+    } else if (first && r.points > 0) popScore(`+${r.points} 分`, { sub: "多選部分答對", tone: "part", at: $("scene-me") });
     else S.feed = { text: "答錯了，這題之後可以再答一次", cls: "bad" };
     report(ev, true);
     if (ev.some(e => e.type === "jam")) shake("scene-cpu", "struck");

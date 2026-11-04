@@ -7,6 +7,7 @@ import { auth, db, $, esc, loadManifest, loadBanks, bossOf, lessonLabel, passage
 import { CONFIG, TIERS, ULTIMATE_NAME } from "./config.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
 import { setMood, mountMusicToggle } from "./music.js";
+import { popQueued, victory } from "./celebrate.js";
 import { pickQuestions, replay, computeScores, topWrong, scoreAnswer, progress, thresholds } from "./game.js";
 
 const app = $("app"), overlay = $("overlay"), corner = $("corner");
@@ -19,7 +20,7 @@ const store = {
 const T = {
   tab: "game", manifest: [], pick: [], mode: "formal", minutes: store.get("minutes") || CONFIG.defaultSegmentMinutes,
   roomId: null, room: null, players: [], answers: [], qmap: {}, banksFor: "",
-  battle: null, prevBattle: null, unsubs: [], lastWrite: 0, writeTimer: null, timer: null, busy: false, msg: "",
+  battle: null, prevBattle: null, seenAns: null, unsubs: [], lastWrite: 0, writeTimer: null, timer: null, busy: false, msg: "",
 };
 
 mountMusicToggle();
@@ -207,7 +208,7 @@ async function createRoom() {
 function openRoom(roomId) {
   T.unsubs.forEach(u => u());
   T.roomId = roomId; store.set("room", roomId);
-  T.room = null; T.players = []; T.answers = []; T.battle = null; T.prevBattle = null;
+  T.room = null; T.players = []; T.answers = []; T.battle = null; T.prevBattle = null; T.seenAns = null;
   const rRef = doc(db, "cl_rooms", roomId);
   T.unsubs = [
     onSnapshot(rRef, async s => {
@@ -224,10 +225,14 @@ function openRoom(roomId) {
     }),
     onSnapshot(collection(rRef, "answers"), s => {
       T.answers = s.docs.map(d => ({ id: d.id, ...d.data() })).sort((a, b) => (a.at || 0) - (b.at || 0));
+      // 第一次載入（例如重新整理）不補放舊紀錄的動畫，只對新送來的作答跳出得分
+      const fresh = T.seenAns ? T.answers.filter(a => !T.seenAns.has(a.id)) : [];
+      T.seenAns = new Set(T.answers.map(a => a.id));
       if (!T.room) return;
       const prev = T.battle;
       recompute(); render();
-      if (prev && T.battle) animate(prev, T.battle);
+      if (T.room.status === "answering") popAnswers(fresh);
+      if (prev && T.battle) animate(prev, T.battle, fresh);
       checkAllDone();
     }),
   ];
@@ -270,13 +275,42 @@ function scheduleWrite(now = false) {
   }, wait);
 }
 
-function animate(prev, b) {
+// 每個新答對的座號從魔王身上跳出「301-12 +5 分」
+function popAnswers(fresh) {
+  for (const a of fresh) {
+    const q = T.qmap[a.key];
+    if (!q) continue;
+    const r = scoreAnswer(q, a.sel);
+    if (a.first ? r.points <= 0 : !r.correct) continue;
+    const act = TIERS[q.tier]?.action || "";
+    popQueued(`${a.cls}-${a.seat}`, {
+      sub: a.first ? `${act}命中 +${r.points} 分` : `重答答對・${act}命中`,
+      tone: r.correct ? (q.tier === "a" ? "gold" : "good") : "part",
+      at: $("scene"),
+    });
+  }
+}
+
+// 「301 勝利！」：依加入的班級顯示；最後一擊＝讓魔王倒下的那位
+function winnerTitle() {
+  const classes = [...new Set(T.players.map(p => p.cls))].sort();
+  return classes.length ? `${classes.join("・")} 勝利！` : "全班勝利！";
+}
+
+function animate(prev, b, fresh = []) {
   const sc = $("scene");
   if (!sc) return;
   sc.classList.remove("hit", "ult", "struck"); void sc.offsetWidth;
   if (b.boss < prev.boss) sc.classList.add("hit");
   if (b.ultimates > prev.ultimates) { $("flash").classList.add("gold"); sc.classList.add("ult"); banner(`${ULTIMATE_NAME}！`); }
-  if (b.defeatedSeg && !prev.defeatedSeg) banner(`${T.room.boss.name}被打倒了！`);
+  if (b.defeatedSeg && !prev.defeatedSeg) {
+    const last = [...fresh].reverse().find(a => T.qmap[a.key] && scoreAnswer(T.qmap[a.key], a.sel).correct);
+    victory({
+      title: winnerTitle(),
+      sub: `${T.room.boss.name}被打倒了！${last ? `最後一擊：${last.cls}-${last.seat}` : ""}`,
+      image: T.room.boss.imageDefeated || "",
+    });
+  }
 }
 function banner(text) {
   const d = document.createElement("div");

@@ -7,6 +7,7 @@ import { auth, db, $, esc, loadBanks, passageHtml, lessonLabel, rulesHtml } from
 import { CONFIG, TIERS } from "./config.js";
 import { missionHtml, defeatedHtml } from "./mission.js";
 import { scoreAnswer, nextQuestion, progress, shuffle, computeScores } from "./game.js";
+import { popScore, victory } from "./celebrate.js";
 
 const main = $("main");
 const params = new URLSearchParams(location.search);
@@ -124,7 +125,12 @@ async function onRoom(room) {
     save({}); return fatal("這場遊戲已經結束並清除，謝謝參與！");
   }
   const prevStatus = S.room?.status, prevSeg = S.room?.seg;
+  const wasDefeated = S.room ? Boolean(S.room.battle?.defeatedSeg) : null;
   S.room = room;
+  // 這支手機在線上看到魔王倒下的那一刻才放（剛加入或重新整理時不補放）
+  if (wasDefeated === false && room.battle?.defeatedSeg) {
+    victory({ title: "全班勝利！", sub: `${room.boss?.name || "魔王"}被打倒了！`, image: room.boss?.imageDefeated || "" });
+  }
   const sig = (room.lessons || []).join(",");
   if (S.banksFor !== sig) {
     const { qmap } = await loadBanks(room.lessons);
@@ -276,6 +282,8 @@ async function submit(sel) {
   S.cur = null;
   render();
   scrollTo(0, 0);
+  const { r } = S.result;
+  if (first ? r.points > 0 : r.correct) popScore(first ? `+${r.points} 分` : "重答答對", { sub: `${TIERS[tier].action}命中`, tone: r.correct ? "good" : "part", big: true });
 }
 
 function renderResult(head) {
