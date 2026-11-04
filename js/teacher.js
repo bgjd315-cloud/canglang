@@ -6,7 +6,7 @@ import {
 import { auth, db, $, esc, loadManifest, loadBanks, bossOf, lessonLabel, passageHtml, rulesHtml } from "./common.js";
 import { CONFIG, TIERS, ULTIMATE_NAME } from "./config.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
-import { setMood, mountMusicToggle } from "./music.js";
+import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popQueued, victory } from "./celebrate.js";
 import { pickQuestions, replay, computeScores, topWrong, scoreAnswer, progress, thresholds } from "./game.js";
 
@@ -304,6 +304,7 @@ function animate(prev, b, fresh = []) {
   if (b.boss < prev.boss) sc.classList.add("hit");
   if (b.ultimates > prev.ultimates) { $("flash").classList.add("gold"); sc.classList.add("ult"); banner(`${ULTIMATE_NAME}！`); }
   if (b.defeatedSeg && !prev.defeatedSeg) {
+    playVictory();
     const last = [...fresh].reverse().find(a => T.qmap[a.key] && scoreAnswer(T.qmap[a.key], a.sel).correct);
     victory({
       title: winnerTitle(),

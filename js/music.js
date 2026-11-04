@@ -69,19 +69,19 @@ function pluck(t, m, { dur = 1.8, vol = 0.22, bend = 0, bright = 3200, out = bus
 }
 
 // 堂鼓
-function drum(t, vol = 0.5) {
+function drum(t, vol = 0.5, out = bus) {
   const o = ctx.createOscillator(), g = ctx.createGain();
   o.frequency.setValueAtTime(130, t);
   o.frequency.exponentialRampToValueAtTime(45, t + 0.25);
   g.gain.setValueAtTime(vol, t);
   g.gain.exponentialRampToValueAtTime(0.0001, t + 0.45);
-  o.connect(g).connect(bus);
+  o.connect(g).connect(out);
   o.start(t);
   o.stop(t + 0.5);
 }
 
 // 梆子（木魚般的短促敲擊）
-function clack(t, vol = 0.18) {
+function clack(t, vol = 0.18, out = bus) {
   const s = ctx.createBufferSource(), bp = ctx.createBiquadFilter(), g = ctx.createGain();
   s.buffer = noise;
   bp.type = "bandpass";
@@ -89,9 +89,65 @@ function clack(t, vol = 0.18) {
   bp.Q.value = 9;
   g.gain.setValueAtTime(vol, t);
   g.gain.exponentialRampToValueAtTime(0.0001, t + 0.07);
-  s.connect(bp).connect(g).connect(bus);
+  s.connect(bp).connect(g).connect(out);
   s.start(t);
   s.stop(t + 0.1);
+}
+
+// 大鑼：幾個不成倍數的泛音慢慢衰減，加上一陣金屬沙聲
+function gong(t, vol, out) {
+  const g = ctx.createGain(), lp = ctx.createBiquadFilter();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(vol, t + 0.02);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + 3.4);
+  lp.type = "lowpass";
+  lp.frequency.setValueAtTime(5200, t);
+  lp.frequency.exponentialRampToValueAtTime(800, t + 2.6);
+  for (const [f, a] of [[176, 1], [249, 0.75], [331, 0.55], [447, 0.4], [566, 0.3], [733, 0.2]]) {
+    const o = ctx.createOscillator(), og = ctx.createGain();
+    o.frequency.setValueAtTime(f * 1.03, t);
+    o.frequency.exponentialRampToValueAtTime(f, t + 0.5);
+    og.gain.value = a * 0.3;
+    o.connect(og).connect(lp);
+    o.start(t);
+    o.stop(t + 3.5);
+  }
+  lp.connect(g).connect(out);
+  const s = ctx.createBufferSource(), bp = ctx.createBiquadFilter(), ng = ctx.createGain();
+  s.buffer = noise; s.loop = true;
+  bp.type = "bandpass"; bp.frequency.value = 3200; bp.Q.value = 0.7;
+  ng.gain.setValueAtTime(vol * 0.45, t);
+  ng.gain.exponentialRampToValueAtTime(0.0001, t + 1.3);
+  s.connect(bp).connect(ng).connect(out);
+  s.start(t);
+  s.stop(t + 1.4);
+}
+
+// 打倒魔王的鑼鼓：鼓點由慢到快，接一聲大鑼，再兩記重鼓；背景配樂暫時壓低
+// 配樂關掉時不出聲；要先點過畫面（瀏覽器規定）才會響
+export function playVictory() {
+  if (!ctx || muted) return;
+  if (ctx.state !== "running") ctx.resume();
+  const out = ctx.createGain();
+  out.gain.value = 0.8;
+  out.connect(master);
+  out.connect(verb);
+  let t = ctx.currentTime + 0.05;
+  [0.22, 0.18, 0.15, 0.12, 0.1, 0.08, 0.07, 0.06, 0.05, 0.05].forEach((gap, i) => { drum(t, 0.3 + i * 0.04, out); t += gap; });
+  gong(t + 0.05, 0.6, out);
+  drum(t + 0.05, 0.9, out);
+  clack(t + 0.05, 0.35, out);
+  drum(t + 0.6, 0.8, out);
+  drum(t + 0.85, 0.95, out);
+  if (bus) {
+    const now = ctx.currentTime;
+    bus.gain.cancelScheduledValues(now);
+    bus.gain.setValueAtTime(bus.gain.value || 1, now);
+    bus.gain.linearRampToValueAtTime(0.2, now + 0.2);
+    bus.gain.setValueAtTime(0.2, now + 3.2);
+    bus.gain.linearRampToValueAtTime(1, now + 4.5);
+  }
+  setTimeout(() => out.disconnect(), 6000);
 }
 
 // 刮奏：沿音階快速滑過一串音

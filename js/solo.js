@@ -3,7 +3,7 @@ import { TIERS, CONFIG } from "./config.js";
 import { scoreAnswer, nextQuestion, shuffle, pickQuestions, qKey, progress } from "./game.js";
 import { SOLO, newSide, applySolo, cpuTier } from "./solo-game.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
-import { setMood, mountMusicToggle } from "./music.js";
+import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popScore, victory } from "./celebrate.js";
 
 const $ = id => document.getElementById(id);
@@ -181,7 +181,7 @@ function checkWinner() {
   if (!S.winner) return;
   stopCpu();
   const left = S.keys.length - progress(S.keys, S.mine).done;
-  if (S.winner === "me") { victory({ title: "你勝利！", sub: `你先打倒了${S.boss.name}！`, image: S.boss.imageDefeated || "" }); S.feed = { text: `你先打倒了${S.boss.name}！${left ? `繼續答完剩下 ${left} 題拿成績` : ""}`, cls: "good" }; }
+  if (S.winner === "me") { playVictory(); victory({ title: "你勝利！", sub: `你先打倒了${S.boss.name}！`, image: S.boss.imageDefeated || "" }); S.feed = { text: `你先打倒了${S.boss.name}！${left ? `繼續答完剩下 ${left} 題拿成績` : ""}`, cls: "good" }; }
   else {
     victory({ title: "電腦勝利", sub: "差一點！答完剩下的題目，看看成績", tone: "lose", ms: 3000 });
     S.feed = { text: `電腦先打倒魔王了。${left ? `繼續答完剩下 ${left} 題拿成績` : ""}`, cls: "bad" };
