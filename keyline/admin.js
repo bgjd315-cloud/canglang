@@ -4,6 +4,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/fireba
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { getFirestore, collection, getDocs, writeBatch, doc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 import { firebaseConfig } from "../js/firebase-config.js";
+import { weekOf, fmtStart, RESET_TEXT } from "./week.js";
 
 const TEACHER = "bgjd315@gmail.com";
 const CLASSES = ["301", "307"];
@@ -22,19 +23,28 @@ const S = { rows: [], cls: localStorage.getItem("cl_kl_admin_cls") || CLASSES[0]
 const idOf = (r) => `${r.cls}_${r.seat}`;
 
 function demoRows() {
-  const now = Date.now(), day = 864e5;
+  const now = Date.now(), day = 864e5, w = weekOf();
   const rows = [];
-  [["301", [[12, 640, 9, 14, 88, 0], [3, 512, 6, 11, 40, 1], [27, 388, 5, 9, 31, 2], [8, 260, 2, 7, 12, 9], [33, 1240, 6, 6, 5, 0], [19, 96, 0, 3, 2, 21]]],
-   ["307", [[5, 702, 11, 16, 102, 0], [21, 455, 7, 10, 47, 3], [14, 120, 1, 4, 6, 12]]]]
-    .forEach(([cls, list]) => list.forEach(([seat, points, wins, rounds, mastered, ago]) =>
-      rows.push({ cls, seat, points, wins, rounds, mastered, at: new Date(now - ago * day - 36e5) })));
+  // [座號, 積分, 勝, 回, 練熟, 幾天前, 紀錄週別(0 本週 / -1 上週), 上週積分]
+  [["301", [[12, 640, 9, 14, 88, 0, 0, 520], [3, 512, 6, 11, 40, 1, 0, 300], [27, 388, 5, 9, 31, 2, 0, 0], [8, 260, 2, 7, 12, 9, -1], [33, 1240, 6, 6, 5, 0, 0, 980], [19, 96, 0, 3, 2, 21, -1]]],
+   ["307", [[5, 702, 11, 16, 102, 0, 0, 650], [21, 455, 7, 10, 47, 3, 0, 400], [14, 120, 1, 4, 6, 12, -1]]]]
+    .forEach(([cls, list]) => list.forEach(([seat, points, wins, rounds, mastered, ago, dw, prev]) =>
+      rows.push(shape({ cls, seat, points, wins, rounds, mastered, week: w + dw, ...(prev != null ? { prev, prevWeek: w - 1 } : {}) }, new Date(now - ago * day - 36e5)))));
   return rows;
+}
+
+// 把資料庫的紀錄換成「本週」的樣子：紀錄停在之前的週，本週就是 0 分（學生下次上傳時才真的歸零）
+function shape(r, at) {
+  const cur = weekOf();
+  const fresh = r.week === cur;
+  const last = r.week === cur - 1 ? r.points : (fresh && r.prevWeek === cur - 1 ? r.prev : 0);
+  return { ...r, points: fresh ? r.points : 0, wins: fresh ? r.wins : 0, rounds: fresh ? r.rounds : 0, last: last || 0, at };
 }
 
 async function load() {
   if (DEMO) { if (!S.rows.length) S.rows = demoRows(); return; }
   const snap = await getDocs(collection(db, "cl_kl_board"));
-  S.rows = snap.docs.map((d) => { const r = d.data(); return { ...r, at: r.updated?.toDate ? r.updated.toDate() : null }; });
+  S.rows = snap.docs.map((d) => { const r = d.data(); return shape(r, r.updated?.toDate ? r.updated.toDate() : null); });
   const ids = new Set(S.rows.map(idOf));
   S.sel = new Set([...S.sel].filter((x) => ids.has(x)));
 }
@@ -52,7 +62,7 @@ const avg = (r) => (r.rounds ? r.points / r.rounds : 0);
 const winRate = (r) => (r.rounds ? r.wins / r.rounds : 0);
 const daysAgo = (r) => (r.at ? (Date.now() - r.at.getTime()) / 864e5 : Infinity);
 const fmtAt = (r) => (r.at ? r.at.toLocaleString("zh-TW", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }) : "—");
-const SORT = { seat: (r) => r.seat, points: (r) => r.points, wins: (r) => r.wins, rounds: (r) => r.rounds, rate: winRate, avg, mastered: (r) => r.mastered, at: (r) => (r.at ? r.at.getTime() : 0) };
+const SORT = { seat: (r) => r.seat, points: (r) => r.points, last: (r) => r.last, wins: (r) => r.wins, rounds: (r) => r.rounds, rate: winRate, avg, mastered: (r) => r.mastered, at: (r) => (r.at ? r.at.getTime() : 0) };
 
 function classRows() { return S.rows.filter((r) => r.cls === S.cls); }
 function shownRows() {
@@ -68,13 +78,15 @@ function render() {
   const rows = shownRows();
   const rounds = all.reduce((a, r) => a + r.rounds, 0);
   const active = all.filter((r) => daysAgo(r) <= IDLE_DAYS).length;
-  const mean = all.length ? Math.round(all.reduce((a, r) => a + r.points, 0) / all.length) : 0;
+  const played = all.filter((r) => r.rounds > 0);
+  const mean = played.length ? Math.round(played.reduce((a, r) => a + r.points, 0) / played.length) : 0;
   const th = (k, label) => `<th class="${S.sort === k ? "on" : ""}" aria-sort="${S.sort === k ? (S.desc ? "descending" : "ascending") : "none"}"><button data-sort="${k}">${label}${S.sort === k ? (S.desc ? " ▼" : " ▲") : ""}</button></th>`;
   const allChecked = rows.length && rows.every((r) => S.sel.has(idOf(r)));
   root.innerHTML = `
     <header class="ad-top"><div><h1>練功坊教師後台</h1><small>${DEMO ? "範例資料" : esc(S.user)}</small></div>
       <div class="ad-bar"><a href="./" target="_blank" rel="noopener">開啟學生版</a>${DEMO ? "" : `<button id="logout">登出</button>`}</div></header>
     ${DEMO ? `<p class="ad-demo">這是範例資料，刪除只影響這個畫面，重新整理就會復原。</p>` : ""}
+    <p class="ad-note">排行榜${RESET_TEXT}自動重置。本週從 ${fmtStart(weekOf())} 起算；積分、勝場、對戰都是本週的數字，「上週」是上一週結束時的積分。</p>
     <div class="ad-bar">
       <div class="kl-tabs">${CLASSES.map((c) => `<button data-c="${c}" aria-pressed="${c === S.cls}">${c} 班（${S.rows.filter((r) => r.cls === c).length}）</button>`).join("")}</div>
       <input id="q" inputmode="numeric" placeholder="查座號" aria-label="查座號" value="${esc(S.q)}">
@@ -84,10 +96,10 @@ function render() {
       <button id="csv" ${all.length ? "" : "disabled"}>下載 CSV</button>
     </div>
     <section class="ad-tiles" aria-label="${S.cls} 班摘要">
-      <div><b>${all.length}</b><span>上榜人數</span></div>
+      <div><b>${played.length}</b><span>本週上榜</span></div>
       <div><b>${active}</b><span>${IDLE_DAYS} 天內有練</span></div>
-      <div><b>${rounds}</b><span>總對戰回數</span></div>
-      <div><b>${mean}</b><span>平均積分</span></div>
+      <div><b>${rounds}</b><span>本週對戰回數</span></div>
+      <div><b>${mean}</b><span>本週平均積分</span></div>
     </section>
     <div class="ad-bar">
       <button id="delSel" class="ad-danger" ${S.sel.size ? "" : "disabled"}>刪除勾選（${S.sel.size}）</button>
@@ -95,12 +107,12 @@ function render() {
       <span class="ad-msg" role="status">${esc(S.msg)}</span>
     </div>
     <div class="ad-wrap">${rows.length ? `<table>
-      <thead><tr><th class="l"><input type="checkbox" id="checkAll" aria-label="全選" ${allChecked ? "checked" : ""}></th><th>名次</th>${th("seat", "座號")}${th("points", "積分")}${th("wins", "勝場")}${th("rounds", "對戰")}${th("rate", "勝率")}${th("avg", "每回平均")}${th("mastered", "練熟句")}${th("at", "最後練習")}<th></th></tr></thead>
+      <thead><tr><th class="l"><input type="checkbox" id="checkAll" aria-label="全選" ${allChecked ? "checked" : ""}></th><th>名次</th>${th("seat", "座號")}${th("points", "本週積分")}${th("last", "上週")}${th("wins", "勝場")}${th("rounds", "對戰")}${th("rate", "勝率")}${th("avg", "每回平均")}${th("mastered", "練熟句")}${th("at", "最後練習")}<th></th></tr></thead>
       <tbody>${rows.map((r) => { const id = idOf(r); return `<tr class="${S.sel.has(id) ? "sel" : ""}">
         <td class="l"><input type="checkbox" data-id="${id}" aria-label="選取 ${r.seat} 號" ${S.sel.has(id) ? "checked" : ""}></td>
         <td>${rank.get(id)}</td><td><b>${r.seat}</b></td>
         <td><b>${r.points}</b>${avg(r) > SUSPECT_AVG ? `<span class="ad-flag" title="每回平均超過 ${SUSPECT_AVG} 分">請留意</span>` : ""}</td>
-        <td>${r.wins}</td><td>${r.rounds}</td><td>${Math.round(winRate(r) * 100)}%</td><td>${Math.round(avg(r))}</td><td>${r.mastered}</td>
+        <td>${r.last}</td><td>${r.wins}</td><td>${r.rounds}</td><td>${Math.round(winRate(r) * 100)}%</td><td>${Math.round(avg(r))}</td><td>${r.mastered}</td>
         <td class="${daysAgo(r) > IDLE_DAYS ? "ad-idle" : ""}">${fmtAt(r)}</td>
         <td><button class="ad-del" data-del="${id}">刪除</button></td></tr>`; }).join("")}</tbody></table>`
     : `<p class="ad-empty">${S.q ? `${esc(S.cls)} 班沒有 ${esc(S.q)} 號的紀錄。` : `${esc(S.cls)} 班還沒有人上榜。`}</p>`}</div>
@@ -127,28 +139,7 @@ function bind() {
 }
 
 // ---------- 每週最高分 ----------
-// 各班結算日不同。資料庫只存目前累計，所以每週的紀錄存在老師這台電腦的瀏覽器：
-// 按一次記一次，結算日當天按的會蓋掉這一輪較早的紀錄
-const CHECK_DAY = { "307": 1, "301": 2 };
-const WEEK_KEY = "cl_kl_admin_weeks";
-const WEEK_KEEP = 30;
-const DAY_NAME = "日一二三四五六";
-const checkDateOf = (c, d) => { const m = new Date(d); m.setDate(m.getDate() - (m.getDay() - CHECK_DAY[c] + 7) % 7); return m.toLocaleDateString("sv"); };
-const mdOf = (d) => new Date(d).toLocaleDateString("zh-TW", { month: "numeric", day: "numeric" });
-
-function readWeeks() {
-  if (DEMO) { // 範例：上一輪的紀錄，看得到「增加最多」和歷史
-    const last = new Date(Date.now() - 7 * 864e5);
-    const rec = (c, points) => ({ [checkDateOf(c, last)]: { at: last.toISOString(), points } });
-    return { "301": rec("301", { 12: 560, 3: 300, 33: 1240 }), "307": rec("307", { 5: 650, 21: 400 }) };
-  }
-  try { return JSON.parse(localStorage.getItem(WEEK_KEY) || "{}"); } catch (e) { return {}; }
-}
-function saveWeeks(w) {
-  const out = {};
-  for (const c of CLASSES) out[c] = Object.fromEntries(Object.keys(w[c] || {}).sort().slice(-WEEK_KEEP).map((k) => [k, w[c][k]]));
-  try { localStorage.setItem(WEEK_KEY, JSON.stringify(out)); } catch (e) { /* 無痕視窗存不了，這次仍可查看 */ }
-}
+// 排行榜每週二 21:00 自動重置（keyline/week.js）。本週與上週的分數都在資料庫裡，換電腦也看得到。
 // 回傳分數最高的座號（同分都列）；沒有人得分時回傳 null
 function topOf(entries) {
   const best = Math.max(0, ...entries.map((e) => e[1]));
@@ -159,28 +150,18 @@ const seatsText = (t) => t.seats.map((s) => `${s} 號`).join("、");
 
 async function weeklyTop() {
   try { await load(); } catch (e) { console.error(e); S.msg = `讀取失敗（${e.code || e.message}）。`; render(); return; }
-  const now = new Date(), weeks = readWeeks();
+  const cur = weekOf();
   const card = (c) => {
     const list = S.rows.filter((r) => r.cls === c);
-    const rec = (weeks[c] = weeks[c] || {});
-    const key = checkDateOf(c, now), isDay = now.getDay() === CHECK_DAY[c];
-    if (isDay || !rec[key]) rec[key] = { at: now.toISOString(), points: Object.fromEntries(list.map((r) => [r.seat, r.points])) };
-    const past = Object.keys(rec).sort().reverse().filter((k) => k < key);
-    const prev = past[0] && rec[past[0]];
     const top = topOf(list.map((r) => [r.seat, r.points]));
     const flagged = top && list.some((r) => top.seats.includes(r.seat) && avg(r) > SUSPECT_AVG);
-    const gain = prev && topOf(list.map((r) => [r.seat, r.points - (prev.points[r.seat] || 0)]));
-    const history = past.slice(0, 8).map((k) => { const t = topOf(Object.entries(rec[k].points)); return `<li>${mdOf(rec[k].at)}：${t ? `${seatsText(t)}（${t.points} 分）` : "沒有人上榜"}</li>`; }).join("");
-    return `<div class="ad-week"><h3>${c} 班・每週${DAY_NAME[CHECK_DAY[c]]}</h3>
-      <small>${isDay ? "今天是結算日" : `今天不是結算日，這是截至 ${mdOf(now)} 的分數`}</small>
-      <p>累計最高：${top ? `<b>${seatsText(top)}</b>，${top.points} 分${flagged ? `<span class="ad-flag" title="每回平均超過 ${SUSPECT_AVG} 分">請留意</span>` : ""}` : "還沒有人上榜"}</p>
-      ${prev ? `<p>比 ${mdOf(prev.at)} 增加最多：${gain ? `<b>${seatsText(gain)}</b>，多 ${gain.points} 分` : "沒有人增加"}</p>` : ""}
-      ${history ? `<ul class="ad-history">${history}</ul>` : ""}</div>`;
+    const last = topOf(list.map((r) => [r.seat, r.last]));
+    return `<div class="ad-week"><h3>${c} 班</h3>
+      <p>上週最高（${fmtStart(cur - 1)} 到 ${fmtStart(cur)}）：${last ? `<b>${seatsText(last)}</b>，${last.points} 分` : "沒有人上榜"}</p>
+      <p>本週目前最高（${fmtStart(cur)} 起）：${top ? `<b>${seatsText(top)}</b>，${top.points} 分${flagged ? `<span class="ad-flag" title="每回平均超過 ${SUSPECT_AVG} 分">請留意</span>` : ""}` : "還沒有人上榜"}</p></div>`;
   };
-  const cards = [...CLASSES].sort((a, b) => CHECK_DAY[a] - CHECK_DAY[b]).map(card).join("");
-  if (!DEMO) saveWeeks(weeks);
-  dlg.innerHTML = `<h2>每週累計最高分</h2>${cards}
-    <p class="ad-note">${DEMO ? "範例資料，不會存檔。" : "每週紀錄存在這台電腦的瀏覽器，換電腦或清除瀏覽資料就看不到；結算日沒有按，那一輪就不會有當天的紀錄。"}</p>
+  dlg.innerHTML = `<h2>每週最高分</h2>${CLASSES.map(card).join("")}
+    <p class="ad-note">排行榜${RESET_TEXT}自動重置。${DEMO ? "這是範例資料。" : "「上週」只看得到上一週；更早的週要留底，請在重置前下載 CSV。"}</p>
     <div class="ad-acts"><button id="ok">關閉</button></div>`;
   dlg.querySelector("#ok").onclick = () => dlg.close();
   dlg.showModal();
@@ -213,8 +194,8 @@ function confirmDelete(ids, title, typed) {
 }
 
 function downloadCsv() {
-  const head = ["班級", "座號", "積分", "勝場", "對戰回數", "勝率", "每回平均", "練熟句", "最後練習"];
-  const lines = shownRows().map((r) => [r.cls, r.seat, r.points, r.wins, r.rounds, `${Math.round(winRate(r) * 100)}%`, Math.round(avg(r)), r.mastered, r.at ? r.at.toLocaleString("zh-TW", { hour12: false }) : ""].map((v) => `"${String(v).replace(/"/g, '""')}"`).join(","));
+  const head = ["班級", "座號", "本週積分", "上週積分", "勝場", "對戰回數", "勝率", "每回平均", "練熟句", "最後練習"];
+  const lines = shownRows().map((r) => [r.cls, r.seat, r.points, r.last, r.wins, r.rounds, `${Math.round(winRate(r) * 100)}%`, Math.round(avg(r)), r.mastered, r.at ? r.at.toLocaleString("zh-TW", { hour12: false }) : ""].map((v) => `"${String(v).replace(/"/g, '""')}"`).join(","));
   const blob = new Blob(["﻿" + [head.join(","), ...lines].join("\r\n")], { type: "text/csv;charset=utf-8" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);

@@ -161,16 +161,18 @@ async function renderBoard(cls) {
   }
   cls = cls || Rec.cls() || CLASSES[0];
   const tabs = CLASSES.map((c) => `<button data-c="${c}" aria-pressed="${c === cls}">${c} 班</button>`).join("");
-  el.innerHTML = `<h2 class="kl-section">班級排行榜</h2><div class="kl-tabs">${tabs}</div>${mine}<div id="rank"><p class="kl-board-note">讀取中…</p></div>`;
+  el.innerHTML = `<h2 class="kl-section">本週班級排行榜</h2><div class="kl-tabs">${tabs}</div>${mine}<div id="rank"><p class="kl-board-note">讀取中…</p></div>`;
   el.querySelectorAll("[data-c]").forEach((b) => (b.onclick = () => renderBoard(b.dataset.c)));
   try {
-    const rows = await (await loadBoard()).top(cls);
+    const board = await loadBoard();
+    const rows = await board.top(cls);
     const box = document.getElementById("rank");
     if (!box) return;
     const me = Rec.cls() === cls ? +Rec.seat() : -1;
-    box.innerHTML = rows.length
+    box.innerHTML = (rows.length
       ? `<ol class="kl-rank">${rows.map((r) => `<li class="${r.seat === me ? "me" : ""}"><span>${r.seat} 號</span><em>${r.wins} 勝</em><b>${r.points} 分</b></li>`).join("")}</ol>`
-      : `<p class="kl-board-note">還沒有人上榜，第一名等你來拿。</p>`;
+      : `<p class="kl-board-note">這週還沒有人上榜，第一名等你來拿。</p>`)
+      + `<small class="kl-board-note">排行榜${board.RESET_TEXT}重置，大家從 0 分重新比。</small>`;
   } catch (e) {
     console.warn(e);
     const box = document.getElementById("rank");
@@ -186,7 +188,7 @@ async function syncBoard() {
   if (!points) return "";
   try {
     const res = await (await loadBoard()).submit({ cls: Rec.cls(), seat: +Rec.seat(), points, win, mastered: Rec.masteredAll() });
-    if (res.ok) { Rec.sent(res.sent); return `已更新排行榜：${Rec.cls()} 班 ${Rec.seat()} 號，累積 ${res.points} 分。`; }
+    if (res.ok) { Rec.sent(res.sent); return `已更新排行榜：${Rec.cls()} 班 ${Rec.seat()} 號，本週 ${res.points} 分。`; }
     if (res.reason === "taken") return "這個座號已經被其他裝置使用，積分先留在這支手機，請找老師處理。";
   } catch (e) { console.warn(e); }
   return "排行榜暫時連不上，積分先留在這支手機，下一回會一起送出。";
