@@ -37,7 +37,9 @@ function demoRows() {
 function shape(r, at) {
   const cur = weekOf();
   const fresh = r.week === cur;
-  const last = r.week === cur - 1 ? r.points : (fresh && r.prevWeek === cur - 1 ? r.prev : 0);
+  // 改版前的紀錄沒有 week，它的累計積分也放在「上週」欄，重置前的成績才看得到
+  const legacy = typeof r.week !== "number";
+  const last = r.week === cur - 1 || legacy ? r.points : (fresh && (r.prevWeek === cur - 1 || r.prevWeek === -1) ? r.prev : 0);
   return { ...r, points: fresh ? r.points : 0, wins: fresh ? r.wins : 0, rounds: fresh ? r.rounds : 0, last: last || 0, at };
 }
 
