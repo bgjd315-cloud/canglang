@@ -1,0 +1,76 @@
+/* 練功坊番外篇：沿用 keyline.css，只補番外篇自己的元件 */
+.fw-head{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:22px 18px; display:grid; gap:6px}
+.fw-head .kl-eyebrow{color:var(--seal); font-weight:700}
+.fw-head h1{font-size:clamp(2rem, 9vw, 2.8rem); font-weight:900; letter-spacing:.08em}
+.fw-head p{margin:0; line-height:1.7}
+
+.fw-draft{margin:0; padding:10px 14px; border:1.5px dashed var(--seal); border-radius:12px; color:var(--seal); font-weight:500; line-height:1.6; background:color-mix(in srgb, var(--seal) 6%, var(--surface))}
+
+.fw-modes{display:grid; gap:12px}
+.fw-mode{display:grid; grid-template-columns:auto minmax(0,1fr); gap:14px; align-items:start; padding:16px; background:var(--surface); border:1px solid var(--line); border-radius:16px; text-decoration:none; transition:transform .2s, box-shadow .2s}
+.fw-mode:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.fw-mode:focus-visible,.fw-topics a:focus-visible{outline:3px solid var(--river); outline-offset:2px}
+.fw-mode .kl-seal{width:54px; height:54px; font-size:1.8rem; margin-top:2px}
+.fw-mode h2{font-size:1.35rem; letter-spacing:.04em}
+.fw-mode p{margin:4px 0 6px; line-height:1.6; color:var(--muted)}
+.fw-mode small{color:var(--seal); font-weight:500}
+.fw-return{text-align:center; margin:4px 0 0}
+.fw-return a{display:inline-block; padding:10px 6px; color:var(--muted)}
+
+a.kl-go{display:grid; place-items:center; text-decoration:none}
+.fw-topics{list-style:none; margin:0; padding:0; display:grid; gap:8px}
+.fw-topics a{display:grid; gap:4px; padding:12px 14px; min-height:56px; background:var(--surface); border:1px solid var(--line); border-radius:12px; text-decoration:none}
+.fw-topics b{font-family:var(--display); font-size:1.12rem; display:flex; flex-wrap:wrap; align-items:center; gap:6px}
+.fw-topics span{color:var(--muted); font-size:.92rem; line-height:1.5}
+.fw-topics .kl-stamp{justify-self:start; font-style:normal}
+.fw-done{font-style:normal; font-family:var(--body); font-size:.78rem; font-weight:700; color:#fff; background:var(--good); border-radius:4px; padding:0 .45em}
+
+/* 身世卡：點一下翻面 */
+.fw-cards{display:grid; gap:10px}
+.fw-card{display:grid; width:100%; text-align:left; padding:0; border:1.5px solid var(--line); border-radius:14px; background:var(--paper); min-height:132px; overflow:hidden}
+/* 正反兩面疊在同一格，卡片高度取較長的一面，文字不會被裁掉 */
+.fw-card>span{grid-area:1/1; display:grid; gap:6px; padding:16px 18px; align-content:center; text-align:left; transition:opacity .25s}
+.fw-front small{color:var(--seal); font-weight:700; letter-spacing:.1em}
+.fw-front b{font-family:var(--display); font-size:1.35rem; line-height:1.4}
+.fw-front i{font-style:normal; color:var(--muted); font-size:.88rem}
+.fw-back{opacity:0; line-height:1.75; font-size:1.05rem; background:var(--surface); pointer-events:none}
+.fw-card[aria-pressed="true"]{border-color:var(--seal)}
+.fw-card[aria-pressed="true"] .fw-front{opacity:0}
+.fw-card[aria-pressed="true"] .fw-back{opacity:1}
+@media (prefers-reduced-motion: reduce){ .fw-card>span{transition:none} }
+
+/* 解釋區 */
+.fw-exp{margin:0; line-height:1.7}
+.fw-linked{border-top:1px dashed var(--line); padding-top:10px; display:grid; gap:4px}
+.fw-linked b{font-family:var(--display); color:var(--seal)}
+.fw-linked p{margin:0; line-height:1.7}
+.fw-links{border-top:1px dashed var(--line); padding-top:10px; display:grid; gap:6px}
+.fw-links b{font-family:var(--display)}
+.fw-links p{margin:0; line-height:1.65}
+.fw-links a{font-weight:700; color:var(--seal); margin-right:.3em}
+.fw-mini{margin:0; display:grid; gap:4px; font-size:.95rem}
+.fw-mini>div{display:grid; grid-template-columns:minmax(6em, auto) minmax(0,1fr); gap:8px}
+.fw-mini dt{color:var(--muted)}
+.fw-mini dd{margin:0}
+
+/* 名句一覽 */
+.fw-list{list-style:none; margin:0; padding:0; display:grid; gap:10px}
+.fw-list li{background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--seal); border-radius:12px; padding:12px 14px; display:grid; gap:4px}
+.fw-list li>b{font-family:var(--display); font-size:1.12rem; line-height:1.6}
+.fw-list small{color:var(--muted)}
+.fw-list li>p{margin:0; line-height:1.65}
+
+/* 應用文詞語表 */
+.fw-tabs{display:flex; flex-wrap:wrap; gap:8px}
+.fw-tabs button{min-height:44px; border-radius:999px; padding:.3em 1em}
+.fw-tabs button[aria-selected="true"]{background:var(--seal); border-color:var(--seal); color:#fff; font-weight:700}
+.fw-gloss{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:14px 16px; display:grid; gap:10px}
+.fw-gloss dl{margin:0; display:grid}
+.fw-gloss dl>div{display:grid; grid-template-columns:minmax(0,2fr) minmax(0,3fr); gap:10px; padding:9px 0; border-bottom:1px solid var(--line)}
+.fw-gloss dl>div:last-child{border-bottom:0}
+.fw-gloss dt{color:var(--muted); line-height:1.5}
+.fw-gloss dd{margin:0; font-family:var(--display); font-weight:700; line-height:1.5}
+
+.fw-score{display:flex; justify-content:center; align-items:baseline; gap:6px; font-family:var(--display)}
+.fw-score b{font-size:3.6rem; line-height:1; color:var(--seal); font-variant-numeric:tabular-nums}
+.fw-score span{font-size:1.4rem; color:var(--muted)}
