@@ -7,6 +7,7 @@ import { auth, db, $, esc, loadBanks, passageHtml, lessonLabel, rulesHtml } from
 import { CONFIG, TIERS } from "./config.js";
 import { missionHtml, defeatedHtml } from "./mission.js";
 import { loadCards, linkedCardsHtml } from "./cards.js";
+import { loadSentences, klQuestion, loadTopics, topicsFor } from "./stages.js";
 import { scoreAnswer, nextQuestion, progress, shuffle, computeScores } from "./game.js";
 import { popScore, victory } from "./celebrate.js";
 
@@ -20,6 +21,8 @@ const S = {
   uid: null, roomId: (params.get("room") || "").toUpperCase(), room: null, cls: null, seat: null,
   qmap: null, order: [], mine: [], cur: null, picked: new Set(), result: null, busy: false, err: "",
   unsubRoom: null, unsubMe: null, banksFor: "",
+  // 三段式：player＝自己的座位文件（熟句關作答、身世卡進度）；kl＝熟句關畫面狀態；selfCards＝自行前進到身世卡
+  player: null, pRef: null, sentences: null, topics: null, klQ: null, klFb: null, flipped: new Set(), selfCards: false,
 };
 
 // 依學生 uid 打亂出題順序，鄰座拿到的題目順序不同
@@ -101,7 +104,8 @@ async function join(resume) {
   $("who").innerHTML = `${esc(S.cls)} 班 ${S.seat} 號<br>房間 ${esc(S.roomId)}`;
   const mineSnap = await getDocs(query(collection(db, "cl_rooms", S.roomId, "answers"), where("uid", "==", S.uid)));
   S.mine = mineSnap.docs.map(d => d.data()).sort((a, b) => (a.at || 0) - (b.at || 0));
-  S.unsubMe = onSnapshot(pRef, s => { if (!s.exists()) kicked(); });
+  S.pRef = pRef;
+  S.unsubMe = onSnapshot(pRef, s => { if (!s.exists()) kicked(); else S.player = s.data(); });
   S.unsubRoom = onSnapshot(roomRef,
     s => onRoom(s.exists() ? s.data() : null).catch(showCrash),
     e => fatal(`和房間的連線中斷（${e.code}），請重新整理。`));
@@ -138,6 +142,7 @@ async function onRoom(room) {
     S.cards = await loadCards();
     S.qmap = qmap; S.banksFor = sig;
     S.order = shuffle(room.keys, seeded(S.uid + S.roomId));
+    [S.sentences, S.topics] = await Promise.all([loadSentences(room.lessons), loadTopics().then(t => topicsFor(t, room.lessons))]);
   }
   if (room.status !== "answering" || prevSeg !== room.seg) { if (!S.result) S.cur = null; }
   if (room.status !== "answering") { S.cur = null; S.result = null; }
@@ -168,7 +173,12 @@ function render() {
   if (!room || !S.qmap) return;
   const head = `<div class="muted">${esc(lessonLabel(room.lessonNames || []))}・${room.mode === "trial" ? "試玩版（不計分）" : "正式版"}</div>`;
   if (room.status === "lobby") {
-    main.innerHTML = `${head}<div class="card center"><div class="big">已加入，等老師開始</div><p class="muted">開始後，每次選一種行動，就會拿到一題。</p></div>${missionHtml(room.boss)}${howto(true)}`;
+    const stage = room.stage || "join";
+    const klDone = (room.klSids || []).every(sid => sid in (S.player?.kl || {}));
+    if (stage === "keyline" && !(klDone && room.selfPace && S.selfCards)) return renderKeyline(head);
+    if ((stage === "cards" || (stage === "keyline" && S.selfCards)) && !S.player?.cardsRead) return renderCards(head);
+    const tip = stage === "join" ? "老師會先帶大家闖熟句關、看身世卡，再開始魔王戰。" : "開始後，每次選一種行動，就會拿到一題。";
+    main.innerHTML = `${head}<div class="card center"><div class="big">${stage === "join" ? "已加入，等老師開始" : "準備好了，等老師開始魔王戰"}</div><p class="muted">${tip}</p></div>${missionHtml(room.boss)}${howto(stage === "join")}`;
     return;
   }
   if (room.status === "result") {
@@ -311,6 +321,95 @@ function renderResult(head) {
     <div class="sticky"><button class="primary wide" id="nextBtn">下一題</button></div>`;
   $("nextBtn").onclick = () => { S.result = null; render(); scrollTo(0, 0); };
   tick();
+}
+
+/* ---------- 第一段：熟句關（認得課文，不計入魔王戰成績） ---------- */
+function renderKeyline(head) {
+  const sids = (S.room.klSids || []).filter(sid => S.sentences?.[sid]);
+  const done = S.player?.kl || {};
+  if (!sids.length) { main.innerHTML = `${head}<div class="card center"><div class="big">這一課沒有熟句關</div><p class="muted">等老師開放下一段。</p></div>`; return; }
+  const next = sids.find(sid => !(sid in done));
+  const nDone = sids.filter(sid => sid in done).length;
+  const bar = `<div class="bar"><span><b>熟句關</b>・第 ${Math.min(nDone + (S.klFb ? 0 : 1), sids.length)} / ${sids.length} 句</span><span class="muted">不計入魔王戰成績</span></div>`;
+  if (S.klFb) return renderKlFeedback(head, bar);
+  if (!next) {
+    const right = sids.filter(sid => done[sid]).length;
+    main.innerHTML = `${head}${bar}
+      <div class="card center" style="display:grid; gap:10px"><div class="big">熟句關完成！</div><div class="score">${right}<span style="font-size:1.4rem"> / ${sids.length}</span></div>
+      <p class="muted" style="margin:0">${S.room.selfPace ? "可以先去看身世卡。" : "等老師開放身世卡，或看投影幕上大家最不熟的句子。"}</p>
+      ${S.room.selfPace ? `<button class="primary wide" id="toCards">進入身世卡</button>` : ""}</div>`;
+    const b = $("toCards"); if (b) b.onclick = () => { S.selfCards = true; render(); scrollTo(0, 0); };
+    return;
+  }
+  if (!S.klQ || S.klQ.sid !== next) S.klQ = klQuestion(S.sentences, next, sids.indexOf(next));
+  const q = S.klQ;
+  main.innerHTML = `${head}${bar}
+    <div class="card" style="display:grid; gap:12px">
+      ${q.sentence ? `<div class="quote kl-sent">${esc(q.sentence)}</div>` : ""}
+      <div class="stem">${esc(q.prompt)}</div>
+      <div class="opts">${q.options.map((o, i) => `<button class="opt" data-k="${i}"><span class="k">${"ABCD"[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
+    </div>
+    <div class="err" id="err">${esc(S.err)}</div>`;
+  S.err = "";
+  main.querySelectorAll("[data-k]").forEach(b => b.onclick = () => answerKeyline(q, +b.dataset.k));
+}
+
+async function answerKeyline(q, k) {
+  if (S.busy) return;
+  const ok = q.options[k] === q.answer;
+  S.busy = true;
+  try {
+    // 只記第一次作答；寫在自己的座位文件，安全規則允許學生更新自己的座位
+    await updateDoc(S.pRef, { [`kl.${q.sid}`]: ok });
+    S.player = { ...(S.player || {}), kl: { ...(S.player?.kl || {}), [q.sid]: ok } };
+  } catch (e) {
+    S.busy = false; S.err = "沒有送出成功，請再按一次。"; return render();
+  }
+  S.busy = false;
+  S.klFb = { q, k, ok };
+  S.klQ = null;
+  render(); scrollTo(0, 0);
+}
+
+function renderKlFeedback(head, bar) {
+  const { q, k, ok } = S.klFb;
+  const s = S.sentences[q.sid];
+  const refs = (s.exam_refs || []).map(r => `${r.year} ${r.exam} 第 ${r.no} 題`);
+  main.innerHTML = `${head}${bar}
+    <div class="card" style="display:grid; gap:12px">
+      <div class="verdict ${ok ? "ok" : "no"}">${ok ? "答對了！" : "看一下白話"}</div>
+      <div class="opts">${q.options.map((o, i) => `<button class="opt ${o === q.answer ? "right" : i === k ? "wrong" : ""}" disabled><span class="k">${"ABCD"[i]}</span><span>${esc(o)}</span></button>`).join("")}</div>
+      <div class="exp"><b>${esc(s.sentence)}</b><br>${esc(s.meaning)}<br><span class="muted">〈${esc(s.lesson)}〉第 ${esc(s.paragraph)} 段${refs.length ? `・大考考過：${esc(refs.join("、"))}` : ""}</span></div>
+    </div>
+    <div class="sticky"><button class="primary wide" id="klNext">下一句</button></div>`;
+  $("klNext").onclick = () => { S.klFb = null; render(); scrollTo(0, 0); };
+}
+
+/* ---------- 第二段：身世卡（不出題，看完按「我看懂了」） ---------- */
+function renderCards(head) {
+  const cards = (S.topics || []).flatMap(t => t.cards.map(c => ({ ...c, topic: t.title })));
+  if (!cards.length) { main.innerHTML = `${head}<div class="card center"><div class="big">這一課沒有身世卡</div><p class="muted">等老師開始魔王戰。</p></div>`; return; }
+  main.innerHTML = `${head}
+    <div class="bar"><span><b>身世卡</b>・點卡片翻面，${cards.length} 張都看完再按「我看懂了」</span></div>
+    <div class="flipcards">${cards.map((c, i) => `
+      <button class="flipcard ${S.flipped.has(c.id) ? "on" : ""}" data-c="${esc(c.id)}">
+        <span class="fc-front"><small>${esc(c.topic)}・${i + 1}</small><b>${esc(c.title)}</b><i>點一下翻面</i></span>
+        <span class="fc-back">${esc(c.body)}</span>
+      </button>`).join("")}</div>
+    <div class="err" id="err">${esc(S.err)}</div>
+    <div class="sticky"><button class="primary wide" id="cardsOk" ${cards.every(c => S.flipped.has(c.id)) && !S.busy ? "" : "disabled"}>我看懂了</button></div>`;
+  S.err = "";
+  main.querySelectorAll("[data-c]").forEach(b => b.onclick = () => {
+    const id = b.dataset.c;
+    S.flipped.has(id) && b.classList.contains("on") ? b.classList.remove("on") : (S.flipped.add(id), b.classList.add("on"));
+    $("cardsOk").disabled = !cards.every(c => S.flipped.has(c.id));
+  });
+  $("cardsOk").onclick = async () => {
+    S.busy = true;
+    try { await updateDoc(S.pRef, { cardsRead: true }); S.player = { ...(S.player || {}), cardsRead: true }; }
+    catch { S.err = "沒有送出成功，請再按一次。"; }
+    S.busy = false; render(); scrollTo(0, 0);
+  };
 }
 
 function renderEnd(head) {
