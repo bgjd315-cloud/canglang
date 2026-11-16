@@ -9,6 +9,7 @@ import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
 import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popQueued, victory } from "./celebrate.js";
 import { pickQuestions, replay, computeScores, topWrong, scoreAnswer, progress, thresholds } from "./game.js";
+import { loadCards, linkedCardsHtml, cardsProjectHtml } from "./cards.js";
 
 const app = $("app"), overlay = $("overlay"), corner = $("corner");
 const SAVE = "canglang-teacher";
@@ -637,6 +638,7 @@ function renderCorner() {
 function showQuestion(key) {
   const q = T.qmap[key];
   if (!q) return;
+  if (!T.cards) { loadCards().then(c => { T.cards = c; showQuestion(key); }); return; } // 身世卡第一次用到時才載入
   const right = new Set(q.answer);
   overlay.innerHTML = `
     <div class="ovcard" role="dialog" aria-modal="true">
@@ -645,9 +647,24 @@ function showQuestion(key) {
       <div class="stem">${esc(q.stem)}</div>
       <div class="ovopts">${q.options.map((o, i) => `<div class="ovopt ${right.has(i) ? "right" : ""}">${right.has(i) ? "✓ " : ""}${esc(o)}</div>`).join("")}</div>
       <div class="exp">${esc(q.explanation)}</div>
+      ${linkedCardsHtml(q, T.cards, { button: true })}
       <div><button class="primary" id="ovClose" style="font-size:1.2rem">關閉</button></div>
     </div>`;
   overlay.classList.remove("hidden");
+  $("ovClose").onclick = () => overlay.classList.add("hidden");
+  const cb = overlay.querySelector(".cardlink-btn");
+  if (cb) cb.onclick = () => showCards(cb.dataset.cards.split(","), key);
+}
+
+// 一鍵投影身世卡：放大顯示，講完可回到題目
+function showCards(ids, key) {
+  overlay.innerHTML = `
+    <div class="ovcard" role="dialog" aria-modal="true">
+      ${cardsProjectHtml(ids, T.cards)}
+      <div class="row"><button class="primary" id="ovBack" style="font-size:1.2rem">回到題目</button><button id="ovClose" style="font-size:1.2rem">關閉</button></div>
+    </div>`;
+  overlay.classList.remove("hidden");
+  $("ovBack").onclick = () => showQuestion(key);
   $("ovClose").onclick = () => overlay.classList.add("hidden");
 }
 overlay.addEventListener("click", e => { if (e.target === overlay) overlay.classList.add("hidden"); });

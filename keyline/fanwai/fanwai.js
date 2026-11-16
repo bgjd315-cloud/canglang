@@ -311,6 +311,11 @@ Promise.all(["guoxue", "lunmeng", "yingyong"].map((n) => fetch(`data/${n}.json`)
   .then(([g, l, y]) => {
     D.guoxue = g; D.lunmeng = l; D.yingyong = y;
     window.addEventListener("hashchange", route);
+    // 作答時網址停在關卡頁（例如 #/lunmeng），按「離開」連到同一個網址不會觸發 hashchange，這裡補上重新導向
+    document.addEventListener("click", (e) => {
+      const a = e.target.closest('a[href^="#"]');
+      if (a && a.getAttribute("href") === location.hash) { e.preventDefault(); route(); }
+    });
     route();
   })
   .catch(() => { app.innerHTML = `<p class="kl-error">資料讀取失敗，請確認網路後重新整理。</p>`; });
