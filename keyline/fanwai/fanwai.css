@@ -1,5 +1,5 @@
 /* 練功坊番外篇：沿用 keyline.css，只補番外篇自己的元件 */
-.fw-head{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:22px 18px; display:grid; gap:6px}
+.fw-head{background:var(--paper); border:1px solid var(--line); border-radius:16px; padding:22px 18px; display:grid; gap:6px; overflow:hidden}
 .fw-head .kl-eyebrow{color:var(--seal); font-weight:700}
 .fw-head h1{font-size:clamp(2rem, 9vw, 2.8rem); font-weight:900; letter-spacing:.08em}
 .fw-head p{margin:0; line-height:1.7}
@@ -7,7 +7,13 @@
 .fw-draft{margin:0; padding:10px 14px; border:1.5px dashed var(--seal); border-radius:12px; color:var(--seal); font-weight:500; line-height:1.6; background:color-mix(in srgb, var(--seal) 6%, var(--surface))}
 
 .fw-modes{display:grid; gap:12px}
-.fw-mode{display:grid; grid-template-columns:auto minmax(0,1fr); gap:14px; align-items:start; padding:16px; background:var(--surface); border:1px solid var(--line); border-radius:16px; text-decoration:none; transition:transform .2s, box-shadow .2s}
+.fw-hero{display:block; width:calc(100% + 36px); max-width:none; margin:-22px -18px 8px; aspect-ratio:16/9; object-fit:cover; border-radius:16px 16px 0 0}
+.fw-banner{display:block; width:100%; aspect-ratio:16/8; object-fit:cover; border-radius:14px; border:1px solid var(--line)}
+.fw-mode-img{grid-column:1 / -1; display:block; width:calc(100% + 32px); max-width:none; margin:-16px -16px 2px; aspect-ratio:16/8; object-fit:cover}
+.fw-topics a.has-thumb{grid-template-columns:96px minmax(0,1fr); column-gap:12px}
+.fw-topics a.has-thumb > :not(.fw-topic-img){grid-column:2}
+.fw-topic-img{grid-row:1 / span 3; width:96px; height:64px; object-fit:cover; border-radius:8px; align-self:center}
+.fw-mode{display:grid; grid-template-columns:auto minmax(0,1fr); gap:14px; align-items:start; padding:16px; overflow:hidden; background:var(--surface); border:1px solid var(--line); border-radius:16px; text-decoration:none; transition:transform .2s, box-shadow .2s}
 .fw-mode:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.14)}
 .fw-mode:focus-visible,.fw-topics a:focus-visible{outline:3px solid var(--river); outline-offset:2px}
 .fw-mode .kl-seal{width:54px; height:54px; font-size:1.8rem; margin-top:2px}
