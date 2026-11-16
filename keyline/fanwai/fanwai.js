@@ -18,6 +18,10 @@ const setBest = (k, v) => { if (!(mem.best[k] >= v)) { mem.best[k] = v; saveMem(
 
 const draft = () => Object.values(D).some((d) => d && d.status === "待審")
   ? `<p class="fw-draft">試行版：內容還在等老師審定，若發現錯誤請告訴老師。</p>` : "";
+// 插圖：img/ 底下的 webp；還沒有圖的主題就不顯示，版面不會開天窗
+const HAS_IMG = new Set(["hero-fanwai", "thumb-guoxue", "thumb-lunmeng", "thumb-yingyong", "char-kongzi", "char-mengzi",
+  "gx-biao", "gx-yunwen", "gx-pianwen", "gx-jintishi", "gx-chuanqi", "gx-zhiguai", "gx-shiji", "gx-zuozhuan", "gx-wenfu", "gx-lunshuo", "gx-liji", "gx-taiwan"]);
+const pic = (name, cls, alt = "") => (HAS_IMG.has(name) ? `<img class="${cls}" src="img/${name}.webp" alt="${esc(alt)}" loading="lazy" onerror="this.remove()">` : "");
 const navBar = (back, label, right = "") => `<nav class="kl-top"><a href="${back}">‹ ${esc(label)}</a><span>${esc(right)}</span></nav>`;
 
 // ---------- 首頁 ----------
@@ -28,6 +32,7 @@ function home() {
   const best = (k) => (b[k] != null ? `最佳 ${b[k]} / ${ROUND}` : "還沒挑戰");
   app.innerHTML = `
     <header class="fw-head">
+      ${pic("hero-fanwai", "fw-hero", "提燈的學生站在三岔路口，通往藏書樓、杏壇與書房")}
       <p class="kl-eyebrow">滄浪闖關・番外篇</p>
       <h1>練功坊番外篇</h1>
       <p>國學常識、論孟名句、應用文。<br>不另開單元死背，跟著課文順手帶走。</p>
@@ -35,16 +40,19 @@ function home() {
     ${draft()}
     <section class="fw-modes">
       <a class="fw-mode" href="#/guoxue">
+        ${pic("thumb-guoxue", "fw-mode-img")}
         <span class="kl-seal">常</span>
         <div><h2>國學常識闖關</h2><p>先翻身世卡，看懂文體、作者與時代為什麼重要，再闖三題小關。</p>
         <small>${read} / ${gx.length} 個主題看過・綜合闖關${b["gx-mix"] != null ? ` 最佳 ${b["gx-mix"]} / ${ROUND}` : " 還沒挑戰"}</small></div>
       </a>
       <a class="fw-mode" href="#/lunmeng">
+        ${pic("thumb-lunmeng", "fw-mode-img")}
         <span class="kl-seal">論</span>
         <div><h2>論孟名句闖關</h2><p>${D.lunmeng.items.length} 句《論語》《孟子》名句，其中 ${D.lunmeng.items.filter((x) => x.exam && x.exam.length).length} 句近十年大考考過。看白話、配情境，再連回讀過的課文。</p>
         <small>${best("lunmeng")}${b["lunmeng-exam"] != null ? `・大考題 最佳 ${b["lunmeng-exam"]} / ${ROUND}` : ""}</small></div>
       </a>
       <a class="fw-mode" href="#/yingyong">
+        ${pic("thumb-yingyong", "fw-mode-img")}
         <span class="kl-seal">應</span>
         <div><h2>應用文番外關</h2><p>寫信給老師、稱呼朋友的父親、同學的哥哥結婚送什麼題辭，全用情境來練。</p>
         <small>${best("yingyong")}</small></div>
@@ -58,12 +66,14 @@ function guoxueList() {
   const gx = D.guoxue.topics;
   app.innerHTML = `
     ${navBar("#/", "番外篇", "國學常識")}
+    ${pic("thumb-guoxue", "fw-banner")}
     <h1 class="kl-title">國學常識闖關</h1>
     <p class="kl-tagline">每個主題先看身世卡，按「我看懂了」再闖三題。全部看過，就去挑戰綜合闖關。</p>
     ${draft()}
     <a class="primary kl-go fw-go" href="#/guoxue-mix">綜合闖關（隨機 ${ROUND} 題）</a>
     <ul class="fw-topics">${gx.map((t) => `
-      <li><a href="#/guoxue/${t.id}">
+      <li><a href="#/guoxue/${t.id}" class="${HAS_IMG.has("gx-" + t.id) ? "has-thumb" : ""}">
+        ${pic("gx-" + t.id, "fw-topic-img")}
         <b>${esc(t.title)}${mem.read[t.id] ? `<i class="fw-done">看過</i>` : ""}</b>
         <span>${t.lessonNames.map((n) => (/^[〈《]/.test(n) || /選|詩$/.test(n) ? esc(n) : `〈${esc(n)}〉`)).join("、")}・${t.cards.length} 張卡${mem.best["gx-" + t.id] != null ? `・小關 ${mem.best["gx-" + t.id]} / ${t.questions.length}` : ""}</span>
         ${t.examRef ? `<em class="kl-stamp">${esc(t.examRef)}</em>` : ""}
@@ -78,6 +88,7 @@ function guoxueTopic(id) {
   const flipped = new Set();
   app.innerHTML = `
     ${navBar("#/guoxue", "國學常識", `${t.cards.length} 張身世卡`)}
+    ${pic("gx-" + t.id, "fw-banner")}
     <h1 class="kl-title">${esc(t.title)}</h1>
     ${t.examRef ? `<div class="kl-stamps"><b>大考依據</b><span class="kl-stamp">${esc(t.examRef)}</span></div>` : ""}
     <p class="kl-tagline">點卡片翻面，看完每一張再往下。</p>
@@ -124,6 +135,7 @@ function lunmengHome() {
   const examN = D.lunmeng.items.filter((x) => x.exam && x.exam.length).length;
   app.innerHTML = `
     ${navBar("#/", "番外篇", "論孟名句")}
+    ${pic("thumb-lunmeng", "fw-banner")}
     <h1 class="kl-title">論孟名句闖關</h1>
     <p class="kl-tagline">大考很少整題考論孟，卻年年把它放進選項和對讀材料。一回 ${ROUND} 題：有時給句子選白話，有時給情境選句子。</p>
     ${draft()}
@@ -146,13 +158,14 @@ function lunmengPlay(onlyExam) {
   const items = D.lunmeng.items;
   const pool = onlyExam ? items.filter((x) => x.exam && x.exam.length) : items;
   const qs = pickN(pool, ROUND).map((it, k) => {
+    const portrait = it.src.includes("孟子") ? "char-mengzi" : "char-kongzi";
     const explain = `<dl class="kl-explain"><div><dt>原句</dt><dd>${esc(it.text)}<em>${esc(it.src)}</em></dd></div><div class="whole"><dt>白話</dt><dd>${esc(it.plain)}</dd></div></dl>${examStamps(it)}${lmLinks(it)}`;
     if (k % 2 === 0) {
-      return { prompt: "這句話的意思是？", sentence: it.text, src: it.src, options: shuffle([it.plain, ...it.plain_distractors]), answer: it.plain, explain, review: it.text };
+      return { prompt: "這句話的意思是？", sentence: it.text, src: it.src, options: shuffle([it.plain, ...it.plain_distractors]), answer: it.plain, explain, review: it.text, portrait };
     }
     // 情境選句子：錯誤選項取其他主題的句子，避免兩句都說得通
     const others = pickN(items.filter((x) => x.theme !== it.theme), 3).map((x) => x.text);
-    return { prompt: it.scene, options: shuffle([it.text, ...others]), answer: it.text, explain, review: it.text };
+    return { prompt: it.scene, options: shuffle([it.text, ...others]), answer: it.text, explain, review: it.text, portrait };
   });
   const title = onlyExam ? "論孟名句・大考題" : "論孟名句闖關";
   quiz({ title, back: "#/lunmeng", backLabel: "論孟名句", bestKey: onlyExam ? "lunmeng-exam" : "lunmeng", qs: shuffle(qs), again: () => lunmengPlay(onlyExam) });
@@ -179,6 +192,7 @@ function yingyongHome(tab) {
   const cur = g.find((x) => x.id === tab) || g[0];
   app.innerHTML = `
     ${navBar("#/", "番外篇", "應用文")}
+    ${pic("thumb-yingyong", "fw-banner")}
     <h1 class="kl-title">應用文番外關</h1>
     <p class="kl-tagline">不考格式背誦，全用生活情境來練。先翻翻下面的詞語表，再闖 ${ROUND} 題。</p>
     ${draft()}
@@ -237,7 +251,7 @@ function quiz({ title, back, backLabel, bestKey, qs, again }) {
     const after = document.getElementById("after");
     after.innerHTML = `
       <section class="kl-feedback ${ok ? "good" : "bad"}">
-        <div class="kl-verdict"><span class="kl-seal">${ok ? "中" : "再"}</span><div><b>${ok ? "答對了" : "再看一次解釋"}</b><small>${ok ? "記住它，下一題" : "正確答案已標成綠色"}</small></div></div>
+        <div class="kl-verdict">${q.portrait ? pic(q.portrait, "kl-portrait", q.portrait === "char-mengzi" ? "孟子" : "孔子") : ""}<span class="kl-seal">${ok ? "中" : "再"}</span><div><b>${ok ? "答對了" : "再看一次解釋"}</b><small>${ok ? "記住它，下一題" : "正確答案已標成綠色"}</small></div></div>
         ${q.explain}
       </section>
       <button class="primary kl-go kl-next" id="next">${i + 1 < qs.length ? "下一題" : "看這回成績"}</button>`;
