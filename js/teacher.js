@@ -10,6 +10,7 @@ import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popQueued, victory } from "./celebrate.js";
 import { pickQuestions, replay, computeScores, topWrong, scoreAnswer, progress, thresholds } from "./game.js";
 import { loadCards, linkedCardsHtml, cardsProjectHtml } from "./cards.js";
+import { loadSentences, pickSentences, loadTopics, topicsFor, sentenceStats } from "./stages.js";
 
 const app = $("app"), overlay = $("overlay"), corner = $("corner");
 const SAVE = "canglang-teacher";
@@ -191,7 +192,10 @@ async function createRoom() {
       if (!r.exists() || r.data().status === "closed") { roomId = c; break; }
     }
     if (!roomId) throw new Error("找不到可用的房間代碼，請再試一次");
+    // 三段式：熟句關的句子建房時就選好，全班同一組
+    const klSids = pickSentences(await loadSentences(ids), ids);
     await setDoc(doc(db, "cl_rooms", roomId), {
+      stage: "join", selfPace: false, klSids,
       status: "lobby", mode: T.mode, lessons: ids, lessonNames: ids.map(id => banks[id].lesson),
       lessonKey: ids.length === 1 ? ids[0] : "mix-" + ids.join("+"), keys,
       boss: { ...bossOf(banks[ids[0]], first?.hasImage), ...((await loadMissions())[ids[0]] || {}) },
@@ -217,7 +221,11 @@ function openRoom(roomId) {
       if (!room || room.status === "closed") { leaveRoom(); return; }
       T.room = room;
       const sig = room.lessons.join(",");
-      if (T.banksFor !== sig) { T.qmap = (await loadBanks(room.lessons)).qmap; T.banksFor = sig; }
+      if (T.banksFor !== sig) {
+        T.qmap = (await loadBanks(room.lessons)).qmap;
+        [T.sentences, T.topics] = await Promise.all([loadSentences(room.lessons), loadTopics().then(t => topicsFor(t, room.lessons))]);
+        T.banksFor = sig;
+      }
       recompute(); render(); armTimer();
     }),
     onSnapshot(collection(rRef, "players"), s => {
@@ -357,6 +365,7 @@ function startSegment() {
     if (!n) throw new Error("還沒有學生加入");
     const upd = { status: "answering", seg: r.seg + 1, segEndsAt: Date.now() + r.segMinutes * 60000, n };
     if (r.seg === 0) {
+      upd.stage = "boss";
       const b = replay(n, r.mode, [], T.qmap, 0);
       upd.battle = battleForRoom(b);
     }
@@ -409,6 +418,8 @@ async function settleAndClear(save) {
         ops.push(wb => wb.set(doc(db, "cl_scores", `${room.lessonKey}_${p.cls}_${p.seat}`), {
           lessonKey: room.lessonKey, lessonName, cls: p.cls, seat: p.seat, score: s.score, perQ: s.perQ,
           unanswered: s.unanswered, total: room.keys.length * CONFIG.pointsPerQuestion, date, roomId: T.roomId,
+          // 熟句關單獨記錄，不併入魔王戰分數
+          kl: { right: (room.klSids || []).filter(sid => p.kl?.[sid]).length, done: (room.klSids || []).filter(sid => sid in (p.kl || {})).length, total: (room.klSids || []).length },
         }));
       }
       // 各題累計答錯率：只看第一次作答
@@ -507,7 +518,7 @@ function wrongList(list, limit) {
 
 function renderGame() {
   const room = T.room, b = T.battle;
-  const st = { lobby: "等待加入", answering: `第 ${room.seg} 段作答中`, result: `第 ${room.seg} 段結算`, ended: "遊戲結束" }[room.status] || "";
+  const st = { lobby: { keyline: "熟句關", cards: "身世卡" }[room.stage] || "等待加入", answering: `第 ${room.seg} 段作答中`, result: `第 ${room.seg} 段結算`, ended: "遊戲結束" }[room.status] || "";
   const finished = T.players.filter(playerDone).length;
   const statsHtml = `
     <div class="stat">房間<b>${esc(T.roomId)}</b></div>
@@ -548,8 +559,40 @@ function seatChips(kickable) {
   }).join("")}</div>`;
 }
 
+// 三段式進度列：熟句關 → 身世卡 → 魔王戰
+function stageBar(stage) {
+  const order = ["keyline", "cards", "boss"], names = { keyline: "熟句關", cards: "身世卡", boss: "魔王戰" };
+  const at = order.indexOf(stage);
+  return `<div class="stagebar">${order.map((k, i) => `<span class="${i === at ? "cur" : i < at ? "done" : ""}">${i + 1}. ${names[k]}</span>`).join("")}</div>`;
+}
+
+function keylinePanel(room) {
+  const sids = (room.klSids || []).filter(sid => T.sentences?.[sid]);
+  const doneN = T.players.filter(p => sids.length && sids.every(sid => sid in (p.kl || {}))).length;
+  const rows = sentenceStats(T.players, sids);
+  return `
+    ${stageBar("keyline")}
+    <div class="row line"><span>熟句關進行中</span><span class="muted">已完成 <b>${doneN}</b> / ${T.players.length} 人・房間 ${esc(T.roomId)}</span></div>
+    <p class="small" style="margin:0">每句答對率（只算第一次作答），答對率低的排在前面，可以挑來講解。熟句關不計入魔王戰成績。</p>
+    <div class="klrates">${rows.map(r => { const s = T.sentences[r.sid]; return `
+      <div class="klrate"><b class="pct ${r.rate != null && r.rate < 0.6 ? "low" : ""}">${r.rate == null ? "—" : Math.round(r.rate * 100) + "%"}</b>
+        <div><div class="s">${esc(s.sentence)}</div><div class="m">${esc(s.meaning)}</div><div class="small">〈${esc(s.lesson)}〉・${r.right} / ${r.n} 人答對</div></div></div>`; }).join("")}</div>`;
+}
+
+function cardsPanel(room) {
+  const cards = (T.topics || []).flatMap(t => t.cards.map(c => ({ ...c, topic: t.title })));
+  const readN = T.players.filter(p => p.cardsRead).length;
+  return `
+    ${stageBar("cards")}
+    <div class="row line"><span>身世卡</span><span class="muted">已看完 <b>${readN}</b> / ${T.players.length} 人・房間 ${esc(T.roomId)}</span></div>
+    ${cards.length ? `<div class="cardproj">${cards.map((c, i) => `<div class="cardproj-card"><small>${esc(c.topic)}・身世卡 ${i + 1}</small><b>${esc(c.title)}</b><p>${esc(c.body)}</p></div>`).join("")}</div>`
+      : `<p class="muted line">這一課沒有身世卡，可以直接開始魔王戰。</p>`}`;
+}
+
 function panelHtml() {
   const room = T.room, b = T.battle;
+  if (room.status === "lobby" && room.stage === "keyline") return keylinePanel(room);
+  if (room.status === "lobby" && room.stage === "cards") return cardsPanel(room);
   if (room.status === "lobby") {
     return `
       <div class="lobby">
@@ -618,8 +661,13 @@ function renderCorner() {
   corner.classList.remove("hidden");
   const s = T.room.status, dis = T.busy ? "disabled" : "";
   const btn = (id, text, cls = "") => `<button id="${id}" class="${cls}" ${dis}>${text}</button>`;
+  const stage = T.room.stage || "join", hasKl = (T.room.klSids || []).length > 0, hasCards = (T.topics || []).length > 0;
   corner.innerHTML = [
-    s === "lobby" && btn("cStart", "開始作答", "primary"),
+    // 三段式：依序開放，老師也可以跳段
+    s === "lobby" && hasKl && stage === "join" && btn("cKl", "開始熟句關", "primary"),
+    s === "lobby" && hasCards && (stage === "join" || stage === "keyline") && btn("cCards", "開放身世卡", stage === "keyline" ? "primary" : ""),
+    s === "lobby" && btn("cStart", "開始魔王戰", stage === "cards" || (!hasKl && !hasCards) ? "primary" : ""),
+    s === "lobby" && hasKl && hasCards && stage !== "cards" && `<label class="small" style="display:flex; align-items:center; gap:6px"><input type="checkbox" id="cSelf" ${T.room.selfPace ? "checked" : ""} ${dis}>讓學生自行前進</label>`,
     s === "answering" && btn("cEndSeg", "提前結束本段"),
     s === "result" && !T.room.allDone && btn("cNext", "開始下一段", "primary"),
     (s === "result" || s === "answering") && btn("cEnd", "結束遊戲", T.room.allDone ? "primary" : ""),
@@ -628,6 +676,10 @@ function renderCorner() {
   ].filter(Boolean).join("");
   const on = (id, f) => { const el = $(id); if (el) el.onclick = f; };
   on("cStart", startSegment);
+  on("cKl", () => act(() => updateDoc(doc(db, "cl_rooms", T.roomId), { stage: "keyline" })));
+  on("cCards", () => act(() => updateDoc(doc(db, "cl_rooms", T.roomId), { stage: "cards" })));
+  const self = $("cSelf");
+  if (self) self.onchange = () => act(() => updateDoc(doc(db, "cl_rooms", T.roomId), { selfPace: self.checked }));
   on("cEndSeg", async () => (await ask("提前結束本段？")) && endSegment());
   on("cNext", startSegment);
   on("cEnd", async () => (await ask("結束遊戲，顯示總結果？")) && endGame());
