@@ -41,8 +41,8 @@ function home() {
       </a>
       <a class="fw-mode" href="#/lunmeng">
         <span class="kl-seal">論</span>
-        <div><h2>論孟名句闖關</h2><p>${D.lunmeng.items.length} 句《論語》《孟子》名句，看白話、配情境，再連回讀過的課文。</p>
-        <small>${best("lunmeng")}</small></div>
+        <div><h2>論孟名句闖關</h2><p>${D.lunmeng.items.length} 句《論語》《孟子》名句，其中 ${D.lunmeng.items.filter((x) => x.exam && x.exam.length).length} 句近十年大考考過。看白話、配情境，再連回讀過的課文。</p>
+        <small>${best("lunmeng")}${b["lunmeng-exam"] != null ? `・大考題 最佳 ${b["lunmeng-exam"]} / ${ROUND}` : ""}</small></div>
       </a>
       <a class="fw-mode" href="#/yingyong">
         <span class="kl-seal">應</span>
@@ -121,25 +121,32 @@ function guoxueMix() {
 
 // ---------- 論孟名句 ----------
 function lunmengHome() {
+  const examN = D.lunmeng.items.filter((x) => x.exam && x.exam.length).length;
   app.innerHTML = `
     ${navBar("#/", "番外篇", "論孟名句")}
     <h1 class="kl-title">論孟名句闖關</h1>
     <p class="kl-tagline">大考很少整題考論孟，卻年年把它放進選項和對讀材料。一回 ${ROUND} 題：有時給句子選白話，有時給情境選句子。</p>
     ${draft()}
-    <button class="primary kl-go" id="go">開始闖關（${ROUND} 題）</button>
-    <a class="kl-project" href="#/lunmeng/list">名句一覽（${D.lunmeng.items.length} 句）</a>`;
-  document.getElementById("go").onclick = lunmengPlay;
+    <button class="primary kl-go" id="go">全部名句（${D.lunmeng.items.length} 句隨機 ${ROUND} 題）</button>
+    <button class="kl-go fw-go2" id="goExam">只練近十年大考考過的（${examN} 句）</button>
+    <a class="kl-project" href="#/lunmeng/list">名句一覽</a>`;
+  document.getElementById("go").onclick = () => lunmengPlay(false);
+  document.getElementById("goExam").onclick = () => lunmengPlay(true);
 }
+
+const examStamps = (it) => (it.exam && it.exam.length
+  ? `<div class="kl-stamps"><b>大考考過</b>${it.exam.map((x) => `<span class="kl-stamp">${esc(x)}</span>`).join("")}</div>` : "");
 
 function lmLinks(it) {
   if (!it.links.length) return "";
   return `<div class="fw-links"><b>對讀課文</b>${it.links.map((l) => `<p><a href="../#/lesson/${esc(l.lesson)}">〈${esc(l.name)}〉</a>${esc(l.note)}</p>`).join("")}</div>`;
 }
 
-function lunmengPlay() {
+function lunmengPlay(onlyExam) {
   const items = D.lunmeng.items;
-  const qs = pickN(items, ROUND).map((it, k) => {
-    const explain = `<dl class="kl-explain"><div><dt>原句</dt><dd>${esc(it.text)}<em>${esc(it.src)}</em></dd></div><div class="whole"><dt>白話</dt><dd>${esc(it.plain)}</dd></div></dl>${lmLinks(it)}`;
+  const pool = onlyExam ? items.filter((x) => x.exam && x.exam.length) : items;
+  const qs = pickN(pool, ROUND).map((it, k) => {
+    const explain = `<dl class="kl-explain"><div><dt>原句</dt><dd>${esc(it.text)}<em>${esc(it.src)}</em></dd></div><div class="whole"><dt>白話</dt><dd>${esc(it.plain)}</dd></div></dl>${examStamps(it)}${lmLinks(it)}`;
     if (k % 2 === 0) {
       return { prompt: "這句話的意思是？", sentence: it.text, src: it.src, options: shuffle([it.plain, ...it.plain_distractors]), answer: it.plain, explain, review: it.text };
     }
@@ -147,17 +154,23 @@ function lunmengPlay() {
     const others = pickN(items.filter((x) => x.theme !== it.theme), 3).map((x) => x.text);
     return { prompt: it.scene, options: shuffle([it.text, ...others]), answer: it.text, explain, review: it.text };
   });
-  quiz({ title: "論孟名句闖關", back: "#/lunmeng", backLabel: "論孟名句", bestKey: "lunmeng", qs: shuffle(qs), again: lunmengPlay });
+  const title = onlyExam ? "論孟名句・大考題" : "論孟名句闖關";
+  quiz({ title, back: "#/lunmeng", backLabel: "論孟名句", bestKey: onlyExam ? "lunmeng-exam" : "lunmeng", qs: shuffle(qs), again: () => lunmengPlay(onlyExam) });
 }
 
-function lunmengList() {
+// 名句一覽：可依出處或「大考考過」篩選
+function lunmengList(filter = "all") {
+  const F = { all: ["全部", () => true], lun: ["論語", (x) => x.src.includes("論語")], meng: ["孟子", (x) => x.src.includes("孟子")], exam: ["大考考過", (x) => x.exam && x.exam.length] };
+  const list = D.lunmeng.items.filter(F[filter][1]);
   app.innerHTML = `
-    ${navBar("#/lunmeng", "論孟名句", `${D.lunmeng.items.length} 句`)}
+    ${navBar("#/lunmeng", "論孟名句", `${list.length} 句`)}
     <h1 class="kl-title">名句一覽</h1>
     ${draft()}
-    <ul class="fw-list">${D.lunmeng.items.map((it) => `
-      <li><b>${esc(it.text)}</b><small>${esc(it.src)}</small><p>${esc(it.plain)}</p>${lmLinks(it)}</li>`).join("")}
+    <div class="fw-tabs" role="tablist">${Object.entries(F).map(([k, [n, f]]) => `<button role="tab" data-f="${k}" aria-selected="${k === filter}">${n}（${D.lunmeng.items.filter(f).length}）</button>`).join("")}</div>
+    <ul class="fw-list">${list.map((it) => `
+      <li><b>${esc(it.text)}</b><small>${esc(it.src)}</small><p>${esc(it.plain)}</p>${examStamps(it)}${lmLinks(it)}</li>`).join("")}
     </ul>`;
+  app.querySelectorAll("[data-f]").forEach((b) => (b.onclick = () => lunmengList(b.dataset.f)));
 }
 
 // ---------- 應用文 ----------
