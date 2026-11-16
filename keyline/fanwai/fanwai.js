@@ -208,16 +208,17 @@ function yingyongHome(tab) {
     ${navBar("#/", "滄浪拾遺", "書房")}
     ${pic("thumb-yingyong", "fw-banner")}
     <h1 class="kl-title">書房｜用字見功夫</h1>
-    <p class="kl-tagline">不考格式背誦，全用生活情境來練。先翻翻下面的詞語表，再闖 ${ROUND} 題。</p>
+    <p class="kl-tagline">不考格式背誦，全用生活情境來練。先翻翻下面的詞語表，再闖 ${ROUND} 題。標「國中」的是國中學過、高中仍常用的內容；標「會考考點」的題目，是近十年國中教育會考考過的知識點，可以順便複習。</p>
     ${draft()}
     <button class="primary kl-go" id="go">開始闖關（${ROUND} 題）</button>
     <h2 class="kl-section">常見詞語</h2>
-    <div class="fw-tabs" role="tablist">${g.map((x) => `<button role="tab" data-t="${x.id}" aria-selected="${x === cur}">${esc(x.title)}</button>`).join("")}</div>
+    <div class="fw-tabs" role="tablist">${g.map((x) => `<button role="tab" data-t="${x.id}" aria-selected="${x === cur}">${esc(x.title)}${x.jh ? `<i class="fw-jh">國中</i>` : ""}${x.cap ? `<i class="fw-jh">會考</i>` : ""}</button>`).join("")}</div>
     <section class="fw-gloss" role="tabpanel">
       <p class="kl-tagline">${esc(cur.hint)}</p>
       <dl>${cur.rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
     </section>
-    ${D.yingyong.examBasis?.length ? `<div class="kl-stamps"><b>大考依據</b>${D.yingyong.examBasis.map((x) => `<span class="kl-stamp">${esc(x)}</span>`).join("")}</div>` : ""}`;
+    ${D.yingyong.examBasis?.length ? `<div class="kl-stamps"><b>學測依據</b>${D.yingyong.examBasis.map((x) => `<span class="kl-stamp">${esc(x)}</span>`).join("")}</div>` : ""}
+    ${D.yingyong.capBasis?.length ? `<div class="kl-stamps"><b>會考考過</b>${D.yingyong.capBasis.map((x) => `<span class="kl-stamp">${esc(x)}</span>`).join("")}</div>` : ""}`;
   app.querySelectorAll("[data-t]").forEach((b) => (b.onclick = () => yingyongHome(b.dataset.t)));
   document.getElementById("go").onclick = yingyongPlay;
 }
@@ -227,8 +228,8 @@ function yingyongPlay() {
   const qs = pickN(D.yingyong.questions, ROUND).map((q) => {
     const cat = g.find((x) => x.id === q.cat);
     return {
-      prompt: q.stem, options: shuffle(q.options), answer: q.options[q.answer[0]], tag: cat ? cat.title : "",
-      explain: `<p class="fw-exp">${esc(q.explanation)}</p>${cat ? `<div class="fw-linked"><b>${esc(cat.title)}速查</b><dl class="fw-mini">${cat.rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>` : ""}`,
+      prompt: q.stem, options: shuffle(q.options), answer: q.options[q.answer[0]], tag: (cat ? cat.title : "") + (q.cap ? "・會考考點" : q.jh ? "・國中複習" : ""),
+      explain: `<p class="fw-exp">${esc(q.explanation)}</p>${q.cap ? `<div class="kl-stamps"><b>會考考過</b>${q.cap.map((x) => `<span class="kl-stamp">${esc(x)}</span>`).join("")}</div>` : ""}${cat ? `<div class="fw-linked"><b>${esc(cat.title)}速查</b><dl class="fw-mini">${cat.rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>` : ""}`,
       review: q.stem,
     };
   });
