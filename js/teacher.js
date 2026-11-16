@@ -761,27 +761,42 @@ async function renderStats() {
   }).sort((a, b) => b.wrongRate - a.wrongRate);
   const tierAgg = { m: [0, 0], u: [0, 0], a: [0, 0] };
   st.forEach(s => { const q = qmap[s.key]; if (q) { tierAgg[q.tier][0] += s.wrong; tierAgg[q.tier][1] += s.attempts; } });
+  // 依規格書：可篩選論孟穿插題（crossRef）與身世卡連動題（linkedCards）
+  const FILTERS = { all: ["全部題目", () => true], lunmeng: ["只看論孟穿插題", q => q?.crossRef === "論孟"], cards: ["只看身世卡連動題", q => q?.linkedCards?.length] };
+  const filter = FILTERS[store.get("statFilter")] ? store.get("statFilter") : "all";
+  const keep = s => FILTERS[filter][1](qmap[s.key]);
+  const aggOf = test => { const a = [0, 0]; st.forEach(s => { if (test(qmap[s.key])) { a[0] += s.wrong; a[1] += s.attempts; } }); return a; };
+  const lmAgg = aggOf(FILTERS.lunmeng[1]), cardAgg = aggOf(FILTERS.cards[1]);
+  const pct = a => (a[1] ? Math.round(a[0] / a[1] * 100) : 0);
+  const shown = byLesson.map(L => ({ ...L, rows: L.items.filter(keep) })).filter(L => L.rows.length);
   app.innerHTML = `
     ${topbar("統計頁：找出最弱的課與考點")}
     <div class="card page">
       <div class="row"><label>班級 <select id="clsSel">${CONFIG.classes.map(c => `<option ${c === cls ? "selected" : ""}>${c}</option>`).join("")}</select></label>
+        <label>顯示 <select id="filterSel">${Object.entries(FILTERS).map(([k, [n]]) => `<option value="${k}" ${k === filter ? "selected" : ""}>${n}</option>`).join("")}</select></label>
         <span class="small">答錯率只算每人每題的第一次作答；課依答錯率由高到低排列。</span></div>
       ${!byLesson.length ? `<p class="muted">這個班還沒有統計資料。</p>` : `
       <div class="tierstats">${["m", "u", "a"].map(k => `<div><span>${TIERS[k].name}</span><b>${tierAgg[k][1] ? Math.round(tierAgg[k][0] / tierAgg[k][1] * 100) : 0}%</b><span class="small">答錯率（${tierAgg[k][1]} 人次）</span></div>`).join("")}</div>
-      ${byLesson.map(L => `
+      <div class="tierstats">
+        <div><span>論孟穿插題</span><b>${pct(lmAgg)}%</b><span class="small">答錯率（${lmAgg[1]} 人次）</span></div>
+        <div><span>身世卡連動題</span><b>${pct(cardAgg)}%</b><span class="small">答錯率（${cardAgg[1]} 人次）</span></div>
+      </div>
+      ${!shown.length ? `<p class="muted">這個班還沒有「${FILTERS[filter][0].replace("只看", "")}」的作答紀錄。</p>` : ""}
+      ${shown.map(L => `
         <details>
           <summary style="font-size:1.15rem"><b>〈${esc(L.lesson)}〉</b>　答錯率 <span class="${L.wrongRate >= 0.5 ? "bad" : ""}">${Math.round(L.wrongRate * 100)}%</span>　${L.avg != null ? `全班平均 ${L.avg.toFixed(1)} 分（${L.n} 人）` : `<span class="small">只出現在跨課複習</span>`}</summary>
           <div class="tablewrap" style="margin-top:8px"><table>
             <thead><tr><th>答錯率</th><th>題型</th><th>考點</th><th class="l">題目</th><th>人次</th></tr></thead>
-            <tbody>${L.items.map(s => { const q = qmap[s.key]; return `<tr>
+            <tbody>${L.rows.map(s => { const q = qmap[s.key]; return `<tr>
               <td><span class="rate ${s.rate >= 0.5 ? "bad" : ""}">${Math.round(s.rate * 100)}%</span></td>
               <td>${q ? `<span class="tag ${q.tier}">${TIERS[q.tier].name}</span>` : ""}</td>
-              <td>${esc(q?.topic || "")}</td>
+              <td>${esc(q?.topic || "")}${q?.crossRef ? `<br><span class="small">論孟穿插</span>` : ""}${q?.linkedCards?.length ? `<br><span class="small">身世卡連動</span>` : ""}</td>
               <td class="l">${q ? `<a href="#" data-q="${esc(s.key)}">${esc(q.stem)}</a>` : esc(s.key)}</td>
               <td>${s.wrong} / ${s.attempts}</td></tr>`; }).join("")}</tbody>
           </table></div>
         </details>`).join("")}`}
     </div>`;
   $("clsSel").onchange = e => { store.set("statCls", e.target.value); renderStats(); };
+  $("filterSel").onchange = e => { store.set("statFilter", e.target.value); renderStats(); };
   app.querySelectorAll("[data-q]").forEach(a => a.onclick = e => { e.preventDefault(); Object.assign(T.qmap, qmap); showQuestion(a.dataset.q); });
 }
