@@ -3,6 +3,8 @@ import { TIERS, CONFIG } from "./config.js";
 import { scoreAnswer, nextQuestion, shuffle, pickQuestions, qKey, progress } from "./game.js";
 import { SOLO, newSide, applySolo, cpuTier } from "./solo-game.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
+import { loadCards, linkedCardsHtml } from "./cards.js";
+let CARDS = {}; // 魔王戰連動身世卡
 import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popScore, victory } from "./celebrate.js";
 
@@ -95,6 +97,7 @@ function stopCpu() { clearTimeout(cpuTimer); cpuTimer = null; }
 async function start() {
   const ids = G.pick.slice();
   const { banks, qmap } = await loadBanks(ids);
+  CARDS = await loadCards();
   const keys = pickQuestions(banks, ids, "formal");
   const first = G.manifest.find(l => l.id === ids[0]);
   const b = banks[ids[0]].boss || {};
@@ -315,6 +318,7 @@ function renderResult(act) {
         return `<button class="opt ${cls}" disabled><span class="k">${"ABCDE"[i]}</span><span>${esc(q.options[oi])}${right.has(oi) ? "　✓" : (chosen.has(oi) ? "　✗" : "")}</span></button>`;
       }).join("")}</div>
       <div class="exp">${esc(q.explanation)}</div>
+      ${linkedCardsHtml(q, CARDS)}
     </div>
     <div class="sticky"><button class="primary wide" id="nextBtn">下一題</button></div>`;
   $("nextBtn").onclick = () => { S.result = null; renderAct(); $("duel").scrollIntoView({ block: "start" }); };
@@ -374,7 +378,7 @@ function finish() {
     ${wrong.length ? `<div class="big">答錯的題目（${wrong.length} 題）</div>
     <div class="review">${wrong.map(k => {
       const q = S.qmap[k];
-      return `<div class="card">${qBlock(q, q.tier, true)}<div><b>正解：</b>${q.answer.map(i => esc(q.options[i])).join("；")}</div><div class="exp">${esc(q.explanation)}</div></div>`;
+      return `<div class="card">${qBlock(q, q.tier, true)}<div><b>正解：</b>${q.answer.map(i => esc(q.options[i])).join("；")}</div><div class="exp">${esc(q.explanation)}</div>${linkedCardsHtml(q, CARDS)}</div>`;
     }).join("")}</div>` : (done ? `<div class="card center">第一次作答全對，太厲害了！</div>` : "")}`;
   $("againBtn").onclick = start;
   $("setupBtn").onclick = renderSetup;

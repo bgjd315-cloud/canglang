@@ -6,6 +6,7 @@ import {
 import { auth, db, $, esc, loadBanks, passageHtml, lessonLabel, rulesHtml } from "./common.js";
 import { CONFIG, TIERS } from "./config.js";
 import { missionHtml, defeatedHtml } from "./mission.js";
+import { loadCards, linkedCardsHtml } from "./cards.js";
 import { scoreAnswer, nextQuestion, progress, shuffle, computeScores } from "./game.js";
 import { popScore, victory } from "./celebrate.js";
 
@@ -134,6 +135,7 @@ async function onRoom(room) {
   const sig = (room.lessons || []).join(",");
   if (S.banksFor !== sig) {
     const { qmap } = await loadBanks(room.lessons);
+    S.cards = await loadCards();
     S.qmap = qmap; S.banksFor = sig;
     S.order = shuffle(room.keys, seeded(S.uid + S.roomId));
   }
@@ -304,6 +306,7 @@ function renderResult(head) {
         return `<button class="opt ${cls}" disabled><span class="k">${"ABCDE"[i]}</span><span>${esc(q.options[oi])}${right.has(oi) ? "　✓" : (chosen.has(oi) ? "　✗" : "")}</span></button>`;
       }).join("")}</div>
       <div class="exp">${esc(q.explanation)}</div>
+      ${linkedCardsHtml(q, S.cards)}
     </div>
     <div class="sticky"><button class="primary wide" id="nextBtn">下一題</button></div>`;
   $("nextBtn").onclick = () => { S.result = null; render(); scrollTo(0, 0); };
