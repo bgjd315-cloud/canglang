@@ -20,7 +20,7 @@ const draft = () => Object.values(D).some((d) => d && d.status === "待審")
   ? `<p class="fw-draft">試行版：內容還在等老師審定，若發現錯誤請告訴老師。</p>` : "";
 // 插圖：img/ 底下的 webp；還沒有圖的主題就不顯示，版面不會開天窗
 const HAS_IMG = new Set(["hero-fanwai", "thumb-guoxue", "thumb-lunmeng", "thumb-yingyong", "char-kongzi", "char-mengzi",
-  "gx-biao", "gx-yunwen", "gx-pianwen", "gx-jintishi", "gx-chuanqi", "gx-zhiguai", "gx-shiji", "gx-zuozhuan", "gx-wenfu", "gx-lunshuo", "gx-liji", "gx-taiwan"]);
+  "gx-biao", "gx-yunwen", "gx-pianwen", "gx-jintishi", "gx-chuanqi", "gx-zhiguai", "gx-shiji", "gx-zuozhuan", "gx-wenfu", "gx-lunshuo", "gx-jiwen", "gx-liji", "gx-taiwan"]);
 const pic = (name, cls, alt = "") => (HAS_IMG.has(name) ? `<img class="${cls}" src="img/${name}.webp" alt="${esc(alt)}" loading="lazy" onerror="this.remove()">` : "");
 const navBar = (back, label, right = "") => `<nav class="kl-top"><a href="${back}">‹ ${esc(label)}</a><span>${esc(right)}</span></nav>`;
 
