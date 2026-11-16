@@ -149,14 +149,14 @@ function home() {
   renderBoard();
 }
 
-// 番外篇入口（國學常識、論孟名句、應用文）；技專版有自己的設定，不顯示
+// 滄浪拾遺入口（藏書樓、杏壇、書房）；技專版有自己的設定，不顯示
 function fanwaiCard() {
   return `
-    <a class="kl-card" href="fanwai/" aria-label="練功坊番外篇：國學常識、論孟名句、應用文">
+    <a class="kl-card" href="fanwai/" aria-label="滄浪拾遺：國學、論孟、應用文闖關">
       <div class="kl-card-body">
-        <div class="kl-card-head"><h3>番外篇</h3><span>國學常識・論孟・應用文</span></div>
-        <p class="kl-tagline">翻身世卡認識文體作者，練大考常引的論孟名句，再用生活情境搞懂書信、稱謂與題辭。</p>
-        <div class="kl-card-foot"><span>不用另外背，跟著課文順手帶走</span><span class="kl-exam">進入番外篇 ›</span></div>
+        <div class="kl-card-head"><h3>滄浪拾遺</h3><span>國學 × 論孟 × 應用文</span></div>
+        <p class="kl-tagline">課文裡埋的線索，都是下一關的提示。提起燈，走進藏書樓、杏壇與書房。</p>
+        <div class="kl-card-foot"><span>滄浪闖關・延伸探索</span><span class="kl-exam">開始闖關 ›</span></div>
       </div>
     </a>`;
 }

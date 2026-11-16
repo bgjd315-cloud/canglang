@@ -3,6 +3,10 @@
 .fw-head .kl-eyebrow{color:var(--seal); font-weight:700}
 .fw-head h1{font-size:clamp(2rem, 9vw, 2.8rem); font-weight:900; letter-spacing:.08em}
 .fw-head p{margin:0; line-height:1.7}
+.fw-sub{font-family:var(--display); font-weight:700; color:var(--muted); letter-spacing:.12em; margin-top:-4px !important}
+.fw-lead{font-family:var(--display); font-weight:700; font-size:1.2rem; color:var(--ink); margin-top:6px !important; text-wrap:balance}
+.fw-asks{margin:2px 0; padding-left:1.1em; display:grid; gap:2px; line-height:1.7; color:var(--muted)}
+.fw-choose{font-size:1.25rem; margin:4px 0 -2px; padding-left:.6em; border-left:4px solid var(--seal)}
 
 .fw-draft{margin:0; padding:10px 14px; border:1.5px dashed var(--seal); border-radius:12px; color:var(--seal); font-weight:500; line-height:1.6; background:color-mix(in srgb, var(--seal) 6%, var(--surface))}
 
@@ -17,7 +21,9 @@
 .fw-mode:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.14)}
 .fw-mode:focus-visible,.fw-topics a:focus-visible{outline:3px solid var(--river); outline-offset:2px}
 .fw-mode .kl-seal{width:54px; height:54px; font-size:1.8rem; margin-top:2px}
-.fw-mode h2{font-size:1.35rem; letter-spacing:.04em}
+.fw-mode h2{font-size:1.35rem; letter-spacing:.04em; display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 10px}
+.fw-mode h2 span{font-size:.9rem; font-weight:700; color:var(--seal); letter-spacing:.08em}
+.fw-btn{grid-column:1 / -1; justify-self:stretch; display:grid; place-items:center; min-height:48px; border-radius:12px; background:var(--seal); color:#fff; font-family:var(--display); font-weight:700; letter-spacing:.08em}
 .fw-mode p{margin:4px 0 6px; line-height:1.6; color:var(--muted)}
 .fw-mode small{color:var(--seal); font-weight:500}
 .fw-return{text-align:center; margin:4px 0 0}

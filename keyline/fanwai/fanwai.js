@@ -1,4 +1,4 @@
-// 練功坊番外篇：國學常識（身世卡＋小關）、論孟名句、應用文情境題。
+// 滄浪拾遺（滄浪闖關・延伸探索）：藏書樓（國學身世卡＋小關）、杏壇（論孟名句）、書房（應用文情境題）。
 // 不用登入、不接資料庫；進度只存在這台裝置的瀏覽器裡。
 const app = document.getElementById("app");
 const ROUND = 10;
@@ -33,29 +33,43 @@ function home() {
   app.innerHTML = `
     <header class="fw-head">
       ${pic("hero-fanwai", "fw-hero", "提燈的學生站在三岔路口，通往藏書樓、杏壇與書房")}
-      <p class="kl-eyebrow">滄浪闖關・番外篇</p>
-      <h1>練功坊番外篇</h1>
-      <p>國學常識、論孟名句、應用文。<br>不另開單元死背，跟著課文順手帶走。</p>
+      <p class="kl-eyebrow">滄浪闖關・延伸探索</p>
+      <h1>滄浪拾遺</h1>
+      <p class="fw-sub">國學 × 論孟 × 應用文闖關</p>
+      <p class="fw-lead">課文裡埋的線索，<br>都是下一關的提示。</p>
+      <ul class="fw-asks">
+        <li>認得名句，換個情境還選得出來嗎？</li>
+        <li>讀過〈出師表〉，知道「表」為什麼這樣寫嗎？</li>
+        <li>寫信給老師、向親友道賀，怎麼用字才得體？</li>
+      </ul>
+      <p>提起燈，走進藏書樓、杏壇與書房。<br>從一張知識卡、一道情境題開始，把零散的印象，慢慢串成讀得懂、判斷得出的國文實力。</p>
     </header>
     ${draft()}
+    <h2 class="fw-choose">選一條路，開始闖關。</h2>
     <section class="fw-modes">
       <a class="fw-mode" href="#/guoxue">
         ${pic("thumb-guoxue", "fw-mode-img")}
-        <span class="kl-seal">常</span>
-        <div><h2>國學常識闖關</h2><p>先翻身世卡，看懂文體、作者與時代為什麼重要，再闖三題小關。</p>
+        <span class="kl-seal">樓</span>
+        <div><h2>藏書樓<span>國學尋線索</span></h2>
+        <p>〈鴻門宴〉藏在哪一部史書裡？唐傳奇與志怪小說有什麼不同？<br>翻開文體身世卡，串起課文、作者與時代，再用三題小關，試試自己懂了多少。</p>
         <small>${read} / ${gx.length} 個主題看過・綜合闖關${b["gx-mix"] != null ? ` 最佳 ${b["gx-mix"]} / ${ROUND}` : " 還沒挑戰"}</small></div>
+        <span class="fw-btn">進入藏書樓 ›</span>
       </a>
       <a class="fw-mode" href="#/lunmeng">
         ${pic("thumb-lunmeng", "fw-mode-img")}
-        <span class="kl-seal">論</span>
-        <div><h2>論孟名句闖關</h2><p>${D.lunmeng.items.length} 句《論語》《孟子》名句，其中 ${D.lunmeng.items.filter((x) => x.exam && x.exam.length).length} 句近十年大考考過。看白話、配情境，再連回讀過的課文。</p>
-        <small>${best("lunmeng")}${b["lunmeng-exam"] != null ? `・大考題 最佳 ${b["lunmeng-exam"]} / ${ROUND}` : ""}</small></div>
+        <span class="kl-seal">壇</span>
+        <div><h2>杏壇<span>論孟解心法</span></h2>
+        <p>名句眼熟，意思真的懂了嗎？<br>從白話解讀到情境判斷，練習看出一句話的核心意思，讓孔孟的話與讀過的課文、經歷的生活相遇。</p>
+        <small>${D.lunmeng.items.length} 句名句・${best("lunmeng")}${b["lunmeng-exam"] != null ? `・大考題 最佳 ${b["lunmeng-exam"]} / ${ROUND}` : ""}</small></div>
+        <span class="fw-btn">挑戰論孟名句 ›</span>
       </a>
       <a class="fw-mode" href="#/yingyong">
         ${pic("thumb-yingyong", "fw-mode-img")}
-        <span class="kl-seal">應</span>
-        <div><h2>應用文番外關</h2><p>寫信給老師、稱呼朋友的父親、同學的哥哥結婚送什麼題辭，全用情境來練。</p>
+        <span class="kl-seal">書</span>
+        <div><h2>書房<span>用字見功夫</span></h2>
+        <p>給老師的信，該怎麼稱呼？朋友的父親，該怎麼敬稱？<br>把書信用語、稱謂與祝賀題辭放進生活情境，練出用字得體的判斷力。</p>
         <small>${best("yingyong")}</small></div>
+        <span class="fw-btn">挑戰生活應用 ›</span>
       </a>
     </section>
     <p class="fw-return"><a href="../">回到關鍵句練功坊</a></p>`;
@@ -65,9 +79,9 @@ function home() {
 function guoxueList() {
   const gx = D.guoxue.topics;
   app.innerHTML = `
-    ${navBar("#/", "番外篇", "國學常識")}
+    ${navBar("#/", "滄浪拾遺", "藏書樓")}
     ${pic("thumb-guoxue", "fw-banner")}
-    <h1 class="kl-title">國學常識闖關</h1>
+    <h1 class="kl-title">藏書樓｜國學尋線索</h1>
     <p class="kl-tagline">每個主題先看身世卡，按「我看懂了」再闖三題。全部看過，就去挑戰綜合闖關。</p>
     ${draft()}
     <a class="primary kl-go fw-go" href="#/guoxue-mix">綜合闖關（隨機 ${ROUND} 題）</a>
@@ -87,7 +101,7 @@ function guoxueTopic(id) {
   if (!t) return guoxueList();
   const flipped = new Set();
   app.innerHTML = `
-    ${navBar("#/guoxue", "國學常識", `${t.cards.length} 張身世卡`)}
+    ${navBar("#/guoxue", "藏書樓", `${t.cards.length} 張身世卡`)}
     ${pic("gx-" + t.id, "fw-banner")}
     <h1 class="kl-title">${esc(t.title)}</h1>
     ${t.examRef ? `<div class="kl-stamps"><b>大考依據</b><span class="kl-stamp">${esc(t.examRef)}</span></div>` : ""}
@@ -109,7 +123,7 @@ function guoxueTopic(id) {
   ok.onclick = () => {
     mem.read[t.id] = true; saveMem();
     quiz({
-      title: t.title, back: "#/guoxue", backLabel: "國學常識", bestKey: "gx-" + t.id,
+      title: t.title, back: "#/guoxue", backLabel: "藏書樓", bestKey: "gx-" + t.id,
       qs: shuffle(t.questions).map((q) => gxQuestion(q, t)),
       again: () => guoxueTopic(id),
     });
@@ -127,16 +141,16 @@ function gxQuestion(q, t) {
 
 function guoxueMix() {
   const all = D.guoxue.topics.flatMap((t) => t.questions.map((q) => gxQuestion(q, t)));
-  quiz({ title: "國學常識綜合闖關", back: "#/guoxue", backLabel: "國學常識", bestKey: "gx-mix", qs: pickN(all, ROUND), again: guoxueMix });
+  quiz({ title: "藏書樓綜合闖關", back: "#/guoxue", backLabel: "藏書樓", bestKey: "gx-mix", qs: pickN(all, ROUND), again: guoxueMix });
 }
 
 // ---------- 論孟名句 ----------
 function lunmengHome() {
   const examN = D.lunmeng.items.filter((x) => x.exam && x.exam.length).length;
   app.innerHTML = `
-    ${navBar("#/", "番外篇", "論孟名句")}
+    ${navBar("#/", "滄浪拾遺", "杏壇")}
     ${pic("thumb-lunmeng", "fw-banner")}
-    <h1 class="kl-title">論孟名句闖關</h1>
+    <h1 class="kl-title">杏壇｜論孟解心法</h1>
     <p class="kl-tagline">大考很少整題考論孟，卻年年把它放進選項和對讀材料。一回 ${ROUND} 題：有時給句子選白話，有時給情境選句子。</p>
     ${draft()}
     <button class="primary kl-go" id="go">全部名句（${D.lunmeng.items.length} 句隨機 ${ROUND} 題）</button>
@@ -167,8 +181,8 @@ function lunmengPlay(onlyExam) {
     const others = pickN(items.filter((x) => x.theme !== it.theme), 3).map((x) => x.text);
     return { prompt: it.scene, options: shuffle([it.text, ...others]), answer: it.text, explain, review: it.text, portrait };
   });
-  const title = onlyExam ? "論孟名句・大考題" : "論孟名句闖關";
-  quiz({ title, back: "#/lunmeng", backLabel: "論孟名句", bestKey: onlyExam ? "lunmeng-exam" : "lunmeng", qs: shuffle(qs), again: () => lunmengPlay(onlyExam) });
+  const title = onlyExam ? "杏壇・大考題" : "杏壇・論孟名句";
+  quiz({ title, back: "#/lunmeng", backLabel: "杏壇", bestKey: onlyExam ? "lunmeng-exam" : "lunmeng", qs: shuffle(qs), again: () => lunmengPlay(onlyExam) });
 }
 
 // 名句一覽：可依出處或「大考考過」篩選
@@ -176,7 +190,7 @@ function lunmengList(filter = "all") {
   const F = { all: ["全部", () => true], lun: ["論語", (x) => x.src.includes("論語")], meng: ["孟子", (x) => x.src.includes("孟子")], exam: ["大考考過", (x) => x.exam && x.exam.length] };
   const list = D.lunmeng.items.filter(F[filter][1]);
   app.innerHTML = `
-    ${navBar("#/lunmeng", "論孟名句", `${list.length} 句`)}
+    ${navBar("#/lunmeng", "杏壇", `${list.length} 句`)}
     <h1 class="kl-title">名句一覽</h1>
     ${draft()}
     <div class="fw-tabs" role="tablist">${Object.entries(F).map(([k, [n, f]]) => `<button role="tab" data-f="${k}" aria-selected="${k === filter}">${n}（${D.lunmeng.items.filter(f).length}）</button>`).join("")}</div>
@@ -191,9 +205,9 @@ function yingyongHome(tab) {
   const g = D.yingyong.glossary;
   const cur = g.find((x) => x.id === tab) || g[0];
   app.innerHTML = `
-    ${navBar("#/", "番外篇", "應用文")}
+    ${navBar("#/", "滄浪拾遺", "書房")}
     ${pic("thumb-yingyong", "fw-banner")}
-    <h1 class="kl-title">應用文番外關</h1>
+    <h1 class="kl-title">書房｜用字見功夫</h1>
     <p class="kl-tagline">不考格式背誦，全用生活情境來練。先翻翻下面的詞語表，再闖 ${ROUND} 題。</p>
     ${draft()}
     <button class="primary kl-go" id="go">開始闖關（${ROUND} 題）</button>
@@ -218,7 +232,7 @@ function yingyongPlay() {
       review: q.stem,
     };
   });
-  quiz({ title: "應用文番外關", back: "#/yingyong", backLabel: "應用文", bestKey: "yingyong", qs, again: yingyongPlay });
+  quiz({ title: "書房・生活應用", back: "#/yingyong", backLabel: "書房", bestKey: "yingyong", qs, again: yingyongPlay });
 }
 
 // ---------- 共用作答流程：答錯立刻看解釋，再進下一題 ----------
