@@ -448,5 +448,10 @@ async function route() {
   }
 }
 window.addEventListener("hashchange", route);
+// 成績頁把網址換成課程頁後，連到同一個網址不會觸發 hashchange，這裡補上重新導向
+document.addEventListener("click", (e) => {
+  const a = e.target.closest('a[href^="#"]');
+  if (a && a.getAttribute("href") === location.hash) { e.preventDefault(); route(); }
+});
 fetch("data/lessons.json").then((r) => r.json()).then((d) => { lessons = d.lessons; examStats = d.exam_share; route(); })
   .catch(() => { app.innerHTML = `<p class="kl-error">資料讀取失敗，請確認網路後重新整理。</p>`; });
