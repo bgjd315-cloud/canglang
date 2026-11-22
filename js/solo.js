@@ -3,7 +3,8 @@ import { TIERS, CONFIG } from "./config.js";
 import { scoreAnswer, nextQuestion, shuffle, pickQuestions, qKey, progress } from "./game.js";
 import { SOLO, newSide, applySolo, cpuTier } from "./solo-game.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
-import { loadCards, linkedCardsHtml } from "./cards.js";
+import { loadCards } from "./cards.js";
+import { qBlock, feedbackHtml, collectReview, reviewHtml } from "./review.js";
 let CARDS = {}; // 魔王戰連動身世卡
 import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popScore, victory } from "./celebrate.js";
@@ -26,7 +27,8 @@ mountMusicToggle();
 init();
 async function init() {
   const r = await fetch(`banks/index.json?v=${Date.now()}`);
-  G.manifest = (await r.json()).lessons.filter(l => l.count && !l.warn.length);
+  // 「線索：」開頭的提醒只是題庫還缺線索（有備援文字），不影響出題
+  G.manifest = (await r.json()).lessons.filter(l => l.count && !(l.warn || []).some(w => !w.startsWith("線索：")));
   G.pick = G.pick.filter(id => G.manifest.some(l => l.id === id));
   renderSetup();
 }
@@ -83,7 +85,7 @@ function rulesSolo() {
       <ul>
         <li><b>必殺</b>：能量集滿 ${SOLO.ultimateAt} 格自動發動，自己的魔王扣 ${SOLO.ultimateDamage} 滴血，同時干擾對手，讓對手的魔王回 ${SOLO.jamHeal} 滴血；對手有護盾就會擋下。</li>
         <li><b>計分</b>：每題 5 分，滿分 100，只算第一次作答。多選照學測：全對 5 分、錯 1 個 3 分、錯 2 個 1 分。</li>
-        <li><b>重答</b>：答錯的題目之後可以再答一次，答對一樣打魔王，但不加分。</li>
+        <li><b>重答</b>：答錯的題目之後可以再答一次，答對時效果減半，不加分。</li>
         <li>分出勝負後可以繼續把題目答完，拿到完整成績。</li>
       </ul>
     </div>`;
@@ -141,7 +143,7 @@ function sideHtml(side, who, isCpu) {
         <img class="bossimg" alt="" src="${esc(S.boss.image)}" style="opacity:${r.toFixed(2)};--s:${s}">
       </div></div><div class="flash"></div></div>
       <div class="track"><div class="fill mud" style="width:${r * 100}%"></div></div>
-      <div class="icons"><span>護盾 ${"◆".repeat(side.shield) || "－"}</span><span>能量 ${side.energy}/${SOLO.ultimateAt}</span></div>
+      <div class="icons"><span>護盾 ${"◆".repeat(Math.floor(side.shield)) || "－"}</span><span>能量 ${side.energy}/${SOLO.ultimateAt}</span></div>
       ${isCpu ? `<div class="think" id="cpuThink">${S.winner ? "" : "思考中……"}</div>` : `<div class="think">已答 ${progress(S.keys, S.mine).done}/${S.keys.length} 題</div>`}
     </div>`;
 }
@@ -206,9 +208,9 @@ function cpuMove() {
   const ok = Math.random() < S.level.accuracy;
   if (first && !ok) S.cpuRetry++;
   const tier = cpuTier(S.cpu);
-  const ev = applySolo(S.cpu, S.me, tier, ok);
+  const ev = applySolo(S.cpu, S.me, tier, ok, first);
   if (ok) {
-    S.feed = { text: `電腦用「${TIERS[tier].name}」答對了，它的魔王扣 ${SOLO.effects[tier].damage} 滴血`, cls: "" };
+    S.feed = { text: `電腦用「${TIERS[tier].name}」${first ? "" : "重答"}答對了，它的魔王扣 ${ev[0].damage} 滴血`, cls: "" };
     shake("scene-cpu");
   } else S.feed = { text: "電腦答錯了一題", cls: "" };
   report(ev, false);
@@ -255,13 +257,6 @@ function pick(tier) {
   $("act").scrollIntoView({ block: "start" });
 }
 
-function qBlock(q, tier, first) {
-  return `
-    <div class="qhead"><span class="tag ${tier}">${TIERS[tier].name}</span>${q.type === "multi" ? `<span class="tag multi">多選</span>` : ""}${first ? "" : `<span class="tag" style="background:var(--muted)">重答</span>`}${q.exam ? `<span class="src">${esc(q.exam)}</span>` : ""}</div>
-    ${q.passage ? `<div class="quote">${esc(q.passage)}</div>` : ""}
-    <div class="stem">${esc(q.stem)}</div>`;
-}
-
 function renderQuestion(act) {
   const q = S.qmap[S.cur.key];
   const multi = q.type === "multi";
@@ -288,10 +283,11 @@ function submit(sel) {
   const r = scoreAnswer(q, sel);
   S.mine.push({ key, sel, first });
   if (!S.winner) {
-    const ev = applySolo(S.me, S.cpu, tier, r.correct);
+    const ev = applySolo(S.me, S.cpu, tier, r.correct, first);
     if (r.correct) {
-      S.feed = { text: `答對！你的魔王扣 ${SOLO.effects[tier].damage} 滴血`, cls: "good" }; shake("scene-me");
-      popScore(first ? `+${r.points} 分` : "重答答對", { sub: `魔王 −${SOLO.effects[tier].damage} 滴血`, tone: tier === "a" ? "gold" : "good", at: $("scene-me"), big: true });
+      const dmg = ev[0].damage;
+      S.feed = { text: `${first ? "答對" : "重答答對（效果減半）"}！你的魔王扣 ${dmg} 滴血`, cls: "good" }; shake("scene-me");
+      popScore(first ? `+${r.points} 分` : "重答答對", { sub: `魔王 −${dmg} 滴血`, tone: tier === "a" ? "gold" : "good", at: $("scene-me"), big: true });
     } else if (first && r.points > 0) popScore(`+${r.points} 分`, { sub: "多選部分答對", tone: "part", at: $("scene-me") });
     else S.feed = { text: "答錯了，這題之後可以再答一次", cls: "bad" };
     report(ev, true);
@@ -305,21 +301,11 @@ function submit(sel) {
 }
 
 function renderResult(act) {
-  const { key, sel, r, perm, first, tier } = S.result;
-  const q = S.qmap[key];
-  const right = new Set(q.answer), chosen = new Set(sel);
-  const verdict = r.correct ? `<div class="verdict ok">答對了！</div>` : (q.type === "multi" && r.points > 0 ? `<div class="verdict part">差一點</div>` : `<div class="verdict no">再想一想</div>`);
+  const res = S.result;
+  const q = S.qmap[res.key];
+  const firstSel = res.first ? null : S.mine.find(a => a.first && a.key === res.key)?.sel;
   act.innerHTML = `
-    <div class="card" style="display:grid; gap:14px">
-      <div class="bar">${verdict}<span>${first ? `本題得分：<b>${r.points}</b> 分` : "重答不改變成績"}</span></div>
-      ${qBlock(q, tier, first)}
-      <div class="opts">${perm.map((oi, i) => {
-        const cls = right.has(oi) ? "right" : (chosen.has(oi) ? "wrong" : "");
-        return `<button class="opt ${cls}" disabled><span class="k">${"ABCDE"[i]}</span><span>${esc(q.options[oi])}${right.has(oi) ? "　✓" : (chosen.has(oi) ? "　✗" : "")}</span></button>`;
-      }).join("")}</div>
-      <div class="exp">${esc(q.explanation)}</div>
-      ${linkedCardsHtml(q, CARDS)}
-    </div>
+    <div class="card" style="display:grid; gap:14px">${feedbackHtml(q, res, { cards: CARDS, firstSel })}</div>
     <div class="sticky"><button class="primary wide" id="nextBtn">下一題</button></div>`;
   $("nextBtn").onclick = () => { S.result = null; renderAct(); $("duel").scrollIntoView({ block: "start" }); };
 }
@@ -348,7 +334,7 @@ function finish() {
     if (firstQ) S.cpuLeft--; else S.cpuRetry--;
     const ok = Math.random() < S.level.accuracy;
     if (firstQ && !ok) S.cpuRetry++;
-    applySolo(S.cpu, S.me, cpuTier(S.cpu), ok);
+    applySolo(S.cpu, S.me, cpuTier(S.cpu), ok, firstQ);
     if (S.cpu.hp <= 0) S.winner = "cpu";
   }
   const win = S.winner ? S.winner === "me" : S.me.hp < S.cpu.hp;
@@ -375,11 +361,7 @@ function finish() {
         <button id="setupBtn">換課或換難度</button>
       </div>
     </div>
-    ${wrong.length ? `<div class="big">答錯的題目（${wrong.length} 題）</div>
-    <div class="review">${wrong.map(k => {
-      const q = S.qmap[k];
-      return `<div class="card">${qBlock(q, q.tier, true)}<div><b>正解：</b>${q.answer.map(i => esc(q.options[i])).join("；")}</div><div class="exp">${esc(q.explanation)}</div>${linkedCardsHtml(q, CARDS)}</div>`;
-    }).join("")}</div>` : (done ? `<div class="card center">第一次作答全對，太厲害了！</div>` : "")}`;
+    ${reviewHtml(collectReview(S.keys, S.mine, S.qmap, scoreAnswer), { cards: CARDS, scoreAnswer })}`;
   $("againBtn").onclick = start;
   $("setupBtn").onclick = renderSetup;
   scrollTo(0, 0);

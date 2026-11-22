@@ -32,6 +32,10 @@ export const CONFIG = {
   ultimateEnergyRatio: 1 / 2,
   ultimatePerPlayer: 2,
 
+  // 重答答對時的戰鬥效果倍率（0＝不打魔王，1＝與初答相同）
+  // 重答答對：傷害與護盾乘上這個倍率，不累積能量（不觸發合力一擊）
+  retryEffectRatio: 0.5,
+
   // 魔王反擊：每 counterEvery 段結算時反擊一次
   counterEvery: 2,
   counterDamage: 30,

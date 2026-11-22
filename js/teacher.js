@@ -8,7 +8,7 @@ import { CONFIG, TIERS, ULTIMATE_NAME } from "./config.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
 import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popQueued, victory } from "./celebrate.js";
-import { pickQuestions, replay, computeScores, topWrong, scoreAnswer, progress, thresholds } from "./game.js";
+import { pickQuestions, replay, computeScores, topWrong, topWrongPick, mostPicked, pickKey, scoreAnswer, progress, finishedAll, thresholds } from "./game.js";
 import { loadCards, linkedCardsHtml, cardsProjectHtml } from "./cards.js";
 import { loadSentences, pickSentences, loadTopics, topicsFor, sentenceStats } from "./stages.js";
 
@@ -345,7 +345,8 @@ function armTimer() {
   T.timer = setInterval(tick, 500);
 }
 
-function playerDone(p) { return progress(T.room.keys, T.answers.filter(a => a.uid === p.uid)).done >= T.room.keys.length; }
+// 全班都沒有題目可答（含重答）才自動結束這一段，避免還在重答的學生被切斷
+function playerDone(p) { return finishedAll(T.room.keys, T.qmap, T.answers.filter(a => a.uid === p.uid)); }
 function checkAllDone() {
   if (T.room?.status === "answering" && T.players.length && T.players.every(playerDone)) endSegment(true);
 }
@@ -422,21 +423,32 @@ async function settleAndClear(save) {
           kl: { right: (room.klSids || []).filter(sid => p.kl?.[sid]).length, done: (room.klSids || []).filter(sid => sid in (p.kl || {})).length, total: (room.klSids || []).length },
         }));
       }
-      // 各題累計答錯率：只看第一次作答
+      // 各題累計答錯率：只看第一次作答。picks＝初答錯選的選項（多選記組合），retryN／retryRight＝重答人次／答對人次
       const agg = {};
-      const seen = new Set();
+      const seen = new Set(), seenRetry = new Set();
       for (const a of T.answers) {
         const q = T.qmap[a.key];
-        if (!a.first || !q || seen.has(a.uid + a.key)) continue;
-        seen.add(a.uid + a.key);
+        if (!q) continue;
         const id = `${a.cls}_${a.key.replace(":", "_")}`;
-        agg[id] ??= { cls: a.cls, key: a.key, bankId: q.bankId, lesson: q.lesson, attempts: 0, wrong: 0 };
+        agg[id] ??= { cls: a.cls, key: a.key, bankId: q.bankId, lesson: q.lesson, attempts: 0, wrong: 0, picks: {}, retryN: 0, retryRight: 0 };
+        const correct = scoreAnswer(q, a.sel).correct;
+        if (a.first === false) {
+          if (seenRetry.has(a.uid + a.key)) continue;
+          seenRetry.add(a.uid + a.key);
+          agg[id].retryN++;
+          if (correct) agg[id].retryRight++;
+          continue;
+        }
+        if (seen.has(a.uid + a.key)) continue;
+        seen.add(a.uid + a.key);
         agg[id].attempts++;
-        if (!scoreAnswer(q, a.sel).correct) agg[id].wrong++;
+        if (!correct) { agg[id].wrong++; const k = pickKey(a.sel); agg[id].picks[k] = (agg[id].picks[k] || 0) + 1; }
       }
       for (const [id, v] of Object.entries(agg)) {
+        const picks = Object.fromEntries(Object.entries(v.picks).map(([k, n]) => [k, increment(n)]));
         ops.push(wb => wb.set(doc(db, "cl_stats", id), {
           cls: v.cls, key: v.key, bankId: v.bankId, lesson: v.lesson, attempts: increment(v.attempts), wrong: increment(v.wrong),
+          retryN: increment(v.retryN), retryRight: increment(v.retryRight), ...(Object.keys(picks).length ? { picks } : {}),
         }, { merge: true }));
       }
       for (let i = 0; i < ops.length; i += 400) {
@@ -506,13 +518,19 @@ function tierStats(list) {
   }
   return `<div class="tierstats">${["m", "u", "a"].map(k => `<div><span>${TIERS[k].name}（${TIERS[k].action}）</span><b>${t[k][0]} / ${t[k][1]}</b><span class="small">答對／作答${t[k][1] ? `・${Math.round(t[k][0] / t[k][1] * 100)}%` : ""}</span></div>`).join("")}</div>`;
 }
+// 迷思選項的文字：「〔選項〕（N 人）」；多選組合用「＋」連接
+function pickText(q, p) {
+  if (!q || !p) return "—";
+  const t = p.sel.map(i => q.options[i] ?? "?").join("＋") || "（沒有選）";
+  return `〔${esc(t.length > 40 ? t.slice(0, 40) + "…" : t)}〕（${p.n} 人）`;
+}
 function wrongList(list, limit) {
   const w = topWrong(list, T.qmap, limit);
   if (!list.length) return `<p class="muted line">這一段沒有人作答。</p>`;
   if (!w.length) return `<p class="muted line">沒有人答錯，太厲害了！</p>`;
   return `<div class="wrongs">${w.map(({ key, n }, i) => {
     const q = T.qmap[key];
-    return `<button class="wrong" data-show="${esc(key)}"><span class="tag ${q.tier}">${i + 1}</span><span class="s">${esc(q.stem)}${T.room.lessons.length > 1 ? `<span class="small">〈${esc(q.lesson)}〉</span>` : ""}</span><span class="n">${n} 人答錯</span></button>`;
+    return `<button class="wrong" data-show="${esc(key)}"><span class="tag ${q.tier}">${i + 1}</span><span class="s">${esc(q.stem)}${T.room.lessons.length > 1 ? `<span class="small">〈${esc(q.lesson)}〉</span>` : ""}</span><span class="n">${n} 人答錯</span>${(p => p ? `<span class="small pick">最多人錯選：${pickText(q, p)}</span>` : "")(topWrongPick(list, T.qmap, key))}</button>`;
   }).join("")}</div>`;
 }
 
@@ -809,7 +827,9 @@ async function renderStats() {
     const ss = sc.filter(s => s.lessonKey === id);
     const avg = ss.length ? ss.reduce((t, s) => t + s.score, 0) / ss.length : null;
     const wrongRate = items.reduce((t, s) => t + s.wrong, 0) / Math.max(1, items.reduce((t, s) => t + s.attempts, 0));
-    return { id, lesson: items[0]?.lesson || id, items, avg, n: ss.length, wrongRate };
+    // 重答訂正率：舊資料沒有 retryN，就顯示「—」
+    const rN = items.reduce((t, s) => t + (s.retryN || 0), 0), rR = items.reduce((t, s) => t + (s.retryRight || 0), 0);
+    return { id, lesson: items[0]?.lesson || id, items, avg, n: ss.length, wrongRate, retryRate: rN ? `${Math.round(rR / rN * 100)}%（${rR} / ${rN}）` : "—" };
   }).sort((a, b) => b.wrongRate - a.wrongRate);
   const tierAgg = { m: [0, 0], u: [0, 0], a: [0, 0] };
   st.forEach(s => { const q = qmap[s.key]; if (q) { tierAgg[q.tier][0] += s.wrong; tierAgg[q.tier][1] += s.attempts; } });
@@ -836,14 +856,15 @@ async function renderStats() {
       ${!shown.length ? `<p class="muted">這個班還沒有「${FILTERS[filter][0].replace("只看", "")}」的作答紀錄。</p>` : ""}
       ${shown.map(L => `
         <details>
-          <summary style="font-size:1.15rem"><b>〈${esc(L.lesson)}〉</b>　答錯率 <span class="${L.wrongRate >= 0.5 ? "bad" : ""}">${Math.round(L.wrongRate * 100)}%</span>　${L.avg != null ? `全班平均 ${L.avg.toFixed(1)} 分（${L.n} 人）` : `<span class="small">只出現在跨課複習</span>`}</summary>
+          <summary style="font-size:1.15rem"><b>〈${esc(L.lesson)}〉</b>　答錯率 <span class="${L.wrongRate >= 0.5 ? "bad" : ""}">${Math.round(L.wrongRate * 100)}%</span>　${L.avg != null ? `全班平均 ${L.avg.toFixed(1)} 分（${L.n} 人）` : `<span class="small">只出現在跨課複習</span>`}　重答訂正率 ${L.retryRate}</summary>
           <div class="tablewrap" style="margin-top:8px"><table>
-            <thead><tr><th>答錯率</th><th>題型</th><th>考點</th><th class="l">題目</th><th>人次</th></tr></thead>
+            <thead><tr><th>答錯率</th><th>題型</th><th>考點</th><th class="l">題目</th><th class="l">最多人錯選</th><th>人次</th></tr></thead>
             <tbody>${L.rows.map(s => { const q = qmap[s.key]; return `<tr>
               <td><span class="rate ${s.rate >= 0.5 ? "bad" : ""}">${Math.round(s.rate * 100)}%</span></td>
               <td>${q ? `<span class="tag ${q.tier}">${TIERS[q.tier].name}</span>` : ""}</td>
               <td>${esc(q?.topic || "")}${q?.crossRef ? `<br><span class="small">論孟穿插</span>` : ""}${q?.linkedCards?.length ? `<br><span class="small">身世卡連動</span>` : ""}</td>
               <td class="l">${q ? `<a href="#" data-q="${esc(s.key)}">${esc(q.stem)}</a>` : esc(s.key)}</td>
+              <td class="l small">${pickText(q, mostPicked(s.picks))}</td>
               <td>${s.wrong} / ${s.attempts}</td></tr>`; }).join("")}</tbody>
           </table></div>
         </details>`).join("")}`}

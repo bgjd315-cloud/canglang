@@ -67,10 +67,12 @@ export function newBattle(n, mode) {
   };
 }
 
-const round1 = x => Math.round(x * 10) / 10;
+// 取到小數第二位（重答文意理解 0.5 × 0.5 ＝ 0.25 也要算得準）
+const round1 = x => Math.round(x * 100) / 100;
 
 // 一次作答對戰況的影響。回傳事件清單（給投影畫面播動畫用）
-export function applyAnswer(b, tier, correct, seg) {
+// first：是否為初答。重答答對時傷害、護盾乘上 retryEffectRatio，不累積能量；tally 照樣計入。
+export function applyAnswer(b, tier, correct, seg, first = true) {
   const ev = [];
   b.tally[tier][1]++;
   if (!correct) return ev;
@@ -78,10 +80,11 @@ export function applyAnswer(b, tier, correct, seg) {
   if (b.boss <= 0) return ev; // 魔王已倒，作答繼續但不再扣血
   const fx = CONFIG.effects[tier];
   const t = thresholds(b.n);
-  b.boss = Math.max(0, round1(b.boss - fx.damage));
-  b.shield += fx.shield;
-  b.energy += fx.energy;
-  ev.push({ type: "hit", tier });
+  const ratio = first ? 1 : CONFIG.retryEffectRatio;
+  b.boss = Math.max(0, round1(b.boss - fx.damage * ratio));
+  b.shield = round1(b.shield + fx.shield * ratio);
+  if (first) b.energy += fx.energy;
+  ev.push({ type: "hit", tier, retry: !first });
   if (b.energy >= t.ultimateAt) {
     b.boss = Math.max(0, round1(b.boss - t.ultimateDamage));
     b.energy = 0;
@@ -109,7 +112,7 @@ export function endSegment(b, seg) {
 }
 
 // 從全部作答紀錄重算戰況（投影頁重新整理時也能還原）
-// answers：依時間排序；每筆 {seg, key, sel}；qmap：key → 題目；segDone：已結算的段數
+// answers：依時間排序；每筆 {seg, key, sel, first}（舊紀錄沒有 first 一律當初答）；qmap：key → 題目；segDone：已結算的段數
 export function replay(n, mode, answers, qmap, segDone) {
   const b = newBattle(n, mode);
   const bySeg = new Map();
@@ -121,7 +124,7 @@ export function replay(n, mode, answers, qmap, segDone) {
   for (let s = 1; s <= lastSeg; s++) {
     for (const a of bySeg.get(s) || []) {
       const q = qmap[a.key];
-      if (q) applyAnswer(b, q.tier, scoreAnswer(q, a.sel).correct, s);
+      if (q) applyAnswer(b, q.tier, scoreAnswer(q, a.sel).correct, s, a.first !== false);
     }
     if (s <= segDone) endSegment(b, s);
   }
@@ -159,11 +162,36 @@ export function topWrong(answers, qmap, limit = 3) {
     .slice(0, limit);
 }
 
+// 選了哪些選項的代號：單選 "2"，多選 "0,2"（原始選項序號，由小到大）
+export const pickKey = sel => [...sel].sort((x, y) => x - y).join(",");
+
+// 迷思選項：某題初答答錯的人，最多人選的是哪一個（多選看選項組合）。同一人同題只算第一次。
+// 回傳 { sel: [原始序號], n } 或 null
+export function topWrongPick(answers, qmap, key) {
+  const q = qmap[key];
+  if (!q) return null;
+  const seen = new Set(), count = {};
+  for (const a of answers) {
+    if (a.key !== key || a.first === false || seen.has(a.uid)) continue;
+    seen.add(a.uid);
+    if (scoreAnswer(q, a.sel).correct) continue;
+    const k = pickKey(a.sel);
+    count[k] = (count[k] || 0) + 1;
+  }
+  return mostPicked(count);
+}
+// { "0,2": 3, "1": 5 } → { sel: [1], n: 5 }；沒有資料回傳 null
+export function mostPicked(picks) {
+  const best = Object.entries(picks || {}).filter(([, n]) => n > 0).sort((x, y) => y[1] - x[1])[0];
+  return best ? { sel: best[0] === "" ? [] : best[0].split(",").map(Number), n: best[1] } : null;
+}
+
 // 學生端：依自己的作答紀錄，算出下一題要出哪一題
 // 先出這一類還沒答過的；都答過了，再出第一次答錯、還沒重答的題目（每題只重答一次）
 export function nextQuestion(tier, keys, qmap, myAnswers) {
   const tried = new Set(), retried = new Set(), wrongFirst = new Set();
   for (const a of myAnswers) {
+    if (!qmap[a.key]) continue; // 題庫還沒載入或已清除的紀錄
     if (a.first) {
       tried.add(a.key);
       if (!scoreAnswer(qmap[a.key], a.sel).correct) wrongFirst.add(a.key);
@@ -175,6 +203,12 @@ export function nextQuestion(tier, keys, qmap, myAnswers) {
   const again = ofTier.filter(k => wrongFirst.has(k) && !retried.has(k));
   if (again.length) return { key: again[0], first: false, left: again.length };
   return null;
+}
+
+// 這位學生是否已經沒有題目可答：每題都答過，初答答錯的也都重答過了
+export function finishedAll(keys, qmap, myAnswers) {
+  if (!keys?.length || !qmap) return false;
+  return ["m", "u", "a"].every(t => !nextQuestion(t, keys, qmap, myAnswers));
 }
 
 export function progress(keys, myAnswers) {
