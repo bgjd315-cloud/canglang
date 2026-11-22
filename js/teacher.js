@@ -8,7 +8,7 @@ import { CONFIG, TIERS, ULTIMATE_NAME } from "./config.js";
 import { loadMissions, missionHtml, defeatedHtml } from "./mission.js";
 import { setMood, mountMusicToggle, playVictory } from "./music.js?v=20261104";
 import { popQueued, victory } from "./celebrate.js";
-import { pickQuestions, replay, computeScores, topWrong, topWrongPick, mostPicked, pickKey, scoreAnswer, progress, thresholds } from "./game.js";
+import { pickQuestions, replay, computeScores, topWrong, topWrongPick, mostPicked, pickKey, scoreAnswer, progress, finishedAll, thresholds } from "./game.js";
 import { loadCards, linkedCardsHtml, cardsProjectHtml } from "./cards.js";
 import { loadSentences, pickSentences, loadTopics, topicsFor, sentenceStats } from "./stages.js";
 
@@ -345,7 +345,8 @@ function armTimer() {
   T.timer = setInterval(tick, 500);
 }
 
-function playerDone(p) { return progress(T.room.keys, T.answers.filter(a => a.uid === p.uid)).done >= T.room.keys.length; }
+// 全班都沒有題目可答（含重答）才自動結束這一段，避免還在重答的學生被切斷
+function playerDone(p) { return finishedAll(T.room.keys, T.qmap, T.answers.filter(a => a.uid === p.uid)); }
 function checkAllDone() {
   if (T.room?.status === "answering" && T.players.length && T.players.every(playerDone)) endSegment(true);
 }

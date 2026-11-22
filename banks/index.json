@@ -12,9 +12,7 @@
    "multi": 6,
    "boss": "須臾之悲",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "chushi",
@@ -27,9 +25,7 @@
    "multi": 7,
    "boss": "塞諫之石",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "datong",
@@ -42,9 +38,7 @@
    "multi": 6,
    "boss": "私心鎖獸",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "hongmen",
@@ -57,9 +51,7 @@
    "multi": 6,
    "boss": "鴻門劍影",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "huaju",
@@ -72,9 +64,7 @@
    "multi": 6,
    "boss": "摧花寒霜",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "jianzhu",
@@ -87,9 +77,7 @@
    "multi": 6,
    "boss": "逐客詔令",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "laoshan",
@@ -102,9 +90,7 @@
    "multi": 6,
    "boss": "穿牆妄念",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "lugang",
@@ -117,9 +103,7 @@
    "multi": 6,
    "boss": "淤沙港獸",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "qiuran",
@@ -132,9 +116,7 @@
    "multi": 5,
    "boss": "亂世風塵",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "quanhe",
@@ -147,9 +129,7 @@
    "multi": 6,
    "boss": "分類之爭",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "shishuo",
@@ -162,9 +142,7 @@
    "multi": 6,
    "boss": "恥師傲氣",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "taohua",
@@ -177,9 +155,7 @@
    "multi": 6,
    "boss": "迷津之霧",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "wanyou",
@@ -192,9 +168,7 @@
    "multi": 6,
    "boss": "喧嚷俗趣",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "xiangji",
@@ -207,9 +181,7 @@
    "multi": 6,
    "boss": "隔庭之牆",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "xianqin-yunwen",
@@ -223,9 +195,7 @@
    "multi": 7,
    "boss": "濁浪",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   },
   {
    "id": "zhuzhiwu",
@@ -238,9 +208,7 @@
    "multi": 6,
    "boss": "圍城甲獸",
    "hasImage": true,
-   "warn": [
-    "線索：缺 20 題"
-   ]
+   "warn": []
   }
  ]
 }

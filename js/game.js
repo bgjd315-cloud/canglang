@@ -191,6 +191,7 @@ export function mostPicked(picks) {
 export function nextQuestion(tier, keys, qmap, myAnswers) {
   const tried = new Set(), retried = new Set(), wrongFirst = new Set();
   for (const a of myAnswers) {
+    if (!qmap[a.key]) continue; // 題庫還沒載入或已清除的紀錄
     if (a.first) {
       tried.add(a.key);
       if (!scoreAnswer(qmap[a.key], a.sel).correct) wrongFirst.add(a.key);
@@ -202,6 +203,12 @@ export function nextQuestion(tier, keys, qmap, myAnswers) {
   const again = ofTier.filter(k => wrongFirst.has(k) && !retried.has(k));
   if (again.length) return { key: again[0], first: false, left: again.length };
   return null;
+}
+
+// 這位學生是否已經沒有題目可答：每題都答過，初答答錯的也都重答過了
+export function finishedAll(keys, qmap, myAnswers) {
+  if (!keys?.length || !qmap) return false;
+  return ["m", "u", "a"].every(t => !nextQuestion(t, keys, qmap, myAnswers));
 }
 
 export function progress(keys, myAnswers) {
