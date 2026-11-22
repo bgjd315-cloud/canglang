@@ -1,4 +1,6 @@
 // 單人版（和電腦對手比賽）的戰鬥規則。純函式，網頁與模擬腳本共用。
+import { CONFIG } from "./config.js";
+
 export const SOLO = {
   bossHp: 75,
   effects: {
@@ -23,22 +25,25 @@ export function newSide() {
 }
 
 // 一方答完一題。回傳事件（給畫面播動畫、寫戰報）
-export function applySolo(me, foe, tier, correct) {
+// first：是否為初答。重答答對時效果乘上全班版同一個 retryEffectRatio，不累積能量。
+export function applySolo(me, foe, tier, correct, first = true) {
   me.answered++;
   if (!correct) return [];
   me.right++;
   const fx = SOLO.effects[tier];
   const ev = [];
-  me.hp = Math.max(0, me.hp - fx.damage);
-  me.shield = Math.min(SOLO.maxShield, me.shield + fx.shield);
-  me.energy += fx.energy;
-  ev.push({ type: "hit", damage: fx.damage, tier });
+  const ratio = first ? 1 : CONFIG.retryEffectRatio;
+  const damage = fx.damage * ratio;
+  me.hp = Math.max(0, Math.round((me.hp - damage) * 10) / 10);
+  me.shield = Math.min(SOLO.maxShield, me.shield + fx.shield * ratio);
+  if (first) me.energy += fx.energy;
+  ev.push({ type: "hit", damage, tier, retry: !first });
   if (me.energy >= SOLO.ultimateAt) {
     me.energy = 0;
     me.hp = Math.max(0, me.hp - SOLO.ultimateDamage);
     ev.push({ type: "ultimate", damage: SOLO.ultimateDamage });
     if (foe.hp > 0) {
-      if (foe.shield > 0) { foe.shield--; ev.push({ type: "blocked" }); }
+      if (foe.shield >= 1) { foe.shield--; ev.push({ type: "blocked" }); }
       else { foe.hp = Math.min(SOLO.bossHp, foe.hp + SOLO.jamHeal); ev.push({ type: "jam", heal: SOLO.jamHeal }); }
     }
   }

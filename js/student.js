@@ -6,7 +6,8 @@ import {
 import { auth, db, $, esc, loadBanks, passageHtml, lessonLabel, rulesHtml } from "./common.js";
 import { CONFIG, TIERS } from "./config.js";
 import { missionHtml, defeatedHtml } from "./mission.js";
-import { loadCards, linkedCardsHtml } from "./cards.js";
+import { loadCards } from "./cards.js";
+import { qBlock, feedbackHtml, collectReview, reviewHtml } from "./review.js";
 import { loadSentences, klQuestion, loadTopics, topicsFor } from "./stages.js";
 import { scoreAnswer, nextQuestion, progress, shuffle, computeScores } from "./game.js";
 import { popScore, victory } from "./celebrate.js";
@@ -212,7 +213,7 @@ function renderChoose(head) {
   main.innerHTML = `
     ${head}
     <div class="bar"><span>第 ${S.room.seg} 段・已完成 <b>${pg.done}</b> / ${pg.total} 題</span>${timerHtml()}</div>
-    ${allDone ? `<div class="card center"><div class="big">全部完成！</div><p>題目都答過了，等老師結算。</p></div>` : `
+    ${allDone ? `<div class="card center"><div class="big">全部完成！</div><p>題目都答過了，等老師結算。</p>${(S.topics || []).length ? `<button id="peekCards">先翻身世卡</button>` : ""}</div>${S.peek ? peekCardsHtml() : ""}` : `
     <div class="big">選一種行動</div>
     <div class="tiers">${opts.map(({ t, nq }) => `
       <button class="tier ${t}" data-tier="${t}" ${nq ? "" : "disabled"}>
@@ -225,7 +226,19 @@ function renderChoose(head) {
     ${battleMini(S.room.battle)}`;
   S.err = "";
   main.querySelectorAll("[data-tier]").forEach(b => b.onclick = () => pick(b.dataset.tier));
+  if ($("peekCards")) $("peekCards").onclick = () => { S.peek = !S.peek; renderChoose(head); };
+  main.querySelectorAll(".peek [data-c]").forEach(b => b.onclick = () => b.classList.toggle("on"));
   tick();
+}
+
+// 規格書 P4：等結算的空檔翻本課身世卡（只看卡片，不計分、不顯示題目答案）
+function peekCardsHtml() {
+  const cards = (S.topics || []).flatMap(t => t.cards.map(c => ({ ...c, topic: t.title })));
+  return `<div class="flipcards peek">${cards.map((c, i) => `
+      <button class="flipcard" data-c="${esc(c.id)}">
+        <span class="fc-front"><small>${esc(c.topic)}・${i + 1}</small><b>${esc(c.title)}</b><i>點一下翻面</i></span>
+        <span class="fc-back">${esc(c.body)}</span>
+      </button>`).join("")}</div>`;
 }
 
 function pick(tier) {
@@ -236,13 +249,6 @@ function pick(tier) {
   S.picked = new Set();
   render();
   scrollTo(0, 0);
-}
-
-function qBlock(q, tier, first) {
-  return `
-    <div class="qhead"><span class="tag ${tier}">${TIERS[tier].name}</span>${q.type === "multi" ? `<span class="tag multi">多選</span>` : ""}${first ? "" : `<span class="tag" style="background:var(--muted)">重答</span>`}${q.exam ? `<span class="src">${esc(q.exam)}</span>` : ""}</div>
-    ${passageHtml(q.passage)}
-    <div class="stem">${esc(q.stem)}</div>`;
 }
 
 function renderQuestion(head) {
@@ -295,29 +301,18 @@ async function submit(sel) {
   render();
   scrollTo(0, 0);
   const { r } = S.result;
-  if (first ? r.points > 0 : r.correct) popScore(first ? `+${r.points} 分` : "重答答對", { sub: `${TIERS[tier].action}命中`, tone: r.correct ? "good" : "part", big: true });
+  if (first ? r.points > 0 : r.correct) popScore(first ? `+${r.points} 分` : "重答答對", { sub: first ? `${TIERS[tier].action}命中` : "效果減半", tone: r.correct ? "good" : "part", big: true });
 }
 
 function renderResult(head) {
-  const { key, sel, r, perm, first, tier } = S.result;
-  const q = S.qmap[key];
-  const right = new Set(q.answer), chosen = new Set(sel);
-  const fx = TIERS[tier];
-  let verdict = r.correct ? `<div class="verdict ok">答對了！</div>` : (q.type === "multi" && r.points > 0 ? `<div class="verdict part">差一點</div>` : `<div class="verdict no">再想一想</div>`);
-  const pts = first ? `本題得分：<b>${r.points}</b> 分` : "重答不改變成績";
+  const res = S.result;
+  const q = S.qmap[res.key];
+  const fx = TIERS[res.tier];
+  const firstSel = res.first ? null : S.mine.find(a => a.first && a.key === res.key)?.sel;
+  const effect = res.first ? `${fx.name}：${fx.desc.replace("答對：", "")}` : "重答答對：戰鬥效果減半，不加分。";
   main.innerHTML = `
     <div class="bar">${head}${timerHtml()}</div>
-    <div class="card" style="display:grid; gap:14px">
-      <div class="bar">${verdict}<span>${pts}</span></div>
-      ${r.correct ? `<div class="muted">${fx.name}：${fx.desc.replace("答對：", "")}</div>` : (first ? `<div class="muted">這題稍後可以再答一次（不改成績）。</div>` : "")}
-      ${qBlock(q, tier, first)}
-      <div class="opts">${perm.map((oi, i) => {
-        const cls = right.has(oi) ? "right" : (chosen.has(oi) ? "wrong" : "");
-        return `<button class="opt ${cls}" disabled><span class="k">${"ABCDE"[i]}</span><span>${esc(q.options[oi])}${right.has(oi) ? "　✓" : (chosen.has(oi) ? "　✗" : "")}</span></button>`;
-      }).join("")}</div>
-      <div class="exp">${esc(q.explanation)}</div>
-      ${linkedCardsHtml(q, S.cards)}
-    </div>
+    <div class="card" style="display:grid; gap:14px">${feedbackHtml(q, res, { cards: S.cards, firstSel, effect })}</div>
     <div class="sticky"><button class="primary wide" id="nextBtn">下一題</button></div>`;
   $("nextBtn").onclick = () => { S.result = null; render(); scrollTo(0, 0); };
   tick();
@@ -426,6 +421,7 @@ function renderEnd(head) {
       <div class="score">${sc.score}<span style="font-size:1.4rem"> / ${room.keys.length * CONFIG.pointsPerQuestion}</span></div>
       <div>完成 ${pg.done} / ${pg.total} 題${sc.unanswered ? `・未作答 ${sc.unanswered} 題` : ""}</div>
     </div>
+    ${room.status === "ended" ? reviewHtml(collectReview(room.keys, S.mine, S.qmap, scoreAnswer), { cards: S.cards, scoreAnswer }) : ""}
     ${battleMini(room.battle)}`;
 }
 
