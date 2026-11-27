@@ -73,6 +73,8 @@ function renderJoin() {
     S.cls = $("clsIn").value;
     if (!S.roomId) return showErr("請輸入房間代碼");
     if (!(seat >= 1 && seat <= CONFIG.maxSeat)) return showErr(`座號請填 1 到 ${CONFIG.maxSeat}`);
+    const roster = CONFIG.roster?.[S.cls];
+    if (roster && !roster.includes(seat)) return showErr(`${S.cls} 班沒有 ${seat} 號，請確認班級和座號`);
     S.seat = seat;
     join(false);
   };
@@ -85,6 +87,7 @@ async function join(resume) {
   try {
     const r = await getDoc(roomRef);
     if (!r.exists() || ["closed"].includes(r.data().status)) { S.err = "找不到這個房間，請看投影幕上的代碼"; save({}); return renderJoin(); }
+    if (r.data().cls && r.data().cls !== S.cls) { S.err = `這個房間是 ${r.data().cls} 班的，請確認班級`; if (resume) save({}); return renderJoin(); }
     await runTransaction(db, async tx => {
       const p = await tx.get(pRef);
       if (p.exists()) {
@@ -96,7 +99,7 @@ async function join(resume) {
     });
   } catch (e) {
     const taken = e.message === "taken" || e.code === "permission-denied";
-    S.err = taken ? "這個座號已經有人加入，請找老師" : `加入失敗（${e.code || e.message}），請再試一次`;
+    S.err = taken ? "這個座號已經有人加入，請舉手告訴老師（老師可以把錯填的人移出）" : `加入失敗（${e.code || e.message}），請再試一次`;
     if (resume) save({});
     return renderJoin();
   }

@@ -20,7 +20,7 @@ const store = {
 };
 
 const T = {
-  tab: "game", manifest: [], pick: [], mode: "formal", minutes: store.get("minutes") || CONFIG.defaultSegmentMinutes,
+  tab: "game", manifest: [], pick: [], mode: "formal", cls: store.get("roomCls") || CONFIG.classes[0], minutes: store.get("minutes") || CONFIG.defaultSegmentMinutes,
   roomId: null, room: null, players: [], answers: [], qmap: {}, banksFor: "",
   battle: null, prevBattle: null, seenAns: null, unsubs: [], lastWrite: 0, writeTimer: null, timer: null, busy: false, msg: "",
 };
@@ -158,6 +158,7 @@ function renderSetup() {
       <div class="row">
         <label><input type="radio" name="mode" value="formal" ${T.mode === "formal" ? "checked" : ""}> 正式版（計分，20 題）</label>
         <label><input type="radio" name="mode" value="trial" ${T.mode === "trial" ? "checked" : ""}> 試玩版（不計分，${CONFIG.trialQuestions} 題）</label>
+        <label>班級 <select id="clsPick">${CONFIG.classes.map(c => `<option ${c === T.cls ? "selected" : ""}>${c}</option>`).join("")}</select></label>
         <label>每段作答 <select id="minSel">${CONFIG.segmentMinutes.map(m => `<option value="${m}" ${m === T.minutes ? "selected" : ""}>${m} 分鐘</option>`).join("")}</select></label>
       </div>
       <div class="row">
@@ -174,6 +175,7 @@ function renderSetup() {
   });
   app.querySelectorAll("[name=mode]").forEach(r => r.onchange = () => { T.mode = r.value; });
   $("minSel").onchange = e => { T.minutes = +e.target.value; store.set("minutes", T.minutes); };
+  $("clsPick").onchange = e => { T.cls = e.target.value; store.set("roomCls", T.cls); };
   $("createBtn").onclick = createRoom;
   $("logoutBtn").onclick = () => signOut(auth);
 }
@@ -195,7 +197,7 @@ async function createRoom() {
     // 三段式：熟句關的句子建房時就選好，全班同一組
     const klSids = pickSentences(await loadSentences(ids), ids);
     await setDoc(doc(db, "cl_rooms", roomId), {
-      stage: "join", selfPace: false, klSids,
+      stage: "join", selfPace: false, klSids, cls: T.cls,
       status: "lobby", mode: T.mode, lessons: ids, lessonNames: ids.map(id => banks[id].lesson),
       lessonKey: ids.length === 1 ? ids[0] : "mix-" + ids.join("+"), keys,
       boss: { ...bossOf(banks[ids[0]], first?.hasImage), ...((await loadMissions())[ids[0]] || {}) },
@@ -256,6 +258,24 @@ function leaveRoom() {
 
 const segDone = () => !T.room ? 0 : (T.room.status === "answering" ? T.room.seg - 1 : T.room.seg);
 const nPlayers = () => T.room.n || T.players.length || 1;
+// 本堂應到名單：建房時選的班級；舊房間沒有 cls 時，用已加入學生的班級
+function roomClasses() { return T.room?.cls ? [T.room.cls] : [...new Set(T.players.map(p => p.cls))]; }
+function absentSeats() {
+  const out = [];
+  for (const c of roomClasses()) {
+    const joined = new Set(T.players.filter(p => p.cls === c).map(p => p.seat));
+    (CONFIG.roster?.[c] || []).forEach(seat => { if (!joined.has(seat)) out.push({ cls: c, seat }); });
+  }
+  return out;
+}
+function expectedN() { return roomClasses().reduce((n, c) => n + (CONFIG.roster?.[c]?.length || 0), 0); }
+function absentHtml() {
+  const ab = absentSeats();
+  if (!expectedN()) return "";
+  return ab.length
+    ? `<p class="small" style="margin:0">未加入（${ab.length} 人）：<span class="bad">${ab.map(a => roomClasses().length > 1 ? `${esc(a.cls)}-${a.seat}` : a.seat).join("、")}</span>${T.room.mode !== "trial" ? "　正式版結算時記 0 分" : ""}</p>`
+    : `<p class="small" style="margin:0">全班都已加入。</p>`;
+}
 
 // 依作答紀錄重算戰況，必要時寫回房間給學生看
 function recompute() {
@@ -404,7 +424,7 @@ async function deleteInBatches(refs) {
 async function settleAndClear(save) {
   const formal = T.room.mode !== "trial";
   const msg = save && formal
-    ? `確定結算並清除？\n成績會寫入成績頁，再刪除本場的作答紀錄。\n（已加入 ${T.players.length} 人）`
+    ? `確定結算並清除？\n成績會寫入成績頁，再刪除本場的作答紀錄。\n（已加入 ${T.players.length} 人${absentSeats().length ? `，未加入 ${absentSeats().length} 人記 0 分` : ""}）`
     : "確定清除本堂資料？\n本場的作答紀錄會全部刪除，不寫入成績。";
   if (!(await ask(msg, { danger: !save }))) return;
   return act(async () => {
@@ -423,6 +443,17 @@ async function settleAndClear(save) {
           kl: { right: (room.klSids || []).filter(sid => p.kl?.[sid]).length, done: (room.klSids || []).filter(sid => sid in (p.kl || {})).length, total: (room.klSids || []).length },
         }));
       }
+      // 名單內沒加入的座號記 0 分（absent）；這一課先前已有成績的不覆蓋
+      const absent = absentSeats();
+      const existing = absent.length ? await Promise.all(absent.map(a => getDoc(doc(db, "cl_scores", `${room.lessonKey}_${a.cls}_${a.seat}`)))) : [];
+      absent.forEach((a, i) => {
+        if (existing[i].exists()) return;
+        ops.push(wb => wb.set(doc(db, "cl_scores", `${room.lessonKey}_${a.cls}_${a.seat}`), {
+          lessonKey: room.lessonKey, lessonName, cls: a.cls, seat: a.seat, score: 0, perQ: {}, unanswered: room.keys.length,
+          total: room.keys.length * CONFIG.pointsPerQuestion, date, roomId: T.roomId, absent: true,
+          kl: { right: 0, done: 0, total: (room.klSids || []).length },
+        }));
+      });
       // 各題累計答錯率：只看第一次作答。picks＝初答錯選的選項（多選記組合），retryN／retryRight＝重答人次／答對人次
       const agg = {};
       const seen = new Set(), seenRetry = new Set();
@@ -540,7 +571,8 @@ function renderGame() {
   const finished = T.players.filter(playerDone).length;
   const statsHtml = `
     <div class="stat">房間<b>${esc(T.roomId)}</b></div>
-    <div class="stat">已加入<b>${T.players.length}</b></div>
+    <div class="stat">已加入<b>${T.players.length}${expectedN() ? ` / ${expectedN()}` : ""}</b></div>
+    ${expectedN() && absentSeats().length ? `<div class="stat alert">未加入<b>${absentSeats().length}</b></div>` : ""}
     ${room.seg ? `<div class="stat">全部答完<b>${finished}</b></div>` : ""}
     ${room.status === "answering" ? `<div class="stat alert">剩餘<b id="timerStat"></b></div>` : ""}`;
   app.innerHTML = `
@@ -623,6 +655,7 @@ function panelHtml() {
         </div>
       </div>
       ${seatChips(true)}
+      ${absentHtml()}
       <p class="small" style="margin:0">座號點一下可以移出（學生填錯座號時用）。</p>
       ${missionHtml(room.boss, { big: true })}`;
   }
@@ -755,7 +788,7 @@ async function renderScores() {
   const cls = store.get("scoreCls") || CONFIG.classes[0];
   const rows = all.filter(s => s.cls === cls);
   const lessons = [...new Map(rows.map(s => [s.lessonKey, s.lessonName])).entries()];
-  const seats = [...new Set(rows.map(s => s.seat))].sort((a, b) => a - b);
+  const seats = [...new Set([...(CONFIG.roster?.[cls] || []), ...rows.map(s => s.seat)])].sort((a, b) => a - b);
   const cell = {};
   rows.forEach(s => cell[`${s.lessonKey}|${s.seat}`] = s);
   app.innerHTML = `
@@ -775,16 +808,16 @@ async function renderScores() {
         <thead><tr><th>座號</th>${lessons.map(([, n]) => `<th class="l">${esc(n)}</th>`).join("")}</tr></thead>
         <tbody>${seats.map(seat => `<tr><td>${seat}</td>${lessons.map(([k]) => {
           const s = cell[`${k}|${seat}`];
-          return `<td>${s ? `${s.score}${s.unanswered ? `<br><span class="small bad">未作答 ${s.unanswered} 題</span>` : ""}` : `<span class="small">—</span>`}</td>`;
+          return `<td>${s?.absent ? `0<br><span class="small bad">未加入</span>` : s ? `${s.score}${s.unanswered ? `<br><span class="small bad">未作答 ${s.unanswered} 題</span>` : ""}` : `<span class="small">—</span>`}</td>`;
         }).join("")}</tr>`).join("")}</tbody>
       </table></div>
-      <p class="small" style="margin:0">「—」表示這個座號那一課沒有加入遊戲。同一課重玩時，成績以最後一次結算為準。</p>` : `<p class="muted">這個班還沒有成績。正式版遊戲結束後按「結算並清除」，成績就會出現在這裡。</p>`}
+      <p class="small" style="margin:0">「未加入」表示正式版結算時這個座號沒有加入，記 0 分；「—」表示那一課還沒有這個座號的紀錄。同一課重玩時，成績以最後一次結算為準。</p>` : `<p class="muted">這個班還沒有成績。正式版遊戲結束後按「結算並清除」，成績就會出現在這裡。</p>`}
       <hr style="border:none; border-top:1px solid var(--line); width:100%">
       <div class="row"><button class="danger" id="wipeBtn">刪除本學年成績</button><span class="small">成績與統計全部刪除，無法復原。學年結束時再按。</span></div>
     </div>`;
   $("clsSel").onchange = e => { store.set("scoreCls", e.target.value); renderScores(); };
   const table = () => [["座號", ...lessons.map(([, n]) => n), ...lessons.map(([, n]) => `${n} 未作答題數`)],
-    ...seats.map(seat => [seat, ...lessons.map(([k]) => cell[`${k}|${seat}`]?.score ?? ""), ...lessons.map(([k]) => cell[`${k}|${seat}`]?.unanswered ?? "")])];
+    ...seats.map(seat => [seat, ...lessons.map(([k]) => cell[`${k}|${seat}`]?.score ?? ""), ...lessons.map(([k]) => { const c = cell[`${k}|${seat}`]; return c?.absent ? "未加入" : c?.unanswered ?? ""; })])];
   if (rows.length) {
     $("csvBtn").onclick = () => {
       const csv = table().map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\r\n");
